@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="_spray_pattern_u_i_widget_8cpp" kind="file" language="C++">
+    <compoundname>SprayPatternUIWidget.cpp</compoundname>
+    <includes refid="_spray_pattern_u_i_widget_8h" local="yes">SprayPatternUIWidget.h</includes>
+    <includes local="yes">AssetRegistry/AssetRegistryModule.h</includes>
+    <includes local="yes">Kismet/GameplayStatics.h</includes>
+    <includes local="yes">Components/ComboBoxString.h</includes>
+    <includes local="yes">Components/Slider.h</includes>
+    <includes refid="_grid_canvas_widget_8h" local="yes">GridCanvasWidget.h</includes>
+    <incdepgraph>
+      <node id="9">
+        <label>AssetRegistry/AssetRegistryModule.h</label>
+      </node>
+      <node id="4">
+        <label>Blueprint/UserWidget.h</label>
+      </node>
+      <node id="11">
+        <label>Components/ComboBoxString.h</label>
+      </node>
+      <node id="12">
+        <label>Components/Slider.h</label>
+      </node>
+      <node id="3">
+        <label>CoreMinimal.h</label>
+      </node>
+      <node id="6">
+        <label>Engine/DataAsset.h</label>
+      </node>
+      <node id="13">
+        <label>GridCanvasWidget.h</label>
+        <link refid="_grid_canvas_widget_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Source/TimeAssassin/SprayPatternUIWidget.cpp</label>
+        <link refid="_spray_pattern_u_i_widget_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SprayPatternUIWidget.h</label>
+        <link refid="_spray_pattern_u_i_widget_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>WeaponDataAsset.h</label>
+        <link refid="_weapon_data_asset_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>GridCanvasWidget.generated.h</label>
+      </node>
+      <node id="10">
+        <label>Kismet/GameplayStatics.h</label>
+      </node>
+      <node id="8">
+        <label>SprayPatternUIWidget.generated.h</label>
+      </node>
+      <node id="7">
+        <label>WeaponDataAsset.generated.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>SprayPatternUIWidget.cpp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;SprayPatternUIWidget.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;AssetRegistry/AssetRegistryModule.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Kismet/GameplayStatics.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Components/ComboBoxString.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Components/Slider.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GridCanvasWidget.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>USprayPatternUIWidget::NativeConstruct()</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>Super::NativeConstruct();</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(WeaponDropdown)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WeaponDropdown-&gt;OnSelectionChanged.AddDynamic(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>&amp;USprayPatternUIWidget::OnWeaponSelectionChanged);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>PopulateWeaponDropdown();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>HandleSetSprayPatternScale(SprayPatternScaleX,<sp/>SprayPatternScaleY);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>USprayPatternUIWidget::NativeTick(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FGeometry&amp;<sp/>MyGeometry,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>InDeltaTime)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>Super::NativeTick(MyGeometry,<sp/>InDeltaTime);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>USprayPatternUIWidget::OnWeaponSelectionChanged(FString<sp/>SelectedItem,<sp/>ESelectInfo::Type<sp/>SelectionType)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;[UI]<sp/>Weapon<sp/>selection<sp/>changed<sp/>to:<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>*SelectedItem);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Automatically<sp/>load<sp/>the<sp/>spray<sp/>pattern<sp/>on<sp/>selection<sp/>change</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>HandleLoad();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><ref refid="class_u_weapon_data_asset" kindref="compound">UWeaponDataAsset</ref>*<sp/>USprayPatternUIWidget::GetSelectedWeaponData()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="39"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!WeaponDropdown<sp/>||<sp/>!WeaponAssetMap.Contains(WeaponDropdown-&gt;GetSelectedOption()))</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>FString<sp/>AssetPath<sp/>=<sp/>WeaponAssetMap[WeaponDropdown-&gt;GetSelectedOption()];</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Cast&lt;UWeaponDataAsset&gt;(StaticLoadObject(UWeaponDataAsset::StaticClass(),<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/>*AssetPath));</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>USprayPatternUIWidget::PopulateWeaponDropdown()</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!WeaponDropdown)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>WeaponDropdown-&gt;ClearOptions();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>WeaponAssetMap.Empty();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>FAssetRegistryModule&amp;<sp/>AssetRegistry<sp/>=<sp/>FModuleManager::LoadModuleChecked&lt;FAssetRegistryModule&gt;(</highlight><highlight class="stringliteral">&quot;AssetRegistry&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;FAssetData&gt;<sp/>AssetDataList;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>FTopLevelAssetPath<sp/>ClassPath<sp/>=<sp/>UWeaponDataAsset::StaticClass()-&gt;GetClassPathName();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>AssetRegistry.Get().GetAssetsByClass(ClassPath,<sp/>AssetDataList);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>WeaponDropdown-&gt;AddOption(TEXT(</highlight><highlight class="stringliteral">&quot;Select<sp/>Weapon&quot;</highlight><highlight class="normal">));<sp/></highlight><highlight class="comment">//<sp/>Add<sp/>a<sp/>default<sp/>option</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FAssetData&amp;<sp/>Asset<sp/>:<sp/>AssetDataList)</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FString<sp/>Name<sp/>=<sp/>Asset.AssetName.ToString();</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FString<sp/>Path<sp/>=<sp/>Asset.ObjectPath.ToString();</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WeaponDropdown-&gt;AddOption(Name);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WeaponAssetMap.Add(Name,<sp/>Path);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>USprayPatternUIWidget::HandleExport()</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!GridCanvasRef<sp/>||<sp/>!WeaponDropdown)</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Error,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;[HandleExport]<sp/>GridCanvasRef<sp/>or<sp/>WeaponDropdown<sp/>is<sp/>null!&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>FString<sp/>SelectedName<sp/>=<sp/>WeaponDropdown-&gt;GetSelectedOption();</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!WeaponAssetMap.Contains(SelectedName))</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Error,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;[HandleExport]<sp/>Selected<sp/>weapon<sp/>&apos;%s&apos;<sp/>not<sp/>found<sp/>in<sp/>map!&quot;</highlight><highlight class="normal">),<sp/>*SelectedName);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>FString<sp/>AssetPath<sp/>=<sp/>WeaponAssetMap[SelectedName];</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;[HandleExport]<sp/>SelectedName:<sp/>%s<sp/>|<sp/>AssetPath:<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>*SelectedName,<sp/>*AssetPath);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>UWeaponDataAsset*<sp/>WeaponAsset<sp/>=<sp/>Cast&lt;UWeaponDataAsset&gt;(</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StaticLoadObject(UWeaponDataAsset::StaticClass(),<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/>*AssetPath)</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!WeaponAsset)</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Error,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;[HandleExport]<sp/>Failed<sp/>to<sp/>load<sp/>asset<sp/>at<sp/>path:<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>*AssetPath);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;[HandleExport]<sp/>Successfully<sp/>loaded<sp/>weapon<sp/>asset:<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>*WeaponAsset-&gt;GetName());</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>GridCanvasRef-&gt;ExportSprayPattern(WeaponAsset);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>OnPatternExported.Broadcast();</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>USprayPatternUIWidget::HandleLoad()</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!GridCanvasRef<sp/>||<sp/>!WeaponDropdown)</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Error,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;[HandleLoad]<sp/>GridCanvasRef<sp/>or<sp/>WeaponDropdown<sp/>is<sp/>null!&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FString<sp/>SelectedName<sp/>=<sp/>WeaponDropdown-&gt;GetSelectedOption();</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!WeaponAssetMap.Contains(SelectedName))</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Error,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;[HandleLoad]<sp/>Weapon<sp/>&apos;%s&apos;<sp/>not<sp/>found<sp/>in<sp/>map!&quot;</highlight><highlight class="normal">),<sp/>*SelectedName);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FString<sp/>AssetPath<sp/>=<sp/>WeaponAssetMap[SelectedName];</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>UWeaponDataAsset*<sp/>WeaponAsset<sp/>=<sp/>Cast&lt;UWeaponDataAsset&gt;(</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StaticLoadObject(UWeaponDataAsset::StaticClass(),<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/>*AssetPath)</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!WeaponAsset)</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Error,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;[HandleLoad]<sp/>Failed<sp/>to<sp/>load<sp/>weapon<sp/>asset<sp/>at<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>*AssetPath);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;[HandleLoad]<sp/>Loaded<sp/>pattern<sp/>from<sp/>%s<sp/>with<sp/>%d<sp/>points&quot;</highlight><highlight class="normal">),<sp/>*WeaponAsset-&gt;GetName(),<sp/>WeaponAsset-&gt;SprayPattern.Num());</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>GridCanvasRef-&gt;SetSprayPoints(WeaponAsset-&gt;SprayPattern);<sp/></highlight><highlight class="comment">//<sp/>Make<sp/>sure<sp/>this<sp/>function<sp/>exists<sp/>in<sp/>your<sp/>GridCanvasWidget</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>GridCanvasRef-&gt;SetWeaponData(WeaponAsset);<sp/></highlight><highlight class="comment">//<sp/>Set<sp/>the<sp/>weapon<sp/>data<sp/>for<sp/>context</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Only<sp/>apply<sp/>scale<sp/>*once*</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>ResetScale();<sp/></highlight><highlight class="comment">//<sp/>Reset<sp/>to<sp/>default<sp/>scale<sp/>before<sp/>applying</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>OnPatternLoaded.Broadcast();</highlight></codeline>
+<codeline lineno="141"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>USprayPatternUIWidget::HandleClear()</highlight></codeline>
+<codeline lineno="144"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(GridCanvasRef)</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GridCanvasRef-&gt;ClearPoints();</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;[HandleClear]<sp/>Cleared<sp/>spray<sp/>points&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>USprayPatternUIWidget::ResetScale()</highlight></codeline>
+<codeline lineno="153"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;[ResetScale]<sp/>Resetting<sp/>spray<sp/>pattern<sp/>scale<sp/>to<sp/>1.0&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>SprayPatternScaleX<sp/>=<sp/>1.0f;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>SprayPatternScaleY<sp/>=<sp/>1.0f;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>SL_ScaleY-&gt;SetValue(1.0f);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>SL_ScaleX-&gt;SetValue(1.0f);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>HandleSetSprayPatternScale(SprayPatternScaleX,<sp/>SprayPatternScaleY);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>USprayPatternUIWidget::HandleSetSprayPatternScale(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>ScaleX,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>ScaleY)</highlight></codeline>
+<codeline lineno="165"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!GridCanvasRef)</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Error,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;[HandleSetSprayPatternScale]<sp/>GridCanvasRef<sp/>is<sp/>null!&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;[HandleSetSprayPatternScale]<sp/>Applying<sp/>ScaleX<sp/>=<sp/>%.2f,<sp/>ScaleY<sp/>=<sp/>%.2f&quot;</highlight><highlight class="normal">),<sp/>ScaleX,<sp/>ScaleY);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>GridCanvasRef-&gt;ScaleSprayPattern(ScaleX,<sp/>ScaleY);<sp/></highlight><highlight class="comment">//<sp/>Make<sp/>sure<sp/>this<sp/>function<sp/>exists<sp/>and<sp/>does<sp/>the<sp/>scaling</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Source/TimeAssassin/SprayPatternUIWidget.cpp"/>
+  </compounddef>
+</doxygen>

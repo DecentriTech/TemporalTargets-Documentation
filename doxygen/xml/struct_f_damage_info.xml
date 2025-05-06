@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="struct_f_damage_info" kind="struct" language="C++" prot="public" abstract="yes">
+    <compoundname>FDamageInfo</compoundname>
+    <includes refid="_damageable_component_8h" local="no">DamageableComponent.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_f_damage_info_1a9aca29217ad7fabcbefe57abec4b2b90" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type></type>
+        <definition>FDamageInfo::UPROPERTY</definition>
+        <argsstring>(BlueprintReadWrite) float DamageAmount=0.f</argsstring>
+        <name>UPROPERTY</name>
+        <qualifiedname>FDamageInfo::UPROPERTY</qualifiedname>
+        <param>
+          <type>BlueprintReadWrite</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/DamageableComponent.h" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_damage_info_1acd05f560317e9771b88b1f8f7c9777f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FDamageInfo::UPROPERTY</definition>
+        <argsstring>(BlueprintReadWrite) AActor *Instigator</argsstring>
+        <name>UPROPERTY</name>
+        <qualifiedname>FDamageInfo::UPROPERTY</qualifiedname>
+        <param>
+          <type>BlueprintReadWrite</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/DamageableComponent.h" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_damage_info_1a564655ae7f9557aef6c3e1e47afc20c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FDamageInfo::UPROPERTY</definition>
+        <argsstring>(BlueprintReadWrite) FVector HitLocation</argsstring>
+        <name>UPROPERTY</name>
+        <qualifiedname>FDamageInfo::UPROPERTY</qualifiedname>
+        <param>
+          <type>BlueprintReadWrite</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/DamageableComponent.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_damage_info_1a201a5eddea1923a7a47da8a3d820177c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FDamageInfo::UPROPERTY</definition>
+        <argsstring>(BlueprintReadWrite) FVector ShotDirection</argsstring>
+        <name>UPROPERTY</name>
+        <qualifiedname>FDamageInfo::UPROPERTY</qualifiedname>
+        <param>
+          <type>BlueprintReadWrite</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/DamageableComponent.h" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_damage_info_1a89cb2a2383c330a048698ef0a027634e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FDamageInfo::UPROPERTY</definition>
+        <argsstring>(BlueprintReadWrite) TSubclassOf&lt; UDamageType &gt; DamageType</argsstring>
+        <name>UPROPERTY</name>
+        <qualifiedname>FDamageInfo::UPROPERTY</qualifiedname>
+        <param>
+          <type>BlueprintReadWrite</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/DamageableComponent.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_damage_info_1a70d904bf867b12ed7314f36749418904" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FDamageInfo::UPROPERTY</definition>
+        <argsstring>(BlueprintReadWrite) FName HitBoneName</argsstring>
+        <name>UPROPERTY</name>
+        <qualifiedname>FDamageInfo::UPROPERTY</qualifiedname>
+        <param>
+          <type>BlueprintReadWrite</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/DamageableComponent.h" line="30" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_damage_info_1a13386811037f890c643eedb9718b5a77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FDamageInfo::UPROPERTY</definition>
+        <argsstring>(BlueprintReadWrite) FGameplayTagContainer DamageTags</argsstring>
+        <name>UPROPERTY</name>
+        <qualifiedname>FDamageInfo::UPROPERTY</qualifiedname>
+        <param>
+          <type>BlueprintReadWrite</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/DamageableComponent.h" line="31" column="1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Context for a single damage event. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Extend or serialise this as needed—multiplayer replication, logs, etc. </para>
+    </detaileddescription>
+    <location file="Source/TimeAssassin/DamageableComponent.h" line="21" column="1" bodyfile="Source/TimeAssassin/DamageableComponent.h" bodystart="22" bodyend="32"/>
+    <listofallmembers>
+      <member refid="struct_f_damage_info_1a9aca29217ad7fabcbefe57abec4b2b90" prot="public" virt="pure-virtual"><scope>FDamageInfo</scope><name>UPROPERTY</name></member>
+      <member refid="struct_f_damage_info_1acd05f560317e9771b88b1f8f7c9777f2" prot="public" virt="non-virtual"><scope>FDamageInfo</scope><name>UPROPERTY</name></member>
+      <member refid="struct_f_damage_info_1a564655ae7f9557aef6c3e1e47afc20c8" prot="public" virt="non-virtual"><scope>FDamageInfo</scope><name>UPROPERTY</name></member>
+      <member refid="struct_f_damage_info_1a201a5eddea1923a7a47da8a3d820177c" prot="public" virt="non-virtual"><scope>FDamageInfo</scope><name>UPROPERTY</name></member>
+      <member refid="struct_f_damage_info_1a89cb2a2383c330a048698ef0a027634e" prot="public" virt="non-virtual"><scope>FDamageInfo</scope><name>UPROPERTY</name></member>
+      <member refid="struct_f_damage_info_1a70d904bf867b12ed7314f36749418904" prot="public" virt="non-virtual"><scope>FDamageInfo</scope><name>UPROPERTY</name></member>
+      <member refid="struct_f_damage_info_1a13386811037f890c643eedb9718b5a77" prot="public" virt="non-virtual"><scope>FDamageInfo</scope><name>UPROPERTY</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

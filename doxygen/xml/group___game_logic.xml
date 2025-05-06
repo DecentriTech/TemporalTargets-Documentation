@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="group___game_logic" kind="group">
+    <compoundname>GameLogic</compoundname>
+    <title>Core Gameplay Logic</title>
+    <innerclass refid="class_a_temporal_game_mode" prot="public">ATemporalGameMode</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="group___game_logic_1gae6f5417eda5722930c61aac107396226" prot="public" static="no" strong="yes">
+        <type>uint8</type>
+        <name>EGhostReplayState</name>
+        <enumvalue id="group___game_logic_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;None&quot;)</initializer>
+          <briefdescription>
+<para>No ghost activity is happening. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___game_logic_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Recording&quot;)</initializer>
+          <briefdescription>
+<para>Actively recording the player&apos;s actions. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___game_logic_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" prot="public">
+          <name>UMETA</name>
+          <initializer>=(DisplayName = &quot;Playback&quot;)</initializer>
+          <briefdescription>
+<para>Replaying a previously recorded run. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Represents the current state of the ghost replay system. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TemporalGameMode.h" line="22" column="1" bodyfile="Source/TimeAssassin/TemporalGameMode.h" bodystart="23" bodyend="38"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classes that implement core gameplay systems like spawning, replay, and game flow. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

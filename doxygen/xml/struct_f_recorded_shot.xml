@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="struct_f_recorded_shot" kind="struct" language="C++" prot="public">
+    <compoundname>FRecordedShot</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_f_recorded_shot_1a78ac3a58ce0bd04bb0397259ae857eba" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FRecordedShot::ShotIndex</definition>
+        <argsstring></argsstring>
+        <name>ShotIndex</name>
+        <qualifiedname>FRecordedShot::ShotIndex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="41" column="5" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_recorded_shot_1ad3f3302ee527fee92c5e238a64095d1c" prot="public" static="no" mutable="no">
+        <type>FVector</type>
+        <definition>FVector FRecordedShot::ViewLocation</definition>
+        <argsstring></argsstring>
+        <name>ViewLocation</name>
+        <qualifiedname>FRecordedShot::ViewLocation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="44" column="13" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_recorded_shot_1ac0daef34f3c2a5b30458387d3665794f" prot="public" static="no" mutable="no">
+        <type>FVector</type>
+        <definition>FVector FRecordedShot::ImpactLocation</definition>
+        <argsstring></argsstring>
+        <name>ImpactLocation</name>
+        <qualifiedname>FRecordedShot::ImpactLocation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="47" column="13" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_recorded_shot_1a443385bba9e9512a1a0a00a02407587f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FRecordedShot::bHit</definition>
+        <argsstring></argsstring>
+        <name>bHit</name>
+        <qualifiedname>FRecordedShot::bHit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="50" column="10" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_recorded_shot_1a8dbd4314449b7b8b339d71a00fa719a7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FRecordedShot::TimeSinceFrameStart</definition>
+        <argsstring></argsstring>
+        <name>TimeSinceFrameStart</name>
+        <qualifiedname>FRecordedShot::TimeSinceFrameStart</qualifiedname>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="53" column="11" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_recorded_shot_1a7556405c16fb2ade376a7943c11f8b67" prot="public" static="no" mutable="no">
+        <type>FRotator</type>
+        <definition>FRotator FRecordedShot::ShotDirection</definition>
+        <argsstring></argsstring>
+        <name>ShotDirection</name>
+        <qualifiedname>FRecordedShot::ShotDirection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="56" column="14" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_recorded_shot_1a26674ec33c3eb80731594b9e4496ee5c" prot="public" static="no" mutable="no">
+        <type>FName</type>
+        <definition>FName FRecordedShot::HitGhostID</definition>
+        <argsstring></argsstring>
+        <name>HitGhostID</name>
+        <qualifiedname>FRecordedShot::HitGhostID</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="59" column="11" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_recorded_shot_1a4e41c04830f61746bc63ce81a04b0739" prot="public" static="no" mutable="no">
+        <type>TSoftObjectPtr&lt; AActor &gt;</type>
+        <definition>TSoftObjectPtr&lt;AActor&gt; FRecordedShot::HitActor</definition>
+        <argsstring></argsstring>
+        <name>HitActor</name>
+        <qualifiedname>FRecordedShot::HitActor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="62" column="20" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_recorded_shot_1ae107a5dae5978675afeb3478975f898d" prot="public" static="no" mutable="no">
+        <type>FName</type>
+        <definition>FName FRecordedShot::HitBoneName</definition>
+        <argsstring></argsstring>
+        <name>HitBoneName</name>
+        <qualifiedname>FRecordedShot::HitBoneName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="65" column="11" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_recorded_shot_1a10c570c36ca0c84b3fe30910b7f6f13c" prot="public" static="no" mutable="no">
+        <type>TSoftObjectPtr&lt; <ref refid="class_u_weapon_data_asset" kindref="compound">UWeaponDataAsset</ref> &gt;</type>
+        <definition>TSoftObjectPtr&lt;UWeaponDataAsset&gt; FRecordedShot::WeaponUsed</definition>
+        <argsstring></argsstring>
+        <name>WeaponUsed</name>
+        <qualifiedname>FRecordedShot::WeaponUsed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="68" column="20" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_f_recorded_shot_1a800d20c74173919163436e6c50229dec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FRecordedShot::FRecordedShot</definition>
+        <argsstring>()</argsstring>
+        <name>FRecordedShot</name>
+        <qualifiedname>FRecordedShot::FRecordedShot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="70" column="5" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="70" bodyend="73"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/TimeAssassin/FPlayerFrameData.h" line="34" column="1" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="35" bodyend="74"/>
+    <listofallmembers>
+      <member refid="struct_f_recorded_shot_1a443385bba9e9512a1a0a00a02407587f" prot="public" virt="non-virtual"><scope>FRecordedShot</scope><name>bHit</name></member>
+      <member refid="struct_f_recorded_shot_1a800d20c74173919163436e6c50229dec" prot="public" virt="non-virtual"><scope>FRecordedShot</scope><name>FRecordedShot</name></member>
+      <member refid="struct_f_recorded_shot_1a4e41c04830f61746bc63ce81a04b0739" prot="public" virt="non-virtual"><scope>FRecordedShot</scope><name>HitActor</name></member>
+      <member refid="struct_f_recorded_shot_1ae107a5dae5978675afeb3478975f898d" prot="public" virt="non-virtual"><scope>FRecordedShot</scope><name>HitBoneName</name></member>
+      <member refid="struct_f_recorded_shot_1a26674ec33c3eb80731594b9e4496ee5c" prot="public" virt="non-virtual"><scope>FRecordedShot</scope><name>HitGhostID</name></member>
+      <member refid="struct_f_recorded_shot_1ac0daef34f3c2a5b30458387d3665794f" prot="public" virt="non-virtual"><scope>FRecordedShot</scope><name>ImpactLocation</name></member>
+      <member refid="struct_f_recorded_shot_1a7556405c16fb2ade376a7943c11f8b67" prot="public" virt="non-virtual"><scope>FRecordedShot</scope><name>ShotDirection</name></member>
+      <member refid="struct_f_recorded_shot_1a78ac3a58ce0bd04bb0397259ae857eba" prot="public" virt="non-virtual"><scope>FRecordedShot</scope><name>ShotIndex</name></member>
+      <member refid="struct_f_recorded_shot_1a8dbd4314449b7b8b339d71a00fa719a7" prot="public" virt="non-virtual"><scope>FRecordedShot</scope><name>TimeSinceFrameStart</name></member>
+      <member refid="struct_f_recorded_shot_1ad3f3302ee527fee92c5e238a64095d1c" prot="public" virt="non-virtual"><scope>FRecordedShot</scope><name>ViewLocation</name></member>
+      <member refid="struct_f_recorded_shot_1a10c570c36ca0c84b3fe30910b7f6f13c" prot="public" virt="non-virtual"><scope>FRecordedShot</scope><name>WeaponUsed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

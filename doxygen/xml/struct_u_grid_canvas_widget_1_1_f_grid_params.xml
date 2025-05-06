@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="struct_u_grid_canvas_widget_1_1_f_grid_params" kind="struct" language="C++" prot="public">
+    <compoundname>UGridCanvasWidget::FGridParams</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_u_grid_canvas_widget_1_1_f_grid_params_1a8e941a456655006e0a339a0bcb4d7648" prot="public" static="no" mutable="no">
+        <type>FVector2D</type>
+        <definition>FVector2D UGridCanvasWidget::FGridParams::Size</definition>
+        <argsstring></argsstring>
+        <name>Size</name>
+        <qualifiedname>UGridCanvasWidget::FGridParams::Size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="57" column="11" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_grid_canvas_widget_1_1_f_grid_params_1a54cec641d31937db260aecbc20d7b807" prot="public" static="no" mutable="no">
+        <type>FVector2D</type>
+        <definition>FVector2D UGridCanvasWidget::FGridParams::WorldTL</definition>
+        <argsstring></argsstring>
+        <name>WorldTL</name>
+        <qualifiedname>UGridCanvasWidget::FGridParams::WorldTL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="58" column="11" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_grid_canvas_widget_1_1_f_grid_params_1aa9639175b0bab59dc02b3f01cb3fcae7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UGridCanvasWidget::FGridParams::Step</definition>
+        <argsstring></argsstring>
+        <name>Step</name>
+        <qualifiedname>UGridCanvasWidget::FGridParams::Step</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="59" column="11" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_grid_canvas_widget_1_1_f_grid_params_1a7b31e262c210847afac169ee6dbbadf2" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UGridCanvasWidget::FGridParams::SubStep</definition>
+        <argsstring></argsstring>
+        <name>SubStep</name>
+        <qualifiedname>UGridCanvasWidget::FGridParams::SubStep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="60" column="11" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_grid_canvas_widget_1_1_f_grid_params_1a481a8d20d75011e840b94974c08de7b2" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UGridCanvasWidget::FGridParams::StartWorldX</definition>
+        <argsstring></argsstring>
+        <name>StartWorldX</name>
+        <qualifiedname>UGridCanvasWidget::FGridParams::StartWorldX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="63" column="7" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_grid_canvas_widget_1_1_f_grid_params_1ae54af48e062237cbda053a76bc9cec47" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UGridCanvasWidget::FGridParams::StartWorldY</definition>
+        <argsstring></argsstring>
+        <name>StartWorldY</name>
+        <qualifiedname>UGridCanvasWidget::FGridParams::StartWorldY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="63" column="26" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_grid_canvas_widget_1_1_f_grid_params_1a2c007d5e4f653e59d3c0437b9b9d9bfb" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UGridCanvasWidget::FGridParams::StartWorldXMinor</definition>
+        <argsstring></argsstring>
+        <name>StartWorldXMinor</name>
+        <qualifiedname>UGridCanvasWidget::FGridParams::StartWorldXMinor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="64" column="7" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_grid_canvas_widget_1_1_f_grid_params_1ae006ff799a1916d27846f57bb86d2a42" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UGridCanvasWidget::FGridParams::StartWorldYMinor</definition>
+        <argsstring></argsstring>
+        <name>StartWorldYMinor</name>
+        <qualifiedname>UGridCanvasWidget::FGridParams::StartWorldYMinor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="64" column="31" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_grid_canvas_widget_1_1_f_grid_params_1ac4b897b66b43041460bf45ca4bcc61c5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UGridCanvasWidget::FGridParams::YZeroPx</definition>
+        <argsstring></argsstring>
+        <name>YZeroPx</name>
+        <qualifiedname>UGridCanvasWidget::FGridParams::YZeroPx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="67" column="7" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_grid_canvas_widget_1_1_f_grid_params_1a875aec0b7dd3fd0b82857613dc542873" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UGridCanvasWidget::FGridParams::XZeroPx</definition>
+        <argsstring></argsstring>
+        <name>XZeroPx</name>
+        <qualifiedname>UGridCanvasWidget::FGridParams::XZeroPx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="68" column="7" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/TimeAssassin/GridCanvasWidget.h" line="54" column="1" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="55" bodyend="69"/>
+    <listofallmembers>
+      <member refid="struct_u_grid_canvas_widget_1_1_f_grid_params_1a8e941a456655006e0a339a0bcb4d7648" prot="public" virt="non-virtual"><scope>UGridCanvasWidget::FGridParams</scope><name>Size</name></member>
+      <member refid="struct_u_grid_canvas_widget_1_1_f_grid_params_1a481a8d20d75011e840b94974c08de7b2" prot="public" virt="non-virtual"><scope>UGridCanvasWidget::FGridParams</scope><name>StartWorldX</name></member>
+      <member refid="struct_u_grid_canvas_widget_1_1_f_grid_params_1a2c007d5e4f653e59d3c0437b9b9d9bfb" prot="public" virt="non-virtual"><scope>UGridCanvasWidget::FGridParams</scope><name>StartWorldXMinor</name></member>
+      <member refid="struct_u_grid_canvas_widget_1_1_f_grid_params_1ae54af48e062237cbda053a76bc9cec47" prot="public" virt="non-virtual"><scope>UGridCanvasWidget::FGridParams</scope><name>StartWorldY</name></member>
+      <member refid="struct_u_grid_canvas_widget_1_1_f_grid_params_1ae006ff799a1916d27846f57bb86d2a42" prot="public" virt="non-virtual"><scope>UGridCanvasWidget::FGridParams</scope><name>StartWorldYMinor</name></member>
+      <member refid="struct_u_grid_canvas_widget_1_1_f_grid_params_1aa9639175b0bab59dc02b3f01cb3fcae7" prot="public" virt="non-virtual"><scope>UGridCanvasWidget::FGridParams</scope><name>Step</name></member>
+      <member refid="struct_u_grid_canvas_widget_1_1_f_grid_params_1a7b31e262c210847afac169ee6dbbadf2" prot="public" virt="non-virtual"><scope>UGridCanvasWidget::FGridParams</scope><name>SubStep</name></member>
+      <member refid="struct_u_grid_canvas_widget_1_1_f_grid_params_1a54cec641d31937db260aecbc20d7b807" prot="public" virt="non-virtual"><scope>UGridCanvasWidget::FGridParams</scope><name>WorldTL</name></member>
+      <member refid="struct_u_grid_canvas_widget_1_1_f_grid_params_1a875aec0b7dd3fd0b82857613dc542873" prot="public" virt="non-virtual"><scope>UGridCanvasWidget::FGridParams</scope><name>XZeroPx</name></member>
+      <member refid="struct_u_grid_canvas_widget_1_1_f_grid_params_1ac4b897b66b43041460bf45ca4bcc61c5" prot="public" virt="non-virtual"><scope>UGridCanvasWidget::FGridParams</scope><name>YZeroPx</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

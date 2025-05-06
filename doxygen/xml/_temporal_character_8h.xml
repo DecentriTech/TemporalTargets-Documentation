@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="_temporal_character_8h" kind="file" language="C++">
+    <compoundname>TemporalCharacter.h</compoundname>
+    <includes local="yes">CoreMinimal.h</includes>
+    <includes local="yes">GameFramework/Character.h</includes>
+    <includes refid="_t_a_character_8h" local="yes">TACharacter.h</includes>
+    <includes refid="_f_player_frame_data_8h" local="yes">FPlayerFrameData.h</includes>
+    <includes local="yes">Templates/SharedPointer.h</includes>
+    <includes local="yes">TemporalCharacter.generated.h</includes>
+    <includedby refid="_temporal_character_8cpp" local="yes">Source/TimeAssassin/TemporalCharacter.cpp</includedby>
+    <includedby refid="_temporal_game_mode_8cpp" local="yes">Source/TimeAssassin/TemporalGameMode.cpp</includedby>
+    <includedby refid="_temporal_game_mode_8h" local="yes">Source/TimeAssassin/TemporalGameMode.h</includedby>
+    <includedby refid="_weapon_component_8cpp" local="yes">Source/TimeAssassin/WeaponComponent.cpp</includedby>
+    <incdepgraph>
+      <node id="7">
+        <label>BPI_Interactable.generated.h</label>
+      </node>
+      <node id="10">
+        <label>Components/ActorComponent.h</label>
+      </node>
+      <node id="2">
+        <label>CoreMinimal.h</label>
+      </node>
+      <node id="12">
+        <label>DamageableComponent.generated.h</label>
+      </node>
+      <node id="13">
+        <label>DamageableInterface.generated.h</label>
+      </node>
+      <node id="19">
+        <label>Engine/DataAsset.h</label>
+      </node>
+      <node id="5">
+        <label>BPI_Interactable.h</label>
+        <link refid="_b_p_i___interactable_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>DamageableComponent.h</label>
+        <link refid="_damageable_component_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>DamageableInterface.h</label>
+        <link refid="_damageable_interface_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>FPlayerFrameData.h</label>
+        <link refid="_f_player_frame_data_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>TACharacter.h</label>
+        <link refid="_t_a_character_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Source/TimeAssassin/TemporalCharacter.h</label>
+        <link refid="_temporal_character_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>WeaponDataAsset.h</label>
+        <link refid="_weapon_data_asset_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>FPlayerFrameData.generated.h</label>
+      </node>
+      <node id="3">
+        <label>GameFramework/Character.h</label>
+      </node>
+      <node id="11">
+        <label>GameplayTagContainer.h</label>
+      </node>
+      <node id="14">
+        <label>InputAction.h</label>
+      </node>
+      <node id="15">
+        <label>InputMappingContext.h</label>
+      </node>
+      <node id="16">
+        <label>TACharacter.generated.h</label>
+      </node>
+      <node id="22">
+        <label>Templates/SharedPointer.h</label>
+      </node>
+      <node id="23">
+        <label>TemporalCharacter.generated.h</label>
+      </node>
+      <node id="6">
+        <label>UObject/Interface.h</label>
+      </node>
+      <node id="20">
+        <label>WeaponDataAsset.generated.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>Source/TimeAssassin/TemporalCharacter.h</label>
+        <link refid="_temporal_character_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Source/TimeAssassin/TemporalGameMode.h</label>
+        <link refid="_temporal_game_mode_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_f_replay_handler_entry" prot="public">FReplayHandlerEntry</innerclass>
+    <innerclass refid="class_a_temporal_character" prot="public">ATemporalCharacter</innerclass>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="_temporal_character_8h_1a5dc31e53903277847805dd17628d2435" prot="public" static="no">
+        <name>REPLAY_EVENT_LIST</name>
+        <initializer>    X(Jumped, ProcessJumpEvent) \
+    X(FiredWeapon, ProcessShootEvent) \
+	X(Interacted, ProcessInteractEvent) \</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="15" column="9" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="15" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="_temporal_character_8h_1ad495724807590de70bad08f2bb4e978a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DECLARE_DELEGATE</definition>
+        <argsstring>(FReplayEventDelegate)</argsstring>
+        <name>DECLARE_DELEGATE</name>
+        <param>
+          <type>FReplayEventDelegate</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="11" column="1" declfile="Source/TimeAssassin/TemporalCharacter.h" declline="11" declcolumn="1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CoreMinimal.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameFramework/Character.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TACharacter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;FPlayerFrameData.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Templates/SharedPointer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TemporalCharacter.generated.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Define<sp/>a<sp/>delegate<sp/>for<sp/>replay<sp/>events<sp/>(no<sp/>parameters,<sp/>no<sp/>return)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">DECLARE_DELEGATE(FReplayEventDelegate);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Define<sp/>your<sp/>replay<sp/>event<sp/>list:<sp/>each<sp/>X(FlagName,<sp/>FunctionName)<sp/>pair<sp/>maps<sp/>an<sp/>event<sp/>flag<sp/>to<sp/>its<sp/>C++<sp/>handler.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>enum<sp/>values<sp/>in<sp/>EReplayActionFlags<sp/>should<sp/>match<sp/>the<sp/>FlagName.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>REPLAY_EVENT_LIST<sp/>\</highlight></codeline>
+<codeline lineno="16"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>X(Jumped,<sp/>ProcessJumpEvent)<sp/>\</highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>X(FiredWeapon,<sp/>ProcessShootEvent)<sp/>\</highlight></codeline>
+<codeline lineno="18"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>X(Interacted,<sp/>ProcessInteractEvent)<sp/>\</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="struct_f_replay_handler_entry" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_f_replay_handler_entry" kindref="compound">FReplayHandlerEntry</ref></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>EReplayActionFlags<sp/><sp/><sp/><sp/><sp/><sp/><sp/>Flag;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>FReplayEventDelegate<sp/><sp/><sp/><sp/><sp/>Handler;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">UCLASS()</highlight></codeline>
+<codeline lineno="29" refid="class_a_temporal_character" refkind="compound"><highlight class="normal">class<sp/>TIMEASSASSIN_API<sp/>ATemporalCharacter<sp/>:<sp/>public<sp/>ATACharacter</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Sets<sp/>default<sp/>values<sp/>for<sp/>this<sp/>character&apos;s<sp/>properties</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>ATemporalCharacter();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~ATemporalCharacter()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Called<sp/>when<sp/>the<sp/>game<sp/>ends<sp/>or<sp/>actor<sp/>is<sp/>destroyed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EndPlay(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>EEndPlayReason::Type<sp/>EndPlayReason)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Called<sp/>every<sp/>frame</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Tick(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>DeltaTime)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>InitializeGhostPlayback(TSharedPtr&lt;TArray&lt;FPlayerFrameData&gt;&gt;<sp/>InReplayDataPtr);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Ghost<sp/>Replay&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TArray&lt;FPlayerFrameData&gt;&amp;<sp/><ref refid="class_a_temporal_character_1a2ce29be167b8086ade12bd84c96521db" kindref="member">GetRecordedFrames</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Reset<sp/>the<sp/>ghost&apos;s<sp/>playback<sp/>timer.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Ghost<sp/>Replay&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ResetPlayback();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(VisibleAnywhere,<sp/>BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Ghost&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>FName<sp/>GhostID;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Called<sp/>when<sp/>the<sp/>game<sp/>starts<sp/>or<sp/>when<sp/>spawned</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>BeginPlay()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>C++<sp/>functions<sp/>for<sp/>processing<sp/>events<sp/>(can<sp/>be<sp/>overridden<sp/>by<sp/>Blueprint<sp/>events)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProcessJumpEvent();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProcessShootEvent();</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProcessInteractEvent();</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Pointer<sp/>to<sp/>recorded<sp/>replay<sp/>data<sp/>(shared<sp/>memory)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>TSharedPtr&lt;TArray&lt;FPlayerFrameData&gt;&gt;<sp/>ReplayDataPtr;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;float&gt;<sp/>CumulativeDistances;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector<sp/>LastGhostPosition;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>**Directly<sp/>stored<sp/>TArray&lt;&gt;<sp/>instead<sp/>of<sp/>a<sp/>pointer**</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(VisibleAnywhere,<sp/>BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Ghost<sp/>Replay&quot;</highlight><highlight class="normal">,<sp/>meta<sp/>=<sp/>(AllowPrivateAccess<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;true&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;FPlayerFrameData&gt;<sp/>ReplayData;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Map<sp/>of<sp/>weapon<sp/>data<sp/>assets<sp/>for<sp/>quick<sp/>access</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY()</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>TMap&lt;FSoftObjectPath,<sp/>UWeaponDataAsset*&gt;<sp/>CachedWeapons;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Current<sp/>playback<sp/>timer,<sp/>in<sp/>seconds</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(VisibleAnywhere,<sp/>BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Ghost<sp/>Replay&quot;</highlight><highlight class="normal">,<sp/>meta<sp/>=<sp/>(AllowPrivateAccess<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;true&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>PlaybackTime;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Tracks<sp/>which<sp/>events<sp/>have<sp/>already<sp/>been<sp/>processed<sp/>for<sp/>the<sp/>current<sp/>replay<sp/>frame.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8<sp/>ProcessedEventFlags<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>int32<sp/>CurrentFrameIndex<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>timestamp<sp/>of<sp/>the<sp/>replay<sp/>frame<sp/>that<sp/>was<sp/>last<sp/>processed.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>LastProcessedFrameTime<sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY()</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>int32<sp/>LastProcessedShotIndex<sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Add<sp/>this<sp/>in<sp/>the<sp/>protected<sp/>(or<sp/>private)<sp/>section<sp/>of<sp/>your<sp/>class:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(VisibleAnywhere,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Playback&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;float&gt;<sp/>DeltaTimeHistory;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Array<sp/>of<sp/>flag<sp/>-&gt;<sp/>handler<sp/>entries<sp/>(avoids<sp/>TMap<sp/>and<sp/>TBitArray)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;FReplayHandlerEntry&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ReplayEventHandlers;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Helper<sp/>function<sp/>to<sp/>update<sp/>position<sp/>and<sp/>rotation<sp/>based<sp/>on<sp/>PlaybackTime</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UpdatePlayback(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>DeltaTime);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Helper<sp/>function<sp/>to<sp/>trigger<sp/>events<sp/>from<sp/>the<sp/>replay<sp/>data<sp/>(e.g.,<sp/>firing<sp/>weapon)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProcessPlaybackEvents(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref>&amp;<sp/>FrameData);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>FVector2D<sp/>ClosestPointOnSegment2D(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FVector2D&amp;<sp/>A,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FVector2D&amp;<sp/>B,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FVector2D&amp;<sp/>P);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>int32<sp/>CalculateCurrentTargetIndex(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FVector&amp;<sp/>CurrentPos);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>CalculateFractionAlongSegment(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FVector&amp;<sp/>CurrentPos,<sp/>int32<sp/>TargetIndex);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>int32<sp/>FindTargetFrameIndex(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>InPlaybackTime);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="Source/TimeAssassin/TemporalCharacter.h"/>
+  </compounddef>
+</doxygen>

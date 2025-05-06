@@ -1,0 +1,458 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_u_weapon_data_asset" kind="class" language="C++" prot="public">
+    <compoundname>UWeaponDataAsset</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UDataAsset</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_u_weapon_data_asset_1af0fad7e2acc7e7dec753afe756389107" prot="public" static="no" mutable="no">
+        <type>FName</type>
+        <definition>FName UWeaponDataAsset::WeaponName</definition>
+        <argsstring></argsstring>
+        <name>WeaponName</name>
+        <qualifiedname>UWeaponDataAsset::WeaponName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/WeaponDataAsset.h" line="20" column="7" bodyfile="Source/TimeAssassin/WeaponDataAsset.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_weapon_data_asset_1a38b2bafe40070d8ca22b70c32e890598" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UWeaponDataAsset::Damage</definition>
+        <argsstring></argsstring>
+        <name>Damage</name>
+        <qualifiedname>UWeaponDataAsset::Damage</qualifiedname>
+        <initializer>= 10.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/WeaponDataAsset.h" line="23" column="7" bodyfile="Source/TimeAssassin/WeaponDataAsset.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_weapon_data_asset_1a35775ae112e145cf4e3f5b2eaf592437" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UWeaponDataAsset::FireRate</definition>
+        <argsstring></argsstring>
+        <name>FireRate</name>
+        <qualifiedname>UWeaponDataAsset::FireRate</qualifiedname>
+        <initializer>= 600.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/WeaponDataAsset.h" line="26" column="7" bodyfile="Source/TimeAssassin/WeaponDataAsset.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_weapon_data_asset_1ac4657186eb36fa9f184506c440d4b2eb" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UWeaponDataAsset::TraceDistance</definition>
+        <argsstring></argsstring>
+        <name>TraceDistance</name>
+        <qualifiedname>UWeaponDataAsset::TraceDistance</qualifiedname>
+        <initializer>= 10000.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/WeaponDataAsset.h" line="29" column="7" bodyfile="Source/TimeAssassin/WeaponDataAsset.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_weapon_data_asset_1a279b5b29b422d4b74c5144cb1ecd27b3" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UWeaponDataAsset::bIsAutomatic</definition>
+        <argsstring></argsstring>
+        <name>bIsAutomatic</name>
+        <qualifiedname>UWeaponDataAsset::bIsAutomatic</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/WeaponDataAsset.h" line="32" column="6" bodyfile="Source/TimeAssassin/WeaponDataAsset.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_weapon_data_asset_1a8fa2e08afe94c02b8472936365c0bc66" prot="public" static="no" mutable="no">
+        <type>int32</type>
+        <definition>int32 UWeaponDataAsset::MagSize</definition>
+        <argsstring></argsstring>
+        <name>MagSize</name>
+        <qualifiedname>UWeaponDataAsset::MagSize</qualifiedname>
+        <initializer>= 30</initializer>
+        <briefdescription>
+<para>Max bullets in a single clip. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/WeaponDataAsset.h" line="38" column="7" bodyfile="Source/TimeAssassin/WeaponDataAsset.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_weapon_data_asset_1a181dd289575982d4a2019e96e2678885" prot="public" static="no" mutable="no">
+        <type>int32</type>
+        <definition>int32 UWeaponDataAsset::MaxReserveAmmo</definition>
+        <argsstring></argsstring>
+        <name>MaxReserveAmmo</name>
+        <qualifiedname>UWeaponDataAsset::MaxReserveAmmo</qualifiedname>
+        <initializer>= 90</initializer>
+        <briefdescription>
+<para>Total reserve ammo (ammo not currently in clip) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/WeaponDataAsset.h" line="42" column="7" bodyfile="Source/TimeAssassin/WeaponDataAsset.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_weapon_data_asset_1ae1cbb12562476b6b3c383d430f2e9f6e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UWeaponDataAsset::ReloadDuration</definition>
+        <argsstring></argsstring>
+        <name>ReloadDuration</name>
+        <qualifiedname>UWeaponDataAsset::ReloadDuration</qualifiedname>
+        <initializer>= 1.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/WeaponDataAsset.h" line="45" column="7" bodyfile="Source/TimeAssassin/WeaponDataAsset.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_weapon_data_asset_1acaeb6372d80fee1d17ab073a6c81e8cf" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UWeaponDataAsset::bInfiniteAmmo</definition>
+        <argsstring></argsstring>
+        <name>bInfiniteAmmo</name>
+        <qualifiedname>UWeaponDataAsset::bInfiniteAmmo</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Should the weapon have infinite ammo? </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/WeaponDataAsset.h" line="49" column="6" bodyfile="Source/TimeAssassin/WeaponDataAsset.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_weapon_data_asset_1af9b396f7c9ccabde55ccd769ae893cad" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UWeaponDataAsset::bInfiniteMag</definition>
+        <argsstring></argsstring>
+        <name>bInfiniteMag</name>
+        <qualifiedname>UWeaponDataAsset::bInfiniteMag</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Should the weapon&apos;s mag have infinite ammo? </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/WeaponDataAsset.h" line="53" column="6" bodyfile="Source/TimeAssassin/WeaponDataAsset.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_weapon_data_asset_1a97ed4b16844a9211f1083ff2de152cf6" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UWeaponDataAsset::bAutoReload</definition>
+        <argsstring></argsstring>
+        <name>bAutoReload</name>
+        <qualifiedname>UWeaponDataAsset::bAutoReload</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>Should the weapon auto-reload when empty? </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/WeaponDataAsset.h" line="57" column="6" bodyfile="Source/TimeAssassin/WeaponDataAsset.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_weapon_data_asset_1abc6d71ce0200f6e33079ebe2e7c96fdd" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UWeaponDataAsset::bInstantReload</definition>
+        <argsstring></argsstring>
+        <name>bInstantReload</name>
+        <qualifiedname>UWeaponDataAsset::bInstantReload</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/WeaponDataAsset.h" line="61" column="6" bodyfile="Source/TimeAssassin/WeaponDataAsset.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_weapon_data_asset_1a8760e2a77910f4201414a69fecc37d91" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UWeaponDataAsset::MinSpread</definition>
+        <argsstring></argsstring>
+        <name>MinSpread</name>
+        <qualifiedname>UWeaponDataAsset::MinSpread</qualifiedname>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/WeaponDataAsset.h" line="65" column="7" bodyfile="Source/TimeAssassin/WeaponDataAsset.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_weapon_data_asset_1a048329e1971b43aac080578c75517533" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UWeaponDataAsset::MaxSpread</definition>
+        <argsstring></argsstring>
+        <name>MaxSpread</name>
+        <qualifiedname>UWeaponDataAsset::MaxSpread</qualifiedname>
+        <initializer>= 100.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/WeaponDataAsset.h" line="68" column="7" bodyfile="Source/TimeAssassin/WeaponDataAsset.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_weapon_data_asset_1a2dd483442044fc465d4b4fabb58522c9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UWeaponDataAsset::SpreadRecoveryRate</definition>
+        <argsstring></argsstring>
+        <name>SpreadRecoveryRate</name>
+        <qualifiedname>UWeaponDataAsset::SpreadRecoveryRate</qualifiedname>
+        <initializer>= 15.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/WeaponDataAsset.h" line="71" column="7" bodyfile="Source/TimeAssassin/WeaponDataAsset.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_weapon_data_asset_1a450bc2b5c72ffa3a79863afe67fb7113" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UWeaponDataAsset::FireSpread</definition>
+        <argsstring></argsstring>
+        <name>FireSpread</name>
+        <qualifiedname>UWeaponDataAsset::FireSpread</qualifiedname>
+        <initializer>= 1.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/WeaponDataAsset.h" line="74" column="7" bodyfile="Source/TimeAssassin/WeaponDataAsset.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_weapon_data_asset_1ad974bb922d082e143224144e09c38b81" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UWeaponDataAsset::IdleSpread</definition>
+        <argsstring></argsstring>
+        <name>IdleSpread</name>
+        <qualifiedname>UWeaponDataAsset::IdleSpread</qualifiedname>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/WeaponDataAsset.h" line="77" column="7" bodyfile="Source/TimeAssassin/WeaponDataAsset.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_weapon_data_asset_1a1dbeebdadcdbac214f791a7cbbfc9626" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UWeaponDataAsset::ReloadingSpread</definition>
+        <argsstring></argsstring>
+        <name>ReloadingSpread</name>
+        <qualifiedname>UWeaponDataAsset::ReloadingSpread</qualifiedname>
+        <initializer>= 8.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/WeaponDataAsset.h" line="80" column="7" bodyfile="Source/TimeAssassin/WeaponDataAsset.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_weapon_data_asset_1af657f9075aab79b54a9107bbf5253949" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UWeaponDataAsset::WalkSpread</definition>
+        <argsstring></argsstring>
+        <name>WalkSpread</name>
+        <qualifiedname>UWeaponDataAsset::WalkSpread</qualifiedname>
+        <initializer>= 5.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/WeaponDataAsset.h" line="83" column="7" bodyfile="Source/TimeAssassin/WeaponDataAsset.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_weapon_data_asset_1ad0ef84461b58242153112f5718bc5dbf" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UWeaponDataAsset::AirborneSpread</definition>
+        <argsstring></argsstring>
+        <name>AirborneSpread</name>
+        <qualifiedname>UWeaponDataAsset::AirborneSpread</qualifiedname>
+        <initializer>= 25.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/WeaponDataAsset.h" line="86" column="7" bodyfile="Source/TimeAssassin/WeaponDataAsset.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_weapon_data_asset_1a6d91e86063206dfb6780cf1af16b191d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UWeaponDataAsset::JumpSpread</definition>
+        <argsstring></argsstring>
+        <name>JumpSpread</name>
+        <qualifiedname>UWeaponDataAsset::JumpSpread</qualifiedname>
+        <initializer>= 30.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/WeaponDataAsset.h" line="89" column="7" bodyfile="Source/TimeAssassin/WeaponDataAsset.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_weapon_data_asset_1a0586b3ec1d60dff3703d78c0c921521a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UWeaponDataAsset::BulletPatternMultiplier</definition>
+        <argsstring></argsstring>
+        <name>BulletPatternMultiplier</name>
+        <qualifiedname>UWeaponDataAsset::BulletPatternMultiplier</qualifiedname>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+<para>How strongly the spray pattern drives the <emphasis>bullet</emphasis> direction. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/WeaponDataAsset.h" line="96" column="7" bodyfile="Source/TimeAssassin/WeaponDataAsset.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_weapon_data_asset_1a34cefc5b64c4870aa91449b23259fbd3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UWeaponDataAsset::CameraRecoilMultiplier</definition>
+        <argsstring></argsstring>
+        <name>CameraRecoilMultiplier</name>
+        <qualifiedname>UWeaponDataAsset::CameraRecoilMultiplier</qualifiedname>
+        <initializer>= 0.5f</initializer>
+        <briefdescription>
+<para>How strongly the spray pattern drives the *camera kick. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/WeaponDataAsset.h" line="100" column="7" bodyfile="Source/TimeAssassin/WeaponDataAsset.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_weapon_data_asset_1a9bc9febbb0a0727ab7c15db6f7c79947" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UWeaponDataAsset::FOVPunchAmount</definition>
+        <argsstring></argsstring>
+        <name>FOVPunchAmount</name>
+        <qualifiedname>UWeaponDataAsset::FOVPunchAmount</qualifiedname>
+        <initializer>= 3.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/WeaponDataAsset.h" line="103" column="7" bodyfile="Source/TimeAssassin/WeaponDataAsset.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_weapon_data_asset_1a39af4b368edb68fcc72abe2e94506208" prot="public" static="no" mutable="no">
+        <type>TArray&lt; FVector2D &gt;</type>
+        <definition>TArray&lt;FVector2D&gt; UWeaponDataAsset::SprayPattern</definition>
+        <argsstring></argsstring>
+        <name>SprayPattern</name>
+        <qualifiedname>UWeaponDataAsset::SprayPattern</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/WeaponDataAsset.h" line="107" column="8" bodyfile="Source/TimeAssassin/WeaponDataAsset.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_weapon_data_asset_1af2ab9a2a8bc0e30d38d9102945980ad3" prot="public" static="no" mutable="no">
+        <type>TSubclassOf&lt; class UDamageType &gt;</type>
+        <definition>TSubclassOf&lt;class UDamageType&gt; UWeaponDataAsset::DamageType</definition>
+        <argsstring></argsstring>
+        <name>DamageType</name>
+        <qualifiedname>UWeaponDataAsset::DamageType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/WeaponDataAsset.h" line="110" column="13" bodyfile="Source/TimeAssassin/WeaponDataAsset.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>UDataAsset</label>
+      </node>
+      <node id="1">
+        <label>UWeaponDataAsset</label>
+        <link refid="class_u_weapon_data_asset"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>UDataAsset</label>
+      </node>
+      <node id="1">
+        <label>UWeaponDataAsset</label>
+        <link refid="class_u_weapon_data_asset"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Source/TimeAssassin/WeaponDataAsset.h" line="13" column="1" bodyfile="Source/TimeAssassin/WeaponDataAsset.h" bodystart="14" bodyend="111"/>
+    <listofallmembers>
+      <member refid="class_u_weapon_data_asset_1ad0ef84461b58242153112f5718bc5dbf" prot="public" virt="non-virtual"><scope>UWeaponDataAsset</scope><name>AirborneSpread</name></member>
+      <member refid="class_u_weapon_data_asset_1a97ed4b16844a9211f1083ff2de152cf6" prot="public" virt="non-virtual"><scope>UWeaponDataAsset</scope><name>bAutoReload</name></member>
+      <member refid="class_u_weapon_data_asset_1acaeb6372d80fee1d17ab073a6c81e8cf" prot="public" virt="non-virtual"><scope>UWeaponDataAsset</scope><name>bInfiniteAmmo</name></member>
+      <member refid="class_u_weapon_data_asset_1af9b396f7c9ccabde55ccd769ae893cad" prot="public" virt="non-virtual"><scope>UWeaponDataAsset</scope><name>bInfiniteMag</name></member>
+      <member refid="class_u_weapon_data_asset_1abc6d71ce0200f6e33079ebe2e7c96fdd" prot="public" virt="non-virtual"><scope>UWeaponDataAsset</scope><name>bInstantReload</name></member>
+      <member refid="class_u_weapon_data_asset_1a279b5b29b422d4b74c5144cb1ecd27b3" prot="public" virt="non-virtual"><scope>UWeaponDataAsset</scope><name>bIsAutomatic</name></member>
+      <member refid="class_u_weapon_data_asset_1a0586b3ec1d60dff3703d78c0c921521a" prot="public" virt="non-virtual"><scope>UWeaponDataAsset</scope><name>BulletPatternMultiplier</name></member>
+      <member refid="class_u_weapon_data_asset_1a34cefc5b64c4870aa91449b23259fbd3" prot="public" virt="non-virtual"><scope>UWeaponDataAsset</scope><name>CameraRecoilMultiplier</name></member>
+      <member refid="class_u_weapon_data_asset_1a38b2bafe40070d8ca22b70c32e890598" prot="public" virt="non-virtual"><scope>UWeaponDataAsset</scope><name>Damage</name></member>
+      <member refid="class_u_weapon_data_asset_1af2ab9a2a8bc0e30d38d9102945980ad3" prot="public" virt="non-virtual"><scope>UWeaponDataAsset</scope><name>DamageType</name></member>
+      <member refid="class_u_weapon_data_asset_1a35775ae112e145cf4e3f5b2eaf592437" prot="public" virt="non-virtual"><scope>UWeaponDataAsset</scope><name>FireRate</name></member>
+      <member refid="class_u_weapon_data_asset_1a450bc2b5c72ffa3a79863afe67fb7113" prot="public" virt="non-virtual"><scope>UWeaponDataAsset</scope><name>FireSpread</name></member>
+      <member refid="class_u_weapon_data_asset_1a9bc9febbb0a0727ab7c15db6f7c79947" prot="public" virt="non-virtual"><scope>UWeaponDataAsset</scope><name>FOVPunchAmount</name></member>
+      <member refid="class_u_weapon_data_asset_1ad974bb922d082e143224144e09c38b81" prot="public" virt="non-virtual"><scope>UWeaponDataAsset</scope><name>IdleSpread</name></member>
+      <member refid="class_u_weapon_data_asset_1a6d91e86063206dfb6780cf1af16b191d" prot="public" virt="non-virtual"><scope>UWeaponDataAsset</scope><name>JumpSpread</name></member>
+      <member refid="class_u_weapon_data_asset_1a8fa2e08afe94c02b8472936365c0bc66" prot="public" virt="non-virtual"><scope>UWeaponDataAsset</scope><name>MagSize</name></member>
+      <member refid="class_u_weapon_data_asset_1a181dd289575982d4a2019e96e2678885" prot="public" virt="non-virtual"><scope>UWeaponDataAsset</scope><name>MaxReserveAmmo</name></member>
+      <member refid="class_u_weapon_data_asset_1a048329e1971b43aac080578c75517533" prot="public" virt="non-virtual"><scope>UWeaponDataAsset</scope><name>MaxSpread</name></member>
+      <member refid="class_u_weapon_data_asset_1a8760e2a77910f4201414a69fecc37d91" prot="public" virt="non-virtual"><scope>UWeaponDataAsset</scope><name>MinSpread</name></member>
+      <member refid="class_u_weapon_data_asset_1ae1cbb12562476b6b3c383d430f2e9f6e" prot="public" virt="non-virtual"><scope>UWeaponDataAsset</scope><name>ReloadDuration</name></member>
+      <member refid="class_u_weapon_data_asset_1a1dbeebdadcdbac214f791a7cbbfc9626" prot="public" virt="non-virtual"><scope>UWeaponDataAsset</scope><name>ReloadingSpread</name></member>
+      <member refid="class_u_weapon_data_asset_1a39af4b368edb68fcc72abe2e94506208" prot="public" virt="non-virtual"><scope>UWeaponDataAsset</scope><name>SprayPattern</name></member>
+      <member refid="class_u_weapon_data_asset_1a2dd483442044fc465d4b4fabb58522c9" prot="public" virt="non-virtual"><scope>UWeaponDataAsset</scope><name>SpreadRecoveryRate</name></member>
+      <member refid="class_u_weapon_data_asset_1ac4657186eb36fa9f184506c440d4b2eb" prot="public" virt="non-virtual"><scope>UWeaponDataAsset</scope><name>TraceDistance</name></member>
+      <member refid="class_u_weapon_data_asset_1af657f9075aab79b54a9107bbf5253949" prot="public" virt="non-virtual"><scope>UWeaponDataAsset</scope><name>WalkSpread</name></member>
+      <member refid="class_u_weapon_data_asset_1af0fad7e2acc7e7dec753afe756389107" prot="public" virt="non-virtual"><scope>UWeaponDataAsset</scope><name>WeaponName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_0ea3c96313dae7ac706c6a061d30618a" kind="dir">
+    <compoundname>Source/TimeAssassin</compoundname>
+    <innerfile refid="_base_interactable_actor_8cpp">BaseInteractableActor.cpp</innerfile>
+    <innerfile refid="_base_interactable_actor_8h">BaseInteractableActor.h</innerfile>
+    <innerfile refid="_b_p_i___interactable_8cpp">BPI_Interactable.cpp</innerfile>
+    <innerfile refid="_b_p_i___interactable_8h">BPI_Interactable.h</innerfile>
+    <innerfile refid="_combat_tags_8cpp">CombatTags.cpp</innerfile>
+    <innerfile refid="_combat_tags_8h">CombatTags.h</innerfile>
+    <innerfile refid="_crosshair_widget_8cpp">CrosshairWidget.cpp</innerfile>
+    <innerfile refid="_crosshair_widget_8h">CrosshairWidget.h</innerfile>
+    <innerfile refid="_damageable_component_8cpp">DamageableComponent.cpp</innerfile>
+    <innerfile refid="_damageable_component_8h">DamageableComponent.h</innerfile>
+    <innerfile refid="_damageable_interface_8cpp">DamageableInterface.cpp</innerfile>
+    <innerfile refid="_damageable_interface_8h">DamageableInterface.h</innerfile>
+    <innerfile refid="_f_player_frame_data_8h">FPlayerFrameData.h</innerfile>
+    <innerfile refid="_game_h_u_d_8cpp">GameHUD.cpp</innerfile>
+    <innerfile refid="_game_h_u_d_8h">GameHUD.h</innerfile>
+    <innerfile refid="_game_h_u_d_widget_8cpp">GameHUDWidget.cpp</innerfile>
+    <innerfile refid="_game_h_u_d_widget_8h">GameHUDWidget.h</innerfile>
+    <innerfile refid="_grid_canvas_widget_8cpp">GridCanvasWidget.cpp</innerfile>
+    <innerfile refid="_grid_canvas_widget_8h">GridCanvasWidget.h</innerfile>
+    <innerfile refid="_hitmarker_widget_8cpp">HitmarkerWidget.cpp</innerfile>
+    <innerfile refid="_hitmarker_widget_8h">HitmarkerWidget.h</innerfile>
+    <innerfile refid="_interaction_component_8cpp">InteractionComponent.cpp</innerfile>
+    <innerfile refid="_interaction_component_8h">InteractionComponent.h</innerfile>
+    <innerfile refid="_orbit_spectator_pawn_8cpp">OrbitSpectatorPawn.cpp</innerfile>
+    <innerfile refid="_orbit_spectator_pawn_8h">OrbitSpectatorPawn.h</innerfile>
+    <innerfile refid="_replay_recorder_component_8cpp">ReplayRecorderComponent.cpp</innerfile>
+    <innerfile refid="_replay_recorder_component_8h">ReplayRecorderComponent.h</innerfile>
+    <innerfile refid="_spectator_hud_widget_8cpp">SpectatorHudWidget.cpp</innerfile>
+    <innerfile refid="_spectator_hud_widget_8h">SpectatorHudWidget.h</innerfile>
+    <innerfile refid="_spray_pattern_u_i_widget_8cpp">SprayPatternUIWidget.cpp</innerfile>
+    <innerfile refid="_spray_pattern_u_i_widget_8h">SprayPatternUIWidget.h</innerfile>
+    <innerfile refid="_t_a_character_8cpp">TACharacter.cpp</innerfile>
+    <innerfile refid="_t_a_character_8h">TACharacter.h</innerfile>
+    <innerfile refid="_t_a_player_controller_8cpp">TAPlayerController.cpp</innerfile>
+    <innerfile refid="_t_a_player_controller_8h">TAPlayerController.h</innerfile>
+    <innerfile refid="_temporal_a_i_controller_8cpp">TemporalAIController.cpp</innerfile>
+    <innerfile refid="_temporal_a_i_controller_8h">TemporalAIController.h</innerfile>
+    <innerfile refid="_temporal_character_8cpp">TemporalCharacter.cpp</innerfile>
+    <innerfile refid="_temporal_character_8h">TemporalCharacter.h</innerfile>
+    <innerfile refid="_temporal_game_mode_8cpp">TemporalGameMode.cpp</innerfile>
+    <innerfile refid="_temporal_game_mode_8h">TemporalGameMode.h</innerfile>
+    <innerfile refid="_time_assassin_8_build_8cs">TimeAssassin.Build.cs</innerfile>
+    <innerfile refid="_time_assassin_8cpp">TimeAssassin.cpp</innerfile>
+    <innerfile refid="_time_assassin_8h">TimeAssassin.h</innerfile>
+    <innerfile refid="_weapon_component_8cpp">WeaponComponent.cpp</innerfile>
+    <innerfile refid="_weapon_component_8h">WeaponComponent.h</innerfile>
+    <innerfile refid="_weapon_data_asset_8cpp">WeaponDataAsset.cpp</innerfile>
+    <innerfile refid="_weapon_data_asset_8h">WeaponDataAsset.h</innerfile>
+    <innerfile refid="_weapon_inventory_component_8cpp">WeaponInventoryComponent.cpp</innerfile>
+    <innerfile refid="_weapon_inventory_component_8h">WeaponInventoryComponent.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/TimeAssassin/"/>
+  </compounddef>
+</doxygen>

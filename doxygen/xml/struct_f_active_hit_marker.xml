@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="struct_f_active_hit_marker" kind="struct" language="C++" prot="public">
+    <compoundname>FActiveHitMarker</compoundname>
+    <includes refid="_hitmarker_widget_8h" local="no">HitmarkerWidget.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_f_active_hit_marker_1a4e0d9e7a0b1adc1f1fdb606d9a5ae420" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FActiveHitMarker::Age</definition>
+        <argsstring></argsstring>
+        <name>Age</name>
+        <qualifiedname>FActiveHitMarker::Age</qualifiedname>
+        <initializer>= 0.f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="56" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_active_hit_marker_1a45ca0ba3e37006b3d02794ee6289474a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FActiveHitMarker::FadeTime</definition>
+        <argsstring></argsstring>
+        <name>FadeTime</name>
+        <qualifiedname>FActiveHitMarker::FadeTime</qualifiedname>
+        <initializer>= 0.15f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="57" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_active_hit_marker_1a76186e9397a7ad146ddc91b5f6f2283f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FActiveHitMarker::PopDuration</definition>
+        <argsstring></argsstring>
+        <name>PopDuration</name>
+        <qualifiedname>FActiveHitMarker::PopDuration</qualifiedname>
+        <initializer>= 0.1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="58" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_active_hit_marker_1a40dcf9dde743fa4634f90ec665e9bf1d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FActiveHitMarker::Scale</definition>
+        <argsstring></argsstring>
+        <name>Scale</name>
+        <qualifiedname>FActiveHitMarker::Scale</qualifiedname>
+        <initializer>= 1.f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="59" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_active_hit_marker_1a8743d93df437402df88e6132beff944e" prot="public" static="no" mutable="no">
+        <type>FLinearColor</type>
+        <definition>FLinearColor FActiveHitMarker::Color</definition>
+        <argsstring></argsstring>
+        <name>Color</name>
+        <qualifiedname>FActiveHitMarker::Color</qualifiedname>
+        <initializer>= FLinearColor::White</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="60" column="18" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_active_hit_marker_1afe3fd36b97f269b47316cbd269ebb34d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FActiveHitMarker::AngleJitter</definition>
+        <argsstring></argsstring>
+        <name>AngleJitter</name>
+        <qualifiedname>FActiveHitMarker::AngleJitter</qualifiedname>
+        <initializer>= 0.f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="61" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Internal data for each active hit marker. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/TimeAssassin/HitmarkerWidget.h" line="52" column="1" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="53" bodyend="62"/>
+    <listofallmembers>
+      <member refid="struct_f_active_hit_marker_1a4e0d9e7a0b1adc1f1fdb606d9a5ae420" prot="public" virt="non-virtual"><scope>FActiveHitMarker</scope><name>Age</name></member>
+      <member refid="struct_f_active_hit_marker_1afe3fd36b97f269b47316cbd269ebb34d" prot="public" virt="non-virtual"><scope>FActiveHitMarker</scope><name>AngleJitter</name></member>
+      <member refid="struct_f_active_hit_marker_1a8743d93df437402df88e6132beff944e" prot="public" virt="non-virtual"><scope>FActiveHitMarker</scope><name>Color</name></member>
+      <member refid="struct_f_active_hit_marker_1a45ca0ba3e37006b3d02794ee6289474a" prot="public" virt="non-virtual"><scope>FActiveHitMarker</scope><name>FadeTime</name></member>
+      <member refid="struct_f_active_hit_marker_1a76186e9397a7ad146ddc91b5f6f2283f" prot="public" virt="non-virtual"><scope>FActiveHitMarker</scope><name>PopDuration</name></member>
+      <member refid="struct_f_active_hit_marker_1a40dcf9dde743fa4634f90ec665e9bf1d" prot="public" virt="non-virtual"><scope>FActiveHitMarker</scope><name>Scale</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_time_assassin_editor_target" kind="class" language="C#" prot="public">
+    <compoundname>TimeAssassinEditorTarget</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TargetRules</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_time_assassin_editor_target_1a4ba487f4e53bcb8979af7ad31d1384b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TimeAssassinEditorTarget.TimeAssassinEditorTarget</definition>
+        <argsstring>(TargetInfo Target)</argsstring>
+        <name>TimeAssassinEditorTarget</name>
+        <qualifiedname>TimeAssassinEditorTarget.TimeAssassinEditorTarget</qualifiedname>
+        <param>
+          <type>TargetInfo</type>
+          <declname>Target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassinEditor.Target.cs" line="9" column="8" bodyfile="Source/TimeAssassinEditor.Target.cs" bodystart="9" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>TargetRules</label>
+      </node>
+      <node id="1">
+        <label>TimeAssassinEditorTarget</label>
+        <link refid="class_time_assassin_editor_target"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>TargetRules</label>
+      </node>
+      <node id="1">
+        <label>TimeAssassinEditorTarget</label>
+        <link refid="class_time_assassin_editor_target"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Source/TimeAssassinEditor.Target.cs" line="7" column="7" bodyfile="Source/TimeAssassinEditor.Target.cs" bodystart="8" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_time_assassin_editor_target_1a4ba487f4e53bcb8979af7ad31d1384b9" prot="public" virt="non-virtual"><scope>TimeAssassinEditorTarget</scope><name>TimeAssassinEditorTarget</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

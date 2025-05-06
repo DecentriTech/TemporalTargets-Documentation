@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="struct_f_player_frame_data" kind="struct" language="C++" prot="public">
+    <compoundname>FPlayerFrameData</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_f_player_frame_data_1aa7d6d6c4a99f0ff0dab19b2ddde1eaa9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FPlayerFrameData::TimeStamp</definition>
+        <argsstring></argsstring>
+        <name>TimeStamp</name>
+        <qualifiedname>FPlayerFrameData::TimeStamp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="129" column="11" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_player_frame_data_1ae8c3f2db3f2516246d4c0530d2220086" prot="public" static="no" mutable="no">
+        <type>FVector</type>
+        <definition>FVector FPlayerFrameData::Position</definition>
+        <argsstring></argsstring>
+        <name>Position</name>
+        <qualifiedname>FPlayerFrameData::Position</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="133" column="13" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_player_frame_data_1acb405992f31731489233f2158749b361" prot="public" static="no" mutable="no">
+        <type>FVector</type>
+        <definition>FVector FPlayerFrameData::Velocity</definition>
+        <argsstring></argsstring>
+        <name>Velocity</name>
+        <qualifiedname>FPlayerFrameData::Velocity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="137" column="13" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_player_frame_data_1a93eaa32f56a69cc27334627065c575f6" prot="public" static="no" mutable="no">
+        <type>FRotator</type>
+        <definition>FRotator FPlayerFrameData::Rotation</definition>
+        <argsstring></argsstring>
+        <name>Rotation</name>
+        <qualifiedname>FPlayerFrameData::Rotation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="141" column="14" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_player_frame_data_1a8768b296bb4d63e293d36003f2c4fa66" prot="public" static="no" mutable="no">
+        <type>EReplayActionFlags</type>
+        <definition>EReplayActionFlags FPlayerFrameData::ActionFlags</definition>
+        <argsstring></argsstring>
+        <name>ActionFlags</name>
+        <qualifiedname>FPlayerFrameData::ActionFlags</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="145" column="24" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_player_frame_data_1a99366cbe0b8fe264b6dd0b7b101075fc" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_f_interaction_data" kindref="compound">FInteractionData</ref></type>
+        <definition>FInteractionData FPlayerFrameData::InteractionData</definition>
+        <argsstring></argsstring>
+        <name>InteractionData</name>
+        <qualifiedname>FPlayerFrameData::InteractionData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="149" column="22" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_player_frame_data_1a3fa9bf4a003e8a3e02897ea1884c47ea" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_f_combat_frame_data" kindref="compound">FCombatFrameData</ref></type>
+        <definition>FCombatFrameData FPlayerFrameData::CombatData</definition>
+        <argsstring></argsstring>
+        <name>CombatData</name>
+        <qualifiedname>FPlayerFrameData::CombatData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="153" column="22" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_f_player_frame_data_1a30e7484c45b24583da3d19decfd62db6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE bool</type>
+        <definition>FORCEINLINE bool FPlayerFrameData::HasAction</definition>
+        <argsstring>(EReplayActionFlags Flag) const</argsstring>
+        <name>HasAction</name>
+        <qualifiedname>FPlayerFrameData::HasAction</qualifiedname>
+        <param>
+          <type>EReplayActionFlags</type>
+          <declname>Flag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="159" column="22" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="159" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_player_frame_data_1af923e0f7aa84bc6011327bdffb02b19c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE void</type>
+        <definition>FORCEINLINE void FPlayerFrameData::AddAction</definition>
+        <argsstring>(EReplayActionFlags Flag)</argsstring>
+        <name>AddAction</name>
+        <qualifiedname>FPlayerFrameData::AddAction</qualifiedname>
+        <param>
+          <type>EReplayActionFlags</type>
+          <declname>Flag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="164" column="22" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="164" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_f_player_frame_data_1ae771c13e9bf02675958fb44ae812635a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FORCEINLINE void</type>
+        <definition>FORCEINLINE void FPlayerFrameData::RemoveAction</definition>
+        <argsstring>(EReplayActionFlags Flag)</argsstring>
+        <name>RemoveAction</name>
+        <qualifiedname>FPlayerFrameData::RemoveAction</qualifiedname>
+        <param>
+          <type>EReplayActionFlags</type>
+          <declname>Flag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="169" column="22" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="169" bodyend="172"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>FCombatFrameData</label>
+        <link refid="struct_f_combat_frame_data"/>
+      </node>
+      <node id="2">
+        <label>FInteractionData</label>
+        <link refid="struct_f_interaction_data"/>
+      </node>
+      <node id="1">
+        <label>FPlayerFrameData</label>
+        <link refid="struct_f_player_frame_data"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>InteractionData</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>CombatData</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Source/TimeAssassin/FPlayerFrameData.h" line="121" column="1" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="122" bodyend="173"/>
+    <listofallmembers>
+      <member refid="struct_f_player_frame_data_1a8768b296bb4d63e293d36003f2c4fa66" prot="public" virt="non-virtual"><scope>FPlayerFrameData</scope><name>ActionFlags</name></member>
+      <member refid="struct_f_player_frame_data_1af923e0f7aa84bc6011327bdffb02b19c" prot="public" virt="non-virtual"><scope>FPlayerFrameData</scope><name>AddAction</name></member>
+      <member refid="struct_f_player_frame_data_1a3fa9bf4a003e8a3e02897ea1884c47ea" prot="public" virt="non-virtual"><scope>FPlayerFrameData</scope><name>CombatData</name></member>
+      <member refid="struct_f_player_frame_data_1a30e7484c45b24583da3d19decfd62db6" prot="public" virt="non-virtual"><scope>FPlayerFrameData</scope><name>HasAction</name></member>
+      <member refid="struct_f_player_frame_data_1a99366cbe0b8fe264b6dd0b7b101075fc" prot="public" virt="non-virtual"><scope>FPlayerFrameData</scope><name>InteractionData</name></member>
+      <member refid="struct_f_player_frame_data_1ae8c3f2db3f2516246d4c0530d2220086" prot="public" virt="non-virtual"><scope>FPlayerFrameData</scope><name>Position</name></member>
+      <member refid="struct_f_player_frame_data_1ae771c13e9bf02675958fb44ae812635a" prot="public" virt="non-virtual"><scope>FPlayerFrameData</scope><name>RemoveAction</name></member>
+      <member refid="struct_f_player_frame_data_1a93eaa32f56a69cc27334627065c575f6" prot="public" virt="non-virtual"><scope>FPlayerFrameData</scope><name>Rotation</name></member>
+      <member refid="struct_f_player_frame_data_1aa7d6d6c4a99f0ff0dab19b2ddde1eaa9" prot="public" virt="non-virtual"><scope>FPlayerFrameData</scope><name>TimeStamp</name></member>
+      <member refid="struct_f_player_frame_data_1acb405992f31731489233f2158749b361" prot="public" virt="non-virtual"><scope>FPlayerFrameData</scope><name>Velocity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

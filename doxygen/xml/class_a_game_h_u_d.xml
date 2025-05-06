@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_a_game_h_u_d" kind="class" language="C++" prot="public">
+    <compoundname>AGameHUD</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AHUD</basecompoundref>
+    <includes refid="_game_h_u_d_8h" local="no">GameHUD.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_a_game_h_u_d_1afd5c46afca0cd0a7abed01030d7c3088" prot="protected" static="no" mutable="no">
+        <type>TSubclassOf&lt; <ref refid="class_u_game_h_u_d_widget" kindref="compound">UGameHUDWidget</ref> &gt;</type>
+        <definition>TSubclassOf&lt;UGameHUDWidget&gt; AGameHUD::HUDWidgetClass</definition>
+        <argsstring></argsstring>
+        <name>HUDWidgetClass</name>
+        <qualifiedname>AGameHUD::HUDWidgetClass</qualifiedname>
+        <briefdescription>
+<para>Blueprint class for the root HUD widget. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GameHUD.h" line="53" column="13" bodyfile="Source/TimeAssassin/GameHUD.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_game_h_u_d_1a6ca6b11f55e41f35e94542f39ba64f0c" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_u_game_h_u_d_widget" kindref="compound">UGameHUDWidget</ref> *</type>
+        <definition>UGameHUDWidget* AGameHUD::HUDWidget</definition>
+        <argsstring></argsstring>
+        <name>HUDWidget</name>
+        <qualifiedname>AGameHUD::HUDWidget</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>Live instance of the root HUD widget (never saved). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GameHUD.h" line="57" column="16" bodyfile="Source/TimeAssassin/GameHUD.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_game_h_u_d_1a7f4f7ba57dcfc4e16a155a029a5610da" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AGameHUD::BeginPlay</definition>
+        <argsstring>() override</argsstring>
+        <name>BeginPlay</name>
+        <qualifiedname>AGameHUD::BeginPlay</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GameHUD.h" line="24" column="14" bodyfile="Source/TimeAssassin/GameHUD.cpp" bodystart="12" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_game_h_u_d_1a2a251d2a6ace5b2ad4573f3da9b25283" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AGameHUD::EndPlay</definition>
+        <argsstring>(const EEndPlayReason::Type EndPlayReason) override</argsstring>
+        <name>EndPlay</name>
+        <qualifiedname>AGameHUD::EndPlay</qualifiedname>
+        <param>
+          <type>const EEndPlayReason::Type</type>
+          <declname>EndPlayReason</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GameHUD.h" line="25" column="14" bodyfile="Source/TimeAssassin/GameHUD.cpp" bodystart="18" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_game_h_u_d_1a0b1b190f04ee3a6698e3076b806743f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AGameHUD::EnsureHUDWidget</definition>
+        <argsstring>()</argsstring>
+        <name>EnsureHUDWidget</name>
+        <qualifiedname>AGameHUD::EnsureHUDWidget</qualifiedname>
+        <briefdescription>
+<para>Make sure our UMG widget exists—now callable from outside. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GameHUD.h" line="29" column="6" bodyfile="Source/TimeAssassin/GameHUD.cpp" bodystart="30" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_game_h_u_d_1aad21b07933102a80c90ba04046ce2e45" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_u_game_h_u_d_widget" kindref="compound">UGameHUDWidget</ref> *</type>
+        <definition>UGameHUDWidget * AGameHUD::GetHUDWidget</definition>
+        <argsstring>() const</argsstring>
+        <name>GetHUDWidget</name>
+        <qualifiedname>AGameHUD::GetHUDWidget</qualifiedname>
+        <briefdescription>
+<para>Return the one-and-only HUD widget that we created. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GameHUD.h" line="33" column="16" bodyfile="Source/TimeAssassin/GameHUD.h" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_game_h_u_d_1a02c68fdaf231da2d7fedbf336bfefc2f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_u_crosshair_widget" kindref="compound">UCrosshairWidget</ref> *</type>
+        <definition>UCrosshairWidget * AGameHUD::GetCrosshairWidget</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCrosshairWidget</name>
+        <qualifiedname>AGameHUD::GetCrosshairWidget</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Crosshair widget if the HUD has been initialised. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GameHUD.h" line="37" column="18" bodyfile="Source/TimeAssassin/GameHUD.cpp" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_game_h_u_d_1a17a350470368491f6723b444ded76f1f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_u_hitmarker_widget" kindref="compound">UHitmarkerWidget</ref> *</type>
+        <definition>UHitmarkerWidget * AGameHUD::GetHitmarkerWidget</definition>
+        <argsstring>() const</argsstring>
+        <name>GetHitmarkerWidget</name>
+        <qualifiedname>AGameHUD::GetHitmarkerWidget</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Hit-marker widget if the HUD has been initialised. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GameHUD.h" line="41" column="18" bodyfile="Source/TimeAssassin/GameHUD.cpp" bodystart="54" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_game_h_u_d_1a93d4fc9c8002e711d6a503611d737120" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AGameHUD::ShowHitmarker</definition>
+        <argsstring>(const FGameplayTagContainer &amp;DamageTags)</argsstring>
+        <name>ShowHitmarker</name>
+        <qualifiedname>AGameHUD::ShowHitmarker</qualifiedname>
+        <param>
+          <type>const FGameplayTagContainer &amp;</type>
+          <declname>DamageTags</declname>
+        </param>
+        <briefdescription>
+<para>Triggers the hit-marker using the supplied damage tags. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GameHUD.h" line="45" column="6" bodyfile="Source/TimeAssassin/GameHUD.cpp" bodystart="59" bodyend="78"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Spawns the root HUD widget at BeginPlay and provides convenience accessors for common child widgets. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AGameHUD</label>
+        <link refid="class_a_game_h_u_d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AHUD</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AGameHUD</label>
+        <link refid="class_a_game_h_u_d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>HUDWidget</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AHUD</label>
+      </node>
+      <node id="3">
+        <label>UGameHUDWidget</label>
+        <link refid="class_u_game_h_u_d_widget"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>UUserWidget</label>
+      </node>
+    </collaborationgraph>
+    <location file="Source/TimeAssassin/GameHUD.h" line="19" column="1" bodyfile="Source/TimeAssassin/GameHUD.h" bodystart="20" bodyend="58"/>
+    <listofallmembers>
+      <member refid="class_a_game_h_u_d_1a7f4f7ba57dcfc4e16a155a029a5610da" prot="public" virt="virtual"><scope>AGameHUD</scope><name>BeginPlay</name></member>
+      <member refid="class_a_game_h_u_d_1a2a251d2a6ace5b2ad4573f3da9b25283" prot="public" virt="virtual"><scope>AGameHUD</scope><name>EndPlay</name></member>
+      <member refid="class_a_game_h_u_d_1a0b1b190f04ee3a6698e3076b806743f5" prot="public" virt="non-virtual"><scope>AGameHUD</scope><name>EnsureHUDWidget</name></member>
+      <member refid="class_a_game_h_u_d_1a02c68fdaf231da2d7fedbf336bfefc2f" prot="public" virt="non-virtual"><scope>AGameHUD</scope><name>GetCrosshairWidget</name></member>
+      <member refid="class_a_game_h_u_d_1a17a350470368491f6723b444ded76f1f" prot="public" virt="non-virtual"><scope>AGameHUD</scope><name>GetHitmarkerWidget</name></member>
+      <member refid="class_a_game_h_u_d_1aad21b07933102a80c90ba04046ce2e45" prot="public" virt="non-virtual"><scope>AGameHUD</scope><name>GetHUDWidget</name></member>
+      <member refid="class_a_game_h_u_d_1a6ca6b11f55e41f35e94542f39ba64f0c" prot="protected" virt="non-virtual"><scope>AGameHUD</scope><name>HUDWidget</name></member>
+      <member refid="class_a_game_h_u_d_1afd5c46afca0cd0a7abed01030d7c3088" prot="protected" virt="non-virtual"><scope>AGameHUD</scope><name>HUDWidgetClass</name></member>
+      <member refid="class_a_game_h_u_d_1a93d4fc9c8002e711d6a503611d737120" prot="public" virt="non-virtual"><scope>AGameHUD</scope><name>ShowHitmarker</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

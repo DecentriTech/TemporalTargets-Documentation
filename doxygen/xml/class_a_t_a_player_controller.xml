@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_a_t_a_player_controller" kind="class" language="C++" prot="public">
+    <compoundname>ATAPlayerController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">APlayerController</basecompoundref>
+    <includes refid="_t_a_player_controller_8h" local="no">TAPlayerController.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_a_t_a_player_controller_1acc8050138fa89fc80e3b62665bdca4c5" prot="protected" static="no" mutable="no">
+        <type>TSubclassOf&lt; <ref refid="class_u_game_h_u_d_widget" kindref="compound">UGameHUDWidget</ref> &gt;</type>
+        <definition>TSubclassOf&lt;UGameHUDWidget&gt; ATAPlayerController::HUDWidgetClass</definition>
+        <argsstring></argsstring>
+        <name>HUDWidgetClass</name>
+        <qualifiedname>ATAPlayerController::HUDWidgetClass</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TAPlayerController.h" line="38" column="17" bodyfile="Source/TimeAssassin/TAPlayerController.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_t_a_player_controller_1a68e693ffe6fca536c0a43a1a0a66f5d1" prot="protected" static="no" mutable="no">
+        <type>TSubclassOf&lt; <ref refid="class_u_spectator_hud_widget" kindref="compound">USpectatorHudWidget</ref> &gt;</type>
+        <definition>TSubclassOf&lt;USpectatorHudWidget&gt; ATAPlayerController::SpectatorHudClass</definition>
+        <argsstring></argsstring>
+        <name>SpectatorHudClass</name>
+        <qualifiedname>ATAPlayerController::SpectatorHudClass</qualifiedname>
+        <briefdescription>
+<para>Class of your Spectator HUD widget. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TAPlayerController.h" line="42" column="17" bodyfile="Source/TimeAssassin/TAPlayerController.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_t_a_player_controller_1a88f52183474917179d71bc89c3e0285c" prot="protected" static="no" mutable="no">
+        <type>TSubclassOf&lt; <ref refid="class_a_orbit_spectator_pawn" kindref="compound">AOrbitSpectatorPawn</ref> &gt;</type>
+        <definition>TSubclassOf&lt;AOrbitSpectatorPawn&gt; ATAPlayerController::OrbitSpectatorClass</definition>
+        <argsstring></argsstring>
+        <name>OrbitSpectatorClass</name>
+        <qualifiedname>ATAPlayerController::OrbitSpectatorClass</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TAPlayerController.h" line="46" column="17" bodyfile="Source/TimeAssassin/TAPlayerController.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_t_a_player_controller_1a84457526badb7685dec18920d696abaf" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ATAPlayerController::bSpectating</definition>
+        <argsstring></argsstring>
+        <name>bSpectating</name>
+        <qualifiedname>ATAPlayerController::bSpectating</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TAPlayerController.h" line="60" column="6" bodyfile="Source/TimeAssassin/TAPlayerController.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_t_a_player_controller_1a975188b647736aebaf614111638309f1" prot="private" static="no" mutable="no">
+        <type><ref refid="class_u_spectator_hud_widget" kindref="compound">USpectatorHudWidget</ref> *</type>
+        <definition>USpectatorHudWidget* ATAPlayerController::SpectatorHudInstance</definition>
+        <argsstring></argsstring>
+        <name>SpectatorHudInstance</name>
+        <qualifiedname>ATAPlayerController::SpectatorHudInstance</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>The widget instance we create when spectating. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TAPlayerController.h" line="64" column="25" bodyfile="Source/TimeAssassin/TAPlayerController.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_t_a_player_controller_1a13b843cd64fae184257089a84fc61cd3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_a_orbit_spectator_pawn" kindref="compound">AOrbitSpectatorPawn</ref> *</type>
+        <definition>AOrbitSpectatorPawn* ATAPlayerController::CurrentSpectatorPawn</definition>
+        <argsstring></argsstring>
+        <name>CurrentSpectatorPawn</name>
+        <qualifiedname>ATAPlayerController::CurrentSpectatorPawn</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TAPlayerController.h" line="68" column="25" bodyfile="Source/TimeAssassin/TAPlayerController.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_t_a_player_controller_1a6281d79c2d3aeaf731f43ad1af254536" prot="private" static="no" mutable="no">
+        <type><ref refid="class_u_game_h_u_d_widget" kindref="compound">UGameHUDWidget</ref> *</type>
+        <definition>UGameHUDWidget* ATAPlayerController::HUDWidgetInstance</definition>
+        <argsstring></argsstring>
+        <name>HUDWidgetInstance</name>
+        <qualifiedname>ATAPlayerController::HUDWidgetInstance</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TAPlayerController.h" line="72" column="20" bodyfile="Source/TimeAssassin/TAPlayerController.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_t_a_player_controller_1a0c16355f95a19b60f4f5a9e875422a16" prot="private" static="no" mutable="no">
+        <type>FTimerHandle</type>
+        <definition>FTimerHandle ATAPlayerController::SpectatorCountdownHandle</definition>
+        <argsstring></argsstring>
+        <name>SpectatorCountdownHandle</name>
+        <qualifiedname>ATAPlayerController::SpectatorCountdownHandle</qualifiedname>
+        <briefdescription>
+<para>Repeat-timer handle for updating countdown. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TAPlayerController.h" line="75" column="18" bodyfile="Source/TimeAssassin/TAPlayerController.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_t_a_player_controller_1aa660b3a0c6631cb6577d406c8db8b916" prot="private" static="no" mutable="no">
+        <type>FTimerHandle</type>
+        <definition>FTimerHandle ATAPlayerController::DeferredWidgetHandle</definition>
+        <argsstring></argsstring>
+        <name>DeferredWidgetHandle</name>
+        <qualifiedname>ATAPlayerController::DeferredWidgetHandle</qualifiedname>
+        <briefdescription>
+<para>Handle to cancel the one?shot if we unpossess early. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TAPlayerController.h" line="84" column="18" bodyfile="Source/TimeAssassin/TAPlayerController.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_t_a_player_controller_1ac367220f96fdc0b006614a0543d22d0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ATAPlayerController::ATAPlayerController</definition>
+        <argsstring>()</argsstring>
+        <name>ATAPlayerController</name>
+        <qualifiedname>ATAPlayerController::ATAPlayerController</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TAPlayerController.h" line="25" column="5" bodyfile="Source/TimeAssassin/TAPlayerController.cpp" bodystart="16" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_t_a_player_controller_1acebbc974c3f0cf3d159be38d6bac3bdd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ATAPlayerController::EnterSpectate</definition>
+        <argsstring>(AActor *KillerActor, const FVector &amp;DeathLocation)</argsstring>
+        <name>EnterSpectate</name>
+        <qualifiedname>ATAPlayerController::EnterSpectate</qualifiedname>
+        <param>
+          <type>AActor *</type>
+          <declname>KillerActor</declname>
+        </param>
+        <param>
+          <type>const FVector &amp;</type>
+          <declname>DeathLocation</declname>
+        </param>
+        <briefdescription>
+<para>Called by GameMode when we die. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TAPlayerController.h" line="28" column="10" bodyfile="Source/TimeAssassin/TAPlayerController.cpp" bodystart="22" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_t_a_player_controller_1aac506bc752f86bd3ace3915292328131" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ATAPlayerController::ExitSpectate</definition>
+        <argsstring>()</argsstring>
+        <name>ExitSpectate</name>
+        <qualifiedname>ATAPlayerController::ExitSpectate</qualifiedname>
+        <briefdescription>
+<para>Called by GameMode after respawn. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TAPlayerController.h" line="31" column="10" bodyfile="Source/TimeAssassin/TAPlayerController.cpp" bodystart="100" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_t_a_player_controller_1a46f02323a704b5629a1246902e599ca9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ATAPlayerController::IsSpectating</definition>
+        <argsstring>() const</argsstring>
+        <name>IsSpectating</name>
+        <qualifiedname>ATAPlayerController::IsSpectating</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TAPlayerController.h" line="33" column="6" bodyfile="Source/TimeAssassin/TAPlayerController.h" bodystart="33" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_a_t_a_player_controller_1ad812ec9e2a218f5d9258bbf3e1ba05a6" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ATAPlayerController::OnPossess</definition>
+        <argsstring>(APawn *InPawn) override</argsstring>
+        <name>OnPossess</name>
+        <qualifiedname>ATAPlayerController::OnPossess</qualifiedname>
+        <param>
+          <type>APawn *</type>
+          <declname>InPawn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TAPlayerController.h" line="53" column="18" bodyfile="Source/TimeAssassin/TAPlayerController.cpp" bodystart="124" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_t_a_player_controller_1a1efa4e0c4f95fdc59c59f57aaff54835" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ATAPlayerController::OnUnPossess</definition>
+        <argsstring>() override</argsstring>
+        <name>OnUnPossess</name>
+        <qualifiedname>ATAPlayerController::OnUnPossess</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TAPlayerController.h" line="56" column="18" bodyfile="Source/TimeAssassin/TAPlayerController.cpp" bodystart="244" bodyend="264"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_a_t_a_player_controller_1af200484826e01fa3d550d523f6c2a5a9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ATAPlayerController::UpdateSpectatorCountdown</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateSpectatorCountdown</name>
+        <qualifiedname>ATAPlayerController::UpdateSpectatorCountdown</qualifiedname>
+        <briefdescription>
+<para>Tick the countdown every 0.1s. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TAPlayerController.h" line="78" column="10" bodyfile="Source/TimeAssassin/TAPlayerController.cpp" bodystart="87" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_t_a_player_controller_1abe929131a3c97ef8ff6c97aad35805f0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ATAPlayerController::DeferredWidgetSetup</definition>
+        <argsstring>()</argsstring>
+        <name>DeferredWidgetSetup</name>
+        <qualifiedname>ATAPlayerController::DeferredWidgetSetup</qualifiedname>
+        <briefdescription>
+<para>Called on the next tick to wire up UI ? </para>
+        </briefdescription>
+        <detaileddescription>
+<para>pawn safely </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TAPlayerController.h" line="81" column="10" bodyfile="Source/TimeAssassin/TAPlayerController.cpp" bodystart="201" bodyend="242"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Custom PlayerController for the live player (not ghosts). </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Handles HUD creation and kicking off replay recording when in PlayMode. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>APlayerController</label>
+      </node>
+      <node id="1">
+        <label>ATAPlayerController</label>
+        <link refid="class_a_t_a_player_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>APlayerController</label>
+      </node>
+      <node id="1">
+        <label>ATAPlayerController</label>
+        <link refid="class_a_t_a_player_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Source/TimeAssassin/TAPlayerController.h" line="20" column="1" bodyfile="Source/TimeAssassin/TAPlayerController.h" bodystart="21" bodyend="85"/>
+    <listofallmembers>
+      <member refid="class_a_t_a_player_controller_1ac367220f96fdc0b006614a0543d22d0b" prot="public" virt="non-virtual"><scope>ATAPlayerController</scope><name>ATAPlayerController</name></member>
+      <member refid="class_a_t_a_player_controller_1a84457526badb7685dec18920d696abaf" prot="private" virt="non-virtual"><scope>ATAPlayerController</scope><name>bSpectating</name></member>
+      <member refid="class_a_t_a_player_controller_1a13b843cd64fae184257089a84fc61cd3" prot="private" virt="non-virtual"><scope>ATAPlayerController</scope><name>CurrentSpectatorPawn</name></member>
+      <member refid="class_a_t_a_player_controller_1aa660b3a0c6631cb6577d406c8db8b916" prot="private" virt="non-virtual"><scope>ATAPlayerController</scope><name>DeferredWidgetHandle</name></member>
+      <member refid="class_a_t_a_player_controller_1abe929131a3c97ef8ff6c97aad35805f0" prot="private" virt="non-virtual"><scope>ATAPlayerController</scope><name>DeferredWidgetSetup</name></member>
+      <member refid="class_a_t_a_player_controller_1acebbc974c3f0cf3d159be38d6bac3bdd" prot="public" virt="non-virtual"><scope>ATAPlayerController</scope><name>EnterSpectate</name></member>
+      <member refid="class_a_t_a_player_controller_1aac506bc752f86bd3ace3915292328131" prot="public" virt="non-virtual"><scope>ATAPlayerController</scope><name>ExitSpectate</name></member>
+      <member refid="class_a_t_a_player_controller_1acc8050138fa89fc80e3b62665bdca4c5" prot="protected" virt="non-virtual"><scope>ATAPlayerController</scope><name>HUDWidgetClass</name></member>
+      <member refid="class_a_t_a_player_controller_1a6281d79c2d3aeaf731f43ad1af254536" prot="private" virt="non-virtual"><scope>ATAPlayerController</scope><name>HUDWidgetInstance</name></member>
+      <member refid="class_a_t_a_player_controller_1a46f02323a704b5629a1246902e599ca9" prot="public" virt="non-virtual"><scope>ATAPlayerController</scope><name>IsSpectating</name></member>
+      <member refid="class_a_t_a_player_controller_1ad812ec9e2a218f5d9258bbf3e1ba05a6" prot="protected" virt="virtual"><scope>ATAPlayerController</scope><name>OnPossess</name></member>
+      <member refid="class_a_t_a_player_controller_1a1efa4e0c4f95fdc59c59f57aaff54835" prot="protected" virt="virtual"><scope>ATAPlayerController</scope><name>OnUnPossess</name></member>
+      <member refid="class_a_t_a_player_controller_1a88f52183474917179d71bc89c3e0285c" prot="protected" virt="non-virtual"><scope>ATAPlayerController</scope><name>OrbitSpectatorClass</name></member>
+      <member refid="class_a_t_a_player_controller_1a0c16355f95a19b60f4f5a9e875422a16" prot="private" virt="non-virtual"><scope>ATAPlayerController</scope><name>SpectatorCountdownHandle</name></member>
+      <member refid="class_a_t_a_player_controller_1a68e693ffe6fca536c0a43a1a0a66f5d1" prot="protected" virt="non-virtual"><scope>ATAPlayerController</scope><name>SpectatorHudClass</name></member>
+      <member refid="class_a_t_a_player_controller_1a975188b647736aebaf614111638309f1" prot="private" virt="non-virtual"><scope>ATAPlayerController</scope><name>SpectatorHudInstance</name></member>
+      <member refid="class_a_t_a_player_controller_1af200484826e01fa3d550d523f6c2a5a9" prot="private" virt="non-virtual"><scope>ATAPlayerController</scope><name>UpdateSpectatorCountdown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,586 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_a_t_a_character" kind="class" language="C++" prot="public">
+    <compoundname>ATACharacter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ACharacter</basecompoundref>
+    <basecompoundref refid="class_i_b_p_i___interactable" prot="public" virt="non-virtual">IBPI_Interactable</basecompoundref>
+    <basecompoundref refid="class_i_damageable_interface" prot="public" virt="non-virtual">IDamageableInterface</basecompoundref>
+    <derivedcompoundref refid="class_a_temporal_character" prot="public" virt="non-virtual">ATemporalCharacter</derivedcompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_a_t_a_character_1a6ff4a5f349e1e0763f93dd4e19973e55" prot="public" static="no" mutable="no">
+        <type>UInputAction *</type>
+        <definition>UInputAction* ATACharacter::InteractAction</definition>
+        <argsstring></argsstring>
+        <name>InteractAction</name>
+        <qualifiedname>ATACharacter::InteractAction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="73" column="14" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_t_a_character_1a56776084952303233b7060add1200b61" prot="public" static="no" mutable="no">
+        <type>UInputAction *</type>
+        <definition>UInputAction* ATACharacter::ShootAction</definition>
+        <argsstring></argsstring>
+        <name>ShootAction</name>
+        <qualifiedname>ATACharacter::ShootAction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="76" column="14" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_t_a_character_1a12869ea76eaafb37b28c609c732d920e" prot="public" static="no" mutable="no">
+        <type>UInputAction *</type>
+        <definition>UInputAction* ATACharacter::SwitchWeaponAction</definition>
+        <argsstring></argsstring>
+        <name>SwitchWeaponAction</name>
+        <qualifiedname>ATACharacter::SwitchWeaponAction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="79" column="14" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_t_a_character_1afa12289fec485e8ac989d377f3b9ece6" prot="public" static="no" mutable="no">
+        <type>UInputAction *</type>
+        <definition>UInputAction* ATACharacter::ReloadAction</definition>
+        <argsstring></argsstring>
+        <name>ReloadAction</name>
+        <qualifiedname>ATACharacter::ReloadAction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="82" column="14" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_t_a_character_1a3b32ca6e09c69e99999ea9c66fe712dc" prot="public" static="no" mutable="no">
+        <type>UInputMappingContext *</type>
+        <definition>UInputMappingContext* ATACharacter::InputMappingContext</definition>
+        <argsstring></argsstring>
+        <name>InputMappingContext</name>
+        <qualifiedname>ATACharacter::InputMappingContext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="85" column="22" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_t_a_character_1a5d445cc065fe5e3bd04fd8b00c82028d" prot="public" static="no" mutable="no">
+        <type>UInteractionComponent *</type>
+        <definition>UInteractionComponent* ATACharacter::InteractionComponent</definition>
+        <argsstring></argsstring>
+        <name>InteractionComponent</name>
+        <qualifiedname>ATACharacter::InteractionComponent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="89" column="23" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_t_a_character_1a2a904c02b55c2da7d1fef9a03289f456" prot="public" static="no" mutable="no">
+        <type>UWeaponComponent *</type>
+        <definition>UWeaponComponent* ATACharacter::WeaponComponent</definition>
+        <argsstring></argsstring>
+        <name>WeaponComponent</name>
+        <qualifiedname>ATACharacter::WeaponComponent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="92" column="18" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_t_a_character_1a666442dd8f14913d33e191711aa9e793" prot="public" static="no" mutable="no">
+        <type>UWeaponInventoryComponent *</type>
+        <definition>UWeaponInventoryComponent* ATACharacter::WeaponInventoryComponent</definition>
+        <argsstring></argsstring>
+        <name>WeaponInventoryComponent</name>
+        <qualifiedname>ATACharacter::WeaponInventoryComponent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="95" column="27" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_t_a_character_1ae55321ef89f0bcf840071cd5d06ca0ee" prot="public" static="no" mutable="no">
+        <type>UReplayRecorderComponent *</type>
+        <definition>UReplayRecorderComponent* ATACharacter::ReplayRecorder</definition>
+        <argsstring></argsstring>
+        <name>ReplayRecorder</name>
+        <qualifiedname>ATACharacter::ReplayRecorder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="98" column="26" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_t_a_character_1afe2dbc1676b59d86446674fce889bf50" prot="public" static="no" mutable="no">
+        <type>UDamageableComponent *</type>
+        <definition>UDamageableComponent* ATACharacter::DamageComponent</definition>
+        <argsstring></argsstring>
+        <name>DamageComponent</name>
+        <qualifiedname>ATACharacter::DamageComponent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="101" column="22" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_t_a_character_1ad65d33a9d03a16c6e29c4704a2597651" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ATACharacter::bIsMoving</definition>
+        <argsstring></argsstring>
+        <name>bIsMoving</name>
+        <qualifiedname>ATACharacter::bIsMoving</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="105" column="6" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_t_a_character_1af65fa3db755797178b6ff37a85106a35" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ATACharacter::bIsAirborne</definition>
+        <argsstring></argsstring>
+        <name>bIsAirborne</name>
+        <qualifiedname>ATACharacter::bIsAirborne</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="108" column="6" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_t_a_character_1a70cf14400b33049edd3255fad8b4a23a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ATACharacter::bIsJumping</definition>
+        <argsstring></argsstring>
+        <name>bIsJumping</name>
+        <qualifiedname>ATACharacter::bIsJumping</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="111" column="6" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_t_a_character_1a8185ed66c282be6328391c99c4c0d3db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ATACharacter::ATACharacter</definition>
+        <argsstring>()</argsstring>
+        <name>ATACharacter</name>
+        <qualifiedname>ATACharacter::ATACharacter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="28" column="1" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="17" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_t_a_character_1a0b3303649f2c9d56f5107fbacae47c2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ATACharacter::RegisterInteractable_Implementation</definition>
+        <argsstring>(AActor *Interactable) override</argsstring>
+        <name>RegisterInteractable_Implementation</name>
+        <qualifiedname>ATACharacter::RegisterInteractable_Implementation</qualifiedname>
+        <param>
+          <type>AActor *</type>
+          <declname>Interactable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="30" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="154" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_t_a_character_1a31fded5f24f008951aae1f564dd8f44d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ATACharacter::UnregisterInteractable_Implementation</definition>
+        <argsstring>(AActor *Interactable) override</argsstring>
+        <name>UnregisterInteractable_Implementation</name>
+        <qualifiedname>ATACharacter::UnregisterInteractable_Implementation</qualifiedname>
+        <param>
+          <type>AActor *</type>
+          <declname>Interactable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="31" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="162" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_t_a_character_1a5b61351d0c222bfdc0103b8b74e08082" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ATACharacter::Interact_Implementation</definition>
+        <argsstring>(AActor *Interactor) override</argsstring>
+        <name>Interact_Implementation</name>
+        <qualifiedname>ATACharacter::Interact_Implementation</qualifiedname>
+        <param>
+          <type>AActor *</type>
+          <declname>Interactor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="32" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="170" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_t_a_character_1acbc7c6743e7998be329f874f1f23fc66" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ATACharacter::CanInteract_Implementation</definition>
+        <argsstring>(AActor *Interactor) override</argsstring>
+        <name>CanInteract_Implementation</name>
+        <qualifiedname>ATACharacter::CanInteract_Implementation</qualifiedname>
+        <param>
+          <type>AActor *</type>
+          <declname>Interactor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="33" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="174" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_t_a_character_1a007eb1ccba227843acd147822276182b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ATACharacter::TakeDamage_Implementation</definition>
+        <argsstring>(const FDamageInfo &amp;DamageInfo) override</argsstring>
+        <name>TakeDamage_Implementation</name>
+        <qualifiedname>ATACharacter::TakeDamage_Implementation</qualifiedname>
+        <param>
+          <type>const <ref refid="struct_f_damage_info" kindref="compound">FDamageInfo</ref> &amp;</type>
+          <declname>DamageInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="37" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="179" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_t_a_character_1a8f5472dbf55dcaf449150571a59ba922" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ATACharacter::OnDamaged_Implementation</definition>
+        <argsstring>(float NewHealth, float DamageAmount) override</argsstring>
+        <name>OnDamaged_Implementation</name>
+        <qualifiedname>ATACharacter::OnDamaged_Implementation</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>NewHealth</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>DamageAmount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="38" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="191" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_t_a_character_1afb090e9a0e5122c871721a8ca6fc5b4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ATACharacter::OnKilled_Implementation</definition>
+        <argsstring>(AActor *DamageInstigator) override</argsstring>
+        <name>OnKilled_Implementation</name>
+        <qualifiedname>ATACharacter::OnKilled_Implementation</qualifiedname>
+        <param>
+          <type>AActor *</type>
+          <declname>DamageInstigator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="39" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="198" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_t_a_character_1a51a71d6715cb82dbbc4e0853bb5aebf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ATACharacter::Tick</definition>
+        <argsstring>(float DeltaTime) override</argsstring>
+        <name>Tick</name>
+        <qualifiedname>ATACharacter::Tick</qualifiedname>
+        <reimplementedby refid="class_a_temporal_character_1a4ceee8241c27f2e30ea2aa494cd4af94">Tick</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>DeltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="50" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="66" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_t_a_character_1abf0a2c3e9f2c3cb6d1b90d9c61d3ce6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ATACharacter::SetupPlayerInputComponent</definition>
+        <argsstring>(class UInputComponent *PlayerInputComponent) override</argsstring>
+        <name>SetupPlayerInputComponent</name>
+        <qualifiedname>ATACharacter::SetupPlayerInputComponent</qualifiedname>
+        <param>
+          <type>class UInputComponent *</type>
+          <declname>PlayerInputComponent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="53" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="82" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_t_a_character_1a72d7a056dc34a8d78851ae798665f459" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ATACharacter::HandleInteract</definition>
+        <argsstring>(const FInputActionInstance &amp;Instance)</argsstring>
+        <name>HandleInteract</name>
+        <qualifiedname>ATACharacter::HandleInteract</qualifiedname>
+        <param>
+          <type>const FInputActionInstance &amp;</type>
+          <declname>Instance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="56" column="6" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="111" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_t_a_character_1a9a11c73ee847ca8b9044b743f8546eaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ATACharacter::StartFiring</definition>
+        <argsstring>()</argsstring>
+        <name>StartFiring</name>
+        <qualifiedname>ATACharacter::StartFiring</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="59" column="6" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="122" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_t_a_character_1afacada742a789a7c3e3f30e13e09ff87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ATACharacter::StopFiring</definition>
+        <argsstring>()</argsstring>
+        <name>StopFiring</name>
+        <qualifiedname>ATACharacter::StopFiring</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="62" column="6" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="130" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_t_a_character_1a2e0c752c342bae3c9440ee782c5a41b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ATACharacter::HandleSwitchWeapon</definition>
+        <argsstring>()</argsstring>
+        <name>HandleSwitchWeapon</name>
+        <qualifiedname>ATACharacter::HandleSwitchWeapon</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="65" column="6" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="138" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_t_a_character_1a5f3a7acaee16dd379c919c2e90beef42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ATACharacter::HandleReload</definition>
+        <argsstring>()</argsstring>
+        <name>HandleReload</name>
+        <qualifiedname>ATACharacter::HandleReload</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="68" column="6" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="146" bodyend="152"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_a_t_a_character_1a1d467ce9f55b11cbcc2c8f26279fb793" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ATACharacter::BeginPlay</definition>
+        <argsstring>() override</argsstring>
+        <name>BeginPlay</name>
+        <qualifiedname>ATACharacter::BeginPlay</qualifiedname>
+        <reimplementedby refid="class_a_temporal_character_1a67a3cec0d56a486a1a53894e5214bb58">BeginPlay</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="43" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="33" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_t_a_character_1adcf843d2647ef856dd447b67e14cece4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ATACharacter::FellOutOfWorld</definition>
+        <argsstring>(const UDamageType &amp;dmgType) override</argsstring>
+        <name>FellOutOfWorld</name>
+        <qualifiedname>ATACharacter::FellOutOfWorld</qualifiedname>
+        <param>
+          <type>const UDamageType &amp;</type>
+          <declname>dmgType</declname>
+        </param>
+        <briefdescription>
+<para>Catch Kill-Z via the engine’s world-bounds check. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TACharacter.h" line="46" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="46" bodyend="63"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ACharacter</label>
+      </node>
+      <node id="1">
+        <label>ATACharacter</label>
+        <link refid="class_a_t_a_character"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>ATemporalCharacter</label>
+        <link refid="class_a_temporal_character"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IBPI_Interactable</label>
+        <link refid="class_i_b_p_i___interactable"/>
+      </node>
+      <node id="4">
+        <label>IDamageableInterface</label>
+        <link refid="class_i_damageable_interface"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ACharacter</label>
+      </node>
+      <node id="1">
+        <label>ATACharacter</label>
+        <link refid="class_a_t_a_character"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IBPI_Interactable</label>
+        <link refid="class_i_b_p_i___interactable"/>
+      </node>
+      <node id="4">
+        <label>IDamageableInterface</label>
+        <link refid="class_i_damageable_interface"/>
+      </node>
+    </collaborationgraph>
+    <location file="Source/TimeAssassin/TACharacter.h" line="22" column="1" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="23" bodyend="114"/>
+    <listofallmembers>
+      <member refid="class_a_t_a_character_1a8185ed66c282be6328391c99c4c0d3db" prot="public" virt="non-virtual"><scope>ATACharacter</scope><name>ATACharacter</name></member>
+      <member refid="class_a_t_a_character_1a1d467ce9f55b11cbcc2c8f26279fb793" prot="protected" virt="virtual"><scope>ATACharacter</scope><name>BeginPlay</name></member>
+      <member refid="class_a_t_a_character_1af65fa3db755797178b6ff37a85106a35" prot="public" virt="non-virtual"><scope>ATACharacter</scope><name>bIsAirborne</name></member>
+      <member refid="class_a_t_a_character_1a70cf14400b33049edd3255fad8b4a23a" prot="public" virt="non-virtual"><scope>ATACharacter</scope><name>bIsJumping</name></member>
+      <member refid="class_a_t_a_character_1ad65d33a9d03a16c6e29c4704a2597651" prot="public" virt="non-virtual"><scope>ATACharacter</scope><name>bIsMoving</name></member>
+      <member refid="class_i_b_p_i___interactable_1a4523add71e08c3c4fb8fc17e80871228" prot="public" virt="non-virtual"><scope>ATACharacter</scope><name>CanInteract</name></member>
+      <member refid="class_a_t_a_character_1acbc7c6743e7998be329f874f1f23fc66" prot="public" virt="virtual"><scope>ATACharacter</scope><name>CanInteract_Implementation</name></member>
+      <member refid="class_a_t_a_character_1afe2dbc1676b59d86446674fce889bf50" prot="public" virt="non-virtual"><scope>ATACharacter</scope><name>DamageComponent</name></member>
+      <member refid="class_a_t_a_character_1adcf843d2647ef856dd447b67e14cece4" prot="protected" virt="virtual"><scope>ATACharacter</scope><name>FellOutOfWorld</name></member>
+      <member refid="class_a_t_a_character_1a72d7a056dc34a8d78851ae798665f459" prot="public" virt="non-virtual"><scope>ATACharacter</scope><name>HandleInteract</name></member>
+      <member refid="class_a_t_a_character_1a5f3a7acaee16dd379c919c2e90beef42" prot="public" virt="non-virtual"><scope>ATACharacter</scope><name>HandleReload</name></member>
+      <member refid="class_a_t_a_character_1a2e0c752c342bae3c9440ee782c5a41b4" prot="public" virt="non-virtual"><scope>ATACharacter</scope><name>HandleSwitchWeapon</name></member>
+      <member refid="class_a_t_a_character_1a3b32ca6e09c69e99999ea9c66fe712dc" prot="public" virt="non-virtual"><scope>ATACharacter</scope><name>InputMappingContext</name></member>
+      <member refid="class_i_b_p_i___interactable_1a7ec0a61b62ce23602812e10aaf3ddd91" prot="public" virt="non-virtual"><scope>ATACharacter</scope><name>Interact</name></member>
+      <member refid="class_a_t_a_character_1a5b61351d0c222bfdc0103b8b74e08082" prot="public" virt="virtual"><scope>ATACharacter</scope><name>Interact_Implementation</name></member>
+      <member refid="class_a_t_a_character_1a6ff4a5f349e1e0763f93dd4e19973e55" prot="public" virt="non-virtual"><scope>ATACharacter</scope><name>InteractAction</name></member>
+      <member refid="class_a_t_a_character_1a5d445cc065fe5e3bd04fd8b00c82028d" prot="public" virt="non-virtual"><scope>ATACharacter</scope><name>InteractionComponent</name></member>
+      <member refid="class_i_damageable_interface_1aa2527dc978acb578318f79c3704b6679" prot="public" virt="non-virtual"><scope>ATACharacter</scope><name>OnDamaged</name></member>
+      <member refid="class_a_t_a_character_1a8f5472dbf55dcaf449150571a59ba922" prot="public" virt="virtual"><scope>ATACharacter</scope><name>OnDamaged_Implementation</name></member>
+      <member refid="class_i_damageable_interface_1a9f9b8a6fb04274b8b2418423c31b823c" prot="public" virt="non-virtual"><scope>ATACharacter</scope><name>OnKilled</name></member>
+      <member refid="class_a_t_a_character_1afb090e9a0e5122c871721a8ca6fc5b4e" prot="public" virt="virtual"><scope>ATACharacter</scope><name>OnKilled_Implementation</name></member>
+      <member refid="class_i_b_p_i___interactable_1a6dbcd508bbeea9c1bddae5f8ef2fa721" prot="public" virt="non-virtual"><scope>ATACharacter</scope><name>RegisterInteractable</name></member>
+      <member refid="class_a_t_a_character_1a0b3303649f2c9d56f5107fbacae47c2b" prot="public" virt="virtual"><scope>ATACharacter</scope><name>RegisterInteractable_Implementation</name></member>
+      <member refid="class_a_t_a_character_1afa12289fec485e8ac989d377f3b9ece6" prot="public" virt="non-virtual"><scope>ATACharacter</scope><name>ReloadAction</name></member>
+      <member refid="class_a_t_a_character_1ae55321ef89f0bcf840071cd5d06ca0ee" prot="public" virt="non-virtual"><scope>ATACharacter</scope><name>ReplayRecorder</name></member>
+      <member refid="class_a_t_a_character_1abf0a2c3e9f2c3cb6d1b90d9c61d3ce6d" prot="public" virt="virtual"><scope>ATACharacter</scope><name>SetupPlayerInputComponent</name></member>
+      <member refid="class_a_t_a_character_1a56776084952303233b7060add1200b61" prot="public" virt="non-virtual"><scope>ATACharacter</scope><name>ShootAction</name></member>
+      <member refid="class_a_t_a_character_1a9a11c73ee847ca8b9044b743f8546eaa" prot="public" virt="non-virtual"><scope>ATACharacter</scope><name>StartFiring</name></member>
+      <member refid="class_a_t_a_character_1afacada742a789a7c3e3f30e13e09ff87" prot="public" virt="non-virtual"><scope>ATACharacter</scope><name>StopFiring</name></member>
+      <member refid="class_a_t_a_character_1a12869ea76eaafb37b28c609c732d920e" prot="public" virt="non-virtual"><scope>ATACharacter</scope><name>SwitchWeaponAction</name></member>
+      <member refid="class_i_damageable_interface_1a1f6318dd8d764d86d152bafcceeaf950" prot="public" virt="non-virtual"><scope>ATACharacter</scope><name>TakeDamage</name></member>
+      <member refid="class_a_t_a_character_1a007eb1ccba227843acd147822276182b" prot="public" virt="virtual"><scope>ATACharacter</scope><name>TakeDamage_Implementation</name></member>
+      <member refid="class_a_t_a_character_1a51a71d6715cb82dbbc4e0853bb5aebf7" prot="public" virt="virtual"><scope>ATACharacter</scope><name>Tick</name></member>
+      <member refid="class_i_b_p_i___interactable_1a54557ad43cce970953a261e90c45c3c7" prot="public" virt="non-virtual"><scope>ATACharacter</scope><name>UnregisterInteractable</name></member>
+      <member refid="class_a_t_a_character_1a31fded5f24f008951aae1f564dd8f44d" prot="public" virt="virtual"><scope>ATACharacter</scope><name>UnregisterInteractable_Implementation</name></member>
+      <member refid="class_a_t_a_character_1a2a904c02b55c2da7d1fef9a03289f456" prot="public" virt="non-virtual"><scope>ATACharacter</scope><name>WeaponComponent</name></member>
+      <member refid="class_a_t_a_character_1a666442dd8f14913d33e191711aa9e793" prot="public" virt="non-virtual"><scope>ATACharacter</scope><name>WeaponInventoryComponent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

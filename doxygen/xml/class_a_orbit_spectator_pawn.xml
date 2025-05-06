@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_a_orbit_spectator_pawn" kind="class" language="C++" prot="public">
+    <compoundname>AOrbitSpectatorPawn</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ASpectatorPawn</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_orbit_spectator_pawn_1a24c5e1186db9f8e8e7bf60993ea45405" prot="private" static="no" mutable="no">
+        <type>AActor *</type>
+        <definition>AActor* AOrbitSpectatorPawn::TargetActor</definition>
+        <argsstring></argsstring>
+        <name>TargetActor</name>
+        <qualifiedname>AOrbitSpectatorPawn::TargetActor</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/OrbitSpectatorPawn.h" line="33" column="12" bodyfile="Source/TimeAssassin/OrbitSpectatorPawn.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_orbit_spectator_pawn_1a553f1235c13d69a4dcdd5309e76c9b01" prot="private" static="no" mutable="no">
+        <type>FVector</type>
+        <definition>FVector AOrbitSpectatorPawn::StartLocation</definition>
+        <argsstring></argsstring>
+        <name>StartLocation</name>
+        <qualifiedname>AOrbitSpectatorPawn::StartLocation</qualifiedname>
+        <initializer>= FVector::ZeroVector</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/OrbitSpectatorPawn.h" line="34" column="15" bodyfile="Source/TimeAssassin/OrbitSpectatorPawn.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_orbit_spectator_pawn_1ab3ef177c965bc7ce3b40b92805eb2ab3" prot="private" static="no" mutable="no">
+        <type>FVector</type>
+        <definition>FVector AOrbitSpectatorPawn::TargetOffset</definition>
+        <argsstring></argsstring>
+        <name>TargetOffset</name>
+        <qualifiedname>AOrbitSpectatorPawn::TargetOffset</qualifiedname>
+        <initializer>= FVector(-400, 0, 200)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/OrbitSpectatorPawn.h" line="35" column="15" bodyfile="Source/TimeAssassin/OrbitSpectatorPawn.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_orbit_spectator_pawn_1a693da49425407f0e913d7e094cbaddba" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AOrbitSpectatorPawn::BlendTime</definition>
+        <argsstring></argsstring>
+        <name>BlendTime</name>
+        <qualifiedname>AOrbitSpectatorPawn::BlendTime</qualifiedname>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/OrbitSpectatorPawn.h" line="36" column="15" bodyfile="Source/TimeAssassin/OrbitSpectatorPawn.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_orbit_spectator_pawn_1aaecfbda766d799e1f59053e6acaacbd3" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AOrbitSpectatorPawn::ElapsedTime</definition>
+        <argsstring></argsstring>
+        <name>ElapsedTime</name>
+        <qualifiedname>AOrbitSpectatorPawn::ElapsedTime</qualifiedname>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/OrbitSpectatorPawn.h" line="37" column="15" bodyfile="Source/TimeAssassin/OrbitSpectatorPawn.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_orbit_spectator_pawn_1ac797da67ea2d26ca211fbe0972572d07" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AOrbitSpectatorPawn::bRightClickDown</definition>
+        <argsstring></argsstring>
+        <name>bRightClickDown</name>
+        <qualifiedname>AOrbitSpectatorPawn::bRightClickDown</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/OrbitSpectatorPawn.h" line="40" column="10" bodyfile="Source/TimeAssassin/OrbitSpectatorPawn.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_orbit_spectator_pawn_1a9d1fd76358ac9c797677b01fb056ae07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AOrbitSpectatorPawn::AOrbitSpectatorPawn</definition>
+        <argsstring>()</argsstring>
+        <name>AOrbitSpectatorPawn</name>
+        <qualifiedname>AOrbitSpectatorPawn::AOrbitSpectatorPawn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/OrbitSpectatorPawn.h" line="18" column="5" bodyfile="Source/TimeAssassin/OrbitSpectatorPawn.cpp" bodystart="10" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_orbit_spectator_pawn_1a042f83ca27a30c6510b1905153132a6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AOrbitSpectatorPawn::InitializeSpectator</definition>
+        <argsstring>(AActor *KillerActor, FVector DeathLocation)</argsstring>
+        <name>InitializeSpectator</name>
+        <qualifiedname>AOrbitSpectatorPawn::InitializeSpectator</qualifiedname>
+        <param>
+          <type>AActor *</type>
+          <declname>KillerActor</declname>
+        </param>
+        <param>
+          <type>FVector</type>
+          <declname>DeathLocation</declname>
+        </param>
+        <briefdescription>
+<para>Must be called right after spawn. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/OrbitSpectatorPawn.h" line="21" column="10" bodyfile="Source/TimeAssassin/OrbitSpectatorPawn.cpp" bodystart="24" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_a_orbit_spectator_pawn_1a6ff10f6847b2bfb48e9cee76f4c4ac38" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AOrbitSpectatorPawn::Tick</definition>
+        <argsstring>(float DeltaSeconds) override</argsstring>
+        <name>Tick</name>
+        <qualifiedname>AOrbitSpectatorPawn::Tick</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>DeltaSeconds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/OrbitSpectatorPawn.h" line="24" column="18" bodyfile="Source/TimeAssassin/OrbitSpectatorPawn.cpp" bodystart="33" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_orbit_spectator_pawn_1a0a3d0a7226853cfbb5f5396f0120e058" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AOrbitSpectatorPawn::SetupPlayerInputComponent</definition>
+        <argsstring>(UInputComponent *PlayerInput) override</argsstring>
+        <name>SetupPlayerInputComponent</name>
+        <qualifiedname>AOrbitSpectatorPawn::SetupPlayerInputComponent</qualifiedname>
+        <param>
+          <type>UInputComponent *</type>
+          <declname>PlayerInput</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/OrbitSpectatorPawn.h" line="25" column="18" bodyfile="Source/TimeAssassin/OrbitSpectatorPawn.cpp" bodystart="57" bodyend="65"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_a_orbit_spectator_pawn_1ae287860c8c1b39c3e0bcda151b22749e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AOrbitSpectatorPawn::UPROPERTY</definition>
+        <argsstring>(VisibleAnywhere) USpringArmComponent *SpringArm</argsstring>
+        <name>UPROPERTY</name>
+        <qualifiedname>AOrbitSpectatorPawn::UPROPERTY</qualifiedname>
+        <param>
+          <type>VisibleAnywhere</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/OrbitSpectatorPawn.h" line="29" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_orbit_spectator_pawn_1a7066f8a96c6dd47664d25d0fbadf1852" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AOrbitSpectatorPawn::UPROPERTY</definition>
+        <argsstring>(VisibleAnywhere) UCameraComponent *Camera</argsstring>
+        <name>UPROPERTY</name>
+        <qualifiedname>AOrbitSpectatorPawn::UPROPERTY</qualifiedname>
+        <param>
+          <type>VisibleAnywhere</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/OrbitSpectatorPawn.h" line="30" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_orbit_spectator_pawn_1a6aca1b24b25674e136932f6f6e0893c7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AOrbitSpectatorPawn::OnRightClickPressed</definition>
+        <argsstring>()</argsstring>
+        <name>OnRightClickPressed</name>
+        <qualifiedname>AOrbitSpectatorPawn::OnRightClickPressed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/OrbitSpectatorPawn.h" line="41" column="10" bodyfile="Source/TimeAssassin/OrbitSpectatorPawn.cpp" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_orbit_spectator_pawn_1adef65ae289cfb699b4ebd789ed685772" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AOrbitSpectatorPawn::OnRightClickReleased</definition>
+        <argsstring>()</argsstring>
+        <name>OnRightClickReleased</name>
+        <qualifiedname>AOrbitSpectatorPawn::OnRightClickReleased</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/OrbitSpectatorPawn.h" line="42" column="10" bodyfile="Source/TimeAssassin/OrbitSpectatorPawn.cpp" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_orbit_spectator_pawn_1a7f011c556cfa6b50321ea81b1de02508" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AOrbitSpectatorPawn::Turn</definition>
+        <argsstring>(float Val)</argsstring>
+        <name>Turn</name>
+        <qualifiedname>AOrbitSpectatorPawn::Turn</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>Val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/OrbitSpectatorPawn.h" line="43" column="10" bodyfile="Source/TimeAssassin/OrbitSpectatorPawn.cpp" bodystart="76" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_orbit_spectator_pawn_1aefbf372b355599d61fedb37802625440" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AOrbitSpectatorPawn::LookUp</definition>
+        <argsstring>(float Val)</argsstring>
+        <name>LookUp</name>
+        <qualifiedname>AOrbitSpectatorPawn::LookUp</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>Val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/OrbitSpectatorPawn.h" line="44" column="10" bodyfile="Source/TimeAssassin/OrbitSpectatorPawn.cpp" bodystart="82" bodyend="90"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AOrbitSpectatorPawn</label>
+        <link refid="class_a_orbit_spectator_pawn"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ASpectatorPawn</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AOrbitSpectatorPawn</label>
+        <link refid="class_a_orbit_spectator_pawn"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ASpectatorPawn</label>
+      </node>
+    </collaborationgraph>
+    <location file="Source/TimeAssassin/OrbitSpectatorPawn.h" line="13" column="1" bodyfile="Source/TimeAssassin/OrbitSpectatorPawn.h" bodystart="14" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_a_orbit_spectator_pawn_1a9d1fd76358ac9c797677b01fb056ae07" prot="public" virt="non-virtual"><scope>AOrbitSpectatorPawn</scope><name>AOrbitSpectatorPawn</name></member>
+      <member refid="class_a_orbit_spectator_pawn_1a693da49425407f0e913d7e094cbaddba" prot="private" virt="non-virtual"><scope>AOrbitSpectatorPawn</scope><name>BlendTime</name></member>
+      <member refid="class_a_orbit_spectator_pawn_1ac797da67ea2d26ca211fbe0972572d07" prot="private" virt="non-virtual"><scope>AOrbitSpectatorPawn</scope><name>bRightClickDown</name></member>
+      <member refid="class_a_orbit_spectator_pawn_1aaecfbda766d799e1f59053e6acaacbd3" prot="private" virt="non-virtual"><scope>AOrbitSpectatorPawn</scope><name>ElapsedTime</name></member>
+      <member refid="class_a_orbit_spectator_pawn_1a042f83ca27a30c6510b1905153132a6b" prot="public" virt="non-virtual"><scope>AOrbitSpectatorPawn</scope><name>InitializeSpectator</name></member>
+      <member refid="class_a_orbit_spectator_pawn_1aefbf372b355599d61fedb37802625440" prot="private" virt="non-virtual"><scope>AOrbitSpectatorPawn</scope><name>LookUp</name></member>
+      <member refid="class_a_orbit_spectator_pawn_1a6aca1b24b25674e136932f6f6e0893c7" prot="private" virt="non-virtual"><scope>AOrbitSpectatorPawn</scope><name>OnRightClickPressed</name></member>
+      <member refid="class_a_orbit_spectator_pawn_1adef65ae289cfb699b4ebd789ed685772" prot="private" virt="non-virtual"><scope>AOrbitSpectatorPawn</scope><name>OnRightClickReleased</name></member>
+      <member refid="class_a_orbit_spectator_pawn_1a0a3d0a7226853cfbb5f5396f0120e058" prot="protected" virt="virtual"><scope>AOrbitSpectatorPawn</scope><name>SetupPlayerInputComponent</name></member>
+      <member refid="class_a_orbit_spectator_pawn_1a553f1235c13d69a4dcdd5309e76c9b01" prot="private" virt="non-virtual"><scope>AOrbitSpectatorPawn</scope><name>StartLocation</name></member>
+      <member refid="class_a_orbit_spectator_pawn_1a24c5e1186db9f8e8e7bf60993ea45405" prot="private" virt="non-virtual"><scope>AOrbitSpectatorPawn</scope><name>TargetActor</name></member>
+      <member refid="class_a_orbit_spectator_pawn_1ab3ef177c965bc7ce3b40b92805eb2ab3" prot="private" virt="non-virtual"><scope>AOrbitSpectatorPawn</scope><name>TargetOffset</name></member>
+      <member refid="class_a_orbit_spectator_pawn_1a6ff10f6847b2bfb48e9cee76f4c4ac38" prot="protected" virt="virtual"><scope>AOrbitSpectatorPawn</scope><name>Tick</name></member>
+      <member refid="class_a_orbit_spectator_pawn_1a7f011c556cfa6b50321ea81b1de02508" prot="private" virt="non-virtual"><scope>AOrbitSpectatorPawn</scope><name>Turn</name></member>
+      <member refid="class_a_orbit_spectator_pawn_1ae287860c8c1b39c3e0bcda151b22749e" prot="private" virt="non-virtual"><scope>AOrbitSpectatorPawn</scope><name>UPROPERTY</name></member>
+      <member refid="class_a_orbit_spectator_pawn_1a7066f8a96c6dd47664d25d0fbadf1852" prot="private" virt="non-virtual"><scope>AOrbitSpectatorPawn</scope><name>UPROPERTY</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

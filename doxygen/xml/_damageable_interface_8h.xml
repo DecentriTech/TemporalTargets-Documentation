@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="_damageable_interface_8h" kind="file" language="C++">
+    <compoundname>DamageableInterface.h</compoundname>
+    <includes local="yes">CoreMinimal.h</includes>
+    <includes local="yes">UObject/Interface.h</includes>
+    <includes refid="_damageable_component_8h" local="yes">DamageableComponent.h</includes>
+    <includes local="yes">DamageableInterface.generated.h</includes>
+    <includedby refid="_damageable_component_8cpp" local="yes">Source/TimeAssassin/DamageableComponent.cpp</includedby>
+    <includedby refid="_damageable_interface_8cpp" local="yes">Source/TimeAssassin/DamageableInterface.cpp</includedby>
+    <includedby refid="_t_a_character_8h" local="yes">Source/TimeAssassin/TACharacter.h</includedby>
+    <includedby refid="_temporal_character_8cpp" local="yes">Source/TimeAssassin/TemporalCharacter.cpp</includedby>
+    <includedby refid="_weapon_component_8cpp" local="yes">Source/TimeAssassin/WeaponComponent.cpp</includedby>
+    <incdepgraph>
+      <node id="5">
+        <label>Components/ActorComponent.h</label>
+      </node>
+      <node id="2">
+        <label>CoreMinimal.h</label>
+      </node>
+      <node id="7">
+        <label>DamageableComponent.generated.h</label>
+      </node>
+      <node id="8">
+        <label>DamageableInterface.generated.h</label>
+      </node>
+      <node id="4">
+        <label>DamageableComponent.h</label>
+        <link refid="_damageable_component_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Source/TimeAssassin/DamageableInterface.h</label>
+        <link refid="_damageable_interface_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>GameplayTagContainer.h</label>
+      </node>
+      <node id="3">
+        <label>UObject/Interface.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>Source/TimeAssassin/DamageableInterface.h</label>
+        <link refid="_damageable_interface_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Source/TimeAssassin/TACharacter.h</label>
+        <link refid="_t_a_character_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Source/TimeAssassin/TemporalCharacter.h</label>
+        <link refid="_temporal_character_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Source/TimeAssassin/TemporalGameMode.h</label>
+        <link refid="_temporal_game_mode_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_u_damageable_interface" prot="public">UDamageableInterface</innerclass>
+    <innerclass refid="class_i_damageable_interface" prot="public">IDamageableInterface</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Fill<sp/>out<sp/>your<sp/>copyright<sp/>notice<sp/>in<sp/>the<sp/>Description<sp/>page<sp/>of<sp/>Project<sp/>Settings.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CoreMinimal.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;UObject/Interface.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DamageableComponent.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DamageableInterface.generated.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>class<sp/>does<sp/>not<sp/>need<sp/>to<sp/>be<sp/>modified.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">UINTERFACE(BlueprintType)</highlight></codeline>
+<codeline lineno="12" refid="class_u_damageable_interface" refkind="compound"><highlight class="normal">class<sp/><ref refid="class_u_damageable_interface" kindref="compound">UDamageableInterface</ref><sp/>:<sp/>public<sp/>UInterface</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="class_i_damageable_interface" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">TIMEASSASSIN_API<sp/><ref refid="class_i_damageable_interface" kindref="compound">IDamageableInterface</ref></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Add<sp/>interface<sp/>functions<sp/>to<sp/>this<sp/>class.<sp/>This<sp/>is<sp/>the<sp/>class<sp/>that<sp/>will<sp/>be<sp/>inherited<sp/>to<sp/>implement<sp/>this<sp/>interface.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Damage&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>TakeDamage(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_f_damage_info" kindref="compound">FDamageInfo</ref>&amp;<sp/>DamageInfo);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Damage&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnDamaged(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>NewHealth,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>DamageAmount);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Damage&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnKilled(AActor*<sp/>DamageInstigator);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="Source/TimeAssassin/DamageableInterface.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_u_spectator_hud_widget" kind="class" language="C++" prot="public">
+    <compoundname>USpectatorHudWidget</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UUserWidget</basecompoundref>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_u_spectator_hud_widget_1a065ed56f15bd966f96c21a20fe193693" prot="protected" static="no" mutable="no">
+        <type>UTextBlock *</type>
+        <definition>UTextBlock* USpectatorHudWidget::CountdownText</definition>
+        <argsstring></argsstring>
+        <name>CountdownText</name>
+        <qualifiedname>USpectatorHudWidget::CountdownText</qualifiedname>
+        <briefdescription>
+<para>Bind your UMG widget in Blueprint to this TextBlock. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/SpectatorHudWidget.h" line="33" column="16" bodyfile="Source/TimeAssassin/SpectatorHudWidget.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_u_spectator_hud_widget_1a3ba9909ea0eabb362f605c579de416ae" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float USpectatorHudWidget::TotalTime</definition>
+        <argsstring></argsstring>
+        <name>TotalTime</name>
+        <qualifiedname>USpectatorHudWidget::TotalTime</qualifiedname>
+        <initializer>= 0.f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/SpectatorHudWidget.h" line="36" column="11" bodyfile="Source/TimeAssassin/SpectatorHudWidget.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_u_spectator_hud_widget_1ab7017e2d38139da608af09a7a0233439" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void USpectatorHudWidget::SetRespawnTime</definition>
+        <argsstring>(float TotalSeconds)</argsstring>
+        <name>SetRespawnTime</name>
+        <qualifiedname>USpectatorHudWidget::SetRespawnTime</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>TotalSeconds</declname>
+        </param>
+        <briefdescription>
+<para>Call once with the full respawn delay. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/SpectatorHudWidget.h" line="24" column="10" bodyfile="Source/TimeAssassin/SpectatorHudWidget.cpp" bodystart="8" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_spectator_hud_widget_1a187aa79f6b303d75f0684e9b7a588561" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void USpectatorHudWidget::UpdateTimeRemaining</definition>
+        <argsstring>(float RemainingSeconds)</argsstring>
+        <name>UpdateTimeRemaining</name>
+        <qualifiedname>USpectatorHudWidget::UpdateTimeRemaining</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>RemainingSeconds</declname>
+        </param>
+        <briefdescription>
+<para>Call repeatedly with how many seconds remain. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/SpectatorHudWidget.h" line="28" column="10" bodyfile="Source/TimeAssassin/SpectatorHudWidget.cpp" bodystart="14" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>USpectatorHudWidget</label>
+        <link refid="class_u_spectator_hud_widget"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UUserWidget</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>USpectatorHudWidget</label>
+        <link refid="class_u_spectator_hud_widget"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UUserWidget</label>
+      </node>
+    </collaborationgraph>
+    <location file="Source/TimeAssassin/SpectatorHudWidget.h" line="17" column="1" bodyfile="Source/TimeAssassin/SpectatorHudWidget.h" bodystart="18" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_u_spectator_hud_widget_1a065ed56f15bd966f96c21a20fe193693" prot="protected" virt="non-virtual"><scope>USpectatorHudWidget</scope><name>CountdownText</name></member>
+      <member refid="class_u_spectator_hud_widget_1ab7017e2d38139da608af09a7a0233439" prot="public" virt="non-virtual"><scope>USpectatorHudWidget</scope><name>SetRespawnTime</name></member>
+      <member refid="class_u_spectator_hud_widget_1a3ba9909ea0eabb362f605c579de416ae" prot="private" virt="non-virtual"><scope>USpectatorHudWidget</scope><name>TotalTime</name></member>
+      <member refid="class_u_spectator_hud_widget_1a187aa79f6b303d75f0684e9b7a588561" prot="public" virt="non-virtual"><scope>USpectatorHudWidget</scope><name>UpdateTimeRemaining</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

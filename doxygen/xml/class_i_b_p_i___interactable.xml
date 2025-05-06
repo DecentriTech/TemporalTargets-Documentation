@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_i_b_p_i___interactable" kind="class" language="C++" prot="public">
+    <compoundname>IBPI_Interactable</compoundname>
+    <derivedcompoundref refid="class_a_base_interactable_actor" prot="public" virt="non-virtual">ABaseInteractableActor</derivedcompoundref>
+    <derivedcompoundref refid="class_a_t_a_character" prot="public" virt="non-virtual">ATACharacter</derivedcompoundref>
+    <includes refid="_b_p_i___interactable_8h" local="no">BPI_Interactable.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_i_b_p_i___interactable_1a7ec0a61b62ce23602812e10aaf3ddd91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IBPI_Interactable::Interact</definition>
+        <argsstring>(AActor *Interactor)</argsstring>
+        <name>Interact</name>
+        <qualifiedname>IBPI_Interactable::Interact</qualifiedname>
+        <param>
+          <type>AActor *</type>
+          <declname>Interactor</declname>
+        </param>
+        <briefdescription>
+<para>Called when an actor attempts to interact with this object. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/BPI_Interactable.h" line="27" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_b_p_i___interactable_1a4523add71e08c3c4fb8fc17e80871228" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IBPI_Interactable::CanInteract</definition>
+        <argsstring>(AActor *Interactor)</argsstring>
+        <name>CanInteract</name>
+        <qualifiedname>IBPI_Interactable::CanInteract</qualifiedname>
+        <param>
+          <type>AActor *</type>
+          <declname>Interactor</declname>
+        </param>
+        <briefdescription>
+<para>Called to check whether the actor is allowed to interact. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/BPI_Interactable.h" line="31" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_b_p_i___interactable_1a6dbcd508bbeea9c1bddae5f8ef2fa721" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IBPI_Interactable::RegisterInteractable</definition>
+        <argsstring>(AActor *Interactable)</argsstring>
+        <name>RegisterInteractable</name>
+        <qualifiedname>IBPI_Interactable::RegisterInteractable</qualifiedname>
+        <param>
+          <type>AActor *</type>
+          <declname>Interactable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/BPI_Interactable.h" line="35" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_b_p_i___interactable_1a54557ad43cce970953a261e90c45c3c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IBPI_Interactable::UnregisterInteractable</definition>
+        <argsstring>(AActor *Interactable)</argsstring>
+        <name>UnregisterInteractable</name>
+        <qualifiedname>IBPI_Interactable::UnregisterInteractable</qualifiedname>
+        <param>
+          <type>AActor *</type>
+          <declname>Interactable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/BPI_Interactable.h" line="38" column="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>C++ interface body. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ABaseInteractableActor</label>
+        <link refid="class_a_base_interactable_actor"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ATACharacter</label>
+        <link refid="class_a_t_a_character"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ATemporalCharacter</label>
+        <link refid="class_a_temporal_character"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IBPI_Interactable</label>
+        <link refid="class_i_b_p_i___interactable"/>
+      </node>
+    </inheritancegraph>
+    <location file="Source/TimeAssassin/BPI_Interactable.h" line="19" column="1" bodyfile="Source/TimeAssassin/BPI_Interactable.h" bodystart="20" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_i_b_p_i___interactable_1a4523add71e08c3c4fb8fc17e80871228" prot="public" virt="non-virtual"><scope>IBPI_Interactable</scope><name>CanInteract</name></member>
+      <member refid="class_i_b_p_i___interactable_1a7ec0a61b62ce23602812e10aaf3ddd91" prot="public" virt="non-virtual"><scope>IBPI_Interactable</scope><name>Interact</name></member>
+      <member refid="class_i_b_p_i___interactable_1a6dbcd508bbeea9c1bddae5f8ef2fa721" prot="public" virt="non-virtual"><scope>IBPI_Interactable</scope><name>RegisterInteractable</name></member>
+      <member refid="class_i_b_p_i___interactable_1a54557ad43cce970953a261e90c45c3c7" prot="public" virt="non-virtual"><scope>IBPI_Interactable</scope><name>UnregisterInteractable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
