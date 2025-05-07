@@ -3,6 +3,7 @@
   <compounddef id="class_u_weapon_data_asset" kind="class" language="C++" prot="public">
     <compoundname>UWeaponDataAsset</compoundname>
     <basecompoundref prot="public" virt="non-virtual">UDataAsset</basecompoundref>
+    <includes refid="_weapon_data_asset_8h" local="no">WeaponDataAsset.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="class_u_weapon_data_asset_1af0fad7e2acc7e7dec753afe756389107" prot="public" static="no" mutable="no">
         <type>FName</type>

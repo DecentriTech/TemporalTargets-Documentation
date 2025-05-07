@@ -3,6 +3,7 @@
   <compounddef id="class_u_b_p_i___interactable" kind="class" language="C++" prot="public">
     <compoundname>UBPI_Interactable</compoundname>
     <basecompoundref prot="public" virt="non-virtual">UInterface</basecompoundref>
+    <includes refid="_b_p_i___interactable_8h" local="no">BPI_Interactable.h</includes>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

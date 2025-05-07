@@ -26,7 +26,7 @@
       </node>
       <node id="4">
         <label>DamageableComponent.h</label>
-        <link refid="_damageable_component_8h_source"/>
+        <link refid="_damageable_component_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
@@ -56,27 +56,85 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
+      <node id="2">
+        <label>Source/TimeAssassin/DamageableComponent.cpp</label>
+        <link refid="_damageable_component_8cpp"/>
+      </node>
+      <node id="3">
+        <label>Source/TimeAssassin/DamageableInterface.cpp</label>
+        <link refid="_damageable_interface_8cpp"/>
+      </node>
       <node id="1">
         <label>Source/TimeAssassin/DamageableInterface.h</label>
         <link refid="_damageable_interface_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-      </node>
-      <node id="2">
-        <label>Source/TimeAssassin/TACharacter.h</label>
-        <link refid="_t_a_character_8h_source"/>
         <childnode refid="3" relation="include">
         </childnode>
-      </node>
-      <node id="3">
-        <label>Source/TimeAssassin/TemporalCharacter.h</label>
-        <link refid="_temporal_character_8h_source"/>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Source/TimeAssassin/TACharacter.cpp</label>
+        <link refid="_t_a_character_8cpp"/>
       </node>
       <node id="4">
+        <label>Source/TimeAssassin/TACharacter.h</label>
+        <link refid="_t_a_character_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Source/TimeAssassin/TAPlayerController.cpp</label>
+        <link refid="_t_a_player_controller_8cpp"/>
+      </node>
+      <node id="8">
+        <label>Source/TimeAssassin/TemporalCharacter.cpp</label>
+        <link refid="_temporal_character_8cpp"/>
+      </node>
+      <node id="7">
+        <label>Source/TimeAssassin/TemporalCharacter.h</label>
+        <link refid="_temporal_character_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Source/TimeAssassin/TemporalGameMode.cpp</label>
+        <link refid="_temporal_game_mode_8cpp"/>
+      </node>
+      <node id="10">
         <label>Source/TimeAssassin/TemporalGameMode.h</label>
-        <link refid="_temporal_game_mode_8h_source"/>
+        <link refid="_temporal_game_mode_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Source/TimeAssassin/WeaponComponent.cpp</label>
+        <link refid="_weapon_component_8cpp"/>
       </node>
     </invincdepgraph>
     <innerclass refid="class_u_damageable_interface" prot="public">UDamageableInterface</innerclass>
@@ -92,7 +150,7 @@
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CoreMinimal.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;UObject/Interface.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DamageableComponent.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_damageable_component_8h" kindref="compound">DamageableComponent.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DamageableInterface.generated.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>class<sp/>does<sp/>not<sp/>need<sp/>to<sp/>be<sp/>modified.</highlight><highlight class="normal"></highlight></codeline>
@@ -109,13 +167,13 @@
 <codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Add<sp/>interface<sp/>functions<sp/>to<sp/>this<sp/>class.<sp/>This<sp/>is<sp/>the<sp/>class<sp/>that<sp/>will<sp/>be<sp/>inherited<sp/>to<sp/>implement<sp/>this<sp/>interface.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Damage&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>TakeDamage(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_f_damage_info" kindref="compound">FDamageInfo</ref>&amp;<sp/>DamageInfo);</highlight></codeline>
+<codeline lineno="27" refid="class_i_damageable_interface_1a1f6318dd8d764d86d152bafcceeaf950" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/><ref refid="class_i_damageable_interface_1a1f6318dd8d764d86d152bafcceeaf950" kindref="member">TakeDamage</ref>(const<sp/><ref refid="struct_f_damage_info" kindref="compound">FDamageInfo</ref>&amp;<sp/>DamageInfo);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Damage&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnDamaged(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>NewHealth,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>DamageAmount);</highlight></codeline>
+<codeline lineno="30" refid="class_i_damageable_interface_1aa2527dc978acb578318f79c3704b6679" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_i_damageable_interface_1aa2527dc978acb578318f79c3704b6679" kindref="member">OnDamaged</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>NewHealth,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>DamageAmount);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Damage&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnKilled(AActor*<sp/>DamageInstigator);</highlight></codeline>
+<codeline lineno="33" refid="class_i_damageable_interface_1a9f9b8a6fb04274b8b2418423c31b823c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_i_damageable_interface_1a9f9b8a6fb04274b8b2418423c31b823c" kindref="member">OnKilled</ref>(AActor*<sp/>DamageInstigator);</highlight></codeline>
 <codeline lineno="34"><highlight class="normal">};</highlight></codeline>
     </programlisting>
     <location file="Source/TimeAssassin/DamageableInterface.h"/>

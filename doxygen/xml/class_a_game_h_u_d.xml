@@ -183,10 +183,35 @@
       <node id="2">
         <label>AHUD</label>
       </node>
+      <node id="7">
+        <label>FHitMarkerStyle</label>
+        <link refid="struct_f_hit_marker_style"/>
+      </node>
+      <node id="5">
+        <label>UCrosshairWidget</label>
+        <link refid="class_u_crosshair_widget"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="3">
         <label>UGameHUDWidget</label>
         <link refid="class_u_game_h_u_d_widget"/>
         <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>CrosshairWidget</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>HitmarkerWidget</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>UHitmarkerWidget</label>
+        <link refid="class_u_hitmarker_widget"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>Style</edgelabel>
         </childnode>
       </node>
       <node id="4">

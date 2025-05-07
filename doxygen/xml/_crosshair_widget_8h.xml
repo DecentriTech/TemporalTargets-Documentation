@@ -30,15 +30,57 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
+      <node id="2">
+        <label>Source/TimeAssassin/CrosshairWidget.cpp</label>
+        <link refid="_crosshair_widget_8cpp"/>
+      </node>
       <node id="1">
         <label>Source/TimeAssassin/CrosshairWidget.h</label>
         <link refid="_crosshair_widget_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
       </node>
-      <node id="2">
+      <node id="3">
+        <label>Source/TimeAssassin/GameHUD.cpp</label>
+        <link refid="_game_h_u_d_8cpp"/>
+      </node>
+      <node id="5">
+        <label>Source/TimeAssassin/TACharacter.cpp</label>
+        <link refid="_t_a_character_8cpp"/>
+      </node>
+      <node id="6">
+        <label>Source/TimeAssassin/TAPlayerController.cpp</label>
+        <link refid="_t_a_player_controller_8cpp"/>
+      </node>
+      <node id="7">
+        <label>Source/TimeAssassin/TemporalCharacter.cpp</label>
+        <link refid="_temporal_character_8cpp"/>
+      </node>
+      <node id="8">
+        <label>Source/TimeAssassin/WeaponComponent.cpp</label>
+        <link refid="_weapon_component_8cpp"/>
+      </node>
+      <node id="4">
         <label>Source/TimeAssassin/WeaponComponent.h</label>
-        <link refid="_weapon_component_8h_source"/>
+        <link refid="_weapon_component_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Source/TimeAssassin/WeaponInventoryComponent.cpp</label>
+        <link refid="_weapon_inventory_component_8cpp"/>
       </node>
     </invincdepgraph>
     <innerclass refid="class_u_crosshair_widget" prot="public">UCrosshairWidget</innerclass>
@@ -66,21 +108,21 @@
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Called<sp/>to<sp/>update<sp/>crosshair<sp/>spread<sp/>offset<sp/>from<sp/>C++</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Crosshair&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetCrosshairOffset(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>SpreadOffset);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_crosshair_widget_1adde65dfafb16c94ca45f871eea345c7d" kindref="member">SetCrosshairOffset</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>SpreadOffset);</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(meta<sp/>=<sp/>(BindWidget))</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>UImage*<sp/>LineTop;</highlight></codeline>
+<codeline lineno="28" refid="class_u_crosshair_widget_1a6491a6afac78a362f5dd83eca73919d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UImage*<sp/><ref refid="class_u_crosshair_widget_1a6491a6afac78a362f5dd83eca73919d9" kindref="member">LineTop</ref>;</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(meta<sp/>=<sp/>(BindWidget))</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>UImage*<sp/>LineBottom;</highlight></codeline>
+<codeline lineno="31" refid="class_u_crosshair_widget_1a68c8ef8bea2ec2789bcc126cd615d593" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UImage*<sp/><ref refid="class_u_crosshair_widget_1a68c8ef8bea2ec2789bcc126cd615d593" kindref="member">LineBottom</ref>;</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
 <codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(meta<sp/>=<sp/>(BindWidget))</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>UImage*<sp/>LineLeft;</highlight></codeline>
+<codeline lineno="34" refid="class_u_crosshair_widget_1ac35a9d307542e3416339376358d53e77" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UImage*<sp/><ref refid="class_u_crosshair_widget_1ac35a9d307542e3416339376358d53e77" kindref="member">LineLeft</ref>;</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
 <codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(meta<sp/>=<sp/>(BindWidget))</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>UImage*<sp/>LineRight;</highlight></codeline>
+<codeline lineno="37" refid="class_u_crosshair_widget_1a8d267d25f501fd674f5adc97db2739f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UImage*<sp/><ref refid="class_u_crosshair_widget_1a8d267d25f501fd674f5adc97db2739f7" kindref="member">LineRight</ref>;</highlight></codeline>
 <codeline lineno="38"><highlight class="normal">};</highlight></codeline>
     </programlisting>
     <location file="Source/TimeAssassin/CrosshairWidget.h"/>

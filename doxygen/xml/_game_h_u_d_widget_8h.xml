@@ -30,6 +30,36 @@
         <label>GameHUDWidget.generated.h</label>
       </node>
     </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>Source/TimeAssassin/GameHUD.cpp</label>
+        <link refid="_game_h_u_d_8cpp"/>
+      </node>
+      <node id="3">
+        <label>Source/TimeAssassin/GameHUDWidget.cpp</label>
+        <link refid="_game_h_u_d_widget_8cpp"/>
+      </node>
+      <node id="1">
+        <label>Source/TimeAssassin/GameHUDWidget.h</label>
+        <link refid="_game_h_u_d_widget_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Source/TimeAssassin/TAPlayerController.cpp</label>
+        <link refid="_t_a_player_controller_8cpp"/>
+      </node>
+      <node id="5">
+        <label>Source/TimeAssassin/WeaponComponent.cpp</label>
+        <link refid="_weapon_component_8cpp"/>
+      </node>
+    </invincdepgraph>
     <innerclass refid="class_u_game_h_u_d_widget" prot="public">UGameHUDWidget</innerclass>
     <briefdescription>
     </briefdescription>
@@ -64,10 +94,10 @@
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_game_h_u_d_widget_1ae75cd5a4e2c1fce708d02356556b3a85" kindref="member">AddWidgetToViewport</ref>(UUserWidget*<sp/>WidgetToAdd);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
 <codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintPure,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;HUD&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="36" refid="class_u_game_h_u_d_widget_1a7c0f731aa4ff033dfdd63c908575375f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_crosshair_widget" kindref="compound">UCrosshairWidget</ref>*<sp/><ref refid="class_u_game_h_u_d_widget_1a7c0f731aa4ff033dfdd63c908575375f" kindref="member">GetCrosshairWidget</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>CrosshairWidget;<sp/>}</highlight></codeline>
+<codeline lineno="36" refid="class_u_game_h_u_d_widget_1a7c0f731aa4ff033dfdd63c908575375f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_crosshair_widget" kindref="compound">UCrosshairWidget</ref>*<sp/><ref refid="class_u_game_h_u_d_widget_1a7c0f731aa4ff033dfdd63c908575375f" kindref="member">GetCrosshairWidget</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_u_game_h_u_d_widget_1acba2bdd9f0eb4d5a7938067ade3bc72d" kindref="member">CrosshairWidget</ref>;<sp/>}</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
 <codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintPure,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;HUD&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_hitmarker_widget" kindref="compound">UHitmarkerWidget</ref>*<sp/>GetHitmarkerWidget()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>HitmarkerWidget;<sp/>}</highlight></codeline>
+<codeline lineno="39" refid="class_u_game_h_u_d_widget_1a84b112b31d284755353899ebd7958c36" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_hitmarker_widget" kindref="compound">UHitmarkerWidget</ref>*<sp/><ref refid="class_u_game_h_u_d_widget_1a84b112b31d284755353899ebd7958c36" kindref="member">GetHitmarkerWidget</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_u_game_h_u_d_widget_1a443293f95db53284a3309174773ece83" kindref="member">HitmarkerWidget</ref>;<sp/>}</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
 <codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;HUD&quot;</highlight><highlight class="normal">)</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>UpdateAmmoDisplay(int32<sp/>CurrentMag,<sp/>int32<sp/>ReserveAmmo);</highlight></codeline>
@@ -82,16 +112,16 @@
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
 <codeline lineno="54"><highlight class="normal">private:<sp/></highlight><highlight class="comment">//<sp/>Designer-created<sp/>widgets</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;HUD&quot;</highlight><highlight class="normal">,<sp/>meta<sp/>=<sp/>(BindWidget,<sp/>AllowPrivateAccess<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;true&quot;</highlight><highlight class="normal">))</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_crosshair_widget" kindref="compound">UCrosshairWidget</ref>*<sp/>CrosshairWidget<sp/>=<sp/></highlight><highlight class="keywordtype">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="56" refid="class_u_game_h_u_d_widget_1acba2bdd9f0eb4d5a7938067ade3bc72d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_crosshair_widget" kindref="compound">UCrosshairWidget</ref>*<sp/><ref refid="class_u_game_h_u_d_widget_1acba2bdd9f0eb4d5a7938067ade3bc72d" kindref="member">CrosshairWidget</ref><sp/>=<sp/></highlight><highlight class="keywordtype">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
 <codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;HUD&quot;</highlight><highlight class="normal">,<sp/>meta<sp/>=<sp/>(BindWidget,<sp/>AllowPrivateAccess<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;true&quot;</highlight><highlight class="normal">))</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_hitmarker_widget" kindref="compound">UHitmarkerWidget</ref>*<sp/>HitmarkerWidget<sp/>=<sp/></highlight><highlight class="keywordtype">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="59" refid="class_u_game_h_u_d_widget_1a443293f95db53284a3309174773ece83" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_hitmarker_widget" kindref="compound">UHitmarkerWidget</ref>*<sp/><ref refid="class_u_game_h_u_d_widget_1a443293f95db53284a3309174773ece83" kindref="member">HitmarkerWidget</ref><sp/>=<sp/></highlight><highlight class="keywordtype">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
 <codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;HUD&quot;</highlight><highlight class="normal">,<sp/>meta<sp/>=<sp/>(BindWidget,<sp/>AllowPrivateAccess<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;true&quot;</highlight><highlight class="normal">))</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>UTextBlock*<sp/>MagAmmoText<sp/>=<sp/></highlight><highlight class="keywordtype">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="62" refid="class_u_game_h_u_d_widget_1a0a3ee833856c3eb7913ef46a274b37bd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UTextBlock*<sp/><ref refid="class_u_game_h_u_d_widget_1a0a3ee833856c3eb7913ef46a274b37bd" kindref="member">MagAmmoText</ref><sp/>=<sp/></highlight><highlight class="keywordtype">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
 <codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;HUD&quot;</highlight><highlight class="normal">,<sp/>meta<sp/>=<sp/>(BindWidget,<sp/>AllowPrivateAccess<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;true&quot;</highlight><highlight class="normal">))</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>UTextBlock*<sp/>ReserveAmmoText<sp/>=<sp/></highlight><highlight class="keywordtype">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65" refid="class_u_game_h_u_d_widget_1a5ef66cfa087619162dbd4c7b969eca47" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UTextBlock*<sp/><ref refid="class_u_game_h_u_d_widget_1a5ef66cfa087619162dbd4c7b969eca47" kindref="member">ReserveAmmoText</ref><sp/>=<sp/></highlight><highlight class="keywordtype">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="66"><highlight class="normal">};</highlight></codeline>
     </programlisting>
     <location file="Source/TimeAssassin/GameHUDWidget.h"/>

@@ -44,7 +44,7 @@
   <option  id='TAB_SIZE' default='yes' type='int'><value>4</value></option>
   <option  id='ALIASES' default='yes' type='stringlist'>
   </option>
-  <option  id='OPTIMIZE_OUTPUT_FOR_C' default='no' type='bool'><value>YES</value></option>
+  <option  id='OPTIMIZE_OUTPUT_FOR_C' default='yes' type='bool'><value>NO</value></option>
   <option  id='OPTIMIZE_OUTPUT_JAVA' default='yes' type='bool'><value>NO</value></option>
   <option  id='OPTIMIZE_FOR_FORTRAN' default='yes' type='bool'><value>NO</value></option>
   <option  id='OPTIMIZE_OUTPUT_VHDL' default='yes' type='bool'><value>NO</value></option>
@@ -71,11 +71,11 @@
   <option  id='LOOKUP_CACHE_SIZE' default='yes' type='int'><value>0</value></option>
   <option  id='NUM_PROC_THREADS' default='yes' type='int'><value>1</value></option>
   <option  id='TIMESTAMP' default='yes' type='string'><value>NO</value></option>
-  <option  id='EXTRACT_ALL' default='yes' type='bool'><value>NO</value></option>
-  <option  id='EXTRACT_PRIVATE' default='yes' type='bool'><value>NO</value></option>
+  <option  id='EXTRACT_ALL' default='no' type='bool'><value>YES</value></option>
+  <option  id='EXTRACT_PRIVATE' default='no' type='bool'><value>YES</value></option>
   <option  id='EXTRACT_PRIV_VIRTUAL' default='yes' type='bool'><value>NO</value></option>
   <option  id='EXTRACT_PACKAGE' default='yes' type='bool'><value>NO</value></option>
-  <option  id='EXTRACT_STATIC' default='yes' type='bool'><value>NO</value></option>
+  <option  id='EXTRACT_STATIC' default='no' type='bool'><value>YES</value></option>
   <option  id='EXTRACT_LOCAL_CLASSES' default='yes' type='bool'><value>YES</value></option>
   <option  id='EXTRACT_LOCAL_METHODS' default='yes' type='bool'><value>NO</value></option>
   <option  id='EXTRACT_ANON_NSPACES' default='yes' type='bool'><value>NO</value></option>
@@ -213,8 +213,8 @@
   <option  id='USE_MDFILE_AS_MAINPAGE' default='yes' type='string'><value><![CDATA[]]></value></option>
   <option  id='IMPLICIT_DIR_DOCS' default='yes' type='bool'><value>YES</value></option>
   <option  id='FORTRAN_COMMENT_AFTER' default='yes' type='int'><value>72</value></option>
-  <option  id='SOURCE_BROWSER' default='yes' type='bool'><value>NO</value></option>
-  <option  id='INLINE_SOURCES' default='yes' type='bool'><value>NO</value></option>
+  <option  id='SOURCE_BROWSER' default='no' type='bool'><value>YES</value></option>
+  <option  id='INLINE_SOURCES' default='no' type='bool'><value>YES</value></option>
   <option  id='STRIP_CODE_COMMENTS' default='yes' type='bool'><value>YES</value></option>
   <option  id='REFERENCED_BY_RELATION' default='yes' type='bool'><value>NO</value></option>
   <option  id='REFERENCES_RELATION' default='yes' type='bool'><value>NO</value></option>

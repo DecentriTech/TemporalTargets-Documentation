@@ -2,17 +2,29 @@
 <!-- block -->
 
 <details>
-<summary>📘 Class `{{name}}`</summary>
-
+<summary>
+  📘 Class `{{name}}`
+  {{#if briefdescription}}
+    <span class="brief-description-pill">{{briefdescription}}</span>
+  {{/if}}
+</summary>
 <!-- block -->
 
 # Class `{{name}}` {{anchor refid}}
 
+{{#if detaileddescription}}
+<!-- block -->
+
+> {{detaileddescription}}
+
+<!-- block -->
+{{/if}}
+
 {{#if basecompoundref}}
 <!-- block -->
 
-<details>
-<summary>🔧 Inherits From</summary>
+<details open>
+<summary>🧬 Inherits From</summary>
 
 ```cpp
 {{kind}} {{name}}
@@ -26,65 +38,92 @@
 <!-- block -->
 {{/if}}
 
-{{#if briefdescription}}
-> {{briefdescription}}
-{{/if}}
-
-{{#if detaileddescription}}
-<!-- block -->
-
-{{detaileddescription}}
-
-<!-- block -->
-{{/if}}
-
-<!-- block -->
 
 <details open>
-<summary>📋 Class Members</summary>
-
-| Kind | Declaration | Description |
-|------|-------------|-------------|
-{{#each filtered.members}}
-| `{{kind}}` | `{{#if type}}{{type}} {{/if}}{{name}}{{#if argsstring}}{{argsstring}}{{/if}}` | {{briefdescription}} |
-{{/each}}
-
-</details>
+<summary>🧍 Members</summary>
 
 <!-- block -->
 
+<!-- FUNCTIONS -->
 <details open>
-<summary>🧩 Members</summary>
+<summary>⚙️ Functions</summary>
 
 {{#each filtered.members}}
-<!-- block -->
+  {{#if (eq kind "function")}}
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>{{#if type}}{{type}} {{/if}}{{name}}{{#if argsstring}}{{argsstring}}{{/if}}</code>
+      <span class="member-badge kind-{{kind}}">{{kind}}</span>
+      {{#if section}}<span class="member-badge section-{{section}}">{{prettySection section}}</span>{{/if}}
+      {{#if briefdescription}}<span class="brief-description-pill">{{briefdescription}}</span>{{/if}}
+    </summary>
 
-<details>
-<summary>🧠 `{{#if type}}{{type}} {{/if}}{{name}}{{#if argsstring}}{{argsstring}}{{/if}}`</summary>
+    {{#if briefdescription}}
+    <p>{{briefdescription}}</p>
+    {{/if}}
 
-{{#if briefdescription}}
-{{briefdescription}}
+    {{#if (isFunction kind)}}
+      {{#if (hasParams param)}}
+      <p><strong>Parameters:</strong></p>
+      <ul>
+        {{#each param}}
+        <li><code>{{type}} {{declname}}</code> – {{briefdescription}}</li>
+        {{/each}}
+      </ul>
+      {{else}}
+      <p><strong>Parameters:</strong> None</p>
+      {{/if}}
+    {{/if}}
+
+{{#if location}}
+  <hr />
+  <p>
+    <strong>📄 Source:</strong>
+    <code>{{location.bodyfile}}</code>
+    (lines {{location.bodystart}}–{{location.bodyend}})
+  </p>
+
+  <ExpandableCodeBlock code={`{{{getFunctionSource location}}}`} language="cpp" previewLines={6} />
 {{/if}}
 
-{{#if (isFunction kind)}}
-{{#if (hasParams param)}}
-**Parameters:**
-{{#each param}}
-- `{{type}} {{declname}}` – {{briefdescription}}
+  </details>
+  <!-- block -->
+  {{/if}}
 {{/each}}
-{{else}}
-**Parameters:**
-- *(None)*
-{{/if}}
-{{/if}}
 
 </details>
-
 <!-- block -->
+
+<!-- VARIABLES -->
+<details open>
+<summary>📦 Variables</summary>
+
+{{#each filtered.members}}
+
+  {{#if (eq kind "variable")}}
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>{{#if type}}{{type}} {{/if}}{{name}}</code>
+      <span class="member-badge kind-{{kind}}">{{kind}}</span>
+      {{#if section}}<span class="member-badge section-{{section}}">{{prettySection section}}</span>{{/if}}
+      {{#if briefdescription}}<span class="brief-description-pill">{{briefdescription}}</span>{{/if}}
+    </summary>
+
+    {{#if briefdescription}}
+    <p>{{briefdescription}}</p>
+    {{/if}}
+
+  </details>
+  <!-- block -->
+  {{/if}}
 {{/each}}
 
 </details>
+<!-- block -->
 
+</details>
 <!-- block -->
 
 {{#if (anyEnum filtered.members)}}

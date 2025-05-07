@@ -15,9 +15,9 @@
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System;</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnrealBuildTool;</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7" refid="class_time_assassin" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">TimeAssassin<sp/>:<sp/>ModuleRules</highlight></codeline>
+<codeline lineno="7" refid="class_time_assassin" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_time_assassin_1ad19e4a8a1129de3578a6b345735dd71e" kindref="member">TimeAssassin</ref><sp/>:<sp/>ModuleRules</highlight></codeline>
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>TimeAssassin(ReadOnlyTargetRules<sp/>Target)<sp/>:<sp/>base(Target)</highlight></codeline>
+<codeline lineno="9" refid="class_time_assassin_1ad19e4a8a1129de3578a6b345735dd71e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_time_assassin_1ad19e4a8a1129de3578a6b345735dd71e" kindref="member">TimeAssassin</ref>(ReadOnlyTargetRules<sp/>Target)<sp/>:<sp/>base(Target)</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PCHUsage<sp/>=<sp/>PCHUsageMode.UseExplicitOrSharedPCHs;</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>

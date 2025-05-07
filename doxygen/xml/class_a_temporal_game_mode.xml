@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalGameMode.h" line="103" column="10" bodyfile="Source/TimeAssassin/TemporalGameMode.h" bodystart="103" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalGameMode.h" line="112" column="10" bodyfile="Source/TimeAssassin/TemporalGameMode.h" bodystart="112" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_temporal_game_mode_1aa69c3c09bc3abf18a4121171f1577a0c" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -30,12 +30,13 @@
         <qualifiedname>ATemporalGameMode::RespawnDelay</qualifiedname>
         <initializer>= 3.f</initializer>
         <briefdescription>
+<para>Amount of time (seconds) after death before we respawn the player. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalGameMode.h" line="107" column="11" bodyfile="Source/TimeAssassin/TemporalGameMode.h" bodystart="107" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalGameMode.h" line="116" column="11" bodyfile="Source/TimeAssassin/TemporalGameMode.h" bodystart="116" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_temporal_game_mode_1a2f20687efa9847159c5e8b6504a1d1c9" prot="public" static="no" mutable="no">
         <type>FTimerHandle</type>
@@ -44,12 +45,13 @@
         <name>RespawnTimerHandle</name>
         <qualifiedname>ATemporalGameMode::RespawnTimerHandle</qualifiedname>
         <briefdescription>
+<para>Handle used by <ref refid="class_a_temporal_game_mode_1a2f20687efa9847159c5e8b6504a1d1c9" kindref="member">RespawnTimerHandle</ref> to track the delayed respawn timer. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalGameMode.h" line="109" column="18" bodyfile="Source/TimeAssassin/TemporalGameMode.h" bodystart="109" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalGameMode.h" line="119" column="18" bodyfile="Source/TimeAssassin/TemporalGameMode.h" bodystart="119" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
@@ -60,12 +62,13 @@
         <name>TemporalCharacterClass</name>
         <qualifiedname>ATemporalGameMode::TemporalCharacterClass</qualifiedname>
         <briefdescription>
+<para>Blueprint class used when spawning ghost characters. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalGameMode.h" line="122" column="17" bodyfile="Source/TimeAssassin/TemporalGameMode.h" bodystart="122" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalGameMode.h" line="137" column="17" bodyfile="Source/TimeAssassin/TemporalGameMode.h" bodystart="137" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_temporal_game_mode_1a590df8f1baea522be785799f646b67bc" prot="protected" static="no" mutable="no">
         <type>TArray&lt; <ref refid="class_a_temporal_character" kindref="compound">ATemporalCharacter</ref> * &gt;</type>
@@ -74,12 +77,13 @@
         <name>SpawnedGhosts</name>
         <qualifiedname>ATemporalGameMode::SpawnedGhosts</qualifiedname>
         <briefdescription>
+<para>Array storing spawned ghost actors so they can be managed &amp; cleared. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalGameMode.h" line="126" column="12" bodyfile="Source/TimeAssassin/TemporalGameMode.h" bodystart="126" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalGameMode.h" line="141" column="12" bodyfile="Source/TimeAssassin/TemporalGameMode.h" bodystart="141" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_temporal_game_mode_1a73326dc3f648f9c0f0e6ea748aa7b70a" prot="protected" static="no" mutable="no">
         <type>TMap&lt; FName, TWeakObjectPtr&lt; <ref refid="class_a_temporal_character" kindref="compound">ATemporalCharacter</ref> &gt; &gt;</type>
@@ -88,12 +92,13 @@
         <name>GhostRegistry</name>
         <qualifiedname>ATemporalGameMode::GhostRegistry</qualifiedname>
         <briefdescription>
+<para>Map of GhostID -&gt; Ghost weak pointer for quick lookup without preventing GC. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalGameMode.h" line="129" column="10" bodyfile="Source/TimeAssassin/TemporalGameMode.h" bodystart="129" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalGameMode.h" line="145" column="10" bodyfile="Source/TimeAssassin/TemporalGameMode.h" bodystart="145" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -104,12 +109,13 @@
         <name>StoredReplays</name>
         <qualifiedname>ATemporalGameMode::StoredReplays</qualifiedname>
         <briefdescription>
+<para>Stored replay attempts (shared pointers so they survive GC until cleared). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalGameMode.h" line="145" column="12" bodyfile="Source/TimeAssassin/TemporalGameMode.h" bodystart="145" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalGameMode.h" line="165" column="12" bodyfile="Source/TimeAssassin/TemporalGameMode.h" bodystart="165" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_temporal_game_mode_1a0c1562f8c2fdfb64da11d4543a881f60" prot="private" static="no" mutable="no">
         <type>TArray&lt; <ref refid="class_a_temporal_a_i_controller" kindref="compound">ATemporalAIController</ref> * &gt;</type>
@@ -118,12 +124,13 @@
         <name>SpawnedControllers</name>
         <qualifiedname>ATemporalGameMode::SpawnedControllers</qualifiedname>
         <briefdescription>
+<para>AI controllers spawned to possess ghost pawns for playback. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalGameMode.h" line="147" column="12" bodyfile="Source/TimeAssassin/TemporalGameMode.h" bodystart="147" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalGameMode.h" line="168" column="12" bodyfile="Source/TimeAssassin/TemporalGameMode.h" bodystart="168" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -134,12 +141,13 @@
         <name>ATemporalGameMode</name>
         <qualifiedname>ATemporalGameMode::ATemporalGameMode</qualifiedname>
         <briefdescription>
+<para>Default constructor. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalGameMode.h" line="57" column="1" bodyfile="Source/TimeAssassin/TemporalGameMode.cpp" bodystart="21" bodyend="30"/>
+        <location file="Source/TimeAssassin/TemporalGameMode.h" line="59" column="5" bodyfile="Source/TimeAssassin/TemporalGameMode.cpp" bodystart="21" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_game_mode_1a295c6328ba410162e421490610c676be" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -148,12 +156,13 @@
         <name>~ATemporalGameMode</name>
         <qualifiedname>ATemporalGameMode::~ATemporalGameMode</qualifiedname>
         <briefdescription>
+<para>Virtual destructor - cleans up timers &amp; weak ptr maps. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalGameMode.h" line="59" column="9" bodyfile="Source/TimeAssassin/TemporalGameMode.cpp" bodystart="32" bodyend="38"/>
+        <location file="Source/TimeAssassin/TemporalGameMode.h" line="62" column="13" bodyfile="Source/TimeAssassin/TemporalGameMode.cpp" bodystart="32" bodyend="38"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_game_mode_1a40d2fa5cb1227c92d9ebfee2783dbe32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -166,31 +175,24 @@
           <declname>ReplayData</declname>
         </param>
         <briefdescription>
-<para>Stores a replay data attempt at the end of a run. </para>
+<para>Stores a replay attempt at the end of a run and black people! </para>
         </briefdescription>
         <detaileddescription>
+<para>Adds replay data to the stored replays.</para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>ReplayData</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Frame data representing the player&apos;s run. </para>
-</parameterdescription>
-</parameteritem>
-<parameteritem>
-<parameternamelist>
-<parametername>ReplayPointer</parametername>
-</parameternamelist>
-<parameterdescription>
-<para>Frame data Pointer representing the player&apos;s run. </para>
+<para>Array of <ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref> containing the entire run.</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-</para>
+Call this when a player finishes a run to cache it for future ghost playback. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalGameMode.h" line="68" column="10" bodyfile="Source/TimeAssassin/TemporalGameMode.cpp" bodystart="157" bodyend="205"/>
+        <location file="Source/TimeAssassin/TemporalGameMode.h" line="75" column="10" bodyfile="Source/TimeAssassin/TemporalGameMode.cpp" bodystart="161" bodyend="209"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_game_mode_1ad0c8b4e4d2025d05b087d033502058b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -199,13 +201,14 @@
         <name>SpawnGhosts</name>
         <qualifiedname>ATemporalGameMode::SpawnGhosts</qualifiedname>
         <briefdescription>
-<para>Spawns ghost characters for each stored replay attempt. </para>
+<para>Spawns ghost pawns for every stored replay attempt. </para>
         </briefdescription>
         <detaileddescription>
+<para>Each ghost is spawned using <ref refid="class_a_temporal_game_mode_1ade25ee8f6b9e699b06f9214e2d47244f" kindref="member">TemporalCharacterClass</ref> and controlled by an AI controller that plays back the corresponding ReplayData frames. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalGameMode.h" line="74" column="10" bodyfile="Source/TimeAssassin/TemporalGameMode.cpp" bodystart="207" bodyend="277"/>
+        <location file="Source/TimeAssassin/TemporalGameMode.h" line="84" column="10" bodyfile="Source/TimeAssassin/TemporalGameMode.cpp" bodystart="211" bodyend="281"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_game_mode_1a3b811733d9fcb64b346c02ebaca0f199" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -214,13 +217,13 @@
         <name>ClearGhosts</name>
         <qualifiedname>ATemporalGameMode::ClearGhosts</qualifiedname>
         <briefdescription>
-<para>Clears all stored ghosts and replays. </para>
+<para>Clears all spawned ghost actors and any stored replay attempts. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalGameMode.h" line="80" column="10" bodyfile="Source/TimeAssassin/TemporalGameMode.cpp" bodystart="279" bodyend="349"/>
+        <location file="Source/TimeAssassin/TemporalGameMode.h" line="88" column="10" bodyfile="Source/TimeAssassin/TemporalGameMode.cpp" bodystart="283" bodyend="353"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_game_mode_1a712f6529f8d2049ff29c5c7190a5d73f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -237,7 +240,7 @@
           <declname>Ghost</declname>
         </param>
         <briefdescription>
-<para>Registers a ghost character with a unique ID. </para>
+<para>Registers a ghost character instance so it can be retrieved later. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -245,7 +248,7 @@
 <parametername>GhostID</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Unique identifier for the ghost. </para>
+<para>Unique identifier (usually run index or GUID). </para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -253,7 +256,7 @@
 <parametername>Ghost</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Pointer to the ghost character to register. </para>
+<para>Instantiated ghost character to track. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -261,7 +264,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalGameMode.h" line="89" column="10" bodyfile="Source/TimeAssassin/TemporalGameMode.cpp" bodystart="351" bodyend="358"/>
+        <location file="Source/TimeAssassin/TemporalGameMode.h" line="96" column="10" bodyfile="Source/TimeAssassin/TemporalGameMode.cpp" bodystart="355" bodyend="362"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_game_mode_1ac82d62508315b553cec2822e6e0dda92" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_a_temporal_character" kindref="compound">ATemporalCharacter</ref> *</type>
@@ -274,7 +277,7 @@
           <declname>GhostID</declname>
         </param>
         <briefdescription>
-<para>Retrieves a ghost character by its unique ID. </para>
+<para>Retrieves a ghost character by its identifier. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -282,15 +285,17 @@
 <parametername>GhostID</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Unique identifier for the ghost. </para>
+<para>Unique identifier used in <ref refid="class_a_temporal_game_mode_1a712f6529f8d2049ff29c5c7190a5d73f" kindref="member">RegisterGhost</ref>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
+<simplesect kind="return"><para>Pointer to the ghost character (or nullptr if not found / garbage-collected). </para>
+</simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalGameMode.h" line="97" column="24" bodyfile="Source/TimeAssassin/TemporalGameMode.cpp" bodystart="360" bodyend="368"/>
+        <location file="Source/TimeAssassin/TemporalGameMode.h" line="104" column="24" bodyfile="Source/TimeAssassin/TemporalGameMode.cpp" bodystart="364" bodyend="372"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -305,12 +310,13 @@
           <declname>NewPlayer</declname>
         </param>
         <briefdescription>
+<para>Binds death events when a new player joins. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalGameMode.h" line="114" column="18" bodyfile="Source/TimeAssassin/TemporalGameMode.cpp" bodystart="40" bodyend="51"/>
+        <location file="Source/TimeAssassin/TemporalGameMode.h" line="127" column="18" bodyfile="Source/TimeAssassin/TemporalGameMode.cpp" bodystart="40" bodyend="51"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_game_mode_1a86ac54b58d4039fe0b7567f19e361c00" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -323,12 +329,13 @@
           <declname>NewPlayer</declname>
         </param>
         <briefdescription>
+<para>Restarts player with ghost-aware logic. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalGameMode.h" line="116" column="18" bodyfile="Source/TimeAssassin/TemporalGameMode.cpp" bodystart="53" bodyend="74"/>
+        <location file="Source/TimeAssassin/TemporalGameMode.h" line="130" column="18" bodyfile="Source/TimeAssassin/TemporalGameMode.cpp" bodystart="53" bodyend="74"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_game_mode_1ae9fe28e227bf21645525552d5fa13feb" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -337,12 +344,13 @@
         <name>ResolveHitGhosts</name>
         <qualifiedname>ATemporalGameMode::ResolveHitGhosts</qualifiedname>
         <briefdescription>
+<para>Checks recent hits against active ghosts and resolves collisions. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalGameMode.h" line="118" column="10" bodyfile="Source/TimeAssassin/TemporalGameMode.cpp" bodystart="370" bodyend="398"/>
+        <location file="Source/TimeAssassin/TemporalGameMode.h" line="133" column="10" bodyfile="Source/TimeAssassin/TemporalGameMode.cpp" bodystart="374" bodyend="402"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -365,13 +373,13 @@
           <declname>InstigatorActor</declname>
         </param>
         <briefdescription>
-<para>Bound to UDamageableComponent::OnDeath. </para>
+<para>Called by UDamageableComponent::OnDeath - starts respawn timer or instant respawn. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalGameMode.h" line="135" column="10" bodyfile="Source/TimeAssassin/TemporalGameMode.cpp" bodystart="76" bodyend="140"/>
+        <location file="Source/TimeAssassin/TemporalGameMode.h" line="154" column="10" bodyfile="Source/TimeAssassin/TemporalGameMode.cpp" bodystart="76" bodyend="140"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_game_mode_1aa8f9250c5b4e24fc35fb6d880bba49ac" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -384,20 +392,26 @@
           <declname>Controller</declname>
         </param>
         <briefdescription>
-<para>Timer callback to actually restart the player. </para>
+<para>Timer delegate that actually restarts the player pawn/controller. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalGameMode.h" line="139" column="10" bodyfile="Source/TimeAssassin/TemporalGameMode.cpp" bodystart="142" bodyend="155"/>
+        <location file="Source/TimeAssassin/TemporalGameMode.h" line="158" column="10" bodyfile="Source/TimeAssassin/TemporalGameMode.cpp" bodystart="142" bodyend="155"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
 <para>Game mode handling player respawning and ghost replay logic. </para>
     </briefdescription>
     <detaileddescription>
-<para>This class manages the recording and playback of ghost replays, handles spawning and cleanup of ghost characters, and manages the player&apos;s respawn flow based on game settings. </para>
+<para><itemizedlist>
+<listitem><para>Records the player&apos;s run into an array of <ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref> frames.</para>
+</listitem><listitem><para>Spawns ghost actors that reproduce previous runs (&quot;replays&quot;).</para>
+</listitem><listitem><para>Exposes Blueprint utilities for clearing, registering and querying ghosts.</para>
+</listitem><listitem><para>Owns the respawn timer logic (instant vs delayed respawn controlled by <ref refid="class_a_temporal_game_mode_1a196e99b79778bd0d825457c33a27988c" kindref="member">bPlayMode</ref>). </para>
+</listitem></itemizedlist>
+</para>
     </detaileddescription>
     <inheritancegraph>
       <node id="2">
@@ -421,7 +435,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Source/TimeAssassin/TemporalGameMode.h" line="52" column="1" bodyfile="Source/TimeAssassin/TemporalGameMode.h" bodystart="53" bodyend="152"/>
+    <location file="Source/TimeAssassin/TemporalGameMode.h" line="53" column="1" bodyfile="Source/TimeAssassin/TemporalGameMode.h" bodystart="54" bodyend="169"/>
     <listofallmembers>
       <member refid="class_a_temporal_game_mode_1a40d2fa5cb1227c92d9ebfee2783dbe32" prot="public" virt="non-virtual"><scope>ATemporalGameMode</scope><name>AddReplayData</name></member>
       <member refid="class_a_temporal_game_mode_1a850314b4c4fc7f295113c900d82125c4" prot="public" virt="non-virtual"><scope>ATemporalGameMode</scope><name>ATemporalGameMode</name></member>

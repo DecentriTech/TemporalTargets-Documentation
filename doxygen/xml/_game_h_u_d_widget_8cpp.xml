@@ -24,7 +24,7 @@
       </node>
       <node id="2">
         <label>GameHUDWidget.h</label>
-        <link refid="_game_h_u_d_widget_8h_source"/>
+        <link refid="_game_h_u_d_widget_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
@@ -44,11 +44,11 @@
 <codeline lineno="1"><highlight class="comment">//<sp/>Fill<sp/>out<sp/>your<sp/>copyright<sp/>notice<sp/>in<sp/>the<sp/>Description<sp/>page<sp/>of<sp/>Project<sp/>Settings.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameHUDWidget.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_game_h_u_d_widget_8h" kindref="compound">GameHUDWidget.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Components/TextBlock.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UGameHUDWidget::NativeConstruct()</highlight></codeline>
+<codeline lineno="8" refid="class_u_game_h_u_d_widget_1a1aca8f2bb23831e97bf718d1de96d33b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_game_h_u_d_widget_1a1aca8f2bb23831e97bf718d1de96d33b" kindref="member">UGameHUDWidget::NativeConstruct</ref>()</highlight></codeline>
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>Super::NativeConstruct();</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
@@ -56,12 +56,12 @@
 <codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_game_h_u_d_widget_1aeb95f451d593a20295d6bf670fba834f" kindref="member">InitializeHUD</ref>();</highlight></codeline>
 <codeline lineno="14"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_game_h_u_d_widget_1aeb95f451d593a20295d6bf670fba834f" kindref="member">UGameHUDWidget::InitializeHUD</ref>()</highlight></codeline>
+<codeline lineno="16" refid="class_u_game_h_u_d_widget_1aeb95f451d593a20295d6bf670fba834f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_game_h_u_d_widget_1aeb95f451d593a20295d6bf670fba834f" kindref="member">UGameHUDWidget::InitializeHUD</ref>()</highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Nothing<sp/>to<sp/>wire<sp/>up<sp/>yet,<sp/>but<sp/>exposing<sp/>this<sp/>hook<sp/>keeps<sp/>Blueprint<sp/>logic<sp/>readable.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_game_h_u_d_widget_1ae75cd5a4e2c1fce708d02356556b3a85" kindref="member">UGameHUDWidget::AddWidgetToViewport</ref>(UUserWidget*<sp/>WidgetToAdd)</highlight></codeline>
+<codeline lineno="21" refid="class_u_game_h_u_d_widget_1ae75cd5a4e2c1fce708d02356556b3a85" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_game_h_u_d_widget_1ae75cd5a4e2c1fce708d02356556b3a85" kindref="member">UGameHUDWidget::AddWidgetToViewport</ref>(UUserWidget*<sp/>WidgetToAdd)</highlight></codeline>
 <codeline lineno="22"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!WidgetToAdd)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
@@ -69,19 +69,19 @@
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>WidgetToAdd-&gt;AddToViewport();</highlight></codeline>
 <codeline lineno="27"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_game_h_u_d_widget_1aa9420e07cff87f47e2decee668e8f6a7" kindref="member">UGameHUDWidget::UpdateAmmoDisplay</ref>(int32<sp/>CurrentMag,<sp/>int32<sp/>ReserveAmmo)</highlight></codeline>
+<codeline lineno="29" refid="class_u_game_h_u_d_widget_1aa9420e07cff87f47e2decee668e8f6a7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_game_h_u_d_widget_1aa9420e07cff87f47e2decee668e8f6a7" kindref="member">UGameHUDWidget::UpdateAmmoDisplay</ref>(int32<sp/>CurrentMag,<sp/>int32<sp/>ReserveAmmo)</highlight></codeline>
 <codeline lineno="30"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;UpdateAmmoDisplay:<sp/>Mag:<sp/>%d<sp/>|<sp/>Reserve:<sp/>%d&quot;</highlight><highlight class="normal">),<sp/>CurrentMag,<sp/>ReserveAmmo);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(MagAmmoText)</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SetAmmoText(MagAmmoText,<sp/>CurrentMag);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_u_game_h_u_d_widget_1a0a3ee833856c3eb7913ef46a274b37bd" kindref="member">MagAmmoText</ref>)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_u_game_h_u_d_widget_1a72d555e1b0ce08eb4ee44569a91635a9" kindref="member">SetAmmoText</ref>(<ref refid="class_u_game_h_u_d_widget_1a0a3ee833856c3eb7913ef46a274b37bd" kindref="member">MagAmmoText</ref>,<sp/>CurrentMag);</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ReserveAmmoText)</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SetAmmoText(ReserveAmmoText,<sp/>ReserveAmmo);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_u_game_h_u_d_widget_1a5ef66cfa087619162dbd4c7b969eca47" kindref="member">ReserveAmmoText</ref>)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_u_game_h_u_d_widget_1a72d555e1b0ce08eb4ee44569a91635a9" kindref="member">SetAmmoText</ref>(<ref refid="class_u_game_h_u_d_widget_1a5ef66cfa087619162dbd4c7b969eca47" kindref="member">ReserveAmmoText</ref>,<sp/>ReserveAmmo);</highlight></codeline>
 <codeline lineno="39"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UGameHUDWidget::SetAmmoText(UTextBlock*<sp/>TextWidget,<sp/>int32<sp/>Value)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="41" refid="class_u_game_h_u_d_widget_1a72d555e1b0ce08eb4ee44569a91635a9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_game_h_u_d_widget_1a72d555e1b0ce08eb4ee44569a91635a9" kindref="member">UGameHUDWidget::SetAmmoText</ref>(UTextBlock*<sp/>TextWidget,<sp/>int32<sp/>Value)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="42"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!TextWidget)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>

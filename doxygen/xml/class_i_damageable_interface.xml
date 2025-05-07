@@ -3,6 +3,7 @@
   <compounddef id="class_i_damageable_interface" kind="class" language="C++" prot="public">
     <compoundname>IDamageableInterface</compoundname>
     <derivedcompoundref refid="class_a_t_a_character" prot="public" virt="non-virtual">ATACharacter</derivedcompoundref>
+    <includes refid="_damageable_interface_8h" local="no">DamageableInterface.h</includes>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="class_i_damageable_interface_1a1f6318dd8d764d86d152bafcceeaf950" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>

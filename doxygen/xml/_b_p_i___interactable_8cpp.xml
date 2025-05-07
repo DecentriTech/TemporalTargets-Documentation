@@ -18,7 +18,7 @@
       </node>
       <node id="2">
         <label>BPI_Interactable.h</label>
-        <link refid="_b_p_i___interactable_8h_source"/>
+        <link refid="_b_p_i___interactable_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
@@ -37,7 +37,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="comment">//<sp/>Fill<sp/>out<sp/>your<sp/>copyright<sp/>notice<sp/>in<sp/>the<sp/>Description<sp/>page<sp/>of<sp/>Project<sp/>Settings.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;BPI_Interactable.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_b_p_i___interactable_8h" kindref="compound">BPI_Interactable.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="Source/TimeAssassin/BPI_Interactable.cpp"/>
   </compounddef>

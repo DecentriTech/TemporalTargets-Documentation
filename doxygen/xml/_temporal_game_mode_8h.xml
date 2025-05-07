@@ -33,7 +33,7 @@
       </node>
       <node id="12">
         <label>BPI_Interactable.h</label>
-        <link refid="_b_p_i___interactable_8h_source"/>
+        <link refid="_b_p_i___interactable_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
@@ -43,7 +43,7 @@
       </node>
       <node id="16">
         <label>DamageableComponent.h</label>
-        <link refid="_damageable_component_8h_source"/>
+        <link refid="_damageable_component_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
@@ -55,7 +55,7 @@
       </node>
       <node id="15">
         <label>DamageableInterface.h</label>
-        <link refid="_damageable_interface_8h_source"/>
+        <link refid="_damageable_interface_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="13" relation="include">
@@ -67,7 +67,7 @@
       </node>
       <node id="4">
         <label>FPlayerFrameData.h</label>
-        <link refid="_f_player_frame_data_8h_source"/>
+        <link refid="_f_player_frame_data_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
@@ -77,7 +77,7 @@
       </node>
       <node id="11">
         <label>TACharacter.h</label>
-        <link refid="_t_a_character_8h_source"/>
+        <link refid="_t_a_character_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
@@ -95,7 +95,7 @@
       </node>
       <node id="26">
         <label>TemporalAIController.h</label>
-        <link refid="_temporal_a_i_controller_8h_source"/>
+        <link refid="_temporal_a_i_controller_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="27" relation="include">
@@ -105,7 +105,7 @@
       </node>
       <node id="9">
         <label>TemporalCharacter.h</label>
-        <link refid="_temporal_character_8h_source"/>
+        <link refid="_temporal_character_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
@@ -137,7 +137,7 @@
       </node>
       <node id="5">
         <label>WeaponDataAsset.h</label>
-        <link refid="_weapon_data_asset_8h_source"/>
+        <link refid="_weapon_data_asset_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
@@ -188,6 +188,36 @@
         <label>WeaponDataAsset.generated.h</label>
       </node>
     </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>Source/TimeAssassin/TACharacter.cpp</label>
+        <link refid="_t_a_character_8cpp"/>
+      </node>
+      <node id="3">
+        <label>Source/TimeAssassin/TAPlayerController.cpp</label>
+        <link refid="_t_a_player_controller_8cpp"/>
+      </node>
+      <node id="4">
+        <label>Source/TimeAssassin/TemporalCharacter.cpp</label>
+        <link refid="_temporal_character_8cpp"/>
+      </node>
+      <node id="5">
+        <label>Source/TimeAssassin/TemporalGameMode.cpp</label>
+        <link refid="_temporal_game_mode_8cpp"/>
+      </node>
+      <node id="1">
+        <label>Source/TimeAssassin/TemporalGameMode.h</label>
+        <link refid="_temporal_game_mode_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
     <innerclass refid="class_a_temporal_game_mode" prot="public">ATemporalGameMode</innerclass>
     <sectiondef kind="enum">
       <member refid="group___g_a_m_e___l_o_g_i_c_1gae6f5417eda5722930c61aac107396226" kind="enum"><name>EGhostReplayState</name></member>
@@ -203,16 +233,16 @@
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CoreMinimal.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameFramework/GameModeBase.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;FPlayerFrameData.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TemporalCharacter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TemporalAIController.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_f_player_frame_data_8h" kindref="compound">FPlayerFrameData.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_temporal_character_8h" kindref="compound">TemporalCharacter.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_temporal_a_i_controller_8h" kindref="compound">TemporalAIController.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TemporalGameMode.generated.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal">UENUM(BlueprintType)</highlight></codeline>
 <codeline lineno="22" refid="group___g_a_m_e___l_o_g_i_c_1gae6f5417eda5722930c61aac107396226" refkind="member"><highlight class="normal">enum<sp/>class<sp/><ref refid="group___g_a_m_e___l_o_g_i_c_1gae6f5417eda5722930c61aac107396226" kindref="member">EGhostReplayState</ref><sp/>:<sp/>uint8</highlight></codeline>
 <codeline lineno="23"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="27" refid="group___g_a_m_e___l_o_g_i_c_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>None<sp/><ref refid="group___g_a_m_e___l_o_g_i_c_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" kindref="member">UMETA</ref>(DisplayName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;None&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="27" refid="group___g_a_m_e___l_o_g_i_c_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91a6adf97f83acf6453d4a6a4b1070f3754" kindref="member">None</ref><sp/><ref refid="group___g_a_m_e___l_o_g_i_c_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" kindref="member">UMETA</ref>(DisplayName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;None&quot;</highlight><highlight class="normal">),</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32" refid="group___g_a_m_e___l_o_g_i_c_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Recording<sp/><ref refid="group___g_a_m_e___l_o_g_i_c_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" kindref="member">UMETA</ref>(DisplayName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Recording&quot;</highlight><highlight class="normal">),</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
@@ -222,85 +252,87 @@
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51"><highlight class="normal">UCLASS()</highlight></codeline>
-<codeline lineno="52" refid="class_a_temporal_game_mode" refkind="compound"><highlight class="normal">class<sp/>TIMEASSASSIN_API<sp/>ATemporalGameMode<sp/>:<sp/>public<sp/>AGameModeBase</highlight></codeline>
-<codeline lineno="53"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>ATemporalGameMode();</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~ATemporalGameMode()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>Destructor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">UCLASS()</highlight></codeline>
+<codeline lineno="53" refid="class_a_temporal_game_mode" refkind="compound"><highlight class="normal">class<sp/>TIMEASSASSIN_API<sp/><ref refid="class_a_temporal_game_mode_1a850314b4c4fc7f295113c900d82125c4" kindref="member">ATemporalGameMode</ref><sp/>:<sp/>public<sp/>AGameModeBase</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_game_mode_1a850314b4c4fc7f295113c900d82125c4" kindref="member">ATemporalGameMode</ref>();</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Ghost<sp/>Replay&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_game_mode_1a40d2fa5cb1227c92d9ebfee2783dbe32" kindref="member">AddReplayData</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TArray&lt;FPlayerFrameData&gt;&amp;<sp/>ReplayData);</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Ghost<sp/>Replay&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_game_mode_1ad0c8b4e4d2025d05b087d033502058b6" kindref="member">SpawnGhosts</ref>();</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Ghost<sp/>Replay&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_game_mode_1a3b811733d9fcb64b346c02ebaca0f199" kindref="member">ClearGhosts</ref>();</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Ghost<sp/>Replay&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_game_mode_1a712f6529f8d2049ff29c5c7190a5d73f" kindref="member">RegisterGhost</ref>(FName<sp/>GhostID,<sp/><ref refid="class_a_temporal_character" kindref="compound">ATemporalCharacter</ref>*<sp/>Ghost);</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Ghost<sp/>Replay&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_character" kindref="compound">ATemporalCharacter</ref>*<sp/><ref refid="class_a_temporal_game_mode_1ac82d62508315b553cec2822e6e0dda92" kindref="member">GetGhostByID</ref>(FName<sp/>GhostID)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadWrite,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;GameFlow&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="103" refid="class_a_temporal_game_mode_1a196e99b79778bd0d825457c33a27988c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>bool<sp/><ref refid="class_a_temporal_game_mode_1a196e99b79778bd0d825457c33a27988c" kindref="member">bPlayMode</ref><sp/>=<sp/>true;</highlight></codeline>
-<codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>How<sp/>long<sp/>after<sp/>death<sp/>before<sp/>we<sp/>respawn</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditDefaultsOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Respawn&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>RespawnDelay<sp/>=<sp/>3.f;</highlight></codeline>
-<codeline lineno="108"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>FTimerHandle<sp/>RespawnTimerHandle;</highlight></codeline>
-<codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111"><highlight class="normal">protected:</highlight></codeline>
-<codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>When<sp/>a<sp/>player<sp/>controller<sp/>logs<sp/>in,<sp/>bind<sp/>its<sp/>pawn’s<sp/>OnDeath</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PostLogin(APlayerController*<sp/>NewPlayer)<sp/>override;</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>RestartPlayer(AController*<sp/>NewPlayer)<sp/>override;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_game_mode_1a850314b4c4fc7f295113c900d82125c4" kindref="member">~ATemporalGameMode</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Blueprint-Callable<sp/>API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Ghost<sp/>Replay&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_game_mode_1a40d2fa5cb1227c92d9ebfee2783dbe32" kindref="member">AddReplayData</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TArray&lt;FPlayerFrameData&gt;&amp;<sp/>ReplayData);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Ghost<sp/>Replay&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_game_mode_1ad0c8b4e4d2025d05b087d033502058b6" kindref="member">SpawnGhosts</ref>();</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Ghost<sp/>Replay&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_game_mode_1a3b811733d9fcb64b346c02ebaca0f199" kindref="member">ClearGhosts</ref>();</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Ghost<sp/>Replay&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_game_mode_1a712f6529f8d2049ff29c5c7190a5d73f" kindref="member">RegisterGhost</ref>(FName<sp/>GhostID,<sp/><ref refid="class_a_temporal_character" kindref="compound">ATemporalCharacter</ref>*<sp/>Ghost);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Ghost<sp/>Replay&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_character" kindref="compound">ATemporalCharacter</ref>*<sp/><ref refid="class_a_temporal_game_mode_1ac82d62508315b553cec2822e6e0dda92" kindref="member">GetGhostByID</ref>(FName<sp/>GhostID)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Editable<sp/>Gameplay<sp/>Parameters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadWrite,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;GameFlow&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="112" refid="class_a_temporal_game_mode_1a196e99b79778bd0d825457c33a27988c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>bool<sp/><ref refid="class_a_temporal_game_mode_1a196e99b79778bd0d825457c33a27988c" kindref="member">bPlayMode</ref><sp/>=<sp/>true;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditDefaultsOnly,<sp/>BlueprintReadWrite,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Respawn&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="116" refid="class_a_temporal_game_mode_1aa69c3c09bc3abf18a4121171f1577a0c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_game_mode_1aa69c3c09bc3abf18a4121171f1577a0c" kindref="member">RespawnDelay</ref><sp/>=<sp/>3.f;</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ResolveHitGhosts();</highlight></codeline>
-<codeline lineno="119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>ghost<sp/>character<sp/>Blueprint<sp/>class<sp/>to<sp/>spawn.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadWrite,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Ghost<sp/>Replay&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>TSubclassOf&lt;<ref refid="class_a_temporal_character" kindref="compound">ATemporalCharacter</ref>&gt;<sp/>TemporalCharacterClass;</highlight></codeline>
-<codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Array<sp/>storing<sp/>spawned<sp/>ghost<sp/>actors.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadWrite,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Ghost<sp/>Replay&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;<ref refid="class_a_temporal_character" kindref="compound">ATemporalCharacter</ref>*&gt;<sp/>SpawnedGhosts;</highlight></codeline>
-<codeline lineno="127"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY()</highlight></codeline>
-<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>TMap&lt;FName,<sp/>TWeakObjectPtr&lt;<ref refid="class_a_temporal_character" kindref="compound">ATemporalCharacter</ref>&gt;&gt;<sp/>GhostRegistry;</highlight></codeline>
-<codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131"><highlight class="normal">private:</highlight></codeline>
-<codeline lineno="132"><highlight class="normal"></highlight></codeline>
-<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION()</highlight></codeline>
-<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>HandlePlayerDeath(AActor*<sp/>VictimActor,<sp/>AController*<sp/>VictimController,<sp/>AActor*<sp/>InstigatorActor);</highlight></codeline>
-<codeline lineno="136"><highlight class="normal"></highlight></codeline>
-<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION()</highlight></codeline>
-<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>RespawnPlayer(AController*<sp/>Controller);</highlight></codeline>
-<codeline lineno="140"><highlight class="normal"></highlight></codeline>
-<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="class_a_temporal_game_mode_1a2f20687efa9847159c5e8b6504a1d1c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FTimerHandle<sp/><ref refid="class_a_temporal_game_mode_1a2f20687efa9847159c5e8b6504a1d1c9" kindref="member">RespawnTimerHandle</ref>;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal">protected:</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Overrides<sp/>&amp;<sp/>Internal<sp/>Helpers</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_game_mode_1a81da0d38fed808498b70056c35b0bc46" kindref="member">PostLogin</ref>(APlayerController*<sp/>NewPlayer)<sp/>override;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_game_mode_1a86ac54b58d4039fe0b7567f19e361c00" kindref="member">RestartPlayer</ref>(AController*<sp/>NewPlayer)<sp/>override;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_game_mode_1ae9fe28e227bf21645525552d5fa13feb" kindref="member">ResolveHitGhosts</ref>();</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadWrite,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Ghost<sp/>Replay&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="137" refid="class_a_temporal_game_mode_1ade25ee8f6b9e699b06f9214e2d47244f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TSubclassOf&lt;<ref refid="class_a_temporal_character" kindref="compound">ATemporalCharacter</ref>&gt;<sp/><ref refid="class_a_temporal_game_mode_1ade25ee8f6b9e699b06f9214e2d47244f" kindref="member">TemporalCharacterClass</ref>;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(VisibleAnywhere,<sp/>BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Ghost<sp/>Replay&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="141" refid="class_a_temporal_game_mode_1a590df8f1baea522be785799f646b67bc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;<ref refid="class_a_temporal_character" kindref="compound">ATemporalCharacter</ref>*&gt;<sp/><ref refid="class_a_temporal_game_mode_1a590df8f1baea522be785799f646b67bc" kindref="member">SpawnedGhosts</ref>;</highlight></codeline>
 <codeline lineno="142"><highlight class="normal"></highlight></codeline>
-<codeline lineno="143"><highlight class="normal"></highlight></codeline>
-<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>**UPROPERTY()<sp/>array<sp/>for<sp/>exposing<sp/>raw<sp/>pointers<sp/>(optional)**</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;TSharedPtr&lt;<ref refid="struct_f_replay_attempt" kindref="compound">FReplayAttempt</ref>&gt;&gt;<sp/>StoredReplays;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY()</highlight></codeline>
+<codeline lineno="145" refid="class_a_temporal_game_mode_1a73326dc3f648f9c0f0e6ea748aa7b70a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TMap&lt;FName,<sp/>TWeakObjectPtr&lt;<ref refid="class_a_temporal_character" kindref="compound">ATemporalCharacter</ref>&gt;&gt;<sp/><ref refid="class_a_temporal_game_mode_1a73326dc3f648f9c0f0e6ea748aa7b70a" kindref="member">GhostRegistry</ref>;</highlight></codeline>
 <codeline lineno="146"><highlight class="normal"></highlight></codeline>
-<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;<ref refid="class_a_temporal_a_i_controller" kindref="compound">ATemporalAIController</ref>*&gt;<sp/>SpawnedControllers;</highlight></codeline>
-<codeline lineno="148"><highlight class="normal"></highlight></codeline>
-<codeline lineno="149"><highlight class="normal"></highlight></codeline>
-<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal">private:</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Internal<sp/>callbacks</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="151"><highlight class="normal"></highlight></codeline>
-<codeline lineno="152"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="154"><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>end<sp/>of<sp/>GameLogic<sp/>group</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION()</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_game_mode_1a102cbf4a2c07c3ef0d35709653efac2d" kindref="member">HandlePlayerDeath</ref>(AActor*<sp/>VictimActor,<sp/>AController*<sp/>VictimController,<sp/>AActor*<sp/>InstigatorActor);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION()</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_game_mode_1aa8f9250c5b4e24fc35fb6d880bba49ac" kindref="member">RespawnPlayer</ref>(AController*<sp/>Controller);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Internal<sp/>data</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="class_a_temporal_game_mode_1a256d55c37145af96ed32c4edb6aa58ab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;TSharedPtr&lt;<ref refid="struct_f_replay_attempt" kindref="compound">FReplayAttempt</ref>&gt;&gt;<sp/><ref refid="class_a_temporal_game_mode_1a256d55c37145af96ed32c4edb6aa58ab" kindref="member">StoredReplays</ref>;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="class_a_temporal_game_mode_1a0c1562f8c2fdfb64da11d4543a881f60" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;<ref refid="class_a_temporal_a_i_controller" kindref="compound">ATemporalAIController</ref>*&gt;<sp/><ref refid="class_a_temporal_game_mode_1a0c1562f8c2fdfb64da11d4543a881f60" kindref="member">SpawnedControllers</ref>;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>end<sp/>of<sp/>GAME_LOGIC<sp/>group</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="Source/TimeAssassin/TemporalGameMode.h"/>
   </compounddef>

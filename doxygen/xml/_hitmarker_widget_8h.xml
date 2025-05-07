@@ -19,7 +19,7 @@
       </node>
       <node id="5">
         <label>CombatTags.h</label>
-        <link refid="_combat_tags_8h_source"/>
+        <link refid="_combat_tags_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
@@ -52,15 +52,57 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
+      <node id="2">
+        <label>Source/TimeAssassin/GameHUD.cpp</label>
+        <link refid="_game_h_u_d_8cpp"/>
+      </node>
+      <node id="3">
+        <label>Source/TimeAssassin/HitmarkerWidget.cpp</label>
+        <link refid="_hitmarker_widget_8cpp"/>
+      </node>
       <node id="1">
         <label>Source/TimeAssassin/HitmarkerWidget.h</label>
         <link refid="_hitmarker_widget_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
       </node>
-      <node id="2">
+      <node id="5">
+        <label>Source/TimeAssassin/TACharacter.cpp</label>
+        <link refid="_t_a_character_8cpp"/>
+      </node>
+      <node id="6">
+        <label>Source/TimeAssassin/TAPlayerController.cpp</label>
+        <link refid="_t_a_player_controller_8cpp"/>
+      </node>
+      <node id="7">
+        <label>Source/TimeAssassin/TemporalCharacter.cpp</label>
+        <link refid="_temporal_character_8cpp"/>
+      </node>
+      <node id="8">
+        <label>Source/TimeAssassin/WeaponComponent.cpp</label>
+        <link refid="_weapon_component_8cpp"/>
+      </node>
+      <node id="4">
         <label>Source/TimeAssassin/WeaponComponent.h</label>
-        <link refid="_weapon_component_8h_source"/>
+        <link refid="_weapon_component_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Source/TimeAssassin/WeaponInventoryComponent.cpp</label>
+        <link refid="_weapon_inventory_component_8cpp"/>
       </node>
     </invincdepgraph>
     <innerclass refid="struct_f_hit_marker_style" prot="public">FHitMarkerStyle</innerclass>
@@ -78,7 +120,7 @@
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CoreMinimal.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Blueprint/UserWidget.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameplayTagContainer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CombatTags.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_combat_tags_8h" kindref="compound">CombatTags.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;HitmarkerWidget.generated.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal">USTRUCT(BlueprintType)</highlight></codeline>
@@ -117,12 +159,12 @@
 <codeline lineno="53"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>Age<sp/>=<sp/>0.f;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Time<sp/>since<sp/>spawn</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>FadeTime<sp/>=<sp/>0.15f;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Copied<sp/>from<sp/>style</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>PopDuration<sp/>=<sp/>0.1f;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Copied<sp/>from<sp/>style</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>Scale<sp/>=<sp/>1.f;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Current<sp/>scale<sp/>for<sp/>easing</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>FLinearColor<sp/>Color<sp/>=<sp/>FLinearColor::White;</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>AngleJitter<sp/>=<sp/>0.f;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Random<sp/>rotation<sp/>offset</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="struct_f_active_hit_marker_1a4e0d9e7a0b1adc1f1fdb606d9a5ae420" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>float<sp/><ref refid="struct_f_active_hit_marker_1a4e0d9e7a0b1adc1f1fdb606d9a5ae420" kindref="member">Age</ref><sp/>=<sp/>0.f;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Time<sp/>since<sp/>spawn</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="struct_f_active_hit_marker_1a45ca0ba3e37006b3d02794ee6289474a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_f_active_hit_marker_1a45ca0ba3e37006b3d02794ee6289474a" kindref="member">FadeTime</ref><sp/>=<sp/>0.15f;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Copied<sp/>from<sp/>style</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="struct_f_active_hit_marker_1a76186e9397a7ad146ddc91b5f6f2283f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_f_active_hit_marker_1a76186e9397a7ad146ddc91b5f6f2283f" kindref="member">PopDuration</ref><sp/>=<sp/>0.1f;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Copied<sp/>from<sp/>style</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="struct_f_active_hit_marker_1a40dcf9dde743fa4634f90ec665e9bf1d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_f_active_hit_marker_1a40dcf9dde743fa4634f90ec665e9bf1d" kindref="member">Scale</ref><sp/>=<sp/>1.f;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Current<sp/>scale<sp/>for<sp/>easing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="struct_f_active_hit_marker_1a8743d93df437402df88e6132beff944e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FLinearColor<sp/><ref refid="struct_f_active_hit_marker_1a8743d93df437402df88e6132beff944e" kindref="member">Color</ref><sp/>=<sp/>FLinearColor::White;</highlight></codeline>
+<codeline lineno="61" refid="struct_f_active_hit_marker_1afe3fd36b97f269b47316cbd269ebb34d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_f_active_hit_marker_1afe3fd36b97f269b47316cbd269ebb34d" kindref="member">AngleJitter</ref><sp/>=<sp/>0.f;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Random<sp/>rotation<sp/>offset</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="62"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
 <codeline lineno="68"><highlight class="normal">UCLASS()</highlight></codeline>
@@ -142,10 +184,10 @@
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
 <codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;HitMarker&quot;</highlight><highlight class="normal">)</highlight></codeline>
 <codeline lineno="88" refid="class_u_hitmarker_widget_1a932a0d56665afc59c894f03200f2c7e6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_hitmarker_widget_1a932a0d56665afc59c894f03200f2c7e6" kindref="member">OnHitMarkerAdded</ref>(const<sp/>FGameplayTagContainer&amp;<sp/>DamageTags);</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnHitMarkerAdded_Implementation(const<sp/>FGameplayTagContainer&amp;<sp/>DamageTags);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_hitmarker_widget_1adc3721d64e45f4a804f7f99bc5fb9189" kindref="member">OnHitMarkerAdded_Implementation</ref>(const<sp/>FGameplayTagContainer&amp;<sp/>DamageTags);</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
 <codeline lineno="91"><highlight class="normal">protected:</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>NativeConstruct()<sp/>override;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_hitmarker_widget_1a7501018db290d8891f43ae4e74d666ab" kindref="member">NativeConstruct</ref>()<sp/>override;</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_hitmarker_widget_1aebd3beb53a3100243c39031e97aff461" kindref="member">NativePreConstruct</ref>()<sp/>override;</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"></highlight></codeline>
 <codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_hitmarker_widget_1a2ce88fcd5d98e3c05265297ec74edaa4" kindref="member">NativeTick</ref>(const<sp/>FGeometry&amp;<sp/>MyGeometry,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>DeltaTime)<sp/>override;</highlight></codeline>
@@ -158,15 +200,15 @@
 <codeline lineno="105"><highlight class="normal">private:</highlight></codeline>
 <codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>One<sp/>entry<sp/>per<sp/>recent<sp/>hit<sp/>(overlapping<sp/>markers<sp/>are<sp/>supported)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY()</highlight></codeline>
-<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;<ref refid="struct_f_active_hit_marker" kindref="compound">FActiveHitMarker</ref>&gt;<sp/>ActiveMarkers;</highlight></codeline>
+<codeline lineno="108" refid="class_u_hitmarker_widget_1acddf71bbcfe6c5fe4c3d56f62571d731" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;<ref refid="struct_f_active_hit_marker" kindref="compound">FActiveHitMarker</ref>&gt;<sp/><ref refid="class_u_hitmarker_widget_1acddf71bbcfe6c5fe4c3d56f62571d731" kindref="member">ActiveMarkers</ref>;</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>AddMarker(const<sp/>FGameplayTagContainer&amp;<sp/>DamageTags);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_hitmarker_widget_1a5a1146e63886f9f79ea2b24eb8667127" kindref="member">AddMarker</ref>(const<sp/>FGameplayTagContainer&amp;<sp/>DamageTags);</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>FLinearColor<sp/>DetermineColor(const<sp/>FGameplayTagContainer&amp;<sp/>DamageTags)<sp/>const;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>FLinearColor<sp/><ref refid="class_u_hitmarker_widget_1a6b1de2de1eeac4847becbe743daf261c" kindref="member">DetermineColor</ref>(const<sp/>FGameplayTagContainer&amp;<sp/>DamageTags)<sp/>const;</highlight></codeline>
 <codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UpdateMarkers(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>DeltaTime);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_hitmarker_widget_1a0bb8e78af47b04bf00260ab241b0c617" kindref="member">UpdateMarkers</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>DeltaTime);</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"></highlight></codeline>
-<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>int32<sp/>RenderMarkers(const<sp/>FGeometry&amp;<sp/>Geometry,<sp/>FSlateWindowElementList&amp;<sp/>Out,<sp/>int32<sp/>Layer)<sp/>const;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>int32<sp/><ref refid="class_u_hitmarker_widget_1af40e2c0e07785e6bc2c6994d5cf3bc81" kindref="member">RenderMarkers</ref>(const<sp/>FGeometry&amp;<sp/>Geometry,<sp/>FSlateWindowElementList&amp;<sp/>Out,<sp/>int32<sp/>Layer)<sp/>const;</highlight></codeline>
 <codeline lineno="121"><highlight class="normal">};</highlight></codeline>
     </programlisting>
     <location file="Source/TimeAssassin/HitmarkerWidget.h"/>

@@ -3,6 +3,7 @@
   <compounddef id="class_a_orbit_spectator_pawn" kind="class" language="C++" prot="public">
     <compoundname>AOrbitSpectatorPawn</compoundname>
     <basecompoundref prot="public" virt="non-virtual">ASpectatorPawn</basecompoundref>
+    <includes refid="_orbit_spectator_pawn_8h" local="no">OrbitSpectatorPawn.h</includes>
     <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="class_a_orbit_spectator_pawn_1a24c5e1186db9f8e8e7bf60993ea45405" prot="private" static="no" mutable="no">
         <type>AActor *</type>

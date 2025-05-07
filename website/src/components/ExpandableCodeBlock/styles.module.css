@@ -1,0 +1,98 @@
+.container {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 6px;
+  margin: 1rem 0;
+  background-color: var(--ifm-code-background);
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem;
+  background-color: var(--ifm-code-background);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+  
+.toggleButton {
+  background: none;
+  border: none;
+  color: var(--ifm-color-primary);
+  cursor: pointer;
+  padding: 0.5rem;
+  text-align: center;
+  width: 100%;
+}
+
+
+:global(.theme-code-block:hover) .copyButtonCopied {
+  opacity: 1 !important;
+}
+
+.copyButtonIcons {
+  position: relative;
+  width: 1.125rem;
+  height: 1.125rem;
+}
+
+.copyButtonIcon,
+.copyButtonSuccessIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  fill: currentColor;
+  opacity: inherit;
+  width: inherit;
+  height: inherit;
+  transition: all var(--ifm-transition-fast) ease;
+}
+
+.copyButtonSuccessIcon {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.33);
+  opacity: 0;
+  color: #00d600;
+}
+
+.copyButtonCopied .copyButtonIcon {
+  transform: scale(0.33);
+  opacity: 0;
+}
+
+.copyButtonCopied .copyButtonSuccessIcon {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+  transition-delay: 0.075s;
+}
+
+.codeBlockWrapper {
+  position: relative;
+  border-radius: var(--ifm-global-radius);
+  overflow: hidden;
+}
+
+.copyButton {
+  all: unset;
+  cursor: pointer;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.75rem;
+  z-index: 1;
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--ifm-code-background);
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.copyButton:focus {
+  outline: none; /* remove blue ring */
+  box-shadow: none;
+}
+
+.codeBlockWrapper:hover .copyButton {
+  opacity: 1;
+}

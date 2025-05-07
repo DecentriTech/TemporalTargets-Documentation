@@ -18,7 +18,7 @@
       </node>
       <node id="2">
         <label>TimeAssassin.h</label>
-        <link refid="_time_assassin_8h_source"/>
+        <link refid="_time_assassin_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
       </node>
@@ -57,10 +57,10 @@
     <programlisting>
 <codeline lineno="1"><highlight class="comment">//<sp/>Fill<sp/>out<sp/>your<sp/>copyright<sp/>notice<sp/>in<sp/>the<sp/>Description<sp/>page<sp/>of<sp/>Project<sp/>Settings.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TimeAssassin.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_time_assassin_8h" kindref="compound">TimeAssassin.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Modules/ModuleManager.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal">IMPLEMENT_PRIMARY_GAME_MODULE(<sp/>FDefaultGameModuleImpl,<sp/><ref refid="class_time_assassin" kindref="compound">TimeAssassin</ref>,<sp/></highlight><highlight class="stringliteral">&quot;TimeAssassin&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="6" refid="_time_assassin_8cpp_1a227a40ead07b7a62e7a3584d752c0024" refkind="member"><highlight class="normal"><ref refid="_time_assassin_8cpp_1a227a40ead07b7a62e7a3584d752c0024" kindref="member">IMPLEMENT_PRIMARY_GAME_MODULE</ref>(<sp/>FDefaultGameModuleImpl,<sp/><ref refid="class_time_assassin" kindref="compound">TimeAssassin</ref>,<sp/></highlight><highlight class="stringliteral">&quot;TimeAssassin&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
     </programlisting>
     <location file="Source/TimeAssassin/TimeAssassin.cpp"/>
   </compounddef>

@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "ESNext",
+      "jsx": "react-jsx",
+      "strict": true,
+      "moduleResolution": "bundler",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "baseUrl": ".",
+      "paths": {
+      "@docusaurus/Translate": ["node_modules/@docusaurus/core/lib/client/exports/translate"],
+      "@theme/*": ["src/theme/*"]
+    },
+      "typeRoots": ["./typings", "./node_modules/@types"],
+      "resolveJsonModule": true
+    },
+    "include": ["src", "typings"]
+  }

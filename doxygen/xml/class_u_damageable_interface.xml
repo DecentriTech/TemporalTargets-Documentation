@@ -3,6 +3,7 @@
   <compounddef id="class_u_damageable_interface" kind="class" language="C++" prot="public">
     <compoundname>UDamageableInterface</compoundname>
     <basecompoundref prot="public" virt="non-virtual">UInterface</basecompoundref>
+    <includes refid="_damageable_interface_8h" local="no">DamageableInterface.h</includes>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

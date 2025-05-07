@@ -28,6 +28,24 @@
         <label>SpectatorHudWidget.generated.h</label>
       </node>
     </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>Source/TimeAssassin/SpectatorHudWidget.cpp</label>
+        <link refid="_spectator_hud_widget_8cpp"/>
+      </node>
+      <node id="1">
+        <label>Source/TimeAssassin/SpectatorHudWidget.h</label>
+        <link refid="_spectator_hud_widget_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Source/TimeAssassin/TAPlayerController.cpp</label>
+        <link refid="_t_a_player_controller_8cpp"/>
+      </node>
+    </invincdepgraph>
     <innerclass refid="class_u_spectator_hud_widget" prot="public">USpectatorHudWidget</innerclass>
     <briefdescription>
     </briefdescription>
@@ -63,7 +81,7 @@
 <codeline lineno="33" refid="class_u_spectator_hud_widget_1a065ed56f15bd966f96c21a20fe193693" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UTextBlock*<sp/><ref refid="class_u_spectator_hud_widget_1a065ed56f15bd966f96c21a20fe193693" kindref="member">CountdownText</ref>;</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
 <codeline lineno="35"><highlight class="normal">private:</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>TotalTime<sp/>=<sp/>0.f;</highlight></codeline>
+<codeline lineno="36" refid="class_u_spectator_hud_widget_1a3ba9909ea0eabb362f605c579de416ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_u_spectator_hud_widget_1a3ba9909ea0eabb362f605c579de416ae" kindref="member">TotalTime</ref><sp/>=<sp/>0.f;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal">};</highlight></codeline>
     </programlisting>
     <location file="Source/TimeAssassin/SpectatorHudWidget.h"/>

@@ -3,6 +3,7 @@
   <compounddef id="class_u_spray_pattern_u_i_widget" kind="class" language="C++" prot="public">
     <compoundname>USprayPatternUIWidget</compoundname>
     <basecompoundref prot="public" virt="non-virtual">UUserWidget</basecompoundref>
+    <includes refid="_spray_pattern_u_i_widget_8h" local="no">SprayPatternUIWidget.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="class_u_spray_pattern_u_i_widget_1a694936078f02a97cf23d44e0ad00eb27" prot="public" static="no" mutable="no">
         <type>class UComboBoxString *</type>

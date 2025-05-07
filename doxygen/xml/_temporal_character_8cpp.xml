@@ -41,7 +41,7 @@
       </node>
       <node id="6">
         <label>BPI_Interactable.h</label>
-        <link refid="_b_p_i___interactable_8h_source"/>
+        <link refid="_b_p_i___interactable_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
@@ -51,7 +51,7 @@
       </node>
       <node id="37">
         <label>CombatTags.h</label>
-        <link refid="_combat_tags_8h_source"/>
+        <link refid="_combat_tags_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
@@ -61,7 +61,7 @@
       </node>
       <node id="33">
         <label>CrosshairWidget.h</label>
-        <link refid="_crosshair_widget_8h_source"/>
+        <link refid="_crosshair_widget_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="34" relation="include">
@@ -71,7 +71,7 @@
       </node>
       <node id="10">
         <label>DamageableComponent.h</label>
-        <link refid="_damageable_component_8h_source"/>
+        <link refid="_damageable_component_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
@@ -83,7 +83,7 @@
       </node>
       <node id="9">
         <label>DamageableInterface.h</label>
-        <link refid="_damageable_interface_8h_source"/>
+        <link refid="_damageable_interface_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
@@ -95,7 +95,7 @@
       </node>
       <node id="18">
         <label>FPlayerFrameData.h</label>
-        <link refid="_f_player_frame_data_8h_source"/>
+        <link refid="_f_player_frame_data_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="19" relation="include">
@@ -105,7 +105,7 @@
       </node>
       <node id="36">
         <label>HitmarkerWidget.h</label>
-        <link refid="_hitmarker_widget_8h_source"/>
+        <link refid="_hitmarker_widget_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="34" relation="include">
@@ -119,7 +119,7 @@
       </node>
       <node id="28">
         <label>InteractionComponent.h</label>
-        <link refid="_interaction_component_8h_source"/>
+        <link refid="_interaction_component_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
@@ -129,7 +129,7 @@
       </node>
       <node id="30">
         <label>ReplayRecorderComponent.h</label>
-        <link refid="_replay_recorder_component_8h_source"/>
+        <link refid="_replay_recorder_component_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
@@ -141,7 +141,7 @@
       </node>
       <node id="5">
         <label>TACharacter.h</label>
-        <link refid="_t_a_character_8h_source"/>
+        <link refid="_t_a_character_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
@@ -159,7 +159,7 @@
       </node>
       <node id="45">
         <label>TemporalAIController.h</label>
-        <link refid="_temporal_a_i_controller_8h_source"/>
+        <link refid="_temporal_a_i_controller_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="46" relation="include">
@@ -197,7 +197,7 @@
       </node>
       <node id="2">
         <label>TemporalCharacter.h</label>
-        <link refid="_temporal_character_8h_source"/>
+        <link refid="_temporal_character_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
@@ -213,7 +213,7 @@
       </node>
       <node id="43">
         <label>TemporalGameMode.h</label>
-        <link refid="_temporal_game_mode_8h_source"/>
+        <link refid="_temporal_game_mode_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="44" relation="include">
@@ -229,7 +229,7 @@
       </node>
       <node id="32">
         <label>WeaponComponent.h</label>
-        <link refid="_weapon_component_8h_source"/>
+        <link refid="_weapon_component_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
@@ -245,7 +245,7 @@
       </node>
       <node id="19">
         <label>WeaponDataAsset.h</label>
-        <link refid="_weapon_data_asset_8h_source"/>
+        <link refid="_weapon_data_asset_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="20" relation="include">
@@ -255,7 +255,7 @@
       </node>
       <node id="41">
         <label>WeaponInventoryComponent.h</label>
-        <link refid="_weapon_inventory_component_8h_source"/>
+        <link refid="_weapon_inventory_component_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
@@ -360,27 +360,27 @@
     <programlisting>
 <codeline lineno="1"><highlight class="comment">//<sp/>Fill<sp/>out<sp/>your<sp/>copyright<sp/>notice<sp/>in<sp/>the<sp/>Description<sp/>page<sp/>of<sp/>Project<sp/>Settings.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TemporalCharacter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_temporal_character_8h" kindref="compound">TemporalCharacter.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameFramework/Actor.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Kismet/KismetMathLibrary.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameFramework/CharacterMovementComponent.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;InteractionComponent.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ReplayRecorderComponent.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WeaponComponent.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WeaponInventoryComponent.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DamageableInterface.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TemporalGameMode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_interaction_component_8h" kindref="compound">InteractionComponent.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_replay_recorder_component_8h" kindref="compound">ReplayRecorderComponent.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_weapon_component_8h" kindref="compound">WeaponComponent.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_weapon_inventory_component_8h" kindref="compound">WeaponInventoryComponent.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_damageable_interface_8h" kindref="compound">DamageableInterface.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_temporal_game_mode_8h" kindref="compound">TemporalGameMode.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Kismet/GameplayStatics.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Templates/SharedPointer.h&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>Ensure<sp/>shared<sp/>pointers<sp/>are<sp/>available</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Sets<sp/>default<sp/>values</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal">ATemporalCharacter::ATemporalCharacter()</highlight></codeline>
+<codeline lineno="17" refid="class_a_temporal_character_1a667d9c49508c25567dfb5672b15a6008" refkind="member"><highlight class="normal"><ref refid="class_a_temporal_character_1a667d9c49508c25567dfb5672b15a6008" kindref="member">ATemporalCharacter::ATemporalCharacter</ref>()</highlight></codeline>
 <codeline lineno="18"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>PrimaryActorTick.bCanEverTick<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>PlaybackTime<sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_character_1a67673baa8f7cc8622a16e9733fa978cb" kindref="member">PlaybackTime</ref><sp/>=<sp/>0.0f;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Initialize<sp/>shared<sp/>pointer<sp/>to<sp/>nullptr</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>ReplayDataPtr<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>up<sp/>the<sp/>event<sp/>handlers<sp/>map.</highlight><highlight class="normal"></highlight></codeline>
@@ -392,7 +392,7 @@
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Automatically<sp/>bind<sp/>replay<sp/>events<sp/>using<sp/>the<sp/>macro<sp/>list.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>X(Flag,<sp/>Func)<sp/>\</highlight></codeline>
 <codeline lineno="34"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ReplayEventHandlers.Add(FReplayHandlerEntry{<sp/>EReplayActionFlags::Flag,<sp/>FReplayEventDelegate::CreateUObject(this,<sp/>&amp;ATemporalCharacter::Func)<sp/>});</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>REPLAY_EVENT_LIST</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_temporal_character_8h_1a5dc31e53903277847805dd17628d2435" kindref="member">REPLAY_EVENT_LIST</ref></highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#undef<sp/>X</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
@@ -416,54 +416,54 @@
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
 <codeline lineno="57"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59"><highlight class="normal">ATemporalCharacter::~ATemporalCharacter()</highlight></codeline>
+<codeline lineno="59" refid="class_a_temporal_character_1a1efeb6e6a04c85d8e29dd8b8fe1b2c0f" refkind="member"><highlight class="normal"><ref refid="class_a_temporal_character_1a1efeb6e6a04c85d8e29dd8b8fe1b2c0f" kindref="member">ATemporalCharacter::~ATemporalCharacter</ref>()</highlight></codeline>
 <codeline lineno="60"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>PlaybackTime<sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_character_1a67673baa8f7cc8622a16e9733fa978cb" kindref="member">PlaybackTime</ref><sp/>=<sp/>0.0f;</highlight></codeline>
 <codeline lineno="62"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ATemporalCharacter::EndPlay(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>EEndPlayReason::Type<sp/>EndPlayReason)</highlight></codeline>
+<codeline lineno="64" refid="class_a_temporal_character_1a6870164dc921d6cb870dc2f5acc1e427" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_character_1a6870164dc921d6cb870dc2f5acc1e427" kindref="member">ATemporalCharacter::EndPlay</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>EEndPlayReason::Type<sp/>EndPlayReason)</highlight></codeline>
 <codeline lineno="65"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>Super::EndPlay(EndPlayReason);</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>ReplayEventHandlers.Reset();</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_character_1a1bcb0fc42ec0b14204fa1ca589931c58" kindref="member">ReplayEventHandlers</ref>.Reset();</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//ReplayDataPtr.Reset();<sp/>//<sp/>No<sp/>need<sp/>to<sp/>reset<sp/>shared<sp/>pointer,<sp/>it<sp/>will<sp/>be<sp/>cleaned<sp/>up<sp/>automatically.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="70"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ATemporalCharacter::BeginPlay()</highlight></codeline>
+<codeline lineno="72" refid="class_a_temporal_character_1a67a3cec0d56a486a1a53894e5214bb58" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_character_1a67a3cec0d56a486a1a53894e5214bb58" kindref="member">ATemporalCharacter::BeginPlay</ref>()</highlight></codeline>
 <codeline lineno="73"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>Super::BeginPlay();</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
 <codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>Tags.AddUnique(</highlight><highlight class="stringliteral">&quot;Ghost&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>LastGhostPosition<sp/>=<sp/>GetActorLocation();</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_character_1a5fd5e34a8a8b28296d28154c8b0e9d48" kindref="member">LastGhostPosition</ref><sp/>=<sp/>GetActorLocation();</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Optionally<sp/>clear<sp/>or<sp/>precompute<sp/>CumulativeDistances<sp/>here.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>CumulativeDistances.Empty();</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_character_1af1c84fd0c105c9a623da357a1ef3302a" kindref="member">CumulativeDistances</ref>.Empty();</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ATemporalGameMode*<sp/>GM<sp/>=<sp/>Cast&lt;ATemporalGameMode&gt;(UGameplayStatics::GetGameMode(</highlight><highlight class="keyword">this</highlight><highlight class="normal">)))</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_a_temporal_game_mode" kindref="compound">ATemporalGameMode</ref>*<sp/>GM<sp/>=<sp/>Cast&lt;ATemporalGameMode&gt;(UGameplayStatics::GetGameMode(</highlight><highlight class="keyword">this</highlight><highlight class="normal">)))</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!GhostID.IsNone())</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_a_temporal_character_1ad2de46499d798556533a4dd3fb6f8d2f" kindref="member">GhostID</ref>.IsNone())</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GM-&gt;RegisterGhost(GhostID,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GM-&gt;RegisterGhost(<ref refid="class_a_temporal_character_1ad2de46499d798556533a4dd3fb6f8d2f" kindref="member">GhostID</ref>,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="89"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="91"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ATemporalCharacter::Tick(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>DeltaTime)</highlight></codeline>
+<codeline lineno="91" refid="class_a_temporal_character_1a4ceee8241c27f2e30ea2aa494cd4af94" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_character_1a4ceee8241c27f2e30ea2aa494cd4af94" kindref="member">ATemporalCharacter::Tick</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>DeltaTime)</highlight></codeline>
 <codeline lineno="92"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>Super::Tick(DeltaTime);</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
 <codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>**Ensure<sp/>replay<sp/>data<sp/>is<sp/>valid<sp/>before<sp/>processing**</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!ReplayDataPtr.IsValid()<sp/>||<sp/>ReplayDataPtr-&gt;Num()<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>.IsValid()<sp/>||<sp/><ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>-&gt;Num()<sp/>==<sp/>0)</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;%s<sp/>-<sp/>ReplayDataPtr<sp/>is<sp/>invalid!&quot;</highlight><highlight class="normal">),<sp/>*GetName());</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"></highlight></codeline>
-<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>PlaybackTime<sp/>+=<sp/>DeltaTime;</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>UpdatePlayback(DeltaTime);<sp/></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_character_1a67673baa8f7cc8622a16e9733fa978cb" kindref="member">PlaybackTime</ref><sp/>+=<sp/>DeltaTime;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_character_1a745d6f6b56355d20a6bfe60a82dd199d" kindref="member">UpdatePlayback</ref>(DeltaTime);<sp/></highlight></codeline>
 <codeline lineno="104"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="106"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ATemporalCharacter::InitializeGhostPlayback(TSharedPtr&lt;TArray&lt;FPlayerFrameData&gt;&gt;<sp/>InReplayDataPtr)</highlight></codeline>
+<codeline lineno="106" refid="class_a_temporal_character_1a775894fbb17c7d40caacabd2ffdf7acb" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_character_1a775894fbb17c7d40caacabd2ffdf7acb" kindref="member">ATemporalCharacter::InitializeGhostPlayback</ref>(TSharedPtr&lt;TArray&lt;FPlayerFrameData&gt;&gt;<sp/>InReplayDataPtr)</highlight></codeline>
 <codeline lineno="107"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!InReplayDataPtr.IsValid()<sp/>||<sp/>InReplayDataPtr-&gt;Num()<sp/>==<sp/>0)</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -472,27 +472,27 @@
 <codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"></highlight></codeline>
 <codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Assign<sp/>new<sp/>shared<sp/>pointer<sp/>(NO<sp/>COPY)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>ReplayDataPtr<sp/>=<sp/>InReplayDataPtr;</highlight></codeline>
-<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>PlaybackTime<sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref><sp/>=<sp/>InReplayDataPtr;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_character_1a67673baa8f7cc8622a16e9733fa978cb" kindref="member">PlaybackTime</ref><sp/>=<sp/>0.0f;</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>
 <codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>Walk<sp/>every<sp/>frame<sp/>&amp;<sp/>shot<sp/>once,<sp/>load<sp/>unique<sp/>WeaponUsed</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>---------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>CachedWeapons.Empty();</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_character_1ab4d3ee10af91b626d223f704316948d1" kindref="member">CachedWeapons</ref>.Empty();</highlight></codeline>
 <codeline lineno="122"><highlight class="normal"></highlight></codeline>
-<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FPlayerFrameData&amp;<sp/>Frame<sp/>:<sp/>*ReplayDataPtr)</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref>&amp;<sp/>Frame<sp/>:<sp/>*<ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>)</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FRecordedShot&amp;<sp/>Shot<sp/>:<sp/>Frame.CombatData.Shots)</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_f_recorded_shot" kindref="compound">FRecordedShot</ref>&amp;<sp/>Shot<sp/>:<sp/>Frame.CombatData.Shots)</highlight></codeline>
 <codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!Shot.WeaponUsed.IsNull())</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!Shot.<ref refid="struct_f_recorded_shot_1a10c570c36ca0c84b3fe30910b7f6f13c" kindref="member">WeaponUsed</ref>.IsNull())</highlight></codeline>
 <codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FSoftObjectPath<sp/>Path<sp/>=<sp/>Shot.WeaponUsed.ToSoftObjectPath();</highlight></codeline>
-<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!CachedWeapons.Contains(Path))<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>load<sp/>only<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FSoftObjectPath<sp/>Path<sp/>=<sp/>Shot.<ref refid="struct_f_recorded_shot_1a10c570c36ca0c84b3fe30910b7f6f13c" kindref="member">WeaponUsed</ref>.ToSoftObjectPath();</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_a_temporal_character_1ab4d3ee10af91b626d223f704316948d1" kindref="member">CachedWeapons</ref>.Contains(Path))<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>load<sp/>only<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UWeaponDataAsset*<sp/>Loaded<sp/>=<sp/>Shot.WeaponUsed.LoadSynchronous();</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_u_weapon_data_asset" kindref="compound">UWeaponDataAsset</ref>*<sp/>Loaded<sp/>=<sp/>Shot.<ref refid="struct_f_recorded_shot_1a10c570c36ca0c84b3fe30910b7f6f13c" kindref="member">WeaponUsed</ref>.LoadSynchronous();</highlight></codeline>
 <codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Loaded)</highlight></codeline>
 <codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CachedWeapons.Add(Path,<sp/>Loaded);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_character_1ab4d3ee10af91b626d223f704316948d1" kindref="member">CachedWeapons</ref>.Add(Path,<sp/>Loaded);</highlight></codeline>
 <codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -506,81 +506,81 @@
 <codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="147"><highlight class="normal"></highlight></codeline>
 <codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;%s<sp/>–<sp/>Weapon<sp/>cache<sp/>built<sp/>with<sp/>%d<sp/>unique<sp/>assets&quot;</highlight><highlight class="normal">),</highlight></codeline>
-<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*GetName(),<sp/>CachedWeapons.Num());</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*GetName(),<sp/><ref refid="class_a_temporal_character_1ab4d3ee10af91b626d223f704316948d1" kindref="member">CachedWeapons</ref>.Num());</highlight></codeline>
 <codeline lineno="150"><highlight class="normal"></highlight></codeline>
 <codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Log<sp/>memory<sp/>details<sp/>for<sp/>this<sp/>ghost</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;%s<sp/>-<sp/>Ghost<sp/>initialized<sp/>with<sp/>%d<sp/>frames.<sp/>Memory<sp/>Address:<sp/>%p&quot;</highlight><highlight class="normal">),</highlight></codeline>
-<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*GetName(),<sp/>ReplayDataPtr-&gt;Num(),<sp/>ReplayDataPtr.Get());</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*GetName(),<sp/><ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>-&gt;Num(),<sp/><ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>.Get());</highlight></codeline>
 <codeline lineno="154"><highlight class="normal"></highlight></codeline>
 <codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Ensure<sp/>timestamps<sp/>are<sp/>normalized</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>FirstFrameTime<sp/>=<sp/>(*ReplayDataPtr)[0].TimeStamp;</highlight></codeline>
-<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(FPlayerFrameData&amp;<sp/>Frame<sp/>:<sp/>*ReplayDataPtr)</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref>&amp;<sp/>Frame<sp/>:<sp/>*<ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>)</highlight></codeline>
 <codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Frame.TimeStamp<sp/>-=<sp/>FirstFrameTime;</highlight></codeline>
 <codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="161"><highlight class="normal"></highlight></codeline>
 <codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>initial<sp/>position<sp/>and<sp/>rotation</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>SetActorLocation((*ReplayDataPtr)[0].Position);</highlight></codeline>
-<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/>SetActorRotation((*ReplayDataPtr)[0].Rotation);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>SetActorLocation((*<ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>)[0].Position);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/>SetActorRotation((*<ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>)[0].Rotation);</highlight></codeline>
 <codeline lineno="165"><highlight class="normal"></highlight></codeline>
-<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;%s<sp/>-<sp/>Initialized<sp/>with<sp/>%d<sp/>frames.&quot;</highlight><highlight class="normal">),<sp/>*GetName(),<sp/>ReplayDataPtr-&gt;Num());</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;%s<sp/>-<sp/>Initialized<sp/>with<sp/>%d<sp/>frames.&quot;</highlight><highlight class="normal">),<sp/>*GetName(),<sp/><ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>-&gt;Num());</highlight></codeline>
 <codeline lineno="167"><highlight class="normal"></highlight></codeline>
 <codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>---<sp/>NEW:<sp/>turn<sp/>off<sp/>all<sp/>the<sp/>inherited<sp/>player<sp/>components<sp/>---</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="169"><highlight class="normal"></highlight></codeline>
-<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(InteractionComponent)</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_a_t_a_character_1a5d445cc065fe5e3bd04fd8b00c82028d" kindref="member">InteractionComponent</ref>)</highlight></codeline>
 <codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>InteractionComponent-&gt;Deactivate();</highlight></codeline>
-<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>InteractionComponent-&gt;SetComponentTickEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_t_a_character_1a5d445cc065fe5e3bd04fd8b00c82028d" kindref="member">InteractionComponent</ref>-&gt;Deactivate();</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_t_a_character_1a5d445cc065fe5e3bd04fd8b00c82028d" kindref="member">InteractionComponent</ref>-&gt;SetComponentTickEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ReplayRecorder)</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_a_t_a_character_1ae55321ef89f0bcf840071cd5d06ca0ee" kindref="member">ReplayRecorder</ref>)</highlight></codeline>
 <codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ReplayRecorder-&gt;Deactivate();</highlight></codeline>
-<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ReplayRecorder-&gt;SetComponentTickEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_t_a_character_1ae55321ef89f0bcf840071cd5d06ca0ee" kindref="member">ReplayRecorder</ref>-&gt;Deactivate();</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_t_a_character_1ae55321ef89f0bcf840071cd5d06ca0ee" kindref="member">ReplayRecorder</ref>-&gt;SetComponentTickEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(WeaponComponent)</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_a_t_a_character_1a2a904c02b55c2da7d1fef9a03289f456" kindref="member">WeaponComponent</ref>)</highlight></codeline>
 <codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WeaponComponent-&gt;Deactivate();</highlight></codeline>
-<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WeaponComponent-&gt;SetComponentTickEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_t_a_character_1a2a904c02b55c2da7d1fef9a03289f456" kindref="member">WeaponComponent</ref>-&gt;Deactivate();</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_t_a_character_1a2a904c02b55c2da7d1fef9a03289f456" kindref="member">WeaponComponent</ref>-&gt;SetComponentTickEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(WeaponInventoryComponent)</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_a_t_a_character_1a666442dd8f14913d33e191711aa9e793" kindref="member">WeaponInventoryComponent</ref>)</highlight></codeline>
 <codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WeaponInventoryComponent-&gt;Deactivate();</highlight></codeline>
-<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WeaponInventoryComponent-&gt;SetComponentTickEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_t_a_character_1a666442dd8f14913d33e191711aa9e793" kindref="member">WeaponInventoryComponent</ref>-&gt;Deactivate();</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_t_a_character_1a666442dd8f14913d33e191711aa9e793" kindref="member">WeaponInventoryComponent</ref>-&gt;SetComponentTickEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="190"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="191"><highlight class="normal"></highlight></codeline>
-<codeline lineno="192"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TArray&lt;FPlayerFrameData&gt;&amp;<sp/><ref refid="class_a_temporal_character_1a2ce29be167b8086ade12bd84c96521db" kindref="member">ATemporalCharacter::GetRecordedFrames</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="192" refid="class_a_temporal_character_1a2ce29be167b8086ade12bd84c96521db" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TArray&lt;FPlayerFrameData&gt;&amp;<sp/><ref refid="class_a_temporal_character_1a2ce29be167b8086ade12bd84c96521db" kindref="member">ATemporalCharacter::GetRecordedFrames</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="193"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ReplayData;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_character_1ad4db9cd1cff04a4c9cc488eee1b8630c" kindref="member">ReplayData</ref>;</highlight></codeline>
 <codeline lineno="195"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="196"><highlight class="normal"></highlight></codeline>
-<codeline lineno="197"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ATemporalCharacter::ResetPlayback()</highlight></codeline>
+<codeline lineno="197" refid="class_a_temporal_character_1a9196bf916e358973e22db2f41d32fe26" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_character_1a9196bf916e358973e22db2f41d32fe26" kindref="member">ATemporalCharacter::ResetPlayback</ref>()</highlight></codeline>
 <codeline lineno="198"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/>PlaybackTime<sp/>=<sp/>0.0f;</highlight></codeline>
-<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ReplayDataPtr.IsValid()<sp/>&amp;&amp;<sp/>ReplayDataPtr-&gt;Num()<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_character_1a67673baa8f7cc8622a16e9733fa978cb" kindref="member">PlaybackTime</ref><sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>.IsValid()<sp/>&amp;&amp;<sp/><ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>-&gt;Num()<sp/>&gt;<sp/>0)</highlight></codeline>
 <codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SetActorLocation((*ReplayDataPtr)[0].Position);</highlight></codeline>
-<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SetActorRotation((*ReplayDataPtr)[0].Rotation);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SetActorLocation((*<ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>)[0].Position);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SetActorRotation((*<ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>)[0].Rotation);</highlight></codeline>
 <codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="205"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="206"><highlight class="normal"></highlight></codeline>
-<codeline lineno="207"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ATemporalCharacter::UpdatePlayback(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>DeltaTime)</highlight></codeline>
+<codeline lineno="207" refid="class_a_temporal_character_1a745d6f6b56355d20a6bfe60a82dd199d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_character_1a745d6f6b56355d20a6bfe60a82dd199d" kindref="member">ATemporalCharacter::UpdatePlayback</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>DeltaTime)</highlight></codeline>
 <codeline lineno="208"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Update<sp/>the<sp/>DeltaTime<sp/>history.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/>DeltaTimeHistory.Add(DeltaTime);</highlight></codeline>
-<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(DeltaTimeHistory.Num()<sp/>&gt;<sp/>3)</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_character_1a6456d62609dce400918c6a88ff5e12da" kindref="member">DeltaTimeHistory</ref>.Add(DeltaTime);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_a_temporal_character_1a6456d62609dce400918c6a88ff5e12da" kindref="member">DeltaTimeHistory</ref>.Num()<sp/>&gt;<sp/>3)</highlight></codeline>
 <codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Keep<sp/>only<sp/>the<sp/>most<sp/>recent<sp/>3<sp/>values.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DeltaTimeHistory.RemoveAt(0);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_character_1a6456d62609dce400918c6a88ff5e12da" kindref="member">DeltaTimeHistory</ref>.RemoveAt(0);</highlight></codeline>
 <codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>AverageDeltaTime<sp/>=<sp/>0.f;</highlight></codeline>
-<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>dt<sp/>:<sp/>DeltaTimeHistory)</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>dt<sp/>:<sp/><ref refid="class_a_temporal_character_1a6456d62609dce400918c6a88ff5e12da" kindref="member">DeltaTimeHistory</ref>)</highlight></codeline>
 <codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AverageDeltaTime<sp/>+=<sp/>dt;</highlight></codeline>
 <codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(DeltaTimeHistory.Num()<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_a_temporal_character_1a6456d62609dce400918c6a88ff5e12da" kindref="member">DeltaTimeHistory</ref>.Num()<sp/>&gt;<sp/>0)</highlight></codeline>
 <codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AverageDeltaTime<sp/>/=<sp/>DeltaTimeHistory.Num();</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AverageDeltaTime<sp/>/=<sp/><ref refid="class_a_temporal_character_1a6456d62609dce400918c6a88ff5e12da" kindref="member">DeltaTimeHistory</ref>.Num();</highlight></codeline>
 <codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -588,21 +588,21 @@
 <codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="229"><highlight class="normal"></highlight></codeline>
 <codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Validate<sp/>replay<sp/>data.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!ReplayDataPtr.IsValid()<sp/>||<sp/>ReplayDataPtr-&gt;Num()<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>.IsValid()<sp/>||<sp/><ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>-&gt;Num()<sp/>==<sp/>0)</highlight></codeline>
 <codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="235"><highlight class="normal"></highlight></codeline>
 <codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>FINAL<sp/>FRAME:</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int32<sp/>LastIndex<sp/>=<sp/>ReplayDataPtr-&gt;Num()<sp/>-<sp/>1;</highlight></codeline>
-<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FPlayerFrameData&amp;<sp/>FinalFrame<sp/>=<sp/>(*ReplayDataPtr)[LastIndex];</highlight></codeline>
-<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(PlaybackTime<sp/>&gt;=<sp/>FinalFrame.TimeStamp)</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int32<sp/>LastIndex<sp/>=<sp/><ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>-&gt;Num()<sp/>-<sp/>1;</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref>&amp;<sp/>FinalFrame<sp/>=<sp/>(*ReplayDataPtr)[LastIndex];</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_a_temporal_character_1a67673baa8f7cc8622a16e9733fa978cb" kindref="member">PlaybackTime</ref><sp/>&gt;=<sp/>FinalFrame.<ref refid="struct_f_player_frame_data_1aa7d6d6c4a99f0ff0dab19b2ddde1eaa9" kindref="member">TimeStamp</ref>)</highlight></codeline>
 <codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FVector<sp/>CurrentPos<sp/>=<sp/>GetActorLocation();</highlight></codeline>
-<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FVector<sp/>PositionError<sp/>=<sp/>FinalFrame.Position<sp/>-<sp/>CurrentPos;</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FVector<sp/>PositionError<sp/>=<sp/>FinalFrame.<ref refid="struct_f_player_frame_data_1ae8c3f2db3f2516246d4c0530d2220086" kindref="member">Position</ref><sp/>-<sp/>CurrentPos;</highlight></codeline>
 <codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FVector<sp/>DesiredVelocity<sp/>=<sp/>PositionError<sp/>/<sp/>DeltaTime;</highlight></codeline>
 <codeline lineno="244"><highlight class="normal"></highlight></codeline>
-<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FVector<sp/>RawFinalVelocity<sp/>=<sp/>FinalFrame.Velocity;</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FVector<sp/>RawFinalVelocity<sp/>=<sp/>FinalFrame.<ref refid="struct_f_player_frame_data_1acb405992f31731489233f2158749b361" kindref="member">Velocity</ref>;</highlight></codeline>
 <codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FVector<sp/>DeltaV<sp/>=<sp/>DesiredVelocity<sp/>-<sp/>RawFinalVelocity;</highlight></codeline>
 <codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FVector<sp/>ClampedDeltaV<sp/>=<sp/>DeltaV.GetClampedToMaxSize(100000.f<sp/>*<sp/>DeltaTime);</highlight></codeline>
 <codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DesiredVelocity<sp/>=<sp/>RawFinalVelocity<sp/>+<sp/>ClampedDeltaV;</highlight></codeline>
@@ -610,32 +610,32 @@
 <codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GetCharacterMovement()-&gt;Velocity<sp/>=<sp/>DesiredVelocity;</highlight></codeline>
 <codeline lineno="251"><highlight class="normal"></highlight></codeline>
 <codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>TurnInterpSpeed<sp/>=<sp/>25.0f;</highlight></codeline>
-<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FRotator<sp/>NewRot<sp/>=<sp/>FMath::RInterpTo(GetActorRotation(),<sp/>FinalFrame.Rotation,<sp/>DeltaTime,<sp/>TurnInterpSpeed);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FRotator<sp/>NewRot<sp/>=<sp/>FMath::RInterpTo(GetActorRotation(),<sp/>FinalFrame.<ref refid="struct_f_player_frame_data_1a93eaa32f56a69cc27334627065c575f6" kindref="member">Rotation</ref>,<sp/>DeltaTime,<sp/>TurnInterpSpeed);</highlight></codeline>
 <codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SetActorRotation(NewRot);</highlight></codeline>
 <codeline lineno="255"><highlight class="normal"></highlight></codeline>
-<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ProcessPlaybackEvents(FinalFrame);</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_character_1a95c4e4fb84e82d7057db4c24f285c24d" kindref="member">ProcessPlaybackEvents</ref>(FinalFrame);</highlight></codeline>
 <codeline lineno="257"><highlight class="normal"></highlight></codeline>
 <codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="260"><highlight class="normal"></highlight></codeline>
 <codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>NORMAL<sp/>PLAYBACK:</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/>int32<sp/>TargetIndex<sp/>=<sp/>FindTargetFrameIndex(PlaybackTime);</highlight></codeline>
-<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(TargetIndex<sp/>&lt;=<sp/>0<sp/>||<sp/>TargetIndex<sp/>&gt;=<sp/>ReplayDataPtr-&gt;Num())</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/>int32<sp/>TargetIndex<sp/>=<sp/><ref refid="class_a_temporal_character_1a61318c77c5821210f32ec1b0e625cd6d" kindref="member">FindTargetFrameIndex</ref>(<ref refid="class_a_temporal_character_1a67673baa8f7cc8622a16e9733fa978cb" kindref="member">PlaybackTime</ref>);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(TargetIndex<sp/>&lt;=<sp/>0<sp/>||<sp/>TargetIndex<sp/>&gt;=<sp/><ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>-&gt;Num())</highlight></codeline>
 <codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="267"><highlight class="normal"></highlight></codeline>
-<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FPlayerFrameData&amp;<sp/>FrameA<sp/>=<sp/>(*ReplayDataPtr)[TargetIndex<sp/>-<sp/>1];</highlight></codeline>
-<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FPlayerFrameData&amp;<sp/>FrameB<sp/>=<sp/>(*ReplayDataPtr)[TargetIndex];</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref>&amp;<sp/>FrameA<sp/>=<sp/>(*ReplayDataPtr)[TargetIndex<sp/>-<sp/>1];</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref>&amp;<sp/>FrameB<sp/>=<sp/>(*ReplayDataPtr)[TargetIndex];</highlight></codeline>
 <codeline lineno="270"><highlight class="normal"></highlight></codeline>
-<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>FrameDelta<sp/>=<sp/>FrameB.TimeStamp<sp/>-<sp/>FrameA.TimeStamp;</highlight></codeline>
-<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>TimeSinceFrameA<sp/>=<sp/>PlaybackTime<sp/>-<sp/>FrameA.TimeStamp;</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>FrameDelta<sp/>=<sp/>FrameB.<ref refid="struct_f_player_frame_data_1aa7d6d6c4a99f0ff0dab19b2ddde1eaa9" kindref="member">TimeStamp</ref><sp/>-<sp/>FrameA.<ref refid="struct_f_player_frame_data_1aa7d6d6c4a99f0ff0dab19b2ddde1eaa9" kindref="member">TimeStamp</ref>;</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>TimeSinceFrameA<sp/>=<sp/><ref refid="class_a_temporal_character_1a67673baa8f7cc8622a16e9733fa978cb" kindref="member">PlaybackTime</ref><sp/>-<sp/>FrameA.<ref refid="struct_f_player_frame_data_1aa7d6d6c4a99f0ff0dab19b2ddde1eaa9" kindref="member">TimeStamp</ref>;</highlight></codeline>
 <codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>TimeRemaining<sp/>=<sp/>FrameDelta<sp/>-<sp/>TimeSinceFrameA;</highlight></codeline>
 <codeline lineno="274"><highlight class="normal"></highlight></codeline>
-<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>NextTime<sp/>=<sp/>PlaybackTime<sp/>+<sp/>DeltaTime;</highlight></codeline>
-<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>AlphaNext<sp/>=<sp/>(FrameDelta<sp/>&gt;<sp/>KINDA_SMALL_NUMBER)<sp/>?<sp/>(NextTime<sp/>-<sp/>FrameA.TimeStamp)<sp/>/<sp/>FrameDelta<sp/>:<sp/>0.f;</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>NextTime<sp/>=<sp/><ref refid="class_a_temporal_character_1a67673baa8f7cc8622a16e9733fa978cb" kindref="member">PlaybackTime</ref><sp/>+<sp/>DeltaTime;</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>AlphaNext<sp/>=<sp/>(FrameDelta<sp/>&gt;<sp/>KINDA_SMALL_NUMBER)<sp/>?<sp/>(NextTime<sp/>-<sp/>FrameA.<ref refid="struct_f_player_frame_data_1aa7d6d6c4a99f0ff0dab19b2ddde1eaa9" kindref="member">TimeStamp</ref>)<sp/>/<sp/>FrameDelta<sp/>:<sp/>0.f;</highlight></codeline>
 <codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/>AlphaNext<sp/>=<sp/>FMath::Clamp(AlphaNext,<sp/>0.f,<sp/>1.f);</highlight></codeline>
-<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector<sp/>ExpectedPosition<sp/>=<sp/>FMath::Lerp(FrameA.Position,<sp/>FrameB.Position,<sp/>AlphaNext);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector<sp/>ExpectedPosition<sp/>=<sp/>FMath::Lerp(FrameA.<ref refid="struct_f_player_frame_data_1ae8c3f2db3f2516246d4c0530d2220086" kindref="member">Position</ref>,<sp/>FrameB.<ref refid="struct_f_player_frame_data_1ae8c3f2db3f2516246d4c0530d2220086" kindref="member">Position</ref>,<sp/>AlphaNext);</highlight></codeline>
 <codeline lineno="279"><highlight class="normal"></highlight></codeline>
 <codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector<sp/>CurrentPos<sp/>=<sp/>GetActorLocation();</highlight></codeline>
 <codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector<sp/>PositionError<sp/>=<sp/>ExpectedPosition<sp/>-<sp/>CurrentPos;</highlight></codeline>
@@ -650,7 +650,7 @@
 <codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DesiredVelocity<sp/>=<sp/>(ExpectedPosition<sp/>-<sp/>CurrentPos)<sp/>/<sp/>DeltaTime;</highlight></codeline>
 <codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="292"><highlight class="normal"></highlight></codeline>
-<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector<sp/>RawVelocity<sp/>=<sp/>FMath::Lerp(FrameA.Velocity,<sp/>FrameB.Velocity,<sp/>(PlaybackTime<sp/>-<sp/>FrameA.TimeStamp)<sp/>/<sp/>FrameDelta);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector<sp/>RawVelocity<sp/>=<sp/>FMath::Lerp(FrameA.<ref refid="struct_f_player_frame_data_1acb405992f31731489233f2158749b361" kindref="member">Velocity</ref>,<sp/>FrameB.<ref refid="struct_f_player_frame_data_1acb405992f31731489233f2158749b361" kindref="member">Velocity</ref>,<sp/>(<ref refid="class_a_temporal_character_1a67673baa8f7cc8622a16e9733fa978cb" kindref="member">PlaybackTime</ref><sp/>-<sp/>FrameA.<ref refid="struct_f_player_frame_data_1aa7d6d6c4a99f0ff0dab19b2ddde1eaa9" kindref="member">TimeStamp</ref>)<sp/>/<sp/>FrameDelta);</highlight></codeline>
 <codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector<sp/>DeltaV<sp/>=<sp/>DesiredVelocity<sp/>-<sp/>RawVelocity;</highlight></codeline>
 <codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector<sp/>ClampedDeltaV<sp/>=<sp/>DeltaV.GetClampedToMaxSize(100000.f<sp/>*<sp/>DeltaTime);</highlight></codeline>
 <codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/>DesiredVelocity<sp/>=<sp/>RawVelocity<sp/>+<sp/>ClampedDeltaV;</highlight></codeline>
@@ -658,27 +658,27 @@
 <codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/>GetCharacterMovement()-&gt;Velocity<sp/>=<sp/>DesiredVelocity;</highlight></codeline>
 <codeline lineno="299"><highlight class="normal"></highlight></codeline>
 <codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>TurnInterpSpeed<sp/>=<sp/>25.0f;</highlight></codeline>
-<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/>FRotator<sp/>NewRot<sp/>=<sp/>FMath::RInterpTo(GetActorRotation(),<sp/>FrameB.Rotation,<sp/>DeltaTime,<sp/>TurnInterpSpeed);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/>FRotator<sp/>NewRot<sp/>=<sp/>FMath::RInterpTo(GetActorRotation(),<sp/>FrameB.<ref refid="struct_f_player_frame_data_1a93eaa32f56a69cc27334627065c575f6" kindref="member">Rotation</ref>,<sp/>DeltaTime,<sp/>TurnInterpSpeed);</highlight></codeline>
 <codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/>SetActorRotation(NewRot);</highlight></codeline>
 <codeline lineno="303"><highlight class="normal"></highlight></codeline>
-<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/>ProcessPlaybackEvents(FrameB);</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_character_1a95c4e4fb84e82d7057db4c24f285c24d" kindref="member">ProcessPlaybackEvents</ref>(FrameB);</highlight></codeline>
 <codeline lineno="305"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="306"><highlight class="normal"></highlight></codeline>
-<codeline lineno="307"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ATemporalCharacter::ProcessPlaybackEvents(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref>&amp;<sp/>FrameData)</highlight></codeline>
+<codeline lineno="307" refid="class_a_temporal_character_1a95c4e4fb84e82d7057db4c24f285c24d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_character_1a95c4e4fb84e82d7057db4c24f285c24d" kindref="member">ATemporalCharacter::ProcessPlaybackEvents</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref>&amp;<sp/>FrameData)</highlight></codeline>
 <codeline lineno="308"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/>CurrentFrameIndex<sp/>=<sp/>FindTargetFrameIndex(PlaybackTime);</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_character_1a6f9ccb885c218189efedb6d30b9eb0fe" kindref="member">CurrentFrameIndex</ref><sp/>=<sp/><ref refid="class_a_temporal_character_1a61318c77c5821210f32ec1b0e625cd6d" kindref="member">FindTargetFrameIndex</ref>(<ref refid="class_a_temporal_character_1a67673baa8f7cc8622a16e9733fa978cb" kindref="member">PlaybackTime</ref>);</highlight></codeline>
 <codeline lineno="310"><highlight class="normal"></highlight></codeline>
 <codeline lineno="311"><highlight class="normal"></highlight></codeline>
 <codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>this<sp/>frame<sp/>is<sp/>new,<sp/>reset<sp/>the<sp/>processed<sp/>events<sp/>bitmask.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(FrameData.TimeStamp<sp/>&gt;<sp/>LastProcessedFrameTime)</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(FrameData.<ref refid="struct_f_player_frame_data_1aa7d6d6c4a99f0ff0dab19b2ddde1eaa9" kindref="member">TimeStamp</ref><sp/>&gt;<sp/><ref refid="class_a_temporal_character_1a977b73d33bbec5918cb5b9d6def3cc1a" kindref="member">LastProcessedFrameTime</ref>)</highlight></codeline>
 <codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LastProcessedFrameTime<sp/>=<sp/>FrameData.TimeStamp;</highlight></codeline>
-<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ProcessedEventFlags<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LastProcessedShotIndex<sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_character_1a977b73d33bbec5918cb5b9d6def3cc1a" kindref="member">LastProcessedFrameTime</ref><sp/>=<sp/>FrameData.<ref refid="struct_f_player_frame_data_1aa7d6d6c4a99f0ff0dab19b2ddde1eaa9" kindref="member">TimeStamp</ref>;</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_character_1a6c75476b38e5f282597ac260805706dc" kindref="member">ProcessedEventFlags</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_character_1abf6c7c6aca0ecd935f7a91aabf4b9b57" kindref="member">LastProcessedShotIndex</ref><sp/>=<sp/>-1;</highlight></codeline>
 <codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="319"><highlight class="normal"></highlight></codeline>
 <codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Calculate<sp/>which<sp/>events<sp/>have<sp/>not<sp/>yet<sp/>been<sp/>processed.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8<sp/>NewEvents<sp/>=<sp/>(uint8)FrameData.ActionFlags<sp/>&amp;<sp/>~ProcessedEventFlags;</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8<sp/>NewEvents<sp/>=<sp/>(uint8)FrameData.<ref refid="struct_f_player_frame_data_1a8768b296bb4d63e293d36003f2c4fa66" kindref="member">ActionFlags</ref><sp/>&amp;<sp/>~<ref refid="class_a_temporal_character_1a6c75476b38e5f282597ac260805706dc" kindref="member">ProcessedEventFlags</ref>;</highlight></codeline>
 <codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(NewEvents<sp/>==<sp/>0)</highlight></codeline>
 <codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>nothing<sp/>to<sp/>do</highlight><highlight class="normal"></highlight></codeline>
@@ -687,7 +687,7 @@
 <codeline lineno="327"><highlight class="normal"></highlight></codeline>
 <codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>**DEFENSIVE<sp/>CHECK**:<sp/>if<sp/>for<sp/>some<sp/>reason<sp/>our<sp/>handler<sp/>map<sp/>is<sp/>empty,</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>bail<sp/>before<sp/>the<sp/>range-for<sp/>can<sp/>touch<sp/>its<sp/>internal<sp/>bit<sp/>array.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ReplayEventHandlers.Num()<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_a_temporal_character_1a1bcb0fc42ec0b14204fa1ca589931c58" kindref="member">ReplayEventHandlers</ref>.Num()<sp/>==<sp/>0)</highlight></codeline>
 <codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;%s:<sp/>No<sp/>handlers<sp/>bound<sp/>but<sp/>got<sp/>new<sp/>events=0x%02x&quot;</highlight><highlight class="normal">),<sp/>*GetName(),<sp/>NewEvents);</highlight></codeline>
 <codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
@@ -695,23 +695,23 @@
 <codeline lineno="335"><highlight class="normal"></highlight></codeline>
 <codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>**Snapshot<sp/>the<sp/>handlers<sp/>so<sp/>we<sp/>can<sp/>safely<sp/>iterate<sp/>even<sp/>if</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>the<sp/>original<sp/>array<sp/>gets<sp/>modified<sp/>by<sp/>a<sp/>handler.**</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TArray&lt;FReplayHandlerEntry&gt;<sp/>HandlersSnapshot<sp/>=<sp/>ReplayEventHandlers;</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TArray&lt;FReplayHandlerEntry&gt;<sp/>HandlersSnapshot<sp/>=<sp/><ref refid="class_a_temporal_character_1a1bcb0fc42ec0b14204fa1ca589931c58" kindref="member">ReplayEventHandlers</ref>;</highlight></codeline>
 <codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int32<sp/>HandlerCount<sp/>=<sp/>HandlersSnapshot.Num();</highlight></codeline>
 <codeline lineno="340"><highlight class="normal"></highlight></codeline>
 <codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(int32<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>HandlerCount;<sp/>++i)</highlight></codeline>
 <codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FReplayHandlerEntry&amp;<sp/>Entry<sp/>=<sp/>HandlersSnapshot[i];</highlight></codeline>
-<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8<sp/>FlagMask<sp/>=<sp/>(uint8)Entry.Flag;</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_f_replay_handler_entry" kindref="compound">FReplayHandlerEntry</ref>&amp;<sp/>Entry<sp/>=<sp/>HandlersSnapshot[i];</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8<sp/>FlagMask<sp/>=<sp/>(uint8)Entry.<ref refid="struct_f_replay_handler_entry_1a907577cfd4db9610671659e64fc0546d" kindref="member">Flag</ref>;</highlight></codeline>
 <codeline lineno="345"><highlight class="normal"></highlight></codeline>
 <codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(NewEvents<sp/>&amp;<sp/>FlagMask)</highlight></codeline>
 <codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Entry.Handler.ExecuteIfBound();</highlight></codeline>
-<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ProcessedEventFlags<sp/>|=<sp/>FlagMask;</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Entry.<ref refid="struct_f_replay_handler_entry_1ad3397bb1077e60055aee63d248c8d9e5" kindref="member">Handler</ref>.ExecuteIfBound();</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_character_1a6c75476b38e5f282597ac260805706dc" kindref="member">ProcessedEventFlags</ref><sp/>|=<sp/>FlagMask;</highlight></codeline>
 <codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="352"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="353"><highlight class="normal"></highlight></codeline>
-<codeline lineno="354"><highlight class="normal">FVector2D<sp/>ATemporalCharacter::ClosestPointOnSegment2D(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FVector2D&amp;<sp/>A,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FVector2D&amp;<sp/>B,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FVector2D&amp;<sp/>P)</highlight></codeline>
+<codeline lineno="354" refid="class_a_temporal_character_1ac65bcd28d575599452d3abd0534b71e6" refkind="member"><highlight class="normal">FVector2D<sp/><ref refid="class_a_temporal_character_1ac65bcd28d575599452d3abd0534b71e6" kindref="member">ATemporalCharacter::ClosestPointOnSegment2D</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FVector2D&amp;<sp/>A,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FVector2D&amp;<sp/>B,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FVector2D&amp;<sp/>P)</highlight></codeline>
 <codeline lineno="355"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FVector2D<sp/>AB<sp/>=<sp/>B<sp/>-<sp/>A;</highlight></codeline>
 <codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>ABLenSq<sp/>=<sp/>AB.SizeSquared();</highlight></codeline>
@@ -741,14 +741,14 @@
 <codeline lineno="381"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="382"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="383"><highlight class="normal"></highlight></codeline>
-<codeline lineno="384"><highlight class="normal">int32<sp/>ATemporalCharacter::CalculateCurrentTargetIndex(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FVector&amp;<sp/>CurrentPos)</highlight></codeline>
+<codeline lineno="384" refid="class_a_temporal_character_1aa9e690184522fb9542f1f488e37125e6" refkind="member"><highlight class="normal">int32<sp/><ref refid="class_a_temporal_character_1aa9e690184522fb9542f1f488e37125e6" kindref="member">ATemporalCharacter::CalculateCurrentTargetIndex</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FVector&amp;<sp/>CurrentPos)</highlight></codeline>
 <codeline lineno="385"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="386"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!ReplayDataPtr.IsValid()<sp/>||<sp/>ReplayDataPtr-&gt;Num()<sp/>&lt;<sp/>2)</highlight></codeline>
+<codeline lineno="386"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>.IsValid()<sp/>||<sp/><ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>-&gt;Num()<sp/>&lt;<sp/>2)</highlight></codeline>
 <codeline lineno="387"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="388"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
 <codeline lineno="389"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="390"><highlight class="normal"></highlight></codeline>
-<codeline lineno="391"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int32<sp/>FrameCount<sp/>=<sp/>ReplayDataPtr-&gt;Num();</highlight></codeline>
+<codeline lineno="391"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int32<sp/>FrameCount<sp/>=<sp/><ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>-&gt;Num();</highlight></codeline>
 <codeline lineno="392"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector2D<sp/>CurrentXY(CurrentPos.X,<sp/>CurrentPos.Y);</highlight></codeline>
 <codeline lineno="393"><highlight class="normal"><sp/><sp/><sp/><sp/>int32<sp/>BestSegmentIndex<sp/>=<sp/>1;<sp/></highlight><highlight class="comment">//<sp/>default:<sp/>segment<sp/>from<sp/>frame<sp/>0<sp/>to<sp/>1</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="394"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>MinDistSq<sp/>=<sp/>FLT_MAX;</highlight></codeline>
@@ -756,8 +756,8 @@
 <codeline lineno="396"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(int32<sp/>i<sp/>=<sp/>1;<sp/>i<sp/>&lt;<sp/>FrameCount;<sp/>i++)</highlight></codeline>
 <codeline lineno="397"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="398"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Get<sp/>XY<sp/>positions<sp/>of<sp/>the<sp/>two<sp/>endpoints<sp/>of<sp/>the<sp/>segment</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="399"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FVector2D<sp/>P0((*ReplayDataPtr)[i<sp/>-<sp/>1].Position.X,<sp/>(*ReplayDataPtr)[i<sp/>-<sp/>1].Position.Y);</highlight></codeline>
-<codeline lineno="400"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FVector2D<sp/>P1((*ReplayDataPtr)[i].Position.X,<sp/>(*ReplayDataPtr)[i].Position.Y);</highlight></codeline>
+<codeline lineno="399"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FVector2D<sp/>P0((*<ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>)[i<sp/>-<sp/>1].Position.X,<sp/>(*<ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>)[i<sp/>-<sp/>1].Position.Y);</highlight></codeline>
+<codeline lineno="400"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FVector2D<sp/>P1((*<ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>)[i].Position.X,<sp/>(*<ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>)[i].Position.Y);</highlight></codeline>
 <codeline lineno="401"><highlight class="normal"></highlight></codeline>
 <codeline lineno="402"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Compute<sp/>the<sp/>vector<sp/>from<sp/>P0<sp/>to<sp/>P1.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="403"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FVector2D<sp/>AB<sp/>=<sp/>P1<sp/>-<sp/>P0;</highlight></codeline>
@@ -793,15 +793,15 @@
 <codeline lineno="433"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Returns<sp/>the<sp/>fraction<sp/>(0.0<sp/>to<sp/>1.0)<sp/>along<sp/>the<sp/>segment<sp/>ending<sp/>at<sp/>TargetIndex,</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="434"><highlight class="normal"></highlight><highlight class="comment">//<sp/>representing<sp/>how<sp/>far<sp/>along<sp/>the<sp/>segment<sp/>(from<sp/>its<sp/>start<sp/>at<sp/>index<sp/>TargetIndex-1)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="435"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>ghost&apos;s<sp/>current<sp/>XY<sp/>position<sp/>lies.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="436"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>ATemporalCharacter::CalculateFractionAlongSegment(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FVector&amp;<sp/>CurrentPos,<sp/>int32<sp/>TargetIndex)</highlight></codeline>
+<codeline lineno="436" refid="class_a_temporal_character_1a7758d063ce228d511c90efd4ff0d8759" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_character_1a7758d063ce228d511c90efd4ff0d8759" kindref="member">ATemporalCharacter::CalculateFractionAlongSegment</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FVector&amp;<sp/>CurrentPos,<sp/>int32<sp/>TargetIndex)</highlight></codeline>
 <codeline lineno="437"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="438"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!ReplayDataPtr.IsValid()<sp/>||<sp/>ReplayDataPtr-&gt;Num()<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="438"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>.IsValid()<sp/>||<sp/><ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>-&gt;Num()<sp/>==<sp/>0)</highlight></codeline>
 <codeline lineno="439"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="440"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0.0f;</highlight></codeline>
 <codeline lineno="441"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="442"><highlight class="normal"></highlight></codeline>
 <codeline lineno="443"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>TargetIndex<sp/>is<sp/>out<sp/>of<sp/>bounds<sp/>or<sp/>no<sp/>segment<sp/>exists,<sp/>return<sp/>0<sp/>or<sp/>1<sp/>appropriately.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="444"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int32<sp/>FrameCount<sp/>=<sp/>ReplayDataPtr-&gt;Num();</highlight></codeline>
+<codeline lineno="444"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int32<sp/>FrameCount<sp/>=<sp/><ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>-&gt;Num();</highlight></codeline>
 <codeline lineno="445"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(TargetIndex<sp/>&lt;<sp/>1)</highlight></codeline>
 <codeline lineno="446"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="447"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0.0f;</highlight></codeline>
@@ -812,8 +812,8 @@
 <codeline lineno="452"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="453"><highlight class="normal"></highlight></codeline>
 <codeline lineno="454"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector2D<sp/>CurrentXY(CurrentPos.X,<sp/>CurrentPos.Y);</highlight></codeline>
-<codeline lineno="455"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector2D<sp/>P0((*ReplayDataPtr)[TargetIndex<sp/>-<sp/>1].Position.X,<sp/>(*ReplayDataPtr)[TargetIndex<sp/>-<sp/>1].Position.Y);</highlight></codeline>
-<codeline lineno="456"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector2D<sp/>P1((*ReplayDataPtr)[TargetIndex].Position.X,<sp/>(*ReplayDataPtr)[TargetIndex].Position.Y);</highlight></codeline>
+<codeline lineno="455"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector2D<sp/>P0((*<ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>)[TargetIndex<sp/>-<sp/>1].Position.X,<sp/>(*<ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>)[TargetIndex<sp/>-<sp/>1].Position.Y);</highlight></codeline>
+<codeline lineno="456"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector2D<sp/>P1((*<ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>)[TargetIndex].Position.X,<sp/>(*<ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>)[TargetIndex].Position.Y);</highlight></codeline>
 <codeline lineno="457"><highlight class="normal"></highlight></codeline>
 <codeline lineno="458"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector2D<sp/>AB<sp/>=<sp/>P1<sp/>-<sp/>P0;</highlight></codeline>
 <codeline lineno="459"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>ABLengthSq<sp/>=<sp/>AB.SizeSquared();</highlight></codeline>
@@ -830,19 +830,19 @@
 <codeline lineno="470"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>t;</highlight></codeline>
 <codeline lineno="471"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="472"><highlight class="normal"></highlight></codeline>
-<codeline lineno="473"><highlight class="normal">int32<sp/>ATemporalCharacter::FindTargetFrameIndex(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>InPlaybackTime)</highlight></codeline>
+<codeline lineno="473" refid="class_a_temporal_character_1a61318c77c5821210f32ec1b0e625cd6d" refkind="member"><highlight class="normal">int32<sp/><ref refid="class_a_temporal_character_1a61318c77c5821210f32ec1b0e625cd6d" kindref="member">ATemporalCharacter::FindTargetFrameIndex</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>InPlaybackTime)</highlight></codeline>
 <codeline lineno="474"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="475"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Ensure<sp/>we<sp/>have<sp/>enough<sp/>data.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="476"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!ReplayDataPtr.IsValid()<sp/>||<sp/>ReplayDataPtr-&gt;Num()<sp/>&lt;<sp/>2)</highlight></codeline>
+<codeline lineno="476"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>.IsValid()<sp/>||<sp/><ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>-&gt;Num()<sp/>&lt;<sp/>2)</highlight></codeline>
 <codeline lineno="477"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="478"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
 <codeline lineno="479"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="480"><highlight class="normal"></highlight></codeline>
-<codeline lineno="481"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int32<sp/>FrameCount<sp/>=<sp/>ReplayDataPtr-&gt;Num();</highlight></codeline>
+<codeline lineno="481"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int32<sp/>FrameCount<sp/>=<sp/><ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>-&gt;Num();</highlight></codeline>
 <codeline lineno="482"><highlight class="normal"></highlight></codeline>
 <codeline lineno="483"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>playback<sp/>time<sp/>is<sp/>before<sp/>or<sp/>at<sp/>the<sp/>first<sp/>frame&apos;s<sp/>timestamp,</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="484"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>return<sp/>the<sp/>second<sp/>frame&apos;s<sp/>index<sp/>(so<sp/>we<sp/>can<sp/>interpolate<sp/>using<sp/>index<sp/>0<sp/>and<sp/>1).</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="485"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(InPlaybackTime<sp/>&lt;=<sp/>(*ReplayDataPtr)[0].TimeStamp)</highlight></codeline>
+<codeline lineno="485"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(InPlaybackTime<sp/>&lt;=<sp/>(*<ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>)[0].TimeStamp)</highlight></codeline>
 <codeline lineno="486"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="487"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
 <codeline lineno="488"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
@@ -850,7 +850,7 @@
 <codeline lineno="490"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Loop<sp/>through<sp/>frames<sp/>to<sp/>find<sp/>the<sp/>first<sp/>frame<sp/>with<sp/>a<sp/>timestamp<sp/>greater<sp/>than<sp/>PlaybackTime.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="491"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(int32<sp/>i<sp/>=<sp/>1;<sp/>i<sp/>&lt;<sp/>FrameCount;<sp/>++i)</highlight></codeline>
 <codeline lineno="492"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="493"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(InPlaybackTime<sp/>&lt;<sp/>(*ReplayDataPtr)[i].TimeStamp)</highlight></codeline>
+<codeline lineno="493"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(InPlaybackTime<sp/>&lt;<sp/>(*<ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>)[i].TimeStamp)</highlight></codeline>
 <codeline lineno="494"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="495"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>i;</highlight></codeline>
 <codeline lineno="496"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
@@ -860,7 +860,7 @@
 <codeline lineno="500"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>FrameCount<sp/>-<sp/>1;</highlight></codeline>
 <codeline lineno="501"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="502"><highlight class="normal"></highlight></codeline>
-<codeline lineno="503"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ATemporalCharacter::ProcessJumpEvent()</highlight></codeline>
+<codeline lineno="503" refid="class_a_temporal_character_1afc2a969d0bfae6ded5f58af00cdec4db" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_character_1afc2a969d0bfae6ded5f58af00cdec4db" kindref="member">ATemporalCharacter::ProcessJumpEvent</ref>()</highlight></codeline>
 <codeline lineno="504"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="505"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Default<sp/>C++<sp/>behavior<sp/>for<sp/>jump<sp/>event<sp/>(can<sp/>be<sp/>overridden<sp/>in<sp/>Blueprint)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="506"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;%s<sp/>-<sp/>Processing<sp/>Jump<sp/>Event&quot;</highlight><highlight class="normal">),<sp/>*GetName());</highlight></codeline>
@@ -872,34 +872,34 @@
 <codeline lineno="512"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>e.g.,<sp/>Play<sp/>jump<sp/>animation<sp/>or<sp/>trigger<sp/>a<sp/>jump<sp/>sound</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="513"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="514"><highlight class="normal"></highlight></codeline>
-<codeline lineno="515"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ATemporalCharacter::ProcessShootEvent()</highlight></codeline>
+<codeline lineno="515" refid="class_a_temporal_character_1af171fc77f851673403d59d286197f5fd" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_character_1af171fc77f851673403d59d286197f5fd" kindref="member">ATemporalCharacter::ProcessShootEvent</ref>()</highlight></codeline>
 <codeline lineno="516"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="517"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(&quot;%s<sp/>-<sp/>Processing<sp/>Shoot<sp/>Event&quot;),<sp/>*GetName());</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="518"><highlight class="normal"></highlight></codeline>
-<codeline lineno="519"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!ReplayDataPtr.IsValid()<sp/>||<sp/>!ReplayDataPtr-&gt;IsValidIndex(CurrentFrameIndex))</highlight></codeline>
+<codeline lineno="519"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>.IsValid()<sp/>||<sp/>!<ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>-&gt;IsValidIndex(<ref refid="class_a_temporal_character_1a6f9ccb885c218189efedb6d30b9eb0fe" kindref="member">CurrentFrameIndex</ref>))</highlight></codeline>
 <codeline lineno="520"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="521"><highlight class="normal"></highlight></codeline>
-<codeline lineno="522"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FPlayerFrameData&amp;<sp/>Frame<sp/>=<sp/>(*ReplayDataPtr)[CurrentFrameIndex];</highlight></codeline>
-<codeline lineno="523"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FCombatFrameData&amp;<sp/>CombatData<sp/>=<sp/>Frame.CombatData;</highlight></codeline>
+<codeline lineno="522"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref>&amp;<sp/>Frame<sp/>=<sp/>(*ReplayDataPtr)[<ref refid="class_a_temporal_character_1a6f9ccb885c218189efedb6d30b9eb0fe" kindref="member">CurrentFrameIndex</ref>];</highlight></codeline>
+<codeline lineno="523"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_f_combat_frame_data" kindref="compound">FCombatFrameData</ref>&amp;<sp/>CombatData<sp/>=<sp/>Frame.<ref refid="struct_f_player_frame_data_1a3fa9bf4a003e8a3e02897ea1884c47ea" kindref="member">CombatData</ref>;</highlight></codeline>
 <codeline lineno="524"><highlight class="normal"></highlight></codeline>
-<codeline lineno="525"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TArray&lt;FRecordedShot&gt;&amp;<sp/>Shots<sp/>=<sp/>CombatData.Shots;</highlight></codeline>
+<codeline lineno="525"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TArray&lt;FRecordedShot&gt;&amp;<sp/>Shots<sp/>=<sp/>CombatData.<ref refid="struct_f_combat_frame_data_1a003398095dc5c56fcdb970f13a6a86a6" kindref="member">Shots</ref>;</highlight></codeline>
 <codeline lineno="526"><highlight class="normal"></highlight></codeline>
-<codeline lineno="527"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(int32<sp/>i<sp/>=<sp/>LastProcessedShotIndex<sp/>+<sp/>1;<sp/>i<sp/>&lt;<sp/>Shots.Num();<sp/>++i)</highlight></codeline>
+<codeline lineno="527"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(int32<sp/>i<sp/>=<sp/><ref refid="class_a_temporal_character_1abf6c7c6aca0ecd935f7a91aabf4b9b57" kindref="member">LastProcessedShotIndex</ref><sp/>+<sp/>1;<sp/>i<sp/>&lt;<sp/>Shots.Num();<sp/>++i)</highlight></codeline>
 <codeline lineno="528"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="529"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FRecordedShot&amp;<sp/>Shot<sp/>=<sp/>Shots[i];</highlight></codeline>
+<codeline lineno="529"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_f_recorded_shot" kindref="compound">FRecordedShot</ref>&amp;<sp/>Shot<sp/>=<sp/>Shots[i];</highlight></codeline>
 <codeline lineno="530"><highlight class="normal"></highlight></codeline>
-<codeline lineno="531"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UWeaponDataAsset*<sp/>UsedWeapon<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="531"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_u_weapon_data_asset" kindref="compound">UWeaponDataAsset</ref>*<sp/>UsedWeapon<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="532"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="533"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FSoftObjectPath<sp/>Path<sp/>=<sp/>Shot.WeaponUsed.ToSoftObjectPath();</highlight></codeline>
-<codeline lineno="534"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(CachedWeapons.Contains(Path))</highlight></codeline>
+<codeline lineno="533"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FSoftObjectPath<sp/>Path<sp/>=<sp/>Shot.<ref refid="struct_f_recorded_shot_1a10c570c36ca0c84b3fe30910b7f6f13c" kindref="member">WeaponUsed</ref>.ToSoftObjectPath();</highlight></codeline>
+<codeline lineno="534"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_a_temporal_character_1ab4d3ee10af91b626d223f704316948d1" kindref="member">CachedWeapons</ref>.Contains(Path))</highlight></codeline>
 <codeline lineno="535"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="536"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UsedWeapon<sp/>=<sp/>CachedWeapons[Path];</highlight></codeline>
+<codeline lineno="536"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UsedWeapon<sp/>=<sp/><ref refid="class_a_temporal_character_1ab4d3ee10af91b626d223f704316948d1" kindref="member">CachedWeapons</ref>[Path];</highlight></codeline>
 <codeline lineno="537"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="538"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="539"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="540"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>unexpected<sp/>–<sp/>asset<sp/>wasn’t<sp/>in<sp/>cache;<sp/>load<sp/>on<sp/>the<sp/>fly<sp/>once</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="541"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UsedWeapon<sp/>=<sp/>Shot.WeaponUsed.LoadSynchronous();</highlight></codeline>
-<codeline lineno="542"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(UsedWeapon)<sp/>CachedWeapons.Add(Path,<sp/>UsedWeapon);</highlight></codeline>
+<codeline lineno="541"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UsedWeapon<sp/>=<sp/>Shot.<ref refid="struct_f_recorded_shot_1a10c570c36ca0c84b3fe30910b7f6f13c" kindref="member">WeaponUsed</ref>.LoadSynchronous();</highlight></codeline>
+<codeline lineno="542"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(UsedWeapon)<sp/><ref refid="class_a_temporal_character_1ab4d3ee10af91b626d223f704316948d1" kindref="member">CachedWeapons</ref>.Add(Path,<sp/>UsedWeapon);</highlight></codeline>
 <codeline lineno="543"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;%s<sp/>–<sp/>late-loaded<sp/>weapon<sp/>%s&quot;</highlight><highlight class="normal">),</highlight></codeline>
 <codeline lineno="544"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*GetName(),<sp/>*Path.ToString());</highlight></codeline>
 <codeline lineno="545"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
@@ -932,7 +932,7 @@
 <codeline lineno="572"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="573"><highlight class="normal"></highlight></codeline>
 <codeline lineno="574"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Plausibility<sp/>checks</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="575"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>PositionError<sp/>=<sp/>FVector::Dist(Start,<sp/>Shot.ViewLocation);</highlight></codeline>
+<codeline lineno="575"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>PositionError<sp/>=<sp/>FVector::Dist(Start,<sp/>Shot.<ref refid="struct_f_recorded_shot_1ad3f3302ee527fee92c5e238a64095d1c" kindref="member">ViewLocation</ref>);</highlight></codeline>
 <codeline lineno="576"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>MaxAllowedError<sp/>=<sp/>100.0f;</highlight></codeline>
 <codeline lineno="577"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bPositionCloseEnough<sp/>=<sp/>PositionError<sp/>&lt;=<sp/>MaxAllowedError;</highlight></codeline>
 <codeline lineno="578"><highlight class="normal"></highlight></codeline>
@@ -943,7 +943,7 @@
 <codeline lineno="583"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bHasLOSRaw<sp/>=<sp/>GetWorld()-&gt;LineTraceSingleByChannel(</highlight></codeline>
 <codeline lineno="584"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LOSCheck,</highlight></codeline>
 <codeline lineno="585"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Start,</highlight></codeline>
-<codeline lineno="586"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Shot.ImpactLocation,</highlight></codeline>
+<codeline lineno="586"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Shot.<ref refid="struct_f_recorded_shot_1ac0daef34f3c2a5b30458387d3665794f" kindref="member">ImpactLocation</ref>,</highlight></codeline>
 <codeline lineno="587"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ECC_Visibility,</highlight></codeline>
 <codeline lineno="588"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LOSParams</highlight></codeline>
 <codeline lineno="589"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
@@ -951,32 +951,32 @@
 <codeline lineno="591"><highlight class="normal"></highlight></codeline>
 <codeline lineno="592"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>we<sp/>originally<sp/>recorded<sp/>a<sp/>MISS,<sp/>but<sp/>now<sp/>our<sp/>LOS<sp/>trace<sp/>hits<sp/>a<sp/>pawn,</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="593"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>treat<sp/>that<sp/>as<sp/>“no<sp/>obstruction”<sp/>(so<sp/>bHasLOSRaw==false).</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="594"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(bHasLOSRaw<sp/>&amp;&amp;<sp/>!Shot.HitActor.IsValid()<sp/>&amp;&amp;<sp/>LOSCheck.GetActor())</highlight></codeline>
+<codeline lineno="594"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(bHasLOSRaw<sp/>&amp;&amp;<sp/>!Shot.<ref refid="struct_f_recorded_shot_1a4e41c04830f61746bc63ce81a04b0739" kindref="member">HitActor</ref>.IsValid()<sp/>&amp;&amp;<sp/>LOSCheck.GetActor())</highlight></codeline>
 <codeline lineno="595"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="596"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>we<sp/>hit<sp/>a<sp/>dynamic<sp/>actor<sp/>now,<sp/>but<sp/>the<sp/>player<sp/>originally<sp/>shot<sp/>past<sp/>it<sp/>-&gt;<sp/>allow<sp/>the<sp/>ghost<sp/>to<sp/>hit</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="597"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bHasLOSRaw<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="598"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="599"><highlight class="normal"></highlight></codeline>
-<codeline lineno="600"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bImpactMatches<sp/>=<sp/>bHasLOSRaw<sp/>?<sp/>LOSCheck.ImpactPoint.Equals(Shot.ImpactLocation,<sp/>3.0f)<sp/>:<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="600"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bImpactMatches<sp/>=<sp/>bHasLOSRaw<sp/>?<sp/>LOSCheck.ImpactPoint.Equals(Shot.<ref refid="struct_f_recorded_shot_1ac0daef34f3c2a5b30458387d3665794f" kindref="member">ImpactLocation</ref>,<sp/>3.0f)<sp/>:<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="601"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bHasLineOfSight<sp/>=</highlight></codeline>
 <codeline lineno="602"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(!bHasLOSRaw)<sp/>||<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>clear<sp/>path</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="603"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(Shot.HitActor.IsValid()<sp/>&amp;&amp;<sp/>LOSCheck.GetActor()<sp/>==<sp/>Shot.HitActor.Get());</highlight></codeline>
+<codeline lineno="603"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(Shot.<ref refid="struct_f_recorded_shot_1a4e41c04830f61746bc63ce81a04b0739" kindref="member">HitActor</ref>.IsValid()<sp/>&amp;&amp;<sp/>LOSCheck.GetActor()<sp/>==<sp/>Shot.<ref refid="struct_f_recorded_shot_1a4e41c04830f61746bc63ce81a04b0739" kindref="member">HitActor</ref>.Get());</highlight></codeline>
 <codeline lineno="604"><highlight class="normal"></highlight></codeline>
 <codeline lineno="605"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Detailed<sp/>logging<sp/>for<sp/>failure<sp/>analysis</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="606"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!bPositionCloseEnough<sp/>||<sp/>!bHasLineOfSight)</highlight></codeline>
 <codeline lineno="607"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="608"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Ghost<sp/>%s<sp/>-<sp/>Shot<sp/>%d<sp/>failed<sp/>plausibility<sp/>checks:&quot;</highlight><highlight class="normal">),<sp/>*GetName(),<sp/>Shot.ShotIndex);</highlight></codeline>
+<codeline lineno="608"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Ghost<sp/>%s<sp/>-<sp/>Shot<sp/>%d<sp/>failed<sp/>plausibility<sp/>checks:&quot;</highlight><highlight class="normal">),<sp/>*GetName(),<sp/>Shot.<ref refid="struct_f_recorded_shot_1a78ac3a58ce0bd04bb0397259ae857eba" kindref="member">ShotIndex</ref>);</highlight></codeline>
 <codeline lineno="609"><highlight class="normal"></highlight></codeline>
 <codeline lineno="610"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Shot<sp/>%d<sp/>|<sp/>bHit:<sp/>%s<sp/>|<sp/>ImpactLocation:<sp/>%s<sp/>|<sp/>Trace<sp/>Impact:<sp/>%s&quot;</highlight><highlight class="normal">),</highlight></codeline>
-<codeline lineno="611"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Shot.ShotIndex,</highlight></codeline>
-<codeline lineno="612"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Shot.bHit<sp/>?<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;TRUE&quot;</highlight><highlight class="normal">)<sp/>:<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;FALSE&quot;</highlight><highlight class="normal">),</highlight></codeline>
-<codeline lineno="613"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*Shot.ImpactLocation.ToString(),</highlight></codeline>
+<codeline lineno="611"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Shot.<ref refid="struct_f_recorded_shot_1a78ac3a58ce0bd04bb0397259ae857eba" kindref="member">ShotIndex</ref>,</highlight></codeline>
+<codeline lineno="612"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Shot.<ref refid="struct_f_recorded_shot_1a443385bba9e9512a1a0a00a02407587f" kindref="member">bHit</ref><sp/>?<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;TRUE&quot;</highlight><highlight class="normal">)<sp/>:<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;FALSE&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="613"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*Shot.<ref refid="struct_f_recorded_shot_1ac0daef34f3c2a5b30458387d3665794f" kindref="member">ImpactLocation</ref>.ToString(),</highlight></codeline>
 <codeline lineno="614"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*LOSCheck.ImpactPoint.ToString());</highlight></codeline>
 <codeline lineno="615"><highlight class="normal"></highlight></codeline>
 <codeline lineno="616"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!bPositionCloseEnough)</highlight></codeline>
 <codeline lineno="617"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="618"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;<sp/><sp/>Position<sp/>error<sp/>too<sp/>large:<sp/>%.2f<sp/>&gt;<sp/>%.2f&quot;</highlight><highlight class="normal">),<sp/>PositionError,<sp/>MaxAllowedError);</highlight></codeline>
-<codeline lineno="619"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;<sp/><sp/>GhostView:<sp/>%s<sp/>|<sp/>RecordedView:<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>*Start.ToString(),<sp/>*Shot.ViewLocation.ToString());</highlight></codeline>
+<codeline lineno="619"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;<sp/><sp/>GhostView:<sp/>%s<sp/>|<sp/>RecordedView:<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>*Start.ToString(),<sp/>*Shot.<ref refid="struct_f_recorded_shot_1ad3f3302ee527fee92c5e238a64095d1c" kindref="member">ViewLocation</ref>.ToString());</highlight></codeline>
 <codeline lineno="620"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="621"><highlight class="normal"></highlight></codeline>
 <codeline lineno="622"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!bHasLOSRaw)</highlight></codeline>
@@ -986,16 +986,16 @@
 <codeline lineno="626"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!bImpactMatches)</highlight></codeline>
 <codeline lineno="627"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="628"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;<sp/><sp/>LOS<sp/>ImpactPoint<sp/>mismatch:<sp/>expected<sp/>%s,<sp/>got<sp/>%s&quot;</highlight><highlight class="normal">),</highlight></codeline>
-<codeline lineno="629"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*Shot.ImpactLocation.ToString(),</highlight></codeline>
+<codeline lineno="629"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*Shot.<ref refid="struct_f_recorded_shot_1ac0daef34f3c2a5b30458387d3665794f" kindref="member">ImpactLocation</ref>.ToString(),</highlight></codeline>
 <codeline lineno="630"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*LOSCheck.ImpactPoint.ToString());</highlight></codeline>
 <codeline lineno="631"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="632"><highlight class="normal"></highlight></codeline>
-<codeline lineno="633"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!Shot.HitActor.IsValid())</highlight></codeline>
+<codeline lineno="633"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!Shot.<ref refid="struct_f_recorded_shot_1a4e41c04830f61746bc63ce81a04b0739" kindref="member">HitActor</ref>.IsValid())</highlight></codeline>
 <codeline lineno="634"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="635"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;<sp/><sp/>Recorded<sp/>hit<sp/>actor:<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>*GetNameSafe(Shot.HitActor.Get()));</highlight></codeline>
+<codeline lineno="635"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;<sp/><sp/>Recorded<sp/>hit<sp/>actor:<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>*GetNameSafe(Shot.<ref refid="struct_f_recorded_shot_1a4e41c04830f61746bc63ce81a04b0739" kindref="member">HitActor</ref>.Get()));</highlight></codeline>
 <codeline lineno="636"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;<sp/><sp/>LOS<sp/>hit<sp/>actor:<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>*GetNameSafe(LOSCheck.GetActor()));</highlight></codeline>
 <codeline lineno="637"><highlight class="normal"></highlight></codeline>
-<codeline lineno="638"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Shot.HitActor.Get()<sp/>!=<sp/>LOSCheck.GetActor())</highlight></codeline>
+<codeline lineno="638"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Shot.<ref refid="struct_f_recorded_shot_1a4e41c04830f61746bc63ce81a04b0739" kindref="member">HitActor</ref>.Get()<sp/>!=<sp/>LOSCheck.GetActor())</highlight></codeline>
 <codeline lineno="639"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="640"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;<sp/><sp/>Recorded<sp/>hit<sp/>actor<sp/>does<sp/>not<sp/>match<sp/>LOS<sp/>hit<sp/>actor.&quot;</highlight><highlight class="normal">));</highlight></codeline>
 <codeline lineno="641"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
@@ -1003,36 +1003,36 @@
 <codeline lineno="643"><highlight class="normal"></highlight></codeline>
 <codeline lineno="644"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(bHasLineOfSight)</highlight></codeline>
 <codeline lineno="645"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="646"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;<sp/><sp/>Line<sp/>of<sp/>sight<sp/>to<sp/>target<sp/>actor<sp/>%s.&quot;</highlight><highlight class="normal">),<sp/>*GetNameSafe(Shot.HitActor.Get()));</highlight></codeline>
+<codeline lineno="646"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;<sp/><sp/>Line<sp/>of<sp/>sight<sp/>to<sp/>target<sp/>actor<sp/>%s.&quot;</highlight><highlight class="normal">),<sp/>*GetNameSafe(Shot.<ref refid="struct_f_recorded_shot_1a4e41c04830f61746bc63ce81a04b0739" kindref="member">HitActor</ref>.Get()));</highlight></codeline>
 <codeline lineno="647"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="648"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="649"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="650"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;<sp/><sp/>No<sp/>line<sp/>of<sp/>sight<sp/>to<sp/>target<sp/>actor<sp/>%s.&quot;</highlight><highlight class="normal">),<sp/>*GetNameSafe(Shot.HitActor.Get()));</highlight></codeline>
+<codeline lineno="650"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;<sp/><sp/>No<sp/>line<sp/>of<sp/>sight<sp/>to<sp/>target<sp/>actor<sp/>%s.&quot;</highlight><highlight class="normal">),<sp/>*GetNameSafe(Shot.<ref refid="struct_f_recorded_shot_1a4e41c04830f61746bc63ce81a04b0739" kindref="member">HitActor</ref>.Get()));</highlight></codeline>
 <codeline lineno="651"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="652"><highlight class="normal"></highlight></codeline>
 <codeline lineno="653"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Visual<sp/>feedback</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="654"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DrawDebugLine(GetWorld(),<sp/>Start,<sp/>Shot.ImpactLocation,<sp/>FColor::Red,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/>1.0f,<sp/>0,<sp/>2.0f);</highlight></codeline>
+<codeline lineno="654"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DrawDebugLine(GetWorld(),<sp/>Start,<sp/>Shot.<ref refid="struct_f_recorded_shot_1ac0daef34f3c2a5b30458387d3665794f" kindref="member">ImpactLocation</ref>,<sp/>FColor::Red,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/>1.0f,<sp/>0,<sp/>2.0f);</highlight></codeline>
 <codeline lineno="655"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="656"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="657"><highlight class="normal"></highlight></codeline>
 <codeline lineno="658"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Shot<sp/>logic</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="659"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FVector<sp/>ShotDirection<sp/>=<sp/>Shot.ShotDirection.Vector();</highlight></codeline>
-<codeline lineno="660"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FVector<sp/>End<sp/>=<sp/>Shot.ImpactLocation<sp/>+<sp/>ShotDirection<sp/>*<sp/>1.0f;</highlight></codeline>
+<codeline lineno="659"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FVector<sp/>ShotDirection<sp/>=<sp/>Shot.<ref refid="struct_f_recorded_shot_1a7556405c16fb2ade376a7943c11f8b67" kindref="member">ShotDirection</ref>.Vector();</highlight></codeline>
+<codeline lineno="660"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FVector<sp/>End<sp/>=<sp/>Shot.<ref refid="struct_f_recorded_shot_1ac0daef34f3c2a5b30458387d3665794f" kindref="member">ImpactLocation</ref><sp/>+<sp/>ShotDirection<sp/>*<sp/>1.0f;</highlight></codeline>
 <codeline lineno="661"><highlight class="normal"></highlight></codeline>
 <codeline lineno="662"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FHitResult<sp/>Hit;</highlight></codeline>
 <codeline lineno="663"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FCollisionQueryParams<sp/>Params;</highlight></codeline>
 <codeline lineno="664"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Params.AddIgnoredActor(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="665"><highlight class="normal"></highlight></codeline>
 <codeline lineno="666"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bHit<sp/>=<sp/>GetWorld()-&gt;LineTraceSingleByChannel(Hit,<sp/>Start,<sp/>End,<sp/>ECC_Visibility,<sp/>Params);</highlight></codeline>
-<codeline lineno="667"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FVector<sp/>ActualEnd<sp/>=<sp/>bHit<sp/>?<sp/>Hit.ImpactPoint<sp/>:<sp/>Shot.ImpactLocation;</highlight></codeline>
+<codeline lineno="667"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FVector<sp/>ActualEnd<sp/>=<sp/>bHit<sp/>?<sp/>Hit.ImpactPoint<sp/>:<sp/>Shot.<ref refid="struct_f_recorded_shot_1ac0daef34f3c2a5b30458387d3665794f" kindref="member">ImpactLocation</ref>;</highlight></codeline>
 <codeline lineno="668"><highlight class="normal"></highlight></codeline>
 <codeline lineno="669"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bSimulatedHit<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="670"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bHitIntendedTarget<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="671"><highlight class="normal"></highlight></codeline>
 <codeline lineno="672"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Check<sp/>if<sp/>we<sp/>hit<sp/>the<sp/>intended<sp/>target</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="673"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(bHit<sp/>&amp;&amp;<sp/>Shot.HitActor.IsValid())</highlight></codeline>
+<codeline lineno="673"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(bHit<sp/>&amp;&amp;<sp/>Shot.<ref refid="struct_f_recorded_shot_1a4e41c04830f61746bc63ce81a04b0739" kindref="member">HitActor</ref>.IsValid())</highlight></codeline>
 <codeline lineno="674"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="675"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bHitIntendedTarget<sp/>=<sp/>Hit.GetActor()<sp/>==<sp/>Shot.HitActor.Get();</highlight></codeline>
+<codeline lineno="675"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bHitIntendedTarget<sp/>=<sp/>Hit.GetActor()<sp/>==<sp/>Shot.<ref refid="struct_f_recorded_shot_1a4e41c04830f61746bc63ce81a04b0739" kindref="member">HitActor</ref>.Get();</highlight></codeline>
 <codeline lineno="676"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="677"><highlight class="normal"></highlight></codeline>
 <codeline lineno="678"><highlight class="normal"></highlight></codeline>
@@ -1048,26 +1048,26 @@
 <codeline lineno="688"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="689"><highlight class="normal"></highlight></codeline>
 <codeline lineno="690"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Force<sp/>hit<sp/>if<sp/>it<sp/>passed<sp/>our<sp/>plausibility<sp/>checks<sp/>but<sp/>the<sp/>trace<sp/>missed</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="691"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((!bHit<sp/>||<sp/>!bHitIntendedTarget)<sp/>&amp;&amp;<sp/>bPositionCloseEnough<sp/>&amp;&amp;<sp/>bHasLineOfSight<sp/>&amp;&amp;<sp/>(Shot.bHit<sp/>||<sp/>(!Shot.bHit<sp/>&amp;&amp;<sp/>!Shot.HitActor.IsValid())))</highlight></codeline>
+<codeline lineno="691"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((!bHit<sp/>||<sp/>!bHitIntendedTarget)<sp/>&amp;&amp;<sp/>bPositionCloseEnough<sp/>&amp;&amp;<sp/>bHasLineOfSight<sp/>&amp;&amp;<sp/>(Shot.<ref refid="struct_f_recorded_shot_1a443385bba9e9512a1a0a00a02407587f" kindref="member">bHit</ref><sp/>||<sp/>(!Shot.<ref refid="struct_f_recorded_shot_1a443385bba9e9512a1a0a00a02407587f" kindref="member">bHit</ref><sp/>&amp;&amp;<sp/>!Shot.<ref refid="struct_f_recorded_shot_1a4e41c04830f61746bc63ce81a04b0739" kindref="member">HitActor</ref>.IsValid())))</highlight></codeline>
 <codeline lineno="692"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="693"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bHit<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="694"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bSimulatedHit<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="695"><highlight class="normal"></highlight></codeline>
 <codeline lineno="696"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Use<sp/>whatever<sp/>actor<sp/>the<sp/>LOS<sp/>trace<sp/>found<sp/>(or<sp/>the<sp/>recorded<sp/>one,<sp/>if<sp/>any)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="697"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AActor*<sp/>actorToHit<sp/>=<sp/>Shot.HitActor.IsValid()</highlight></codeline>
-<codeline lineno="698"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>?<sp/>Shot.HitActor.Get()</highlight></codeline>
+<codeline lineno="697"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AActor*<sp/>actorToHit<sp/>=<sp/>Shot.<ref refid="struct_f_recorded_shot_1a4e41c04830f61746bc63ce81a04b0739" kindref="member">HitActor</ref>.IsValid()</highlight></codeline>
+<codeline lineno="698"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>?<sp/>Shot.<ref refid="struct_f_recorded_shot_1a4e41c04830f61746bc63ce81a04b0739" kindref="member">HitActor</ref>.Get()</highlight></codeline>
 <codeline lineno="699"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>LOSCheck.GetActor();</highlight></codeline>
 <codeline lineno="700"><highlight class="normal"></highlight></codeline>
-<codeline lineno="701"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Hit.ImpactPoint<sp/>=<sp/>Shot.ImpactLocation;</highlight></codeline>
+<codeline lineno="701"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Hit.ImpactPoint<sp/>=<sp/>Shot.<ref refid="struct_f_recorded_shot_1ac0daef34f3c2a5b30458387d3665794f" kindref="member">ImpactLocation</ref>;</highlight></codeline>
 <codeline lineno="702"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Hit.TraceStart<sp/>=<sp/>Start;</highlight></codeline>
-<codeline lineno="703"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Hit.TraceEnd<sp/>=<sp/>Shot.ImpactLocation;</highlight></codeline>
+<codeline lineno="703"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Hit.TraceEnd<sp/>=<sp/>Shot.<ref refid="struct_f_recorded_shot_1ac0daef34f3c2a5b30458387d3665794f" kindref="member">ImpactLocation</ref>;</highlight></codeline>
 <codeline lineno="704"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Hit.bBlockingHit<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="705"><highlight class="normal"></highlight></codeline>
 <codeline lineno="706"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Correctly<sp/>simulate<sp/>the<sp/>actor<sp/>hit</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="707"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Hit.HitObjectHandle<sp/>=<sp/>FActorInstanceHandle(actorToHit);</highlight></codeline>
-<codeline lineno="708"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Hit.BoneName<sp/>=<sp/>Shot.HitBoneName;</highlight></codeline>
+<codeline lineno="708"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Hit.BoneName<sp/>=<sp/>Shot.<ref refid="struct_f_recorded_shot_1ae107a5dae5978675afeb3478975f898d" kindref="member">HitBoneName</ref>;</highlight></codeline>
 <codeline lineno="709"><highlight class="normal"></highlight></codeline>
-<codeline lineno="710"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ActualEnd<sp/>=<sp/>Shot.ImpactLocation;</highlight></codeline>
+<codeline lineno="710"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ActualEnd<sp/>=<sp/>Shot.<ref refid="struct_f_recorded_shot_1ac0daef34f3c2a5b30458387d3665794f" kindref="member">ImpactLocation</ref>;</highlight></codeline>
 <codeline lineno="711"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="712"><highlight class="normal"></highlight></codeline>
 <codeline lineno="713"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FColor<sp/>LineColor<sp/>=<sp/>bHit<sp/>?<sp/>(bSimulatedHit<sp/>?<sp/>FColor::Cyan<sp/>:<sp/>FColor::Green)<sp/>:<sp/>FColor::Red;</highlight></codeline>
@@ -1099,12 +1099,12 @@
 <codeline lineno="739"><highlight class="normal"></highlight></codeline>
 <codeline lineno="740"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(bHit<sp/>&amp;&amp;<sp/>Hit.GetActor()<sp/>&amp;&amp;<sp/>Hit.GetActor()-&gt;GetClass()-&gt;ImplementsInterface(UDamageableInterface::StaticClass()))</highlight></codeline>
 <codeline lineno="741"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="742"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FDamageInfo<sp/>DamageInfo;</highlight></codeline>
-<codeline lineno="743"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DamageInfo.DamageAmount<sp/>=<sp/>UsedWeapon-&gt;Damage;</highlight></codeline>
+<codeline lineno="742"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_f_damage_info" kindref="compound">FDamageInfo</ref><sp/>DamageInfo;</highlight></codeline>
+<codeline lineno="743"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DamageInfo.DamageAmount<sp/>=<sp/>UsedWeapon-&gt;<ref refid="class_u_weapon_data_asset_1a38b2bafe40070d8ca22b70c32e890598" kindref="member">Damage</ref>;</highlight></codeline>
 <codeline lineno="744"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DamageInfo.Instigator<sp/>=<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="745"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DamageInfo.HitLocation<sp/>=<sp/>Hit.ImpactPoint;</highlight></codeline>
 <codeline lineno="746"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DamageInfo.ShotDirection<sp/>=<sp/>ShotDirection;</highlight></codeline>
-<codeline lineno="747"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DamageInfo.DamageType<sp/>=<sp/>UsedWeapon-&gt;DamageType;</highlight></codeline>
+<codeline lineno="747"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DamageInfo.DamageType<sp/>=<sp/>UsedWeapon-&gt;<ref refid="class_u_weapon_data_asset_1af2ab9a2a8bc0e30d38d9102945980ad3" kindref="member">DamageType</ref>;</highlight></codeline>
 <codeline lineno="748"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DamageInfo.HitBoneName<sp/>=<sp/>Hit.BoneName;</highlight></codeline>
 <codeline lineno="749"><highlight class="normal"></highlight></codeline>
 <codeline lineno="750"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Hit.BoneName<sp/>==<sp/>FName(</highlight><highlight class="stringliteral">&quot;head&quot;</highlight><highlight class="normal">))</highlight></codeline>
@@ -1115,32 +1115,32 @@
 <codeline lineno="755"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IDamageableInterface::Execute_TakeDamage(Hit.GetActor(),<sp/>DamageInfo);</highlight></codeline>
 <codeline lineno="756"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="757"><highlight class="normal"></highlight></codeline>
-<codeline lineno="758"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LastProcessedShotIndex<sp/>=<sp/>i;<sp/></highlight><highlight class="comment">//<sp/>Mark<sp/>this<sp/>shot<sp/>as<sp/>done</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="758"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_character_1abf6c7c6aca0ecd935f7a91aabf4b9b57" kindref="member">LastProcessedShotIndex</ref><sp/>=<sp/>i;<sp/></highlight><highlight class="comment">//<sp/>Mark<sp/>this<sp/>shot<sp/>as<sp/>done</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="759"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="760"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="761"><highlight class="normal"></highlight></codeline>
-<codeline lineno="762"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ATemporalCharacter::ProcessInteractEvent()</highlight></codeline>
+<codeline lineno="762" refid="class_a_temporal_character_1accf59b4a4abec73019a526a874076cbe" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_character_1accf59b4a4abec73019a526a874076cbe" kindref="member">ATemporalCharacter::ProcessInteractEvent</ref>()</highlight></codeline>
 <codeline lineno="763"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="764"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!ReplayDataPtr.IsValid()<sp/>||<sp/>!ReplayDataPtr-&gt;IsValidIndex(CurrentFrameIndex))</highlight></codeline>
+<codeline lineno="764"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>.IsValid()<sp/>||<sp/>!<ref refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kindref="member">ReplayDataPtr</ref>-&gt;IsValidIndex(<ref refid="class_a_temporal_character_1a6f9ccb885c218189efedb6d30b9eb0fe" kindref="member">CurrentFrameIndex</ref>))</highlight></codeline>
 <codeline lineno="765"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="766"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;%s<sp/>-<sp/>Cannot<sp/>process<sp/>interaction:<sp/>invalid<sp/>frame<sp/>index&quot;</highlight><highlight class="normal">),<sp/>*GetName());</highlight></codeline>
 <codeline lineno="767"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="768"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="769"><highlight class="normal"></highlight></codeline>
-<codeline lineno="770"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FPlayerFrameData&amp;<sp/>Frame<sp/>=<sp/>(*ReplayDataPtr)[CurrentFrameIndex];</highlight></codeline>
-<codeline lineno="771"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FInteractionData&amp;<sp/>InteractionData<sp/>=<sp/>Frame.InteractionData;</highlight></codeline>
+<codeline lineno="770"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref>&amp;<sp/>Frame<sp/>=<sp/>(*ReplayDataPtr)[<ref refid="class_a_temporal_character_1a6f9ccb885c218189efedb6d30b9eb0fe" kindref="member">CurrentFrameIndex</ref>];</highlight></codeline>
+<codeline lineno="771"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_f_interaction_data" kindref="compound">FInteractionData</ref>&amp;<sp/>InteractionData<sp/>=<sp/>Frame.<ref refid="struct_f_player_frame_data_1a99366cbe0b8fe264b6dd0b7b101075fc" kindref="member">InteractionData</ref>;</highlight></codeline>
 <codeline lineno="772"><highlight class="normal"></highlight></codeline>
-<codeline lineno="773"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!InteractionData.TargetActorPath.IsValid()<sp/>||<sp/>!InteractionData.TargetActorPath.ResolveObject())</highlight></codeline>
+<codeline lineno="773"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!InteractionData.<ref refid="struct_f_interaction_data_1addc40f0abb89d7c03dd071b6a958f053" kindref="member">TargetActorPath</ref>.IsValid()<sp/>||<sp/>!InteractionData.<ref refid="struct_f_interaction_data_1addc40f0abb89d7c03dd071b6a958f053" kindref="member">TargetActorPath</ref>.ResolveObject())</highlight></codeline>
 <codeline lineno="774"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="775"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;%s<sp/>-<sp/>InteractionData<sp/>is<sp/>empty<sp/>or<sp/>invalid<sp/>at<sp/>time<sp/>%.2f&quot;</highlight><highlight class="normal">),<sp/>*GetName(),<sp/>Frame.TimeStamp);</highlight></codeline>
+<codeline lineno="775"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;%s<sp/>-<sp/>InteractionData<sp/>is<sp/>empty<sp/>or<sp/>invalid<sp/>at<sp/>time<sp/>%.2f&quot;</highlight><highlight class="normal">),<sp/>*GetName(),<sp/>Frame.<ref refid="struct_f_player_frame_data_1aa7d6d6c4a99f0ff0dab19b2ddde1eaa9" kindref="member">TimeStamp</ref>);</highlight></codeline>
 <codeline lineno="776"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="777"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="778"><highlight class="normal"></highlight></codeline>
-<codeline lineno="779"><highlight class="normal"><sp/><sp/><sp/><sp/>AActor*<sp/>TargetActor<sp/>=<sp/>Cast&lt;AActor&gt;(InteractionData.TargetActorPath.ResolveObject());</highlight></codeline>
+<codeline lineno="779"><highlight class="normal"><sp/><sp/><sp/><sp/>AActor*<sp/>TargetActor<sp/>=<sp/>Cast&lt;AActor&gt;(InteractionData.<ref refid="struct_f_interaction_data_1addc40f0abb89d7c03dd071b6a958f053" kindref="member">TargetActorPath</ref>.ResolveObject());</highlight></codeline>
 <codeline lineno="780"><highlight class="normal"></highlight></codeline>
 <codeline lineno="781"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!TargetActor)</highlight></codeline>
 <codeline lineno="782"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="783"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Error,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;%s<sp/>-<sp/>Could<sp/>not<sp/>resolve<sp/>actor<sp/>from<sp/>path:<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>*GetName(),<sp/>*InteractionData.TargetActorPath.ToString());</highlight></codeline>
+<codeline lineno="783"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Error,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;%s<sp/>-<sp/>Could<sp/>not<sp/>resolve<sp/>actor<sp/>from<sp/>path:<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>*GetName(),<sp/>*InteractionData.<ref refid="struct_f_interaction_data_1addc40f0abb89d7c03dd071b6a958f053" kindref="member">TargetActorPath</ref>.ToString());</highlight></codeline>
 <codeline lineno="784"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="785"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="786"><highlight class="normal"></highlight></codeline>

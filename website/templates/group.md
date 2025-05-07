@@ -5,7 +5,7 @@ sidebar_label: {{{prettifyGroup name}}}
 slug: /API/{{{name}}}
 ---
 
-# 🧩 Group: {{{safeLink name (prettifyGroup name)}}}
+# 🗂️ Category: {{{safeLink name (prettifyGroup name)}}}
 
 {{#if briefdescription}}
 > {{briefdescription}}
@@ -27,7 +27,7 @@ slug: /API/{{{name}}}
 <!-- block -->
 
 <details open>
-<summary>📦 Classes in This Group</summary>
+<summary>📦 Classes in This Category</summary>
 
 {{#each filtered.compounds}}
 

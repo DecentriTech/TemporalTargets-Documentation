@@ -3,6 +3,7 @@
   <compounddef id="class_a_temporal_character" kind="class" language="C++" prot="public">
     <compoundname>ATemporalCharacter</compoundname>
     <basecompoundref refid="class_a_t_a_character" prot="public" virt="non-virtual">ATACharacter</basecompoundref>
+    <includes refid="_temporal_character_8h" local="no">TemporalCharacter.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="class_a_temporal_character_1ad2de46499d798556533a4dd3fb6f8d2f" prot="public" static="no" mutable="no">
         <type>FName</type>

@@ -15,6 +15,18 @@
         </childnode>
       </node>
     </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>Source/TimeAssassin/TimeAssassin.cpp</label>
+        <link refid="_time_assassin_8cpp"/>
+      </node>
+      <node id="1">
+        <label>Source/TimeAssassin/TimeAssassin.h</label>
+        <link refid="_time_assassin_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

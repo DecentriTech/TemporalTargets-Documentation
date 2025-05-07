@@ -18,7 +18,7 @@
       </node>
       <node id="2">
         <label>TemporalAIController.h</label>
-        <link refid="_temporal_a_i_controller_8h_source"/>
+        <link refid="_temporal_a_i_controller_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
@@ -41,11 +41,11 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;TemporalAIController.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_temporal_a_i_controller_8h" kindref="compound">TemporalAIController.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Fill<sp/>out<sp/>your<sp/>copyright<sp/>notice<sp/>in<sp/>the<sp/>Description<sp/>page<sp/>of<sp/>Project<sp/>Settings.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameFramework/Character.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ATemporalAIController::OnPossess(APawn*<sp/>InPawn)</highlight></codeline>
+<codeline lineno="5" refid="class_a_temporal_a_i_controller_1ab56da7f03a3e0ce8c327eabe60cb87c6" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_a_i_controller_1ab56da7f03a3e0ce8c327eabe60cb87c6" kindref="member">ATemporalAIController::OnPossess</ref>(APawn*<sp/>InPawn)</highlight></codeline>
 <codeline lineno="6"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>Super::OnPossess(InPawn);</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
@@ -61,7 +61,7 @@
 <codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="19"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ATemporalAIController::OnUnPossess()</highlight></codeline>
+<codeline lineno="21" refid="class_a_temporal_a_i_controller_1a6ee470e16b43a49793ad3b23c402fbcc" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_a_i_controller_1a6ee470e16b43a49793ad3b23c402fbcc" kindref="member">ATemporalAIController::OnUnPossess</ref>()</highlight></codeline>
 <codeline lineno="22"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>Super::OnUnPossess();</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;AIController<sp/>has<sp/>unpossessed<sp/>the<sp/>pawn&quot;</highlight><highlight class="normal">));</highlight></codeline>

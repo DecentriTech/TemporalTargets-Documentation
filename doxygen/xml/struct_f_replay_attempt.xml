@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="struct_f_replay_attempt" kind="struct" language="C++" prot="public">
     <compoundname>FReplayAttempt</compoundname>
+    <includes refid="_f_player_frame_data_8h" local="no">FPlayerFrameData.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="struct_f_replay_attempt_1afe63a0a419000887aac46495389744b2" prot="public" static="no" mutable="no">
         <type>TSharedPtr&lt; TArray&lt; <ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref> &gt; &gt;</type>

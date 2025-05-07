@@ -3,6 +3,7 @@
   <compounddef id="class_a_temporal_a_i_controller" kind="class" language="C++" prot="public">
     <compoundname>ATemporalAIController</compoundname>
     <basecompoundref prot="public" virt="non-virtual">AAIController</basecompoundref>
+    <includes refid="_temporal_a_i_controller_8h" local="no">TemporalAIController.h</includes>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="class_a_temporal_a_i_controller_1ab56da7f03a3e0ce8c327eabe60cb87c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>

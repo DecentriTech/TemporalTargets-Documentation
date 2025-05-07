@@ -17,9 +17,9 @@
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Collections.Generic;</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.IO;</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7" refid="class_time_assassin_target" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">TimeAssassinTarget<sp/>:<sp/>TargetRules</highlight></codeline>
+<codeline lineno="7" refid="class_time_assassin_target" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_time_assassin_target_1a8ee73d4284c20ab2082694f040b2dc43" kindref="member">TimeAssassinTarget</ref><sp/>:<sp/>TargetRules</highlight></codeline>
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>TimeAssassinTarget(TargetInfo<sp/>Target)<sp/>:<sp/>base(Target)</highlight></codeline>
+<codeline lineno="9" refid="class_time_assassin_target_1a8ee73d4284c20ab2082694f040b2dc43" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_time_assassin_target_1a8ee73d4284c20ab2082694f040b2dc43" kindref="member">TimeAssassinTarget</ref>(TargetInfo<sp/>Target)<sp/>:<sp/>base(Target)</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Type<sp/>=<sp/>TargetType.Game;</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DefaultBuildSettings<sp/>=<sp/>BuildSettingsVersion.V5;</highlight></codeline>

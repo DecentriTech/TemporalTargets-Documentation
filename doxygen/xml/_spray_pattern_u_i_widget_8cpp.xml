@@ -29,7 +29,7 @@
       </node>
       <node id="13">
         <label>GridCanvasWidget.h</label>
-        <link refid="_grid_canvas_widget_8h_source"/>
+        <link refid="_grid_canvas_widget_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
@@ -55,7 +55,7 @@
       </node>
       <node id="2">
         <label>SprayPatternUIWidget.h</label>
-        <link refid="_spray_pattern_u_i_widget_8h_source"/>
+        <link refid="_spray_pattern_u_i_widget_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
@@ -67,7 +67,7 @@
       </node>
       <node id="5">
         <label>WeaponDataAsset.h</label>
-        <link refid="_weapon_data_asset_8h_source"/>
+        <link refid="_weapon_data_asset_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
@@ -95,93 +95,93 @@
     <programlisting>
 <codeline lineno="1"><highlight class="comment">//<sp/>SprayPatternUIWidget.cpp</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;SprayPatternUIWidget.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_spray_pattern_u_i_widget_8h" kindref="compound">SprayPatternUIWidget.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;AssetRegistry/AssetRegistryModule.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Kismet/GameplayStatics.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Components/ComboBoxString.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Components/Slider.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GridCanvasWidget.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_grid_canvas_widget_8h" kindref="compound">GridCanvasWidget.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>USprayPatternUIWidget::NativeConstruct()</highlight></codeline>
+<codeline lineno="10" refid="class_u_spray_pattern_u_i_widget_1a0ec1ff69f80b6cd50ac016974c3e97c0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a0ec1ff69f80b6cd50ac016974c3e97c0" kindref="member">USprayPatternUIWidget::NativeConstruct</ref>()</highlight></codeline>
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>Super::NativeConstruct();</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(WeaponDropdown)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_u_spray_pattern_u_i_widget_1a694936078f02a97cf23d44e0ad00eb27" kindref="member">WeaponDropdown</ref>)</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WeaponDropdown-&gt;OnSelectionChanged.AddDynamic(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>&amp;USprayPatternUIWidget::OnWeaponSelectionChanged);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a694936078f02a97cf23d44e0ad00eb27" kindref="member">WeaponDropdown</ref>-&gt;OnSelectionChanged.AddDynamic(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>&amp;<ref refid="class_u_spray_pattern_u_i_widget_1a2d8d82b242636bb4a8fb57f140904173" kindref="member">USprayPatternUIWidget::OnWeaponSelectionChanged</ref>);</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>PopulateWeaponDropdown();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a71dc920c77bbe1910630e8497163d78e" kindref="member">PopulateWeaponDropdown</ref>();</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>HandleSetSprayPatternScale(SprayPatternScaleX,<sp/>SprayPatternScaleY);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a3bf79fac440d0f0d5536947fb7f56a8a" kindref="member">HandleSetSprayPatternScale</ref>(<ref refid="class_u_spray_pattern_u_i_widget_1a88d9791b679f795758730160bc4b62f2" kindref="member">SprayPatternScaleX</ref>,<sp/><ref refid="class_u_spray_pattern_u_i_widget_1a13fde78e1f957de4ce8238ed4006707e" kindref="member">SprayPatternScaleY</ref>);</highlight></codeline>
 <codeline lineno="22"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>USprayPatternUIWidget::NativeTick(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FGeometry&amp;<sp/>MyGeometry,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>InDeltaTime)</highlight></codeline>
+<codeline lineno="24" refid="class_u_spray_pattern_u_i_widget_1a8c76179e8615eb96498b8a7d6fb958bd" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a8c76179e8615eb96498b8a7d6fb958bd" kindref="member">USprayPatternUIWidget::NativeTick</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FGeometry&amp;<sp/>MyGeometry,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>InDeltaTime)</highlight></codeline>
 <codeline lineno="25"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>Super::NativeTick(MyGeometry,<sp/>InDeltaTime);</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>USprayPatternUIWidget::OnWeaponSelectionChanged(FString<sp/>SelectedItem,<sp/>ESelectInfo::Type<sp/>SelectionType)</highlight></codeline>
+<codeline lineno="30" refid="class_u_spray_pattern_u_i_widget_1a2d8d82b242636bb4a8fb57f140904173" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a2d8d82b242636bb4a8fb57f140904173" kindref="member">USprayPatternUIWidget::OnWeaponSelectionChanged</ref>(FString<sp/>SelectedItem,<sp/>ESelectInfo::Type<sp/>SelectionType)</highlight></codeline>
 <codeline lineno="31"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;[UI]<sp/>Weapon<sp/>selection<sp/>changed<sp/>to:<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>*SelectedItem);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
 <codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Automatically<sp/>load<sp/>the<sp/>spray<sp/>pattern<sp/>on<sp/>selection<sp/>change</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>HandleLoad();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_spray_pattern_u_i_widget_1ac70790e59efb34bc46fb106844fccc41" kindref="member">HandleLoad</ref>();</highlight></codeline>
 <codeline lineno="36"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><ref refid="class_u_weapon_data_asset" kindref="compound">UWeaponDataAsset</ref>*<sp/>USprayPatternUIWidget::GetSelectedWeaponData()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="38" refid="class_u_spray_pattern_u_i_widget_1a9e28431e12bf342644599389301fc498" refkind="member"><highlight class="normal"><ref refid="class_u_weapon_data_asset" kindref="compound">UWeaponDataAsset</ref>*<sp/><ref refid="class_u_spray_pattern_u_i_widget_1a9e28431e12bf342644599389301fc498" kindref="member">USprayPatternUIWidget::GetSelectedWeaponData</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="39"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!WeaponDropdown<sp/>||<sp/>!WeaponAssetMap.Contains(WeaponDropdown-&gt;GetSelectedOption()))</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_u_spray_pattern_u_i_widget_1a694936078f02a97cf23d44e0ad00eb27" kindref="member">WeaponDropdown</ref><sp/>||<sp/>!<ref refid="class_u_spray_pattern_u_i_widget_1a5f9db96b0fcddcbb341f03216c605f13" kindref="member">WeaponAssetMap</ref>.Contains(<ref refid="class_u_spray_pattern_u_i_widget_1a694936078f02a97cf23d44e0ad00eb27" kindref="member">WeaponDropdown</ref>-&gt;GetSelectedOption()))</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>FString<sp/>AssetPath<sp/>=<sp/>WeaponAssetMap[WeaponDropdown-&gt;GetSelectedOption()];</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>FString<sp/>AssetPath<sp/>=<sp/><ref refid="class_u_spray_pattern_u_i_widget_1a5f9db96b0fcddcbb341f03216c605f13" kindref="member">WeaponAssetMap</ref>[<ref refid="class_u_spray_pattern_u_i_widget_1a694936078f02a97cf23d44e0ad00eb27" kindref="member">WeaponDropdown</ref>-&gt;GetSelectedOption()];</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Cast&lt;UWeaponDataAsset&gt;(StaticLoadObject(UWeaponDataAsset::StaticClass(),<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/>*AssetPath));</highlight></codeline>
 <codeline lineno="45"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>USprayPatternUIWidget::PopulateWeaponDropdown()</highlight></codeline>
+<codeline lineno="47" refid="class_u_spray_pattern_u_i_widget_1a71dc920c77bbe1910630e8497163d78e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a71dc920c77bbe1910630e8497163d78e" kindref="member">USprayPatternUIWidget::PopulateWeaponDropdown</ref>()</highlight></codeline>
 <codeline lineno="48"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!WeaponDropdown)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_u_spray_pattern_u_i_widget_1a694936078f02a97cf23d44e0ad00eb27" kindref="member">WeaponDropdown</ref>)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>WeaponDropdown-&gt;ClearOptions();</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>WeaponAssetMap.Empty();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a694936078f02a97cf23d44e0ad00eb27" kindref="member">WeaponDropdown</ref>-&gt;ClearOptions();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a5f9db96b0fcddcbb341f03216c605f13" kindref="member">WeaponAssetMap</ref>.Empty();</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
 <codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>FAssetRegistryModule&amp;<sp/>AssetRegistry<sp/>=<sp/>FModuleManager::LoadModuleChecked&lt;FAssetRegistryModule&gt;(</highlight><highlight class="stringliteral">&quot;AssetRegistry&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;FAssetData&gt;<sp/>AssetDataList;</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>FTopLevelAssetPath<sp/>ClassPath<sp/>=<sp/>UWeaponDataAsset::StaticClass()-&gt;GetClassPathName();</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>AssetRegistry.Get().GetAssetsByClass(ClassPath,<sp/>AssetDataList);</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>WeaponDropdown-&gt;AddOption(TEXT(</highlight><highlight class="stringliteral">&quot;Select<sp/>Weapon&quot;</highlight><highlight class="normal">));<sp/></highlight><highlight class="comment">//<sp/>Add<sp/>a<sp/>default<sp/>option</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a694936078f02a97cf23d44e0ad00eb27" kindref="member">WeaponDropdown</ref>-&gt;AddOption(TEXT(</highlight><highlight class="stringliteral">&quot;Select<sp/>Weapon&quot;</highlight><highlight class="normal">));<sp/></highlight><highlight class="comment">//<sp/>Add<sp/>a<sp/>default<sp/>option</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
 <codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FAssetData&amp;<sp/>Asset<sp/>:<sp/>AssetDataList)</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FString<sp/>Name<sp/>=<sp/>Asset.AssetName.ToString();</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FString<sp/>Path<sp/>=<sp/>Asset.ObjectPath.ToString();</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WeaponDropdown-&gt;AddOption(Name);</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WeaponAssetMap.Add(Name,<sp/>Path);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a694936078f02a97cf23d44e0ad00eb27" kindref="member">WeaponDropdown</ref>-&gt;AddOption(Name);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a5f9db96b0fcddcbb341f03216c605f13" kindref="member">WeaponAssetMap</ref>.Add(Name,<sp/>Path);</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="69"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>USprayPatternUIWidget::HandleExport()</highlight></codeline>
+<codeline lineno="71" refid="class_u_spray_pattern_u_i_widget_1a339d0de1c488b6f518b58a6886e55a4d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a339d0de1c488b6f518b58a6886e55a4d" kindref="member">USprayPatternUIWidget::HandleExport</ref>()</highlight></codeline>
 <codeline lineno="72"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!GridCanvasRef<sp/>||<sp/>!WeaponDropdown)</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_u_spray_pattern_u_i_widget_1adc3a89a423fd06b1c04abbe516817ae1" kindref="member">GridCanvasRef</ref><sp/>||<sp/>!<ref refid="class_u_spray_pattern_u_i_widget_1a694936078f02a97cf23d44e0ad00eb27" kindref="member">WeaponDropdown</ref>)</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Error,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;[HandleExport]<sp/>GridCanvasRef<sp/>or<sp/>WeaponDropdown<sp/>is<sp/>null!&quot;</highlight><highlight class="normal">));</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>FString<sp/>SelectedName<sp/>=<sp/>WeaponDropdown-&gt;GetSelectedOption();</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!WeaponAssetMap.Contains(SelectedName))</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>FString<sp/>SelectedName<sp/>=<sp/><ref refid="class_u_spray_pattern_u_i_widget_1a694936078f02a97cf23d44e0ad00eb27" kindref="member">WeaponDropdown</ref>-&gt;GetSelectedOption();</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_u_spray_pattern_u_i_widget_1a5f9db96b0fcddcbb341f03216c605f13" kindref="member">WeaponAssetMap</ref>.Contains(SelectedName))</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Error,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;[HandleExport]<sp/>Selected<sp/>weapon<sp/>&apos;%s&apos;<sp/>not<sp/>found<sp/>in<sp/>map!&quot;</highlight><highlight class="normal">),<sp/>*SelectedName);</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>FString<sp/>AssetPath<sp/>=<sp/>WeaponAssetMap[SelectedName];</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>FString<sp/>AssetPath<sp/>=<sp/><ref refid="class_u_spray_pattern_u_i_widget_1a5f9db96b0fcddcbb341f03216c605f13" kindref="member">WeaponAssetMap</ref>[SelectedName];</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;[HandleExport]<sp/>SelectedName:<sp/>%s<sp/>|<sp/>AssetPath:<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>*SelectedName,<sp/>*AssetPath);</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>UWeaponDataAsset*<sp/>WeaponAsset<sp/>=<sp/>Cast&lt;UWeaponDataAsset&gt;(</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_weapon_data_asset" kindref="compound">UWeaponDataAsset</ref>*<sp/>WeaponAsset<sp/>=<sp/>Cast&lt;UWeaponDataAsset&gt;(</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StaticLoadObject(UWeaponDataAsset::StaticClass(),<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/>*AssetPath)</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"></highlight></codeline>
@@ -193,28 +193,28 @@
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
 <codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;[HandleExport]<sp/>Successfully<sp/>loaded<sp/>weapon<sp/>asset:<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>*WeaponAsset-&gt;GetName());</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>GridCanvasRef-&gt;ExportSprayPattern(WeaponAsset);</highlight></codeline>
-<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>OnPatternExported.Broadcast();</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_spray_pattern_u_i_widget_1adc3a89a423fd06b1c04abbe516817ae1" kindref="member">GridCanvasRef</ref>-&gt;ExportSprayPattern(WeaponAsset);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a00a73548f0a64c78948ce921c9cb6d40" kindref="member">OnPatternExported</ref>.Broadcast();</highlight></codeline>
 <codeline lineno="103"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>USprayPatternUIWidget::HandleLoad()</highlight></codeline>
+<codeline lineno="105" refid="class_u_spray_pattern_u_i_widget_1ac70790e59efb34bc46fb106844fccc41" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1ac70790e59efb34bc46fb106844fccc41" kindref="member">USprayPatternUIWidget::HandleLoad</ref>()</highlight></codeline>
 <codeline lineno="106"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!GridCanvasRef<sp/>||<sp/>!WeaponDropdown)</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_u_spray_pattern_u_i_widget_1adc3a89a423fd06b1c04abbe516817ae1" kindref="member">GridCanvasRef</ref><sp/>||<sp/>!<ref refid="class_u_spray_pattern_u_i_widget_1a694936078f02a97cf23d44e0ad00eb27" kindref="member">WeaponDropdown</ref>)</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Error,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;[HandleLoad]<sp/>GridCanvasRef<sp/>or<sp/>WeaponDropdown<sp/>is<sp/>null!&quot;</highlight><highlight class="normal">));</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FString<sp/>SelectedName<sp/>=<sp/>WeaponDropdown-&gt;GetSelectedOption();</highlight></codeline>
-<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!WeaponAssetMap.Contains(SelectedName))</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FString<sp/>SelectedName<sp/>=<sp/><ref refid="class_u_spray_pattern_u_i_widget_1a694936078f02a97cf23d44e0ad00eb27" kindref="member">WeaponDropdown</ref>-&gt;GetSelectedOption();</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_u_spray_pattern_u_i_widget_1a5f9db96b0fcddcbb341f03216c605f13" kindref="member">WeaponAssetMap</ref>.Contains(SelectedName))</highlight></codeline>
 <codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Error,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;[HandleLoad]<sp/>Weapon<sp/>&apos;%s&apos;<sp/>not<sp/>found<sp/>in<sp/>map!&quot;</highlight><highlight class="normal">),<sp/>*SelectedName);</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FString<sp/>AssetPath<sp/>=<sp/>WeaponAssetMap[SelectedName];</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FString<sp/>AssetPath<sp/>=<sp/><ref refid="class_u_spray_pattern_u_i_widget_1a5f9db96b0fcddcbb341f03216c605f13" kindref="member">WeaponAssetMap</ref>[SelectedName];</highlight></codeline>
 <codeline lineno="121"><highlight class="normal"></highlight></codeline>
-<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>UWeaponDataAsset*<sp/>WeaponAsset<sp/>=<sp/>Cast&lt;UWeaponDataAsset&gt;(</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_weapon_data_asset" kindref="compound">UWeaponDataAsset</ref>*<sp/>WeaponAsset<sp/>=<sp/>Cast&lt;UWeaponDataAsset&gt;(</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StaticLoadObject(UWeaponDataAsset::StaticClass(),<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/>*AssetPath)</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
@@ -224,41 +224,41 @@
 <codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="131"><highlight class="normal"></highlight></codeline>
-<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;[HandleLoad]<sp/>Loaded<sp/>pattern<sp/>from<sp/>%s<sp/>with<sp/>%d<sp/>points&quot;</highlight><highlight class="normal">),<sp/>*WeaponAsset-&gt;GetName(),<sp/>WeaponAsset-&gt;SprayPattern.Num());</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;[HandleLoad]<sp/>Loaded<sp/>pattern<sp/>from<sp/>%s<sp/>with<sp/>%d<sp/>points&quot;</highlight><highlight class="normal">),<sp/>*WeaponAsset-&gt;GetName(),<sp/>WeaponAsset-&gt;<ref refid="class_u_weapon_data_asset_1a39af4b368edb68fcc72abe2e94506208" kindref="member">SprayPattern</ref>.Num());</highlight></codeline>
 <codeline lineno="133"><highlight class="normal"></highlight></codeline>
-<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>GridCanvasRef-&gt;SetSprayPoints(WeaponAsset-&gt;SprayPattern);<sp/></highlight><highlight class="comment">//<sp/>Make<sp/>sure<sp/>this<sp/>function<sp/>exists<sp/>in<sp/>your<sp/>GridCanvasWidget</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>GridCanvasRef-&gt;SetWeaponData(WeaponAsset);<sp/></highlight><highlight class="comment">//<sp/>Set<sp/>the<sp/>weapon<sp/>data<sp/>for<sp/>context</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_spray_pattern_u_i_widget_1adc3a89a423fd06b1c04abbe516817ae1" kindref="member">GridCanvasRef</ref>-&gt;SetSprayPoints(WeaponAsset-&gt;<ref refid="class_u_weapon_data_asset_1a39af4b368edb68fcc72abe2e94506208" kindref="member">SprayPattern</ref>);<sp/></highlight><highlight class="comment">//<sp/>Make<sp/>sure<sp/>this<sp/>function<sp/>exists<sp/>in<sp/>your<sp/>GridCanvasWidget</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_spray_pattern_u_i_widget_1adc3a89a423fd06b1c04abbe516817ae1" kindref="member">GridCanvasRef</ref>-&gt;SetWeaponData(WeaponAsset);<sp/></highlight><highlight class="comment">//<sp/>Set<sp/>the<sp/>weapon<sp/>data<sp/>for<sp/>context</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="136"><highlight class="normal"></highlight></codeline>
 <codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Only<sp/>apply<sp/>scale<sp/>*once*</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="138"><highlight class="normal"></highlight></codeline>
-<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>ResetScale();<sp/></highlight><highlight class="comment">//<sp/>Reset<sp/>to<sp/>default<sp/>scale<sp/>before<sp/>applying</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>OnPatternLoaded.Broadcast();</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_spray_pattern_u_i_widget_1aeefb54015e96f6c0fe41352c88f40cb3" kindref="member">ResetScale</ref>();<sp/></highlight><highlight class="comment">//<sp/>Reset<sp/>to<sp/>default<sp/>scale<sp/>before<sp/>applying</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_spray_pattern_u_i_widget_1aeffeba15b71664c246a4bff54d4ba929" kindref="member">OnPatternLoaded</ref>.Broadcast();</highlight></codeline>
 <codeline lineno="141"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="142"><highlight class="normal"></highlight></codeline>
-<codeline lineno="143"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>USprayPatternUIWidget::HandleClear()</highlight></codeline>
+<codeline lineno="143" refid="class_u_spray_pattern_u_i_widget_1aaf2315fe50a243dc0f6f3363bebe0c7a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1aaf2315fe50a243dc0f6f3363bebe0c7a" kindref="member">USprayPatternUIWidget::HandleClear</ref>()</highlight></codeline>
 <codeline lineno="144"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(GridCanvasRef)</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_u_spray_pattern_u_i_widget_1adc3a89a423fd06b1c04abbe516817ae1" kindref="member">GridCanvasRef</ref>)</highlight></codeline>
 <codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GridCanvasRef-&gt;ClearPoints();</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_u_spray_pattern_u_i_widget_1adc3a89a423fd06b1c04abbe516817ae1" kindref="member">GridCanvasRef</ref>-&gt;ClearPoints();</highlight></codeline>
 <codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;[HandleClear]<sp/>Cleared<sp/>spray<sp/>points&quot;</highlight><highlight class="normal">));</highlight></codeline>
 <codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="150"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="151"><highlight class="normal"></highlight></codeline>
-<codeline lineno="152"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>USprayPatternUIWidget::ResetScale()</highlight></codeline>
+<codeline lineno="152" refid="class_u_spray_pattern_u_i_widget_1aeefb54015e96f6c0fe41352c88f40cb3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1aeefb54015e96f6c0fe41352c88f40cb3" kindref="member">USprayPatternUIWidget::ResetScale</ref>()</highlight></codeline>
 <codeline lineno="153"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;[ResetScale]<sp/>Resetting<sp/>spray<sp/>pattern<sp/>scale<sp/>to<sp/>1.0&quot;</highlight><highlight class="normal">));</highlight></codeline>
-<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>SprayPatternScaleX<sp/>=<sp/>1.0f;</highlight></codeline>
-<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>SprayPatternScaleY<sp/>=<sp/>1.0f;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a88d9791b679f795758730160bc4b62f2" kindref="member">SprayPatternScaleX</ref><sp/>=<sp/>1.0f;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a13fde78e1f957de4ce8238ed4006707e" kindref="member">SprayPatternScaleY</ref><sp/>=<sp/>1.0f;</highlight></codeline>
 <codeline lineno="157"><highlight class="normal"></highlight></codeline>
-<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>SL_ScaleY-&gt;SetValue(1.0f);</highlight></codeline>
-<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>SL_ScaleX-&gt;SetValue(1.0f);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a8cb88001e2f8eec3d9419546f4fa6d75" kindref="member">SL_ScaleY</ref>-&gt;SetValue(1.0f);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_spray_pattern_u_i_widget_1aa369d4e690b54c3493381966fea2a55e" kindref="member">SL_ScaleX</ref>-&gt;SetValue(1.0f);</highlight></codeline>
 <codeline lineno="160"><highlight class="normal"></highlight></codeline>
-<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>HandleSetSprayPatternScale(SprayPatternScaleX,<sp/>SprayPatternScaleY);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a3bf79fac440d0f0d5536947fb7f56a8a" kindref="member">HandleSetSprayPatternScale</ref>(<ref refid="class_u_spray_pattern_u_i_widget_1a88d9791b679f795758730160bc4b62f2" kindref="member">SprayPatternScaleX</ref>,<sp/><ref refid="class_u_spray_pattern_u_i_widget_1a13fde78e1f957de4ce8238ed4006707e" kindref="member">SprayPatternScaleY</ref>);</highlight></codeline>
 <codeline lineno="162"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="164"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>USprayPatternUIWidget::HandleSetSprayPatternScale(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>ScaleX,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>ScaleY)</highlight></codeline>
+<codeline lineno="164" refid="class_u_spray_pattern_u_i_widget_1a3bf79fac440d0f0d5536947fb7f56a8a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a3bf79fac440d0f0d5536947fb7f56a8a" kindref="member">USprayPatternUIWidget::HandleSetSprayPatternScale</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>ScaleX,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>ScaleY)</highlight></codeline>
 <codeline lineno="165"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!GridCanvasRef)</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_u_spray_pattern_u_i_widget_1adc3a89a423fd06b1c04abbe516817ae1" kindref="member">GridCanvasRef</ref>)</highlight></codeline>
 <codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Error,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;[HandleSetSprayPatternScale]<sp/>GridCanvasRef<sp/>is<sp/>null!&quot;</highlight><highlight class="normal">));</highlight></codeline>
 <codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
@@ -266,7 +266,7 @@
 <codeline lineno="171"><highlight class="normal"></highlight></codeline>
 <codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;[HandleSetSprayPatternScale]<sp/>Applying<sp/>ScaleX<sp/>=<sp/>%.2f,<sp/>ScaleY<sp/>=<sp/>%.2f&quot;</highlight><highlight class="normal">),<sp/>ScaleX,<sp/>ScaleY);</highlight></codeline>
 <codeline lineno="173"><highlight class="normal"></highlight></codeline>
-<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>GridCanvasRef-&gt;ScaleSprayPattern(ScaleX,<sp/>ScaleY);<sp/></highlight><highlight class="comment">//<sp/>Make<sp/>sure<sp/>this<sp/>function<sp/>exists<sp/>and<sp/>does<sp/>the<sp/>scaling</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_spray_pattern_u_i_widget_1adc3a89a423fd06b1c04abbe516817ae1" kindref="member">GridCanvasRef</ref>-&gt;ScaleSprayPattern(ScaleX,<sp/>ScaleY);<sp/></highlight><highlight class="comment">//<sp/>Make<sp/>sure<sp/>this<sp/>function<sp/>exists<sp/>and<sp/>does<sp/>the<sp/>scaling</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="175"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="Source/TimeAssassin/SprayPatternUIWidget.cpp"/>

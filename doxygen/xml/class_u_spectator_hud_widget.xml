@@ -3,6 +3,7 @@
   <compounddef id="class_u_spectator_hud_widget" kind="class" language="C++" prot="public">
     <compoundname>USpectatorHudWidget</compoundname>
     <basecompoundref prot="public" virt="non-virtual">UUserWidget</basecompoundref>
+    <includes refid="_spectator_hud_widget_8h" local="no">SpectatorHudWidget.h</includes>
     <sectiondef kind="protected-attrib">
       <memberdef kind="variable" id="class_u_spectator_hud_widget_1a065ed56f15bd966f96c21a20fe193693" prot="protected" static="no" mutable="no">
         <type>UTextBlock *</type>

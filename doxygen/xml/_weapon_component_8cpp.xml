@@ -51,7 +51,7 @@
       </node>
       <node id="29">
         <label>BPI_Interactable.h</label>
-        <link refid="_b_p_i___interactable_8h_source"/>
+        <link refid="_b_p_i___interactable_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="22" relation="include">
@@ -61,7 +61,7 @@
       </node>
       <node id="13">
         <label>CombatTags.h</label>
-        <link refid="_combat_tags_8h_source"/>
+        <link refid="_combat_tags_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="12" relation="include">
@@ -71,7 +71,7 @@
       </node>
       <node id="8">
         <label>CrosshairWidget.h</label>
-        <link refid="_crosshair_widget_8h_source"/>
+        <link refid="_crosshair_widget_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
@@ -81,7 +81,7 @@
       </node>
       <node id="23">
         <label>DamageableComponent.h</label>
-        <link refid="_damageable_component_8h_source"/>
+        <link refid="_damageable_component_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
@@ -93,7 +93,7 @@
       </node>
       <node id="21">
         <label>DamageableInterface.h</label>
-        <link refid="_damageable_interface_8h_source"/>
+        <link refid="_damageable_interface_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="22" relation="include">
@@ -105,7 +105,7 @@
       </node>
       <node id="35">
         <label>FPlayerFrameData.h</label>
-        <link refid="_f_player_frame_data_8h_source"/>
+        <link refid="_f_player_frame_data_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
@@ -115,7 +115,7 @@
       </node>
       <node id="40">
         <label>GameHUD.h</label>
-        <link refid="_game_h_u_d_8h_source"/>
+        <link refid="_game_h_u_d_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="41" relation="include">
@@ -127,7 +127,7 @@
       </node>
       <node id="38">
         <label>GameHUDWidget.h</label>
-        <link refid="_game_h_u_d_widget_8h_source"/>
+        <link refid="_game_h_u_d_widget_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
@@ -137,7 +137,7 @@
       </node>
       <node id="11">
         <label>HitmarkerWidget.h</label>
-        <link refid="_hitmarker_widget_8h_source"/>
+        <link refid="_hitmarker_widget_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
@@ -151,7 +151,7 @@
       </node>
       <node id="34">
         <label>ReplayRecorderComponent.h</label>
-        <link refid="_replay_recorder_component_8h_source"/>
+        <link refid="_replay_recorder_component_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
@@ -163,7 +163,7 @@
       </node>
       <node id="27">
         <label>TACharacter.h</label>
-        <link refid="_t_a_character_8h_source"/>
+        <link refid="_t_a_character_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="28" relation="include">
@@ -181,7 +181,7 @@
       </node>
       <node id="43">
         <label>TemporalCharacter.h</label>
-        <link refid="_temporal_character_8h_source"/>
+        <link refid="_temporal_character_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="28" relation="include">
@@ -227,7 +227,7 @@
       </node>
       <node id="2">
         <label>WeaponComponent.h</label>
-        <link refid="_weapon_component_8h_source"/>
+        <link refid="_weapon_component_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
@@ -243,7 +243,7 @@
       </node>
       <node id="5">
         <label>WeaponDataAsset.h</label>
-        <link refid="_weapon_data_asset_8h_source"/>
+        <link refid="_weapon_data_asset_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
@@ -346,23 +346,23 @@
 <codeline lineno="1"><highlight class="comment">//<sp/>Fill<sp/>out<sp/>your<sp/>copyright<sp/>notice<sp/>in<sp/>the<sp/>Description<sp/>page<sp/>of<sp/>Project<sp/>Settings.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;WeaponComponent.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_weapon_component_8h" kindref="compound">WeaponComponent.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameFramework/Actor.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Kismet/GameplayStatics.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Containers/Ticker.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DrawDebugHelpers.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DamageableInterface.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_damageable_interface_8h" kindref="compound">DamageableInterface.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;AIController.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TACharacter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ReplayRecorderComponent.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameHUDWidget.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameHUD.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TemporalCharacter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CombatTags.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_t_a_character_8h" kindref="compound">TACharacter.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_replay_recorder_component_8h" kindref="compound">ReplayRecorderComponent.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_game_h_u_d_widget_8h" kindref="compound">GameHUDWidget.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_game_h_u_d_8h" kindref="compound">GameHUD.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_temporal_character_8h" kindref="compound">TemporalCharacter.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_combat_tags_8h" kindref="compound">CombatTags.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>FTSTicker::FDelegateHandle<sp/>AutoFireTickerHandle;</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>FireAccumulator<sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="19" refid="_weapon_component_8cpp_1a4676833ddb09a3026e93bb11b6e665d6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>FTSTicker::FDelegateHandle<sp/><ref refid="_weapon_component_8cpp_1a4676833ddb09a3026e93bb11b6e665d6" kindref="member">AutoFireTickerHandle</ref>;</highlight></codeline>
+<codeline lineno="20" refid="_weapon_component_8cpp_1a6569b15528bac792b311c631bdb55af1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="_weapon_component_8cpp_1a6569b15528bac792b311c631bdb55af1" kindref="member">FireAccumulator</ref><sp/>=<sp/>0.0f;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Sets<sp/>default<sp/>values<sp/>for<sp/>this<sp/>component&apos;s<sp/>properties</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal">UWeaponComponent::UWeaponComponent()</highlight></codeline>
@@ -656,8 +656,8 @@
 <codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_f_weapon_ammo_data" kindref="compound">FWeaponAmmoData</ref>*<sp/>Stored<sp/>=<sp/>AmmoMap.Find(WeaponData);</highlight></codeline>
 <codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Stored)</highlight></codeline>
 <codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurrentMagAmmo<sp/>=<sp/>Stored-&gt;CurrentAmmo;</highlight></codeline>
-<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurrentReserveAmmo<sp/>=<sp/>Stored-&gt;ReserveAmmo;</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurrentMagAmmo<sp/>=<sp/>Stored-&gt;<ref refid="struct_f_weapon_ammo_data_1a0f5ce3bbec730b02bcc6f3083191d4c9" kindref="member">CurrentAmmo</ref>;</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CurrentReserveAmmo<sp/>=<sp/>Stored-&gt;<ref refid="struct_f_weapon_ammo_data_1a121153b12776fc59258429f9f28b7d36" kindref="member">ReserveAmmo</ref>;</highlight></codeline>
 <codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -854,15 +854,15 @@
 <codeline lineno="509"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Replay<sp/>Recording</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="510"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(UReplayRecorderComponent*<sp/>Recorder<sp/>=<sp/>Owner-&gt;FindComponentByClass&lt;UReplayRecorderComponent&gt;())</highlight></codeline>
 <codeline lineno="511"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="512"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Recorder-&gt;AddActionFlag(EReplayActionFlags::FiredWeapon);</highlight></codeline>
+<codeline lineno="512"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Recorder-&gt;AddActionFlag(<ref refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91a661e8b7c940bfd42cc11900b1fcddec4" kindref="member">EReplayActionFlags::FiredWeapon</ref>);</highlight></codeline>
 <codeline lineno="513"><highlight class="normal"></highlight></codeline>
 <codeline lineno="514"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_f_recorded_shot" kindref="compound">FRecordedShot</ref><sp/>NewShot;</highlight></codeline>
-<codeline lineno="515"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewShot.ShotIndex<sp/>=<sp/>CurrentSprayIndex;</highlight></codeline>
-<codeline lineno="516"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewShot.ViewLocation<sp/>=<sp/>ViewLocation;</highlight></codeline>
-<codeline lineno="517"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewShot.ImpactLocation<sp/>=<sp/>ImpactPoint;</highlight></codeline>
-<codeline lineno="518"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewShot.bHit<sp/>=<sp/>bHit;</highlight></codeline>
-<codeline lineno="519"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewShot.ShotDirection<sp/>=<sp/>ShootDir.Rotation();</highlight></codeline>
-<codeline lineno="520"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewShot.WeaponUsed<sp/>=<sp/>WeaponData;</highlight></codeline>
+<codeline lineno="515"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewShot.<ref refid="struct_f_recorded_shot_1a78ac3a58ce0bd04bb0397259ae857eba" kindref="member">ShotIndex</ref><sp/>=<sp/>CurrentSprayIndex;</highlight></codeline>
+<codeline lineno="516"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewShot.<ref refid="struct_f_recorded_shot_1ad3f3302ee527fee92c5e238a64095d1c" kindref="member">ViewLocation</ref><sp/>=<sp/>ViewLocation;</highlight></codeline>
+<codeline lineno="517"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewShot.<ref refid="struct_f_recorded_shot_1ac0daef34f3c2a5b30458387d3665794f" kindref="member">ImpactLocation</ref><sp/>=<sp/>ImpactPoint;</highlight></codeline>
+<codeline lineno="518"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewShot.<ref refid="struct_f_recorded_shot_1a443385bba9e9512a1a0a00a02407587f" kindref="member">bHit</ref><sp/>=<sp/>bHit;</highlight></codeline>
+<codeline lineno="519"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewShot.<ref refid="struct_f_recorded_shot_1a7556405c16fb2ade376a7943c11f8b67" kindref="member">ShotDirection</ref><sp/>=<sp/>ShootDir.Rotation();</highlight></codeline>
+<codeline lineno="520"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewShot.<ref refid="struct_f_recorded_shot_1a10c570c36ca0c84b3fe30910b7f6f13c" kindref="member">WeaponUsed</ref><sp/>=<sp/>WeaponData;</highlight></codeline>
 <codeline lineno="521"><highlight class="normal"></highlight></codeline>
 <codeline lineno="522"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(bHit<sp/>&amp;&amp;<sp/>Hit.GetActor()-&gt;GetClass()-&gt;ImplementsInterface(UDamageableInterface::StaticClass()))</highlight></codeline>
 <codeline lineno="523"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -870,10 +870,10 @@
 <codeline lineno="525"><highlight class="normal"></highlight></codeline>
 <codeline lineno="526"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_a_temporal_character" kindref="compound">ATemporalCharacter</ref>*<sp/>Ghost<sp/>=<sp/>Cast&lt;ATemporalCharacter&gt;(Hit.GetActor()))</highlight></codeline>
 <codeline lineno="527"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="528"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewShot.HitGhostID<sp/>=<sp/>Ghost-&gt;GhostID;</highlight></codeline>
+<codeline lineno="528"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewShot.<ref refid="struct_f_recorded_shot_1a26674ec33c3eb80731594b9e4496ee5c" kindref="member">HitGhostID</ref><sp/>=<sp/>Ghost-&gt;GhostID;</highlight></codeline>
 <codeline lineno="529"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="530"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewShot.HitActor<sp/>=<sp/>Hit.GetActor();</highlight></codeline>
-<codeline lineno="531"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewShot.HitBoneName<sp/>=<sp/>Hit.BoneName;</highlight></codeline>
+<codeline lineno="530"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewShot.<ref refid="struct_f_recorded_shot_1a4e41c04830f61746bc63ce81a04b0739" kindref="member">HitActor</ref><sp/>=<sp/>Hit.GetActor();</highlight></codeline>
+<codeline lineno="531"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewShot.<ref refid="struct_f_recorded_shot_1ae107a5dae5978675afeb3478975f898d" kindref="member">HitBoneName</ref><sp/>=<sp/>Hit.BoneName;</highlight></codeline>
 <codeline lineno="532"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="533"><highlight class="normal"></highlight></codeline>
 <codeline lineno="534"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Recorder-&gt;CaptureShotData(NewShot);</highlight></codeline>
@@ -954,7 +954,7 @@
 <codeline lineno="609"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="610"><highlight class="normal"></highlight></codeline>
 <codeline lineno="611"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Reset<sp/>accumulator<sp/>so<sp/>auto-fire<sp/>starts<sp/>clean</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="612"><highlight class="normal"><sp/><sp/><sp/><sp/>FireAccumulator<sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="612"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_weapon_component_8cpp_1a6569b15528bac792b311c631bdb55af1" kindref="member">FireAccumulator</ref><sp/>=<sp/>0.0f;</highlight></codeline>
 <codeline lineno="613"><highlight class="normal"><sp/><sp/><sp/><sp/>bHasFiredThisPress<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="614"><highlight class="normal"></highlight></codeline>
 <codeline lineno="615"><highlight class="normal"></highlight></codeline>
@@ -967,7 +967,7 @@
 <codeline lineno="622"><highlight class="normal"><sp/><sp/><sp/><sp/>bHasFiredThisPress<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="623"><highlight class="normal"></highlight></codeline>
 <codeline lineno="624"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Reset<sp/>accumulator<sp/>to<sp/>avoid<sp/>unintended<sp/>carry-over</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="625"><highlight class="normal"><sp/><sp/><sp/><sp/>FireAccumulator<sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="625"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_weapon_component_8cpp_1a6569b15528bac792b311c631bdb55af1" kindref="member">FireAccumulator</ref><sp/>=<sp/>0.0f;</highlight></codeline>
 <codeline lineno="626"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="627"><highlight class="normal"></highlight></codeline>
 <codeline lineno="628"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UWeaponComponent::HandleAutomaticFire()</highlight></codeline>

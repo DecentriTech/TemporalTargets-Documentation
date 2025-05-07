@@ -27,7 +27,7 @@
       </node>
       <node id="2">
         <label>SpectatorHudWidget.h</label>
-        <link refid="_spectator_hud_widget_8h_source"/>
+        <link refid="_spectator_hud_widget_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
@@ -50,17 +50,17 @@
 <codeline lineno="1"><highlight class="comment">//<sp/>Fill<sp/>out<sp/>your<sp/>copyright<sp/>notice<sp/>in<sp/>the<sp/>Description<sp/>page<sp/>of<sp/>Project<sp/>Settings.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;SpectatorHudWidget.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_spectator_hud_widget_8h" kindref="compound">SpectatorHudWidget.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Components/TextBlock.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Internationalization/Text.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spectator_hud_widget_1ab7017e2d38139da608af09a7a0233439" kindref="member">USpectatorHudWidget::SetRespawnTime</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>TotalSeconds)</highlight></codeline>
+<codeline lineno="8" refid="class_u_spectator_hud_widget_1ab7017e2d38139da608af09a7a0233439" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spectator_hud_widget_1ab7017e2d38139da608af09a7a0233439" kindref="member">USpectatorHudWidget::SetRespawnTime</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>TotalSeconds)</highlight></codeline>
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>TotalTime<sp/>=<sp/>TotalSeconds;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_spectator_hud_widget_1a3ba9909ea0eabb362f605c579de416ae" kindref="member">TotalTime</ref><sp/>=<sp/>TotalSeconds;</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_spectator_hud_widget_1a187aa79f6b303d75f0684e9b7a588561" kindref="member">UpdateTimeRemaining</ref>(TotalSeconds);</highlight></codeline>
 <codeline lineno="12"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spectator_hud_widget_1a187aa79f6b303d75f0684e9b7a588561" kindref="member">USpectatorHudWidget::UpdateTimeRemaining</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>RemainingSeconds)</highlight></codeline>
+<codeline lineno="14" refid="class_u_spectator_hud_widget_1a187aa79f6b303d75f0684e9b7a588561" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spectator_hud_widget_1a187aa79f6b303d75f0684e9b7a588561" kindref="member">USpectatorHudWidget::UpdateTimeRemaining</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>RemainingSeconds)</highlight></codeline>
 <codeline lineno="15"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_u_spectator_hud_widget_1a065ed56f15bd966f96c21a20fe193693" kindref="member">CountdownText</ref>)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>

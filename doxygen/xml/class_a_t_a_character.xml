@@ -6,6 +6,7 @@
     <basecompoundref refid="class_i_b_p_i___interactable" prot="public" virt="non-virtual">IBPI_Interactable</basecompoundref>
     <basecompoundref refid="class_i_damageable_interface" prot="public" virt="non-virtual">IDamageableInterface</basecompoundref>
     <derivedcompoundref refid="class_a_temporal_character" prot="public" virt="non-virtual">ATemporalCharacter</derivedcompoundref>
+    <includes refid="_t_a_character_8h" local="no">TACharacter.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="class_a_t_a_character_1a6ff4a5f349e1e0763f93dd4e19973e55" prot="public" static="no" mutable="no">
         <type>UInputAction *</type>

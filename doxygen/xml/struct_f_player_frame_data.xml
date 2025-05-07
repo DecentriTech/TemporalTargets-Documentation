@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="struct_f_player_frame_data" kind="struct" language="C++" prot="public">
     <compoundname>FPlayerFrameData</compoundname>
+    <includes refid="_f_player_frame_data_8h" local="no">FPlayerFrameData.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="struct_f_player_frame_data_1aa7d6d6c4a99f0ff0dab19b2ddde1eaa9" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -60,7 +61,7 @@
         <location file="Source/TimeAssassin/FPlayerFrameData.h" line="141" column="14" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="141" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_player_frame_data_1a8768b296bb4d63e293d36003f2c4fa66" prot="public" static="no" mutable="no">
-        <type>EReplayActionFlags</type>
+        <type><ref refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91" kindref="member">EReplayActionFlags</ref></type>
         <definition>EReplayActionFlags FPlayerFrameData::ActionFlags</definition>
         <argsstring></argsstring>
         <name>ActionFlags</name>
@@ -110,7 +111,7 @@
         <name>HasAction</name>
         <qualifiedname>FPlayerFrameData::HasAction</qualifiedname>
         <param>
-          <type>EReplayActionFlags</type>
+          <type><ref refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91" kindref="member">EReplayActionFlags</ref></type>
           <declname>Flag</declname>
         </param>
         <briefdescription>
@@ -128,7 +129,7 @@
         <name>AddAction</name>
         <qualifiedname>FPlayerFrameData::AddAction</qualifiedname>
         <param>
-          <type>EReplayActionFlags</type>
+          <type><ref refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91" kindref="member">EReplayActionFlags</ref></type>
           <declname>Flag</declname>
         </param>
         <briefdescription>
@@ -146,7 +147,7 @@
         <name>RemoveAction</name>
         <qualifiedname>FPlayerFrameData::RemoveAction</qualifiedname>
         <param>
-          <type>EReplayActionFlags</type>
+          <type><ref refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91" kindref="member">EReplayActionFlags</ref></type>
           <declname>Flag</declname>
         </param>
         <briefdescription>

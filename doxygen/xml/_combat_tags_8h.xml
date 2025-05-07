@@ -31,21 +31,77 @@
       </node>
     </incdepgraph>
     <invincdepgraph>
+      <node id="2">
+        <label>Source/TimeAssassin/CombatTags.cpp</label>
+        <link refid="_combat_tags_8cpp"/>
+      </node>
       <node id="1">
         <label>Source/TimeAssassin/CombatTags.h</label>
         <link refid="_combat_tags_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-      </node>
-      <node id="2">
-        <label>Source/TimeAssassin/HitmarkerWidget.h</label>
-        <link refid="_hitmarker_widget_8h_source"/>
         <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
         </childnode>
       </node>
       <node id="3">
+        <label>Source/TimeAssassin/DamageableComponent.cpp</label>
+        <link refid="_damageable_component_8cpp"/>
+      </node>
+      <node id="5">
+        <label>Source/TimeAssassin/GameHUD.cpp</label>
+        <link refid="_game_h_u_d_8cpp"/>
+      </node>
+      <node id="6">
+        <label>Source/TimeAssassin/HitmarkerWidget.cpp</label>
+        <link refid="_hitmarker_widget_8cpp"/>
+      </node>
+      <node id="4">
+        <label>Source/TimeAssassin/HitmarkerWidget.h</label>
+        <link refid="_hitmarker_widget_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Source/TimeAssassin/TACharacter.cpp</label>
+        <link refid="_t_a_character_8cpp"/>
+      </node>
+      <node id="9">
+        <label>Source/TimeAssassin/TAPlayerController.cpp</label>
+        <link refid="_t_a_player_controller_8cpp"/>
+      </node>
+      <node id="10">
+        <label>Source/TimeAssassin/TemporalCharacter.cpp</label>
+        <link refid="_temporal_character_8cpp"/>
+      </node>
+      <node id="11">
+        <label>Source/TimeAssassin/WeaponComponent.cpp</label>
+        <link refid="_weapon_component_8cpp"/>
+      </node>
+      <node id="7">
         <label>Source/TimeAssassin/WeaponComponent.h</label>
-        <link refid="_weapon_component_8h_source"/>
+        <link refid="_weapon_component_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>Source/TimeAssassin/WeaponInventoryComponent.cpp</label>
+        <link refid="_weapon_inventory_component_8cpp"/>
       </node>
     </invincdepgraph>
     <sectiondef kind="func">
@@ -143,11 +199,11 @@
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameplayTagContainer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;NativeGameplayTags.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal">UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Damage_Critical);</highlight></codeline>
-<codeline lineno="10"><highlight class="normal">UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Damage_Kill);</highlight></codeline>
-<codeline lineno="11"><highlight class="normal">UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Damage_Headshot);</highlight></codeline>
-<codeline lineno="12"><highlight class="normal">UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Damage_Bleed);</highlight></codeline>
-<codeline lineno="13"><highlight class="normal">UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_Damage_Fire);</highlight></codeline>
+<codeline lineno="9" refid="_combat_tags_8h_1a15e308aa61f6cf2060a996b1b50385fd" refkind="member"><highlight class="normal"><ref refid="_combat_tags_8h_1a15e308aa61f6cf2060a996b1b50385fd" kindref="member">UE_DECLARE_GAMEPLAY_TAG_EXTERN</ref>(TAG_Damage_Critical);</highlight></codeline>
+<codeline lineno="10" refid="_combat_tags_8h_1af7853188198b41603fef033116dd9756" refkind="member"><highlight class="normal"><ref refid="_combat_tags_8h_1a15e308aa61f6cf2060a996b1b50385fd" kindref="member">UE_DECLARE_GAMEPLAY_TAG_EXTERN</ref>(TAG_Damage_Kill);</highlight></codeline>
+<codeline lineno="11" refid="_combat_tags_8h_1a3e33eb136c0806e5a197769e72c71a37" refkind="member"><highlight class="normal"><ref refid="_combat_tags_8h_1a15e308aa61f6cf2060a996b1b50385fd" kindref="member">UE_DECLARE_GAMEPLAY_TAG_EXTERN</ref>(TAG_Damage_Headshot);</highlight></codeline>
+<codeline lineno="12" refid="_combat_tags_8h_1a5a1b3b7f2b90eb109e638e40d6167414" refkind="member"><highlight class="normal"><ref refid="_combat_tags_8h_1a15e308aa61f6cf2060a996b1b50385fd" kindref="member">UE_DECLARE_GAMEPLAY_TAG_EXTERN</ref>(TAG_Damage_Bleed);</highlight></codeline>
+<codeline lineno="13" refid="_combat_tags_8h_1afcfadfcc4e71cfd01ba91e1babf57be9" refkind="member"><highlight class="normal"><ref refid="_combat_tags_8h_1a15e308aa61f6cf2060a996b1b50385fd" kindref="member">UE_DECLARE_GAMEPLAY_TAG_EXTERN</ref>(TAG_Damage_Fire);</highlight></codeline>
     </programlisting>
     <location file="Source/TimeAssassin/CombatTags.h"/>
   </compounddef>

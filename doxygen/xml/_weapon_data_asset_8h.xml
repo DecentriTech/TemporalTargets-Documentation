@@ -35,40 +35,32 @@
     <invincdepgraph>
       <node id="2">
         <label>Source/TimeAssassin/FPlayerFrameData.h</label>
-        <link refid="_f_player_frame_data_8h_source"/>
+        <link refid="_f_player_frame_data_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="4" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
+      </node>
+      <node id="13">
+        <label>Source/TimeAssassin/GridCanvasWidget.cpp</label>
+        <link refid="_grid_canvas_widget_8cpp"/>
+      </node>
+      <node id="4">
+        <label>Source/TimeAssassin/InteractionComponent.cpp</label>
+        <link refid="_interaction_component_8cpp"/>
+      </node>
+      <node id="5">
+        <label>Source/TimeAssassin/ReplayRecorderComponent.cpp</label>
+        <link refid="_replay_recorder_component_8cpp"/>
       </node>
       <node id="3">
         <label>Source/TimeAssassin/ReplayRecorderComponent.h</label>
-        <link refid="_replay_recorder_component_8h_source"/>
-      </node>
-      <node id="6">
-        <label>Source/TimeAssassin/SprayPatternUIWidget.h</label>
-        <link refid="_spray_pattern_u_i_widget_8h_source"/>
-      </node>
-      <node id="4">
-        <label>Source/TimeAssassin/TemporalCharacter.h</label>
-        <link refid="_temporal_character_8h_source"/>
-        <childnode refid="5" relation="include">
+        <link refid="_replay_recorder_component_8h"/>
+        <childnode refid="4" relation="include">
         </childnode>
-      </node>
-      <node id="5">
-        <label>Source/TimeAssassin/TemporalGameMode.h</label>
-        <link refid="_temporal_game_mode_8h_source"/>
-      </node>
-      <node id="7">
-        <label>Source/TimeAssassin/WeaponComponent.h</label>
-        <link refid="_weapon_component_8h_source"/>
-      </node>
-      <node id="1">
-        <label>Source/TimeAssassin/WeaponDataAsset.h</label>
-        <link refid="_weapon_data_asset_8h"/>
-        <childnode refid="2" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
@@ -76,10 +68,114 @@
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>Source/TimeAssassin/SprayPatternUIWidget.cpp</label>
+        <link refid="_spray_pattern_u_i_widget_8cpp"/>
+      </node>
+      <node id="14">
+        <label>Source/TimeAssassin/SprayPatternUIWidget.h</label>
+        <link refid="_spray_pattern_u_i_widget_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Source/TimeAssassin/TACharacter.cpp</label>
+        <link refid="_t_a_character_8cpp"/>
+      </node>
+      <node id="7">
+        <label>Source/TimeAssassin/TAPlayerController.cpp</label>
+        <link refid="_t_a_player_controller_8cpp"/>
       </node>
       <node id="8">
+        <label>Source/TimeAssassin/TemporalCharacter.cpp</label>
+        <link refid="_temporal_character_8cpp"/>
+      </node>
+      <node id="11">
+        <label>Source/TimeAssassin/TemporalCharacter.h</label>
+        <link refid="_temporal_character_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Source/TimeAssassin/TemporalGameMode.cpp</label>
+        <link refid="_temporal_game_mode_8cpp"/>
+      </node>
+      <node id="12">
+        <label>Source/TimeAssassin/TemporalGameMode.h</label>
+        <link refid="_temporal_game_mode_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>Source/TimeAssassin/WeaponComponent.cpp</label>
+        <link refid="_weapon_component_8cpp"/>
+      </node>
+      <node id="16">
+        <label>Source/TimeAssassin/WeaponComponent.h</label>
+        <link refid="_weapon_component_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>Source/TimeAssassin/WeaponDataAsset.cpp</label>
+        <link refid="_weapon_data_asset_8cpp"/>
+      </node>
+      <node id="1">
+        <label>Source/TimeAssassin/WeaponDataAsset.h</label>
+        <link refid="_weapon_data_asset_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>Source/TimeAssassin/WeaponInventoryComponent.cpp</label>
+        <link refid="_weapon_inventory_component_8cpp"/>
+      </node>
+      <node id="19">
         <label>Source/TimeAssassin/WeaponInventoryComponent.h</label>
-        <link refid="_weapon_inventory_component_8h_source"/>
+        <link refid="_weapon_inventory_component_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="class_u_weapon_data_asset" prot="public">UWeaponDataAsset</innerclass>
@@ -104,19 +200,19 @@
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Weapon&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>FName<sp/>WeaponName;</highlight></codeline>
+<codeline lineno="20" refid="class_u_weapon_data_asset_1af0fad7e2acc7e7dec753afe756389107" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FName<sp/><ref refid="class_u_weapon_data_asset_1af0fad7e2acc7e7dec753afe756389107" kindref="member">WeaponName</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Weapon&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>Damage<sp/>=<sp/>10.0f;</highlight></codeline>
+<codeline lineno="23" refid="class_u_weapon_data_asset_1a38b2bafe40070d8ca22b70c32e890598" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_u_weapon_data_asset_1a38b2bafe40070d8ca22b70c32e890598" kindref="member">Damage</ref><sp/>=<sp/>10.0f;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Weapon&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>FireRate<sp/>=<sp/>600.0f;<sp/></highlight><highlight class="comment">//<sp/>rounds<sp/>per<sp/>minute</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="class_u_weapon_data_asset_1a35775ae112e145cf4e3f5b2eaf592437" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_u_weapon_data_asset_1a35775ae112e145cf4e3f5b2eaf592437" kindref="member">FireRate</ref><sp/>=<sp/>600.0f;<sp/></highlight><highlight class="comment">//<sp/>rounds<sp/>per<sp/>minute</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Weapon&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>TraceDistance<sp/>=<sp/>10000.0f;</highlight></codeline>
+<codeline lineno="29" refid="class_u_weapon_data_asset_1ac4657186eb36fa9f184506c440d4b2eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_u_weapon_data_asset_1ac4657186eb36fa9f184506c440d4b2eb" kindref="member">TraceDistance</ref><sp/>=<sp/>10000.0f;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Weapon&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bIsAutomatic<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="32" refid="class_u_weapon_data_asset_1a279b5b29b422d4b74c5144cb1ecd27b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_u_weapon_data_asset_1a279b5b29b422d4b74c5144cb1ecd27b3" kindref="member">bIsAutomatic</ref><sp/>=<sp/>false;</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
 <codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>===<sp/>Ammo<sp/>Properties<sp/>===<sp/>\\</highlight></codeline>
 <codeline lineno="35"><highlight class="comment"></highlight><highlight class="normal"></highlight></codeline>
@@ -127,7 +223,7 @@
 <codeline lineno="42" refid="class_u_weapon_data_asset_1a181dd289575982d4a2019e96e2678885" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int32<sp/><ref refid="class_u_weapon_data_asset_1a181dd289575982d4a2019e96e2678885" kindref="member">MaxReserveAmmo</ref><sp/>=<sp/>90;</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
 <codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadWrite,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Ammo&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>ReloadDuration<sp/>=<sp/>1.5f;<sp/><sp/></highlight><highlight class="comment">//<sp/>Seconds<sp/>to<sp/>reload</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="class_u_weapon_data_asset_1ae1cbb12562476b6b3c383d430f2e9f6e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_u_weapon_data_asset_1ae1cbb12562476b6b3c383d430f2e9f6e" kindref="member">ReloadDuration</ref><sp/>=<sp/>1.5f;<sp/><sp/></highlight><highlight class="comment">//<sp/>Seconds<sp/>to<sp/>reload</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
 <codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Ammo&quot;</highlight><highlight class="normal">)</highlight></codeline>
 <codeline lineno="49" refid="class_u_weapon_data_asset_1acaeb6372d80fee1d17ab073a6c81e8cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_u_weapon_data_asset_1acaeb6372d80fee1d17ab073a6c81e8cf" kindref="member">bInfiniteAmmo</ref><sp/>=<sp/>false;</highlight></codeline>
@@ -140,35 +236,35 @@
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
 <codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Should<sp/>the<sp/>weapon<sp/>instantly<sp/>reload?<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Ammo&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bInstantReload<sp/>=<sp/>false;</highlight></codeline>
+<codeline lineno="61" refid="class_u_weapon_data_asset_1abc6d71ce0200f6e33079ebe2e7c96fdd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_u_weapon_data_asset_1abc6d71ce0200f6e33079ebe2e7c96fdd" kindref="member">bInstantReload</ref><sp/>=<sp/>false;</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
 <codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Spread<sp/>cone<sp/>parameters</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadWrite,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Crosshair|Spread&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>MinSpread<sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline lineno="65" refid="class_u_weapon_data_asset_1a8760e2a77910f4201414a69fecc37d91" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_u_weapon_data_asset_1a8760e2a77910f4201414a69fecc37d91" kindref="member">MinSpread</ref><sp/>=<sp/>0.0f;</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
 <codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadWrite,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Crosshair|Spread&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>MaxSpread<sp/>=<sp/>100.0f;<sp/></highlight><highlight class="comment">//<sp/>in<sp/>degrees</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="class_u_weapon_data_asset_1a048329e1971b43aac080578c75517533" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_u_weapon_data_asset_1a048329e1971b43aac080578c75517533" kindref="member">MaxSpread</ref><sp/>=<sp/>100.0f;<sp/></highlight><highlight class="comment">//<sp/>in<sp/>degrees</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
 <codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadWrite,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Crosshair|Spread&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>SpreadRecoveryRate<sp/>=<sp/>15.0f;<sp/></highlight><highlight class="comment">//<sp/>degrees<sp/>per<sp/>second</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="class_u_weapon_data_asset_1a2dd483442044fc465d4b4fabb58522c9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_u_weapon_data_asset_1a2dd483442044fc465d4b4fabb58522c9" kindref="member">SpreadRecoveryRate</ref><sp/>=<sp/>15.0f;<sp/></highlight><highlight class="comment">//<sp/>degrees<sp/>per<sp/>second</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
 <codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Crosshair|Spread&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>FireSpread<sp/>=<sp/>1.5f;</highlight></codeline>
+<codeline lineno="74" refid="class_u_weapon_data_asset_1a450bc2b5c72ffa3a79863afe67fb7113" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_u_weapon_data_asset_1a450bc2b5c72ffa3a79863afe67fb7113" kindref="member">FireSpread</ref><sp/>=<sp/>1.5f;</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
 <codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Crosshair|Spread&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>IdleSpread<sp/>=<sp/>0.5f;</highlight></codeline>
+<codeline lineno="77" refid="class_u_weapon_data_asset_1ad974bb922d082e143224144e09c38b81" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_u_weapon_data_asset_1ad974bb922d082e143224144e09c38b81" kindref="member">IdleSpread</ref><sp/>=<sp/>0.5f;</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
 <codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Crosshair|Spread&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>ReloadingSpread<sp/>=<sp/>8.0f;</highlight></codeline>
+<codeline lineno="80" refid="class_u_weapon_data_asset_1a1dbeebdadcdbac214f791a7cbbfc9626" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_u_weapon_data_asset_1a1dbeebdadcdbac214f791a7cbbfc9626" kindref="member">ReloadingSpread</ref><sp/>=<sp/>8.0f;</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
 <codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Crosshair|Spread&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>WalkSpread<sp/>=<sp/>5.0f;</highlight></codeline>
+<codeline lineno="83" refid="class_u_weapon_data_asset_1af657f9075aab79b54a9107bbf5253949" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_u_weapon_data_asset_1af657f9075aab79b54a9107bbf5253949" kindref="member">WalkSpread</ref><sp/>=<sp/>5.0f;</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
 <codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Crosshair|Spread&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>AirborneSpread<sp/>=<sp/>25.0f;</highlight></codeline>
+<codeline lineno="86" refid="class_u_weapon_data_asset_1ad0ef84461b58242153112f5718bc5dbf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_u_weapon_data_asset_1ad0ef84461b58242153112f5718bc5dbf" kindref="member">AirborneSpread</ref><sp/>=<sp/>25.0f;</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
 <codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Crosshair|Spread&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>JumpSpread<sp/>=<sp/>30.0f;</highlight></codeline>
+<codeline lineno="89" refid="class_u_weapon_data_asset_1a6d91e86063206dfb6780cf1af16b191d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_u_weapon_data_asset_1a6d91e86063206dfb6780cf1af16b191d" kindref="member">JumpSpread</ref><sp/>=<sp/>30.0f;</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
 <codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>===<sp/>Recoil<sp/>Properties<sp/>===</highlight><highlight class="normal"></highlight></codeline>
@@ -180,14 +276,14 @@
 <codeline lineno="100" refid="class_u_weapon_data_asset_1a34cefc5b64c4870aa91449b23259fbd3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_u_weapon_data_asset_1a34cefc5b64c4870aa91449b23259fbd3" kindref="member">CameraRecoilMultiplier</ref><sp/>=<sp/>0.5f;</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"></highlight></codeline>
 <codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadWrite,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Recoil|Visual&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>FOVPunchAmount<sp/>=<sp/>3.0f;</highlight></codeline>
+<codeline lineno="103" refid="class_u_weapon_data_asset_1a9bc9febbb0a0727ab7c15db6f7c79947" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_u_weapon_data_asset_1a9bc9febbb0a0727ab7c15db6f7c79947" kindref="member">FOVPunchAmount</ref><sp/>=<sp/>3.0f;</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"></highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
 <codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadWrite,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Recoil&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;FVector2D&gt;<sp/>SprayPattern;</highlight></codeline>
+<codeline lineno="107" refid="class_u_weapon_data_asset_1a39af4b368edb68fcc72abe2e94506208" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;FVector2D&gt;<sp/><ref refid="class_u_weapon_data_asset_1a39af4b368edb68fcc72abe2e94506208" kindref="member">SprayPattern</ref>;</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"></highlight></codeline>
 <codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Weapon&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>TSubclassOf&lt;class<sp/>UDamageType&gt;<sp/>DamageType;</highlight></codeline>
+<codeline lineno="110" refid="class_u_weapon_data_asset_1af2ab9a2a8bc0e30d38d9102945980ad3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TSubclassOf&lt;class<sp/>UDamageType&gt;<sp/><ref refid="class_u_weapon_data_asset_1af2ab9a2a8bc0e30d38d9102945980ad3" kindref="member">DamageType</ref>;</highlight></codeline>
 <codeline lineno="111"><highlight class="normal">};</highlight></codeline>
     </programlisting>
     <location file="Source/TimeAssassin/WeaponDataAsset.h"/>

@@ -18,7 +18,7 @@
       </node>
       <node id="5">
         <label>DamageableComponent.h</label>
-        <link refid="_damageable_component_8h_source"/>
+        <link refid="_damageable_component_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
@@ -36,7 +36,7 @@
       </node>
       <node id="2">
         <label>DamageableInterface.h</label>
-        <link refid="_damageable_interface_8h_source"/>
+        <link refid="_damageable_interface_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
@@ -61,7 +61,7 @@
 <codeline lineno="1"><highlight class="comment">//<sp/>Fill<sp/>out<sp/>your<sp/>copyright<sp/>notice<sp/>in<sp/>the<sp/>Description<sp/>page<sp/>of<sp/>Project<sp/>Settings.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DamageableInterface.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_damageable_interface_8h" kindref="compound">DamageableInterface.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Add<sp/>default<sp/>functionality<sp/>here<sp/>for<sp/>any<sp/>IDamageableInterface<sp/>functions<sp/>that<sp/>are<sp/>not<sp/>pure<sp/>virtual.</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>

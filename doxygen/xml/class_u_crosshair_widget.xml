@@ -3,6 +3,7 @@
   <compounddef id="class_u_crosshair_widget" kind="class" language="C++" prot="public">
     <compoundname>UCrosshairWidget</compoundname>
     <basecompoundref prot="public" virt="non-virtual">UUserWidget</basecompoundref>
+    <includes refid="_crosshair_widget_8h" local="no">CrosshairWidget.h</includes>
     <sectiondef kind="protected-attrib">
       <memberdef kind="variable" id="class_u_crosshair_widget_1a6491a6afac78a362f5dd83eca73919d9" prot="protected" static="no" mutable="no">
         <type>UImage *</type>

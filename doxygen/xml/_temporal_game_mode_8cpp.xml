@@ -41,7 +41,7 @@
       </node>
       <node id="13">
         <label>BPI_Interactable.h</label>
-        <link refid="_b_p_i___interactable_8h_source"/>
+        <link refid="_b_p_i___interactable_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
@@ -51,7 +51,7 @@
       </node>
       <node id="17">
         <label>DamageableComponent.h</label>
-        <link refid="_damageable_component_8h_source"/>
+        <link refid="_damageable_component_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="18" relation="include">
@@ -63,7 +63,7 @@
       </node>
       <node id="16">
         <label>DamageableInterface.h</label>
-        <link refid="_damageable_interface_8h_source"/>
+        <link refid="_damageable_interface_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="14" relation="include">
@@ -75,7 +75,7 @@
       </node>
       <node id="5">
         <label>FPlayerFrameData.h</label>
-        <link refid="_f_player_frame_data_8h_source"/>
+        <link refid="_f_player_frame_data_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
@@ -85,7 +85,7 @@
       </node>
       <node id="43">
         <label>GameHUD.h</label>
-        <link refid="_game_h_u_d_8h_source"/>
+        <link refid="_game_h_u_d_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="44" relation="include">
@@ -97,7 +97,7 @@
       </node>
       <node id="32">
         <label>ReplayRecorderComponent.h</label>
-        <link refid="_replay_recorder_component_8h_source"/>
+        <link refid="_replay_recorder_component_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="18" relation="include">
@@ -109,7 +109,7 @@
       </node>
       <node id="12">
         <label>TACharacter.h</label>
-        <link refid="_t_a_character_8h_source"/>
+        <link refid="_t_a_character_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
@@ -127,7 +127,7 @@
       </node>
       <node id="34">
         <label>TAPlayerController.h</label>
-        <link refid="_t_a_player_controller_8h_source"/>
+        <link refid="_t_a_player_controller_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="35" relation="include">
@@ -137,7 +137,7 @@
       </node>
       <node id="27">
         <label>TemporalAIController.h</label>
-        <link refid="_temporal_a_i_controller_8h_source"/>
+        <link refid="_temporal_a_i_controller_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="28" relation="include">
@@ -147,7 +147,7 @@
       </node>
       <node id="10">
         <label>TemporalCharacter.h</label>
-        <link refid="_temporal_character_8h_source"/>
+        <link refid="_temporal_character_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="11" relation="include">
@@ -197,7 +197,7 @@
       </node>
       <node id="2">
         <label>TemporalGameMode.h</label>
-        <link refid="_temporal_game_mode_8h_source"/>
+        <link refid="_temporal_game_mode_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
@@ -213,7 +213,7 @@
       </node>
       <node id="6">
         <label>WeaponDataAsset.h</label>
-        <link refid="_weapon_data_asset_8h_source"/>
+        <link refid="_weapon_data_asset_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
@@ -305,13 +305,13 @@
 <codeline lineno="1"><highlight class="comment">//<sp/>Fill<sp/>out<sp/>your<sp/>copyright<sp/>notice<sp/>in<sp/>the<sp/>Description<sp/>page<sp/>of<sp/>Project<sp/>Settings.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TemporalGameMode.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_temporal_game_mode_8h" kindref="compound">TemporalGameMode.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Engine/World.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;DamageableComponent.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TemporalCharacter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ReplayRecorderComponent.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TAPlayerController.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TACharacter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_damageable_component_8h" kindref="compound">DamageableComponent.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_temporal_character_8h" kindref="compound">TemporalCharacter.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_replay_recorder_component_8h" kindref="compound">ReplayRecorderComponent.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_t_a_player_controller_8h" kindref="compound">TAPlayerController.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_t_a_character_8h" kindref="compound">TACharacter.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;UObject/ConstructorHelpers.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TimerManager.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;HAL/PlatformMemory.h&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>Include<sp/>memory<sp/>tracking</highlight><highlight class="normal"></highlight></codeline>
@@ -320,28 +320,28 @@
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;UObject/ConstructorHelpers.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Kismet/GameplayStatics.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Kismet/KismetMathLibrary.h&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>for<sp/>RandomRange</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameHUD.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_game_h_u_d_8h" kindref="compound">GameHUD.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal">ATemporalGameMode::ATemporalGameMode()</highlight></codeline>
+<codeline lineno="21" refid="class_a_temporal_game_mode_1a850314b4c4fc7f295113c900d82125c4" refkind="member"><highlight class="normal"><ref refid="class_a_temporal_game_mode_1a850314b4c4fc7f295113c900d82125c4" kindref="member">ATemporalGameMode::ATemporalGameMode</ref>()</highlight></codeline>
 <codeline lineno="22"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Emptied<sp/>Stored<sp/>Replays!&quot;</highlight><highlight class="normal">));</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>StoredReplays.Empty();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_game_mode_1a256d55c37145af96ed32c4edb6aa58ab" kindref="member">StoredReplays</ref>.Empty();</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>HUDClass<sp/>=<sp/>AGameHUD::StaticClass();<sp/></highlight><highlight class="comment">//<sp/>Set<sp/>the<sp/>HUD<sp/>class<sp/>to<sp/>your<sp/>custom<sp/>HUD</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>PlayerControllerClass<sp/>=<sp/>ATAPlayerController::StaticClass();</highlight></codeline>
 <codeline lineno="30"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal">ATemporalGameMode::~ATemporalGameMode()</highlight></codeline>
+<codeline lineno="32" refid="class_a_temporal_game_mode_1a295c6328ba410162e421490610c676be" refkind="member"><highlight class="normal"><ref refid="class_a_temporal_game_mode_1a295c6328ba410162e421490610c676be" kindref="member">ATemporalGameMode::~ATemporalGameMode</ref>()</highlight></codeline>
 <codeline lineno="33"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Clear<sp/>any<sp/>remaining<sp/>ghosts</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_game_mode_1a3b811733d9fcb64b346c02ebaca0f199" kindref="member">ClearGhosts</ref>();</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>StoredReplays.Empty();<sp/></highlight><highlight class="comment">//<sp/>TSharedPtr<sp/>automatically<sp/>handles<sp/>cleanup</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_game_mode_1a256d55c37145af96ed32c4edb6aa58ab" kindref="member">StoredReplays</ref>.Empty();<sp/></highlight><highlight class="comment">//<sp/>TSharedPtr<sp/>automatically<sp/>handles<sp/>cleanup</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="38"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ATemporalGameMode::PostLogin(APlayerController*<sp/>NewPlayer)</highlight></codeline>
+<codeline lineno="40" refid="class_a_temporal_game_mode_1a81da0d38fed808498b70056c35b0bc46" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_game_mode_1a81da0d38fed808498b70056c35b0bc46" kindref="member">ATemporalGameMode::PostLogin</ref>(APlayerController*<sp/>NewPlayer)</highlight></codeline>
 <codeline lineno="41"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>Super::PostLogin(NewPlayer);</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
@@ -349,12 +349,12 @@
 <codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(UDamageableComponent*<sp/>Dmg<sp/>=<sp/>Pawn-&gt;FindComponentByClass&lt;UDamageableComponent&gt;())</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Dmg-&gt;OnDeath.AddUniqueDynamic(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>&amp;ATemporalGameMode::HandlePlayerDeath);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Dmg-&gt;OnDeath.AddUniqueDynamic(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>&amp;<ref refid="class_a_temporal_game_mode_1a102cbf4a2c07c3ef0d35709653efac2d" kindref="member">ATemporalGameMode::HandlePlayerDeath</ref>);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="51"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ATemporalGameMode::RestartPlayer(AController*<sp/>NewPlayer)</highlight></codeline>
+<codeline lineno="53" refid="class_a_temporal_game_mode_1a86ac54b58d4039fe0b7567f19e361c00" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_game_mode_1a86ac54b58d4039fe0b7567f19e361c00" kindref="member">ATemporalGameMode::RestartPlayer</ref>(AController*<sp/>NewPlayer)</highlight></codeline>
 <codeline lineno="54"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>Super::RestartPlayer(NewPlayer);</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
@@ -362,9 +362,9 @@
 <codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(UDamageableComponent*<sp/>DamageComp<sp/>=<sp/>Pawn-&gt;FindComponentByClass&lt;UDamageableComponent&gt;())</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Make<sp/>sure<sp/>we<sp/>don’t<sp/>bind<sp/>twice</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DamageComp-&gt;OnDeath.RemoveDynamic(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>&amp;ATemporalGameMode::HandlePlayerDeath);</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DamageComp-&gt;OnDeath.AddUniqueDynamic(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>&amp;ATemporalGameMode::HandlePlayerDeath);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Make<sp/>sure<sp/>we<sp/>don&apos;t<sp/>bind<sp/>twice</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DamageComp-&gt;OnDeath.RemoveDynamic(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>&amp;<ref refid="class_a_temporal_game_mode_1a102cbf4a2c07c3ef0d35709653efac2d" kindref="member">ATemporalGameMode::HandlePlayerDeath</ref>);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DamageComp-&gt;OnDeath.AddUniqueDynamic(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>&amp;<ref refid="class_a_temporal_game_mode_1a102cbf4a2c07c3ef0d35709653efac2d" kindref="member">ATemporalGameMode::HandlePlayerDeath</ref>);</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
@@ -377,13 +377,13 @@
 <codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="74"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ATemporalGameMode::HandlePlayerDeath(AActor*<sp/>VictimActor,<sp/>AController*<sp/>VictimController,<sp/>AActor*<sp/>InstigatorActor)</highlight></codeline>
+<codeline lineno="76" refid="class_a_temporal_game_mode_1a102cbf4a2c07c3ef0d35709653efac2d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_game_mode_1a102cbf4a2c07c3ef0d35709653efac2d" kindref="member">ATemporalGameMode::HandlePlayerDeath</ref>(AActor*<sp/>VictimActor,<sp/>AController*<sp/>VictimController,<sp/>AActor*<sp/>InstigatorActor)</highlight></codeline>
 <codeline lineno="77"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!VictimController)</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>never<sp/>null<sp/>now,<sp/>unless<sp/>something<sp/>really<sp/>went<sp/>wrong</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
 <codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>cancel<sp/>any<sp/>leftover<sp/>timer</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>GetWorld()-&gt;GetTimerManager().ClearTimer(RespawnTimerHandle);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>GetWorld()-&gt;GetTimerManager().ClearTimer(<ref refid="class_a_temporal_game_mode_1a2f20687efa9847159c5e8b6504a1d1c9" kindref="member">RespawnTimerHandle</ref>);</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
 <codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">*<sp/>PC<sp/>=<sp/>Cast&lt;ATAPlayerController&gt;(VictimController);</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
@@ -401,18 +401,18 @@
 <codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>no<sp/>instigator<sp/>-&gt;<sp/>fell<sp/>off<sp/>world:<sp/>pick<sp/>a<sp/>random<sp/>ghost</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(SpawnedGhosts.Num()<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_a_temporal_game_mode_1a590df8f1baea522be785799f646b67bc" kindref="member">SpawnedGhosts</ref>.Num()<sp/>&gt;<sp/>0)</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int32<sp/>Index<sp/>=<sp/>FMath::RandRange(0,<sp/>SpawnedGhosts.Num()<sp/>-<sp/>1);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int32<sp/>Index<sp/>=<sp/>FMath::RandRange(0,<sp/><ref refid="class_a_temporal_game_mode_1a590df8f1baea522be785799f646b67bc" kindref="member">SpawnedGhosts</ref>.Num()<sp/>-<sp/>1);</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"></highlight></codeline>
 <codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(PC)</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PC-&gt;EnterSpectate(SpawnedGhosts[Index],<sp/>DeathLocation);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PC-&gt;EnterSpectate(<ref refid="class_a_temporal_game_mode_1a590df8f1baea522be785799f646b67bc" kindref="member">SpawnedGhosts</ref>[Index],<sp/>DeathLocation);</highlight></codeline>
 <codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"></highlight></codeline>
 <codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TEXT(</highlight><highlight class="stringliteral">&quot;No<sp/>instigator;<sp/>spectating<sp/>ghost<sp/>%s&quot;</highlight><highlight class="normal">),</highlight></codeline>
-<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*GetNameSafe(SpawnedGhosts[Index])</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*GetNameSafe(<ref refid="class_a_temporal_game_mode_1a590df8f1baea522be785799f646b67bc" kindref="member">SpawnedGhosts</ref>[Index])</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
@@ -429,7 +429,7 @@
 <codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Instant<sp/>respawn</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_a_temporal_game_mode_1a196e99b79778bd0d825457c33a27988c" kindref="member">bPlayMode</ref>)</highlight></codeline>
 <codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RespawnPlayer(VictimController);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_game_mode_1aa8f9250c5b4e24fc35fb6d880bba49ac" kindref="member">RespawnPlayer</ref>(VictimController);</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="131"><highlight class="normal"></highlight></codeline>
@@ -438,12 +438,12 @@
 <codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="135"><highlight class="normal"></highlight></codeline>
 <codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FTimerDelegate<sp/>Del;</highlight></codeline>
-<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Del.BindUFunction(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>GET_FUNCTION_NAME_CHECKED(ATemporalGameMode,<sp/>RespawnPlayer),<sp/>VictimController);</highlight></codeline>
-<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GetWorld()-&gt;GetTimerManager().SetTimer(RespawnTimerHandle,<sp/>Del,<sp/>RespawnDelay,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Del.BindUFunction(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>GET_FUNCTION_NAME_CHECKED(<ref refid="class_a_temporal_game_mode_1a850314b4c4fc7f295113c900d82125c4" kindref="member">ATemporalGameMode</ref>,<sp/><ref refid="class_a_temporal_game_mode_1aa8f9250c5b4e24fc35fb6d880bba49ac" kindref="member">RespawnPlayer</ref>),<sp/>VictimController);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GetWorld()-&gt;GetTimerManager().SetTimer(<ref refid="class_a_temporal_game_mode_1a2f20687efa9847159c5e8b6504a1d1c9" kindref="member">RespawnTimerHandle</ref>,<sp/>Del,<sp/><ref refid="class_a_temporal_game_mode_1aa69c3c09bc3abf18a4121171f1577a0c" kindref="member">RespawnDelay</ref>,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="140"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="141"><highlight class="normal"></highlight></codeline>
-<codeline lineno="142"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ATemporalGameMode::RespawnPlayer(AController*<sp/>Controller)</highlight></codeline>
+<codeline lineno="142" refid="class_a_temporal_game_mode_1aa8f9250c5b4e24fc35fb6d880bba49ac" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_game_mode_1aa8f9250c5b4e24fc35fb6d880bba49ac" kindref="member">ATemporalGameMode::RespawnPlayer</ref>(AController*<sp/>Controller)</highlight></codeline>
 <codeline lineno="143"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!Controller)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="145"><highlight class="normal"></highlight></codeline>
@@ -454,252 +454,253 @@
 <codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="151"><highlight class="normal"></highlight></codeline>
 <codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>2)<sp/>Let<sp/>UE<sp/>spawn<sp/>&amp;<sp/>possess<sp/>a<sp/>fresh<sp/>pawn</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>RestartPlayer(Controller);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_game_mode_1a86ac54b58d4039fe0b7567f19e361c00" kindref="member">RestartPlayer</ref>(Controller);</highlight></codeline>
 <codeline lineno="154"><highlight class="normal"></highlight></codeline>
 <codeline lineno="155"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="156"><highlight class="normal"></highlight></codeline>
-<codeline lineno="157"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_game_mode_1a40d2fa5cb1227c92d9ebfee2783dbe32" kindref="member">ATemporalGameMode::AddReplayData</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TArray&lt;FPlayerFrameData&gt;&amp;<sp/>ReplayData)</highlight></codeline>
-<codeline lineno="158"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ReplayData.Num()<sp/>==<sp/>0)</highlight></codeline>
-<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Attempted<sp/>to<sp/>store<sp/>an<sp/>empty<sp/>replay!&quot;</highlight><highlight class="normal">));</highlight></codeline>
-<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="164"><highlight class="normal"></highlight></codeline>
-<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Limit<sp/>the<sp/>maximum<sp/>number<sp/>of<sp/>stored<sp/>replays</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int32<sp/>MaxStoredReplays<sp/>=<sp/>50;</highlight></codeline>
-<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(StoredReplays.Num()<sp/>&gt;=<sp/>MaxStoredReplays)</highlight></codeline>
-<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Exceeded<sp/>max<sp/>stored<sp/>replays<sp/>(%d),<sp/>removing<sp/>oldest.&quot;</highlight><highlight class="normal">),<sp/>MaxStoredReplays);</highlight></codeline>
-<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StoredReplays.RemoveAt(0);<sp/></highlight><highlight class="comment">//<sp/>TSharedPtr<sp/>auto-cleans<sp/>memory</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="172"><highlight class="normal"></highlight></codeline>
-<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Store<sp/>replay<sp/>using<sp/>shared<sp/>pointer<sp/>to<sp/>prevent<sp/>copies</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>TSharedPtr&lt;FReplayAttempt&gt;<sp/>NewAttempt<sp/>=<sp/>MakeShared&lt;FReplayAttempt&gt;(ReplayData);</highlight></codeline>
-<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>StoredReplays.Add(NewAttempt);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161" refid="class_a_temporal_game_mode_1a40d2fa5cb1227c92d9ebfee2783dbe32" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_game_mode_1a40d2fa5cb1227c92d9ebfee2783dbe32" kindref="member">ATemporalGameMode::AddReplayData</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TArray&lt;FPlayerFrameData&gt;&amp;<sp/>ReplayData)</highlight></codeline>
+<codeline lineno="162"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ReplayData.Num()<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Attempted<sp/>to<sp/>store<sp/>an<sp/>empty<sp/>replay!&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Limit<sp/>the<sp/>maximum<sp/>number<sp/>of<sp/>stored<sp/>replays</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>int32<sp/>MaxStoredReplays<sp/>=<sp/>50;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_a_temporal_game_mode_1a256d55c37145af96ed32c4edb6aa58ab" kindref="member">StoredReplays</ref>.Num()<sp/>&gt;=<sp/>MaxStoredReplays)</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Exceeded<sp/>max<sp/>stored<sp/>replays<sp/>(%d),<sp/>removing<sp/>oldest.&quot;</highlight><highlight class="normal">),<sp/>MaxStoredReplays);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_game_mode_1a256d55c37145af96ed32c4edb6aa58ab" kindref="member">StoredReplays</ref>.RemoveAt(0);<sp/></highlight><highlight class="comment">//<sp/>TSharedPtr<sp/>auto-cleans<sp/>memory</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="176"><highlight class="normal"></highlight></codeline>
-<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>3)<sp/>Clear<sp/>out<sp/>the<sp/>player’s<sp/>recorder<sp/>buffer<sp/>so<sp/>it<sp/>starts<sp/>fresh<sp/>next<sp/>life</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(APlayerController*<sp/>PC<sp/>=<sp/>UGameplayStatics::GetPlayerController(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>0))</highlight></codeline>
-<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ATACharacter*<sp/>PlayerChar<sp/>=<sp/>Cast&lt;ATACharacter&gt;(PC-&gt;GetPawn()))</highlight></codeline>
-<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(UReplayRecorderComponent*<sp/>Recorder<sp/>=<sp/>PlayerChar-&gt;FindComponentByClass&lt;UReplayRecorderComponent&gt;())</highlight></codeline>
-<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Recorder-&gt;RecordedFrames.Empty();</highlight></codeline>
-<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Cleared<sp/>RecordedFrames<sp/>on<sp/>player’s<sp/>ReplayRecorder&quot;</highlight><highlight class="normal">));</highlight></codeline>
-<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,</highlight></codeline>
-<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TEXT(</highlight><highlight class="stringliteral">&quot;AddReplayData:<sp/>Player<sp/>pawn<sp/>has<sp/>no<sp/>ReplayRecorderComponent!&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
-<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,</highlight></codeline>
-<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TEXT(</highlight><highlight class="stringliteral">&quot;AddReplayData:<sp/>Could<sp/>not<sp/>cast<sp/>PlayerController-&gt;GetPawn()<sp/>to<sp/>ATACharacter&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
-<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;AddReplayData:<sp/>No<sp/>local<sp/>PlayerController<sp/>found&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Store<sp/>replay<sp/>using<sp/>shared<sp/>pointer<sp/>to<sp/>prevent<sp/>copies</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>TSharedPtr&lt;FReplayAttempt&gt;<sp/>NewAttempt<sp/>=<sp/>MakeShared&lt;FReplayAttempt&gt;(ReplayData);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_game_mode_1a256d55c37145af96ed32c4edb6aa58ab" kindref="member">StoredReplays</ref>.Add(NewAttempt);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>3)<sp/>Clear<sp/>out<sp/>the<sp/>player’s<sp/>recorder<sp/>buffer<sp/>so<sp/>it<sp/>starts<sp/>fresh<sp/>next<sp/>life</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(APlayerController*<sp/>PC<sp/>=<sp/>UGameplayStatics::GetPlayerController(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>0))</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_a_t_a_character" kindref="compound">ATACharacter</ref>*<sp/>PlayerChar<sp/>=<sp/>Cast&lt;ATACharacter&gt;(PC-&gt;GetPawn()))</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(UReplayRecorderComponent*<sp/>Recorder<sp/>=<sp/>PlayerChar-&gt;FindComponentByClass&lt;UReplayRecorderComponent&gt;())</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Recorder-&gt;RecordedFrames.Empty();</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Cleared<sp/>RecordedFrames<sp/>on<sp/>player’s<sp/>ReplayRecorder&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TEXT(</highlight><highlight class="stringliteral">&quot;AddReplayData:<sp/>Player<sp/>pawn<sp/>has<sp/>no<sp/>ReplayRecorderComponent!&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TEXT(</highlight><highlight class="stringliteral">&quot;AddReplayData:<sp/>Could<sp/>not<sp/>cast<sp/>PlayerController-&gt;GetPawn()<sp/>to<sp/>ATACharacter&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="205"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="206"><highlight class="normal"></highlight></codeline>
-<codeline lineno="207"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_game_mode_1ad0c8b4e4d2025d05b087d033502058b6" kindref="member">ATemporalGameMode::SpawnGhosts</ref>()</highlight></codeline>
-<codeline lineno="208"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Log<sp/>memory<sp/>before<sp/>spawning<sp/>ghosts</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/>FPlatformMemoryStats<sp/>MemStatsBefore<sp/>=<sp/>FPlatformMemory::GetStats();</highlight></codeline>
-<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Memory<sp/>BEFORE<sp/>spawning<sp/>ghosts:<sp/>Used:<sp/>%.2f<sp/>MB<sp/>|<sp/>Peak:<sp/>%.2f<sp/>MB<sp/>|<sp/>Allocated:<sp/>%.2f<sp/>MB&quot;</highlight><highlight class="normal">),</highlight></codeline>
-<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MemStatsBefore.UsedPhysical<sp/>/<sp/>1048576.0f,<sp/></highlight><highlight class="comment">//<sp/>Convert<sp/>bytes<sp/>to<sp/>MB</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MemStatsBefore.PeakUsedPhysical<sp/>/<sp/>1048576.0f,</highlight></codeline>
-<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MemStatsBefore.TotalPhysical<sp/>/<sp/>1048576.0f);</highlight></codeline>
-<codeline lineno="215"><highlight class="normal"></highlight></codeline>
-<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Clear<sp/>any<sp/>previous<sp/>ghosts.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_game_mode_1a3b811733d9fcb64b346c02ebaca0f199" kindref="member">ClearGhosts</ref>();</highlight></codeline>
-<codeline lineno="218"><highlight class="normal"></highlight></codeline>
-<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!TemporalCharacterClass)</highlight></codeline>
-<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;TemporalCharacterClass<sp/>not<sp/>set<sp/>in<sp/>GameMode.&quot;</highlight><highlight class="normal">));</highlight></codeline>
-<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="224"><highlight class="normal"></highlight></codeline>
-<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/>UWorld*<sp/>World<sp/>=<sp/>GetWorld();</highlight></codeline>
-<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!World)</highlight></codeline>
-<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="230"><highlight class="normal"></highlight></codeline>
-<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Loop<sp/>through<sp/>stored<sp/>replays<sp/>and<sp/>spawn<sp/>a<sp/>ghost<sp/>for<sp/>each<sp/>attempt.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TSharedPtr&lt;FReplayAttempt&gt;&amp;<sp/>ReplayAttempt<sp/>:<sp/>StoredReplays)</highlight></codeline>
-<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!ReplayAttempt.IsValid()<sp/>||<sp/>!ReplayAttempt-&gt;ReplayDataPtr<sp/>||<sp/>ReplayAttempt-&gt;ReplayDataPtr-&gt;Num()<sp/>==<sp/>0)</highlight></codeline>
-<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="238"><highlight class="normal"></highlight></codeline>
-<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TArray&lt;FPlayerFrameData&gt;*<sp/>SafeReplayData<sp/>=<sp/>ReplayAttempt-&gt;ReplayDataPtr.Get();</highlight></codeline>
-<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!SafeReplayData<sp/>||<sp/>SafeReplayData-&gt;Num()<sp/>==<sp/>0)</highlight></codeline>
-<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="244"><highlight class="normal"></highlight></codeline>
-<codeline lineno="245"><highlight class="normal"></highlight></codeline>
-<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Spawn<sp/>at<sp/>the<sp/>initial<sp/>recorded<sp/>location.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FVector<sp/>SpawnLocation<sp/>=<sp/>(*SafeReplayData)[0].Position;</highlight></codeline>
-<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FRotator<sp/>SpawnRotation<sp/>=<sp/>(*SafeReplayData)[0].Rotation;</highlight></codeline>
-<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FActorSpawnParameters<sp/>SpawnParams;</highlight></codeline>
-<codeline lineno="250"><highlight class="normal"></highlight></codeline>
-<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ATemporalCharacter*<sp/>NewGhost<sp/>=<sp/>World-&gt;SpawnActor&lt;ATemporalCharacter&gt;(TemporalCharacterClass,<sp/>SpawnLocation,<sp/>SpawnRotation,<sp/>SpawnParams);</highlight></codeline>
-<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ATemporalAIController*<sp/>GhostController<sp/>=<sp/>GetWorld()-&gt;SpawnActor&lt;ATemporalAIController&gt;();</highlight></codeline>
-<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;AddReplayData:<sp/>No<sp/>local<sp/>PlayerController<sp/>found&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="209"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211" refid="class_a_temporal_game_mode_1ad0c8b4e4d2025d05b087d033502058b6" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_game_mode_1ad0c8b4e4d2025d05b087d033502058b6" kindref="member">ATemporalGameMode::SpawnGhosts</ref>()</highlight></codeline>
+<codeline lineno="212"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Log<sp/>memory<sp/>before<sp/>spawning<sp/>ghosts</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/>FPlatformMemoryStats<sp/>MemStatsBefore<sp/>=<sp/>FPlatformMemory::GetStats();</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Memory<sp/>BEFORE<sp/>spawning<sp/>ghosts:<sp/>Used:<sp/>%.2f<sp/>MB<sp/>|<sp/>Peak:<sp/>%.2f<sp/>MB<sp/>|<sp/>Allocated:<sp/>%.2f<sp/>MB&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MemStatsBefore.UsedPhysical<sp/>/<sp/>1048576.0f,<sp/></highlight><highlight class="comment">//<sp/>Convert<sp/>bytes<sp/>to<sp/>MB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MemStatsBefore.PeakUsedPhysical<sp/>/<sp/>1048576.0f,</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MemStatsBefore.TotalPhysical<sp/>/<sp/>1048576.0f);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Clear<sp/>any<sp/>previous<sp/>ghosts.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_game_mode_1a3b811733d9fcb64b346c02ebaca0f199" kindref="member">ClearGhosts</ref>();</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="class_a_temporal_game_mode_1ade25ee8f6b9e699b06f9214e2d47244f" kindref="member">TemporalCharacterClass</ref>)</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;TemporalCharacterClass<sp/>not<sp/>set<sp/>in<sp/>GameMode.&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/>UWorld*<sp/>World<sp/>=<sp/>GetWorld();</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!World)</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Loop<sp/>through<sp/>stored<sp/>replays<sp/>and<sp/>spawn<sp/>a<sp/>ghost<sp/>for<sp/>each<sp/>attempt.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TSharedPtr&lt;FReplayAttempt&gt;&amp;<sp/>ReplayAttempt<sp/>:<sp/><ref refid="class_a_temporal_game_mode_1a256d55c37145af96ed32c4edb6aa58ab" kindref="member">StoredReplays</ref>)</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!ReplayAttempt.IsValid()<sp/>||<sp/>!ReplayAttempt-&gt;ReplayDataPtr<sp/>||<sp/>ReplayAttempt-&gt;ReplayDataPtr-&gt;Num()<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TArray&lt;FPlayerFrameData&gt;*<sp/>SafeReplayData<sp/>=<sp/>ReplayAttempt-&gt;ReplayDataPtr.Get();</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!SafeReplayData<sp/>||<sp/>SafeReplayData-&gt;Num()<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Spawn<sp/>at<sp/>the<sp/>initial<sp/>recorded<sp/>location.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FVector<sp/>SpawnLocation<sp/>=<sp/>(*SafeReplayData)[0].Position;</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FRotator<sp/>SpawnRotation<sp/>=<sp/>(*SafeReplayData)[0].Rotation;</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FActorSpawnParameters<sp/>SpawnParams;</highlight></codeline>
 <codeline lineno="254"><highlight class="normal"></highlight></codeline>
-<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(NewGhost<sp/>&amp;&amp;<sp/>GhostController)</highlight></codeline>
-<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GhostController-&gt;Possess(NewGhost);</highlight></codeline>
-<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SpawnedControllers.Add(GhostController);</highlight></codeline>
-<codeline lineno="259"><highlight class="normal"></highlight></codeline>
-<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewGhost-&gt;GhostID<sp/>=<sp/>ReplayAttempt-&gt;AssignedGhostID;</highlight></codeline>
-<codeline lineno="261"><highlight class="normal"></highlight></codeline>
-<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_game_mode_1a712f6529f8d2049ff29c5c7190a5d73f" kindref="member">RegisterGhost</ref>(ReplayAttempt-&gt;AssignedGhostID,<sp/>NewGhost);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_character" kindref="compound">ATemporalCharacter</ref>*<sp/>NewGhost<sp/>=<sp/>World-&gt;SpawnActor&lt;<ref refid="class_a_temporal_character" kindref="compound">ATemporalCharacter</ref>&gt;(<ref refid="class_a_temporal_game_mode_1ade25ee8f6b9e699b06f9214e2d47244f" kindref="member">TemporalCharacterClass</ref>,<sp/>SpawnLocation,<sp/>SpawnRotation,<sp/>SpawnParams);</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_a_i_controller" kindref="compound">ATemporalAIController</ref>*<sp/>GhostController<sp/>=<sp/>GetWorld()-&gt;SpawnActor&lt;<ref refid="class_a_temporal_a_i_controller" kindref="compound">ATemporalAIController</ref>&gt;();</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(NewGhost<sp/>&amp;&amp;<sp/>GhostController)</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GhostController-&gt;Possess(NewGhost);</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_game_mode_1a0c1562f8c2fdfb64da11d4543a881f60" kindref="member">SpawnedControllers</ref>.Add(GhostController);</highlight></codeline>
 <codeline lineno="263"><highlight class="normal"></highlight></codeline>
-<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewGhost-&gt;InitializeGhostPlayback(ReplayAttempt-&gt;ReplayDataPtr);</highlight></codeline>
-<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SpawnedGhosts.Add(NewGhost);</highlight></codeline>
-<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="268"><highlight class="normal"></highlight></codeline>
-<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/>ResolveHitGhosts();</highlight></codeline>
-<codeline lineno="270"><highlight class="normal"></highlight></codeline>
-<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Log<sp/>memory<sp/>after<sp/>spawning<sp/>ghosts</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/>FPlatformMemoryStats<sp/>MemStatsAfter<sp/>=<sp/>FPlatformMemory::GetStats();</highlight></codeline>
-<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Memory<sp/>AFTER<sp/>spawning<sp/>ghosts:<sp/>Used:<sp/>%.2f<sp/>MB<sp/>|<sp/>Peak:<sp/>%.2f<sp/>MB<sp/>|<sp/>Allocated:<sp/>%.2f<sp/>MB&quot;</highlight><highlight class="normal">),</highlight></codeline>
-<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MemStatsAfter.UsedPhysical<sp/>/<sp/>1048576.0f,</highlight></codeline>
-<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MemStatsAfter.PeakUsedPhysical<sp/>/<sp/>1048576.0f,</highlight></codeline>
-<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MemStatsAfter.TotalPhysical<sp/>/<sp/>1048576.0f);</highlight></codeline>
-<codeline lineno="277"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="278"><highlight class="normal"></highlight></codeline>
-<codeline lineno="279"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_game_mode_1a3b811733d9fcb64b346c02ebaca0f199" kindref="member">ATemporalGameMode::ClearGhosts</ref>()</highlight></codeline>
-<codeline lineno="280"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Clearing<sp/>%d<sp/>ghosts&quot;</highlight><highlight class="normal">),<sp/>SpawnedGhosts.Num());</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewGhost-&gt;<ref refid="class_a_temporal_character_1ad2de46499d798556533a4dd3fb6f8d2f" kindref="member">GhostID</ref><sp/>=<sp/>ReplayAttempt-&gt;AssignedGhostID;</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_game_mode_1a712f6529f8d2049ff29c5c7190a5d73f" kindref="member">RegisterGhost</ref>(ReplayAttempt-&gt;AssignedGhostID,<sp/>NewGhost);</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NewGhost-&gt;<ref refid="class_a_temporal_character_1a775894fbb17c7d40caacabd2ffdf7acb" kindref="member">InitializeGhostPlayback</ref>(ReplayAttempt-&gt;ReplayDataPtr);</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_game_mode_1a590df8f1baea522be785799f646b67bc" kindref="member">SpawnedGhosts</ref>.Add(NewGhost);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_game_mode_1ae9fe28e227bf21645525552d5fa13feb" kindref="member">ResolveHitGhosts</ref>();</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Log<sp/>memory<sp/>after<sp/>spawning<sp/>ghosts</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/>FPlatformMemoryStats<sp/>MemStatsAfter<sp/>=<sp/>FPlatformMemory::GetStats();</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Memory<sp/>AFTER<sp/>spawning<sp/>ghosts:<sp/>Used:<sp/>%.2f<sp/>MB<sp/>|<sp/>Peak:<sp/>%.2f<sp/>MB<sp/>|<sp/>Allocated:<sp/>%.2f<sp/>MB&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MemStatsAfter.UsedPhysical<sp/>/<sp/>1048576.0f,</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MemStatsAfter.PeakUsedPhysical<sp/>/<sp/>1048576.0f,</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MemStatsAfter.TotalPhysical<sp/>/<sp/>1048576.0f);</highlight></codeline>
+<codeline lineno="281"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="282"><highlight class="normal"></highlight></codeline>
-<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(ATemporalAIController*<sp/>Controller<sp/>:<sp/>SpawnedControllers)</highlight></codeline>
-<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(IsValid(Controller))</highlight></codeline>
-<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Controller-&gt;UnPossess();</highlight></codeline>
-<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Controller-&gt;Destroy();</highlight></codeline>
-<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/>SpawnedControllers.Empty();</highlight></codeline>
-<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/>SpawnedControllers.Shrink();</highlight></codeline>
-<codeline lineno="293"><highlight class="normal"></highlight></codeline>
-<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/>GhostRegistry.Empty();</highlight></codeline>
-<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/>GhostRegistry.Shrink();</highlight></codeline>
-<codeline lineno="296"><highlight class="normal"></highlight></codeline>
-<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Destroy<sp/>any<sp/>spawned<sp/>ghost<sp/>actors</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(ATemporalCharacter*<sp/>Ghost<sp/>:<sp/>SpawnedGhosts)</highlight></codeline>
-<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(IsValid(Ghost))</highlight></codeline>
-<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Unpossess<sp/>the<sp/>ghost<sp/>if<sp/>it<sp/>has<sp/>a<sp/>controller</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(AController*<sp/>Controller<sp/>=<sp/>Ghost-&gt;GetController())</highlight></codeline>
-<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Controller-&gt;UnPossess();</highlight></codeline>
-<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="307"><highlight class="normal"></highlight></codeline>
-<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ghost-&gt;Destroy();</highlight></codeline>
-<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/>SpawnedGhosts.Empty();</highlight></codeline>
-<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/>SpawnedGhosts.Shrink();</highlight></codeline>
-<codeline lineno="313"><highlight class="normal"></highlight></codeline>
-<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(StoredReplays.Num()<sp/>&gt;<sp/>52)</highlight></codeline>
-<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Explicitly<sp/>clear<sp/>stored<sp/>replay<sp/>pointers</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(TSharedPtr&lt;FReplayAttempt&gt;&amp;<sp/>Replay<sp/>:<sp/>StoredReplays)</highlight></codeline>
-<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Replay.Reset();<sp/><sp/></highlight><highlight class="comment">//<sp/>Clear<sp/>shared<sp/>pointer<sp/>references</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="321"><highlight class="normal"></highlight></codeline>
-<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StoredReplays.Empty();</highlight></codeline>
-<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StoredReplays.Shrink();</highlight></codeline>
-<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="283" refid="class_a_temporal_game_mode_1a3b811733d9fcb64b346c02ebaca0f199" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_game_mode_1a3b811733d9fcb64b346c02ebaca0f199" kindref="member">ATemporalGameMode::ClearGhosts</ref>()</highlight></codeline>
+<codeline lineno="284"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Clearing<sp/>%d<sp/>ghosts&quot;</highlight><highlight class="normal">),<sp/><ref refid="class_a_temporal_game_mode_1a590df8f1baea522be785799f646b67bc" kindref="member">SpawnedGhosts</ref>.Num());</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="class_a_temporal_a_i_controller" kindref="compound">ATemporalAIController</ref>*<sp/>Controller<sp/>:<sp/><ref refid="class_a_temporal_game_mode_1a0c1562f8c2fdfb64da11d4543a881f60" kindref="member">SpawnedControllers</ref>)</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(IsValid(Controller))</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Controller-&gt;UnPossess();</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Controller-&gt;Destroy();</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_game_mode_1a0c1562f8c2fdfb64da11d4543a881f60" kindref="member">SpawnedControllers</ref>.Empty();</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_game_mode_1a0c1562f8c2fdfb64da11d4543a881f60" kindref="member">SpawnedControllers</ref>.Shrink();</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_game_mode_1a73326dc3f648f9c0f0e6ea748aa7b70a" kindref="member">GhostRegistry</ref>.Empty();</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_game_mode_1a73326dc3f648f9c0f0e6ea748aa7b70a" kindref="member">GhostRegistry</ref>.Shrink();</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Destroy<sp/>any<sp/>spawned<sp/>ghost<sp/>actors</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="class_a_temporal_character" kindref="compound">ATemporalCharacter</ref>*<sp/>Ghost<sp/>:<sp/><ref refid="class_a_temporal_game_mode_1a590df8f1baea522be785799f646b67bc" kindref="member">SpawnedGhosts</ref>)</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(IsValid(Ghost))</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Unpossess<sp/>the<sp/>ghost<sp/>if<sp/>it<sp/>has<sp/>a<sp/>controller</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(AController*<sp/>Controller<sp/>=<sp/>Ghost-&gt;GetController())</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Controller-&gt;UnPossess();</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Ghost-&gt;Destroy();</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_game_mode_1a590df8f1baea522be785799f646b67bc" kindref="member">SpawnedGhosts</ref>.Empty();</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_game_mode_1a590df8f1baea522be785799f646b67bc" kindref="member">SpawnedGhosts</ref>.Shrink();</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_a_temporal_game_mode_1a256d55c37145af96ed32c4edb6aa58ab" kindref="member">StoredReplays</ref>.Num()<sp/>&gt;<sp/>52)</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Explicitly<sp/>clear<sp/>stored<sp/>replay<sp/>pointers</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(TSharedPtr&lt;FReplayAttempt&gt;&amp;<sp/>Replay<sp/>:<sp/><ref refid="class_a_temporal_game_mode_1a256d55c37145af96ed32c4edb6aa58ab" kindref="member">StoredReplays</ref>)</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Replay.Reset();<sp/><sp/></highlight><highlight class="comment">//<sp/>Clear<sp/>shared<sp/>pointer<sp/>references</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="325"><highlight class="normal"></highlight></codeline>
-<codeline lineno="326"><highlight class="normal"></highlight></codeline>
-<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>**Only<sp/>force<sp/>GC<sp/>if<sp/>memory<sp/>usage<sp/>is<sp/>too<sp/>high**</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>MemoryUsedMB<sp/>=<sp/>FPlatformMemory::GetStats().UsedPhysical<sp/>/<sp/>1048576.0f;<sp/></highlight><highlight class="comment">//<sp/>Convert<sp/>bytes<sp/>to<sp/>MB</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!IsGarbageCollecting())</highlight></codeline>
-<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight></codeline>
-<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(MemoryUsedMB<sp/>&gt;<sp/>5000.0f)<sp/><sp/></highlight><highlight class="comment">//<sp/>Example:<sp/>If<sp/>used<sp/>memory<sp/>&gt;<sp/>5000MB</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Memory<sp/>exceeds<sp/>threshold<sp/>(%.2f<sp/>MB).<sp/>Forcing<sp/>Garbage<sp/>Collection...&quot;</highlight><highlight class="normal">),<sp/>MemoryUsedMB);</highlight></codeline>
-<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CollectGarbage(GARBAGE_COLLECTION_KEEPFLAGS,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(GEngine)</highlight></codeline>
-<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Performing<sp/>normal<sp/>Unreal<sp/>GC.&quot;</highlight><highlight class="normal">));</highlight></codeline>
-<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GEngine-&gt;ForceGarbageCollection(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="342"><highlight class="normal"></highlight></codeline>
-<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Check<sp/>memory<sp/>stats<sp/>after<sp/>clearing</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/>FPlatformMemoryStats<sp/>MemStatsAfterClear<sp/>=<sp/>FPlatformMemory::GetStats();</highlight></codeline>
-<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Memory<sp/>AFTER<sp/>clearing<sp/>ghosts:<sp/>Used:<sp/>%.2f<sp/>MB<sp/>|<sp/>Peak:<sp/>%.2f<sp/>MB<sp/>|<sp/>Allocated:<sp/>%.2f<sp/>MB&quot;</highlight><highlight class="normal">),</highlight></codeline>
-<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MemStatsAfterClear.UsedPhysical<sp/>/<sp/>1048576.0f,</highlight></codeline>
-<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MemStatsAfterClear.PeakUsedPhysical<sp/>/<sp/>1048576.0f,</highlight></codeline>
-<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MemStatsAfterClear.TotalPhysical<sp/>/<sp/>1048576.0f);</highlight></codeline>
-<codeline lineno="349"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="350"><highlight class="normal"></highlight></codeline>
-<codeline lineno="351"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_game_mode_1a712f6529f8d2049ff29c5c7190a5d73f" kindref="member">ATemporalGameMode::RegisterGhost</ref>(FName<sp/>GhostID,<sp/><ref refid="class_a_temporal_character" kindref="compound">ATemporalCharacter</ref>*<sp/>Ghost)</highlight></codeline>
-<codeline lineno="352"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!GhostID.IsNone()<sp/>&amp;&amp;<sp/>IsValid(Ghost))</highlight></codeline>
-<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GhostRegistry.FindOrAdd(GhostID)<sp/>=<sp/>Ghost;</highlight></codeline>
-<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Registered<sp/>GhostID:<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>*GhostID.ToString());</highlight></codeline>
-<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="358"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="359"><highlight class="normal"></highlight></codeline>
-<codeline lineno="360"><highlight class="normal"><ref refid="class_a_temporal_character" kindref="compound">ATemporalCharacter</ref>*<sp/><ref refid="class_a_temporal_game_mode_1ac82d62508315b553cec2822e6e0dda92" kindref="member">ATemporalGameMode::GetGhostByID</ref>(FName<sp/>GhostID)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="361"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TWeakObjectPtr&lt;ATemporalCharacter&gt;*<sp/>Found<sp/>=<sp/>GhostRegistry.Find(GhostID))</highlight></codeline>
-<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Found-&gt;IsValid()<sp/>?<sp/>Found-&gt;Get()<sp/>:<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="366"><highlight class="normal"></highlight></codeline>
-<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="368"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="369"><highlight class="normal"></highlight></codeline>
-<codeline lineno="370"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ATemporalGameMode::ResolveHitGhosts()</highlight></codeline>
-<codeline lineno="371"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TSharedPtr&lt;FReplayAttempt&gt;&amp;<sp/>Attempt<sp/>:<sp/>StoredReplays)</highlight></codeline>
-<codeline lineno="373"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="374"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!Attempt.IsValid()<sp/>||<sp/>!Attempt-&gt;ReplayDataPtr)<sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="375"><highlight class="normal"></highlight></codeline>
-<codeline lineno="376"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(FPlayerFrameData&amp;<sp/>Frame<sp/>:<sp/>*Attempt-&gt;ReplayDataPtr)</highlight></codeline>
-<codeline lineno="377"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="378"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!Frame.HasAction(EReplayActionFlags::FiredWeapon))<sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_game_mode_1a256d55c37145af96ed32c4edb6aa58ab" kindref="member">StoredReplays</ref>.Empty();</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_game_mode_1a256d55c37145af96ed32c4edb6aa58ab" kindref="member">StoredReplays</ref>.Shrink();</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="330"><highlight class="normal"></highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>**Only<sp/>force<sp/>GC<sp/>if<sp/>memory<sp/>usage<sp/>is<sp/>too<sp/>high**</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>MemoryUsedMB<sp/>=<sp/>FPlatformMemory::GetStats().UsedPhysical<sp/>/<sp/>1048576.0f;<sp/></highlight><highlight class="comment">//<sp/>Convert<sp/>bytes<sp/>to<sp/>MB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!IsGarbageCollecting())</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(MemoryUsedMB<sp/>&gt;<sp/>5000.0f)<sp/><sp/></highlight><highlight class="comment">//<sp/>Example:<sp/>If<sp/>used<sp/>memory<sp/>&gt;<sp/>5000MB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Memory<sp/>exceeds<sp/>threshold<sp/>(%.2f<sp/>MB).<sp/>Forcing<sp/>Garbage<sp/>Collection...&quot;</highlight><highlight class="normal">),<sp/>MemoryUsedMB);</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CollectGarbage(GARBAGE_COLLECTION_KEEPFLAGS,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(GEngine)</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Performing<sp/>normal<sp/>Unreal<sp/>GC.&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GEngine-&gt;ForceGarbageCollection(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Check<sp/>memory<sp/>stats<sp/>after<sp/>clearing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/>FPlatformMemoryStats<sp/>MemStatsAfterClear<sp/>=<sp/>FPlatformMemory::GetStats();</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Warning,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Memory<sp/>AFTER<sp/>clearing<sp/>ghosts:<sp/>Used:<sp/>%.2f<sp/>MB<sp/>|<sp/>Peak:<sp/>%.2f<sp/>MB<sp/>|<sp/>Allocated:<sp/>%.2f<sp/>MB&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MemStatsAfterClear.UsedPhysical<sp/>/<sp/>1048576.0f,</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MemStatsAfterClear.PeakUsedPhysical<sp/>/<sp/>1048576.0f,</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MemStatsAfterClear.TotalPhysical<sp/>/<sp/>1048576.0f);</highlight></codeline>
+<codeline lineno="353"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355" refid="class_a_temporal_game_mode_1a712f6529f8d2049ff29c5c7190a5d73f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_game_mode_1a712f6529f8d2049ff29c5c7190a5d73f" kindref="member">ATemporalGameMode::RegisterGhost</ref>(FName<sp/>GhostID,<sp/><ref refid="class_a_temporal_character" kindref="compound">ATemporalCharacter</ref>*<sp/>Ghost)</highlight></codeline>
+<codeline lineno="356"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!GhostID.IsNone()<sp/>&amp;&amp;<sp/>IsValid(Ghost))</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_temporal_game_mode_1a73326dc3f648f9c0f0e6ea748aa7b70a" kindref="member">GhostRegistry</ref>.FindOrAdd(GhostID)<sp/>=<sp/>Ghost;</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Registered<sp/>GhostID:<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>*GhostID.ToString());</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="362"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"></highlight></codeline>
+<codeline lineno="364" refid="class_a_temporal_game_mode_1ac82d62508315b553cec2822e6e0dda92" refkind="member"><highlight class="normal"><ref refid="class_a_temporal_character" kindref="compound">ATemporalCharacter</ref>*<sp/><ref refid="class_a_temporal_game_mode_1ac82d62508315b553cec2822e6e0dda92" kindref="member">ATemporalGameMode::GetGhostByID</ref>(FName<sp/>GhostID)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="365"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TWeakObjectPtr&lt;ATemporalCharacter&gt;*<sp/>Found<sp/>=<sp/><ref refid="class_a_temporal_game_mode_1a73326dc3f648f9c0f0e6ea748aa7b70a" kindref="member">GhostRegistry</ref>.Find(GhostID))</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Found-&gt;IsValid()<sp/>?<sp/>Found-&gt;Get()<sp/>:<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"></highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="372"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"></highlight></codeline>
+<codeline lineno="374" refid="class_a_temporal_game_mode_1ae9fe28e227bf21645525552d5fa13feb" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_temporal_game_mode_1ae9fe28e227bf21645525552d5fa13feb" kindref="member">ATemporalGameMode::ResolveHitGhosts</ref>()</highlight></codeline>
+<codeline lineno="375"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TSharedPtr&lt;FReplayAttempt&gt;&amp;<sp/>Attempt<sp/>:<sp/><ref refid="class_a_temporal_game_mode_1a256d55c37145af96ed32c4edb6aa58ab" kindref="member">StoredReplays</ref>)</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!Attempt.IsValid()<sp/>||<sp/>!Attempt-&gt;ReplayDataPtr)<sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="379"><highlight class="normal"></highlight></codeline>
-<codeline lineno="380"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(FRecordedShot&amp;<sp/>Shot<sp/>:<sp/>Frame.CombatData.Shots)</highlight></codeline>
-<codeline lineno="381"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="382"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!Shot.HitGhostID.IsNone()<sp/>&amp;&amp;<sp/>!Shot.HitActor.IsValid())</highlight></codeline>
-<codeline lineno="383"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="384"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ATemporalCharacter*<sp/>Ghost<sp/>=<sp/><ref refid="class_a_temporal_game_mode_1ac82d62508315b553cec2822e6e0dda92" kindref="member">GetGhostByID</ref>(Shot.HitGhostID))</highlight></codeline>
-<codeline lineno="385"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="386"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Shot.HitActor<sp/>=<sp/>Ghost;</highlight></codeline>
-<codeline lineno="387"><highlight class="normal"></highlight></codeline>
-<codeline lineno="388"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Resolved<sp/>Shot<sp/>[%d]:<sp/>HitGhostID<sp/>%s<sp/>to<sp/>actor<sp/>%s<sp/>from<sp/>instigator<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>Shot.ShotIndex,<sp/>*Shot.HitGhostID.ToString(),<sp/>*GetNameSafe(Ghost),<sp/>*GetNameSafe(<ref refid="class_a_temporal_game_mode_1ac82d62508315b553cec2822e6e0dda92" kindref="member">GetGhostByID</ref>(Attempt-&gt;AssignedGhostID)));</highlight></codeline>
-<codeline lineno="389"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="390"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="391"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="392"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Error,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>resolve<sp/>HitGhostID<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>*Shot.HitGhostID.ToString());</highlight></codeline>
+<codeline lineno="380"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref>&amp;<sp/>Frame<sp/>:<sp/>*Attempt-&gt;ReplayDataPtr)</highlight></codeline>
+<codeline lineno="381"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="382"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!Frame.<ref refid="struct_f_player_frame_data_1a30e7484c45b24583da3d19decfd62db6" kindref="member">HasAction</ref>(<ref refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91a661e8b7c940bfd42cc11900b1fcddec4" kindref="member">EReplayActionFlags::FiredWeapon</ref>))<sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="383"><highlight class="normal"></highlight></codeline>
+<codeline lineno="384"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="struct_f_recorded_shot" kindref="compound">FRecordedShot</ref>&amp;<sp/>Shot<sp/>:<sp/>Frame.<ref refid="struct_f_player_frame_data_1a3fa9bf4a003e8a3e02897ea1884c47ea" kindref="member">CombatData</ref>.<ref refid="struct_f_combat_frame_data_1a003398095dc5c56fcdb970f13a6a86a6" kindref="member">Shots</ref>)</highlight></codeline>
+<codeline lineno="385"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="386"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!Shot.<ref refid="struct_f_recorded_shot_1a26674ec33c3eb80731594b9e4496ee5c" kindref="member">HitGhostID</ref>.IsNone()<sp/>&amp;&amp;<sp/>!Shot.<ref refid="struct_f_recorded_shot_1a4e41c04830f61746bc63ce81a04b0739" kindref="member">HitActor</ref>.IsValid())</highlight></codeline>
+<codeline lineno="387"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_a_temporal_character" kindref="compound">ATemporalCharacter</ref>*<sp/>Ghost<sp/>=<sp/><ref refid="class_a_temporal_game_mode_1ac82d62508315b553cec2822e6e0dda92" kindref="member">GetGhostByID</ref>(Shot.<ref refid="struct_f_recorded_shot_1a26674ec33c3eb80731594b9e4496ee5c" kindref="member">HitGhostID</ref>))</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="390"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Shot.<ref refid="struct_f_recorded_shot_1a4e41c04830f61746bc63ce81a04b0739" kindref="member">HitActor</ref><sp/>=<sp/>Ghost;</highlight></codeline>
+<codeline lineno="391"><highlight class="normal"></highlight></codeline>
+<codeline lineno="392"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Log,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Resolved<sp/>Shot<sp/>[%d]:<sp/>HitGhostID<sp/>%s<sp/>to<sp/>actor<sp/>%s<sp/>from<sp/>instigator<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>Shot.<ref refid="struct_f_recorded_shot_1a78ac3a58ce0bd04bb0397259ae857eba" kindref="member">ShotIndex</ref>,<sp/>*Shot.<ref refid="struct_f_recorded_shot_1a26674ec33c3eb80731594b9e4496ee5c" kindref="member">HitGhostID</ref>.ToString(),<sp/>*GetNameSafe(Ghost),<sp/>*GetNameSafe(<ref refid="class_a_temporal_game_mode_1ac82d62508315b553cec2822e6e0dda92" kindref="member">GetGhostByID</ref>(Attempt-&gt;AssignedGhostID)));</highlight></codeline>
 <codeline lineno="393"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="394"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="395"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="396"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="397"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="398"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="394"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="395"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="396"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UE_LOG(LogTemp,<sp/>Error,<sp/>TEXT(</highlight><highlight class="stringliteral">&quot;Failed<sp/>to<sp/>resolve<sp/>HitGhostID<sp/>%s&quot;</highlight><highlight class="normal">),<sp/>*Shot.<ref refid="struct_f_recorded_shot_1a26674ec33c3eb80731594b9e4496ee5c" kindref="member">HitGhostID</ref>.ToString());</highlight></codeline>
+<codeline lineno="397"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="398"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="399"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="400"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="401"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="402"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="Source/TimeAssassin/TemporalGameMode.cpp"/>
   </compounddef>

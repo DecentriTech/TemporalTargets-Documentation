@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="struct_f_weapon_ammo_data" kind="struct" language="C++" prot="public">
     <compoundname>FWeaponAmmoData</compoundname>
+    <includes refid="_weapon_component_8h" local="no">WeaponComponent.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="struct_f_weapon_ammo_data_1a0f5ce3bbec730b02bcc6f3083191d4c9" prot="public" static="no" mutable="no">
         <type>int32</type>

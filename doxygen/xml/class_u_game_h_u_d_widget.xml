@@ -213,10 +213,35 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>FHitMarkerStyle</label>
+        <link refid="struct_f_hit_marker_style"/>
+      </node>
+      <node id="3">
+        <label>UCrosshairWidget</label>
+        <link refid="class_u_crosshair_widget"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
       <node id="1">
         <label>UGameHUDWidget</label>
         <link refid="class_u_game_h_u_d_widget"/>
         <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>CrosshairWidget</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>HitmarkerWidget</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>UHitmarkerWidget</label>
+        <link refid="class_u_hitmarker_widget"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>Style</edgelabel>
         </childnode>
       </node>
       <node id="2">

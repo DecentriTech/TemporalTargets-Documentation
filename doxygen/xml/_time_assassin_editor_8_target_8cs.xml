@@ -14,9 +14,9 @@
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Collections.Generic;</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.IO;</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7" refid="class_time_assassin_editor_target" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">TimeAssassinEditorTarget<sp/>:<sp/>TargetRules</highlight></codeline>
+<codeline lineno="7" refid="class_time_assassin_editor_target" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_time_assassin_editor_target_1a4ba487f4e53bcb8979af7ad31d1384b9" kindref="member">TimeAssassinEditorTarget</ref><sp/>:<sp/>TargetRules</highlight></codeline>
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>TimeAssassinEditorTarget(TargetInfo<sp/>Target)<sp/>:<sp/>base(Target)</highlight></codeline>
+<codeline lineno="9" refid="class_time_assassin_editor_target_1a4ba487f4e53bcb8979af7ad31d1384b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_time_assassin_editor_target_1a4ba487f4e53bcb8979af7ad31d1384b9" kindref="member">TimeAssassinEditorTarget</ref>(TargetInfo<sp/>Target)<sp/>:<sp/>base(Target)</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Type<sp/>=<sp/>TargetType.Editor;</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DefaultBuildSettings<sp/>=<sp/>BuildSettingsVersion.V5;</highlight></codeline>
@@ -25,7 +25,7 @@
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>scriptPath<sp/>=<sp/>Path.Combine(ProjectFile.Directory.FullName,<sp/></highlight><highlight class="stringliteral">&quot;generate-docs.js&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(File.Exists(scriptPath))</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(File.Exists(scriptPath))</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PostBuildSteps.Add($</highlight><highlight class="stringliteral">&quot;node<sp/>\&quot;{scriptPath}\&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
