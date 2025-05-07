@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
-  <compounddef id="group___game_logic" kind="group">
-    <compoundname>GameLogic</compoundname>
+  <compounddef id="group___g_a_m_e___l_o_g_i_c" kind="group">
+    <compoundname>GAME_LOGIC</compoundname>
     <title>Core Gameplay Logic</title>
     <innerclass refid="class_a_temporal_game_mode" prot="public">ATemporalGameMode</innerclass>
     <sectiondef kind="enum">
-      <memberdef kind="enum" id="group___game_logic_1gae6f5417eda5722930c61aac107396226" prot="public" static="no" strong="yes">
+      <memberdef kind="enum" id="group___g_a_m_e___l_o_g_i_c_1gae6f5417eda5722930c61aac107396226" prot="public" static="no" strong="yes">
         <type>uint8</type>
         <name>EGhostReplayState</name>
-        <enumvalue id="group___game_logic_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" prot="public">
+        <enumvalue id="group___g_a_m_e___l_o_g_i_c_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" prot="public">
           <name>UMETA</name>
           <initializer>=(DisplayName = &quot;None&quot;)</initializer>
           <briefdescription>
@@ -17,7 +17,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="group___game_logic_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" prot="public">
+        <enumvalue id="group___g_a_m_e___l_o_g_i_c_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" prot="public">
           <name>UMETA</name>
           <initializer>=(DisplayName = &quot;Recording&quot;)</initializer>
           <briefdescription>
@@ -26,7 +26,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="group___game_logic_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" prot="public">
+        <enumvalue id="group___g_a_m_e___l_o_g_i_c_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" prot="public">
           <name>UMETA</name>
           <initializer>=(DisplayName = &quot;Playback&quot;)</initializer>
           <briefdescription>

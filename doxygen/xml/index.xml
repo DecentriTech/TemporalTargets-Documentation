@@ -577,7 +577,7 @@
   <compound refid="_temporal_game_mode_8cpp" kind="file"><name>TemporalGameMode.cpp</name>
   </compound>
   <compound refid="_temporal_game_mode_8h" kind="file"><name>TemporalGameMode.h</name>
-    <member refid="group___game_logic_1gae6f5417eda5722930c61aac107396226" kind="enum"><name>EGhostReplayState</name></member>
+    <member refid="group___g_a_m_e___l_o_g_i_c_1gae6f5417eda5722930c61aac107396226" kind="enum"><name>EGhostReplayState</name></member>
   </compound>
   <compound refid="_time_assassin_8_build_8cs" kind="file"><name>TimeAssassin.Build.cs</name>
   </compound>
@@ -602,11 +602,11 @@
   </compound>
   <compound refid="_time_assassin_editor_8_target_8cs" kind="file"><name>TimeAssassinEditor.Target.cs</name>
   </compound>
-  <compound refid="group___game_logic" kind="group"><name>GameLogic</name>
-    <member refid="group___game_logic_1gae6f5417eda5722930c61aac107396226" kind="enum"><name>EGhostReplayState</name></member>
-    <member refid="group___game_logic_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" kind="enumvalue"><name>UMETA</name></member>
-    <member refid="group___game_logic_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" kind="enumvalue"><name>UMETA</name></member>
-    <member refid="group___game_logic_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" kind="enumvalue"><name>UMETA</name></member>
+  <compound refid="group___g_a_m_e___l_o_g_i_c" kind="group"><name>GAME_LOGIC</name>
+    <member refid="group___g_a_m_e___l_o_g_i_c_1gae6f5417eda5722930c61aac107396226" kind="enum"><name>EGhostReplayState</name></member>
+    <member refid="group___g_a_m_e___l_o_g_i_c_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" kind="enumvalue"><name>UMETA</name></member>
+    <member refid="group___g_a_m_e___l_o_g_i_c_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" kind="enumvalue"><name>UMETA</name></member>
+    <member refid="group___g_a_m_e___l_o_g_i_c_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" kind="enumvalue"><name>UMETA</name></member>
   </compound>
   <compound refid="dir_74389ed8173ad57b461b9d623a1f3867" kind="dir"><name>Source</name>
   </compound>

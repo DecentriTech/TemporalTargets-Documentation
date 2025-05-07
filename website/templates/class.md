@@ -1,18 +1,29 @@
----
 
----
+<!-- block -->
 
-# {{kind}} `{{name}}` {{anchor refid}}
+<details>
+<summary>📘 Class `{{name}}`</summary>
+
+<!-- block -->
+
+# Class `{{name}}` {{anchor refid}}
 
 {{#if basecompoundref}}
-## 🔧 Inherits From
+<!-- block -->
 
-``` cpp
+<details>
+<summary>🔧 Inherits From</summary>
+
+```cpp
 {{kind}} {{name}}
   {{#each basecompoundref}}
   : {{prot}} {{name}}
   {{/each}}
 ```
+
+</details>
+
+<!-- block -->
 {{/if}}
 
 {{#if briefdescription}}
@@ -20,14 +31,17 @@
 {{/if}}
 
 {{#if detaileddescription}}
----
+<!-- block -->
 
 {{detaileddescription}}
+
+<!-- block -->
 {{/if}}
 
----
+<!-- block -->
 
-## 📋 Class Members
+<details open>
+<summary>📋 Class Members</summary>
 
 | Kind | Declaration | Description |
 |------|-------------|-------------|
@@ -35,42 +49,54 @@
 | `{{kind}}` | `{{#if type}}{{type}} {{/if}}{{name}}{{#if argsstring}}{{argsstring}}{{/if}}` | {{briefdescription}} |
 {{/each}}
 
----
+</details>
 
-## 🧩 Members
+<!-- block -->
+
+<details open>
+<summary>🧩 Members</summary>
 
 {{#each filtered.members}}
-### 🧠 `{{#if type}}{{type}} {{/if}}{{name}}{{#if argsstring}}{{argsstring}}{{/if}}`
+<!-- block -->
+
+<details>
+<summary>🧠 `{{#if type}}{{type}} {{/if}}{{name}}{{#if argsstring}}{{argsstring}}{{/if}}`</summary>
 
 {{#if briefdescription}}
-  {{briefdescription}}
+{{briefdescription}}
 {{/if}}
 
 {{#if (isFunction kind)}}
-  {{#if (hasParams param)}}
+{{#if (hasParams param)}}
 **Parameters:**
 {{#each param}}
 - `{{type}} {{declname}}` – {{briefdescription}}
 {{/each}}
-  {{else}}
+{{else}}
 **Parameters:**
 - *(None)*
-  {{/if}}
+{{/if}}
 {{/if}}
 
----
+</details>
+
+<!-- block -->
 {{/each}}
 
+</details>
 
----
-
-
-## 🎛️ Enums
+<!-- block -->
 
 {{#if (anyEnum filtered.members)}}
+<details open>
+<summary>🎛️ Enums</summary>
+
 {{#each filtered.members}}
   {{#if enumvalue}}
-### 🔢 `{{name}}` {{anchor refid}}
+<!-- block -->
+
+<details>
+<summary>🔢 `{{name}}`</summary>
 
 {{#if briefdescription}}
 {{briefdescription}}
@@ -88,9 +114,19 @@
 | `{{cell name}}` | {{cell summary}} |
 {{/each}}
 
----
+</details>
+
+<!-- block -->
   {{/if}}
 {{/each}}
+
+</details>
 {{else}}
 _No enum types are defined in this file._
 {{/if}}
+
+<!-- block -->
+
+</details>
+
+<!-- block -->

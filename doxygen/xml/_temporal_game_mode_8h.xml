@@ -190,7 +190,7 @@
     </incdepgraph>
     <innerclass refid="class_a_temporal_game_mode" prot="public">ATemporalGameMode</innerclass>
     <sectiondef kind="enum">
-      <member refid="group___game_logic_1gae6f5417eda5722930c61aac107396226" kind="enum"><name>EGhostReplayState</name></member>
+      <member refid="group___g_a_m_e___l_o_g_i_c_1gae6f5417eda5722930c61aac107396226" kind="enum"><name>EGhostReplayState</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -210,13 +210,13 @@
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal">UENUM(BlueprintType)</highlight></codeline>
-<codeline lineno="22" refid="group___game_logic_1gae6f5417eda5722930c61aac107396226" refkind="member"><highlight class="normal">enum<sp/>class<sp/><ref refid="group___game_logic_1gae6f5417eda5722930c61aac107396226" kindref="member">EGhostReplayState</ref><sp/>:<sp/>uint8</highlight></codeline>
+<codeline lineno="22" refid="group___g_a_m_e___l_o_g_i_c_1gae6f5417eda5722930c61aac107396226" refkind="member"><highlight class="normal">enum<sp/>class<sp/><ref refid="group___g_a_m_e___l_o_g_i_c_1gae6f5417eda5722930c61aac107396226" kindref="member">EGhostReplayState</ref><sp/>:<sp/>uint8</highlight></codeline>
 <codeline lineno="23"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="27" refid="group___game_logic_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>None<sp/><ref refid="group___game_logic_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" kindref="member">UMETA</ref>(DisplayName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;None&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="27" refid="group___g_a_m_e___l_o_g_i_c_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>None<sp/><ref refid="group___g_a_m_e___l_o_g_i_c_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" kindref="member">UMETA</ref>(DisplayName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;None&quot;</highlight><highlight class="normal">),</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="group___game_logic_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Recording<sp/><ref refid="group___game_logic_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" kindref="member">UMETA</ref>(DisplayName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Recording&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="32" refid="group___g_a_m_e___l_o_g_i_c_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Recording<sp/><ref refid="group___g_a_m_e___l_o_g_i_c_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" kindref="member">UMETA</ref>(DisplayName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Recording&quot;</highlight><highlight class="normal">),</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="group___game_logic_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Playback<sp/><ref refid="group___game_logic_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" kindref="member">UMETA</ref>(DisplayName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Playback&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="37" refid="group___g_a_m_e___l_o_g_i_c_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Playback<sp/><ref refid="group___g_a_m_e___l_o_g_i_c_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" kindref="member">UMETA</ref>(DisplayName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Playback&quot;</highlight><highlight class="normal">)</highlight></codeline>
 <codeline lineno="38"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
