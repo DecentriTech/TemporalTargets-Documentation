@@ -11,12 +11,13 @@
         <name>Flag</name>
         <qualifiedname>FReplayHandlerEntry::Flag</qualifiedname>
         <briefdescription>
+<para>Which action flag to match. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="24" column="26" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="24" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="25" column="27" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_replay_handler_entry_1ad3397bb1077e60055aee63d248c8d9e5" prot="public" static="no" mutable="no">
         <type>FReplayEventDelegate</type>
@@ -25,20 +26,21 @@
         <name>Handler</name>
         <qualifiedname>FReplayHandlerEntry::Handler</qualifiedname>
         <briefdescription>
+<para>Delegate to call when this flag is set. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="25" column="26" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="25" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="26" column="27" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="26" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Struct to map a flag to its handler delegate. </para>
+<para>Maps an <ref refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91" kindref="member">EReplayActionFlags</ref> bit to its C++ handler delegate. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Source/TimeAssassin/TemporalCharacter.h" line="22" column="1" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="23" bodyend="26"/>
+    <location file="Source/TimeAssassin/TemporalCharacter.h" line="23" column="1" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="24" bodyend="27"/>
     <listofallmembers>
       <member refid="struct_f_replay_handler_entry_1a907577cfd4db9610671659e64fc0546d" prot="public" virt="non-virtual"><scope>FReplayHandlerEntry</scope><name>Flag</name></member>
       <member refid="struct_f_replay_handler_entry_1ad3397bb1077e60055aee63d248c8d9e5" prot="public" virt="non-virtual"><scope>FReplayHandlerEntry</scope><name>Handler</name></member>

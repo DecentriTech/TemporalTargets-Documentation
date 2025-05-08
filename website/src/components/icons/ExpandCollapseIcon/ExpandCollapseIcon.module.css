@@ -1,0 +1,15 @@
+svg {
+    transition: transform 0.3s ease;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .expanded {
+    transform: rotate(180deg);
+  }
+  
+  .arrow line {
+    transition: all 0.3s ease;
+    stroke: currentColor;
+  }
+  

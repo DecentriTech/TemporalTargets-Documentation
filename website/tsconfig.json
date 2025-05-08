@@ -11,7 +11,9 @@
       "baseUrl": ".",
       "paths": {
       "@docusaurus/Translate": ["node_modules/@docusaurus/core/lib/client/exports/translate"],
-      "@theme/*": ["src/theme/*"]
+      "@theme/*": ["src/theme/*"],
+      "@site/*": ["src/*"] ,
+      "@icons/*": ["src/components/icons/*"]
     },
       "typeRoots": ["./typings", "./node_modules/@types"],
       "resolveJsonModule": true

@@ -117,7 +117,6 @@
     <member refid="class_a_temporal_a_i_controller_1a6ee470e16b43a49793ad3b23c402fbcc" kind="function"><name>OnUnPossess</name></member>
   </compound>
   <compound refid="class_a_temporal_character" kind="class"><name>ATemporalCharacter</name>
-    <member refid="class_a_temporal_character_1ad2de46499d798556533a4dd3fb6f8d2f" kind="variable"><name>GhostID</name></member>
     <member refid="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" kind="variable"><name>ReplayDataPtr</name></member>
     <member refid="class_a_temporal_character_1af1c84fd0c105c9a623da357a1ef3302a" kind="variable"><name>CumulativeDistances</name></member>
     <member refid="class_a_temporal_character_1a5fd5e34a8a8b28296d28154c8b0e9d48" kind="variable"><name>LastGhostPosition</name></member>
@@ -130,6 +129,16 @@
     <member refid="class_a_temporal_character_1abf6c7c6aca0ecd935f7a91aabf4b9b57" kind="variable"><name>LastProcessedShotIndex</name></member>
     <member refid="class_a_temporal_character_1a6456d62609dce400918c6a88ff5e12da" kind="variable"><name>DeltaTimeHistory</name></member>
     <member refid="class_a_temporal_character_1a1bcb0fc42ec0b14204fa1ca589931c58" kind="variable"><name>ReplayEventHandlers</name></member>
+    <member refid="class_a_temporal_character_1afc2a969d0bfae6ded5f58af00cdec4db" kind="function"><name>ProcessJumpEvent</name></member>
+    <member refid="class_a_temporal_character_1af171fc77f851673403d59d286197f5fd" kind="function"><name>ProcessShootEvent</name></member>
+    <member refid="class_a_temporal_character_1accf59b4a4abec73019a526a874076cbe" kind="function"><name>ProcessInteractEvent</name></member>
+    <member refid="class_a_temporal_character_1a745d6f6b56355d20a6bfe60a82dd199d" kind="function"><name>UpdatePlayback</name></member>
+    <member refid="class_a_temporal_character_1a95c4e4fb84e82d7057db4c24f285c24d" kind="function"><name>ProcessPlaybackEvents</name></member>
+    <member refid="class_a_temporal_character_1a61318c77c5821210f32ec1b0e625cd6d" kind="function"><name>FindTargetFrameIndex</name></member>
+    <member refid="class_a_temporal_character_1a7758d063ce228d511c90efd4ff0d8759" kind="function"><name>CalculateFractionAlongSegment</name></member>
+    <member refid="class_a_temporal_character_1aa9e690184522fb9542f1f488e37125e6" kind="function"><name>CalculateCurrentTargetIndex</name></member>
+    <member refid="class_a_temporal_character_1ac65bcd28d575599452d3abd0534b71e6" kind="function"><name>ClosestPointOnSegment2D</name></member>
+    <member refid="class_a_temporal_character_1ad2de46499d798556533a4dd3fb6f8d2f" kind="variable"><name>GhostID</name></member>
     <member refid="class_a_temporal_character_1a667d9c49508c25567dfb5672b15a6008" kind="function"><name>ATemporalCharacter</name></member>
     <member refid="class_a_temporal_character_1a1efeb6e6a04c85d8e29dd8b8fe1b2c0f" kind="function"><name>~ATemporalCharacter</name></member>
     <member refid="class_a_temporal_character_1a6870164dc921d6cb870dc2f5acc1e427" kind="function"><name>EndPlay</name></member>
@@ -138,17 +147,12 @@
     <member refid="class_a_temporal_character_1a2ce29be167b8086ade12bd84c96521db" kind="function"><name>GetRecordedFrames</name></member>
     <member refid="class_a_temporal_character_1a9196bf916e358973e22db2f41d32fe26" kind="function"><name>ResetPlayback</name></member>
     <member refid="class_a_temporal_character_1a67a3cec0d56a486a1a53894e5214bb58" kind="function"><name>BeginPlay</name></member>
-    <member refid="class_a_temporal_character_1afc2a969d0bfae6ded5f58af00cdec4db" kind="function"><name>ProcessJumpEvent</name></member>
-    <member refid="class_a_temporal_character_1af171fc77f851673403d59d286197f5fd" kind="function"><name>ProcessShootEvent</name></member>
-    <member refid="class_a_temporal_character_1accf59b4a4abec73019a526a874076cbe" kind="function"><name>ProcessInteractEvent</name></member>
-    <member refid="class_a_temporal_character_1a745d6f6b56355d20a6bfe60a82dd199d" kind="function"><name>UpdatePlayback</name></member>
-    <member refid="class_a_temporal_character_1a95c4e4fb84e82d7057db4c24f285c24d" kind="function"><name>ProcessPlaybackEvents</name></member>
-    <member refid="class_a_temporal_character_1aa9e690184522fb9542f1f488e37125e6" kind="function"><name>CalculateCurrentTargetIndex</name></member>
-    <member refid="class_a_temporal_character_1a7758d063ce228d511c90efd4ff0d8759" kind="function"><name>CalculateFractionAlongSegment</name></member>
-    <member refid="class_a_temporal_character_1a61318c77c5821210f32ec1b0e625cd6d" kind="function"><name>FindTargetFrameIndex</name></member>
-    <member refid="class_a_temporal_character_1ac65bcd28d575599452d3abd0534b71e6" kind="function"><name>ClosestPointOnSegment2D</name></member>
   </compound>
   <compound refid="class_a_temporal_game_mode" kind="class"><name>ATemporalGameMode</name>
+    <member refid="class_a_temporal_game_mode_1acfa140c060cc5f5e31f1a75d092bd41e" kind="enum"><name>EGhostReplayState</name></member>
+    <member refid="class_a_temporal_game_mode_1acfa140c060cc5f5e31f1a75d092bd41eaa3f80d8f0f1b4ffa8c475f5d60ea5635" kind="enumvalue"><name>UMETA</name></member>
+    <member refid="class_a_temporal_game_mode_1acfa140c060cc5f5e31f1a75d092bd41eaa3f80d8f0f1b4ffa8c475f5d60ea5635" kind="enumvalue"><name>UMETA</name></member>
+    <member refid="class_a_temporal_game_mode_1acfa140c060cc5f5e31f1a75d092bd41eaa3f80d8f0f1b4ffa8c475f5d60ea5635" kind="enumvalue"><name>UMETA</name></member>
     <member refid="class_a_temporal_game_mode_1a196e99b79778bd0d825457c33a27988c" kind="variable"><name>bPlayMode</name></member>
     <member refid="class_a_temporal_game_mode_1aa69c3c09bc3abf18a4121171f1577a0c" kind="variable"><name>RespawnDelay</name></member>
     <member refid="class_a_temporal_game_mode_1a2f20687efa9847159c5e8b6504a1d1c9" kind="variable"><name>RespawnTimerHandle</name></member>
@@ -220,8 +224,8 @@
     <member refid="struct_f_interaction_data_1a0ae72af307e61d6fb2098380f263d524" kind="function"><name>FInteractionData</name></member>
   </compound>
   <compound refid="struct_f_pattern_snapshot" kind="struct"><name>FPatternSnapshot</name>
-    <member refid="struct_f_pattern_snapshot_1a9599937fc475fbd1df450437dae8c84e" kind="function"><name>UPROPERTY</name></member>
-    <member refid="struct_f_pattern_snapshot_1ab6fd722cf0a4558c002ec6d4aaf9be69" kind="function"><name>UPROPERTY</name></member>
+    <member refid="struct_f_pattern_snapshot_1abb88d1ebe12cac013871959715655485" kind="variable"><name>Points</name></member>
+    <member refid="struct_f_pattern_snapshot_1a3da48e29acba4fa929e0b4817c1624a0" kind="variable"><name>PreviewPoint</name></member>
     <member refid="struct_f_pattern_snapshot_1a81fe603ff32fd87ff43510aa9ea64c2d" kind="function"><name>FPatternSnapshot</name></member>
     <member refid="struct_f_pattern_snapshot_1a9125ff8ceeb279baa87e3addf8901904" kind="function"><name>FPatternSnapshot</name></member>
     <member refid="struct_f_pattern_snapshot_1a3c098cd641f1ebbb7da096715d5894fb" kind="function"><name>FPatternSnapshot</name></member>
@@ -310,9 +314,6 @@
     <member refid="class_u_game_h_u_d_widget_1a72d555e1b0ce08eb4ee44569a91635a9" kind="function"><name>SetAmmoText</name></member>
   </compound>
   <compound refid="class_u_grid_canvas_widget" kind="class"><name>UGridCanvasWidget</name>
-    <member refid="class_u_grid_canvas_widget_1ac71beba26bb8666f2a31c625ffebb05e" kind="variable"><name>YMultiplier</name></member>
-    <member refid="class_u_grid_canvas_widget_1a8b294a32e146b92ece32f6ce8c0219d6" kind="variable"><name>Zoom</name></member>
-    <member refid="class_u_grid_canvas_widget_1a1b6ff7ce996bcc84e9f2bb39a06c1876" kind="variable"><name>MinZoom</name></member>
     <member refid="class_u_grid_canvas_widget_1adaa3e6605fd9649fdc2108c2310b4c64" kind="variable"><name>LastMousePosition</name></member>
     <member refid="class_u_grid_canvas_widget_1a35fdbde2a5fe1124b1bd2e6519a64176" kind="variable"><name>HoverPoint</name></member>
     <member refid="class_u_grid_canvas_widget_1a7b51a477edf97f3529f58695ebf5f201" kind="variable"><name>PreviewPoint</name></member>
@@ -326,34 +327,35 @@
     <member refid="class_u_grid_canvas_widget_1a4846065e699258f2529fc2bd1fb830e6" kind="variable"><name>UndoStack</name></member>
     <member refid="class_u_grid_canvas_widget_1aee5d312aa51f0694e52f8ed47a364c44" kind="variable"><name>RedoStack</name></member>
     <member refid="class_u_grid_canvas_widget_1a117126e5eeb9fe06c16cdd58223daea4" kind="variable"><name>MaxHistory</name></member>
-    <member refid="class_u_grid_canvas_widget_1a7374bc768463bbd6caf358f5ed3720fd" kind="variable"><name>kStrokeSampleMinDist</name></member>
+    <member refid="class_u_grid_canvas_widget_1a8b294a32e146b92ece32f6ce8c0219d6" kind="variable"><name>Zoom</name></member>
+    <member refid="class_u_grid_canvas_widget_1a20d6268b561c6675de55f0c3c875a8c8" kind="variable"><name>XAxisRange</name></member>
+    <member refid="class_u_grid_canvas_widget_1a40c73780a82afbbe153da653d5facac7" kind="variable"><name>PanOffset</name></member>
+    <member refid="class_u_grid_canvas_widget_1a1b6ff7ce996bcc84e9f2bb39a06c1876" kind="variable"><name>MinZoom</name></member>
+    <member refid="class_u_grid_canvas_widget_1ae8ef53adbbe9319fcdfdfc60b2debe84" kind="variable"><name>MaxZoom</name></member>
+    <member refid="class_u_grid_canvas_widget_1ab12277f9c08374ba232cc695dd1b32ed" kind="variable"><name>DefaultMagSize</name></member>
+    <member refid="class_u_grid_canvas_widget_1ab668fe409b2c2bb94178dd3a4f042d26" kind="variable"><name>EditMode</name></member>
+    <member refid="class_u_grid_canvas_widget_1ab2adad62b93aad5f052e93e0c6c6355c" kind="variable"><name>SelectedWeapon</name></member>
+    <member refid="class_u_grid_canvas_widget_1a349b8127fd0eee997c2a14b8f9741170" kind="variable"><name>MajorLineColor</name></member>
+    <member refid="class_u_grid_canvas_widget_1a7cb82720e145f5443bb1ed860e2723c2" kind="variable"><name>MinorLineColor</name></member>
+    <member refid="class_u_grid_canvas_widget_1a50a898f2741dfc0314582c7bf0bd0d18" kind="variable"><name>bSnapToGrid</name></member>
+    <member refid="class_u_grid_canvas_widget_1ae8549e85756ee94db673883d082fc793" kind="variable"><name>SnapInterval</name></member>
     <member refid="class_u_grid_canvas_widget_1adc343c9bfe7979e03aefc1b3b0693080" kind="function"><name>UGridCanvasWidget</name></member>
-    <member refid="class_u_grid_canvas_widget_1aaca3cdd4577b27afd2a7a8eb6cb4dc63" kind="function"><name>UFUNCTION</name></member>
-    <member refid="class_u_grid_canvas_widget_1a3e442dcd630bd76e55f4359d1d12fc35" kind="function"><name>UFUNCTION</name></member>
-    <member refid="class_u_grid_canvas_widget_1a64497714f46db4d58de678a384822462" kind="function"><name>UFUNCTION</name></member>
-    <member refid="class_u_grid_canvas_widget_1a9d9ba9df355b0098b7c917897eedf108" kind="function"><name>UFUNCTION</name></member>
-    <member refid="class_u_grid_canvas_widget_1acd474cca41fd973bea0554a4ac39c69d" kind="function"><name>UFUNCTION</name></member>
-    <member refid="class_u_grid_canvas_widget_1a2bf8d84ac1a5136a0a67d04985248299" kind="function"><name>UFUNCTION</name></member>
-    <member refid="class_u_grid_canvas_widget_1a3b5542d3aef92681161acc430e766ae0" kind="function"><name>UFUNCTION</name></member>
-    <member refid="class_u_grid_canvas_widget_1afdd2617e37b210e545ee1b78bb41f2d9" kind="function"><name>UFUNCTION</name></member>
-    <member refid="class_u_grid_canvas_widget_1a6bd38aa4f5a6517fda2bfd7dc6e39014" kind="function"><name>UFUNCTION</name></member>
-    <member refid="class_u_grid_canvas_widget_1abf7c3c9ea71a7aa23d8d8bce986b7c22" kind="function"><name>UFUNCTION</name></member>
-    <member refid="class_u_grid_canvas_widget_1ae8384d98b343bf59e05547f18ae3557f" kind="function"><name>UFUNCTION</name></member>
-    <member refid="class_u_grid_canvas_widget_1a3952283f48b8ae9c5664632fd7c3e1e8" kind="function"><name>UFUNCTION</name></member>
-    <member refid="class_u_grid_canvas_widget_1a47e19c42a5896c424b7e6846e4410127" kind="function"><name>UFUNCTION</name></member>
-    <member refid="class_u_grid_canvas_widget_1a45bf086c8032b2410c25638227dc2292" kind="function"><name>UFUNCTION</name></member>
-    <member refid="class_u_grid_canvas_widget_1a22788bc07fa6679152f73904d161ebcc" kind="function"><name>UFUNCTION</name></member>
-    <member refid="class_u_grid_canvas_widget_1a04aa4fe555cbe5c83f20a2845e706fe7" kind="function"><name>UFUNCTION</name></member>
-    <member refid="class_u_grid_canvas_widget_1a85ccb0467e81938937dcb2e5c89c52f5" kind="function"><name>UPROPERTY</name></member>
-    <member refid="class_u_grid_canvas_widget_1a8a011ea89b8486ba0bc722c48e272a37" kind="function"><name>UPROPERTY</name></member>
-    <member refid="class_u_grid_canvas_widget_1a51d7d20def67e9ac45882ff9738a011e" kind="function"><name>UPROPERTY</name></member>
-    <member refid="class_u_grid_canvas_widget_1a1e35fc998d3987d734a6da707e1cbc2e" kind="function"><name>UPROPERTY</name></member>
-    <member refid="class_u_grid_canvas_widget_1a1f47e34e14ddaebee5fac153cda9f38e" kind="function"><name>UPROPERTY</name></member>
-    <member refid="class_u_grid_canvas_widget_1af912ea30a490e0f208a9282a47487130" kind="function"><name>UPROPERTY</name></member>
-    <member refid="class_u_grid_canvas_widget_1aa74a4cb66b86d2d7b65f4e7c383b945b" kind="function"><name>UPROPERTY</name></member>
-    <member refid="class_u_grid_canvas_widget_1a6a70f4ceed644356000f16eea272f2fa" kind="function"><name>UPROPERTY</name></member>
-    <member refid="class_u_grid_canvas_widget_1aee58d81aa00acd40e70168f534523595" kind="function"><name>UPROPERTY</name></member>
-    <member refid="class_u_grid_canvas_widget_1a87fe15f93add6bbf8d61447917720076" kind="function"><name>UPROPERTY</name></member>
+    <member refid="class_u_grid_canvas_widget_1a17157daa6a01bbe1ae62b3d70abe47f6" kind="function"><name>SetSprayPoints</name></member>
+    <member refid="class_u_grid_canvas_widget_1a277980892f05df5ed7fe46dc96ad3ddd" kind="function"><name>ScaleSprayPatternUniform</name></member>
+    <member refid="class_u_grid_canvas_widget_1a5a7bdf5d7870a0a87d9b45cab83526e2" kind="function"><name>ScaleSprayPattern</name></member>
+    <member refid="class_u_grid_canvas_widget_1a837d351067e00db67f5d82bf4ed10a57" kind="function"><name>GetSprayPatternPoints</name></member>
+    <member refid="class_u_grid_canvas_widget_1a53a019ebb3c0d5ac9d8ea09e1b7fbe44" kind="function"><name>ExportSprayPattern</name></member>
+    <member refid="class_u_grid_canvas_widget_1a5ac8aa12f7dc2cbb7f53f118e886e1a7" kind="function"><name>AddPoint</name></member>
+    <member refid="class_u_grid_canvas_widget_1a68a966efa9980870479593cfcc229198" kind="function"><name>ClearPoints</name></member>
+    <member refid="class_u_grid_canvas_widget_1a027fe37cddafa66528807b887c419e30" kind="function"><name>SetHoverPoint</name></member>
+    <member refid="class_u_grid_canvas_widget_1a40fc805fe9ee5e4d46730b85dddc173b" kind="function"><name>GetPreviewPoint</name></member>
+    <member refid="class_u_grid_canvas_widget_1a6a3556ef17031e0cb8bcf116a2c66eae" kind="function"><name>SetWeaponData</name></member>
+    <member refid="class_u_grid_canvas_widget_1a988a2364487a8b8773096af84da17f25" kind="function"><name>SetEditMode</name></member>
+    <member refid="class_u_grid_canvas_widget_1ad20f17a7516276cf07f75ceb4d0b68e9" kind="function"><name>ToggleEditMode</name></member>
+    <member refid="class_u_grid_canvas_widget_1a9a07dfe3f2d4ce2bb4eb46204d4ba9a3" kind="function"><name>Undo</name></member>
+    <member refid="class_u_grid_canvas_widget_1a94b56c765eaf5fa15566118b52d3ecf1" kind="function"><name>Redo</name></member>
+    <member refid="class_u_grid_canvas_widget_1a4b9e258664b0c3fba9529554e21c6c04" kind="function"><name>CanUndo</name></member>
+    <member refid="class_u_grid_canvas_widget_1aede9aae66d771afd65a0143aca636574" kind="function"><name>CanRedo</name></member>
     <member refid="class_u_grid_canvas_widget_1a677510b3fdd746610ffa6e4e31a213e2" kind="function"><name>NativeConstruct</name></member>
     <member refid="class_u_grid_canvas_widget_1af181364848460173db92c2c13f9f3871" kind="function"><name>NativeTick</name></member>
     <member refid="class_u_grid_canvas_widget_1ac57384fa5f8227744bffc1cb1ee7465d" kind="function"><name>NativePaint</name></member>
@@ -363,15 +365,15 @@
     <member refid="class_u_grid_canvas_widget_1a6bf7aad699bdf4bbd46d29d4d2ca0b34" kind="function"><name>NativeOnMouseWheel</name></member>
     <member refid="class_u_grid_canvas_widget_1a8878f0eceafba9d3e25bb389c5179592" kind="function"><name>NativeOnKeyDown</name></member>
     <member refid="class_u_grid_canvas_widget_1a76184b92e94562cf1fb7db29dde34d7d" kind="function"><name>NativeOnMouseEnter</name></member>
+    <member refid="class_u_grid_canvas_widget_1a11eeb7716666f2401182caf03e728ffb" kind="function"><name>CalcGridParams</name></member>
     <member refid="class_u_grid_canvas_widget_1af7bf4020fd90f435b0ee8d28368152be" kind="function"><name>GetDesiredShotCount</name></member>
     <member refid="class_u_grid_canvas_widget_1a014eef438b321834225cc24ab83a8708" kind="function"><name>RecordUndoSnapshot</name></member>
-    <member refid="class_u_grid_canvas_widget_1a11eeb7716666f2401182caf03e728ffb" kind="function"><name>CalcGridParams</name></member>
-    <member refid="class_u_grid_canvas_widget_1afa429676789c29b8c1f24400419cf381" kind="function"><name>DrawGrid</name></member>
-    <member refid="class_u_grid_canvas_widget_1a3f177a0234e727f2388dca9846bb1bea" kind="function"><name>DrawOriginCrosshair</name></member>
-    <member refid="class_u_grid_canvas_widget_1a191908b6ea48558e524166623bc05a5d" kind="function"><name>DrawAxisLabels</name></member>
-    <member refid="class_u_grid_canvas_widget_1a1b25eb9426c0539d52c46c2b886a2912" kind="function"><name>DrawHudHints</name></member>
-    <member refid="class_u_grid_canvas_widget_1ae271f88d74d55f344bb36fa18899492b" kind="function"><name>DrawPreviewPoint</name></member>
+    <member refid="class_u_grid_canvas_widget_1aea903413f50eabd54387ab5f0c85ce13" kind="function"><name>DrawGrid</name></member>
+    <member refid="class_u_grid_canvas_widget_1a4107170129374db71e599de859e53942" kind="function"><name>DrawOriginCrosshair</name></member>
+    <member refid="class_u_grid_canvas_widget_1a96bd4b8913fb555cf3757ad3683e03f1" kind="function"><name>DrawAxisLabels</name></member>
+    <member refid="class_u_grid_canvas_widget_1a587a3193c11d8738d105235e7522a194" kind="function"><name>DrawHudHints</name></member>
     <member refid="class_u_grid_canvas_widget_1ae32d3546ec59577d71780cf9596e063a" kind="function"><name>DrawSprayPattern</name></member>
+    <member refid="class_u_grid_canvas_widget_1ad8a1b003a01c4d0c67b840507f66b91f" kind="function"><name>DrawPreviewPoint</name></member>
     <member refid="class_u_grid_canvas_widget_1a88f74842a895dcbe707101091072c419" kind="function"><name>DrawFreehandPreview</name></member>
     <member refid="class_u_grid_canvas_widget_1a91b9acde88110b4e989da74c410d2dbd" kind="function"><name>ResampleStroke</name></member>
     <member refid="class_u_grid_canvas_widget_1a12b70ad61949a39f1591f79e64ea632c" kind="function"><name>UPROPERTY</name></member>
@@ -524,9 +526,7 @@
     <member refid="_grid_canvas_widget_8cpp_1a96505a0909802014ba3608717ba58bac" kind="typedef"><name>FGridParams</name></member>
   </compound>
   <compound refid="_grid_canvas_widget_8h" kind="file"><name>GridCanvasWidget.h</name>
-    <member refid="_grid_canvas_widget_8h_1a81e2f378ed72995ca43cc3deb13507cc" kind="enum"><name>ERecoilEditMode</name></member>
-    <member refid="_grid_canvas_widget_8h_1a81e2f378ed72995ca43cc3deb13507ccaa3f80d8f0f1b4ffa8c475f5d60ea5635" kind="enumvalue"><name>UMETA</name></member>
-    <member refid="_grid_canvas_widget_8h_1a81e2f378ed72995ca43cc3deb13507ccaa3f80d8f0f1b4ffa8c475f5d60ea5635" kind="enumvalue"><name>UMETA</name></member>
+    <member refid="group___u_i___w_i_d_g_e_t_s___a_n_d___i_n_t_e_r_f_a_c_e_s_1ga81e2f378ed72995ca43cc3deb13507cc" kind="enum"><name>ERecoilEditMode</name></member>
   </compound>
   <compound refid="_hitmarker_widget_8cpp" kind="file"><name>HitmarkerWidget.cpp</name>
   </compound>
@@ -577,7 +577,6 @@
   <compound refid="_temporal_game_mode_8cpp" kind="file"><name>TemporalGameMode.cpp</name>
   </compound>
   <compound refid="_temporal_game_mode_8h" kind="file"><name>TemporalGameMode.h</name>
-    <member refid="group___g_a_m_e___l_o_g_i_c_1gae6f5417eda5722930c61aac107396226" kind="enum"><name>EGhostReplayState</name></member>
   </compound>
   <compound refid="_time_assassin_8_build_8cs" kind="file"><name>TimeAssassin.Build.cs</name>
   </compound>
@@ -602,11 +601,12 @@
   </compound>
   <compound refid="_time_assassin_editor_8_target_8cs" kind="file"><name>TimeAssassinEditor.Target.cs</name>
   </compound>
+  <compound refid="group___u_i___w_i_d_g_e_t_s___a_n_d___i_n_t_e_r_f_a_c_e_s" kind="group"><name>UI_WIDGETS_AND_INTERFACES</name>
+    <member refid="group___u_i___w_i_d_g_e_t_s___a_n_d___i_n_t_e_r_f_a_c_e_s_1ga81e2f378ed72995ca43cc3deb13507cc" kind="enum"><name>ERecoilEditMode</name></member>
+    <member refid="group___u_i___w_i_d_g_e_t_s___a_n_d___i_n_t_e_r_f_a_c_e_s_1gga81e2f378ed72995ca43cc3deb13507ccaa3f80d8f0f1b4ffa8c475f5d60ea5635" kind="enumvalue"><name>UMETA</name></member>
+    <member refid="group___u_i___w_i_d_g_e_t_s___a_n_d___i_n_t_e_r_f_a_c_e_s_1gga81e2f378ed72995ca43cc3deb13507ccaa3f80d8f0f1b4ffa8c475f5d60ea5635" kind="enumvalue"><name>UMETA</name></member>
+  </compound>
   <compound refid="group___g_a_m_e___l_o_g_i_c" kind="group"><name>GAME_LOGIC</name>
-    <member refid="group___g_a_m_e___l_o_g_i_c_1gae6f5417eda5722930c61aac107396226" kind="enum"><name>EGhostReplayState</name></member>
-    <member refid="group___g_a_m_e___l_o_g_i_c_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" kind="enumvalue"><name>UMETA</name></member>
-    <member refid="group___g_a_m_e___l_o_g_i_c_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" kind="enumvalue"><name>UMETA</name></member>
-    <member refid="group___g_a_m_e___l_o_g_i_c_1ggae6f5417eda5722930c61aac107396226aa3f80d8f0f1b4ffa8c475f5d60ea5635" kind="enumvalue"><name>UMETA</name></member>
   </compound>
   <compound refid="dir_74389ed8173ad57b461b9d623a1f3867" kind="dir"><name>Source</name>
   </compound>

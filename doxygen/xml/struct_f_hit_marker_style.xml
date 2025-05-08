@@ -12,13 +12,13 @@
         <qualifiedname>FHitMarkerStyle::LineLength</qualifiedname>
         <initializer>= 24.f</initializer>
         <briefdescription>
-<para>How long each arm is. </para>
+<para>How long each arm is drawn (in pixels). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="19" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="19" bodyend="-1"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="27" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_hit_marker_style_1a39fbbdd90e63505a0bcd5e4145912416" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -28,13 +28,13 @@
         <qualifiedname>FHitMarkerStyle::InnerGap</qualifiedname>
         <initializer>= 16.f</initializer>
         <briefdescription>
-<para>Distance from center before the line starts. </para>
+<para>Distance from the center before each arm starts (in pixels). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="23" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="23" bodyend="-1"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="31" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_hit_marker_style_1a82bc83a64e44847affb67ed3c0f7bde0" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -44,13 +44,13 @@
         <qualifiedname>FHitMarkerStyle::Thickness</qualifiedname>
         <initializer>= 2.f</initializer>
         <briefdescription>
-<para>Thickness of the lines. </para>
+<para>Thickness of the arms (in pixels). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="27" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="27" bodyend="-1"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="35" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_hit_marker_style_1a4958e397562e2280a6092518928ce26e" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -60,13 +60,13 @@
         <qualifiedname>FHitMarkerStyle::FadeTime</qualifiedname>
         <initializer>= 0.25f</initializer>
         <briefdescription>
-<para>Total lifetime (in seconds) before it fades out. </para>
+<para>Total display time (in seconds) before the marker fades out. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="31" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="31" bodyend="-1"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="39" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_hit_marker_style_1abdedd8b5596675f05629cc40d5696539" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -76,13 +76,13 @@
         <qualifiedname>FHitMarkerStyle::JitterRange</qualifiedname>
         <initializer>= 8.f</initializer>
         <briefdescription>
-<para>Random spread of overlapping markers. </para>
+<para>Random spawn offset (in pixels) for overlapping markers. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="35" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="35" bodyend="-1"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="43" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_hit_marker_style_1a7f6873ec5b9db4926a10c782c2d4ae90" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -92,13 +92,13 @@
         <qualifiedname>FHitMarkerStyle::PopScale</qualifiedname>
         <initializer>= 1.3f</initializer>
         <briefdescription>
-<para>Initial “pop” scale on spawn (1 = normal size) </para>
+<para>Initial scale when the marker pops (1.0 = normal size). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="39" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="39" bodyend="-1"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="47" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_hit_marker_style_1aa993953115dc027cfa6d741f4f0cdc37" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -108,13 +108,13 @@
         <qualifiedname>FHitMarkerStyle::PopDuration</qualifiedname>
         <initializer>= 0.25f</initializer>
         <briefdescription>
-<para>Duration (in seconds) to animate from PopScale -&gt; 1. </para>
+<para>Duration (in seconds) of the pop animation (<ref refid="struct_f_hit_marker_style_1a7f6873ec5b9db4926a10c782c2d4ae90" kindref="member">PopScale</ref> -&gt; 1.0). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="43" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="43" bodyend="-1"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="51" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="51" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_hit_marker_style_1a2b97f26b05b73d657493ac2517e4658c" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -124,21 +124,21 @@
         <qualifiedname>FHitMarkerStyle::KillPopScale</qualifiedname>
         <initializer>= 1.5f</initializer>
         <briefdescription>
-<para>Scale to use when you kill (overrides PopScale) </para>
+<para>Scale override when the hit was a kill (overrides <ref refid="struct_f_hit_marker_style_1a7f6873ec5b9db4926a10c782c2d4ae90" kindref="member">PopScale</ref>). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="47" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="47" bodyend="-1"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="55" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="55" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Designer-tweakable style parameters for each marker X. </para>
+<para>Struct for hit marker style parameters. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Source/TimeAssassin/HitmarkerWidget.h" line="13" column="1" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="14" bodyend="48"/>
+    <location file="Source/TimeAssassin/HitmarkerWidget.h" line="21" column="1" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="22" bodyend="56"/>
     <listofallmembers>
       <member refid="struct_f_hit_marker_style_1a4958e397562e2280a6092518928ce26e" prot="public" virt="non-virtual"><scope>FHitMarkerStyle</scope><name>FadeTime</name></member>
       <member refid="struct_f_hit_marker_style_1a39fbbdd90e63505a0bcd5e4145912416" prot="public" virt="non-virtual"><scope>FHitMarkerStyle</scope><name>InnerGap</name></member>

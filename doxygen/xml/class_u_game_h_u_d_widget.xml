@@ -13,12 +13,13 @@
         <qualifiedname>UGameHUDWidget::CrosshairWidget</qualifiedname>
         <initializer>= nullptr</initializer>
         <briefdescription>
+<para>The on-screen crosshair UI element. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GameHUDWidget.h" line="56" column="18" bodyfile="Source/TimeAssassin/GameHUDWidget.h" bodystart="56" bodyend="-1"/>
+        <location file="Source/TimeAssassin/GameHUDWidget.h" line="84" column="22" bodyfile="Source/TimeAssassin/GameHUDWidget.h" bodystart="84" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_game_h_u_d_widget_1a443293f95db53284a3309174773ece83" prot="private" static="no" mutable="no">
         <type><ref refid="class_u_hitmarker_widget" kindref="compound">UHitmarkerWidget</ref> *</type>
@@ -28,12 +29,13 @@
         <qualifiedname>UGameHUDWidget::HitmarkerWidget</qualifiedname>
         <initializer>= nullptr</initializer>
         <briefdescription>
+<para>The on-screen hitmarker UI element. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GameHUDWidget.h" line="59" column="18" bodyfile="Source/TimeAssassin/GameHUDWidget.h" bodystart="59" bodyend="-1"/>
+        <location file="Source/TimeAssassin/GameHUDWidget.h" line="88" column="22" bodyfile="Source/TimeAssassin/GameHUDWidget.h" bodystart="88" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_game_h_u_d_widget_1a0a3ee833856c3eb7913ef46a274b37bd" prot="private" static="no" mutable="no">
         <type>UTextBlock *</type>
@@ -43,12 +45,13 @@
         <qualifiedname>UGameHUDWidget::MagAmmoText</qualifiedname>
         <initializer>= nullptr</initializer>
         <briefdescription>
+<para>Text block displaying current magazine ammo count. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GameHUDWidget.h" line="62" column="12" bodyfile="Source/TimeAssassin/GameHUDWidget.h" bodystart="62" bodyend="-1"/>
+        <location file="Source/TimeAssassin/GameHUDWidget.h" line="92" column="16" bodyfile="Source/TimeAssassin/GameHUDWidget.h" bodystart="92" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_game_h_u_d_widget_1a5ef66cfa087619162dbd4c7b969eca47" prot="private" static="no" mutable="no">
         <type>UTextBlock *</type>
@@ -58,12 +61,13 @@
         <qualifiedname>UGameHUDWidget::ReserveAmmoText</qualifiedname>
         <initializer>= nullptr</initializer>
         <briefdescription>
+<para>Text block displaying reserve ammo count. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GameHUDWidget.h" line="65" column="12" bodyfile="Source/TimeAssassin/GameHUDWidget.h" bodystart="65" bodyend="-1"/>
+        <location file="Source/TimeAssassin/GameHUDWidget.h" line="96" column="16" bodyfile="Source/TimeAssassin/GameHUDWidget.h" bodystart="96" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -74,13 +78,14 @@
         <name>InitializeHUD</name>
         <qualifiedname>UGameHUDWidget::InitializeHUD</qualifiedname>
         <briefdescription>
-<para>One-shot call from the owning PlayerController to wire up run-time references. </para>
+<para>One-shot call from the owning PlayerController to wire up runtime references. </para>
         </briefdescription>
         <detaileddescription>
+<para>Hooks up designer-created widgets such as <ref refid="class_u_game_h_u_d_widget_1acba2bdd9f0eb4d5a7938067ade3bc72d" kindref="member">CrosshairWidget</ref> and <ref refid="class_u_game_h_u_d_widget_1a443293f95db53284a3309174773ece83" kindref="member">HitmarkerWidget</ref>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GameHUDWidget.h" line="28" column="6" bodyfile="Source/TimeAssassin/GameHUDWidget.cpp" bodystart="16" bodyend="19"/>
+        <location file="Source/TimeAssassin/GameHUDWidget.h" line="35" column="10" bodyfile="Source/TimeAssassin/GameHUDWidget.cpp" bodystart="16" bodyend="19"/>
       </memberdef>
       <memberdef kind="function" id="class_u_game_h_u_d_widget_1ae75cd5a4e2c1fce708d02356556b3a85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -96,11 +101,20 @@
 <para>Add an arbitrary widget (e.g. </para>
         </briefdescription>
         <detaileddescription>
-<para>objective tracker) to the viewport at run time. </para>
+<para>objective tracker) to the viewport at runtime. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>WidgetToAdd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to the UUserWidget to add to the viewport. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GameHUDWidget.h" line="32" column="6" bodyfile="Source/TimeAssassin/GameHUDWidget.cpp" bodystart="21" bodyend="27"/>
+        <location file="Source/TimeAssassin/GameHUDWidget.h" line="42" column="10" bodyfile="Source/TimeAssassin/GameHUDWidget.cpp" bodystart="21" bodyend="27"/>
       </memberdef>
       <memberdef kind="function" id="class_u_game_h_u_d_widget_1a7c0f731aa4ff033dfdd63c908575375f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_u_crosshair_widget" kindref="compound">UCrosshairWidget</ref> *</type>
@@ -109,13 +123,16 @@
         <name>GetCrosshairWidget</name>
         <qualifiedname>UGameHUDWidget::GetCrosshairWidget</qualifiedname>
         <briefdescription>
-<para>Accessors so gameplay code can tweak the designer widgets without exposing members. </para>
+<para>Get the crosshair widget instance for custom adjustments. </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Pointer to the <ref refid="class_u_crosshair_widget" kindref="compound">UCrosshairWidget</ref> bound via Blueprint. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GameHUDWidget.h" line="36" column="18" bodyfile="Source/TimeAssassin/GameHUDWidget.h" bodystart="36" bodyend="36"/>
+        <location file="Source/TimeAssassin/GameHUDWidget.h" line="49" column="22" bodyfile="Source/TimeAssassin/GameHUDWidget.h" bodystart="49" bodyend="49"/>
       </memberdef>
       <memberdef kind="function" id="class_u_game_h_u_d_widget_1a84b112b31d284755353899ebd7958c36" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_u_hitmarker_widget" kindref="compound">UHitmarkerWidget</ref> *</type>
@@ -124,12 +141,16 @@
         <name>GetHitmarkerWidget</name>
         <qualifiedname>UGameHUDWidget::GetHitmarkerWidget</qualifiedname>
         <briefdescription>
+<para>Get the hitmarker widget instance for custom adjustments. </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Pointer to the <ref refid="class_u_hitmarker_widget" kindref="compound">UHitmarkerWidget</ref> bound via Blueprint. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GameHUDWidget.h" line="39" column="18" bodyfile="Source/TimeAssassin/GameHUDWidget.h" bodystart="39" bodyend="39"/>
+        <location file="Source/TimeAssassin/GameHUDWidget.h" line="56" column="22" bodyfile="Source/TimeAssassin/GameHUDWidget.h" bodystart="56" bodyend="56"/>
       </memberdef>
       <memberdef kind="function" id="class_u_game_h_u_d_widget_1aa9420e07cff87f47e2decee668e8f6a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -149,10 +170,28 @@
 <para>Push updated ammo values to the on-screen counters. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>CurrentMag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Current magazine round count. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ReserveAmmo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Remaining reserve ammo count.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Calls <ref refid="class_u_game_h_u_d_widget_1a72d555e1b0ce08eb4ee44569a91635a9" kindref="member">SetAmmoText()</ref> for each text block to format the display. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GameHUDWidget.h" line="43" column="6" bodyfile="Source/TimeAssassin/GameHUDWidget.cpp" bodystart="29" bodyend="39"/>
+        <location file="Source/TimeAssassin/GameHUDWidget.h" line="66" column="10" bodyfile="Source/TimeAssassin/GameHUDWidget.cpp" bodystart="29" bodyend="39"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -163,12 +202,13 @@
         <name>NativeConstruct</name>
         <qualifiedname>UGameHUDWidget::NativeConstruct</qualifiedname>
         <briefdescription>
+<para>Override of UUserWidget::NativeConstruct to perform post-creation setup. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GameHUDWidget.h" line="47" column="14" bodyfile="Source/TimeAssassin/GameHUDWidget.cpp" bodystart="8" bodyend="14"/>
+        <location file="Source/TimeAssassin/GameHUDWidget.h" line="70" column="18" bodyfile="Source/TimeAssassin/GameHUDWidget.cpp" bodystart="8" bodyend="14"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -187,19 +227,38 @@
           <declname>Value</declname>
         </param>
         <briefdescription>
-<para>Helper: converts an int to text and writes it to the given text block. </para>
+<para>Helper: converts an integer to text and writes it to a text block. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>TextWidget</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to the UTextBlock where the value will be displayed. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Integer to convert via FText::AsNumber(). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GameHUDWidget.h" line="52" column="6" bodyfile="Source/TimeAssassin/GameHUDWidget.cpp" bodystart="41" bodyend="47"/>
+        <location file="Source/TimeAssassin/GameHUDWidget.h" line="78" column="10" bodyfile="Source/TimeAssassin/GameHUDWidget.cpp" bodystart="41" bodyend="47"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Lightweight HUD container that owns UI elements like the crosshair, hit-marker and ammo counters. </para>
+<para>Lightweight HUD container that owns UI elements like the crosshair, hit-marker, and ammo counters. </para>
     </briefdescription>
     <detaileddescription>
+<para>Manages <ref refid="class_u_crosshair_widget" kindref="compound">crosshair</ref> and <ref refid="class_u_hitmarker_widget" kindref="compound">hitmarker</ref> instances, and updates <ref refid="class_u_game_h_u_d_widget_1a0a3ee833856c3eb7913ef46a274b37bd" kindref="member">MagAmmoText</ref> and <ref refid="class_u_game_h_u_d_widget_1a5ef66cfa087619162dbd4c7b969eca47" kindref="member">ReserveAmmoText</ref> to display ammo. </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -248,7 +307,7 @@
         <label>UUserWidget</label>
       </node>
     </collaborationgraph>
-    <location file="Source/TimeAssassin/GameHUDWidget.h" line="21" column="1" bodyfile="Source/TimeAssassin/GameHUDWidget.h" bodystart="22" bodyend="66"/>
+    <location file="Source/TimeAssassin/GameHUDWidget.h" line="24" column="1" bodyfile="Source/TimeAssassin/GameHUDWidget.h" bodystart="25" bodyend="97"/>
     <listofallmembers>
       <member refid="class_u_game_h_u_d_widget_1ae75cd5a4e2c1fce708d02356556b3a85" prot="public" virt="non-virtual"><scope>UGameHUDWidget</scope><name>AddWidgetToViewport</name></member>
       <member refid="class_u_game_h_u_d_widget_1acba2bdd9f0eb4d5a7938067ade3bc72d" prot="private" virt="non-virtual"><scope>UGameHUDWidget</scope><name>CrosshairWidget</name></member>

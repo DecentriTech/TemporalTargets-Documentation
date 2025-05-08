@@ -4,23 +4,10 @@
     <compoundname>ATemporalCharacter</compoundname>
     <basecompoundref refid="class_a_t_a_character" prot="public" virt="non-virtual">ATACharacter</basecompoundref>
     <includes refid="_temporal_character_8h" local="no">TemporalCharacter.h</includes>
-    <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="class_a_temporal_character_1ad2de46499d798556533a4dd3fb6f8d2f" prot="public" static="no" mutable="no">
-        <type>FName</type>
-        <definition>FName ATemporalCharacter::GhostID</definition>
-        <argsstring></argsstring>
-        <name>GhostID</name>
-        <qualifiedname>ATemporalCharacter::GhostID</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="57" column="7" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="57" bodyend="-1"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-attrib">
+    <sectiondef kind="user-defined">
+      <header>Replay Event Handlers</header>
+      <description><para>C++ methods bound to replay flags via REPLAY_EVENT_LIST. </para>
+</description>
       <memberdef kind="variable" id="class_a_temporal_character_1a1449c43797c7d07b6c2f5f9e3ffe2a5d" prot="private" static="no" mutable="no">
         <type>TSharedPtr&lt; TArray&lt; <ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref> &gt; &gt;</type>
         <definition>TSharedPtr&lt;TArray&lt;FPlayerFrameData&gt; &gt; ATemporalCharacter::ReplayDataPtr</definition>
@@ -28,12 +15,13 @@
         <name>ReplayDataPtr</name>
         <qualifiedname>ATemporalCharacter::ReplayDataPtr</qualifiedname>
         <briefdescription>
+<para>Shared pointer to the array of recorded frame data. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="70" column="12" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="70" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="99" column="16" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="99" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_temporal_character_1af1c84fd0c105c9a623da357a1ef3302a" prot="private" static="no" mutable="no">
         <type>TArray&lt; float &gt;</type>
@@ -42,12 +30,13 @@
         <name>CumulativeDistances</name>
         <qualifiedname>ATemporalCharacter::CumulativeDistances</qualifiedname>
         <briefdescription>
+<para>Cumulative path distances for smoothing movement. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="72" column="8" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="72" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="102" column="12" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="102" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_temporal_character_1a5fd5e34a8a8b28296d28154c8b0e9d48" prot="private" static="no" mutable="no">
         <type>FVector</type>
@@ -56,12 +45,13 @@
         <name>LastGhostPosition</name>
         <qualifiedname>ATemporalCharacter::LastGhostPosition</qualifiedname>
         <briefdescription>
+<para>Last known position of the ghost (for error correction). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="73" column="9" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="73" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="105" column="13" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="105" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_temporal_character_1ad4db9cd1cff04a4c9cc488eee1b8630c" prot="private" static="no" mutable="no">
         <type>TArray&lt; <ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref> &gt;</type>
@@ -70,12 +60,13 @@
         <name>ReplayData</name>
         <qualifiedname>ATemporalCharacter::ReplayData</qualifiedname>
         <briefdescription>
+<para>Directly stored copy of all frames for Blueprint access. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="77" column="8" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="77" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="109" column="12" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="109" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_temporal_character_1ab4d3ee10af91b626d223f704316948d1" prot="private" static="no" mutable="no">
         <type>TMap&lt; FSoftObjectPath, <ref refid="class_u_weapon_data_asset" kindref="compound">UWeaponDataAsset</ref> * &gt;</type>
@@ -84,12 +75,13 @@
         <name>CachedWeapons</name>
         <qualifiedname>ATemporalCharacter::CachedWeapons</qualifiedname>
         <briefdescription>
+<para>Weapon assets cached for the entire replay session. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="81" column="6" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="81" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="113" column="10" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="113" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_temporal_character_1a67673baa8f7cc8622a16e9733fa978cb" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -98,12 +90,13 @@
         <name>PlaybackTime</name>
         <qualifiedname>ATemporalCharacter::PlaybackTime</qualifiedname>
         <briefdescription>
+<para>Current playback time in seconds. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="87" column="7" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="87" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="117" column="11" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="117" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_temporal_character_1a6c75476b38e5f282597ac260805706dc" prot="private" static="no" mutable="no">
         <type>uint8</type>
@@ -113,12 +106,13 @@
         <qualifiedname>ATemporalCharacter::ProcessedEventFlags</qualifiedname>
         <initializer>= 0</initializer>
         <briefdescription>
+<para>Bitmask of replay flags already processed this frame. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="90" column="7" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="90" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="120" column="11" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="120" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_temporal_character_1a6f9ccb885c218189efedb6d30b9eb0fe" prot="private" static="no" mutable="no">
         <type>int32</type>
@@ -128,12 +122,13 @@
         <qualifiedname>ATemporalCharacter::CurrentFrameIndex</qualifiedname>
         <initializer>= 0</initializer>
         <briefdescription>
+<para>Index of the currently interpolated frame. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="92" column="7" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="92" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="123" column="11" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="123" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_temporal_character_1a977b73d33bbec5918cb5b9d6def3cc1a" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -143,12 +138,13 @@
         <qualifiedname>ATemporalCharacter::LastProcessedFrameTime</qualifiedname>
         <initializer>= 0.0f</initializer>
         <briefdescription>
+<para>Timestamp of the last processed frame (for new-frame detection). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="95" column="7" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="95" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="126" column="11" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="126" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_temporal_character_1abf6c7c6aca0ecd935f7a91aabf4b9b57" prot="private" static="no" mutable="no">
         <type>int32</type>
@@ -158,12 +154,13 @@
         <qualifiedname>ATemporalCharacter::LastProcessedShotIndex</qualifiedname>
         <initializer>= -1</initializer>
         <briefdescription>
+<para>Last shot index processed (to avoid recasting the same shot). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="98" column="7" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="98" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="130" column="11" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="130" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_temporal_character_1a6456d62609dce400918c6a88ff5e12da" prot="private" static="no" mutable="no">
         <type>TArray&lt; float &gt;</type>
@@ -172,12 +169,13 @@
         <name>DeltaTimeHistory</name>
         <qualifiedname>ATemporalCharacter::DeltaTimeHistory</qualifiedname>
         <briefdescription>
+<para>History of recent DeltaTime values for smoothing speed. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="103" column="8" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="103" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="134" column="12" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="134" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_temporal_character_1a1bcb0fc42ec0b14204fa1ca589931c58" prot="private" static="no" mutable="no">
         <type>TArray&lt; <ref refid="struct_f_replay_handler_entry" kindref="compound">FReplayHandlerEntry</ref> &gt;</type>
@@ -186,143 +184,13 @@
         <name>ReplayEventHandlers</name>
         <qualifiedname>ATemporalCharacter::ReplayEventHandlers</qualifiedname>
         <briefdescription>
+<para>Array of flag -&gt; handler entries populated from REPLAY_EVENT_LIST. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="106" column="18" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="106" bodyend="-1"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="public-func">
-      <memberdef kind="function" id="class_a_temporal_character_1a667d9c49508c25567dfb5672b15a6008" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>ATemporalCharacter::ATemporalCharacter</definition>
-        <argsstring>()</argsstring>
-        <name>ATemporalCharacter</name>
-        <qualifiedname>ATemporalCharacter::ATemporalCharacter</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="35" column="1" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="17" bodyend="57"/>
-      </memberdef>
-      <memberdef kind="function" id="class_a_temporal_character_1a1efeb6e6a04c85d8e29dd8b8fe1b2c0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type></type>
-        <definition>ATemporalCharacter::~ATemporalCharacter</definition>
-        <argsstring>() override</argsstring>
-        <name>~ATemporalCharacter</name>
-        <qualifiedname>ATemporalCharacter::~ATemporalCharacter</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="36" column="9" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="59" bodyend="62"/>
-      </memberdef>
-      <memberdef kind="function" id="class_a_temporal_character_1a6870164dc921d6cb870dc2f5acc1e427" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void ATemporalCharacter::EndPlay</definition>
-        <argsstring>(const EEndPlayReason::Type EndPlayReason) override</argsstring>
-        <name>EndPlay</name>
-        <qualifiedname>ATemporalCharacter::EndPlay</qualifiedname>
-        <param>
-          <type>const EEndPlayReason::Type</type>
-          <declname>EndPlayReason</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="39" column="14" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="64" bodyend="70"/>
-      </memberdef>
-      <memberdef kind="function" id="class_a_temporal_character_1a4ceee8241c27f2e30ea2aa494cd4af94" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void ATemporalCharacter::Tick</definition>
-        <argsstring>(float DeltaTime) override</argsstring>
-        <name>Tick</name>
-        <qualifiedname>ATemporalCharacter::Tick</qualifiedname>
-        <reimplements refid="class_a_t_a_character_1a51a71d6715cb82dbbc4e0853bb5aebf7">Tick</reimplements>
-        <param>
-          <type>float</type>
-          <declname>DeltaTime</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="42" column="14" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="91" bodyend="104"/>
-      </memberdef>
-      <memberdef kind="function" id="class_a_temporal_character_1a775894fbb17c7d40caacabd2ffdf7acb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void ATemporalCharacter::InitializeGhostPlayback</definition>
-        <argsstring>(TSharedPtr&lt; TArray&lt; FPlayerFrameData &gt; &gt; InReplayDataPtr)</argsstring>
-        <name>InitializeGhostPlayback</name>
-        <qualifiedname>ATemporalCharacter::InitializeGhostPlayback</qualifiedname>
-        <param>
-          <type>TSharedPtr&lt; TArray&lt; <ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref> &gt; &gt;</type>
-          <declname>InReplayDataPtr</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="44" column="6" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="106" bodyend="190"/>
-      </memberdef>
-      <memberdef kind="function" id="class_a_temporal_character_1a2ce29be167b8086ade12bd84c96521db" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>const TArray&lt; <ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref> &gt; &amp;</type>
-        <definition>const TArray&lt; FPlayerFrameData &gt; &amp; ATemporalCharacter::GetRecordedFrames</definition>
-        <argsstring>() const</argsstring>
-        <name>GetRecordedFrames</name>
-        <qualifiedname>ATemporalCharacter::GetRecordedFrames</qualifiedname>
-        <briefdescription>
-<para>Returns this character’s recorded replay frames. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="49" column="14" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="192" bodyend="195"/>
-      </memberdef>
-      <memberdef kind="function" id="class_a_temporal_character_1a9196bf916e358973e22db2f41d32fe26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void ATemporalCharacter::ResetPlayback</definition>
-        <argsstring>()</argsstring>
-        <name>ResetPlayback</name>
-        <qualifiedname>ATemporalCharacter::ResetPlayback</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="53" column="6" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="197" bodyend="205"/>
-      </memberdef>
-    </sectiondef>
-    <sectiondef kind="protected-func">
-      <memberdef kind="function" id="class_a_temporal_character_1a67a3cec0d56a486a1a53894e5214bb58" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
-        <type>void</type>
-        <definition>void ATemporalCharacter::BeginPlay</definition>
-        <argsstring>() override</argsstring>
-        <name>BeginPlay</name>
-        <qualifiedname>ATemporalCharacter::BeginPlay</qualifiedname>
-        <reimplements refid="class_a_t_a_character_1a1d467ce9f55b11cbcc2c8f26279fb793">BeginPlay</reimplements>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="60" column="14" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="72" bodyend="89"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="137" column="12" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="137" bodyend="-1"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_character_1afc2a969d0bfae6ded5f58af00cdec4db" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -336,7 +204,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="63" column="6" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="503" bodyend="513"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="92" column="10" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="503" bodyend="513"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_character_1af171fc77f851673403d59d286197f5fd" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -350,7 +218,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="64" column="6" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="515" bodyend="760"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="93" column="10" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="515" bodyend="760"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_character_1accf59b4a4abec73019a526a874076cbe" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -364,10 +232,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="65" column="6" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="762" bodyend="796"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="94" column="10" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="762" bodyend="796"/>
       </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-func">
       <memberdef kind="function" id="class_a_temporal_character_1a745d6f6b56355d20a6bfe60a82dd199d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void ATemporalCharacter::UpdatePlayback</definition>
@@ -379,12 +245,23 @@
           <declname>DeltaTime</declname>
         </param>
         <briefdescription>
+<para>Advance ghost position/rotation according to PlaybackTime. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>DeltaTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Frame delta time. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="109" column="6" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="207" bodyend="305"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="143" column="10" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="207" bodyend="305"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_character_1a95c4e4fb84e82d7057db4c24f285c24d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -397,30 +274,42 @@
           <declname>FrameData</declname>
         </param>
         <briefdescription>
+<para>Examine the current frame&apos;s ActionFlags and fire any new events. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>FrameData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref> to process. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="112" column="6" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="307" bodyend="352"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="149" column="10" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="307" bodyend="352"/>
       </memberdef>
-      <memberdef kind="function" id="class_a_temporal_character_1aa9e690184522fb9542f1f488e37125e6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="class_a_temporal_character_1a61318c77c5821210f32ec1b0e625cd6d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32</type>
-        <definition>int32 ATemporalCharacter::CalculateCurrentTargetIndex</definition>
-        <argsstring>(const FVector &amp;CurrentPos)</argsstring>
-        <name>CalculateCurrentTargetIndex</name>
-        <qualifiedname>ATemporalCharacter::CalculateCurrentTargetIndex</qualifiedname>
+        <definition>int32 ATemporalCharacter::FindTargetFrameIndex</definition>
+        <argsstring>(float InPlaybackTime)</argsstring>
+        <name>FindTargetFrameIndex</name>
+        <qualifiedname>ATemporalCharacter::FindTargetFrameIndex</qualifiedname>
         <param>
-          <type>const FVector &amp;</type>
-          <declname>CurrentPos</declname>
+          <type>float</type>
+          <declname>InPlaybackTime</declname>
         </param>
         <briefdescription>
+<para>Determine which two frames to interpolate between based on PlaybackTime. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="116" column="7" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="384" bodyend="431"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="161" column="11" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="473" bodyend="501"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_character_1a7758d063ce228d511c90efd4ff0d8759" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -437,33 +326,33 @@
           <declname>TargetIndex</declname>
         </param>
         <briefdescription>
+<para>Compute interpolation fraction along the last segment. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="118" column="7" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="436" bodyend="471"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="166" column="11" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="436" bodyend="471"/>
       </memberdef>
-      <memberdef kind="function" id="class_a_temporal_character_1a61318c77c5821210f32ec1b0e625cd6d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="class_a_temporal_character_1aa9e690184522fb9542f1f488e37125e6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32</type>
-        <definition>int32 ATemporalCharacter::FindTargetFrameIndex</definition>
-        <argsstring>(float InPlaybackTime)</argsstring>
-        <name>FindTargetFrameIndex</name>
-        <qualifiedname>ATemporalCharacter::FindTargetFrameIndex</qualifiedname>
+        <definition>int32 ATemporalCharacter::CalculateCurrentTargetIndex</definition>
+        <argsstring>(const FVector &amp;CurrentPos)</argsstring>
+        <name>CalculateCurrentTargetIndex</name>
+        <qualifiedname>ATemporalCharacter::CalculateCurrentTargetIndex</qualifiedname>
         <param>
-          <type>float</type>
-          <declname>InPlaybackTime</declname>
+          <type>const FVector &amp;</type>
+          <declname>CurrentPos</declname>
         </param>
         <briefdescription>
+<para>Find the frame index whose timestamp is just greater than InPlaybackTime. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="120" column="7" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="473" bodyend="501"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="171" column="11" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="384" bodyend="431"/>
       </memberdef>
-    </sectiondef>
-    <sectiondef kind="private-static-func">
       <memberdef kind="function" id="class_a_temporal_character_1ac65bcd28d575599452d3abd0534b71e6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FVector2D</type>
         <definition>FVector2D ATemporalCharacter::ClosestPointOnSegment2D</definition>
@@ -483,17 +372,208 @@
           <declname>P</declname>
         </param>
         <briefdescription>
+<para>Utility: find the closest point on segment AB to point P in 2D. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="114" column="18" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="354" bodyend="382"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="154" column="22" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="354" bodyend="382"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_a_temporal_character_1ad2de46499d798556533a4dd3fb6f8d2f" prot="public" static="no" mutable="no">
+        <type>FName</type>
+        <definition>FName ATemporalCharacter::GhostID</definition>
+        <argsstring></argsstring>
+        <name>GhostID</name>
+        <qualifiedname>ATemporalCharacter::GhostID</qualifiedname>
+        <briefdescription>
+<para>Unique identifier for this ghost instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="82" column="11" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_temporal_character_1a667d9c49508c25567dfb5672b15a6008" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ATemporalCharacter::ATemporalCharacter</definition>
+        <argsstring>()</argsstring>
+        <name>ATemporalCharacter</name>
+        <qualifiedname>ATemporalCharacter::ATemporalCharacter</qualifiedname>
+        <briefdescription>
+<para>Constructor: sets up default tick and playback variables. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="46" column="5" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="17" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_temporal_character_1a1efeb6e6a04c85d8e29dd8b8fe1b2c0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>ATemporalCharacter::~ATemporalCharacter</definition>
+        <argsstring>() override</argsstring>
+        <name>~ATemporalCharacter</name>
+        <qualifiedname>ATemporalCharacter::~ATemporalCharacter</qualifiedname>
+        <briefdescription>
+<para>Destructor: cleans up playback state. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="49" column="13" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="59" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_temporal_character_1a6870164dc921d6cb870dc2f5acc1e427" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ATemporalCharacter::EndPlay</definition>
+        <argsstring>(const EEndPlayReason::Type EndPlayReason) override</argsstring>
+        <name>EndPlay</name>
+        <qualifiedname>ATemporalCharacter::EndPlay</qualifiedname>
+        <param>
+          <type>const EEndPlayReason::Type</type>
+          <declname>EndPlayReason</declname>
+        </param>
+        <briefdescription>
+<para>Called when play ends or actor is destroyed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>EndPlayReason</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reason the actor is ending play. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="55" column="18" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="64" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_temporal_character_1a4ceee8241c27f2e30ea2aa494cd4af94" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ATemporalCharacter::Tick</definition>
+        <argsstring>(float DeltaTime) override</argsstring>
+        <name>Tick</name>
+        <qualifiedname>ATemporalCharacter::Tick</qualifiedname>
+        <reimplements refid="class_a_t_a_character_1a51a71d6715cb82dbbc4e0853bb5aebf7">Tick</reimplements>
+        <param>
+          <type>float</type>
+          <declname>DeltaTime</declname>
+        </param>
+        <briefdescription>
+<para>Called once per frame to advance playback. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>DeltaTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Time in seconds since last Tick. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="61" column="18" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="91" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_temporal_character_1a775894fbb17c7d40caacabd2ffdf7acb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ATemporalCharacter::InitializeGhostPlayback</definition>
+        <argsstring>(TSharedPtr&lt; TArray&lt; FPlayerFrameData &gt; &gt; InReplayDataPtr)</argsstring>
+        <name>InitializeGhostPlayback</name>
+        <qualifiedname>ATemporalCharacter::InitializeGhostPlayback</qualifiedname>
+        <param>
+          <type>TSharedPtr&lt; TArray&lt; <ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref> &gt; &gt;</type>
+          <declname>InReplayDataPtr</declname>
+        </param>
+        <briefdescription>
+<para>Initialize ghost playback with a shared pointer to frame data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>InReplayDataPtr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Shared pointer to an array of <ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="67" column="10" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="106" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_temporal_character_1a2ce29be167b8086ade12bd84c96521db" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const TArray&lt; <ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref> &gt; &amp;</type>
+        <definition>const TArray&lt; FPlayerFrameData &gt; &amp; ATemporalCharacter::GetRecordedFrames</definition>
+        <argsstring>() const</argsstring>
+        <name>GetRecordedFrames</name>
+        <qualifiedname>ATemporalCharacter::GetRecordedFrames</qualifiedname>
+        <briefdescription>
+<para>Retrieve the full list of recorded frames. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Immutable reference to the internal frame array. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="74" column="18" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="192" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_temporal_character_1a9196bf916e358973e22db2f41d32fe26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ATemporalCharacter::ResetPlayback</definition>
+        <argsstring>()</argsstring>
+        <name>ResetPlayback</name>
+        <qualifiedname>ATemporalCharacter::ResetPlayback</qualifiedname>
+        <briefdescription>
+<para>Reset playback timer and teleport ghost to first frame. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="78" column="10" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="197" bodyend="205"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_a_temporal_character_1a67a3cec0d56a486a1a53894e5214bb58" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ATemporalCharacter::BeginPlay</definition>
+        <argsstring>() override</argsstring>
+        <name>BeginPlay</name>
+        <qualifiedname>ATemporalCharacter::BeginPlay</qualifiedname>
+        <reimplements refid="class_a_t_a_character_1a1d467ce9f55b11cbcc2c8f26279fb793">BeginPlay</reimplements>
+        <briefdescription>
+<para>Called when the game starts or actor is spawned. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="86" column="18" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="72" bodyend="89"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Ghost pawn that replays a player&apos;s recorded gameplay. </para>
     </briefdescription>
     <detaileddescription>
+<para><ref refid="class_a_temporal_character" kindref="compound">ATemporalCharacter</ref> streams back recorded <ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref> frames, interpolating position, rotation, and velocity. It binds replay events (jump, fire, interact) to C++ handler methods, and exposes Blueprint-callable APIs for controlling replay (reset, query frames). </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="3">
@@ -553,7 +633,7 @@
         <link refid="class_i_damageable_interface"/>
       </node>
     </collaborationgraph>
-    <location file="Source/TimeAssassin/TemporalCharacter.h" line="29" column="1" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="30" bodyend="121"/>
+    <location file="Source/TimeAssassin/TemporalCharacter.h" line="40" column="1" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="41" bodyend="172"/>
     <listofallmembers>
       <member refid="class_a_t_a_character_1a8185ed66c282be6328391c99c4c0d3db" prot="public" virt="non-virtual"><scope>ATemporalCharacter</scope><name>ATACharacter</name></member>
       <member refid="class_a_temporal_character_1a667d9c49508c25567dfb5672b15a6008" prot="public" virt="non-virtual"><scope>ATemporalCharacter</scope><name>ATemporalCharacter</name></member>

@@ -76,7 +76,7 @@
       {{/if}}
     {{/if}}
 
-{{#if location}}
+{{#if (and location location.bodyfile)}}
   <hr />
   <p>
     <strong>📄 Source:</strong>
@@ -84,7 +84,7 @@
     (lines {{location.bodystart}}–{{location.bodyend}})
   </p>
 
-  <ExpandableCodeBlock code={`{{{getFunctionSource location}}}`} language="cpp" previewLines={6} />
+  <ExpandableCodeBlock code={`{{{getFunctionSource location}}}`} language="cpp" previewLines={15} />
 {{/if}}
 
   </details>

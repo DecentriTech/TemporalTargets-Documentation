@@ -12,13 +12,13 @@
         <name>Style</name>
         <qualifiedname>UHitmarkerWidget::Style</qualifiedname>
         <briefdescription>
-<para>Style parameters you can tweak in the editor. </para>
+<para>Style parameters editable in the UMG designer (see <ref refid="struct_f_hit_marker_style" kindref="compound">FHitMarkerStyle</ref>). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="76" column="21" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="76" bodyend="-1"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="110" column="21" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="110" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_hitmarker_widget_1a1dc2c15b73aa546134d997a1650e75b6" prot="public" static="no" mutable="no">
         <type>FGameplayTag</type>
@@ -28,13 +28,13 @@
         <qualifiedname>UHitmarkerWidget::KillTag</qualifiedname>
         <initializer>= TAG_Damage_Kill</initializer>
         <briefdescription>
-<para>Which tag makes the marker turn red (defaults to TAG_Damage_Kill) </para>
+<para>Gameplay tag that triggers the “kill” color (defaults to TAG_Damage_Kill). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="80" column="18" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="80" bodyend="-1"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="114" column="18" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="114" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -45,12 +45,13 @@
         <name>ActiveMarkers</name>
         <qualifiedname>UHitmarkerWidget::ActiveMarkers</qualifiedname>
         <briefdescription>
+<para>Array of currently active hit markers (see <ref refid="struct_f_active_hit_marker" kindref="compound">FActiveHitMarker</ref>). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="108" column="12" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="108" bodyend="-1"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="156" column="12" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="156" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -65,13 +66,23 @@
           <declname>DamageTags</declname>
         </param>
         <briefdescription>
-<para>Call this from code or Blueprint to pop a new marker. </para>
+<para>Spawn a new hit marker based on the supplied <computeroutput>DamageTags</computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>DamageTags</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tag container used to determine marker color via <ref refid="class_u_hitmarker_widget_1a6b1de2de1eeac4847becbe743daf261c" kindref="member">DetermineColor</ref>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="84" column="10" bodyfile="Source/TimeAssassin/HitmarkerWidget.cpp" bodystart="23" bodyend="28"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="121" column="10" bodyfile="Source/TimeAssassin/HitmarkerWidget.cpp" bodystart="23" bodyend="28"/>
       </memberdef>
       <memberdef kind="function" id="class_u_hitmarker_widget_1a932a0d56665afc59c894f03200f2c7e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -84,13 +95,23 @@
           <declname>DamageTags</declname>
         </param>
         <briefdescription>
-<para>Blueprint hook when a marker is added (default: no-op) </para>
+<para>Blueprint hook called after a marker is added. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>DamageTags</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Same container passed to <ref refid="class_u_hitmarker_widget_1ad4867a3494abc15f88b58ccae14564b5" kindref="member">PushHitMarker</ref>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="88" column="10"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="128" column="10"/>
       </memberdef>
       <memberdef kind="function" id="class_u_hitmarker_widget_1adc3721d64e45f4a804f7f99bc5fb9189" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -108,7 +129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="89" column="18" bodyfile="Source/TimeAssassin/HitmarkerWidget.cpp" bodystart="6" bodyend="10"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="129" column="18" bodyfile="Source/TimeAssassin/HitmarkerWidget.cpp" bodystart="6" bodyend="10"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -119,12 +140,13 @@
         <name>NativeConstruct</name>
         <qualifiedname>UHitmarkerWidget::NativeConstruct</qualifiedname>
         <briefdescription>
+<para>Called once when the widget is constructed. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="92" column="18" bodyfile="Source/TimeAssassin/HitmarkerWidget.cpp" bodystart="15" bodyend="18"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="133" column="18" bodyfile="Source/TimeAssassin/HitmarkerWidget.cpp" bodystart="15" bodyend="18"/>
       </memberdef>
       <memberdef kind="function" id="class_u_hitmarker_widget_1aebd3beb53a3100243c39031e97aff461" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -133,13 +155,13 @@
         <name>NativePreConstruct</name>
         <qualifiedname>UHitmarkerWidget::NativePreConstruct</qualifiedname>
         <briefdescription>
-<para>Preview one marker in the UMG designer. </para>
+<para>Preview a single marker in the UMG designer for layout purposes. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="94" column="18" bodyfile="Source/TimeAssassin/HitmarkerWidget.cpp" bodystart="60" bodyend="76"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="136" column="18" bodyfile="Source/TimeAssassin/HitmarkerWidget.cpp" bodystart="60" bodyend="76"/>
       </memberdef>
       <memberdef kind="function" id="class_u_hitmarker_widget_1a2ce88fcd5d98e3c05265297ec74edaa4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -156,13 +178,13 @@
           <declname>DeltaTime</declname>
         </param>
         <briefdescription>
-<para>Move markers forward in time and cull expired ones. </para>
+<para>Advance marker state and remove expired markers. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="97" column="18" bodyfile="Source/TimeAssassin/HitmarkerWidget.cpp" bodystart="80" bodyend="86"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="139" column="18" bodyfile="Source/TimeAssassin/HitmarkerWidget.cpp" bodystart="80" bodyend="86"/>
       </memberdef>
       <memberdef kind="function" id="class_u_hitmarker_widget_1a65bf6fcd772c31ddd941a1bde89228c4" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>int32</type>
@@ -199,13 +221,16 @@
           <declname>bParentEnabled</declname>
         </param>
         <briefdescription>
-<para>Draw all active markers using Slate’s line renderer. </para>
+<para>Render active markers via Slate draw elements. </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="class_u_hitmarker_widget_1af40e2c0e07785e6bc2c6994d5cf3bc81" kindref="member">RenderMarkers</ref> </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="100" column="19" bodyfile="Source/TimeAssassin/HitmarkerWidget.cpp" bodystart="115" bodyend="122"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="145" column="19" bodyfile="Source/TimeAssassin/HitmarkerWidget.cpp" bodystart="115" bodyend="122"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -220,13 +245,23 @@
           <declname>DamageTags</declname>
         </param>
         <briefdescription>
-<para>Spawns and initializes a new entry in ActiveMarkers. </para>
+<para>Create and initialize a new marker entry in <ref refid="class_u_hitmarker_widget_1acddf71bbcfe6c5fe4c3d56f62571d731" kindref="member">ActiveMarkers</ref>. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>DamageTags</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Used to pick marker color via <ref refid="class_u_hitmarker_widget_1a6b1de2de1eeac4847becbe743daf261c" kindref="member">DetermineColor</ref>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="111" column="10" bodyfile="Source/TimeAssassin/HitmarkerWidget.cpp" bodystart="30" bodyend="40"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="162" column="10" bodyfile="Source/TimeAssassin/HitmarkerWidget.cpp" bodystart="30" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="class_u_hitmarker_widget_1a6b1de2de1eeac4847becbe743daf261c" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>FLinearColor</type>
@@ -239,13 +274,16 @@
           <declname>DamageTags</declname>
         </param>
         <briefdescription>
-<para>Chooses a color based on which damage tag was hit. </para>
+<para>Choose the marker color based on <computeroutput>DamageTags</computeroutput> and <ref refid="class_u_hitmarker_widget_1a1dc2c15b73aa546134d997a1650e75b6" kindref="member">KillTag</ref>. </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Color tint for the new marker. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="114" column="18" bodyfile="Source/TimeAssassin/HitmarkerWidget.cpp" bodystart="42" bodyend="58"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="168" column="18" bodyfile="Source/TimeAssassin/HitmarkerWidget.cpp" bodystart="42" bodyend="58"/>
       </memberdef>
       <memberdef kind="function" id="class_u_hitmarker_widget_1a0bb8e78af47b04bf00260ab241b0c617" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -258,13 +296,23 @@
           <declname>DeltaTime</declname>
         </param>
         <briefdescription>
-<para>Advances Age/Scale and removes expired markers. </para>
+<para>Advance each marker’s age/scale and remove any that have exceeded FadeTime. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>DeltaTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Time since last tick (in seconds). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="117" column="10" bodyfile="Source/TimeAssassin/HitmarkerWidget.cpp" bodystart="88" bodyend="112"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="174" column="10" bodyfile="Source/TimeAssassin/HitmarkerWidget.cpp" bodystart="88" bodyend="112"/>
       </memberdef>
       <memberdef kind="function" id="class_u_hitmarker_widget_1af40e2c0e07785e6bc2c6994d5cf3bc81" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int32</type>
@@ -285,20 +333,48 @@
           <declname>Layer</declname>
         </param>
         <briefdescription>
-<para>Loops through ActiveMarkers and issues Slate draw calls. </para>
+<para>Issue Slate line draws for each arm of every active marker. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Geometry</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Widget geometry for coordinate transforms. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Out</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Slate draw list. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Layer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Starting layer ID (increments after rendering). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Next available layer ID. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="120" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.cpp" bodystart="125" bodyend="177"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="183" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.cpp" bodystart="125" bodyend="177"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Pure-Slate hit-marker widget. </para>
+<para>Pure-Slate hit-marker widget that renders animated &quot;X&quot; overlays on hit events. </para>
     </briefdescription>
     <detaileddescription>
-<para>Renders one or more “X” overlays when you hit something. </para>
+<para>Use <ref refid="class_u_hitmarker_widget_1ad4867a3494abc15f88b58ccae14564b5" kindref="member">PushHitMarker</ref> to spawn a new marker based on a set of DamageTags. </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -329,7 +405,7 @@
         <label>UUserWidget</label>
       </node>
     </collaborationgraph>
-    <location file="Source/TimeAssassin/HitmarkerWidget.h" line="69" column="1" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="70" bodyend="121"/>
+    <location file="Source/TimeAssassin/HitmarkerWidget.h" line="102" column="1" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="103" bodyend="186"/>
     <listofallmembers>
       <member refid="class_u_hitmarker_widget_1acddf71bbcfe6c5fe4c3d56f62571d731" prot="private" virt="non-virtual"><scope>UHitmarkerWidget</scope><name>ActiveMarkers</name></member>
       <member refid="class_u_hitmarker_widget_1a5a1146e63886f9f79ea2b24eb8667127" prot="private" virt="non-virtual"><scope>UHitmarkerWidget</scope><name>AddMarker</name></member>

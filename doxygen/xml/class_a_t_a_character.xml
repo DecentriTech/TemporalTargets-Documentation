@@ -15,12 +15,13 @@
         <name>InteractAction</name>
         <qualifiedname>ATACharacter::InteractAction</qualifiedname>
         <briefdescription>
+<para>Input action for interacting with world objects. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="73" column="14" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="73" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="138" column="14" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="138" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_t_a_character_1a56776084952303233b7060add1200b61" prot="public" static="no" mutable="no">
         <type>UInputAction *</type>
@@ -29,12 +30,13 @@
         <name>ShootAction</name>
         <qualifiedname>ATACharacter::ShootAction</qualifiedname>
         <briefdescription>
+<para>Input action for shooting/fire. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="76" column="14" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="76" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="142" column="14" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="142" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_t_a_character_1a12869ea76eaafb37b28c609c732d920e" prot="public" static="no" mutable="no">
         <type>UInputAction *</type>
@@ -43,12 +45,13 @@
         <name>SwitchWeaponAction</name>
         <qualifiedname>ATACharacter::SwitchWeaponAction</qualifiedname>
         <briefdescription>
+<para>Input action for cycling weapons. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="79" column="14" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="79" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="146" column="14" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="146" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_t_a_character_1afa12289fec485e8ac989d377f3b9ece6" prot="public" static="no" mutable="no">
         <type>UInputAction *</type>
@@ -57,12 +60,13 @@
         <name>ReloadAction</name>
         <qualifiedname>ATACharacter::ReloadAction</qualifiedname>
         <briefdescription>
+<para>Input action for reloading. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="82" column="14" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="82" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="150" column="14" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="150" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_t_a_character_1a3b32ca6e09c69e99999ea9c66fe712dc" prot="public" static="no" mutable="no">
         <type>UInputMappingContext *</type>
@@ -71,12 +75,13 @@
         <name>InputMappingContext</name>
         <qualifiedname>ATACharacter::InputMappingContext</qualifiedname>
         <briefdescription>
+<para>Context mapping for enhanced input system. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="85" column="22" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="85" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="154" column="22" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="154" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_t_a_character_1a5d445cc065fe5e3bd04fd8b00c82028d" prot="public" static="no" mutable="no">
         <type>UInteractionComponent *</type>
@@ -85,12 +90,13 @@
         <name>InteractionComponent</name>
         <qualifiedname>ATACharacter::InteractionComponent</qualifiedname>
         <briefdescription>
+<para>Component handling interactable detection and management. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="89" column="23" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="89" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="159" column="23" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="159" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_t_a_character_1a2a904c02b55c2da7d1fef9a03289f456" prot="public" static="no" mutable="no">
         <type>UWeaponComponent *</type>
@@ -99,12 +105,13 @@
         <name>WeaponComponent</name>
         <qualifiedname>ATACharacter::WeaponComponent</qualifiedname>
         <briefdescription>
+<para>Component responsible for weapon firing logic. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="92" column="18" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="92" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="163" column="18" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="163" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_t_a_character_1a666442dd8f14913d33e191711aa9e793" prot="public" static="no" mutable="no">
         <type>UWeaponInventoryComponent *</type>
@@ -113,12 +120,13 @@
         <name>WeaponInventoryComponent</name>
         <qualifiedname>ATACharacter::WeaponInventoryComponent</qualifiedname>
         <briefdescription>
+<para>Component managing the player&apos;s weapon inventory. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="95" column="27" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="95" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="167" column="27" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="167" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_t_a_character_1ae55321ef89f0bcf840071cd5d06ca0ee" prot="public" static="no" mutable="no">
         <type>UReplayRecorderComponent *</type>
@@ -127,12 +135,13 @@
         <name>ReplayRecorder</name>
         <qualifiedname>ATACharacter::ReplayRecorder</qualifiedname>
         <briefdescription>
+<para>Component that records and replays player actions. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="98" column="26" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="98" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="171" column="26" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="171" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_t_a_character_1afe2dbc1676b59d86446674fce889bf50" prot="public" static="no" mutable="no">
         <type>UDamageableComponent *</type>
@@ -141,12 +150,13 @@
         <name>DamageComponent</name>
         <qualifiedname>ATACharacter::DamageComponent</qualifiedname>
         <briefdescription>
+<para>Component implementing damage tracking and health. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="101" column="22" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="101" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="175" column="22" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="175" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_t_a_character_1ad65d33a9d03a16c6e29c4704a2597651" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -156,12 +166,13 @@
         <qualifiedname>ATACharacter::bIsMoving</qualifiedname>
         <initializer>= false</initializer>
         <briefdescription>
+<para>Whether the character is currently moving on ground. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="105" column="6" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="105" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="179" column="6" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="179" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_t_a_character_1af65fa3db755797178b6ff37a85106a35" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -171,12 +182,13 @@
         <qualifiedname>ATACharacter::bIsAirborne</qualifiedname>
         <initializer>= false</initializer>
         <briefdescription>
+<para>Whether the character is in the air. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="108" column="6" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="108" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="183" column="6" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="183" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_t_a_character_1a70cf14400b33049edd3255fad8b4a23a" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -186,12 +198,13 @@
         <qualifiedname>ATACharacter::bIsJumping</qualifiedname>
         <initializer>= false</initializer>
         <briefdescription>
+<para>Whether the character is currently jumping. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="111" column="6" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="111" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="187" column="6" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="187" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -202,12 +215,13 @@
         <name>ATACharacter</name>
         <qualifiedname>ATACharacter::ATACharacter</qualifiedname>
         <briefdescription>
+<para>Sets default values for this character&apos;s properties. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="28" column="1" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="17" bodyend="30"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="42" column="1" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="17" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1a0b3303649f2c9d56f5107fbacae47c2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -222,10 +236,22 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="class_i_b_p_i___interactable_1a6dbcd508bbeea9c1bddae5f8ef2fa721" kindref="member">IBPI_Interactable::RegisterInteractable</ref> </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Interactable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The actor to register for interaction. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="30" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="154" bodyend="160"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="48" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="154" bodyend="160"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1a31fded5f24f008951aae1f564dd8f44d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -240,10 +266,22 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="class_i_b_p_i___interactable_1a54557ad43cce970953a261e90c45c3c7" kindref="member">IBPI_Interactable::UnregisterInteractable</ref> </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Interactable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The actor to unregister. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="31" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="162" bodyend="168"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="54" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="162" bodyend="168"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1a5b61351d0c222bfdc0103b8b74e08082" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -258,10 +296,22 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="class_i_b_p_i___interactable_1a7ec0a61b62ce23602812e10aaf3ddd91" kindref="member">IBPI_Interactable::Interact</ref> </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Interactor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The actor initiating the interaction. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="32" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="170" bodyend="172"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="60" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="170" bodyend="172"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1acbc7c6743e7998be329f874f1f23fc66" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -276,10 +326,24 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="class_i_b_p_i___interactable_1a4523add71e08c3c4fb8fc17e80871228" kindref="member">IBPI_Interactable::CanInteract</ref> </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Interactor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The actor requesting permission. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if Interactor can interact; false otherwise. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="33" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="174" bodyend="177"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="67" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="174" bodyend="177"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1a007eb1ccba227843acd147822276182b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -294,10 +358,22 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="class_i_damageable_interface_1a1f6318dd8d764d86d152bafcceeaf950" kindref="member">IDamageableInterface::TakeDamage</ref> </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>DamageInfo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Struct containing damage amount and instigator. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="37" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="179" bodyend="189"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="74" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="179" bodyend="189"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1a8f5472dbf55dcaf449150571a59ba922" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -316,10 +392,30 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="class_i_damageable_interface_1aa2527dc978acb578318f79c3704b6679" kindref="member">IDamageableInterface::OnDamaged</ref> </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NewHealth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The character&apos;s health after damage applied. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>DamageAmount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The amount of health lost. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="38" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="191" bodyend="196"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="81" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="191" bodyend="196"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1afb090e9a0e5122c871721a8ca6fc5b4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -334,10 +430,22 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="class_i_damageable_interface_1a9f9b8a6fb04274b8b2418423c31b823c" kindref="member">IDamageableInterface::OnKilled</ref> </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>DamageInstigator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The actor responsible for the kill. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="39" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="198" bodyend="240"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="87" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="198" bodyend="240"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1a51a71d6715cb82dbbc4e0853bb5aebf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -351,12 +459,23 @@
           <declname>DeltaTime</declname>
         </param>
         <briefdescription>
+<para>Called every frame. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>DeltaTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Time elapsed since last frame. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="50" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="66" bodyend="79"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="104" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="66" bodyend="79"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1abf0a2c3e9f2c3cb6d1b90d9c61d3ce6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -369,12 +488,23 @@
           <declname>PlayerInputComponent</declname>
         </param>
         <briefdescription>
+<para>Binds functionality to input. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>PlayerInputComponent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input component to bind to. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="53" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="82" bodyend="109"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="110" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="82" bodyend="109"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1a72d7a056dc34a8d78851ae798665f459" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -387,12 +517,23 @@
           <declname>Instance</declname>
         </param>
         <briefdescription>
+<para>Input handler for interaction action. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Instance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input action instance data. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="56" column="6" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="111" bodyend="120"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="117" column="6" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="111" bodyend="120"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1a9a11c73ee847ca8b9044b743f8546eaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -401,12 +542,13 @@
         <name>StartFiring</name>
         <qualifiedname>ATACharacter::StartFiring</qualifiedname>
         <briefdescription>
+<para>Begin firing the equipped weapon. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="59" column="6" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="122" bodyend="128"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="121" column="6" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="122" bodyend="128"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1afacada742a789a7c3e3f30e13e09ff87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -415,12 +557,13 @@
         <name>StopFiring</name>
         <qualifiedname>ATACharacter::StopFiring</qualifiedname>
         <briefdescription>
+<para>Stop firing the weapon. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="62" column="6" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="130" bodyend="136"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="125" column="6" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="130" bodyend="136"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1a2e0c752c342bae3c9440ee782c5a41b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -429,12 +572,13 @@
         <name>HandleSwitchWeapon</name>
         <qualifiedname>ATACharacter::HandleSwitchWeapon</qualifiedname>
         <briefdescription>
+<para>Switch to the next weapon in inventory. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="65" column="6" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="138" bodyend="144"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="129" column="6" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="138" bodyend="144"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1a5f3a7acaee16dd379c919c2e90beef42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -443,12 +587,13 @@
         <name>HandleReload</name>
         <qualifiedname>ATACharacter::HandleReload</qualifiedname>
         <briefdescription>
+<para>Reload the currently equipped weapon. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="68" column="6" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="146" bodyend="152"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="133" column="6" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="146" bodyend="152"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -460,12 +605,13 @@
         <qualifiedname>ATACharacter::BeginPlay</qualifiedname>
         <reimplementedby refid="class_a_temporal_character_1a67a3cec0d56a486a1a53894e5214bb58">BeginPlay</reimplementedby>
         <briefdescription>
+<para>Called when the game starts or when spawned. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="43" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="33" bodyend="44"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="91" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="33" bodyend="44"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1adcf843d2647ef856dd447b67e14cece4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -478,18 +624,37 @@
           <declname>dmgType</declname>
         </param>
         <briefdescription>
-<para>Catch Kill-Z via the engine’s world-bounds check. </para>
+<para>Handle falling out of world (kill-zone). </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dmgType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The damage type inflicted by falling out of world. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="46" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="46" bodyend="63"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="97" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="46" bodyend="63"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>The main Player-controlled character for Temporal Targets. </para>
     </briefdescription>
     <detaileddescription>
+<para><ref refid="class_a_t_a_character" kindref="compound">ATACharacter</ref> implements core gameplay behavior:<itemizedlist>
+<listitem><para>Interactable interface (<ref refid="class_i_b_p_i___interactable" kindref="compound">IBPI_Interactable</ref>)</para>
+</listitem><listitem><para>Damageable interface (<ref refid="class_i_damageable_interface" kindref="compound">IDamageableInterface</ref>)</para>
+</listitem><listitem><para>Weapon Input handling (<ref refid="class_a_t_a_character_1a9a11c73ee847ca8b9044b743f8546eaa" kindref="member">StartFiring</ref>, <ref refid="class_a_t_a_character_1a2e0c752c342bae3c9440ee782c5a41b4" kindref="member">HandleSwitchWeapon</ref>, <ref refid="class_a_t_a_character_1a5f3a7acaee16dd379c919c2e90beef42" kindref="member">HandleReload</ref>)</para>
+</listitem><listitem><para>Replay recording (<ref refid="class_a_t_a_character_1ae55321ef89f0bcf840071cd5d06ca0ee" kindref="member">ReplayRecorder</ref>)</para>
+</listitem><listitem><para>Custom input bindings for interaction, shooting, reloading, and weapon cycling. </para>
+</listitem></itemizedlist>
+</para>
     </detaileddescription>
     <inheritancegraph>
       <node id="2">
@@ -543,7 +708,7 @@
         <link refid="class_i_damageable_interface"/>
       </node>
     </collaborationgraph>
-    <location file="Source/TimeAssassin/TACharacter.h" line="22" column="1" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="23" bodyend="114"/>
+    <location file="Source/TimeAssassin/TACharacter.h" line="33" column="1" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="37" bodyend="188"/>
     <listofallmembers>
       <member refid="class_a_t_a_character_1a8185ed66c282be6328391c99c4c0d3db" prot="public" virt="non-virtual"><scope>ATACharacter</scope><name>ATACharacter</name></member>
       <member refid="class_a_t_a_character_1a1d467ce9f55b11cbcc2c8f26279fb793" prot="protected" virt="virtual"><scope>ATACharacter</scope><name>BeginPlay</name></member>

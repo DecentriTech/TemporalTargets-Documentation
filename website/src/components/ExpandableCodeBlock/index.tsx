@@ -22,13 +22,15 @@ export default function ExpandableCodeBlock({
 
   return (
     <div className={clsx(styles.container, 'theme-code-block')}>
-      <Content code={visibleCode} language={language} />
-      {lines.length > previewLines && (
-        <ToggleButton
-          expanded={expanded}
-          onToggle={() => setExpanded(!expanded)}
-        />
-      )}
+      <div className={styles.codeBlockWrapper}>
+        <Content code={visibleCode} language={language} />
+        {lines.length > previewLines && (
+          <ToggleButton
+            expanded={expanded}
+            onToggle={() => setExpanded(!expanded)}
+          />
+        )}
+      </div>
     </div>
   );
 }

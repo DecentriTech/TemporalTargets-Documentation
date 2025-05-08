@@ -388,7 +388,7 @@
 <codeline lineno="46" refid="class_a_t_a_character_1adcf843d2647ef856dd447b67e14cece4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_t_a_character_1adcf843d2647ef856dd447b67e14cece4" kindref="member">ATACharacter::FellOutOfWorld</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>UDamageType&amp;<sp/>dmgType)</highlight></codeline>
 <codeline lineno="47"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>1)<sp/>If<sp/>we&apos;re<sp/>still<sp/>“alive”<sp/>in<sp/>our<sp/>component,<sp/>apply<sp/>fatal<sp/>damage</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>1)<sp/>If<sp/>we&apos;re<sp/>still<sp/>&quot;alive&quot;<sp/>in<sp/>our<sp/>component,<sp/>apply<sp/>fatal<sp/>damage</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_a_t_a_character_1afe2dbc1676b59d86446674fce889bf50" kindref="member">DamageComponent</ref><sp/>&amp;&amp;<sp/><ref refid="class_a_t_a_character_1afe2dbc1676b59d86446674fce889bf50" kindref="member">DamageComponent</ref>-&gt;IsAlive())</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_f_damage_info" kindref="compound">FDamageInfo</ref><sp/>Info;</highlight></codeline>
@@ -573,7 +573,7 @@
 <codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Skel-&gt;DetachFromComponent(FDetachmentTransformRules::KeepWorldTransform);</highlight></codeline>
 <codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="233"><highlight class="normal"></highlight></codeline>
-<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>3)<sp/>Disable<sp/>capsule<sp/>so<sp/>it<sp/>doesn’t<sp/>block<sp/>the<sp/>respawn</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>3)<sp/>Disable<sp/>capsule<sp/>so<sp/>it<sp/>doesn&apos;t<sp/>block<sp/>the<sp/>respawn</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/>GetCapsuleComponent()-&gt;SetCollisionEnabled(ECollisionEnabled::NoCollision);</highlight></codeline>
 <codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/>GetCharacterMovement()-&gt;DisableMovement();</highlight></codeline>
 <codeline lineno="237"><highlight class="normal"></highlight></codeline>

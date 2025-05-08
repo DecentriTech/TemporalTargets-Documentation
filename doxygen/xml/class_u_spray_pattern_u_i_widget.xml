@@ -320,10 +320,16 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="5">
+        <label>UDataAsset</label>
+      </node>
       <node id="3">
         <label>UGridCanvasWidget</label>
         <link refid="class_u_grid_canvas_widget"/>
         <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>SelectedWeapon</edgelabel>
         </childnode>
       </node>
       <node id="1">
@@ -337,6 +343,12 @@
       </node>
       <node id="2">
         <label>UUserWidget</label>
+      </node>
+      <node id="4">
+        <label>UWeaponDataAsset</label>
+        <link refid="class_u_weapon_data_asset"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
       </node>
     </collaborationgraph>
     <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="18" column="1" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="19" bodyend="84"/>

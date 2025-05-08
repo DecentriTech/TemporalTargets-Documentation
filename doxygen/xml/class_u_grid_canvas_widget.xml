@@ -1,56 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
-  <compounddef id="class_u_grid_canvas_widget" kind="class" language="C++" prot="public" abstract="yes">
+  <compounddef id="class_u_grid_canvas_widget" kind="class" language="C++" prot="public">
     <compoundname>UGridCanvasWidget</compoundname>
     <basecompoundref prot="public" virt="non-virtual">UUserWidget</basecompoundref>
     <includes refid="_grid_canvas_widget_8h" local="no">GridCanvasWidget.h</includes>
     <innerclass refid="struct_u_grid_canvas_widget_1_1_f_grid_params" prot="public">UGridCanvasWidget::FGridParams</innerclass>
-    <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="class_u_grid_canvas_widget_1ac71beba26bb8666f2a31c625ffebb05e" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float UGridCanvasWidget::YMultiplier</definition>
-        <argsstring></argsstring>
-        <name>YMultiplier</name>
-        <qualifiedname>UGridCanvasWidget::YMultiplier</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="75" column="37" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="75" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="class_u_grid_canvas_widget_1a8b294a32e146b92ece32f6ce8c0219d6" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float UGridCanvasWidget::Zoom</definition>
-        <argsstring></argsstring>
-        <name>Zoom</name>
-        <qualifiedname>UGridCanvasWidget::Zoom</qualifiedname>
-        <initializer>= 1.f</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="165" column="7" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="165" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="class_u_grid_canvas_widget_1a1b6ff7ce996bcc84e9f2bb39a06c1876" prot="public" static="no" mutable="no">
-        <type>float</type>
-        <definition>float UGridCanvasWidget::MinZoom</definition>
-        <argsstring></argsstring>
-        <name>MinZoom</name>
-        <qualifiedname>UGridCanvasWidget::MinZoom</qualifiedname>
-        <initializer>= 25.f</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="171" column="7" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="171" bodyend="-1"/>
-      </memberdef>
-    </sectiondef>
     <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="class_u_grid_canvas_widget_1adaa3e6605fd9649fdc2108c2310b4c64" prot="private" static="no" mutable="no">
         <type>FVector2D</type>
@@ -65,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="140" column="11" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="140" bodyend="140"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="286" column="15" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="286" bodyend="286"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_grid_canvas_widget_1a35fdbde2a5fe1124b1bd2e6519a64176" prot="private" static="no" mutable="no">
         <type>FVector2D</type>
@@ -73,14 +27,14 @@
         <argsstring></argsstring>
         <name>HoverPoint</name>
         <qualifiedname>UGridCanvasWidget::HoverPoint</qualifiedname>
-        <initializer>= FVector2D::ZeroVector</initializer>
+        <initializer>{ FVector2D::ZeroVector }</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="141" column="11" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="141" bodyend="-1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="287" column="15" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="287" bodyend="287"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_grid_canvas_widget_1a7b51a477edf97f3529f58695ebf5f201" prot="private" static="no" mutable="no">
         <type>FVector2D</type>
@@ -88,14 +42,14 @@
         <argsstring></argsstring>
         <name>PreviewPoint</name>
         <qualifiedname>UGridCanvasWidget::PreviewPoint</qualifiedname>
-        <initializer>= FVector2D::ZeroVector</initializer>
+        <initializer>{ FVector2D::ZeroVector }</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="142" column="11" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="142" bodyend="-1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="288" column="15" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="288" bodyend="288"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_grid_canvas_widget_1abdd250134c6f7067b7ee2b91a1de7c13" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -110,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="144" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="144" bodyend="-1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="290" column="14" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="290" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_grid_canvas_widget_1aaacfe7d9208179a84fbb9f2462c33c30" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -125,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="145" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="145" bodyend="-1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="291" column="14" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="291" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_grid_canvas_widget_1a76a9ead5074a39f965a356e3f2e66d7f" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -140,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="146" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="146" bodyend="-1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="292" column="14" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="292" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_grid_canvas_widget_1a7949570df7b2f99fb8d16a9406be32d4" prot="private" static="no" mutable="no">
         <type>int32</type>
@@ -148,14 +102,14 @@
         <argsstring></argsstring>
         <name>DraggedPointIndex</name>
         <qualifiedname>UGridCanvasWidget::DraggedPointIndex</qualifiedname>
-        <initializer>{ INDEX_NONE }</initializer>
+        <initializer>= INDEX_NONE</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="147" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="147" bodyend="147"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="293" column="14" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="293" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_grid_canvas_widget_1a9d88401a809fc530639c7f02be77285e" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -170,7 +124,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="149" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="149" bodyend="-1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="295" column="14" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="295" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_grid_canvas_widget_1a7d9a9aec9a28dd561f30ee785d60ea2e" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -185,7 +139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="150" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="150" bodyend="-1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="296" column="14" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="296" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_grid_canvas_widget_1aa3b08d7b17c4c7cadf6bd5ff5eca03a8" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -200,7 +154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="151" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="151" bodyend="-1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="297" column="14" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="297" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_grid_canvas_widget_1a4846065e699258f2529fc2bd1fb830e6" prot="private" static="no" mutable="no">
         <type>TArray&lt; <ref refid="struct_f_pattern_snapshot" kindref="compound">FPatternSnapshot</ref> &gt;</type>
@@ -214,7 +168,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="155" column="8" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="155" bodyend="-1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="301" column="12" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="301" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_grid_canvas_widget_1aee5d312aa51f0694e52f8ed47a364c44" prot="private" static="no" mutable="no">
         <type>TArray&lt; <ref refid="struct_f_pattern_snapshot" kindref="compound">FPatternSnapshot</ref> &gt;</type>
@@ -228,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="156" column="8" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="156" bodyend="-1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="302" column="12" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="302" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-attrib">
@@ -245,22 +199,201 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="154" column="20" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="154" bodyend="-1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="300" column="24" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="300" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="class_u_grid_canvas_widget_1a7374bc768463bbd6caf358f5ed3720fd" prot="private" static="yes" constexpr="yes" mutable="no">
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_u_grid_canvas_widget_1a8b294a32e146b92ece32f6ce8c0219d6" prot="public" static="no" mutable="no">
         <type>float</type>
-        <definition>float UGridCanvasWidget::kStrokeSampleMinDist</definition>
+        <definition>float UGridCanvasWidget::Zoom</definition>
         <argsstring></argsstring>
-        <name>kStrokeSampleMinDist</name>
-        <qualifiedname>UGridCanvasWidget::kStrokeSampleMinDist</qualifiedname>
-        <initializer>= 0.05f</initializer>
+        <name>Zoom</name>
+        <qualifiedname>UGridCanvasWidget::Zoom</qualifiedname>
+        <initializer>= 1.0f</initializer>
         <briefdescription>
+<para>Overall zoom factor in world units per pixel. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="159" column="24" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="159" bodyend="-1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="309" column="11" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_grid_canvas_widget_1a20d6268b561c6675de55f0c3c875a8c8" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UGridCanvasWidget::XAxisRange</definition>
+        <argsstring></argsstring>
+        <name>XAxisRange</name>
+        <qualifiedname>UGridCanvasWidget::XAxisRange</qualifiedname>
+        <initializer>= 10.8f</initializer>
+        <briefdescription>
+<para>Horizontal range in world units on either side of origin. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="313" column="11" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="313" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_grid_canvas_widget_1a40c73780a82afbbe153da653d5facac7" prot="public" static="no" mutable="no">
+        <type>FVector2D</type>
+        <definition>FVector2D UGridCanvasWidget::PanOffset</definition>
+        <argsstring></argsstring>
+        <name>PanOffset</name>
+        <qualifiedname>UGridCanvasWidget::PanOffset</qualifiedname>
+        <initializer>= FVector2D::ZeroVector</initializer>
+        <briefdescription>
+<para>Pixel offset for panning the grid origin. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="317" column="15" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="317" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_grid_canvas_widget_1a1b6ff7ce996bcc84e9f2bb39a06c1876" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UGridCanvasWidget::MinZoom</definition>
+        <argsstring></argsstring>
+        <name>MinZoom</name>
+        <qualifiedname>UGridCanvasWidget::MinZoom</qualifiedname>
+        <initializer>= 25.0f</initializer>
+        <briefdescription>
+<para>Minimum zoom when fitting to widget size. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="321" column="11" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="321" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_grid_canvas_widget_1ae8ef53adbbe9319fcdfdfc60b2debe84" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UGridCanvasWidget::MaxZoom</definition>
+        <argsstring></argsstring>
+        <name>MaxZoom</name>
+        <qualifiedname>UGridCanvasWidget::MaxZoom</qualifiedname>
+        <initializer>= 8000.0f</initializer>
+        <briefdescription>
+<para>Maximum zoom allowed by user. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="325" column="11" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="325" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_grid_canvas_widget_1ab12277f9c08374ba232cc695dd1b32ed" prot="public" static="no" mutable="no">
+        <type>int32</type>
+        <definition>int32 UGridCanvasWidget::DefaultMagSize</definition>
+        <argsstring></argsstring>
+        <name>DefaultMagSize</name>
+        <qualifiedname>UGridCanvasWidget::DefaultMagSize</qualifiedname>
+        <initializer>= 30</initializer>
+        <briefdescription>
+<para>Default magazine size for pattern length if no weapon asset. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="329" column="11" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_grid_canvas_widget_1ab668fe409b2c2bb94178dd3a4f042d26" prot="public" static="no" mutable="no">
+        <type><ref refid="group___u_i___w_i_d_g_e_t_s___a_n_d___i_n_t_e_r_f_a_c_e_s_1ga81e2f378ed72995ca43cc3deb13507cc" kindref="member">ERecoilEditMode</ref></type>
+        <definition>ERecoilEditMode UGridCanvasWidget::EditMode</definition>
+        <argsstring></argsstring>
+        <name>EditMode</name>
+        <qualifiedname>UGridCanvasWidget::EditMode</qualifiedname>
+        <initializer>= ERecoilEditMode::Point</initializer>
+        <briefdescription>
+<para>Current edit mode (Point vs Freehand). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="333" column="21" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="333" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_grid_canvas_widget_1ab2adad62b93aad5f052e93e0c6c6355c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_u_weapon_data_asset" kindref="compound">UWeaponDataAsset</ref> *</type>
+        <definition>UWeaponDataAsset* UGridCanvasWidget::SelectedWeapon</definition>
+        <argsstring></argsstring>
+        <name>SelectedWeapon</name>
+        <qualifiedname>UGridCanvasWidget::SelectedWeapon</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>Currently selected weapon asset for export. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="337" column="22" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="337" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_grid_canvas_widget_1a349b8127fd0eee997c2a14b8f9741170" prot="public" static="no" mutable="no">
+        <type>FLinearColor</type>
+        <definition>FLinearColor UGridCanvasWidget::MajorLineColor</definition>
+        <argsstring></argsstring>
+        <name>MajorLineColor</name>
+        <qualifiedname>UGridCanvasWidget::MajorLineColor</qualifiedname>
+        <initializer>= FLinearColor(0.15f, 0.15f, 0.15f, 1.0f)</initializer>
+        <briefdescription>
+<para>Color of major grid lines in world units. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="341" column="18" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="341" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_grid_canvas_widget_1a7cb82720e145f5443bb1ed860e2723c2" prot="public" static="no" mutable="no">
+        <type>FLinearColor</type>
+        <definition>FLinearColor UGridCanvasWidget::MinorLineColor</definition>
+        <argsstring></argsstring>
+        <name>MinorLineColor</name>
+        <qualifiedname>UGridCanvasWidget::MinorLineColor</qualifiedname>
+        <initializer>= FLinearColor(0.08f, 0.08f, 0.08f, 1.0f)</initializer>
+        <briefdescription>
+<para>Color of minor grid lines in world units. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="345" column="18" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="345" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_grid_canvas_widget_1a50a898f2741dfc0314582c7bf0bd0d18" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UGridCanvasWidget::bSnapToGrid</definition>
+        <argsstring></argsstring>
+        <name>bSnapToGrid</name>
+        <qualifiedname>UGridCanvasWidget::bSnapToGrid</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+<para>Snap points to a regular grid when adding. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="349" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="349" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_grid_canvas_widget_1ae8549e85756ee94db673883d082fc793" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UGridCanvasWidget::SnapInterval</definition>
+        <argsstring></argsstring>
+        <name>SnapInterval</name>
+        <qualifiedname>UGridCanvasWidget::SnapInterval</qualifiedname>
+        <initializer>= 0.25f</initializer>
+        <briefdescription>
+<para>Interval size when <ref refid="class_u_grid_canvas_widget_1a50a898f2741dfc0314582c7bf0bd0d18" kindref="member">bSnapToGrid</ref> is enabled. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="353" column="11" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="353" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -275,586 +408,346 @@
           <declname>ObjectInitializer</declname>
         </param>
         <briefdescription>
+<para>Constructor-sets the widget to be focusable. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="47" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="110" bodyend="114"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="85" column="14" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="110" bodyend="114"/>
       </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1aaca3cdd4577b27afd2a7a8eb6cb4dc63" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
-        <type></type>
-        <definition>UGridCanvasWidget::UFUNCTION</definition>
-        <argsstring>(BlueprintCallable, Category=&quot;Spray&quot;) void SetSprayPoints(const TArray&lt; FVector2D &gt; &amp;NewPoints)</argsstring>
-        <name>UFUNCTION</name>
-        <qualifiedname>UGridCanvasWidget::UFUNCTION</qualifiedname>
+      <memberdef kind="function" id="class_u_grid_canvas_widget_1a17157daa6a01bbe1ae62b3d70abe47f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UGridCanvasWidget::SetSprayPoints</definition>
+        <argsstring>(const TArray&lt; FVector2D &gt; &amp;NewPoints)</argsstring>
+        <name>SetSprayPoints</name>
+        <qualifiedname>UGridCanvasWidget::SetSprayPoints</qualifiedname>
         <param>
-          <type>BlueprintCallable</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Spray&quot;</defval>
+          <type>const TArray&lt; FVector2D &gt; &amp;</type>
+          <declname>NewPoints</declname>
         </param>
         <briefdescription>
+<para>Replace the current spray points. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NewPoints</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new point sequence to edit. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="73" column="1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="113" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="142" bodyend="155"/>
       </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1a3e442dcd630bd76e55f4359d1d12fc35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>UGridCanvasWidget::UFUNCTION</definition>
-        <argsstring>(BlueprintCallable, Category=&quot;Spray&quot;) void ScaleSprayPatternUniform(float Multiplier)</argsstring>
-        <name>UFUNCTION</name>
-        <qualifiedname>UGridCanvasWidget::UFUNCTION</qualifiedname>
+      <memberdef kind="function" id="class_u_grid_canvas_widget_1a277980892f05df5ed7fe46dc96ad3ddd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UGridCanvasWidget::ScaleSprayPatternUniform</definition>
+        <argsstring>(float Multiplier)</argsstring>
+        <name>ScaleSprayPatternUniform</name>
+        <qualifiedname>UGridCanvasWidget::ScaleSprayPatternUniform</qualifiedname>
         <param>
-          <type>BlueprintCallable</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Spray&quot;</defval>
+          <type>float</type>
+          <declname>Multiplier</declname>
         </param>
         <briefdescription>
+<para>Scale the pattern uniformly. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Multiplier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Uniform scale factor for X and Y. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="74" column="1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="120" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="173" bodyend="176"/>
       </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1a64497714f46db4d58de678a384822462" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>UGridCanvasWidget::UFUNCTION</definition>
-        <argsstring>(BlueprintCallable, Category=&quot;Spray&quot;) void ScaleSprayPattern(float XMultiplier</argsstring>
-        <name>UFUNCTION</name>
-        <qualifiedname>UGridCanvasWidget::UFUNCTION</qualifiedname>
+      <memberdef kind="function" id="class_u_grid_canvas_widget_1a5a7bdf5d7870a0a87d9b45cab83526e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UGridCanvasWidget::ScaleSprayPattern</definition>
+        <argsstring>(float XMultiplier, float YMultiplier)</argsstring>
+        <name>ScaleSprayPattern</name>
+        <qualifiedname>UGridCanvasWidget::ScaleSprayPattern</qualifiedname>
         <param>
-          <type>BlueprintCallable</type>
+          <type>float</type>
+          <declname>XMultiplier</declname>
         </param>
         <param>
-          <type>Category</type>
-          <defval>&quot;Spray&quot;</defval>
+          <type>float</type>
+          <declname>YMultiplier</declname>
         </param>
         <briefdescription>
+<para>Scale the pattern non-uniformly. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>XMultiplier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Scale factor in X. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>YMultiplier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Scale factor in Y. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="75" column="1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="128" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="157" bodyend="171"/>
       </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1a9d9ba9df355b0098b7c917897eedf108" prot="public" static="no" const="yes" explicit="no" inline="yes" refqual="lvalue" virt="non-virtual">
-        <type></type>
-        <definition>UGridCanvasWidget::UFUNCTION</definition>
-        <argsstring>(BlueprintCallable, Category=&quot;Spray&quot;) const TArray&lt; FVector2D &gt; &amp;GetSprayPatternPoints() const</argsstring>
-        <name>UFUNCTION</name>
-        <qualifiedname>UGridCanvasWidget::UFUNCTION</qualifiedname>
+      <memberdef kind="function" id="class_u_grid_canvas_widget_1a837d351067e00db67f5d82bf4ed10a57" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const TArray&lt; FVector2D &gt; &amp;</type>
+        <definition>const TArray&lt; FVector2D &gt; &amp; UGridCanvasWidget::GetSprayPatternPoints</definition>
+        <argsstring>() const</argsstring>
+        <name>GetSprayPatternPoints</name>
+        <qualifiedname>UGridCanvasWidget::GetSprayPatternPoints</qualifiedname>
+        <briefdescription>
+<para>Get a read-only reference to the current spray points. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Array of FVector2D points. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="135" column="18" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="135" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_grid_canvas_widget_1a53a019ebb3c0d5ac9d8ea09e1b7fbe44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UGridCanvasWidget::ExportSprayPattern</definition>
+        <argsstring>(UWeaponDataAsset *TargetWeapon)</argsstring>
+        <name>ExportSprayPattern</name>
+        <qualifiedname>UGridCanvasWidget::ExportSprayPattern</qualifiedname>
         <param>
-          <type>BlueprintCallable</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Spray&quot;</defval>
+          <type><ref refid="class_u_weapon_data_asset" kindref="compound">UWeaponDataAsset</ref> *</type>
+          <declname>TargetWeapon</declname>
         </param>
         <briefdescription>
+<para>Export the current spray pattern to a weapon asset. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>TargetWeapon</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The weapon data asset to receive the pattern. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="class_u_weapon_data_asset_1a39af4b368edb68fcc72abe2e94506208" kindref="member">UWeaponDataAsset::SprayPattern</ref> </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="76" column="1" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="76" bodyend="76"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="143" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="238" bodyend="262"/>
       </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1acd474cca41fd973bea0554a4ac39c69d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>UGridCanvasWidget::UFUNCTION</definition>
-        <argsstring>(CallInEditor, Category=&quot;Spray&quot;) void ExportSprayPattern(UWeaponDataAsset *TargetWeapon)</argsstring>
-        <name>UFUNCTION</name>
-        <qualifiedname>UGridCanvasWidget::UFUNCTION</qualifiedname>
+      <memberdef kind="function" id="class_u_grid_canvas_widget_1a5ac8aa12f7dc2cbb7f53f118e886e1a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UGridCanvasWidget::AddPoint</definition>
+        <argsstring>(const FVector2D &amp;Point)</argsstring>
+        <name>AddPoint</name>
+        <qualifiedname>UGridCanvasWidget::AddPoint</qualifiedname>
         <param>
-          <type>CallInEditor</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Spray&quot;</defval>
+          <type>const FVector2D &amp;</type>
+          <declname>Point</declname>
         </param>
         <briefdescription>
+<para>Add a point at the given world position. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="77" column="1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="149" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="178" bodyend="208"/>
       </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1a2bf8d84ac1a5136a0a67d04985248299" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
-        <type></type>
-        <definition>UGridCanvasWidget::UFUNCTION</definition>
-        <argsstring>(BlueprintCallable, Category=&quot;Grid&quot;) void AddPoint(const FVector2D &amp;Point)</argsstring>
-        <name>UFUNCTION</name>
-        <qualifiedname>UGridCanvasWidget::UFUNCTION</qualifiedname>
+      <memberdef kind="function" id="class_u_grid_canvas_widget_1a68a966efa9980870479593cfcc229198" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UGridCanvasWidget::ClearPoints</definition>
+        <argsstring>()</argsstring>
+        <name>ClearPoints</name>
+        <qualifiedname>UGridCanvasWidget::ClearPoints</qualifiedname>
+        <briefdescription>
+<para>Clear all spray points. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="153" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="210" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_grid_canvas_widget_1a027fe37cddafa66528807b887c419e30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UGridCanvasWidget::SetHoverPoint</definition>
+        <argsstring>(const FVector2D &amp;Point)</argsstring>
+        <name>SetHoverPoint</name>
+        <qualifiedname>UGridCanvasWidget::SetHoverPoint</qualifiedname>
         <param>
-          <type>BlueprintCallable</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Grid&quot;</defval>
+          <type>const FVector2D &amp;</type>
+          <declname>Point</declname>
         </param>
         <briefdescription>
+<para>Update the hover preview point. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="80" column="1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="157" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="217" bodyend="221"/>
       </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1a3b5542d3aef92681161acc430e766ae0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>UGridCanvasWidget::UFUNCTION</definition>
-        <argsstring>(BlueprintCallable, Category=&quot;Grid&quot;) void ClearPoints()</argsstring>
-        <name>UFUNCTION</name>
-        <qualifiedname>UGridCanvasWidget::UFUNCTION</qualifiedname>
+      <memberdef kind="function" id="class_u_grid_canvas_widget_1a40fc805fe9ee5e4d46730b85dddc173b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UGridCanvasWidget::GetPreviewPoint</definition>
+        <argsstring>(FVector2D &amp;OutPoint) const</argsstring>
+        <name>GetPreviewPoint</name>
+        <qualifiedname>UGridCanvasWidget::GetPreviewPoint</qualifiedname>
         <param>
-          <type>BlueprintCallable</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Grid&quot;</defval>
+          <type>FVector2D &amp;</type>
+          <declname>OutPoint</declname>
         </param>
         <briefdescription>
+<para>Retrieve the current preview point if any. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="81" column="1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="161" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="228" bodyend="236"/>
       </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1afdd2617e37b210e545ee1b78bb41f2d9" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
-        <type></type>
-        <definition>UGridCanvasWidget::UFUNCTION</definition>
-        <argsstring>(BlueprintCallable, Category=&quot;Grid&quot;) void SetHoverPoint(const FVector2D &amp;Point)</argsstring>
-        <name>UFUNCTION</name>
-        <qualifiedname>UGridCanvasWidget::UFUNCTION</qualifiedname>
+      <memberdef kind="function" id="class_u_grid_canvas_widget_1a6a3556ef17031e0cb8bcf116a2c66eae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UGridCanvasWidget::SetWeaponData</definition>
+        <argsstring>(UWeaponDataAsset *NewWeaponData)</argsstring>
+        <name>SetWeaponData</name>
+        <qualifiedname>UGridCanvasWidget::SetWeaponData</qualifiedname>
         <param>
-          <type>BlueprintCallable</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Grid&quot;</defval>
+          <type><ref refid="class_u_weapon_data_asset" kindref="compound">UWeaponDataAsset</ref> *</type>
+          <declname>NewWeaponData</declname>
         </param>
         <briefdescription>
+<para>Associate this widget with a weapon data asset. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="82" column="1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="165" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="223" bodyend="226"/>
       </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1a6bd38aa4f5a6517fda2bfd7dc6e39014" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
-        <type></type>
-        <definition>UGridCanvasWidget::UFUNCTION</definition>
-        <argsstring>(BlueprintCallable, Category=&quot;Grid&quot;) bool GetPreviewPoint(FVector2D &amp;OutPoint) const</argsstring>
-        <name>UFUNCTION</name>
-        <qualifiedname>UGridCanvasWidget::UFUNCTION</qualifiedname>
+      <memberdef kind="function" id="class_u_grid_canvas_widget_1a988a2364487a8b8773096af84da17f25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UGridCanvasWidget::SetEditMode</definition>
+        <argsstring>(ERecoilEditMode NewMode)</argsstring>
+        <name>SetEditMode</name>
+        <qualifiedname>UGridCanvasWidget::SetEditMode</qualifiedname>
         <param>
-          <type>BlueprintCallable</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Grid&quot;</defval>
+          <type><ref refid="group___u_i___w_i_d_g_e_t_s___a_n_d___i_n_t_e_r_f_a_c_e_s_1ga81e2f378ed72995ca43cc3deb13507cc" kindref="member">ERecoilEditMode</ref></type>
+          <declname>NewMode</declname>
         </param>
         <briefdescription>
+<para>Set the editing mode (Point vs Freehand). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="83" column="1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="171" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="171" bodyend="171"/>
       </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1abf7c3c9ea71a7aa23d8d8bce986b7c22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>UGridCanvasWidget::UFUNCTION</definition>
-        <argsstring>(BlueprintCallable, Category=&quot;Grid&quot;) void SetWeaponData(UWeaponDataAsset *NewWeaponData)</argsstring>
-        <name>UFUNCTION</name>
-        <qualifiedname>UGridCanvasWidget::UFUNCTION</qualifiedname>
-        <param>
-          <type>BlueprintCallable</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Grid&quot;</defval>
-        </param>
+      <memberdef kind="function" id="class_u_grid_canvas_widget_1ad20f17a7516276cf07f75ceb4d0b68e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UGridCanvasWidget::ToggleEditMode</definition>
+        <argsstring>()</argsstring>
+        <name>ToggleEditMode</name>
+        <qualifiedname>UGridCanvasWidget::ToggleEditMode</qualifiedname>
         <briefdescription>
+<para>Toggle between Point and Freehand edit modes. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="84" column="1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="175" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="265" bodyend="277"/>
       </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1ae8384d98b343bf59e05547f18ae3557f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>UGridCanvasWidget::UFUNCTION</definition>
-        <argsstring>(BlueprintCallable, Category=&quot;Grid&quot;) void SetEditMode(ERecoilEditMode NewMode)</argsstring>
-        <name>UFUNCTION</name>
-        <qualifiedname>UGridCanvasWidget::UFUNCTION</qualifiedname>
-        <param>
-          <type>BlueprintCallable</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Grid&quot;</defval>
-        </param>
+      <memberdef kind="function" id="class_u_grid_canvas_widget_1a9a07dfe3f2d4ce2bb4eb46204d4ba9a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UGridCanvasWidget::Undo</definition>
+        <argsstring>()</argsstring>
+        <name>Undo</name>
+        <qualifiedname>UGridCanvasWidget::Undo</qualifiedname>
         <briefdescription>
+<para>Undo the last pattern change, if any. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="87" column="1" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="87" bodyend="87"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="181" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="279" bodyend="288"/>
       </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1a3952283f48b8ae9c5664632fd7c3e1e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>UGridCanvasWidget::UFUNCTION</definition>
-        <argsstring>(BlueprintCallable, Category=&quot;Grid&quot;) void ToggleEditMode()</argsstring>
-        <name>UFUNCTION</name>
-        <qualifiedname>UGridCanvasWidget::UFUNCTION</qualifiedname>
-        <param>
-          <type>BlueprintCallable</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Grid&quot;</defval>
-        </param>
+      <memberdef kind="function" id="class_u_grid_canvas_widget_1a94b56c765eaf5fa15566118b52d3ecf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UGridCanvasWidget::Redo</definition>
+        <argsstring>()</argsstring>
+        <name>Redo</name>
+        <qualifiedname>UGridCanvasWidget::Redo</qualifiedname>
         <briefdescription>
+<para>Redo the last undone pattern change, if any. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="88" column="1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="185" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="290" bodyend="299"/>
       </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1a47e19c42a5896c424b7e6846e4410127" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>UGridCanvasWidget::UFUNCTION</definition>
-        <argsstring>(BlueprintCallable, Category=&quot;Undo&quot;) void Undo()</argsstring>
-        <name>UFUNCTION</name>
-        <qualifiedname>UGridCanvasWidget::UFUNCTION</qualifiedname>
-        <param>
-          <type>BlueprintCallable</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Undo&quot;</defval>
-        </param>
+      <memberdef kind="function" id="class_u_grid_canvas_widget_1a4b9e258664b0c3fba9529554e21c6c04" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UGridCanvasWidget::CanUndo</definition>
+        <argsstring>() const</argsstring>
+        <name>CanUndo</name>
+        <qualifiedname>UGridCanvasWidget::CanUndo</qualifiedname>
         <briefdescription>
+<para>Returns true if an undo is possible. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="91" column="1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="189" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="189" bodyend="189"/>
       </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1a45bf086c8032b2410c25638227dc2292" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>UGridCanvasWidget::UFUNCTION</definition>
-        <argsstring>(BlueprintCallable, Category=&quot;Undo&quot;) void Redo()</argsstring>
-        <name>UFUNCTION</name>
-        <qualifiedname>UGridCanvasWidget::UFUNCTION</qualifiedname>
-        <param>
-          <type>BlueprintCallable</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Undo&quot;</defval>
-        </param>
+      <memberdef kind="function" id="class_u_grid_canvas_widget_1aede9aae66d771afd65a0143aca636574" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UGridCanvasWidget::CanRedo</definition>
+        <argsstring>() const</argsstring>
+        <name>CanRedo</name>
+        <qualifiedname>UGridCanvasWidget::CanRedo</qualifiedname>
         <briefdescription>
+<para>Returns true if a redo is possible. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="92" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1a22788bc07fa6679152f73904d161ebcc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>UGridCanvasWidget::UFUNCTION</definition>
-        <argsstring>(BlueprintCallable, Category=&quot;Undo&quot;) bool CanUndo() const</argsstring>
-        <name>UFUNCTION</name>
-        <qualifiedname>UGridCanvasWidget::UFUNCTION</qualifiedname>
-        <param>
-          <type>BlueprintCallable</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Undo&quot;</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="93" column="1" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="93" bodyend="93"/>
-      </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1a04aa4fe555cbe5c83f20a2845e706fe7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>UGridCanvasWidget::UFUNCTION</definition>
-        <argsstring>(BlueprintCallable, Category=&quot;Undo&quot;) bool CanRedo() const</argsstring>
-        <name>UFUNCTION</name>
-        <qualifiedname>UGridCanvasWidget::UFUNCTION</qualifiedname>
-        <param>
-          <type>BlueprintCallable</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Undo&quot;</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="94" column="1" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="94" bodyend="94"/>
-      </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1a85ccb0467e81938937dcb2e5c89c52f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>UGridCanvasWidget::UPROPERTY</definition>
-        <argsstring>(EditAnywhere, BlueprintReadWrite, Category=&quot;Grid&quot;) float XAxisRange</argsstring>
-        <name>UPROPERTY</name>
-        <qualifiedname>UGridCanvasWidget::UPROPERTY</qualifiedname>
-        <param>
-          <type>EditAnywhere</type>
-        </param>
-        <param>
-          <type>BlueprintReadWrite</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Grid&quot;</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="167" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1a8a011ea89b8486ba0bc722c48e272a37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>UGridCanvasWidget::UPROPERTY</definition>
-        <argsstring>(EditAnywhere, BlueprintReadWrite, Category=&quot;Grid&quot;) FVector2D PanOffset</argsstring>
-        <name>UPROPERTY</name>
-        <qualifiedname>UGridCanvasWidget::UPROPERTY</qualifiedname>
-        <param>
-          <type>EditAnywhere</type>
-        </param>
-        <param>
-          <type>BlueprintReadWrite</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Grid&quot;</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="168" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1a51d7d20def67e9ac45882ff9738a011e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>UGridCanvasWidget::UPROPERTY</definition>
-        <argsstring>(EditAnywhere, BlueprintReadWrite, Category=&quot;Grid|Zoom&quot;) float MaxZoom</argsstring>
-        <name>UPROPERTY</name>
-        <qualifiedname>UGridCanvasWidget::UPROPERTY</qualifiedname>
-        <param>
-          <type>EditAnywhere</type>
-        </param>
-        <param>
-          <type>BlueprintReadWrite</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Grid|Zoom&quot;</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="173" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1a1e35fc998d3987d734a6da707e1cbc2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>UGridCanvasWidget::UPROPERTY</definition>
-        <argsstring>(EditAnywhere, Category=&quot;Spray|Defaults&quot;, meta=(ClampMin=1)) int32 DefaultMagSize</argsstring>
-        <name>UPROPERTY</name>
-        <qualifiedname>UGridCanvasWidget::UPROPERTY</qualifiedname>
-        <param>
-          <type>EditAnywhere</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Spray|Defaults&quot;</defval>
-        </param>
-        <param>
-          <type>meta</type>
-          <defval>(ClampMin=1)</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="175" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1a1f47e34e14ddaebee5fac153cda9f38e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>UGridCanvasWidget::UPROPERTY</definition>
-        <argsstring>(EditAnywhere, BlueprintReadWrite, Category=&quot;Spray|Mode&quot;) ERecoilEditMode EditMode</argsstring>
-        <name>UPROPERTY</name>
-        <qualifiedname>UGridCanvasWidget::UPROPERTY</qualifiedname>
-        <param>
-          <type>EditAnywhere</type>
-        </param>
-        <param>
-          <type>BlueprintReadWrite</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Spray|Mode&quot;</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="176" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1af912ea30a490e0f208a9282a47487130" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>UGridCanvasWidget::UPROPERTY</definition>
-        <argsstring>(EditAnywhere, meta=(AllowedClasses=&quot;WeaponDataAsset&quot;)) UWeaponDataAsset *SelectedWeapon</argsstring>
-        <name>UPROPERTY</name>
-        <qualifiedname>UGridCanvasWidget::UPROPERTY</qualifiedname>
-        <param>
-          <type>EditAnywhere</type>
-        </param>
-        <param>
-          <type>meta</type>
-          <defval>(AllowedClasses=&quot;WeaponDataAsset&quot;)</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="178" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1aa74a4cb66b86d2d7b65f4e7c383b945b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>UGridCanvasWidget::UPROPERTY</definition>
-        <argsstring>(EditAnywhere, BlueprintReadWrite, Category=&quot;Grid&quot;) FLinearColor MajorLineColor</argsstring>
-        <name>UPROPERTY</name>
-        <qualifiedname>UGridCanvasWidget::UPROPERTY</qualifiedname>
-        <param>
-          <type>EditAnywhere</type>
-        </param>
-        <param>
-          <type>BlueprintReadWrite</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Grid&quot;</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="180" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1a6a70f4ceed644356000f16eea272f2fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>UGridCanvasWidget::UPROPERTY</definition>
-        <argsstring>(EditAnywhere, BlueprintReadWrite, Category=&quot;Grid&quot;) FLinearColor MinorLineColor</argsstring>
-        <name>UPROPERTY</name>
-        <qualifiedname>UGridCanvasWidget::UPROPERTY</qualifiedname>
-        <param>
-          <type>EditAnywhere</type>
-        </param>
-        <param>
-          <type>BlueprintReadWrite</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Grid&quot;</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="181" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1aee58d81aa00acd40e70168f534523595" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>UGridCanvasWidget::UPROPERTY</definition>
-        <argsstring>(EditAnywhere, BlueprintReadWrite, Category=&quot;Grid&quot;) bool bSnapToGrid</argsstring>
-        <name>UPROPERTY</name>
-        <qualifiedname>UGridCanvasWidget::UPROPERTY</qualifiedname>
-        <param>
-          <type>EditAnywhere</type>
-        </param>
-        <param>
-          <type>BlueprintReadWrite</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Grid&quot;</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="183" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1a87fe15f93add6bbf8d61447917720076" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
-        <type></type>
-        <definition>UGridCanvasWidget::UPROPERTY</definition>
-        <argsstring>(EditAnywhere, BlueprintReadWrite, Category=&quot;Grid&quot;) float SnapInterval=0.25f</argsstring>
-        <name>UPROPERTY</name>
-        <qualifiedname>UGridCanvasWidget::UPROPERTY</qualifiedname>
-        <param>
-          <type>EditAnywhere</type>
-        </param>
-        <param>
-          <type>BlueprintReadWrite</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Grid&quot;</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="184" column="1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="193" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="193" bodyend="193"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -870,7 +763,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="100" column="14" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="116" bodyend="120"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="197" column="18" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="116" bodyend="120"/>
       </memberdef>
       <memberdef kind="function" id="class_u_grid_canvas_widget_1af181364848460173db92c2c13f9f3871" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -892,7 +785,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="101" column="14" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="122" bodyend="135"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="198" column="18" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="122" bodyend="135"/>
       </memberdef>
       <memberdef kind="function" id="class_u_grid_canvas_widget_1ac57384fa5f8227744bffc1cb1ee7465d" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>int32</type>
@@ -934,7 +827,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="102" column="15" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="302" bodyend="344"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="199" column="20" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="302" bodyend="344"/>
       </memberdef>
       <memberdef kind="function" id="class_u_grid_canvas_widget_1ae98764d7d1f3f34dc98ea9371639af27" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>FReply</type>
@@ -956,7 +849,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="107" column="16" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="346" bodyend="463"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="206" column="20" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="346" bodyend="463"/>
       </memberdef>
       <memberdef kind="function" id="class_u_grid_canvas_widget_1a5831de6a6d20d8e528317a450b09a2b5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>FReply</type>
@@ -978,7 +871,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="108" column="16" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="465" bodyend="503"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="208" column="20" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="465" bodyend="503"/>
       </memberdef>
       <memberdef kind="function" id="class_u_grid_canvas_widget_1ab3b62d27d17e1b58c7bb0a435bde6754" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>FReply</type>
@@ -1001,7 +894,7 @@
         <inbodydescription>
 <para>World Units Min Distance</para>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="109" column="16" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="505" bodyend="611"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="210" column="20" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="505" bodyend="611"/>
       </memberdef>
       <memberdef kind="function" id="class_u_grid_canvas_widget_1a6bf7aad699bdf4bbd46d29d4d2ca0b34" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>FReply</type>
@@ -1023,7 +916,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="110" column="16" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="613" bodyend="657"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="212" column="20" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="613" bodyend="657"/>
       </memberdef>
       <memberdef kind="function" id="class_u_grid_canvas_widget_1a8878f0eceafba9d3e25bb389c5179592" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>FReply</type>
@@ -1045,7 +938,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="111" column="16" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="659" bodyend="680"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="214" column="20" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="659" bodyend="680"/>
       </memberdef>
       <memberdef kind="function" id="class_u_grid_canvas_widget_1a76184b92e94562cf1fb7db29dde34d7d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -1067,38 +960,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="112" column="16" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="682" bodyend="694"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="216" column="20" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="682" bodyend="694"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1af7bf4020fd90f435b0ee8d28368152be" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>int32</type>
-        <definition>int32 UGridCanvasWidget::GetDesiredShotCount</definition>
-        <argsstring>() const</argsstring>
-        <name>GetDesiredShotCount</name>
-        <qualifiedname>UGridCanvasWidget::GetDesiredShotCount</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="117" column="8" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="696" bodyend="710"/>
-      </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1a014eef438b321834225cc24ab83a8708" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void UGridCanvasWidget::RecordUndoSnapshot</definition>
-        <argsstring>()</argsstring>
-        <name>RecordUndoSnapshot</name>
-        <qualifiedname>UGridCanvasWidget::RecordUndoSnapshot</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="118" column="8" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="712" bodyend="722"/>
-      </memberdef>
       <memberdef kind="function" id="class_u_grid_canvas_widget_1a11eeb7716666f2401182caf03e728ffb" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="struct_u_grid_canvas_widget_1_1_f_grid_params" kindref="compound">FGridParams</ref></type>
         <definition>FGridParams UGridCanvasWidget::CalcGridParams</definition>
@@ -1110,26 +975,57 @@
           <declname>G</declname>
         </param>
         <briefdescription>
+<para>Helper to compute <ref refid="struct_u_grid_canvas_widget_1_1_f_grid_params" kindref="compound">FGridParams</ref> for the current geometry. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="122" column="15" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="724" bodyend="751"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="221" column="17" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="724" bodyend="751"/>
       </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1afa429676789c29b8c1f24400419cf381" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="class_u_grid_canvas_widget_1af7bf4020fd90f435b0ee8d28368152be" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int32</type>
+        <definition>int32 UGridCanvasWidget::GetDesiredShotCount</definition>
+        <argsstring>() const</argsstring>
+        <name>GetDesiredShotCount</name>
+        <qualifiedname>UGridCanvasWidget::GetDesiredShotCount</qualifiedname>
+        <briefdescription>
+<para>Get the number of shots in a mag in the current weapon asset. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="226" column="12" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="696" bodyend="710"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_grid_canvas_widget_1a014eef438b321834225cc24ab83a8708" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UGridCanvasWidget::RecordUndoSnapshot</definition>
+        <argsstring>()</argsstring>
+        <name>RecordUndoSnapshot</name>
+        <qualifiedname>UGridCanvasWidget::RecordUndoSnapshot</qualifiedname>
+        <briefdescription>
+<para>Pushes a new snapshot onto <ref refid="class_u_grid_canvas_widget_1a4846065e699258f2529fc2bd1fb830e6" kindref="member">UndoStack</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="230" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="712" bodyend="722"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_grid_canvas_widget_1aea903413f50eabd54387ab5f0c85ce13" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void UGridCanvasWidget::DrawGrid</definition>
-        <argsstring>(const FGeometry &amp;, FSlateWindowElementList &amp;, int32 &amp;Layer, const FGridParams &amp;) const</argsstring>
+        <argsstring>(const FGeometry &amp;G, FSlateWindowElementList &amp;Out, int32 &amp;Layer, const FGridParams &amp;P) const</argsstring>
         <name>DrawGrid</name>
         <qualifiedname>UGridCanvasWidget::DrawGrid</qualifiedname>
         <param>
           <type>const FGeometry &amp;</type>
-          <defname>G</defname>
+          <declname>G</declname>
         </param>
         <param>
           <type>FSlateWindowElementList &amp;</type>
-          <defname>Out</defname>
+          <declname>Out</declname>
         </param>
         <param>
           <type>int32 &amp;</type>
@@ -1137,29 +1033,30 @@
         </param>
         <param>
           <type>const <ref refid="struct_u_grid_canvas_widget_1_1_f_grid_params" kindref="compound">FGridParams</ref> &amp;</type>
-          <defname>P</defname>
+          <declname>P</declname>
         </param>
         <briefdescription>
+<para>Draw major/minor grid lines using <ref refid="struct_u_grid_canvas_widget_1_1_f_grid_params" kindref="compound">FGridParams</ref>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="123" column="15" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="756" bodyend="844"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="233" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="756" bodyend="844"/>
       </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1a3f177a0234e727f2388dca9846bb1bea" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="class_u_grid_canvas_widget_1a4107170129374db71e599de859e53942" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void UGridCanvasWidget::DrawOriginCrosshair</definition>
-        <argsstring>(const FGeometry &amp;, FSlateWindowElementList &amp;, int32 &amp;Layer, const FGridParams &amp;) const</argsstring>
+        <argsstring>(const FGeometry &amp;G, FSlateWindowElementList &amp;Out, int32 &amp;Layer, const FGridParams &amp;P) const</argsstring>
         <name>DrawOriginCrosshair</name>
         <qualifiedname>UGridCanvasWidget::DrawOriginCrosshair</qualifiedname>
         <param>
           <type>const FGeometry &amp;</type>
-          <defname>G</defname>
+          <declname>G</declname>
         </param>
         <param>
           <type>FSlateWindowElementList &amp;</type>
-          <defname>Out</defname>
+          <declname>Out</declname>
         </param>
         <param>
           <type>int32 &amp;</type>
@@ -1167,29 +1064,30 @@
         </param>
         <param>
           <type>const <ref refid="struct_u_grid_canvas_widget_1_1_f_grid_params" kindref="compound">FGridParams</ref> &amp;</type>
-          <defname>P</defname>
+          <declname>P</declname>
         </param>
         <briefdescription>
+<para>Draw the origin crosshair at (<ref refid="struct_u_grid_canvas_widget_1_1_f_grid_params_1a875aec0b7dd3fd0b82857613dc542873" kindref="member">FGridParams::XZeroPx</ref>, <ref refid="struct_u_grid_canvas_widget_1_1_f_grid_params_1ac4b897b66b43041460bf45ca4bcc61c5" kindref="member">FGridParams::YZeroPx</ref>). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="124" column="15" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="849" bodyend="905"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="239" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="849" bodyend="905"/>
       </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1a191908b6ea48558e524166623bc05a5d" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="class_u_grid_canvas_widget_1a96bd4b8913fb555cf3757ad3683e03f1" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void UGridCanvasWidget::DrawAxisLabels</definition>
-        <argsstring>(const FGeometry &amp;, FSlateWindowElementList &amp;, int32 &amp;Layer, const FGridParams &amp;) const</argsstring>
+        <argsstring>(const FGeometry &amp;G, FSlateWindowElementList &amp;Out, int32 &amp;Layer, const FGridParams &amp;P) const</argsstring>
         <name>DrawAxisLabels</name>
         <qualifiedname>UGridCanvasWidget::DrawAxisLabels</qualifiedname>
         <param>
           <type>const FGeometry &amp;</type>
-          <defname>G</defname>
+          <declname>G</declname>
         </param>
         <param>
           <type>FSlateWindowElementList &amp;</type>
-          <defname>Out</defname>
+          <declname>Out</declname>
         </param>
         <param>
           <type>int32 &amp;</type>
@@ -1197,67 +1095,43 @@
         </param>
         <param>
           <type>const <ref refid="struct_u_grid_canvas_widget_1_1_f_grid_params" kindref="compound">FGridParams</ref> &amp;</type>
-          <defname>P</defname>
+          <declname>P</declname>
         </param>
         <briefdescription>
+<para>Draw numeric axis labels (0, X, Y) sticky to edges. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="125" column="15" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="910" bodyend="1047"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="245" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="910" bodyend="1047"/>
       </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1a1b25eb9426c0539d52c46c2b886a2912" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="class_u_grid_canvas_widget_1a587a3193c11d8738d105235e7522a194" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void UGridCanvasWidget::DrawHudHints</definition>
-        <argsstring>(const FGeometry &amp;, FSlateWindowElementList &amp;, int32 &amp;Layer) const</argsstring>
+        <argsstring>(const FGeometry &amp;G, FSlateWindowElementList &amp;Out, int32 &amp;Layer) const</argsstring>
         <name>DrawHudHints</name>
         <qualifiedname>UGridCanvasWidget::DrawHudHints</qualifiedname>
         <param>
           <type>const FGeometry &amp;</type>
-          <defname>G</defname>
+          <declname>G</declname>
         </param>
         <param>
           <type>FSlateWindowElementList &amp;</type>
-          <defname>Out</defname>
+          <declname>Out</declname>
         </param>
         <param>
           <type>int32 &amp;</type>
           <declname>Layer</declname>
         </param>
         <briefdescription>
+<para>Draw HUD hints (“&lt;- LEFT&quot; / “RIGHT -&gt;&quot;) at fixed positions. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="126" column="15" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="1052" bodyend="1079"/>
-      </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1ae271f88d74d55f344bb36fa18899492b" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void UGridCanvasWidget::DrawPreviewPoint</definition>
-        <argsstring>(const FGeometry &amp;, FSlateWindowElementList &amp;, int32 &amp;Layer) const</argsstring>
-        <name>DrawPreviewPoint</name>
-        <qualifiedname>UGridCanvasWidget::DrawPreviewPoint</qualifiedname>
-        <param>
-          <type>const FGeometry &amp;</type>
-          <defname>G</defname>
-        </param>
-        <param>
-          <type>FSlateWindowElementList &amp;</type>
-          <defname>Out</defname>
-        </param>
-        <param>
-          <type>int32 &amp;</type>
-          <declname>Layer</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="127" column="15" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="1084" bodyend="1136"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="251" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="1052" bodyend="1079"/>
       </memberdef>
       <memberdef kind="function" id="class_u_grid_canvas_widget_1ae32d3546ec59577d71780cf9596e063a" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1278,12 +1152,40 @@
           <declname>LayerId</declname>
         </param>
         <briefdescription>
+<para>Draw the live spray points and connecting pulses. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="128" column="7" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="1138" bodyend="1317"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="256" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="1138" bodyend="1317"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_grid_canvas_widget_1ad8a1b003a01c4d0c67b840507f66b91f" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UGridCanvasWidget::DrawPreviewPoint</definition>
+        <argsstring>(const FGeometry &amp;G, FSlateWindowElementList &amp;Out, int32 &amp;Layer) const</argsstring>
+        <name>DrawPreviewPoint</name>
+        <qualifiedname>UGridCanvasWidget::DrawPreviewPoint</qualifiedname>
+        <param>
+          <type>const FGeometry &amp;</type>
+          <declname>G</declname>
+        </param>
+        <param>
+          <type>FSlateWindowElementList &amp;</type>
+          <declname>Out</declname>
+        </param>
+        <param>
+          <type>int32 &amp;</type>
+          <declname>Layer</declname>
+        </param>
+        <briefdescription>
+<para>Draw the preview point ring and coordinate tooltip. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="261" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="1084" bodyend="1136"/>
       </memberdef>
       <memberdef kind="function" id="class_u_grid_canvas_widget_1a88f74842a895dcbe707101091072c419" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -1308,12 +1210,13 @@
           <declname>ClipRect</declname>
         </param>
         <briefdescription>
+<para>Draw the freehand stroke preview. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="129" column="7" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="1418" bodyend="1541"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="266" column="10" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="1418" bodyend="1541"/>
       </memberdef>
       <memberdef kind="function" id="class_u_grid_canvas_widget_1a91b9acde88110b4e989da74c410d2dbd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>TArray&lt; FVector2D &gt;</type>
@@ -1326,12 +1229,13 @@
           <declname>NumSamples</declname>
         </param>
         <briefdescription>
+<para>Resample a stroke to an even number of points. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="132" column="8" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="1319" bodyend="1380"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="269" column="12" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="1319" bodyend="1380"/>
       </memberdef>
       <memberdef kind="function" id="class_u_grid_canvas_widget_1a12b70ad61949a39f1591f79e64ea632c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -1340,12 +1244,13 @@
         <name>UPROPERTY</name>
         <qualifiedname>UGridCanvasWidget::UPROPERTY</qualifiedname>
         <briefdescription>
+<para>Currently edited spray points. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="136" column="1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="278" column="5"/>
       </memberdef>
       <memberdef kind="function" id="class_u_grid_canvas_widget_1a125df9ff4214f261d98e976a22bb8376" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -1354,12 +1259,13 @@
         <name>UPROPERTY</name>
         <qualifiedname>UGridCanvasWidget::UPROPERTY</qualifiedname>
         <briefdescription>
+<para>Backup of original spray points for scaling/restoration. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="137" column="1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="281" column="5"/>
       </memberdef>
       <memberdef kind="function" id="class_u_grid_canvas_widget_1ac590486c946d48b707f5ce1cc6bfa7a4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -1368,12 +1274,13 @@
         <name>UPROPERTY</name>
         <qualifiedname>UGridCanvasWidget::UPROPERTY</qualifiedname>
         <briefdescription>
+<para>Raw freehand stroke points prior to resampling. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="139" column="1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="284" column="5"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
@@ -1393,19 +1300,33 @@
           <defval>2</defval>
         </param>
         <briefdescription>
+<para>Smooth a point array with Chaikin&apos;s algorithm. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="133" column="15" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="1382" bodyend="1416"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="272" column="19" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="1382" bodyend="1416"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Slate-backed widget that shows a 2-D grid and lets designers author / edit spray-patterns for weapons. </para>
+<para>Slate-backed widget for authoring and previewing weapon spray patterns. </para>
     </briefdescription>
     <detaileddescription>
-<para>Supports zoom, pan, point &amp; freehand input, undo/redo, grid-snapping and live preview. </para>
+<para><ref refid="class_u_grid_canvas_widget" kindref="compound">UGridCanvasWidget</ref> lets designers:<itemizedlist>
+<listitem><para>Zoom (<ref refid="class_u_grid_canvas_widget_1a8b294a32e146b92ece32f6ce8c0219d6" kindref="member">Zoom</ref>) and pan (<ref refid="class_u_grid_canvas_widget_1a40c73780a82afbbe153da653d5facac7" kindref="member">PanOffset</ref>) over a 2D grid.</para>
+</listitem><listitem><para>Switch edit modes via <ref refid="class_u_grid_canvas_widget_1ad20f17a7516276cf07f75ceb4d0b68e9" kindref="member">ToggleEditMode()</ref> between ERecoilEditMode::Point and ERecoilEditMode::Freehand.</para>
+</listitem><listitem><para>Add, clear, scale (<ref refid="class_u_grid_canvas_widget_1a277980892f05df5ed7fe46dc96ad3ddd" kindref="member">ScaleSprayPatternUniform()</ref>, <ref refid="class_u_grid_canvas_widget_1a5a7bdf5d7870a0a87d9b45cab83526e2" kindref="member">ScaleSprayPattern()</ref>) and export (<ref refid="class_u_grid_canvas_widget_1a53a019ebb3c0d5ac9d8ea09e1b7fbe44" kindref="member">ExportSprayPattern()</ref>) spray points.</para>
+</listitem><listitem><para>Undo/redo strokes with <ref refid="class_u_grid_canvas_widget_1a9a07dfe3f2d4ce2bb4eb46204d4ba9a3" kindref="member">Undo()</ref>, <ref refid="class_u_grid_canvas_widget_1a94b56c765eaf5fa15566118b52d3ecf1" kindref="member">Redo()</ref>, backed by <ref refid="class_u_grid_canvas_widget_1a4846065e699258f2529fc2bd1fb830e6" kindref="member">UndoStack</ref> / <ref refid="class_u_grid_canvas_widget_1aee5d312aa51f0694e52f8ed47a364c44" kindref="member">RedoStack</ref> and helper <ref refid="class_u_grid_canvas_widget_1a014eef438b321834225cc24ab83a8708" kindref="member">RecordUndoSnapshot()</ref>.</para>
+</listitem></itemizedlist>
+</para>
+<para>Internally uses nested <ref refid="struct_u_grid_canvas_widget_1_1_f_grid_params" kindref="compound">FGridParams</ref> and <ref refid="class_u_grid_canvas_widget_1ac57384fa5f8227744bffc1cb1ee7465d" kindref="member">NativePaint()</ref> to draw:<itemizedlist>
+<listitem><para>Major/minor grid lines (<ref refid="class_u_grid_canvas_widget_1aea903413f50eabd54387ab5f0c85ce13" kindref="member">DrawGrid()</ref>).</para>
+</listitem><listitem><para>Origin crosshair (<ref refid="class_u_grid_canvas_widget_1a4107170129374db71e599de859e53942" kindref="member">DrawOriginCrosshair()</ref>).</para>
+</listitem><listitem><para>Axis labels (<ref refid="class_u_grid_canvas_widget_1a96bd4b8913fb555cf3757ad3683e03f1" kindref="member">DrawAxisLabels()</ref>).</para>
+</listitem><listitem><para>Live preview lines and pattern points (<ref refid="class_u_grid_canvas_widget_1ae32d3546ec59577d71780cf9596e063a" kindref="member">DrawSprayPattern()</ref>, <ref refid="class_u_grid_canvas_widget_1ad8a1b003a01c4d0c67b840507f66b91f" kindref="member">DrawPreviewPoint()</ref>). </para>
+</listitem></itemizedlist>
+</para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -1419,39 +1340,63 @@
       </node>
     </inheritancegraph>
     <collaborationgraph>
+      <node id="4">
+        <label>UDataAsset</label>
+      </node>
       <node id="1">
         <label>UGridCanvasWidget</label>
         <link refid="class_u_grid_canvas_widget"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>SelectedWeapon</edgelabel>
+        </childnode>
       </node>
       <node id="2">
         <label>UUserWidget</label>
       </node>
+      <node id="3">
+        <label>UWeaponDataAsset</label>
+        <link refid="class_u_weapon_data_asset"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
     </collaborationgraph>
-    <location file="Source/TimeAssassin/GridCanvasWidget.h" line="42" column="1" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="43" bodyend="185"/>
+    <location file="Source/TimeAssassin/GridCanvasWidget.h" line="79" column="1" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="80" bodyend="354"/>
     <listofallmembers>
+      <member refid="class_u_grid_canvas_widget_1a5ac8aa12f7dc2cbb7f53f118e886e1a7" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>AddPoint</name></member>
       <member refid="class_u_grid_canvas_widget_1aa3b08d7b17c4c7cadf6bd5ff5eca03a8" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>bDidInitialSetup</name></member>
       <member refid="class_u_grid_canvas_widget_1aaacfe7d9208179a84fbb9f2462c33c30" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>bDragging</name></member>
       <member refid="class_u_grid_canvas_widget_1a76a9ead5074a39f965a356e3f2e66d7f" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>bDraggingPoint</name></member>
       <member refid="class_u_grid_canvas_widget_1abdd250134c6f7067b7ee2b91a1de7c13" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>bDrawingStroke</name></member>
       <member refid="class_u_grid_canvas_widget_1a9d88401a809fc530639c7f02be77285e" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>bHasHoverPoint</name></member>
       <member refid="class_u_grid_canvas_widget_1a7d9a9aec9a28dd561f30ee785d60ea2e" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>bHasPreviewPoint</name></member>
+      <member refid="class_u_grid_canvas_widget_1a50a898f2741dfc0314582c7bf0bd0d18" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>bSnapToGrid</name></member>
       <member refid="class_u_grid_canvas_widget_1a11eeb7716666f2401182caf03e728ffb" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>CalcGridParams</name></member>
+      <member refid="class_u_grid_canvas_widget_1aede9aae66d771afd65a0143aca636574" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>CanRedo</name></member>
+      <member refid="class_u_grid_canvas_widget_1a4b9e258664b0c3fba9529554e21c6c04" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>CanUndo</name></member>
       <member refid="class_u_grid_canvas_widget_1a43b4b12518604a85227c9a196173cdee" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>ChaikinSmooth</name></member>
+      <member refid="class_u_grid_canvas_widget_1a68a966efa9980870479593cfcc229198" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>ClearPoints</name></member>
+      <member refid="class_u_grid_canvas_widget_1ab12277f9c08374ba232cc695dd1b32ed" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>DefaultMagSize</name></member>
       <member refid="class_u_grid_canvas_widget_1a7949570df7b2f99fb8d16a9406be32d4" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>DraggedPointIndex</name></member>
-      <member refid="class_u_grid_canvas_widget_1a191908b6ea48558e524166623bc05a5d" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>DrawAxisLabels</name></member>
+      <member refid="class_u_grid_canvas_widget_1a96bd4b8913fb555cf3757ad3683e03f1" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>DrawAxisLabels</name></member>
       <member refid="class_u_grid_canvas_widget_1a88f74842a895dcbe707101091072c419" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>DrawFreehandPreview</name></member>
-      <member refid="class_u_grid_canvas_widget_1afa429676789c29b8c1f24400419cf381" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>DrawGrid</name></member>
-      <member refid="class_u_grid_canvas_widget_1a1b25eb9426c0539d52c46c2b886a2912" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>DrawHudHints</name></member>
-      <member refid="class_u_grid_canvas_widget_1a3f177a0234e727f2388dca9846bb1bea" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>DrawOriginCrosshair</name></member>
-      <member refid="class_u_grid_canvas_widget_1ae271f88d74d55f344bb36fa18899492b" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>DrawPreviewPoint</name></member>
+      <member refid="class_u_grid_canvas_widget_1aea903413f50eabd54387ab5f0c85ce13" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>DrawGrid</name></member>
+      <member refid="class_u_grid_canvas_widget_1a587a3193c11d8738d105235e7522a194" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>DrawHudHints</name></member>
+      <member refid="class_u_grid_canvas_widget_1a4107170129374db71e599de859e53942" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>DrawOriginCrosshair</name></member>
+      <member refid="class_u_grid_canvas_widget_1ad8a1b003a01c4d0c67b840507f66b91f" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>DrawPreviewPoint</name></member>
       <member refid="class_u_grid_canvas_widget_1ae32d3546ec59577d71780cf9596e063a" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>DrawSprayPattern</name></member>
+      <member refid="class_u_grid_canvas_widget_1ab668fe409b2c2bb94178dd3a4f042d26" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>EditMode</name></member>
+      <member refid="class_u_grid_canvas_widget_1a53a019ebb3c0d5ac9d8ea09e1b7fbe44" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>ExportSprayPattern</name></member>
       <member refid="class_u_grid_canvas_widget_1af7bf4020fd90f435b0ee8d28368152be" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>GetDesiredShotCount</name></member>
+      <member refid="class_u_grid_canvas_widget_1a40fc805fe9ee5e4d46730b85dddc173b" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>GetPreviewPoint</name></member>
+      <member refid="class_u_grid_canvas_widget_1a837d351067e00db67f5d82bf4ed10a57" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>GetSprayPatternPoints</name></member>
       <member refid="class_u_grid_canvas_widget_1a35fdbde2a5fe1124b1bd2e6519a64176" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>HoverPoint</name></member>
-      <member refid="class_u_grid_canvas_widget_1a7374bc768463bbd6caf358f5ed3720fd" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>kStrokeSampleMinDist</name></member>
       <member refid="class_u_grid_canvas_widget_1adaa3e6605fd9649fdc2108c2310b4c64" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>LastMousePosition</name></member>
+      <member refid="class_u_grid_canvas_widget_1a349b8127fd0eee997c2a14b8f9741170" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>MajorLineColor</name></member>
       <member refid="class_u_grid_canvas_widget_1a117126e5eeb9fe06c16cdd58223daea4" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>MaxHistory</name></member>
+      <member refid="class_u_grid_canvas_widget_1ae8ef53adbbe9319fcdfdfc60b2debe84" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>MaxZoom</name></member>
+      <member refid="class_u_grid_canvas_widget_1a7cb82720e145f5443bb1ed860e2723c2" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>MinorLineColor</name></member>
       <member refid="class_u_grid_canvas_widget_1a1b6ff7ce996bcc84e9f2bb39a06c1876" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>MinZoom</name></member>
       <member refid="class_u_grid_canvas_widget_1a677510b3fdd746610ffa6e4e31a213e2" prot="protected" virt="virtual"><scope>UGridCanvasWidget</scope><name>NativeConstruct</name></member>
       <member refid="class_u_grid_canvas_widget_1a8878f0eceafba9d3e25bb389c5179592" prot="protected" virt="virtual"><scope>UGridCanvasWidget</scope><name>NativeOnKeyDown</name></member>
@@ -1462,42 +1407,28 @@
       <member refid="class_u_grid_canvas_widget_1a6bf7aad699bdf4bbd46d29d4d2ca0b34" prot="protected" virt="virtual"><scope>UGridCanvasWidget</scope><name>NativeOnMouseWheel</name></member>
       <member refid="class_u_grid_canvas_widget_1ac57384fa5f8227744bffc1cb1ee7465d" prot="protected" virt="virtual"><scope>UGridCanvasWidget</scope><name>NativePaint</name></member>
       <member refid="class_u_grid_canvas_widget_1af181364848460173db92c2c13f9f3871" prot="protected" virt="virtual"><scope>UGridCanvasWidget</scope><name>NativeTick</name></member>
+      <member refid="class_u_grid_canvas_widget_1a40c73780a82afbbe153da653d5facac7" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>PanOffset</name></member>
       <member refid="class_u_grid_canvas_widget_1a7b51a477edf97f3529f58695ebf5f201" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>PreviewPoint</name></member>
       <member refid="class_u_grid_canvas_widget_1a014eef438b321834225cc24ab83a8708" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>RecordUndoSnapshot</name></member>
+      <member refid="class_u_grid_canvas_widget_1a94b56c765eaf5fa15566118b52d3ecf1" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>Redo</name></member>
       <member refid="class_u_grid_canvas_widget_1aee5d312aa51f0694e52f8ed47a364c44" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>RedoStack</name></member>
       <member refid="class_u_grid_canvas_widget_1a91b9acde88110b4e989da74c410d2dbd" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>ResampleStroke</name></member>
-      <member refid="class_u_grid_canvas_widget_1aaca3cdd4577b27afd2a7a8eb6cb4dc63" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UFUNCTION</name></member>
-      <member refid="class_u_grid_canvas_widget_1a3e442dcd630bd76e55f4359d1d12fc35" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UFUNCTION</name></member>
-      <member refid="class_u_grid_canvas_widget_1a64497714f46db4d58de678a384822462" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UFUNCTION</name></member>
-      <member refid="class_u_grid_canvas_widget_1a9d9ba9df355b0098b7c917897eedf108" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UFUNCTION</name></member>
-      <member refid="class_u_grid_canvas_widget_1acd474cca41fd973bea0554a4ac39c69d" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UFUNCTION</name></member>
-      <member refid="class_u_grid_canvas_widget_1a2bf8d84ac1a5136a0a67d04985248299" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UFUNCTION</name></member>
-      <member refid="class_u_grid_canvas_widget_1a3b5542d3aef92681161acc430e766ae0" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UFUNCTION</name></member>
-      <member refid="class_u_grid_canvas_widget_1afdd2617e37b210e545ee1b78bb41f2d9" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UFUNCTION</name></member>
-      <member refid="class_u_grid_canvas_widget_1a6bd38aa4f5a6517fda2bfd7dc6e39014" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UFUNCTION</name></member>
-      <member refid="class_u_grid_canvas_widget_1abf7c3c9ea71a7aa23d8d8bce986b7c22" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UFUNCTION</name></member>
-      <member refid="class_u_grid_canvas_widget_1ae8384d98b343bf59e05547f18ae3557f" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UFUNCTION</name></member>
-      <member refid="class_u_grid_canvas_widget_1a3952283f48b8ae9c5664632fd7c3e1e8" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UFUNCTION</name></member>
-      <member refid="class_u_grid_canvas_widget_1a47e19c42a5896c424b7e6846e4410127" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UFUNCTION</name></member>
-      <member refid="class_u_grid_canvas_widget_1a45bf086c8032b2410c25638227dc2292" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UFUNCTION</name></member>
-      <member refid="class_u_grid_canvas_widget_1a22788bc07fa6679152f73904d161ebcc" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UFUNCTION</name></member>
-      <member refid="class_u_grid_canvas_widget_1a04aa4fe555cbe5c83f20a2845e706fe7" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UFUNCTION</name></member>
+      <member refid="class_u_grid_canvas_widget_1a5a7bdf5d7870a0a87d9b45cab83526e2" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>ScaleSprayPattern</name></member>
+      <member refid="class_u_grid_canvas_widget_1a277980892f05df5ed7fe46dc96ad3ddd" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>ScaleSprayPatternUniform</name></member>
+      <member refid="class_u_grid_canvas_widget_1ab2adad62b93aad5f052e93e0c6c6355c" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>SelectedWeapon</name></member>
+      <member refid="class_u_grid_canvas_widget_1a988a2364487a8b8773096af84da17f25" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>SetEditMode</name></member>
+      <member refid="class_u_grid_canvas_widget_1a027fe37cddafa66528807b887c419e30" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>SetHoverPoint</name></member>
+      <member refid="class_u_grid_canvas_widget_1a17157daa6a01bbe1ae62b3d70abe47f6" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>SetSprayPoints</name></member>
+      <member refid="class_u_grid_canvas_widget_1a6a3556ef17031e0cb8bcf116a2c66eae" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>SetWeaponData</name></member>
+      <member refid="class_u_grid_canvas_widget_1ae8549e85756ee94db673883d082fc793" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>SnapInterval</name></member>
+      <member refid="class_u_grid_canvas_widget_1ad20f17a7516276cf07f75ceb4d0b68e9" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>ToggleEditMode</name></member>
       <member refid="class_u_grid_canvas_widget_1adc343c9bfe7979e03aefc1b3b0693080" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UGridCanvasWidget</name></member>
+      <member refid="class_u_grid_canvas_widget_1a9a07dfe3f2d4ce2bb4eb46204d4ba9a3" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>Undo</name></member>
       <member refid="class_u_grid_canvas_widget_1a4846065e699258f2529fc2bd1fb830e6" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UndoStack</name></member>
       <member refid="class_u_grid_canvas_widget_1a12b70ad61949a39f1591f79e64ea632c" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UPROPERTY</name></member>
       <member refid="class_u_grid_canvas_widget_1a125df9ff4214f261d98e976a22bb8376" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UPROPERTY</name></member>
       <member refid="class_u_grid_canvas_widget_1ac590486c946d48b707f5ce1cc6bfa7a4" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UPROPERTY</name></member>
-      <member refid="class_u_grid_canvas_widget_1a85ccb0467e81938937dcb2e5c89c52f5" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UPROPERTY</name></member>
-      <member refid="class_u_grid_canvas_widget_1a8a011ea89b8486ba0bc722c48e272a37" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UPROPERTY</name></member>
-      <member refid="class_u_grid_canvas_widget_1a51d7d20def67e9ac45882ff9738a011e" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UPROPERTY</name></member>
-      <member refid="class_u_grid_canvas_widget_1a1e35fc998d3987d734a6da707e1cbc2e" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UPROPERTY</name></member>
-      <member refid="class_u_grid_canvas_widget_1a1f47e34e14ddaebee5fac153cda9f38e" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UPROPERTY</name></member>
-      <member refid="class_u_grid_canvas_widget_1af912ea30a490e0f208a9282a47487130" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UPROPERTY</name></member>
-      <member refid="class_u_grid_canvas_widget_1aa74a4cb66b86d2d7b65f4e7c383b945b" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UPROPERTY</name></member>
-      <member refid="class_u_grid_canvas_widget_1a6a70f4ceed644356000f16eea272f2fa" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UPROPERTY</name></member>
-      <member refid="class_u_grid_canvas_widget_1aee58d81aa00acd40e70168f534523595" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UPROPERTY</name></member>
-      <member refid="class_u_grid_canvas_widget_1a87fe15f93add6bbf8d61447917720076" prot="public" virt="pure-virtual"><scope>UGridCanvasWidget</scope><name>UPROPERTY</name></member>
-      <member refid="class_u_grid_canvas_widget_1ac71beba26bb8666f2a31c625ffebb05e" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>YMultiplier</name></member>
+      <member refid="class_u_grid_canvas_widget_1a20d6268b561c6675de55f0c3c875a8c8" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>XAxisRange</name></member>
       <member refid="class_u_grid_canvas_widget_1a8b294a32e146b92ece32f6ce8c0219d6" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>Zoom</name></member>
     </listofallmembers>
   </compounddef>

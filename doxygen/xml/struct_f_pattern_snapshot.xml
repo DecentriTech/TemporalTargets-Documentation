@@ -3,35 +3,40 @@
   <compounddef id="struct_f_pattern_snapshot" kind="struct" language="C++" prot="public">
     <compoundname>FPatternSnapshot</compoundname>
     <includes refid="_grid_canvas_widget_8h" local="no">GridCanvasWidget.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_f_pattern_snapshot_1abb88d1ebe12cac013871959715655485" prot="public" static="no" mutable="no">
+        <type>TArray&lt; FVector2D &gt;</type>
+        <definition>TArray&lt;FVector2D&gt; FPatternSnapshot::Points</definition>
+        <argsstring></argsstring>
+        <name>Points</name>
+        <qualifiedname>FPatternSnapshot::Points</qualifiedname>
+        <briefdescription>
+<para>Sequence of 2D points representing the spray pattern. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="39" column="12" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_pattern_snapshot_1a3da48e29acba4fa929e0b4817c1624a0" prot="public" static="no" mutable="no">
+        <type>FVector2D</type>
+        <definition>FVector2D FPatternSnapshot::PreviewPoint</definition>
+        <argsstring></argsstring>
+        <name>PreviewPoint</name>
+        <qualifiedname>FPatternSnapshot::PreviewPoint</qualifiedname>
+        <initializer>= FVector2D::ZeroVector</initializer>
+        <briefdescription>
+<para>Preview point shown when hovering or last point added. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="43" column="15" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="struct_f_pattern_snapshot_1a9599937fc475fbd1df450437dae8c84e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>FPatternSnapshot::UPROPERTY</definition>
-        <argsstring>() TArray&lt; FVector2D &gt; Points</argsstring>
-        <name>UPROPERTY</name>
-        <qualifiedname>FPatternSnapshot::UPROPERTY</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="26" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="struct_f_pattern_snapshot_1ab6fd722cf0a4558c002ec6d4aaf9be69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>FPatternSnapshot::UPROPERTY</definition>
-        <argsstring>() FVector2D PreviewPoint</argsstring>
-        <name>UPROPERTY</name>
-        <qualifiedname>FPatternSnapshot::UPROPERTY</qualifiedname>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="27" column="1"/>
-      </memberdef>
       <memberdef kind="function" id="struct_f_pattern_snapshot_1a81fe603ff32fd87ff43510aa9ea64c2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>FPatternSnapshot::FPatternSnapshot</definition>
@@ -43,12 +48,13 @@
           <declname>InPts</declname>
         </param>
         <briefdescription>
+<para>Construct from a point list. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="30" column="1" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="30" bodyend="30"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="46" column="5" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="46" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="struct_f_pattern_snapshot_1a9125ff8ceeb279baa87e3addf8901904" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -65,12 +71,13 @@
           <declname>InPreviewPoint</declname>
         </param>
         <briefdescription>
+<para>Construct from a point list plus a preview point. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="31" column="1" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="31" bodyend="31"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="51" column="5" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="51" bodyend="53"/>
       </memberdef>
       <memberdef kind="function" id="struct_f_pattern_snapshot_1a3c098cd641f1ebbb7da096715d5894fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -79,26 +86,28 @@
         <name>FPatternSnapshot</name>
         <qualifiedname>FPatternSnapshot::FPatternSnapshot</qualifiedname>
         <briefdescription>
+<para>Default constructor for UE serialization. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="32" column="1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="56" column="5"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Snapshot of the pattern for Undo/Redo. </para>
+<para>Snapshot of spray-pattern points for undo/redo operations. </para>
     </briefdescription>
     <detaileddescription>
+<para>Stores a copy of the designer&apos;s input so that UndoStack/RedoStack can revert to previous states via RecordUndoSnapshot(). </para>
     </detaileddescription>
-    <location file="Source/TimeAssassin/GridCanvasWidget.h" line="22" column="1" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="23" bodyend="33"/>
+    <location file="Source/TimeAssassin/GridCanvasWidget.h" line="33" column="1" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="34" bodyend="57"/>
     <listofallmembers>
       <member refid="struct_f_pattern_snapshot_1a81fe603ff32fd87ff43510aa9ea64c2d" prot="public" virt="non-virtual"><scope>FPatternSnapshot</scope><name>FPatternSnapshot</name></member>
       <member refid="struct_f_pattern_snapshot_1a9125ff8ceeb279baa87e3addf8901904" prot="public" virt="non-virtual"><scope>FPatternSnapshot</scope><name>FPatternSnapshot</name></member>
       <member refid="struct_f_pattern_snapshot_1a3c098cd641f1ebbb7da096715d5894fb" prot="public" virt="non-virtual"><scope>FPatternSnapshot</scope><name>FPatternSnapshot</name></member>
-      <member refid="struct_f_pattern_snapshot_1a9599937fc475fbd1df450437dae8c84e" prot="public" virt="non-virtual"><scope>FPatternSnapshot</scope><name>UPROPERTY</name></member>
-      <member refid="struct_f_pattern_snapshot_1ab6fd722cf0a4558c002ec6d4aaf9be69" prot="public" virt="non-virtual"><scope>FPatternSnapshot</scope><name>UPROPERTY</name></member>
+      <member refid="struct_f_pattern_snapshot_1abb88d1ebe12cac013871959715655485" prot="public" virt="non-virtual"><scope>FPatternSnapshot</scope><name>Points</name></member>
+      <member refid="struct_f_pattern_snapshot_1a3da48e29acba4fa929e0b4817c1624a0" prot="public" virt="non-virtual"><scope>FPatternSnapshot</scope><name>PreviewPoint</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

@@ -66,7 +66,7 @@
   <option  id='GROUP_NESTED_COMPOUNDS' default='yes' type='bool'><value>NO</value></option>
   <option  id='SUBGROUPING' default='yes' type='bool'><value>YES</value></option>
   <option  id='INLINE_GROUPED_CLASSES' default='yes' type='bool'><value>NO</value></option>
-  <option  id='INLINE_SIMPLE_STRUCTS' default='yes' type='bool'><value>NO</value></option>
+  <option  id='INLINE_SIMPLE_STRUCTS' default='no' type='bool'><value>YES</value></option>
   <option  id='TYPEDEF_HIDES_STRUCT' default='yes' type='bool'><value>NO</value></option>
   <option  id='LOOKUP_CACHE_SIZE' default='yes' type='int'><value>0</value></option>
   <option  id='NUM_PROC_THREADS' default='yes' type='int'><value>1</value></option>

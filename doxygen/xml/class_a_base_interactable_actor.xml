@@ -583,7 +583,7 @@
 <para>Anything the player <emphasis>or</emphasis> a ghost can poke at inherits from this. </para>
     </briefdescription>
     <detaileddescription>
-<para>Keeps a tiny overlap sphere so we know who’s nearby, then fires off both C++ and Blueprint events you can hook into. </para>
+<para>Keeps a tiny overlap sphere so we know who&apos;s nearby, then fires off both C++ and Blueprint events you can hook into. </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="2">
