@@ -67,13 +67,13 @@
 <codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>this<sp/>pawn<sp/>to<sp/>call<sp/>Tick()<sp/>every<sp/>frame.<sp/><sp/>You<sp/>can<sp/>turn<sp/>this<sp/>off<sp/>to<sp/>improve<sp/>performance<sp/>if<sp/>you<sp/>don&apos;t<sp/>need<sp/>it.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>PrimaryActorTick.bCanEverTick<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>SpringArm<sp/>=<sp/>CreateDefaultSubobject&lt;USpringArmComponent&gt;(</highlight><highlight class="stringliteral">&quot;SpringArm&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>SpringArm-&gt;SetupAttachment(RootComponent);</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>SpringArm-&gt;TargetArmLength<sp/>=<sp/>0.f;</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>SpringArm-&gt;bEnableCameraLag<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_orbit_spectator_pawn_1a4472908b71b396733bbda86b38918097" kindref="member">SpringArm</ref><sp/>=<sp/>CreateDefaultSubobject&lt;USpringArmComponent&gt;(</highlight><highlight class="stringliteral">&quot;SpringArm&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_orbit_spectator_pawn_1a4472908b71b396733bbda86b38918097" kindref="member">SpringArm</ref>-&gt;SetupAttachment(RootComponent);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_orbit_spectator_pawn_1a4472908b71b396733bbda86b38918097" kindref="member">SpringArm</ref>-&gt;TargetArmLength<sp/>=<sp/>0.f;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_orbit_spectator_pawn_1a4472908b71b396733bbda86b38918097" kindref="member">SpringArm</ref>-&gt;bEnableCameraLag<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>Camera<sp/>=<sp/>CreateDefaultSubobject&lt;UCameraComponent&gt;(</highlight><highlight class="stringliteral">&quot;Camera&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>Camera-&gt;SetupAttachment(SpringArm);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_orbit_spectator_pawn_1a4929761058f42c30fa07d8605d2be012" kindref="member">Camera</ref><sp/>=<sp/>CreateDefaultSubobject&lt;UCameraComponent&gt;(</highlight><highlight class="stringliteral">&quot;Camera&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_orbit_spectator_pawn_1a4929761058f42c30fa07d8605d2be012" kindref="member">Camera</ref>-&gt;SetupAttachment(<ref refid="class_a_orbit_spectator_pawn_1a4472908b71b396733bbda86b38918097" kindref="member">SpringArm</ref>);</highlight></codeline>
 <codeline lineno="22"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="class_a_orbit_spectator_pawn_1a042f83ca27a30c6510b1905153132a6b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_orbit_spectator_pawn_1a042f83ca27a30c6510b1905153132a6b" kindref="member">AOrbitSpectatorPawn::InitializeSpectator</ref>(AActor*<sp/>KillerActor,<sp/>FVector<sp/>DeathLocation)</highlight></codeline>
@@ -109,7 +109,7 @@
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
 <codeline lineno="55"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57" refid="class_a_orbit_spectator_pawn_1a0a3d0a7226853cfbb5f5396f0120e058" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_orbit_spectator_pawn_1a0a3d0a7226853cfbb5f5396f0120e058" kindref="member">AOrbitSpectatorPawn::SetupPlayerInputComponent</ref>(UInputComponent*<sp/>IC)</highlight></codeline>
+<codeline lineno="57" refid="class_a_orbit_spectator_pawn_1aa70faa76d9b9996c4416be65ede76ed7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_orbit_spectator_pawn_1aa70faa76d9b9996c4416be65ede76ed7" kindref="member">AOrbitSpectatorPawn::SetupPlayerInputComponent</ref>(UInputComponent*<sp/>IC)</highlight></codeline>
 <codeline lineno="58"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>Super::SetupPlayerInputComponent(IC);</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
@@ -131,16 +131,16 @@
 <codeline lineno="76" refid="class_a_orbit_spectator_pawn_1a7f011c556cfa6b50321ea81b1de02508" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_orbit_spectator_pawn_1a7f011c556cfa6b50321ea81b1de02508" kindref="member">AOrbitSpectatorPawn::Turn</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>Val)</highlight></codeline>
 <codeline lineno="77"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_a_orbit_spectator_pawn_1ac797da67ea2d26ca211fbe0972572d07" kindref="member">bRightClickDown</ref>)</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SpringArm-&gt;AddRelativeRotation(FRotator(0.f,<sp/>Val,<sp/>0.f));</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_orbit_spectator_pawn_1a4472908b71b396733bbda86b38918097" kindref="member">SpringArm</ref>-&gt;AddRelativeRotation(FRotator(0.f,<sp/>Val,<sp/>0.f));</highlight></codeline>
 <codeline lineno="80"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
 <codeline lineno="82" refid="class_a_orbit_spectator_pawn_1aefbf372b355599d61fedb37802625440" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_orbit_spectator_pawn_1aefbf372b355599d61fedb37802625440" kindref="member">AOrbitSpectatorPawn::LookUp</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>Val)</highlight></codeline>
 <codeline lineno="83"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_a_orbit_spectator_pawn_1ac797da67ea2d26ca211fbe0972572d07" kindref="member">bRightClickDown</ref>)</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FRotator<sp/>R<sp/>=<sp/>SpringArm-&gt;GetRelativeRotation();</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FRotator<sp/>R<sp/>=<sp/><ref refid="class_a_orbit_spectator_pawn_1a4472908b71b396733bbda86b38918097" kindref="member">SpringArm</ref>-&gt;GetRelativeRotation();</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>R.Pitch<sp/>=<sp/>FMath::Clamp(R.Pitch<sp/>+<sp/>Val,<sp/>-80.f,<sp/>80.f);</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SpringArm-&gt;SetRelativeRotation(R);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_orbit_spectator_pawn_1a4472908b71b396733bbda86b38918097" kindref="member">SpringArm</ref>-&gt;SetRelativeRotation(R);</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="90"><highlight class="normal">}</highlight></codeline>
     </programlisting>

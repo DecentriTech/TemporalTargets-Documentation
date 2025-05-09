@@ -5,8 +5,10 @@
     <basecompoundref prot="public" virt="non-virtual">UInterface</basecompoundref>
     <includes refid="_b_p_i___interactable_8h" local="no">BPI_Interactable.h</includes>
     <briefdescription>
+<para>Unreal UInterface type for objects that implement <ref refid="class_i_b_p_i___interactable" kindref="compound">IBPI_Interactable</ref>. </para>
     </briefdescription>
     <detaileddescription>
+<para>Provides the BlueprintType metadata so that actors can implement the interactable interface in C++ or Blueprints. </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -30,7 +32,7 @@
         <label>UInterface</label>
       </node>
     </collaborationgraph>
-    <location file="Source/TimeAssassin/BPI_Interactable.h" line="11" column="1" bodyfile="Source/TimeAssassin/BPI_Interactable.h" bodystart="12" bodyend="14"/>
+    <location file="Source/TimeAssassin/BPI_Interactable.h" line="24" column="1" bodyfile="Source/TimeAssassin/BPI_Interactable.h" bodystart="25" bodyend="27"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

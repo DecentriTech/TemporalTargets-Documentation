@@ -11,12 +11,13 @@
         <name>Shots</name>
         <qualifiedname>FCombatFrameData::Shots</qualifiedname>
         <briefdescription>
+<para>List of shots recorded this frame. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="85" column="12" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="85" bodyend="-1"/>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="100" column="12" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="100" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -27,19 +28,21 @@
         <name>FCombatFrameData</name>
         <qualifiedname>FCombatFrameData::FCombatFrameData</qualifiedname>
         <briefdescription>
+<para>Default constructor initializes an empty shot array. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="87" column="5" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="87" bodyend="90"/>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="103" column="5" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="103" bodyend="106"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Container for all shots fired within a single frame. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Source/TimeAssassin/FPlayerFrameData.h" line="78" column="1" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="79" bodyend="91"/>
+    <location file="Source/TimeAssassin/FPlayerFrameData.h" line="94" column="1" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="95" bodyend="107"/>
     <listofallmembers>
       <member refid="struct_f_combat_frame_data_1ad00fceb9c8ca29d2ed108fcdd2465b56" prot="public" virt="non-virtual"><scope>FCombatFrameData</scope><name>FCombatFrameData</name></member>
       <member refid="struct_f_combat_frame_data_1a003398095dc5c56fcdb970f13a6a86a6" prot="public" virt="non-virtual"><scope>FCombatFrameData</scope><name>Shots</name></member>

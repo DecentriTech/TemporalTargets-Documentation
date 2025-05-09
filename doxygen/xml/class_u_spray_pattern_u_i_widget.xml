@@ -12,12 +12,13 @@
         <name>WeaponDropdown</name>
         <qualifiedname>USprayPatternUIWidget::WeaponDropdown</qualifiedname>
         <briefdescription>
+<para>Dropdown listing available weapons; its OnSelectionChanged is bound to <ref refid="class_u_spray_pattern_u_i_widget_1a2d8d82b242636bb4a8fb57f140904173" kindref="member">OnWeaponSelectionChanged</ref>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="25" column="23" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="25" bodyend="-1"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="36" column="23" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_spray_pattern_u_i_widget_1adc3a89a423fd06b1c04abbe516817ae1" prot="public" static="no" mutable="no">
         <type>class <ref refid="class_u_grid_canvas_widget" kindref="compound">UGridCanvasWidget</ref> *</type>
@@ -26,12 +27,13 @@
         <name>GridCanvasRef</name>
         <qualifiedname>USprayPatternUIWidget::GridCanvasRef</qualifiedname>
         <briefdescription>
+<para>Grid on which the spray pattern points (from <ref refid="class_u_weapon_data_asset_1a39af4b368edb68fcc72abe2e94506208" kindref="member">UWeaponDataAsset::SprayPattern</ref>) are rendered. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="29" column="25" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="29" bodyend="-1"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="40" column="25" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_spray_pattern_u_i_widget_1aa369d4e690b54c3493381966fea2a55e" prot="public" static="no" mutable="no">
         <type>class USlider *</type>
@@ -40,12 +42,13 @@
         <name>SL_ScaleX</name>
         <qualifiedname>USprayPatternUIWidget::SL_ScaleX</qualifiedname>
         <briefdescription>
+<para>Horizontal scale slider for the pattern; reset by <ref refid="class_u_spray_pattern_u_i_widget_1aeefb54015e96f6c0fe41352c88f40cb3" kindref="member">ResetScale</ref>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="32" column="15" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="32" bodyend="-1"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="44" column="15" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_spray_pattern_u_i_widget_1a8cb88001e2f8eec3d9419546f4fa6d75" prot="public" static="no" mutable="no">
         <type>class USlider *</type>
@@ -54,12 +57,13 @@
         <name>SL_ScaleY</name>
         <qualifiedname>USprayPatternUIWidget::SL_ScaleY</qualifiedname>
         <briefdescription>
+<para>Vertical scale slider for the pattern; reset by <ref refid="class_u_spray_pattern_u_i_widget_1aeefb54015e96f6c0fe41352c88f40cb3" kindref="member">ResetScale</ref>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="35" column="15" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="35" bodyend="-1"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="48" column="15" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_spray_pattern_u_i_widget_1a88d9791b679f795758730160bc4b62f2" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -69,12 +73,13 @@
         <qualifiedname>USprayPatternUIWidget::SprayPatternScaleX</qualifiedname>
         <initializer>= 1.0f</initializer>
         <briefdescription>
+<para>Current horizontal scale factor sent to the grid via <ref refid="class_u_spray_pattern_u_i_widget_1a3bf79fac440d0f0d5536947fb7f56a8a" kindref="member">HandleSetSprayPatternScale</ref>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="38" column="7" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="38" bodyend="-1"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="52" column="7" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="52" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_spray_pattern_u_i_widget_1a13fde78e1f957de4ce8238ed4006707e" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -84,12 +89,13 @@
         <qualifiedname>USprayPatternUIWidget::SprayPatternScaleY</qualifiedname>
         <initializer>= 1.0f</initializer>
         <briefdescription>
+<para>Current vertical scale factor sent to the grid via <ref refid="class_u_spray_pattern_u_i_widget_1a3bf79fac440d0f0d5536947fb7f56a8a" kindref="member">HandleSetSprayPatternScale</ref>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="41" column="7" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="41" bodyend="-1"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="56" column="7" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="56" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_spray_pattern_u_i_widget_1aeffeba15b71664c246a4bff54d4ba929" prot="public" static="no" mutable="no">
         <type>FOnSprayPatternLoaded</type>
@@ -98,12 +104,13 @@
         <name>OnPatternLoaded</name>
         <qualifiedname>USprayPatternUIWidget::OnPatternLoaded</qualifiedname>
         <briefdescription>
+<para>Broadcast when a pattern has finished loading—useful for binding UI feedback. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="66" column="23" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="66" bodyend="-1"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="95" column="23" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="95" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_spray_pattern_u_i_widget_1a00a73548f0a64c78948ce921c9cb6d40" prot="public" static="no" mutable="no">
         <type>FOnSprayPatternExported</type>
@@ -112,12 +119,13 @@
         <name>OnPatternExported</name>
         <qualifiedname>USprayPatternUIWidget::OnPatternExported</qualifiedname>
         <briefdescription>
+<para>Broadcast when a pattern has been successfully exported. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="69" column="25" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="69" bodyend="-1"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="99" column="25" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="99" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -128,12 +136,13 @@
         <name>WeaponAssetMap</name>
         <qualifiedname>USprayPatternUIWidget::WeaponAssetMap</qualifiedname>
         <briefdescription>
+<para>Maps dropdown entries to asset paths; populated by <ref refid="class_u_spray_pattern_u_i_widget_1a71dc920c77bbe1910630e8497163d78e" kindref="member">PopulateWeaponDropdown</ref>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="83" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="83" bodyend="-1"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="117" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="117" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -144,12 +153,16 @@
         <name>GetSelectedWeaponData</name>
         <qualifiedname>USprayPatternUIWidget::GetSelectedWeaponData</qualifiedname>
         <briefdescription>
+<para>Returns the <ref refid="class_u_weapon_data_asset" kindref="compound">UWeaponDataAsset</ref> currently selected by the user. </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>pointer to the loaded asset or nullptr if none is selected. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="44" column="18" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="38" bodyend="45"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="63" column="18" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="38" bodyend="45"/>
       </memberdef>
       <memberdef kind="function" id="class_u_spray_pattern_u_i_widget_1a71dc920c77bbe1910630e8497163d78e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -158,12 +171,13 @@
         <name>PopulateWeaponDropdown</name>
         <qualifiedname>USprayPatternUIWidget::PopulateWeaponDropdown</qualifiedname>
         <briefdescription>
+<para>Populate <ref refid="class_u_spray_pattern_u_i_widget_1a694936078f02a97cf23d44e0ad00eb27" kindref="member">WeaponDropdown</ref> via the Asset Registry. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="48" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="47" bodyend="69"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="67" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="47" bodyend="69"/>
       </memberdef>
       <memberdef kind="function" id="class_u_spray_pattern_u_i_widget_1a339d0de1c488b6f518b58a6886e55a4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -172,12 +186,13 @@
         <name>HandleExport</name>
         <qualifiedname>USprayPatternUIWidget::HandleExport</qualifiedname>
         <briefdescription>
+<para>Export the current pattern off the grid via GridCanvasRef-&gt;ExportSprayPattern. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="51" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="71" bodyend="103"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="71" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="71" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="class_u_spray_pattern_u_i_widget_1ac70790e59efb34bc46fb106844fccc41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -186,12 +201,13 @@
         <name>HandleLoad</name>
         <qualifiedname>USprayPatternUIWidget::HandleLoad</qualifiedname>
         <briefdescription>
+<para>Load and display the pattern for the selected weapon via GridCanvasRef-&gt;SetSprayPoints. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="54" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="105" bodyend="141"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="75" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="105" bodyend="141"/>
       </memberdef>
       <memberdef kind="function" id="class_u_spray_pattern_u_i_widget_1aaf2315fe50a243dc0f6f3363bebe0c7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -200,12 +216,13 @@
         <name>HandleClear</name>
         <qualifiedname>USprayPatternUIWidget::HandleClear</qualifiedname>
         <briefdescription>
+<para>Clear all points from the grid by calling GridCanvasRef-&gt;ClearPoints. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="57" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="143" bodyend="150"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="79" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="143" bodyend="150"/>
       </memberdef>
       <memberdef kind="function" id="class_u_spray_pattern_u_i_widget_1aeefb54015e96f6c0fe41352c88f40cb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -214,12 +231,13 @@
         <name>ResetScale</name>
         <qualifiedname>USprayPatternUIWidget::ResetScale</qualifiedname>
         <briefdescription>
+<para>Reset both sliders and grid scale to 1.0 via <ref refid="class_u_spray_pattern_u_i_widget_1aeefb54015e96f6c0fe41352c88f40cb3" kindref="member">ResetScale</ref>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="60" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="152" bodyend="162"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="83" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="152" bodyend="162"/>
       </memberdef>
       <memberdef kind="function" id="class_u_spray_pattern_u_i_widget_1a3bf79fac440d0f0d5536947fb7f56a8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -236,12 +254,31 @@
           <declname>ScaleY</declname>
         </param>
         <briefdescription>
+<para>Apply new scale factors to the grid. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ScaleX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>horizontal multiplier (bound from <ref refid="class_u_spray_pattern_u_i_widget_1aa369d4e690b54c3493381966fea2a55e" kindref="member">SL_ScaleX</ref>) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ScaleY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vertical multiplier (bound from <ref refid="class_u_spray_pattern_u_i_widget_1a8cb88001e2f8eec3d9419546f4fa6d75" kindref="member">SL_ScaleY</ref>) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="63" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="164" bodyend="175"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="91" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="164" bodyend="175"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -252,12 +289,13 @@
         <name>NativeConstruct</name>
         <qualifiedname>USprayPatternUIWidget::NativeConstruct</qualifiedname>
         <briefdescription>
+<para>Initialize widget: bind selection delegate and populate dropdown. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="74" column="14" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="10" bodyend="22"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="103" column="14" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="10" bodyend="22"/>
       </memberdef>
       <memberdef kind="function" id="class_u_spray_pattern_u_i_widget_1a8c76179e8615eb96498b8a7d6fb958bd" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -274,12 +312,13 @@
           <declname>InDeltaTime</declname>
         </param>
         <briefdescription>
+<para>Per-frame tick (unused currently but available for future animation). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="76" column="14" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="24" bodyend="28"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="106" column="14" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="24" bodyend="28"/>
       </memberdef>
       <memberdef kind="function" id="class_u_spray_pattern_u_i_widget_1a2d8d82b242636bb4a8fb57f140904173" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -296,17 +335,28 @@
           <declname>SelectionType</declname>
         </param>
         <briefdescription>
+<para>Internal handler when the user picks a new weapon in <ref refid="class_u_spray_pattern_u_i_widget_1a694936078f02a97cf23d44e0ad00eb27" kindref="member">WeaponDropdown</ref>. </para>
         </briefdescription>
         <detaileddescription>
+<para>Calls <ref refid="class_u_spray_pattern_u_i_widget_1ac70790e59efb34bc46fb106844fccc41" kindref="member">HandleLoad</ref> automatically. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="79" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="30" bodyend="36"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="113" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="30" bodyend="36"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>User-facing widget that lets designers pick a weapon, view its spray pattern on a grid, adjust its scale, and export or reload patterns. </para>
     </briefdescription>
     <detaileddescription>
+<para>This widget wraps:<itemizedlist>
+<listitem><para>a <ref refid="class_u_spray_pattern_u_i_widget_1a694936078f02a97cf23d44e0ad00eb27" kindref="member">WeaponDropdown</ref> to choose a weapon</para>
+</listitem><listitem><para>a <ref refid="class_u_spray_pattern_u_i_widget_1adc3a89a423fd06b1c04abbe516817ae1" kindref="member">GridCanvasRef</ref> on which the spray points are drawn</para>
+</listitem><listitem><para>sliders (<ref refid="class_u_spray_pattern_u_i_widget_1aa369d4e690b54c3493381966fea2a55e" kindref="member">SL_ScaleX</ref>, <ref refid="class_u_spray_pattern_u_i_widget_1a8cb88001e2f8eec3d9419546f4fa6d75" kindref="member">SL_ScaleY</ref>) to control pattern scale</para>
+</listitem><listitem><para>buttons bound to <ref refid="class_u_spray_pattern_u_i_widget_1a339d0de1c488b6f518b58a6886e55a4d" kindref="member">HandleExport</ref>, <ref refid="class_u_spray_pattern_u_i_widget_1ac70790e59efb34bc46fb106844fccc41" kindref="member">HandleLoad</ref>, <ref refid="class_u_spray_pattern_u_i_widget_1aaf2315fe50a243dc0f6f3363bebe0c7a" kindref="member">HandleClear</ref>, and <ref refid="class_u_spray_pattern_u_i_widget_1aeefb54015e96f6c0fe41352c88f40cb3" kindref="member">ResetScale</ref></para>
+</listitem></itemizedlist>
+</para>
+<para>On each selection change, it calls <ref refid="class_u_spray_pattern_u_i_widget_1a2d8d82b242636bb4a8fb57f140904173" kindref="member">OnWeaponSelectionChanged</ref> which in turn invokes <ref refid="class_u_spray_pattern_u_i_widget_1ac70790e59efb34bc46fb106844fccc41" kindref="member">HandleLoad</ref>. </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -351,7 +401,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="18" column="1" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="19" bodyend="84"/>
+    <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="29" column="1" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="30" bodyend="118"/>
     <listofallmembers>
       <member refid="class_u_spray_pattern_u_i_widget_1a9e28431e12bf342644599389301fc498" prot="public" virt="non-virtual"><scope>USprayPatternUIWidget</scope><name>GetSelectedWeaponData</name></member>
       <member refid="class_u_spray_pattern_u_i_widget_1adc3a89a423fd06b1c04abbe516817ae1" prot="public" virt="non-virtual"><scope>USprayPatternUIWidget</scope><name>GridCanvasRef</name></member>

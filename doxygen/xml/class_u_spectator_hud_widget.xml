@@ -12,13 +12,14 @@
         <name>CountdownText</name>
         <qualifiedname>USpectatorHudWidget::CountdownText</qualifiedname>
         <briefdescription>
-<para>Bind your UMG widget in Blueprint to this TextBlock. </para>
+<para>Text block bound in UMG to show the countdown number. </para>
         </briefdescription>
         <detaileddescription>
+<para>Bind this in your UMG Designer to the TextBlock that displays the timer. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SpectatorHudWidget.h" line="33" column="16" bodyfile="Source/TimeAssassin/SpectatorHudWidget.h" bodystart="33" bodyend="-1"/>
+        <location file="Source/TimeAssassin/SpectatorHudWidget.h" line="49" column="16" bodyfile="Source/TimeAssassin/SpectatorHudWidget.h" bodystart="49" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -30,12 +31,14 @@
         <qualifiedname>USpectatorHudWidget::TotalTime</qualifiedname>
         <initializer>= 0.f</initializer>
         <briefdescription>
+<para>Stores the total time set by <ref refid="class_u_spectator_hud_widget_1ab7017e2d38139da608af09a7a0233439" kindref="member">SetRespawnTime</ref>. </para>
         </briefdescription>
         <detaileddescription>
+<para>Used internally to calculate and display RemainingSeconds in <ref refid="class_u_spectator_hud_widget_1a187aa79f6b303d75f0684e9b7a588561" kindref="member">UpdateTimeRemaining</ref>. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SpectatorHudWidget.h" line="36" column="11" bodyfile="Source/TimeAssassin/SpectatorHudWidget.h" bodystart="36" bodyend="-1"/>
+        <location file="Source/TimeAssassin/SpectatorHudWidget.h" line="58" column="11" bodyfile="Source/TimeAssassin/SpectatorHudWidget.h" bodystart="58" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -50,13 +53,25 @@
           <declname>TotalSeconds</declname>
         </param>
         <briefdescription>
-<para>Call once with the full respawn delay. </para>
+<para>Initialize the countdown with the total respawn delay. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>TotalSeconds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The full duration (in seconds) until respawn. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="class_u_spectator_hud_widget_1a187aa79f6b303d75f0684e9b7a588561" kindref="member">UpdateTimeRemaining</ref> </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SpectatorHudWidget.h" line="24" column="10" bodyfile="Source/TimeAssassin/SpectatorHudWidget.cpp" bodystart="8" bodyend="12"/>
+        <location file="Source/TimeAssassin/SpectatorHudWidget.h" line="32" column="10" bodyfile="Source/TimeAssassin/SpectatorHudWidget.cpp" bodystart="8" bodyend="12"/>
       </memberdef>
       <memberdef kind="function" id="class_u_spectator_hud_widget_1a187aa79f6b303d75f0684e9b7a588561" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -69,18 +84,32 @@
           <declname>RemainingSeconds</declname>
         </param>
         <briefdescription>
-<para>Call repeatedly with how many seconds remain. </para>
+<para>Update the countdown display with the remaining time. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>RemainingSeconds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The seconds left until respawn triggers. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="class_u_spectator_hud_widget_1ab7017e2d38139da608af09a7a0233439" kindref="member">SetRespawnTime</ref> </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SpectatorHudWidget.h" line="28" column="10" bodyfile="Source/TimeAssassin/SpectatorHudWidget.cpp" bodystart="14" bodyend="21"/>
+        <location file="Source/TimeAssassin/SpectatorHudWidget.h" line="40" column="10" bodyfile="Source/TimeAssassin/SpectatorHudWidget.cpp" bodystart="14" bodyend="21"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>UI widget that displays a respawn countdown for spectators. </para>
     </briefdescription>
     <detaileddescription>
+<para>This widget manages and displays the remaining time until respawn. Use <ref refid="class_u_spectator_hud_widget_1ab7017e2d38139da608af09a7a0233439" kindref="member">SetRespawnTime</ref> to initialize the countdown, and <ref refid="class_u_spectator_hud_widget_1a187aa79f6b303d75f0684e9b7a588561" kindref="member">UpdateTimeRemaining</ref> to refresh the display each tick. </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -104,7 +133,7 @@
         <label>UUserWidget</label>
       </node>
     </collaborationgraph>
-    <location file="Source/TimeAssassin/SpectatorHudWidget.h" line="17" column="1" bodyfile="Source/TimeAssassin/SpectatorHudWidget.h" bodystart="18" bodyend="37"/>
+    <location file="Source/TimeAssassin/SpectatorHudWidget.h" line="21" column="1" bodyfile="Source/TimeAssassin/SpectatorHudWidget.h" bodystart="22" bodyend="59"/>
     <listofallmembers>
       <member refid="class_u_spectator_hud_widget_1a065ed56f15bd966f96c21a20fe193693" prot="protected" virt="non-virtual"><scope>USpectatorHudWidget</scope><name>CountdownText</name></member>
       <member refid="class_u_spectator_hud_widget_1ab7017e2d38139da608af09a7a0233439" prot="public" virt="non-virtual"><scope>USpectatorHudWidget</scope><name>SetRespawnTime</name></member>

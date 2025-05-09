@@ -17,13 +17,24 @@
           <declname>Interactor</declname>
         </param>
         <briefdescription>
-<para>Called when an actor attempts to interact with this object. </para>
+<para>Called when an actor attempts to perform an interaction. </para>
         </briefdescription>
         <detaileddescription>
+<para>Implement this method to define what happens when the user or AI interacts with this object. For example, open a door, pick up an item, or trigger a UI widget.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Interactor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The actor (player or AI) performing the interaction. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BPI_Interactable.h" line="27" column="6"/>
+        <location file="Source/TimeAssassin/BPI_Interactable.h" line="55" column="10"/>
       </memberdef>
       <memberdef kind="function" id="class_i_b_p_i___interactable_1a4523add71e08c3c4fb8fc17e80871228" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -36,13 +47,26 @@
           <declname>Interactor</declname>
         </param>
         <briefdescription>
-<para>Called to check whether the actor is allowed to interact. </para>
+<para>Query whether the given actor is currently allowed to interact. </para>
         </briefdescription>
         <detaileddescription>
+<para>Returning true will enable the user interface (e.g. show prompt) and allow <computeroutput><ref refid="class_i_b_p_i___interactable_1a7ec0a61b62ce23602812e10aaf3ddd91" kindref="member">Interact</ref></computeroutput> to succeed.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Interactor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The actor requesting permission to interact. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if this object may be interacted with, false otherwise. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BPI_Interactable.h" line="31" column="6"/>
+        <location file="Source/TimeAssassin/BPI_Interactable.h" line="67" column="10"/>
       </memberdef>
       <memberdef kind="function" id="class_i_b_p_i___interactable_1a6dbcd508bbeea9c1bddae5f8ef2fa721" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -55,12 +79,24 @@
           <declname>Interactable</declname>
         </param>
         <briefdescription>
+<para>Register an interactable object with a manager or controller. </para>
         </briefdescription>
         <detaileddescription>
+<para>Called by classes that implement BPI_Interactor to add this object to a list of current interactable targets.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Interactable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The actor that implements <ref refid="class_i_b_p_i___interactable" kindref="compound">IBPI_Interactable</ref>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BPI_Interactable.h" line="35" column="6"/>
+        <location file="Source/TimeAssassin/BPI_Interactable.h" line="78" column="10"/>
       </memberdef>
       <memberdef kind="function" id="class_i_b_p_i___interactable_1a54557ad43cce970953a261e90c45c3c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -73,18 +109,31 @@
           <declname>Interactable</declname>
         </param>
         <briefdescription>
+<para>Unregister a previously registered interactable object. </para>
         </briefdescription>
         <detaileddescription>
+<para>Called by classes that implement BPI_Interactor to remove this object from their tracking list when it is no longer valid.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Interactable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The actor that was previously registered. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BPI_Interactable.h" line="38" column="6"/>
+        <location file="Source/TimeAssassin/BPI_Interactable.h" line="89" column="10"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>C++ interface body. </para>
+<para>Interface for actors that can be interacted with at runtime. </para>
     </briefdescription>
     <detaileddescription>
+<para>Any actor implementing this interface must provide logic for <ref refid="class_i_b_p_i___interactable_1a7ec0a61b62ce23602812e10aaf3ddd91" kindref="member">Interact</ref> and <ref refid="class_i_b_p_i___interactable_1a4523add71e08c3c4fb8fc17e80871228" kindref="member">CanInteract</ref>. Interaction registration functions <ref refid="class_i_b_p_i___interactable_1a6dbcd508bbeea9c1bddae5f8ef2fa721" kindref="member">RegisterInteractable</ref> and <ref refid="class_i_b_p_i___interactable_1a54557ad43cce970953a261e90c45c3c7" kindref="member">UnregisterInteractable</ref> are provided so that helper classes (e.g. BPI_Interactor) can manage lists of interactable targets. </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="2">
@@ -110,7 +159,7 @@
         <link refid="class_i_b_p_i___interactable"/>
       </node>
     </inheritancegraph>
-    <location file="Source/TimeAssassin/BPI_Interactable.h" line="19" column="1" bodyfile="Source/TimeAssassin/BPI_Interactable.h" bodystart="20" bodyend="39"/>
+    <location file="Source/TimeAssassin/BPI_Interactable.h" line="39" column="1" bodyfile="Source/TimeAssassin/BPI_Interactable.h" bodystart="40" bodyend="90"/>
     <listofallmembers>
       <member refid="class_i_b_p_i___interactable_1a4523add71e08c3c4fb8fc17e80871228" prot="public" virt="non-virtual"><scope>IBPI_Interactable</scope><name>CanInteract</name></member>
       <member refid="class_i_b_p_i___interactable_1a7ec0a61b62ce23602812e10aaf3ddd91" prot="public" virt="non-virtual"><scope>IBPI_Interactable</scope><name>Interact</name></member>

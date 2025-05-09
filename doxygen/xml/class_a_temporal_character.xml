@@ -617,12 +617,39 @@
         </childnode>
         <childnode refid="5" relation="public-inheritance">
         </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>InteractionComponent</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>WeaponComponent</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>WeaponInventoryComponent</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>ReplayRecorder</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>DamageComponent</edgelabel>
+        </childnode>
       </node>
       <node id="1">
         <label>ATemporalCharacter</label>
         <link refid="class_a_temporal_character"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+      </node>
+      <node id="14">
+        <label>FCombatFrameData</label>
+        <link refid="struct_f_combat_frame_data"/>
+      </node>
+      <node id="16">
+        <label>FDamageInfo</label>
+        <link refid="struct_f_damage_info"/>
+      </node>
+      <node id="13">
+        <label>FInteractionData</label>
+        <link refid="struct_f_interaction_data"/>
       </node>
       <node id="4">
         <label>IBPI_Interactable</label>
@@ -631,6 +658,66 @@
       <node id="5">
         <label>IDamageableInterface</label>
         <link refid="class_i_damageable_interface"/>
+      </node>
+      <node id="7">
+        <label>UActorComponent</label>
+      </node>
+      <node id="15">
+        <label>UDamageableComponent</label>
+        <link refid="class_u_damageable_component"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="16" relation="usage">
+          <edgelabel>LastDamageInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>UDataAsset</label>
+      </node>
+      <node id="6">
+        <label>UInteractionComponent</label>
+        <link refid="class_u_interaction_component"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>UReplayRecorderComponent</label>
+        <link refid="class_u_replay_recorder_component"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>PendingInteractionData</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>PendingCombatData</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>UWeaponComponent</label>
+        <link refid="class_u_weapon_component"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>WeaponData</edgelabel>
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>CachedCharacter</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>UWeaponDataAsset</label>
+        <link refid="class_u_weapon_data_asset"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>UWeaponInventoryComponent</label>
+        <link refid="class_u_weapon_inventory_component"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>WeaponComponentRef</edgelabel>
+        </childnode>
       </node>
     </collaborationgraph>
     <location file="Source/TimeAssassin/TemporalCharacter.h" line="40" column="1" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="41" bodyend="172"/>
@@ -668,9 +755,9 @@
       <member refid="class_a_temporal_character_1a5fd5e34a8a8b28296d28154c8b0e9d48" prot="private" virt="non-virtual"><scope>ATemporalCharacter</scope><name>LastGhostPosition</name></member>
       <member refid="class_a_temporal_character_1a977b73d33bbec5918cb5b9d6def3cc1a" prot="private" virt="non-virtual"><scope>ATemporalCharacter</scope><name>LastProcessedFrameTime</name></member>
       <member refid="class_a_temporal_character_1abf6c7c6aca0ecd935f7a91aabf4b9b57" prot="private" virt="non-virtual"><scope>ATemporalCharacter</scope><name>LastProcessedShotIndex</name></member>
-      <member refid="class_i_damageable_interface_1aa2527dc978acb578318f79c3704b6679" prot="public" virt="non-virtual"><scope>ATemporalCharacter</scope><name>OnDamaged</name></member>
+      <member refid="group___blueprint___interfaces_1gaa2527dc978acb578318f79c3704b6679" prot="public" virt="non-virtual"><scope>ATemporalCharacter</scope><name>OnDamaged</name></member>
       <member refid="class_a_t_a_character_1a8f5472dbf55dcaf449150571a59ba922" prot="public" virt="virtual"><scope>ATemporalCharacter</scope><name>OnDamaged_Implementation</name></member>
-      <member refid="class_i_damageable_interface_1a9f9b8a6fb04274b8b2418423c31b823c" prot="public" virt="non-virtual"><scope>ATemporalCharacter</scope><name>OnKilled</name></member>
+      <member refid="group___blueprint___interfaces_1ga9f9b8a6fb04274b8b2418423c31b823c" prot="public" virt="non-virtual"><scope>ATemporalCharacter</scope><name>OnKilled</name></member>
       <member refid="class_a_t_a_character_1afb090e9a0e5122c871721a8ca6fc5b4e" prot="public" virt="virtual"><scope>ATemporalCharacter</scope><name>OnKilled_Implementation</name></member>
       <member refid="class_a_temporal_character_1a67673baa8f7cc8622a16e9733fa978cb" prot="private" virt="non-virtual"><scope>ATemporalCharacter</scope><name>PlaybackTime</name></member>
       <member refid="class_a_temporal_character_1a6c75476b38e5f282597ac260805706dc" prot="private" virt="non-virtual"><scope>ATemporalCharacter</scope><name>ProcessedEventFlags</name></member>
@@ -691,7 +778,7 @@
       <member refid="class_a_t_a_character_1a9a11c73ee847ca8b9044b743f8546eaa" prot="public" virt="non-virtual"><scope>ATemporalCharacter</scope><name>StartFiring</name></member>
       <member refid="class_a_t_a_character_1afacada742a789a7c3e3f30e13e09ff87" prot="public" virt="non-virtual"><scope>ATemporalCharacter</scope><name>StopFiring</name></member>
       <member refid="class_a_t_a_character_1a12869ea76eaafb37b28c609c732d920e" prot="public" virt="non-virtual"><scope>ATemporalCharacter</scope><name>SwitchWeaponAction</name></member>
-      <member refid="class_i_damageable_interface_1a1f6318dd8d764d86d152bafcceeaf950" prot="public" virt="non-virtual"><scope>ATemporalCharacter</scope><name>TakeDamage</name></member>
+      <member refid="group___blueprint___interfaces_1ga1f6318dd8d764d86d152bafcceeaf950" prot="public" virt="non-virtual"><scope>ATemporalCharacter</scope><name>TakeDamage</name></member>
       <member refid="class_a_t_a_character_1a007eb1ccba227843acd147822276182b" prot="public" virt="virtual"><scope>ATemporalCharacter</scope><name>TakeDamage_Implementation</name></member>
       <member refid="class_a_temporal_character_1a4ceee8241c27f2e30ea2aa494cd4af94" prot="public" virt="virtual"><scope>ATemporalCharacter</scope><name>Tick</name></member>
       <member refid="class_i_b_p_i___interactable_1a54557ad43cce970953a261e90c45c3c7" prot="public" virt="non-virtual"><scope>ATemporalCharacter</scope><name>UnregisterInteractable</name></member>

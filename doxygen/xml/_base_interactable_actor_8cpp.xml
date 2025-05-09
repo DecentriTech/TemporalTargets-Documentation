@@ -102,10 +102,10 @@
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_base_interactable_actor_1ad70d64534f3c93e062e14871eaa9af67" kindref="member">InteractionSphere</ref>-&gt;OnComponentEndOverlap.AddDynamic(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>&amp;<ref refid="class_a_base_interactable_actor_1ab406e3af4b71c1fab0e9b7460dbca127" kindref="member">ABaseInteractableActor::HandleSphereEndOverlap</ref>);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Route<sp/>Blueprint-native<sp/>events<sp/>through<sp/>C++<sp/>delegates<sp/>so<sp/>everyone<sp/>gets<sp/>pinged</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>OnFocusedByInteractor.AddDynamic(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>&amp;ABaseInteractableActor::OnInteractorFocused);</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>OnUnfocusedByInteractor.AddDynamic(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>&amp;ABaseInteractableActor::OnInteractorUnfocused);</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>OnInteractorEnteredRadiusEvent.AddDynamic(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>&amp;ABaseInteractableActor::OnInteractorEnteredRadius);</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>OnInteractorLeftRadiusEvent.AddDynamic(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>&amp;ABaseInteractableActor::OnInteractorLeftRadius);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_base_interactable_actor_1a7d7bd085e950f3215e92048b70f17808" kindref="member">OnFocusedByInteractor</ref>.AddDynamic(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>&amp;<ref refid="class_a_base_interactable_actor_1aa452ecea351e91c46a56a6720aac604a" kindref="member">ABaseInteractableActor::OnInteractorFocused</ref>);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_base_interactable_actor_1a2bbb952da0d9139277b29aa8108a5e5e" kindref="member">OnUnfocusedByInteractor</ref>.AddDynamic(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>&amp;<ref refid="class_a_base_interactable_actor_1adcbab5ca9e58789af7ffe8504b4f2a39" kindref="member">ABaseInteractableActor::OnInteractorUnfocused</ref>);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_base_interactable_actor_1a88022fe2880641029ff4633f8ce7c008" kindref="member">OnInteractorEnteredRadiusEvent</ref>.AddDynamic(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>&amp;<ref refid="class_a_base_interactable_actor_1a5ba8c7d714b4f4f7ddb311c154cd3de6" kindref="member">ABaseInteractableActor::OnInteractorEnteredRadius</ref>);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_base_interactable_actor_1ab43bb877155ef27a66a6dff1aa43592f" kindref="member">OnInteractorLeftRadiusEvent</ref>.AddDynamic(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>&amp;<ref refid="class_a_base_interactable_actor_1ad0b5f103acee6b612496ab1c96682e75" kindref="member">ABaseInteractableActor::OnInteractorLeftRadius</ref>);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>=================<sp/>IBPI_Interactable<sp/>=================<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
@@ -160,7 +160,7 @@
 <codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IBPI_Interactable::Execute_RegisterInteractable(Interactor,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OnInteractorEnteredRadiusEvent.Broadcast(Interactor);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_base_interactable_actor_1a88022fe2880641029ff4633f8ce7c008" kindref="member">OnInteractorEnteredRadiusEvent</ref>.Broadcast(Interactor);</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="102"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"></highlight></codeline>
@@ -173,7 +173,7 @@
 <codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IBPI_Interactable::Execute_UnregisterInteractable(Interactor,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OnInteractorLeftRadiusEvent.Broadcast(Interactor);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_base_interactable_actor_1ab43bb877155ef27a66a6dff1aa43592f" kindref="member">OnInteractorLeftRadiusEvent</ref>.Broadcast(Interactor);</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="115"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"></highlight></codeline>

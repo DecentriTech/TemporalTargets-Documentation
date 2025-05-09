@@ -131,69 +131,10 @@
       </node>
     </invincdepgraph>
     <innerclass refid="struct_f_damage_info" prot="public">FDamageInfo</innerclass>
+    <innerclass refid="class_u_damageable_component" prot="public">UDamageableComponent</innerclass>
     <sectiondef kind="func">
-      <memberdef kind="function" id="_damageable_component_8h_1a1e32b1847bf8f08cdd2637e0a47da399" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</definition>
-        <argsstring>(FOnDamageTakenSignature, float, NewHealth, float, DamageReceived)</argsstring>
-        <name>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</name>
-        <param>
-          <type>FOnDamageTakenSignature</type>
-        </param>
-        <param>
-          <type>float</type>
-        </param>
-        <param>
-          <type>NewHealth</type>
-        </param>
-        <param>
-          <type>float</type>
-        </param>
-        <param>
-          <type>DamageReceived</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/DamageableComponent.h" line="34" column="1" declfile="Source/TimeAssassin/DamageableComponent.h" declline="34" declcolumn="1"/>
-      </memberdef>
-      <memberdef kind="function" id="_damageable_component_8h_1a4f70ea1a977fa2e203990b39550aa822" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams</definition>
-        <argsstring>(FOnDeathSignature, AActor *, VictimActor, AController *, VictimController, AActor *, InstigatorActor)</argsstring>
-        <name>DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams</name>
-        <param>
-          <type>FOnDeathSignature</type>
-        </param>
-        <param>
-          <type>AActor *</type>
-        </param>
-        <param>
-          <type>VictimActor</type>
-        </param>
-        <param>
-          <type>AController *</type>
-        </param>
-        <param>
-          <type>VictimController</type>
-        </param>
-        <param>
-          <type>AActor *</type>
-        </param>
-        <param>
-          <type>InstigatorActor</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/DamageableComponent.h" line="35" column="1" declfile="Source/TimeAssassin/DamageableComponent.h" declline="35" declcolumn="1"/>
-      </memberdef>
+      <member refid="group___modular___components_1ga1e32b1847bf8f08cdd2637e0a47da399" kind="function"><name>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</name></member>
+      <member refid="group___modular___components_1ga4f70ea1a977fa2e203990b39550aa822" kind="function"><name>DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -215,76 +156,103 @@
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">UDamageType;</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal">USTRUCT(BlueprintType)</highlight></codeline>
-<codeline lineno="21" refid="struct_f_damage_info" refkind="compound"><highlight class="normal">struct<sp/><ref refid="struct_f_damage_info" kindref="compound">FDamageInfo</ref></highlight></codeline>
-<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="struct_f_damage_info_1a9aca29217ad7fabcbefe57abec4b2b90" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_f_damage_info_1a9aca29217ad7fabcbefe57abec4b2b90" kindref="member">UPROPERTY</ref>(BlueprintReadWrite)<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DamageAmount<sp/>=<sp/>0.f;</highlight></codeline>
-<codeline lineno="26" refid="struct_f_damage_info_1acd05f560317e9771b88b1f8f7c9777f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_f_damage_info_1a9aca29217ad7fabcbefe57abec4b2b90" kindref="member">UPROPERTY</ref>(BlueprintReadWrite)<sp/>AActor*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Instigator<sp/><sp/><sp/>=<sp/></highlight><highlight class="keywordtype">nullptr</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="27" refid="struct_f_damage_info_1a564655ae7f9557aef6c3e1e47afc20c8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_f_damage_info_1a9aca29217ad7fabcbefe57abec4b2b90" kindref="member">UPROPERTY</ref>(BlueprintReadWrite)<sp/>FVector<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HitLocation<sp/><sp/>=<sp/>FVector::ZeroVector;</highlight></codeline>
-<codeline lineno="28" refid="struct_f_damage_info_1a201a5eddea1923a7a47da8a3d820177c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_f_damage_info_1a9aca29217ad7fabcbefe57abec4b2b90" kindref="member">UPROPERTY</ref>(BlueprintReadWrite)<sp/>FVector<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ShotDirection<sp/>=<sp/>FVector::ForwardVector;</highlight></codeline>
-<codeline lineno="29" refid="struct_f_damage_info_1a89cb2a2383c330a048698ef0a027634e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_f_damage_info_1a9aca29217ad7fabcbefe57abec4b2b90" kindref="member">UPROPERTY</ref>(BlueprintReadWrite)<sp/>TSubclassOf&lt;UDamageType&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>DamageType<sp/><sp/><sp/>=<sp/></highlight><highlight class="keywordtype">nullptr</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="30" refid="struct_f_damage_info_1a70d904bf867b12ed7314f36749418904" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_f_damage_info_1a9aca29217ad7fabcbefe57abec4b2b90" kindref="member">UPROPERTY</ref>(BlueprintReadWrite)<sp/>FName<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HitBoneName<sp/><sp/>=<sp/>NAME_None;</highlight></codeline>
-<codeline lineno="31" refid="struct_f_damage_info_1a13386811037f890c643eedb9718b5a77" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_f_damage_info_1a9aca29217ad7fabcbefe57abec4b2b90" kindref="member">UPROPERTY</ref>(BlueprintReadWrite)<sp/>FGameplayTagContainer<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>DamageTags;</highlight></codeline>
-<codeline lineno="32"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">USTRUCT(BlueprintType)</highlight></codeline>
+<codeline lineno="26" refid="struct_f_damage_info" refkind="compound"><highlight class="normal">struct<sp/><ref refid="struct_f_damage_info" kindref="compound">FDamageInfo</ref></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
+<codeline lineno="32" refid="struct_f_damage_info_1a69348cf6516dc442d5a19748b19da88a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>float<sp/><ref refid="struct_f_damage_info_1a69348cf6516dc442d5a19748b19da88a" kindref="member">DamageAmount</ref><sp/>=<sp/>0.f;</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="_damageable_component_8h_1a1e32b1847bf8f08cdd2637e0a47da399" refkind="member"><highlight class="normal"><ref refid="_damageable_component_8h_1a1e32b1847bf8f08cdd2637e0a47da399" kindref="member">DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</ref>(FOnDamageTakenSignature,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">,<sp/>NewHealth,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">,<sp/>DamageReceived);</highlight></codeline>
-<codeline lineno="35" refid="_damageable_component_8h_1a4f70ea1a977fa2e203990b39550aa822" refkind="member"><highlight class="normal"><ref refid="_damageable_component_8h_1a4f70ea1a977fa2e203990b39550aa822" kindref="member">DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams</ref>(</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>FOnDeathSignature,</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>AActor*,<sp/>VictimActor,</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>AController*,<sp/>VictimController,</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>AActor*,<sp/>InstigatorActor</highlight></codeline>
-<codeline lineno="40"><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
+<codeline lineno="36" refid="struct_f_damage_info_1ac535336844d61222eff607949d15bbf3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>AActor*<sp/><ref refid="struct_f_damage_info_1ac535336844d61222eff607949d15bbf3" kindref="member">Instigator</ref><sp/>=<sp/></highlight><highlight class="keywordtype">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
+<codeline lineno="40" refid="struct_f_damage_info_1ac1ca2da67c66980c6e84d0e2b17503db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector<sp/><ref refid="struct_f_damage_info_1ac1ca2da67c66980c6e84d0e2b17503db" kindref="member">HitLocation</ref><sp/>=<sp/>FVector::ZeroVector;</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47"><highlight class="normal">UCLASS(<sp/>ClassGroup=(Custom),<sp/>meta=(BlueprintSpawnableComponent)<sp/>)</highlight></codeline>
-<codeline lineno="48"><highlight class="normal">class<sp/>TIMEASSASSIN_API<sp/>UDamageableComponent<sp/>:<sp/>public<sp/>UActorComponent</highlight></codeline>
-<codeline lineno="49"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>UDamageableComponent();</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Damage&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ApplyDamage(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_f_damage_info" kindref="compound">FDamageInfo</ref>&amp;<sp/>DamageInfo);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
+<codeline lineno="44" refid="struct_f_damage_info_1af650a9a95ddd715cc637dda7986e42d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector<sp/><ref refid="struct_f_damage_info_1af650a9a95ddd715cc637dda7986e42d3" kindref="member">ShotDirection</ref><sp/>=<sp/>FVector::ForwardVector;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
+<codeline lineno="48" refid="struct_f_damage_info_1a5b9dfd76d34f2f49ee518a06b2c2d66c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TSubclassOf&lt;UDamageType&gt;<sp/><ref refid="struct_f_damage_info_1a5b9dfd76d34f2f49ee518a06b2c2d66c" kindref="member">DamageType</ref><sp/>=<sp/></highlight><highlight class="keywordtype">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
+<codeline lineno="52" refid="struct_f_damage_info_1a732a2ce7f76045a4c908517e287505b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FName<sp/><ref refid="struct_f_damage_info_1a732a2ce7f76045a4c908517e287505b9" kindref="member">HitBoneName</ref><sp/>=<sp/>NAME_None;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
+<codeline lineno="56" refid="struct_f_damage_info_1a7065ae4757d2317c59b998d4ec2afa1f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FGameplayTagContainer<sp/><ref refid="struct_f_damage_info_1a7065ae4757d2317c59b998d4ec2afa1f" kindref="member">DamageTags</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Damage&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Heal(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>HealAmount);</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintPure,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Damage&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>IsAlive()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintPure,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Damage&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>GetHealthPercent()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>---<sp/>Designer-tweakable<sp/>props<sp/>----------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadWrite,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Damage&quot;</highlight><highlight class="normal">,<sp/>meta<sp/>=<sp/>(ClampMin<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;1.0&quot;</highlight><highlight class="normal">))</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>MaxHealth<sp/>=<sp/>100.f;</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadWrite,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Damage&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bCanDie<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>---<sp/>Blueprint<sp/>events<sp/>-----------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Damage&quot;</highlight><highlight class="normal">)<sp/>FOnDamageTakenSignature<sp/>OnDamageTaken;</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Damage&quot;</highlight><highlight class="normal">)<sp/>FOnDeathSignature<sp/><sp/><sp/><sp/><sp/><sp/><sp/>OnDeath;</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Exposed<sp/>for<sp/>kill-cams<sp/>/<sp/>scoreboards</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Damage&quot;</highlight><highlight class="normal">)<sp/><ref refid="struct_f_damage_info" kindref="compound">FDamageInfo</ref><sp/>LastDamageInfo;</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>BeginPlay()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>HandleDeath(AActor*<sp/>InstigatorActor);</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>BroadcastHitFeedback()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(VisibleAnywhere,<sp/>BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Damage&quot;</highlight><highlight class="normal">)<sp/></highlight></codeline>
-<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>CurrentHealth<sp/>=<sp/>0.f;</highlight></codeline>
-<codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(VisibleAnywhere,<sp/>BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Damage&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bIsDead<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="99"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="group___modular___components_1ga1e32b1847bf8f08cdd2637e0a47da399" refkind="member"><highlight class="normal"><ref refid="group___modular___components_1ga1e32b1847bf8f08cdd2637e0a47da399" kindref="member">DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</ref>(</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>FOnDamageTakenSignature,</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">,<sp/>NewHealth,</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">,<sp/>DamageReceived</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="group___modular___components_1ga4f70ea1a977fa2e203990b39550aa822" refkind="member"><highlight class="normal"><ref refid="group___modular___components_1ga4f70ea1a977fa2e203990b39550aa822" kindref="member">DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams</ref>(</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>FOnDeathSignature,</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>AActor*,<sp/>VictimActor,</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>AController*,<sp/>VictimController,</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>AActor*,<sp/>InstigatorActor</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal">UCLASS(ClassGroup<sp/>=<sp/>(Custom),<sp/>meta<sp/>=<sp/>(BlueprintSpawnableComponent))</highlight></codeline>
+<codeline lineno="103" refid="class_u_damageable_component" refkind="compound"><highlight class="normal">class<sp/>TIMEASSASSIN_API<sp/><ref refid="class_u_damageable_component_1a6c9fb26a2b033709f4dceb3b86276481" kindref="member">UDamageableComponent</ref><sp/>:<sp/>public<sp/>UActorComponent</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_damageable_component_1a6c9fb26a2b033709f4dceb3b86276481" kindref="member">UDamageableComponent</ref>();</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Damage&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_damageable_component_1a7c4abcb86c51c1eb39511494cfbee1bc" kindref="member">ApplyDamage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_f_damage_info" kindref="compound">FDamageInfo</ref>&amp;<sp/>DamageInfo);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Damage&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_damageable_component_1aa66ec8aeace8315def60c8769219a172" kindref="member">Heal</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>HealAmount);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintPure,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Damage&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_u_damageable_component_1a67be50b84291a8d9be223b2a0ce9b158" kindref="member">IsAlive</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintPure,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Damage&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_u_damageable_component_1ac546ba704e419e0d05f458dc27bbf71f" kindref="member">GetHealthPercent</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>---<sp/>Designer-tweakable<sp/>properties<sp/>-----------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadWrite,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Damage&quot;</highlight><highlight class="normal">,<sp/>meta<sp/>=<sp/>(ClampMin<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;1.0&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="143" refid="class_u_damageable_component_1afc6f8e3d6c8bb8ee7856fc1dfd214b49" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>float<sp/><ref refid="class_u_damageable_component_1afc6f8e3d6c8bb8ee7856fc1dfd214b49" kindref="member">MaxHealth</ref><sp/>=<sp/>100.f;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadWrite,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Damage&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="147" refid="class_u_damageable_component_1afb3a578e0c1401ed5ac7e2d852faf925" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_u_damageable_component_1afb3a578e0c1401ed5ac7e2d852faf925" kindref="member">bCanDie</ref><sp/>=<sp/>true;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>---<sp/>Blueprint<sp/>events<sp/>------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Damage&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="153" refid="class_u_damageable_component_1a7ab03ef35ba0295ed70ebfd415c4e2ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FOnDamageTakenSignature<sp/><ref refid="class_u_damageable_component_1a7ab03ef35ba0295ed70ebfd415c4e2ea" kindref="member">OnDamageTaken</ref>;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Damage&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="157" refid="class_u_damageable_component_1a0072fe6418a90f6635e44dd2f8921042" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FOnDeathSignature<sp/><ref refid="class_u_damageable_component_1a0072fe6418a90f6635e44dd2f8921042" kindref="member">OnDeath</ref>;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Damage&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="161" refid="class_u_damageable_component_1a2f14c8b5c8ff5f3f8d3b2e6789e754e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_f_damage_info" kindref="compound">FDamageInfo</ref><sp/><ref refid="class_u_damageable_component_1a2f14c8b5c8ff5f3f8d3b2e6789e754e9" kindref="member">LastDamageInfo</ref>;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal">protected:</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_damageable_component_1ad501407b45d88b2eef8657b05682462a" kindref="member">BeginPlay</ref>()<sp/>override;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_damageable_component_1adf368c5991d1e03392c160c3acd35b10" kindref="member">HandleDeath</ref>(AActor*<sp/>InstigatorActor);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_damageable_component_1a4bd397f8e531ad4ef8909a5e97cb2fba" kindref="member">BroadcastHitFeedback</ref>()<sp/>const;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(VisibleAnywhere,<sp/>BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Damage&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="178" refid="class_u_damageable_component_1aa25674ea7c046723d02c1cae695cb663" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_u_damageable_component_1aa25674ea7c046723d02c1cae695cb663" kindref="member">CurrentHealth</ref><sp/>=<sp/>0.f;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(VisibleAnywhere,<sp/>BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Damage&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="182" refid="class_u_damageable_component_1a55a2b2b04ad5542a35c5b64510b2e9d5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_u_damageable_component_1a55a2b2b04ad5542a35c5b64510b2e9d5" kindref="member">bIsDead</ref><sp/>=<sp/>false;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal">};</highlight></codeline>
     </programlisting>
     <location file="Source/TimeAssassin/DamageableComponent.h"/>
   </compounddef>

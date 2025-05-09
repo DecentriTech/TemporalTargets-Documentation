@@ -12,12 +12,13 @@
         <name>LineTop</name>
         <qualifiedname>UCrosshairWidget::LineTop</qualifiedname>
         <briefdescription>
+<para>Top segment of the crosshair graphic, bound via UMG. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/CrosshairWidget.h" line="28" column="8" bodyfile="Source/TimeAssassin/CrosshairWidget.h" bodystart="28" bodyend="-1"/>
+        <location file="Source/TimeAssassin/CrosshairWidget.h" line="43" column="12" bodyfile="Source/TimeAssassin/CrosshairWidget.h" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_crosshair_widget_1a68c8ef8bea2ec2789bcc126cd615d593" prot="protected" static="no" mutable="no">
         <type>UImage *</type>
@@ -26,12 +27,13 @@
         <name>LineBottom</name>
         <qualifiedname>UCrosshairWidget::LineBottom</qualifiedname>
         <briefdescription>
+<para>Bottom segment of the crosshair graphic, bound via UMG. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/CrosshairWidget.h" line="31" column="8" bodyfile="Source/TimeAssassin/CrosshairWidget.h" bodystart="31" bodyend="-1"/>
+        <location file="Source/TimeAssassin/CrosshairWidget.h" line="47" column="12" bodyfile="Source/TimeAssassin/CrosshairWidget.h" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_crosshair_widget_1ac35a9d307542e3416339376358d53e77" prot="protected" static="no" mutable="no">
         <type>UImage *</type>
@@ -40,12 +42,13 @@
         <name>LineLeft</name>
         <qualifiedname>UCrosshairWidget::LineLeft</qualifiedname>
         <briefdescription>
+<para>Left segment of the crosshair graphic, bound via UMG. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/CrosshairWidget.h" line="34" column="8" bodyfile="Source/TimeAssassin/CrosshairWidget.h" bodystart="34" bodyend="-1"/>
+        <location file="Source/TimeAssassin/CrosshairWidget.h" line="51" column="12" bodyfile="Source/TimeAssassin/CrosshairWidget.h" bodystart="51" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_crosshair_widget_1a8d267d25f501fd674f5adc97db2739f7" prot="protected" static="no" mutable="no">
         <type>UImage *</type>
@@ -54,12 +57,13 @@
         <name>LineRight</name>
         <qualifiedname>UCrosshairWidget::LineRight</qualifiedname>
         <briefdescription>
+<para>Right segment of the crosshair graphic, bound via UMG. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/CrosshairWidget.h" line="37" column="8" bodyfile="Source/TimeAssassin/CrosshairWidget.h" bodystart="37" bodyend="-1"/>
+        <location file="Source/TimeAssassin/CrosshairWidget.h" line="55" column="12" bodyfile="Source/TimeAssassin/CrosshairWidget.h" bodystart="55" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -74,17 +78,31 @@
           <declname>SpreadOffset</declname>
         </param>
         <briefdescription>
+<para>Adjusts the distance of each crosshair line from center. </para>
         </briefdescription>
         <detaileddescription>
+<para>A positive <computeroutput>SpreadOffset</computeroutput> will move each bound image outward along its axis. Internally this invokes <computeroutput>UImage::SetRenderTranslation()</computeroutput> on each of <ref refid="class_u_crosshair_widget_1a6491a6afac78a362f5dd83eca73919d9" kindref="member">LineTop</ref>, <ref refid="class_u_crosshair_widget_1a68c8ef8bea2ec2789bcc126cd615d593" kindref="member">LineBottom</ref>, <ref refid="class_u_crosshair_widget_1ac35a9d307542e3416339376358d53e77" kindref="member">LineLeft</ref>, and <ref refid="class_u_crosshair_widget_1a8d267d25f501fd674f5adc97db2739f7" kindref="member">LineRight</ref>.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>SpreadOffset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New offset in pixels to apply to each line. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/CrosshairWidget.h" line="23" column="6" bodyfile="Source/TimeAssassin/CrosshairWidget.cpp" bodystart="7" bodyend="20"/>
+        <location file="Source/TimeAssassin/CrosshairWidget.h" line="37" column="10" bodyfile="Source/TimeAssassin/CrosshairWidget.cpp" bodystart="7" bodyend="20"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Widget responsible for rendering and updating the on-screen crosshair. </para>
     </briefdescription>
     <detaileddescription>
+<para>This widget binds four images—<ref refid="class_u_crosshair_widget_1a6491a6afac78a362f5dd83eca73919d9" kindref="member">LineTop</ref>, <ref refid="class_u_crosshair_widget_1a68c8ef8bea2ec2789bcc126cd615d593" kindref="member">LineBottom</ref>, <ref refid="class_u_crosshair_widget_1ac35a9d307542e3416339376358d53e77" kindref="member">LineLeft</ref>, and LineRight—to the UMG designer. Call <ref refid="class_u_crosshair_widget_1adde65dfafb16c94ca45f871eea345c7d" kindref="member">SetCrosshairOffset()</ref> to adjust the spread of these lines at runtime. </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -108,7 +126,7 @@
         <label>UUserWidget</label>
       </node>
     </collaborationgraph>
-    <location file="Source/TimeAssassin/CrosshairWidget.h" line="15" column="1" bodyfile="Source/TimeAssassin/CrosshairWidget.h" bodystart="16" bodyend="38"/>
+    <location file="Source/TimeAssassin/CrosshairWidget.h" line="20" column="1" bodyfile="Source/TimeAssassin/CrosshairWidget.h" bodystart="21" bodyend="56"/>
     <listofallmembers>
       <member refid="class_u_crosshair_widget_1a68c8ef8bea2ec2789bcc126cd615d593" prot="protected" virt="non-virtual"><scope>UCrosshairWidget</scope><name>LineBottom</name></member>
       <member refid="class_u_crosshair_widget_1ac35a9d307542e3416339376358d53e77" prot="protected" virt="non-virtual"><scope>UCrosshairWidget</scope><name>LineLeft</name></member>

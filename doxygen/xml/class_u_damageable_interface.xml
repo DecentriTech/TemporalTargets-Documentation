@@ -5,8 +5,10 @@
     <basecompoundref prot="public" virt="non-virtual">UInterface</basecompoundref>
     <includes refid="_damageable_interface_8h" local="no">DamageableInterface.h</includes>
     <briefdescription>
+<para>Marks an Unreal UObject class as supporting damage operations. </para>
     </briefdescription>
     <detaileddescription>
+<para>Implement this interface on any Actor or Component to receive damage events. </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -30,7 +32,7 @@
         <label>UInterface</label>
       </node>
     </collaborationgraph>
-    <location file="Source/TimeAssassin/DamageableInterface.h" line="12" column="1" bodyfile="Source/TimeAssassin/DamageableInterface.h" bodystart="13" bodyend="15"/>
+    <location file="Source/TimeAssassin/DamageableInterface.h" line="17" column="1" bodyfile="Source/TimeAssassin/DamageableInterface.h" bodystart="18" bodyend="20"/>
     <listofallmembers>
     </listofallmembers>
   </compounddef>

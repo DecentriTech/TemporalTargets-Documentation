@@ -1,11 +1,11 @@
 ---
-id: GAME_LOGIC
-title: GAME LOGIC
-sidebar_label: GAME LOGIC
-slug: /API/GAME_LOGIC
+id: Game_Logic
+title: Game Logic
+sidebar_label: Game Logic
+slug: /API/Game_Logic
 ---
 
-# 🗂️ Category: [GAME LOGIC](/docs/API/GAME_LOGIC)
+# 🗂️ Category: [Game Logic](/docs/API/Game_Logic)
 
 > Classes that implement core gameplay systems like spawning, replay, and game flow.
 
@@ -13,6 +13,24 @@ slug: /API/GAME_LOGIC
 
 <details open>
 <summary>📦 Classes in This Category</summary>
+
+<!-- block -->
+
+<details>
+<summary>🔹 [AOrbitSpectatorPawn](#AOrbitSpectatorPawn)</summary>
+
+Pawn that smoothly orbits around the actor that killed the player.
+
+<details>
+<summary>📄 Description</summary>
+
+On spawn, this pawn is initialized via [InitializeSpectator()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Game_Logic.md#class_a_orbit_spectator_pawn_1a042f83ca27a30c6510b1905153132a6b) with the [TargetActor](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Game_Logic.md#class_a_orbit_spectator_pawn_1a24c5e1186db9f8e8e7bf60993ea45405) (the killer) and [StartLocation](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Game_Logic.md#class_a_orbit_spectator_pawn_1a553f1235c13d69a4dcdd5309e76c9b01) (death spot). It then blends over [BlendTime](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Game_Logic.md#class_a_orbit_spectator_pawn_1a693da49425407f0e913d7e094cbaddba) seconds from the death spot toward the killer's location plus [TargetOffset](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Game_Logic.md#class_a_orbit_spectator_pawn_1ab3ef177c965bc7ce3b40b92805eb2ab3). While blending finishes, it will automatically look at the killer unless free-look is engaged via [/OnRightClickReleased](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Game_Logic.md#class_a_orbit_spectator_pawn_1a6aca1b24b25674e136932f6f6e0893c7)().
+
+</details>
+
+</details>
+
+<!-- block -->
 
 <!-- block -->
 
@@ -26,13 +44,13 @@ The main Player-controlled character for Temporal Targets.
 
 [ATACharacter](#class_a_t_a_character) implements core gameplay behavior:
 
-* Interactable interface ([IBPI_Interactable](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-undefined.md#class_i_b_p_i___interactable))
+* Interactable interface ([IBPI_Interactable](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Blueprint_Interfaces.md#class_i_b_p_i___interactable))
 
-* Damageable interface ([IDamageableInterface](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-undefined.md#class_i_damageable_interface))
+* Damageable interface ([IDamageableInterface](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Blueprint_Interfaces.md#class_i_damageable_interface))
 
-* Weapon Input handling ([StartFiring](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-GAME_LOGIC.md#class_a_t_a_character_1a9a11c73ee847ca8b9044b743f8546eaa), [HandleSwitchWeapon](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-GAME_LOGIC.md#class_a_t_a_character_1a2e0c752c342bae3c9440ee782c5a41b4), [HandleReload](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-GAME_LOGIC.md#class_a_t_a_character_1a5f3a7acaee16dd379c919c2e90beef42))
+* Weapon Input handling ([StartFiring](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Game_Logic.md#class_a_t_a_character_1a9a11c73ee847ca8b9044b743f8546eaa), [HandleSwitchWeapon](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Game_Logic.md#class_a_t_a_character_1a2e0c752c342bae3c9440ee782c5a41b4), [HandleReload](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Game_Logic.md#class_a_t_a_character_1a5f3a7acaee16dd379c919c2e90beef42))
 
-* Replay recording ([ReplayRecorder](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-GAME_LOGIC.md#class_a_t_a_character_1ae55321ef89f0bcf840071cd5d06ca0ee))
+* Replay recording ([ReplayRecorder](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Game_Logic.md#class_a_t_a_character_1ae55321ef89f0bcf840071cd5d06ca0ee))
 
 * Custom input bindings for interaction, shooting, reloading, and weapon cycling.
 
@@ -88,7 +106,7 @@ Ghost pawn that replays a player's recorded gameplay.
 <details>
 <summary>📄 Description</summary>
 
-[ATemporalCharacter](#class_a_temporal_character) streams back recorded [FPlayerFrameData](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-undefined.md#struct_f_player_frame_data) frames, interpolating position, rotation, and velocity. It binds replay events (jump, fire, interact) to C++ handler methods, and exposes Blueprint-callable APIs for controlling replay (reset, query frames).
+[ATemporalCharacter](#class_a_temporal_character) streams back recorded [FPlayerFrameData](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Replay_Data.md#struct_f_player_frame_data) frames, interpolating position, rotation, and velocity. It binds replay events (jump, fire, interact) to C++ handler methods, and exposes Blueprint-callable APIs for controlling replay (reset, query frames).
 
 </details>
 
@@ -106,13 +124,13 @@ Game mode handling player respawning and ghost replay logic.
 <details>
 <summary>📄 Description</summary>
 
-* Records the player's run into an array of [FPlayerFrameData](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-undefined.md#struct_f_player_frame_data) frames.
+* Records the player's run into an array of [FPlayerFrameData](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Replay_Data.md#struct_f_player_frame_data) frames.
 
 * Spawns ghost actors that reproduce previous runs ("replays").
 
 * Exposes Blueprint utilities for clearing, registering and querying ghosts.
 
-* Owns the respawn timer logic (instant vs delayed respawn controlled by [bPlayMode](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-GAME_LOGIC.md#class_a_temporal_game_mode_1a196e99b79778bd0d825457c33a27988c)).
+* Owns the respawn timer logic (instant vs delayed respawn controlled by [bPlayMode](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Game_Logic.md#class_a_temporal_game_mode_1a196e99b79778bd0d825457c33a27988c)).
 
 </details>
 
@@ -123,6 +141,222 @@ Game mode handling player respawning and ghost replay logic.
 </details>
 
 <!-- block -->
+<!-- block -->
+
+<details>
+<summary>
+  📘 Class `AOrbitSpectatorPawn`
+    <span class="brief-description-pill">Pawn that smoothly orbits around the actor that killed the player.</span>
+</summary>
+<!-- block -->
+
+# Class `AOrbitSpectatorPawn` 
+
+<!-- block -->
+
+> On spawn, this pawn is initialized via [InitializeSpectator()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Game_Logic.md#class_a_orbit_spectator_pawn_1a042f83ca27a30c6510b1905153132a6b) with the [TargetActor](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Game_Logic.md#class_a_orbit_spectator_pawn_1a24c5e1186db9f8e8e7bf60993ea45405) (the killer) and [StartLocation](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Game_Logic.md#class_a_orbit_spectator_pawn_1a553f1235c13d69a4dcdd5309e76c9b01) (death spot). It then blends over [BlendTime](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Game_Logic.md#class_a_orbit_spectator_pawn_1a693da49425407f0e913d7e094cbaddba) seconds from the death spot toward the killer's location plus [TargetOffset](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Game_Logic.md#class_a_orbit_spectator_pawn_1ab3ef177c965bc7ce3b40b92805eb2ab3). While blending finishes, it will automatically look at the killer unless free-look is engaged via [/OnRightClickReleased](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Game_Logic.md#class_a_orbit_spectator_pawn_1a6aca1b24b25674e136932f6f6e0893c7)().
+
+<!-- block -->
+
+<!-- block -->
+
+<details open>
+<summary>🧬 Inherits From</summary>
+
+```cpp
+class AOrbitSpectatorPawn
+  : public ASpectatorPawn
+```
+
+</details>
+
+<!-- block -->
+
+<details open>
+<summary>🧍 Members</summary>
+
+<!-- block -->
+
+<!-- FUNCTIONS -->
+<details open>
+<summary>⚙️ Functions</summary>
+
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>AOrbitSpectatorPawn</code>
+      <span class="member-badge kind-function">function</span>
+      <span class="member-badge section-public-func">Public</span>
+      <span class="brief-description-pill">Constructor.</span>
+    </summary>
+
+    <p>Constructor.</p>
+
+      <p><strong>Parameters:</strong> None</p>
+
+  <hr />
+  <p>
+    <strong>📄 Source:</strong>
+    <code>Source/TimeAssassin/OrbitSpectatorPawn.cpp</code>
+    (lines 10–22)
+  </p>
+
+  <ExpandableCodeBlock code={`AOrbitSpectatorPawn::AOrbitSpectatorPawn()
+{
+ 	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	PrimaryActorTick.bCanEverTick = true;
+
+    SpringArm = CreateDefaultSubobject<USpringArmComponent>("SpringArm");
+    SpringArm->SetupAttachment(RootComponent);
+    SpringArm->TargetArmLength = 0.f;
+    SpringArm->bEnableCameraLag = false;
+
+    Camera = CreateDefaultSubobject<UCameraComponent>("Camera");
+    Camera->SetupAttachment(SpringArm);
+}`} language="cpp" previewLines={15} />
+
+  </details>
+  <!-- block -->
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>InitializeSpectator</code>
+      <span class="member-badge kind-function">function</span>
+      <span class="member-badge section-public-func">Public</span>
+      <span class="brief-description-pill">Sets up the pawn after spawn.</span>
+    </summary>
+
+    <p>Sets up the pawn after spawn.</p>
+
+      <p><strong>Parameters:</strong></p>
+      <ul>
+        <li><code>AActor * KillerActor</code> – Actor that killed the player (stored in ).</li>
+        <li><code>FVector DeathLocation</code> – World position where the player died (stored in ).</li>
+      </ul>
+
+  <hr />
+  <p>
+    <strong>📄 Source:</strong>
+    <code>Source/TimeAssassin/OrbitSpectatorPawn.cpp</code>
+    (lines 24–30)
+  </p>
+
+  <ExpandableCodeBlock code={`void AOrbitSpectatorPawn::InitializeSpectator(AActor* KillerActor, FVector DeathLocation)
+{
+    TargetActor = KillerActor;
+    StartLocation = DeathLocation;
+    ElapsedTime = 0.f;
+    SetActorLocation(StartLocation);
+}`} language="cpp" previewLines={15} />
+
+  </details>
+  <!-- block -->
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>Tick</code>
+      <span class="member-badge kind-function">function</span>
+      <span class="member-badge section-protected-func">Protected</span>
+      <span class="brief-description-pill">Called each frame to update blend and look-at logic.</span>
+    </summary>
+
+    <p>Called each frame to update blend and look-at logic.</p>
+
+      <p><strong>Parameters:</strong></p>
+      <ul>
+        <li><code>float DeltaSeconds</code> – Time (in seconds) since the last  call.</li>
+      </ul>
+
+  <hr />
+  <p>
+    <strong>📄 Source:</strong>
+    <code>Source/TimeAssassin/OrbitSpectatorPawn.cpp</code>
+    (lines 33–55)
+  </p>
+
+  <ExpandableCodeBlock code={`void AOrbitSpectatorPawn::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+    if (!TargetActor) return;
+
+    // 1) Blend from death spot -> killer + offset
+    if (ElapsedTime < BlendTime)
+    {
+        ElapsedTime += DeltaTime;
+        float Alpha = FMath::Clamp(ElapsedTime / BlendTime, 0.f, 1.f);
+        FVector Desired = TargetActor->GetActorLocation() + TargetOffset;
+        SetActorLocation(FMath::Lerp(StartLocation, Desired, Alpha));
+    }
+
+    // 2) Auto-look at killer unless free-looking
+    if (!bRightClickDown)
+    {
+        FVector Dir = TargetActor->GetActorLocation() - GetActorLocation();
+        if (!Dir.IsNearlyZero())
+            SetActorRotation(Dir.Rotation());
+    }
+
+}`} language="cpp" previewLines={15} />
+
+  </details>
+  <!-- block -->
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>SetupPlayerInputComponent</code>
+      <span class="member-badge kind-function">function</span>
+      <span class="member-badge section-protected-func">Protected</span>
+      <span class="brief-description-pill">Binds input for free-look controls.</span>
+    </summary>
+
+    <p>Binds input for free-look controls.</p>
+
+      <p><strong>Parameters:</strong></p>
+      <ul>
+        <li><code>UInputComponent * PlayerInputComponent</code> – Input component to populate with axis/actions.</li>
+      </ul>
+
+  <hr />
+  <p>
+    <strong>📄 Source:</strong>
+    <code>Source/TimeAssassin/OrbitSpectatorPawn.cpp</code>
+    (lines 57–65)
+  </p>
+
+  <ExpandableCodeBlock code={`void AOrbitSpectatorPawn::SetupPlayerInputComponent(UInputComponent* IC)
+{
+    Super::SetupPlayerInputComponent(IC);
+
+    IC->BindAction("RightClick", IE_Pressed, this, &AOrbitSpectatorPawn::OnRightClickPressed);
+    IC->BindAction("RightClick", IE_Released, this, &AOrbitSpectatorPawn::OnRightClickReleased);
+    IC->BindAxis("Turn", this, &AOrbitSpectatorPawn::Turn);
+    IC->BindAxis("LookUp", this, &AOrbitSpectatorPawn::LookUp);
+}`} language="cpp" previewLines={15} />
+
+  </details>
+  <!-- block -->
+
+</details>
+<!-- block -->
+
+<!-- VARIABLES -->
+<details open>
+<summary>📦 Variables</summary>
+
+</details>
+<!-- block -->
+
+</details>
+<!-- block -->
+
+_No enum types are defined in this file._
+
+<!-- block -->
+
+</details>
+
+<!-- block -->
+
 <!-- block -->
 
 <details>
@@ -138,13 +372,13 @@ Game mode handling player respawning and ghost replay logic.
 
 > [ATACharacter](#class_a_t_a_character) implements core gameplay behavior:
 
-* Interactable interface ([IBPI_Interactable](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-undefined.md#class_i_b_p_i___interactable))
+* Interactable interface ([IBPI_Interactable](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Blueprint_Interfaces.md#class_i_b_p_i___interactable))
 
-* Damageable interface ([IDamageableInterface](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-undefined.md#class_i_damageable_interface))
+* Damageable interface ([IDamageableInterface](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Blueprint_Interfaces.md#class_i_damageable_interface))
 
-* Weapon Input handling ([StartFiring](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-GAME_LOGIC.md#class_a_t_a_character_1a9a11c73ee847ca8b9044b743f8546eaa), [HandleSwitchWeapon](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-GAME_LOGIC.md#class_a_t_a_character_1a2e0c752c342bae3c9440ee782c5a41b4), [HandleReload](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-GAME_LOGIC.md#class_a_t_a_character_1a5f3a7acaee16dd379c919c2e90beef42))
+* Weapon Input handling ([StartFiring](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Game_Logic.md#class_a_t_a_character_1a9a11c73ee847ca8b9044b743f8546eaa), [HandleSwitchWeapon](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Game_Logic.md#class_a_t_a_character_1a2e0c752c342bae3c9440ee782c5a41b4), [HandleReload](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Game_Logic.md#class_a_t_a_character_1a5f3a7acaee16dd379c919c2e90beef42))
 
-* Replay recording ([ReplayRecorder](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-GAME_LOGIC.md#class_a_t_a_character_1ae55321ef89f0bcf840071cd5d06ca0ee))
+* Replay recording ([ReplayRecorder](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Game_Logic.md#class_a_t_a_character_1ae55321ef89f0bcf840071cd5d06ca0ee))
 
 * Custom input bindings for interaction, shooting, reloading, and weapon cycling.
 
@@ -1571,7 +1805,7 @@ _No enum types are defined in this file._
 
 <!-- block -->
 
-> [ATemporalCharacter](#class_a_temporal_character) streams back recorded [FPlayerFrameData](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-undefined.md#struct_f_player_frame_data) frames, interpolating position, rotation, and velocity. It binds replay events (jump, fire, interact) to C++ handler methods, and exposes Blueprint-callable APIs for controlling replay (reset, query frames).
+> [ATemporalCharacter](#class_a_temporal_character) streams back recorded [FPlayerFrameData](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Replay_Data.md#struct_f_player_frame_data) frames, interpolating position, rotation, and velocity. It binds replay events (jump, fire, interact) to C++ handler methods, and exposes Blueprint-callable APIs for controlling replay (reset, query frames).
 
 <!-- block -->
 
@@ -2019,13 +2253,13 @@ _No enum types are defined in this file._
 
 <!-- block -->
 
-> * Records the player's run into an array of [FPlayerFrameData](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-undefined.md#struct_f_player_frame_data) frames.
+> * Records the player's run into an array of [FPlayerFrameData](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Replay_Data.md#struct_f_player_frame_data) frames.
 
 * Spawns ghost actors that reproduce previous runs ("replays").
 
 * Exposes Blueprint utilities for clearing, registering and querying ghosts.
 
-* Owns the respawn timer logic (instant vs delayed respawn controlled by [bPlayMode](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-GAME_LOGIC.md#class_a_temporal_game_mode_1a196e99b79778bd0d825457c33a27988c)).
+* Owns the respawn timer logic (instant vs delayed respawn controlled by [bPlayMode](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Game_Logic.md#class_a_temporal_game_mode_1a196e99b79778bd0d825457c33a27988c)).
 
 <!-- block -->
 
@@ -2622,10 +2856,10 @@ class ATemporalGameMode
       🧠 <code>RespawnTimerHandle</code>
       <span class="member-badge kind-variable">variable</span>
       <span class="member-badge section-public-attrib">Public</span>
-      <span class="brief-description-pill">Handle used by [RespawnTimerHandle](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-GAME_LOGIC.md#class_a_temporal_game_mode_1a2f20687efa9847159c5e8b6504a1d1c9) to track the delayed respawn timer.</span>
+      <span class="brief-description-pill">Handle used by [RespawnTimerHandle](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Game_Logic.md#class_a_temporal_game_mode_1a2f20687efa9847159c5e8b6504a1d1c9) to track the delayed respawn timer.</span>
     </summary>
 
-    <p>Handle used by [RespawnTimerHandle](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-GAME_LOGIC.md#class_a_temporal_game_mode_1a2f20687efa9847159c5e8b6504a1d1c9) to track the delayed respawn timer.</p>
+    <p>Handle used by [RespawnTimerHandle](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Game_Logic.md#class_a_temporal_game_mode_1a2f20687efa9847159c5e8b6504a1d1c9) to track the delayed respawn timer.</p>
 
   </details>
   <!-- block -->
@@ -2678,29 +2912,7 @@ class ATemporalGameMode
 </details>
 <!-- block -->
 
-<details open>
-<summary>🎛️ Enums</summary>
-
-<!-- block -->
-
-<details>
-<summary>🔢 `EGhostReplayState`</summary>
-
-Represents the current state of the ghost replay system.
-
-#### 🎚 Enum Values
-
-| Value | Description |
-|-------|-------------|
-| `UMETA` | No ghost activity is happening. |
-| `UMETA` | Actively recording the player's actions. |
-| `UMETA` | Replaying a previously recorded run. |
-
-</details>
-
-<!-- block -->
-
-</details>
+_No enum types are defined in this file._
 
 <!-- block -->
 

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="group___replay___data" kind="group">
+    <compoundname>Replay_Data</compoundname>
+    <title>Replay &amp; Combat Data Structures</title>
+    <innerclass refid="struct_f_recorded_shot" prot="public">FRecordedShot</innerclass>
+    <innerclass refid="struct_f_combat_frame_data" prot="public">FCombatFrameData</innerclass>
+    <innerclass refid="struct_f_interaction_data" prot="public">FInteractionData</innerclass>
+    <innerclass refid="struct_f_player_frame_data" prot="public">FPlayerFrameData</innerclass>
+    <innerclass refid="struct_f_replay_attempt" prot="public">FReplayAttempt</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="group___replay___data_1ga634bef419b6cd1967d4f0b1e39282e91" prot="public" static="no" strong="yes">
+        <type>uint8</type>
+        <name>EReplayActionFlags</name>
+        <enumvalue id="group___replay___data_1gga634bef419b6cd1967d4f0b1e39282e91a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>No action performed. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___replay___data_1gga634bef419b6cd1967d4f0b1e39282e91a661e8b7c940bfd42cc11900b1fcddec4" prot="public">
+          <name>FiredWeapon</name>
+          <initializer>= 1 &lt;&lt; 0</initializer>
+          <briefdescription>
+<para>Player fired their weapon. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___replay___data_1gga634bef419b6cd1967d4f0b1e39282e91a2ef4b5d905788c7ba3d262d1fbcf8a82" prot="public">
+          <name>Interacted</name>
+          <initializer>= 1 &lt;&lt; 1</initializer>
+          <briefdescription>
+<para>Player performed an interaction. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___replay___data_1gga634bef419b6cd1967d4f0b1e39282e91a280e2398821e9b67fa22ab6d512c746b" prot="public">
+          <name>Jumped</name>
+          <initializer>= 1 &lt;&lt; 2</initializer>
+          <briefdescription>
+<para>Player jumped. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___replay___data_1gga634bef419b6cd1967d4f0b1e39282e91aa3e4c49a9bb747fd5b2f5720db442488" prot="public">
+          <name>Crouched</name>
+          <initializer>= 1 &lt;&lt; 3</initializer>
+          <briefdescription>
+<para>Player crouched. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group___replay___data_1gga634bef419b6cd1967d4f0b1e39282e91a814a05a71b72fcae5049fd804889ec6a" prot="public">
+          <name>Sprinting</name>
+          <initializer>= 1 &lt;&lt; 4</initializer>
+          <briefdescription>
+<para>Player was sprinting. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Bit flags representing actions a player can perform within a replay frame. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="22" column="1" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="23" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Minimal data-only containers for recording player frames, shot events, and interactions. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

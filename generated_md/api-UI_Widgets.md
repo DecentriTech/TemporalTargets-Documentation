@@ -1,11 +1,11 @@
 ---
-id: UI_WIDGETS_AND_INTERFACES
-title: UI WIDGETS AND INTERFACES
-sidebar_label: UI WIDGETS AND INTERFACES
-slug: /API/UI_WIDGETS_AND_INTERFACES
+id: UI_Widgets
+title: UI Widgets
+sidebar_label: UI Widgets
+slug: /API/UI_Widgets
 ---
 
-# 🗂️ Category: [UI WIDGETS AND INTERFACES](/docs/API/UI_WIDGETS_AND_INTERFACES)
+# 🗂️ Category: [UI Widgets](/docs/API/UI_Widgets)
 
 > Classes providing HUD and UI components such as crosshair and hitmarker.
 
@@ -13,6 +13,24 @@ slug: /API/UI_WIDGETS_AND_INTERFACES
 
 <details open>
 <summary>📦 Classes in This Category</summary>
+
+<!-- block -->
+
+<details>
+<summary>🔹 [UCrosshairWidget](#UCrosshairWidget)</summary>
+
+Widget responsible for rendering and updating the on-screen crosshair.
+
+<details>
+<summary>📄 Description</summary>
+
+This widget binds four images�[LineTop](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_crosshair_widget_1a6491a6afac78a362f5dd83eca73919d9), [LineBottom](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_crosshair_widget_1a68c8ef8bea2ec2789bcc126cd615d593), [LineLeft](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_crosshair_widget_1ac35a9d307542e3416339376358d53e77), and LineRight�to the UMG designer. Call [SetCrosshairOffset()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_crosshair_widget_1adde65dfafb16c94ca45f871eea345c7d) to adjust the spread of these lines at runtime.
+
+</details>
+
+</details>
+
+<!-- block -->
 
 <!-- block -->
 
@@ -26,11 +44,11 @@ Manages and displays the game's HUD, spawning the root UMG widget at BeginPlay a
 
 Provides Blueprint-callable functions to access and manipulate the following child widgets:
 
-* [UGameHUDWidget](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_game_h_u_d_widget) : The root HUD widget container.
+* [UGameHUDWidget](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_game_h_u_d_widget) : The root HUD widget container.
 
-* [UCrosshairWidget](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-undefined.md#class_u_crosshair_widget): Displays the player's crosshair.
+* [UCrosshairWidget](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_crosshair_widget): Displays the player's crosshair.
 
-* [UHitmarkerWidget](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_hitmarker_widget): Displays hit markers based on damage events.
+* [UHitmarkerWidget](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_hitmarker_widget): Displays hit markers based on damage events.
 
 </details>
 
@@ -48,7 +66,7 @@ Lightweight HUD container that owns UI elements like the crosshair, hit-marker, 
 <details>
 <summary>📄 Description</summary>
 
-Manages [crosshair](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-undefined.md#class_u_crosshair_widget) and [hitmarker](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_hitmarker_widget) instances, and updates [MagAmmoText](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_game_h_u_d_widget_1a0a3ee833856c3eb7913ef46a274b37bd) and [ReserveAmmoText](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_game_h_u_d_widget_1a5ef66cfa087619162dbd4c7b969eca47) to display ammo.
+Manages [crosshair](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_crosshair_widget) and [hitmarker](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_hitmarker_widget) instances, and updates [MagAmmoText](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_game_h_u_d_widget_1a0a3ee833856c3eb7913ef46a274b37bd) and [ReserveAmmoText](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_game_h_u_d_widget_1a5ef66cfa087619162dbd4c7b969eca47) to display ammo.
 
 </details>
 
@@ -68,23 +86,23 @@ Slate-backed widget for authoring and previewing weapon spray patterns.
 
 [UGridCanvasWidget](#class_u_grid_canvas_widget) lets designers:
 
-* Zoom ([Zoom](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1a8b294a32e146b92ece32f6ce8c0219d6)) and pan ([PanOffset](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1a40c73780a82afbbe153da653d5facac7)) over a 2D grid.
+* Zoom ([Zoom](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1a8b294a32e146b92ece32f6ce8c0219d6)) and pan ([PanOffset](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1a40c73780a82afbbe153da653d5facac7)) over a 2D grid.
 
-* Switch edit modes via [ToggleEditMode()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1ad20f17a7516276cf07f75ceb4d0b68e9) between ERecoilEditMode::Point and ERecoilEditMode::Freehand.
+* Switch edit modes via [ToggleEditMode()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1ad20f17a7516276cf07f75ceb4d0b68e9) between ERecoilEditMode::Point and ERecoilEditMode::Freehand.
 
-* Add, clear, scale ([ScaleSprayPatternUniform()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1a277980892f05df5ed7fe46dc96ad3ddd), [ScaleSprayPattern()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1a5a7bdf5d7870a0a87d9b45cab83526e2)) and export ([ExportSprayPattern()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1a53a019ebb3c0d5ac9d8ea09e1b7fbe44)) spray points.
+* Add, clear, scale ([ScaleSprayPatternUniform()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1a277980892f05df5ed7fe46dc96ad3ddd), [ScaleSprayPattern()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1a5a7bdf5d7870a0a87d9b45cab83526e2)) and export ([ExportSprayPattern()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1a53a019ebb3c0d5ac9d8ea09e1b7fbe44)) spray points.
 
-* Undo/redo strokes with [Undo()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1a9a07dfe3f2d4ce2bb4eb46204d4ba9a3), [Redo()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1a94b56c765eaf5fa15566118b52d3ecf1), backed by [UndoStack](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1a4846065e699258f2529fc2bd1fb830e6) / [RedoStack](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1aee5d312aa51f0694e52f8ed47a364c44) and helper [RecordUndoSnapshot()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1a014eef438b321834225cc24ab83a8708).
+* Undo/redo strokes with [Undo()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1a9a07dfe3f2d4ce2bb4eb46204d4ba9a3), [Redo()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1a94b56c765eaf5fa15566118b52d3ecf1), backed by [UndoStack](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1a4846065e699258f2529fc2bd1fb830e6) / [RedoStack](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1aee5d312aa51f0694e52f8ed47a364c44) and helper [RecordUndoSnapshot()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1a014eef438b321834225cc24ab83a8708).
 
-Internally uses nested [FGridParams](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-undefined.md#struct_u_grid_canvas_widget_1_1_f_grid_params) and [NativePaint()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1ac57384fa5f8227744bffc1cb1ee7465d) to draw:
+Internally uses nested [FGridParams](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-undefined.md#struct_u_grid_canvas_widget_1_1_f_grid_params) and [NativePaint()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1ac57384fa5f8227744bffc1cb1ee7465d) to draw:
 
-* Major/minor grid lines ([DrawGrid()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1aea903413f50eabd54387ab5f0c85ce13)).
+* Major/minor grid lines ([DrawGrid()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1aea903413f50eabd54387ab5f0c85ce13)).
 
-* Origin crosshair ([DrawOriginCrosshair()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1a4107170129374db71e599de859e53942)).
+* Origin crosshair ([DrawOriginCrosshair()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1a4107170129374db71e599de859e53942)).
 
-* Axis labels ([DrawAxisLabels()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1a96bd4b8913fb555cf3757ad3683e03f1)).
+* Axis labels ([DrawAxisLabels()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1a96bd4b8913fb555cf3757ad3683e03f1)).
 
-* Live preview lines and pattern points ([DrawSprayPattern()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1ae32d3546ec59577d71780cf9596e063a), [DrawPreviewPoint()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1ad8a1b003a01c4d0c67b840507f66b91f)).
+* Live preview lines and pattern points ([DrawSprayPattern()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1ae32d3546ec59577d71780cf9596e063a), [DrawPreviewPoint()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1ad8a1b003a01c4d0c67b840507f66b91f)).
 
 </details>
 
@@ -102,7 +120,53 @@ Pure-Slate hit-marker widget that renders animated "X" overlays on hit events.
 <details>
 <summary>📄 Description</summary>
 
-Use [PushHitMarker](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_hitmarker_widget_1ad4867a3494abc15f88b58ccae14564b5) to spawn a new marker based on a set of DamageTags.
+Use [PushHitMarker](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_hitmarker_widget_1ad4867a3494abc15f88b58ccae14564b5) to spawn a new marker based on a set of DamageTags.
+
+</details>
+
+</details>
+
+<!-- block -->
+
+<!-- block -->
+
+<details>
+<summary>🔹 [USpectatorHudWidget](#USpectatorHudWidget)</summary>
+
+UI widget that displays a respawn countdown for spectators.
+
+<details>
+<summary>📄 Description</summary>
+
+This widget manages and displays the remaining time until respawn. Use [SetRespawnTime](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spectator_hud_widget_1ab7017e2d38139da608af09a7a0233439) to initialize the countdown, and [UpdateTimeRemaining](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spectator_hud_widget_1a187aa79f6b303d75f0684e9b7a588561) to refresh the display each tick.
+
+</details>
+
+</details>
+
+<!-- block -->
+
+<!-- block -->
+
+<details>
+<summary>🔹 [USprayPatternUIWidget](#USprayPatternUIWidget)</summary>
+
+User-facing widget that lets designers pick a weapon, view its spray pattern on a grid, adjust its scale, and export or reload patterns.
+
+<details>
+<summary>📄 Description</summary>
+
+This widget wraps:
+
+* a [WeaponDropdown](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1a694936078f02a97cf23d44e0ad00eb27) to choose a weapon
+
+* a [GridCanvasRef](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1adc3a89a423fd06b1c04abbe516817ae1) on which the spray points are drawn
+
+* sliders ([SL_ScaleX](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1aa369d4e690b54c3493381966fea2a55e), [SL_ScaleY](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1a8cb88001e2f8eec3d9419546f4fa6d75)) to control pattern scale
+
+* buttons bound to [HandleExport](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1a339d0de1c488b6f518b58a6886e55a4d), [HandleLoad](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1ac70790e59efb34bc46fb106844fccc41), [HandleClear](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1aaf2315fe50a243dc0f6f3363bebe0c7a), and [ResetScale](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1aeefb54015e96f6c0fe41352c88f40cb3)
+
+On each selection change, it calls [OnWeaponSelectionChanged](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1a2d8d82b242636bb4a8fb57f140904173) which in turn invokes [HandleLoad](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1ac70790e59efb34bc46fb106844fccc41).
 
 </details>
 
@@ -157,6 +221,164 @@ Struct for storing hit marker state.
 
 <details>
 <summary>
+  📘 Class `UCrosshairWidget`
+    <span class="brief-description-pill">Widget responsible for rendering and updating the on-screen crosshair.</span>
+</summary>
+<!-- block -->
+
+# Class `UCrosshairWidget` 
+
+<!-- block -->
+
+> This widget binds four images�[LineTop](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_crosshair_widget_1a6491a6afac78a362f5dd83eca73919d9), [LineBottom](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_crosshair_widget_1a68c8ef8bea2ec2789bcc126cd615d593), [LineLeft](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_crosshair_widget_1ac35a9d307542e3416339376358d53e77), and LineRight�to the UMG designer. Call [SetCrosshairOffset()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_crosshair_widget_1adde65dfafb16c94ca45f871eea345c7d) to adjust the spread of these lines at runtime.
+
+<!-- block -->
+
+<!-- block -->
+
+<details open>
+<summary>🧬 Inherits From</summary>
+
+```cpp
+class UCrosshairWidget
+  : public UUserWidget
+```
+
+</details>
+
+<!-- block -->
+
+<details open>
+<summary>🧍 Members</summary>
+
+<!-- block -->
+
+<!-- FUNCTIONS -->
+<details open>
+<summary>⚙️ Functions</summary>
+
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>SetCrosshairOffset</code>
+      <span class="member-badge kind-function">function</span>
+      <span class="member-badge section-public-func">Public</span>
+      <span class="brief-description-pill">Adjusts the distance of each crosshair line from center.</span>
+    </summary>
+
+    <p>Adjusts the distance of each crosshair line from center.</p>
+
+      <p><strong>Parameters:</strong></p>
+      <ul>
+        <li><code>float SpreadOffset</code> – New offset in pixels to apply to each line.</li>
+      </ul>
+
+  <hr />
+  <p>
+    <strong>📄 Source:</strong>
+    <code>Source/TimeAssassin/CrosshairWidget.cpp</code>
+    (lines 7–20)
+  </p>
+
+  <ExpandableCodeBlock code={`void UCrosshairWidget::SetCrosshairOffset(float SpreadOffset)
+{
+	if (LineTop)
+		LineTop->SetRenderTranslation(FVector2D(0.0f, -SpreadOffset));
+
+	if (LineBottom)
+		LineBottom->SetRenderTranslation(FVector2D(0.0f, SpreadOffset));
+
+	if (LineLeft)
+		LineLeft->SetRenderTranslation(FVector2D(-SpreadOffset, 0.0f));
+
+	if (LineRight)
+		LineRight->SetRenderTranslation(FVector2D(SpreadOffset, 0.0f));
+}`} language="cpp" previewLines={15} />
+
+  </details>
+  <!-- block -->
+
+</details>
+<!-- block -->
+
+<!-- VARIABLES -->
+<details open>
+<summary>📦 Variables</summary>
+
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>LineTop</code>
+      <span class="member-badge kind-variable">variable</span>
+      <span class="member-badge section-protected-attrib">Protected</span>
+      <span class="brief-description-pill">Top segment of the crosshair graphic, bound via UMG.</span>
+    </summary>
+
+    <p>Top segment of the crosshair graphic, bound via UMG.</p>
+
+  </details>
+  <!-- block -->
+
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>LineBottom</code>
+      <span class="member-badge kind-variable">variable</span>
+      <span class="member-badge section-protected-attrib">Protected</span>
+      <span class="brief-description-pill">Bottom segment of the crosshair graphic, bound via UMG.</span>
+    </summary>
+
+    <p>Bottom segment of the crosshair graphic, bound via UMG.</p>
+
+  </details>
+  <!-- block -->
+
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>LineLeft</code>
+      <span class="member-badge kind-variable">variable</span>
+      <span class="member-badge section-protected-attrib">Protected</span>
+      <span class="brief-description-pill">Left segment of the crosshair graphic, bound via UMG.</span>
+    </summary>
+
+    <p>Left segment of the crosshair graphic, bound via UMG.</p>
+
+  </details>
+  <!-- block -->
+
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>LineRight</code>
+      <span class="member-badge kind-variable">variable</span>
+      <span class="member-badge section-protected-attrib">Protected</span>
+      <span class="brief-description-pill">Right segment of the crosshair graphic, bound via UMG.</span>
+    </summary>
+
+    <p>Right segment of the crosshair graphic, bound via UMG.</p>
+
+  </details>
+  <!-- block -->
+
+</details>
+<!-- block -->
+
+</details>
+<!-- block -->
+
+_No enum types are defined in this file._
+
+<!-- block -->
+
+</details>
+
+<!-- block -->
+
+<!-- block -->
+
+<details>
+<summary>
   📘 Class `AGameHUD`
     <span class="brief-description-pill">Manages and displays the game's HUD, spawning the root UMG widget at BeginPlay and tearing it down at EndPlay.</span>
 </summary>
@@ -168,11 +390,11 @@ Struct for storing hit marker state.
 
 > Provides Blueprint-callable functions to access and manipulate the following child widgets:
 
-* [UGameHUDWidget](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_game_h_u_d_widget) : The root HUD widget container.
+* [UGameHUDWidget](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_game_h_u_d_widget) : The root HUD widget container.
 
-* [UCrosshairWidget](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-undefined.md#class_u_crosshair_widget): Displays the player's crosshair.
+* [UCrosshairWidget](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_crosshair_widget): Displays the player's crosshair.
 
-* [UHitmarkerWidget](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_hitmarker_widget): Displays hit markers based on damage events.
+* [UHitmarkerWidget](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_hitmarker_widget): Displays hit markers based on damage events.
 
 <!-- block -->
 
@@ -492,7 +714,7 @@ _No enum types are defined in this file._
 
 <!-- block -->
 
-> Manages [crosshair](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-undefined.md#class_u_crosshair_widget) and [hitmarker](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_hitmarker_widget) instances, and updates [MagAmmoText](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_game_h_u_d_widget_1a0a3ee833856c3eb7913ef46a274b37bd) and [ReserveAmmoText](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_game_h_u_d_widget_1a5ef66cfa087619162dbd4c7b969eca47) to display ammo.
+> Manages [crosshair](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_crosshair_widget) and [hitmarker](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_hitmarker_widget) instances, and updates [MagAmmoText](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_game_h_u_d_widget_1a0a3ee833856c3eb7913ef46a274b37bd) and [ReserveAmmoText](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_game_h_u_d_widget_1a5ef66cfa087619162dbd4c7b969eca47) to display ammo.
 
 <!-- block -->
 
@@ -731,23 +953,23 @@ _No enum types are defined in this file._
 
 > [UGridCanvasWidget](#class_u_grid_canvas_widget) lets designers:
 
-* Zoom ([Zoom](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1a8b294a32e146b92ece32f6ce8c0219d6)) and pan ([PanOffset](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1a40c73780a82afbbe153da653d5facac7)) over a 2D grid.
+* Zoom ([Zoom](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1a8b294a32e146b92ece32f6ce8c0219d6)) and pan ([PanOffset](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1a40c73780a82afbbe153da653d5facac7)) over a 2D grid.
 
-* Switch edit modes via [ToggleEditMode()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1ad20f17a7516276cf07f75ceb4d0b68e9) between ERecoilEditMode::Point and ERecoilEditMode::Freehand.
+* Switch edit modes via [ToggleEditMode()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1ad20f17a7516276cf07f75ceb4d0b68e9) between ERecoilEditMode::Point and ERecoilEditMode::Freehand.
 
-* Add, clear, scale ([ScaleSprayPatternUniform()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1a277980892f05df5ed7fe46dc96ad3ddd), [ScaleSprayPattern()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1a5a7bdf5d7870a0a87d9b45cab83526e2)) and export ([ExportSprayPattern()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1a53a019ebb3c0d5ac9d8ea09e1b7fbe44)) spray points.
+* Add, clear, scale ([ScaleSprayPatternUniform()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1a277980892f05df5ed7fe46dc96ad3ddd), [ScaleSprayPattern()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1a5a7bdf5d7870a0a87d9b45cab83526e2)) and export ([ExportSprayPattern()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1a53a019ebb3c0d5ac9d8ea09e1b7fbe44)) spray points.
 
-* Undo/redo strokes with [Undo()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1a9a07dfe3f2d4ce2bb4eb46204d4ba9a3), [Redo()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1a94b56c765eaf5fa15566118b52d3ecf1), backed by [UndoStack](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1a4846065e699258f2529fc2bd1fb830e6) / [RedoStack](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1aee5d312aa51f0694e52f8ed47a364c44) and helper [RecordUndoSnapshot()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1a014eef438b321834225cc24ab83a8708).
+* Undo/redo strokes with [Undo()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1a9a07dfe3f2d4ce2bb4eb46204d4ba9a3), [Redo()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1a94b56c765eaf5fa15566118b52d3ecf1), backed by [UndoStack](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1a4846065e699258f2529fc2bd1fb830e6) / [RedoStack](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1aee5d312aa51f0694e52f8ed47a364c44) and helper [RecordUndoSnapshot()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1a014eef438b321834225cc24ab83a8708).
 
-Internally uses nested [FGridParams](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-undefined.md#struct_u_grid_canvas_widget_1_1_f_grid_params) and [NativePaint()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1ac57384fa5f8227744bffc1cb1ee7465d) to draw:
+Internally uses nested [FGridParams](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-undefined.md#struct_u_grid_canvas_widget_1_1_f_grid_params) and [NativePaint()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1ac57384fa5f8227744bffc1cb1ee7465d) to draw:
 
-* Major/minor grid lines ([DrawGrid()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1aea903413f50eabd54387ab5f0c85ce13)).
+* Major/minor grid lines ([DrawGrid()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1aea903413f50eabd54387ab5f0c85ce13)).
 
-* Origin crosshair ([DrawOriginCrosshair()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1a4107170129374db71e599de859e53942)).
+* Origin crosshair ([DrawOriginCrosshair()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1a4107170129374db71e599de859e53942)).
 
-* Axis labels ([DrawAxisLabels()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1a96bd4b8913fb555cf3757ad3683e03f1)).
+* Axis labels ([DrawAxisLabels()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1a96bd4b8913fb555cf3757ad3683e03f1)).
 
-* Live preview lines and pattern points ([DrawSprayPattern()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1ae32d3546ec59577d71780cf9596e063a), [DrawPreviewPoint()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1ad8a1b003a01c4d0c67b840507f66b91f)).
+* Live preview lines and pattern points ([DrawSprayPattern()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1ae32d3546ec59577d71780cf9596e063a), [DrawPreviewPoint()](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1ad8a1b003a01c4d0c67b840507f66b91f)).
 
 <!-- block -->
 
@@ -2085,10 +2307,10 @@ class UGridCanvasWidget
       🧠 <code>SnapInterval</code>
       <span class="member-badge kind-variable">variable</span>
       <span class="member-badge section-public-attrib">Public</span>
-      <span class="brief-description-pill">Interval size when [bSnapToGrid](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1a50a898f2741dfc0314582c7bf0bd0d18) is enabled.</span>
+      <span class="brief-description-pill">Interval size when [bSnapToGrid](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1a50a898f2741dfc0314582c7bf0bd0d18) is enabled.</span>
     </summary>
 
-    <p>Interval size when [bSnapToGrid](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_grid_canvas_widget_1a50a898f2741dfc0314582c7bf0bd0d18) is enabled.</p>
+    <p>Interval size when [bSnapToGrid](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_grid_canvas_widget_1a50a898f2741dfc0314582c7bf0bd0d18) is enabled.</p>
 
   </details>
   <!-- block -->
@@ -2120,7 +2342,7 @@ _No enum types are defined in this file._
 
 <!-- block -->
 
-> Use [PushHitMarker](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#class_u_hitmarker_widget_1ad4867a3494abc15f88b58ccae14564b5) to spawn a new marker based on a set of DamageTags.
+> Use [PushHitMarker](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_hitmarker_widget_1ad4867a3494abc15f88b58ccae14564b5) to spawn a new marker based on a set of DamageTags.
 
 <!-- block -->
 
@@ -2192,7 +2414,7 @@ class UHitmarkerWidget
 
       <p><strong>Parameters:</strong></p>
       <ul>
-        <li><code>const FGameplayTagContainer & DamageTags</code> – Same container passed to .</li>
+        <li><code>const FGameplayTagContainer & DamageTags</code> – Same container passed to PushHitMarker.</li>
       </ul>
 
   </details>
@@ -2365,10 +2587,10 @@ class UHitmarkerWidget
       🧠 <code>Style</code>
       <span class="member-badge kind-variable">variable</span>
       <span class="member-badge section-public-attrib">Public</span>
-      <span class="brief-description-pill">Style parameters editable in the UMG designer (see [FHitMarkerStyle](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#struct_f_hit_marker_style)).</span>
+      <span class="brief-description-pill">Style parameters editable in the UMG designer (see [FHitMarkerStyle](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#struct_f_hit_marker_style)).</span>
     </summary>
 
-    <p>Style parameters editable in the UMG designer (see [FHitMarkerStyle](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#struct_f_hit_marker_style)).</p>
+    <p>Style parameters editable in the UMG designer (see [FHitMarkerStyle](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#struct_f_hit_marker_style)).</p>
 
   </details>
   <!-- block -->
@@ -2379,10 +2601,725 @@ class UHitmarkerWidget
       🧠 <code>KillTag</code>
       <span class="member-badge kind-variable">variable</span>
       <span class="member-badge section-public-attrib">Public</span>
-      <span class="brief-description-pill">Gameplay tag that triggers the �kill� color (defaults to TAG_Damage_Kill).</span>
+      <span class="brief-description-pill">Gameplay tag that triggers the "kill" color (defaults to TAG_Damage_Kill).</span>
     </summary>
 
-    <p>Gameplay tag that triggers the �kill� color (defaults to TAG_Damage_Kill).</p>
+    <p>Gameplay tag that triggers the "kill" color (defaults to TAG_Damage_Kill).</p>
+
+  </details>
+  <!-- block -->
+
+</details>
+<!-- block -->
+
+</details>
+<!-- block -->
+
+_No enum types are defined in this file._
+
+<!-- block -->
+
+</details>
+
+<!-- block -->
+
+<!-- block -->
+
+<details>
+<summary>
+  📘 Class `USpectatorHudWidget`
+    <span class="brief-description-pill">UI widget that displays a respawn countdown for spectators.</span>
+</summary>
+<!-- block -->
+
+# Class `USpectatorHudWidget` 
+
+<!-- block -->
+
+> This widget manages and displays the remaining time until respawn. Use [SetRespawnTime](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spectator_hud_widget_1ab7017e2d38139da608af09a7a0233439) to initialize the countdown, and [UpdateTimeRemaining](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spectator_hud_widget_1a187aa79f6b303d75f0684e9b7a588561) to refresh the display each tick.
+
+<!-- block -->
+
+<!-- block -->
+
+<details open>
+<summary>🧬 Inherits From</summary>
+
+```cpp
+class USpectatorHudWidget
+  : public UUserWidget
+```
+
+</details>
+
+<!-- block -->
+
+<details open>
+<summary>🧍 Members</summary>
+
+<!-- block -->
+
+<!-- FUNCTIONS -->
+<details open>
+<summary>⚙️ Functions</summary>
+
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>SetRespawnTime</code>
+      <span class="member-badge kind-function">function</span>
+      <span class="member-badge section-public-func">Public</span>
+      <span class="brief-description-pill">Initialize the countdown with the total respawn delay.</span>
+    </summary>
+
+    <p>Initialize the countdown with the total respawn delay.</p>
+
+      <p><strong>Parameters:</strong></p>
+      <ul>
+        <li><code>float TotalSeconds</code> – The full duration (in seconds) until respawn.</li>
+      </ul>
+
+  <hr />
+  <p>
+    <strong>📄 Source:</strong>
+    <code>Source/TimeAssassin/SpectatorHudWidget.cpp</code>
+    (lines 8–12)
+  </p>
+
+  <ExpandableCodeBlock code={`void USpectatorHudWidget::SetRespawnTime(float TotalSeconds)
+{
+    TotalTime = TotalSeconds;
+    UpdateTimeRemaining(TotalSeconds);
+}`} language="cpp" previewLines={15} />
+
+  </details>
+  <!-- block -->
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>UpdateTimeRemaining</code>
+      <span class="member-badge kind-function">function</span>
+      <span class="member-badge section-public-func">Public</span>
+      <span class="brief-description-pill">Update the countdown display with the remaining time.</span>
+    </summary>
+
+    <p>Update the countdown display with the remaining time.</p>
+
+      <p><strong>Parameters:</strong></p>
+      <ul>
+        <li><code>float RemainingSeconds</code> – The seconds left until respawn triggers.</li>
+      </ul>
+
+  <hr />
+  <p>
+    <strong>📄 Source:</strong>
+    <code>Source/TimeAssassin/SpectatorHudWidget.cpp</code>
+    (lines 14–21)
+  </p>
+
+  <ExpandableCodeBlock code={`void USpectatorHudWidget::UpdateTimeRemaining(float RemainingSeconds)
+{
+    if (!CountdownText) return;
+
+    // Ceil so that 2.1?3, 2.0?2, etc.
+    int32 Secs = FMath::CeilToInt(RemainingSeconds);
+    CountdownText->SetText(FText::AsNumber(Secs));
+}`} language="cpp" previewLines={15} />
+
+  </details>
+  <!-- block -->
+
+</details>
+<!-- block -->
+
+<!-- VARIABLES -->
+<details open>
+<summary>📦 Variables</summary>
+
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>CountdownText</code>
+      <span class="member-badge kind-variable">variable</span>
+      <span class="member-badge section-protected-attrib">Protected</span>
+      <span class="brief-description-pill">Text block bound in UMG to show the countdown number.</span>
+    </summary>
+
+    <p>Text block bound in UMG to show the countdown number.</p>
+
+  </details>
+  <!-- block -->
+
+</details>
+<!-- block -->
+
+</details>
+<!-- block -->
+
+_No enum types are defined in this file._
+
+<!-- block -->
+
+</details>
+
+<!-- block -->
+
+<!-- block -->
+
+<details>
+<summary>
+  📘 Class `USprayPatternUIWidget`
+    <span class="brief-description-pill">User-facing widget that lets designers pick a weapon, view its spray pattern on a grid, adjust its scale, and export or reload patterns.</span>
+</summary>
+<!-- block -->
+
+# Class `USprayPatternUIWidget` 
+
+<!-- block -->
+
+> This widget wraps:
+
+* a [WeaponDropdown](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1a694936078f02a97cf23d44e0ad00eb27) to choose a weapon
+
+* a [GridCanvasRef](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1adc3a89a423fd06b1c04abbe516817ae1) on which the spray points are drawn
+
+* sliders ([SL_ScaleX](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1aa369d4e690b54c3493381966fea2a55e), [SL_ScaleY](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1a8cb88001e2f8eec3d9419546f4fa6d75)) to control pattern scale
+
+* buttons bound to [HandleExport](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1a339d0de1c488b6f518b58a6886e55a4d), [HandleLoad](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1ac70790e59efb34bc46fb106844fccc41), [HandleClear](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1aaf2315fe50a243dc0f6f3363bebe0c7a), and [ResetScale](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1aeefb54015e96f6c0fe41352c88f40cb3)
+
+On each selection change, it calls [OnWeaponSelectionChanged](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1a2d8d82b242636bb4a8fb57f140904173) which in turn invokes [HandleLoad](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1ac70790e59efb34bc46fb106844fccc41).
+
+<!-- block -->
+
+<!-- block -->
+
+<details open>
+<summary>🧬 Inherits From</summary>
+
+```cpp
+class USprayPatternUIWidget
+  : public UUserWidget
+```
+
+</details>
+
+<!-- block -->
+
+<details open>
+<summary>🧍 Members</summary>
+
+<!-- block -->
+
+<!-- FUNCTIONS -->
+<details open>
+<summary>⚙️ Functions</summary>
+
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>GetSelectedWeaponData</code>
+      <span class="member-badge kind-function">function</span>
+      <span class="member-badge section-public-func">Public</span>
+      <span class="brief-description-pill">Returns the [UWeaponDataAsset](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Gameplay_Data_Assets.md#class_u_weapon_data_asset) currently selected by the user.</span>
+    </summary>
+
+    <p>Returns the [UWeaponDataAsset](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Gameplay_Data_Assets.md#class_u_weapon_data_asset) currently selected by the user.</p>
+
+      <p><strong>Parameters:</strong> None</p>
+
+  <hr />
+  <p>
+    <strong>📄 Source:</strong>
+    <code>Source/TimeAssassin/SprayPatternUIWidget.cpp</code>
+    (lines 38–45)
+  </p>
+
+  <ExpandableCodeBlock code={`UWeaponDataAsset* USprayPatternUIWidget::GetSelectedWeaponData() const
+{
+	if (!WeaponDropdown || !WeaponAssetMap.Contains(WeaponDropdown->GetSelectedOption()))
+		return nullptr;
+
+	FString AssetPath = WeaponAssetMap[WeaponDropdown->GetSelectedOption()];
+	return Cast<UWeaponDataAsset>(StaticLoadObject(UWeaponDataAsset::StaticClass(), nullptr, *AssetPath));
+}`} language="cpp" previewLines={15} />
+
+  </details>
+  <!-- block -->
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>PopulateWeaponDropdown</code>
+      <span class="member-badge kind-function">function</span>
+      <span class="member-badge section-public-func">Public</span>
+      <span class="brief-description-pill">Populate [WeaponDropdown](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1a694936078f02a97cf23d44e0ad00eb27) via the Asset Registry.</span>
+    </summary>
+
+    <p>Populate [WeaponDropdown](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1a694936078f02a97cf23d44e0ad00eb27) via the Asset Registry.</p>
+
+      <p><strong>Parameters:</strong> None</p>
+
+  <hr />
+  <p>
+    <strong>📄 Source:</strong>
+    <code>Source/TimeAssassin/SprayPatternUIWidget.cpp</code>
+    (lines 47–69)
+  </p>
+
+  <ExpandableCodeBlock code={`void USprayPatternUIWidget::PopulateWeaponDropdown()
+{
+	if (!WeaponDropdown) return;
+
+	WeaponDropdown->ClearOptions();
+	WeaponAssetMap.Empty();
+
+	FAssetRegistryModule& AssetRegistry = FModuleManager::LoadModuleChecked<FAssetRegistryModule>("AssetRegistry");
+	TArray<FAssetData> AssetDataList;
+	FTopLevelAssetPath ClassPath = UWeaponDataAsset::StaticClass()->GetClassPathName();
+	AssetRegistry.Get().GetAssetsByClass(ClassPath, AssetDataList);
+
+	WeaponDropdown->AddOption(TEXT("Select Weapon")); // Add a default option
+
+	for (const FAssetData& Asset : AssetDataList)
+	{
+		FString Name = Asset.AssetName.ToString();
+		FString Path = Asset.ObjectPath.ToString();
+		WeaponDropdown->AddOption(Name);
+		WeaponAssetMap.Add(Name, Path);
+	}
+}`} language="cpp" previewLines={15} />
+
+  </details>
+  <!-- block -->
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>HandleExport</code>
+      <span class="member-badge kind-function">function</span>
+      <span class="member-badge section-public-func">Public</span>
+      <span class="brief-description-pill">Export the current pattern off the grid via GridCanvasRef->ExportSprayPattern.</span>
+    </summary>
+
+    <p>Export the current pattern off the grid via GridCanvasRef->ExportSprayPattern.</p>
+
+      <p><strong>Parameters:</strong> None</p>
+
+  <hr />
+  <p>
+    <strong>📄 Source:</strong>
+    <code>Source/TimeAssassin/SprayPatternUIWidget.cpp</code>
+    (lines 71–103)
+  </p>
+
+  <ExpandableCodeBlock code={`void USprayPatternUIWidget::HandleExport()
+{
+	if (!GridCanvasRef || !WeaponDropdown)
+	{
+		UE_LOG(LogTemp, Error, TEXT("[HandleExport] GridCanvasRef or WeaponDropdown is null!"));
+		return;
+	}
+
+	FString SelectedName = WeaponDropdown->GetSelectedOption();
+	if (!WeaponAssetMap.Contains(SelectedName))
+	{
+		UE_LOG(LogTemp, Error, TEXT("[HandleExport] Selected weapon '%s' not found in map!"), *SelectedName);
+		return;
+	}
+
+	FString AssetPath = WeaponAssetMap[SelectedName];
+	UE_LOG(LogTemp, Log, TEXT("[HandleExport] SelectedName: %s | AssetPath: %s"), *SelectedName, *AssetPath);
+
+	UWeaponDataAsset* WeaponAsset = Cast<UWeaponDataAsset>(
+		StaticLoadObject(UWeaponDataAsset::StaticClass(), nullptr, *AssetPath)
+	);
+
+	if (!WeaponAsset)
+	{
+		UE_LOG(LogTemp, Error, TEXT("[HandleExport] Failed to load asset at path: %s"), *AssetPath);
+		return;
+	}
+
+	UE_LOG(LogTemp, Log, TEXT("[HandleExport] Successfully loaded weapon asset: %s"), *WeaponAsset->GetName());
+
+	GridCanvasRef->ExportSprayPattern(WeaponAsset);
+	OnPatternExported.Broadcast();
+}`} language="cpp" previewLines={15} />
+
+  </details>
+  <!-- block -->
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>HandleLoad</code>
+      <span class="member-badge kind-function">function</span>
+      <span class="member-badge section-public-func">Public</span>
+      <span class="brief-description-pill">Load and display the pattern for the selected weapon via GridCanvasRef->SetSprayPoints.</span>
+    </summary>
+
+    <p>Load and display the pattern for the selected weapon via GridCanvasRef->SetSprayPoints.</p>
+
+      <p><strong>Parameters:</strong> None</p>
+
+  <hr />
+  <p>
+    <strong>📄 Source:</strong>
+    <code>Source/TimeAssassin/SprayPatternUIWidget.cpp</code>
+    (lines 105–141)
+  </p>
+
+  <ExpandableCodeBlock code={`void USprayPatternUIWidget::HandleLoad()
+{
+	if (!GridCanvasRef || !WeaponDropdown)
+	{
+		UE_LOG(LogTemp, Error, TEXT("[HandleLoad] GridCanvasRef or WeaponDropdown is null!"));
+		return;
+	}
+
+	const FString SelectedName = WeaponDropdown->GetSelectedOption();
+	if (!WeaponAssetMap.Contains(SelectedName))
+	{
+		UE_LOG(LogTemp, Error, TEXT("[HandleLoad] Weapon '%s' not found in map!"), *SelectedName);
+		return;
+	}
+
+	const FString AssetPath = WeaponAssetMap[SelectedName];
+
+	UWeaponDataAsset* WeaponAsset = Cast<UWeaponDataAsset>(
+		StaticLoadObject(UWeaponDataAsset::StaticClass(), nullptr, *AssetPath)
+	);
+
+	if (!WeaponAsset)
+	{
+		UE_LOG(LogTemp, Error, TEXT("[HandleLoad] Failed to load weapon asset at %s"), *AssetPath);
+		return;
+	}
+
+	UE_LOG(LogTemp, Log, TEXT("[HandleLoad] Loaded pattern from %s with %d points"), *WeaponAsset->GetName(), WeaponAsset->SprayPattern.Num());
+
+	GridCanvasRef->SetSprayPoints(WeaponAsset->SprayPattern); // Make sure this function exists in your GridCanvasWidget
+	GridCanvasRef->SetWeaponData(WeaponAsset); // Set the weapon data for context
+
+	// Only apply scale *once*
+
+	ResetScale(); // Reset to default scale before applying
+	OnPatternLoaded.Broadcast();
+}`} language="cpp" previewLines={15} />
+
+  </details>
+  <!-- block -->
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>HandleClear</code>
+      <span class="member-badge kind-function">function</span>
+      <span class="member-badge section-public-func">Public</span>
+      <span class="brief-description-pill">Clear all points from the grid by calling GridCanvasRef->ClearPoints.</span>
+    </summary>
+
+    <p>Clear all points from the grid by calling GridCanvasRef->ClearPoints.</p>
+
+      <p><strong>Parameters:</strong> None</p>
+
+  <hr />
+  <p>
+    <strong>📄 Source:</strong>
+    <code>Source/TimeAssassin/SprayPatternUIWidget.cpp</code>
+    (lines 143–150)
+  </p>
+
+  <ExpandableCodeBlock code={`void USprayPatternUIWidget::HandleClear()
+{
+	if (GridCanvasRef)
+	{
+		GridCanvasRef->ClearPoints();
+		UE_LOG(LogTemp, Log, TEXT("[HandleClear] Cleared spray points"));
+	}
+}`} language="cpp" previewLines={15} />
+
+  </details>
+  <!-- block -->
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>ResetScale</code>
+      <span class="member-badge kind-function">function</span>
+      <span class="member-badge section-public-func">Public</span>
+      <span class="brief-description-pill">Reset both sliders and grid scale to 1.0 via [ResetScale](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1aeefb54015e96f6c0fe41352c88f40cb3).</span>
+    </summary>
+
+    <p>Reset both sliders and grid scale to 1.0 via [ResetScale](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1aeefb54015e96f6c0fe41352c88f40cb3).</p>
+
+      <p><strong>Parameters:</strong> None</p>
+
+  <hr />
+  <p>
+    <strong>📄 Source:</strong>
+    <code>Source/TimeAssassin/SprayPatternUIWidget.cpp</code>
+    (lines 152–162)
+  </p>
+
+  <ExpandableCodeBlock code={`void USprayPatternUIWidget::ResetScale()
+{
+	UE_LOG(LogTemp, Log, TEXT("[ResetScale] Resetting spray pattern scale to 1.0"));
+	SprayPatternScaleX = 1.0f;
+	SprayPatternScaleY = 1.0f;
+
+	SL_ScaleY->SetValue(1.0f);
+	SL_ScaleX->SetValue(1.0f);
+
+	HandleSetSprayPatternScale(SprayPatternScaleX, SprayPatternScaleY);
+}`} language="cpp" previewLines={15} />
+
+  </details>
+  <!-- block -->
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>HandleSetSprayPatternScale</code>
+      <span class="member-badge kind-function">function</span>
+      <span class="member-badge section-public-func">Public</span>
+      <span class="brief-description-pill">Apply new scale factors to the grid.</span>
+    </summary>
+
+    <p>Apply new scale factors to the grid.</p>
+
+      <p><strong>Parameters:</strong></p>
+      <ul>
+        <li><code>float ScaleX</code> – horizontal multiplier (bound from )</li>
+        <li><code>float ScaleY</code> – vertical multiplier (bound from )</li>
+      </ul>
+
+  <hr />
+  <p>
+    <strong>📄 Source:</strong>
+    <code>Source/TimeAssassin/SprayPatternUIWidget.cpp</code>
+    (lines 164–175)
+  </p>
+
+  <ExpandableCodeBlock code={`void USprayPatternUIWidget::HandleSetSprayPatternScale(float ScaleX, float ScaleY)
+{
+	if (!GridCanvasRef)
+	{
+		UE_LOG(LogTemp, Error, TEXT("[HandleSetSprayPatternScale] GridCanvasRef is null!"));
+		return;
+	}
+
+	UE_LOG(LogTemp, Log, TEXT("[HandleSetSprayPatternScale] Applying ScaleX = %.2f, ScaleY = %.2f"), ScaleX, ScaleY);
+
+	GridCanvasRef->ScaleSprayPattern(ScaleX, ScaleY); // Make sure this function exists and does the scaling
+}`} language="cpp" previewLines={15} />
+
+  </details>
+  <!-- block -->
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>NativeConstruct</code>
+      <span class="member-badge kind-function">function</span>
+      <span class="member-badge section-protected-func">Protected</span>
+      <span class="brief-description-pill">Initialize widget: bind selection delegate and populate dropdown.</span>
+    </summary>
+
+    <p>Initialize widget: bind selection delegate and populate dropdown.</p>
+
+      <p><strong>Parameters:</strong> None</p>
+
+  <hr />
+  <p>
+    <strong>📄 Source:</strong>
+    <code>Source/TimeAssassin/SprayPatternUIWidget.cpp</code>
+    (lines 10–22)
+  </p>
+
+  <ExpandableCodeBlock code={`void USprayPatternUIWidget::NativeConstruct()
+{
+	Super::NativeConstruct();
+
+	if (WeaponDropdown)
+	{
+		WeaponDropdown->OnSelectionChanged.AddDynamic(this, &USprayPatternUIWidget::OnWeaponSelectionChanged);
+	}
+
+	PopulateWeaponDropdown();
+
+	HandleSetSprayPatternScale(SprayPatternScaleX, SprayPatternScaleY);
+}`} language="cpp" previewLines={15} />
+
+  </details>
+  <!-- block -->
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>NativeTick</code>
+      <span class="member-badge kind-function">function</span>
+      <span class="member-badge section-protected-func">Protected</span>
+      <span class="brief-description-pill">Per-frame tick (unused currently but available for future animation).</span>
+    </summary>
+
+    <p>Per-frame tick (unused currently but available for future animation).</p>
+
+      <p><strong>Parameters:</strong> None</p>
+
+  <hr />
+  <p>
+    <strong>📄 Source:</strong>
+    <code>Source/TimeAssassin/SprayPatternUIWidget.cpp</code>
+    (lines 24–28)
+  </p>
+
+  <ExpandableCodeBlock code={`void USprayPatternUIWidget::NativeTick(const FGeometry& MyGeometry, float InDeltaTime)
+{
+	Super::NativeTick(MyGeometry, InDeltaTime);
+
+}`} language="cpp" previewLines={15} />
+
+  </details>
+  <!-- block -->
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>OnWeaponSelectionChanged</code>
+      <span class="member-badge kind-function">function</span>
+      <span class="member-badge section-protected-func">Protected</span>
+      <span class="brief-description-pill">Internal handler when the user picks a new weapon in [WeaponDropdown](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1a694936078f02a97cf23d44e0ad00eb27).</span>
+    </summary>
+
+    <p>Internal handler when the user picks a new weapon in [WeaponDropdown](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1a694936078f02a97cf23d44e0ad00eb27).</p>
+
+      <p><strong>Parameters:</strong> None</p>
+
+  <hr />
+  <p>
+    <strong>📄 Source:</strong>
+    <code>Source/TimeAssassin/SprayPatternUIWidget.cpp</code>
+    (lines 30–36)
+  </p>
+
+  <ExpandableCodeBlock code={`void USprayPatternUIWidget::OnWeaponSelectionChanged(FString SelectedItem, ESelectInfo::Type SelectionType)
+{
+	UE_LOG(LogTemp, Log, TEXT("[UI] Weapon selection changed to: %s"), *SelectedItem);
+
+	// Automatically load the spray pattern on selection change
+	HandleLoad();
+}`} language="cpp" previewLines={15} />
+
+  </details>
+  <!-- block -->
+
+</details>
+<!-- block -->
+
+<!-- VARIABLES -->
+<details open>
+<summary>📦 Variables</summary>
+
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>WeaponDropdown</code>
+      <span class="member-badge kind-variable">variable</span>
+      <span class="member-badge section-public-attrib">Public</span>
+      <span class="brief-description-pill">Dropdown listing available weapons; its OnSelectionChanged is bound to [OnWeaponSelectionChanged](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1a2d8d82b242636bb4a8fb57f140904173).</span>
+    </summary>
+
+    <p>Dropdown listing available weapons; its OnSelectionChanged is bound to [OnWeaponSelectionChanged](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1a2d8d82b242636bb4a8fb57f140904173).</p>
+
+  </details>
+  <!-- block -->
+
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>GridCanvasRef</code>
+      <span class="member-badge kind-variable">variable</span>
+      <span class="member-badge section-public-attrib">Public</span>
+      <span class="brief-description-pill">Grid on which the spray pattern points (from [UWeaponDataAsset::SprayPattern](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Gameplay_Data_Assets.md#class_u_weapon_data_asset_1a39af4b368edb68fcc72abe2e94506208)) are rendered.</span>
+    </summary>
+
+    <p>Grid on which the spray pattern points (from [UWeaponDataAsset::SprayPattern](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-Gameplay_Data_Assets.md#class_u_weapon_data_asset_1a39af4b368edb68fcc72abe2e94506208)) are rendered.</p>
+
+  </details>
+  <!-- block -->
+
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>SL_ScaleX</code>
+      <span class="member-badge kind-variable">variable</span>
+      <span class="member-badge section-public-attrib">Public</span>
+      <span class="brief-description-pill">Horizontal scale slider for the pattern; reset by [ResetScale](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1aeefb54015e96f6c0fe41352c88f40cb3).</span>
+    </summary>
+
+    <p>Horizontal scale slider for the pattern; reset by [ResetScale](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1aeefb54015e96f6c0fe41352c88f40cb3).</p>
+
+  </details>
+  <!-- block -->
+
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>SL_ScaleY</code>
+      <span class="member-badge kind-variable">variable</span>
+      <span class="member-badge section-public-attrib">Public</span>
+      <span class="brief-description-pill">Vertical scale slider for the pattern; reset by [ResetScale](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1aeefb54015e96f6c0fe41352c88f40cb3).</span>
+    </summary>
+
+    <p>Vertical scale slider for the pattern; reset by [ResetScale](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1aeefb54015e96f6c0fe41352c88f40cb3).</p>
+
+  </details>
+  <!-- block -->
+
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>SprayPatternScaleX</code>
+      <span class="member-badge kind-variable">variable</span>
+      <span class="member-badge section-public-attrib">Public</span>
+      <span class="brief-description-pill">Current horizontal scale factor sent to the grid via [HandleSetSprayPatternScale](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1a3bf79fac440d0f0d5536947fb7f56a8a).</span>
+    </summary>
+
+    <p>Current horizontal scale factor sent to the grid via [HandleSetSprayPatternScale](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1a3bf79fac440d0f0d5536947fb7f56a8a).</p>
+
+  </details>
+  <!-- block -->
+
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>SprayPatternScaleY</code>
+      <span class="member-badge kind-variable">variable</span>
+      <span class="member-badge section-public-attrib">Public</span>
+      <span class="brief-description-pill">Current vertical scale factor sent to the grid via [HandleSetSprayPatternScale](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1a3bf79fac440d0f0d5536947fb7f56a8a).</span>
+    </summary>
+
+    <p>Current vertical scale factor sent to the grid via [HandleSetSprayPatternScale](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#class_u_spray_pattern_u_i_widget_1a3bf79fac440d0f0d5536947fb7f56a8a).</p>
+
+  </details>
+  <!-- block -->
+
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>OnPatternLoaded</code>
+      <span class="member-badge kind-variable">variable</span>
+      <span class="member-badge section-public-attrib">Public</span>
+      <span class="brief-description-pill">Broadcast when a pattern has finished loading�useful for binding UI feedback.</span>
+    </summary>
+
+    <p>Broadcast when a pattern has finished loading�useful for binding UI feedback.</p>
+
+  </details>
+  <!-- block -->
+
+  <!-- block -->
+  <details>
+    <summary>
+      🧠 <code>OnPatternExported</code>
+      <span class="member-badge kind-variable">variable</span>
+      <span class="member-badge section-public-attrib">Public</span>
+      <span class="brief-description-pill">Broadcast when a pattern has been successfully exported.</span>
+    </summary>
+
+    <p>Broadcast when a pattern has been successfully exported.</p>
 
   </details>
   <!-- block -->
@@ -2661,10 +3598,10 @@ _No enum types are defined in this file._
       🧠 <code>PopDuration</code>
       <span class="member-badge kind-variable">variable</span>
       <span class="member-badge section-public-attrib">Public</span>
-      <span class="brief-description-pill">Duration (in seconds) of the pop animation ([PopScale](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#struct_f_hit_marker_style_1a7f6873ec5b9db4926a10c782c2d4ae90) -> 1.0).</span>
+      <span class="brief-description-pill">Duration (in seconds) of the pop animation ([PopScale](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#struct_f_hit_marker_style_1a7f6873ec5b9db4926a10c782c2d4ae90) -> 1.0).</span>
     </summary>
 
-    <p>Duration (in seconds) of the pop animation ([PopScale](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#struct_f_hit_marker_style_1a7f6873ec5b9db4926a10c782c2d4ae90) -> 1.0).</p>
+    <p>Duration (in seconds) of the pop animation ([PopScale](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#struct_f_hit_marker_style_1a7f6873ec5b9db4926a10c782c2d4ae90) -> 1.0).</p>
 
   </details>
   <!-- block -->
@@ -2675,10 +3612,10 @@ _No enum types are defined in this file._
       🧠 <code>KillPopScale</code>
       <span class="member-badge kind-variable">variable</span>
       <span class="member-badge section-public-attrib">Public</span>
-      <span class="brief-description-pill">Scale override when the hit was a kill (overrides [PopScale](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#struct_f_hit_marker_style_1a7f6873ec5b9db4926a10c782c2d4ae90)).</span>
+      <span class="brief-description-pill">Scale override when the hit was a kill (overrides [PopScale](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#struct_f_hit_marker_style_1a7f6873ec5b9db4926a10c782c2d4ae90)).</span>
     </summary>
 
-    <p>Scale override when the hit was a kill (overrides [PopScale](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#struct_f_hit_marker_style_1a7f6873ec5b9db4926a10c782c2d4ae90)).</p>
+    <p>Scale override when the hit was a kill (overrides [PopScale](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#struct_f_hit_marker_style_1a7f6873ec5b9db4926a10c782c2d4ae90)).</p>
 
   </details>
   <!-- block -->
@@ -2744,10 +3681,10 @@ _No enum types are defined in this file._
       🧠 <code>FadeTime</code>
       <span class="member-badge kind-variable">variable</span>
       <span class="member-badge section-public-attrib">Public</span>
-      <span class="brief-description-pill">Lifetime before full fade-out (copied from [FHitMarkerStyle::FadeTime](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#struct_f_hit_marker_style_1a4958e397562e2280a6092518928ce26e)).</span>
+      <span class="brief-description-pill">Lifetime before full fade-out (copied from [FHitMarkerStyle::FadeTime](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#struct_f_hit_marker_style_1a4958e397562e2280a6092518928ce26e)).</span>
     </summary>
 
-    <p>Lifetime before full fade-out (copied from [FHitMarkerStyle::FadeTime](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#struct_f_hit_marker_style_1a4958e397562e2280a6092518928ce26e)).</p>
+    <p>Lifetime before full fade-out (copied from [FHitMarkerStyle::FadeTime](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#struct_f_hit_marker_style_1a4958e397562e2280a6092518928ce26e)).</p>
 
   </details>
   <!-- block -->
@@ -2758,10 +3695,10 @@ _No enum types are defined in this file._
       🧠 <code>PopDuration</code>
       <span class="member-badge kind-variable">variable</span>
       <span class="member-badge section-public-attrib">Public</span>
-      <span class="brief-description-pill">Duration of the pop animation (copied from [FHitMarkerStyle::PopDuration](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#struct_f_hit_marker_style_1aa993953115dc027cfa6d741f4f0cdc37)).</span>
+      <span class="brief-description-pill">Duration of the pop animation (copied from [FHitMarkerStyle::PopDuration](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#struct_f_hit_marker_style_1aa993953115dc027cfa6d741f4f0cdc37)).</span>
     </summary>
 
-    <p>Duration of the pop animation (copied from [FHitMarkerStyle::PopDuration](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_WIDGETS_AND_INTERFACES.md#struct_f_hit_marker_style_1aa993953115dc027cfa6d741f4f0cdc37)).</p>
+    <p>Duration of the pop animation (copied from [FHitMarkerStyle::PopDuration](F:\Projects\Documentation\TemporalTargets-Documentation\generated_md/api-UI_Widgets.md#struct_f_hit_marker_style_1aa993953115dc027cfa6d741f4f0cdc37)).</p>
 
   </details>
   <!-- block -->

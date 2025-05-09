@@ -63,26 +63,25 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">UTextBlock;</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal">UCLASS()</highlight></codeline>
-<codeline lineno="17" refid="class_u_spectator_hud_widget" refkind="compound"><highlight class="normal">class<sp/>TIMEASSASSIN_API<sp/><ref refid="class_u_spectator_hud_widget" kindref="compound">USpectatorHudWidget</ref><sp/>:<sp/>public<sp/>UUserWidget</highlight></codeline>
-<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Spectator&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spectator_hud_widget_1ab7017e2d38139da608af09a7a0233439" kindref="member">SetRespawnTime</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>TotalSeconds);</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Spectator&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spectator_hud_widget_1a187aa79f6b303d75f0684e9b7a588561" kindref="member">UpdateTimeRemaining</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>RemainingSeconds);</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(meta<sp/>=<sp/>(BindWidget))</highlight></codeline>
-<codeline lineno="33" refid="class_u_spectator_hud_widget_1a065ed56f15bd966f96c21a20fe193693" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UTextBlock*<sp/><ref refid="class_u_spectator_hud_widget_1a065ed56f15bd966f96c21a20fe193693" kindref="member">CountdownText</ref>;</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal">private:</highlight></codeline>
-<codeline lineno="36" refid="class_u_spectator_hud_widget_1a3ba9909ea0eabb362f605c579de416ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_u_spectator_hud_widget_1a3ba9909ea0eabb362f605c579de416ae" kindref="member">TotalTime</ref><sp/>=<sp/>0.f;</highlight></codeline>
-<codeline lineno="37"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">UCLASS()</highlight></codeline>
+<codeline lineno="21" refid="class_u_spectator_hud_widget" refkind="compound"><highlight class="normal">class<sp/>TIMEASSASSIN_API<sp/><ref refid="class_u_spectator_hud_widget" kindref="compound">USpectatorHudWidget</ref><sp/>:<sp/>public<sp/>UUserWidget</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Spectator&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spectator_hud_widget_1ab7017e2d38139da608af09a7a0233439" kindref="member">SetRespawnTime</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>TotalSeconds);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Spectator&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spectator_hud_widget_1a187aa79f6b303d75f0684e9b7a588561" kindref="member">UpdateTimeRemaining</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>RemainingSeconds);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(meta<sp/>=<sp/>(BindWidget))</highlight></codeline>
+<codeline lineno="49" refid="class_u_spectator_hud_widget_1a065ed56f15bd966f96c21a20fe193693" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UTextBlock*<sp/><ref refid="class_u_spectator_hud_widget_1a065ed56f15bd966f96c21a20fe193693" kindref="member">CountdownText</ref>;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">private:</highlight></codeline>
+<codeline lineno="58" refid="class_u_spectator_hud_widget_1a3ba9909ea0eabb362f605c579de416ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_u_spectator_hud_widget_1a3ba9909ea0eabb362f605c579de416ae" kindref="member">TotalTime</ref><sp/>=<sp/>0.f;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">};</highlight></codeline>
     </programlisting>
     <location file="Source/TimeAssassin/SpectatorHudWidget.h"/>
   </compounddef>

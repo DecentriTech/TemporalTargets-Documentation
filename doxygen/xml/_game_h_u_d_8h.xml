@@ -125,7 +125,7 @@
 <codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(Transient)</highlight></codeline>
 <codeline lineno="94" refid="class_a_game_h_u_d_1a6ca6b11f55e41f35e94542f39ba64f0c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_game_h_u_d_widget" kindref="compound">UGameHUDWidget</ref>*<sp/><ref refid="class_a_game_h_u_d_1a6ca6b11f55e41f35e94542f39ba64f0c" kindref="member">HUDWidget</ref><sp/>=<sp/></highlight><highlight class="keywordtype">nullptr</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="95"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="96"><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>end<sp/>of<sp/>UI_WIDGETS_AND_INTERFACES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>end<sp/>of<sp/>UI_Widgets</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="Source/TimeAssassin/GameHUD.h"/>
   </compounddef>

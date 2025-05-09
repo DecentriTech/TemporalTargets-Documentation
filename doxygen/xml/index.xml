@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.13.2" xml:lang="en-US">
   <compound refid="class_a_base_interactable_actor" kind="class"><name>ABaseInteractableActor</name>
+    <member refid="class_a_base_interactable_actor_1a88022fe2880641029ff4633f8ce7c008" kind="variable"><name>OnInteractorEnteredRadiusEvent</name></member>
+    <member refid="class_a_base_interactable_actor_1ab43bb877155ef27a66a6dff1aa43592f" kind="variable"><name>OnInteractorLeftRadiusEvent</name></member>
+    <member refid="class_a_base_interactable_actor_1a7d7bd085e950f3215e92048b70f17808" kind="variable"><name>OnFocusedByInteractor</name></member>
+    <member refid="class_a_base_interactable_actor_1a2bbb952da0d9139277b29aa8108a5e5e" kind="variable"><name>OnUnfocusedByInteractor</name></member>
     <member refid="class_a_base_interactable_actor_1ab0d3f1e869442fbc9672b06c4e8a2f74" kind="variable"><name>InteractionRadius</name></member>
     <member refid="class_a_base_interactable_actor_1ad70d64534f3c93e062e14871eaa9af67" kind="variable"><name>InteractionSphere</name></member>
     <member refid="class_a_base_interactable_actor_1ae2b7b85c86c799242aee363bfda66514" kind="variable"><name>InteractorsInRange</name></member>
@@ -13,14 +17,10 @@
     <member refid="class_a_base_interactable_actor_1a90247d70974496d1dd72c7cd9f5fa464" kind="function"><name>IsGhostInteractor</name></member>
     <member refid="class_a_base_interactable_actor_1af412f48857155af995809b5fe83b6a6f" kind="function"><name>IsPlayerInteractor</name></member>
     <member refid="class_a_base_interactable_actor_1ae9ac03e43e72c0e05ec9bff1bfd9d0ee" kind="function"><name>GetInteractorTypeTag</name></member>
-    <member refid="class_a_base_interactable_actor_1a3ef59d1b2d42a3763b57fb0640dac253" kind="function"><name>UFUNCTION</name></member>
-    <member refid="class_a_base_interactable_actor_1a6e748015fc99c3e90c886f5312c149d1" kind="function"><name>UFUNCTION</name></member>
-    <member refid="class_a_base_interactable_actor_1afdc89b196b3e930871eb1919489e0e90" kind="function"><name>UFUNCTION</name></member>
-    <member refid="class_a_base_interactable_actor_1a131e89d74cbd636721f7acc2991a7a1d" kind="function"><name>UFUNCTION</name></member>
-    <member refid="class_a_base_interactable_actor_1a3297deff5cc148a80bcde74435a2d405" kind="function"><name>UPROPERTY</name></member>
-    <member refid="class_a_base_interactable_actor_1a7d1eabd79de591cb0b256d46d05ce785" kind="function"><name>UPROPERTY</name></member>
-    <member refid="class_a_base_interactable_actor_1ab8091f134111bebc363d9b06472a9adb" kind="function"><name>UPROPERTY</name></member>
-    <member refid="class_a_base_interactable_actor_1ad67c8d1939caa247381040d4ea3aa40b" kind="function"><name>UPROPERTY</name></member>
+    <member refid="class_a_base_interactable_actor_1aa452ecea351e91c46a56a6720aac604a" kind="function"><name>OnInteractorFocused</name></member>
+    <member refid="class_a_base_interactable_actor_1adcbab5ca9e58789af7ffe8504b4f2a39" kind="function"><name>OnInteractorUnfocused</name></member>
+    <member refid="class_a_base_interactable_actor_1a5ba8c7d714b4f4f7ddb311c154cd3de6" kind="function"><name>OnInteractorEnteredRadius</name></member>
+    <member refid="class_a_base_interactable_actor_1ad0b5f103acee6b612496ab1c96682e75" kind="function"><name>OnInteractorLeftRadius</name></member>
     <member refid="class_a_base_interactable_actor_1a51297b0b0970665ec63842e7889daeaf" kind="function"><name>BeginPlay</name></member>
     <member refid="class_a_base_interactable_actor_1a59c0466ebd11a782866850f6b62d585e" kind="function"><name>HandleSphereBeginOverlap</name></member>
     <member refid="class_a_base_interactable_actor_1ab406e3af4b71c1fab0e9b7460dbca127" kind="function"><name>HandleSphereEndOverlap</name></member>
@@ -44,6 +44,8 @@
     <member refid="class_a_game_h_u_d_1a93d4fc9c8002e711d6a503611d737120" kind="function"><name>ShowHitmarker</name></member>
   </compound>
   <compound refid="class_a_orbit_spectator_pawn" kind="class"><name>AOrbitSpectatorPawn</name>
+    <member refid="class_a_orbit_spectator_pawn_1a4472908b71b396733bbda86b38918097" kind="variable"><name>SpringArm</name></member>
+    <member refid="class_a_orbit_spectator_pawn_1a4929761058f42c30fa07d8605d2be012" kind="variable"><name>Camera</name></member>
     <member refid="class_a_orbit_spectator_pawn_1a24c5e1186db9f8e8e7bf60993ea45405" kind="variable"><name>TargetActor</name></member>
     <member refid="class_a_orbit_spectator_pawn_1a553f1235c13d69a4dcdd5309e76c9b01" kind="variable"><name>StartLocation</name></member>
     <member refid="class_a_orbit_spectator_pawn_1ab3ef177c965bc7ce3b40b92805eb2ab3" kind="variable"><name>TargetOffset</name></member>
@@ -53,9 +55,7 @@
     <member refid="class_a_orbit_spectator_pawn_1a9d1fd76358ac9c797677b01fb056ae07" kind="function"><name>AOrbitSpectatorPawn</name></member>
     <member refid="class_a_orbit_spectator_pawn_1a042f83ca27a30c6510b1905153132a6b" kind="function"><name>InitializeSpectator</name></member>
     <member refid="class_a_orbit_spectator_pawn_1a6ff10f6847b2bfb48e9cee76f4c4ac38" kind="function"><name>Tick</name></member>
-    <member refid="class_a_orbit_spectator_pawn_1a0a3d0a7226853cfbb5f5396f0120e058" kind="function"><name>SetupPlayerInputComponent</name></member>
-    <member refid="class_a_orbit_spectator_pawn_1ae287860c8c1b39c3e0bcda151b22749e" kind="function"><name>UPROPERTY</name></member>
-    <member refid="class_a_orbit_spectator_pawn_1a7066f8a96c6dd47664d25d0fbadf1852" kind="function"><name>UPROPERTY</name></member>
+    <member refid="class_a_orbit_spectator_pawn_1aa70faa76d9b9996c4416be65ede76ed7" kind="function"><name>SetupPlayerInputComponent</name></member>
     <member refid="class_a_orbit_spectator_pawn_1a6aca1b24b25674e136932f6f6e0893c7" kind="function"><name>OnRightClickPressed</name></member>
     <member refid="class_a_orbit_spectator_pawn_1adef65ae289cfb699b4ebd789ed685772" kind="function"><name>OnRightClickReleased</name></member>
     <member refid="class_a_orbit_spectator_pawn_1a7f011c556cfa6b50321ea81b1de02508" kind="function"><name>Turn</name></member>
@@ -149,10 +149,6 @@
     <member refid="class_a_temporal_character_1a67a3cec0d56a486a1a53894e5214bb58" kind="function"><name>BeginPlay</name></member>
   </compound>
   <compound refid="class_a_temporal_game_mode" kind="class"><name>ATemporalGameMode</name>
-    <member refid="class_a_temporal_game_mode_1acfa140c060cc5f5e31f1a75d092bd41e" kind="enum"><name>EGhostReplayState</name></member>
-    <member refid="class_a_temporal_game_mode_1acfa140c060cc5f5e31f1a75d092bd41eaa3f80d8f0f1b4ffa8c475f5d60ea5635" kind="enumvalue"><name>UMETA</name></member>
-    <member refid="class_a_temporal_game_mode_1acfa140c060cc5f5e31f1a75d092bd41eaa3f80d8f0f1b4ffa8c475f5d60ea5635" kind="enumvalue"><name>UMETA</name></member>
-    <member refid="class_a_temporal_game_mode_1acfa140c060cc5f5e31f1a75d092bd41eaa3f80d8f0f1b4ffa8c475f5d60ea5635" kind="enumvalue"><name>UMETA</name></member>
     <member refid="class_a_temporal_game_mode_1a196e99b79778bd0d825457c33a27988c" kind="variable"><name>bPlayMode</name></member>
     <member refid="class_a_temporal_game_mode_1aa69c3c09bc3abf18a4121171f1577a0c" kind="variable"><name>RespawnDelay</name></member>
     <member refid="class_a_temporal_game_mode_1a2f20687efa9847159c5e8b6504a1d1c9" kind="variable"><name>RespawnTimerHandle</name></member>
@@ -187,13 +183,13 @@
     <member refid="struct_f_combat_frame_data_1ad00fceb9c8ca29d2ed108fcdd2465b56" kind="function"><name>FCombatFrameData</name></member>
   </compound>
   <compound refid="struct_f_damage_info" kind="struct"><name>FDamageInfo</name>
-    <member refid="struct_f_damage_info_1a9aca29217ad7fabcbefe57abec4b2b90" kind="function"><name>UPROPERTY</name></member>
-    <member refid="struct_f_damage_info_1acd05f560317e9771b88b1f8f7c9777f2" kind="function"><name>UPROPERTY</name></member>
-    <member refid="struct_f_damage_info_1a564655ae7f9557aef6c3e1e47afc20c8" kind="function"><name>UPROPERTY</name></member>
-    <member refid="struct_f_damage_info_1a201a5eddea1923a7a47da8a3d820177c" kind="function"><name>UPROPERTY</name></member>
-    <member refid="struct_f_damage_info_1a89cb2a2383c330a048698ef0a027634e" kind="function"><name>UPROPERTY</name></member>
-    <member refid="struct_f_damage_info_1a70d904bf867b12ed7314f36749418904" kind="function"><name>UPROPERTY</name></member>
-    <member refid="struct_f_damage_info_1a13386811037f890c643eedb9718b5a77" kind="function"><name>UPROPERTY</name></member>
+    <member refid="struct_f_damage_info_1a69348cf6516dc442d5a19748b19da88a" kind="variable"><name>DamageAmount</name></member>
+    <member refid="struct_f_damage_info_1ac535336844d61222eff607949d15bbf3" kind="variable"><name>Instigator</name></member>
+    <member refid="struct_f_damage_info_1ac1ca2da67c66980c6e84d0e2b17503db" kind="variable"><name>HitLocation</name></member>
+    <member refid="struct_f_damage_info_1af650a9a95ddd715cc637dda7986e42d3" kind="variable"><name>ShotDirection</name></member>
+    <member refid="struct_f_damage_info_1a5b9dfd76d34f2f49ee518a06b2c2d66c" kind="variable"><name>DamageType</name></member>
+    <member refid="struct_f_damage_info_1a732a2ce7f76045a4c908517e287505b9" kind="variable"><name>HitBoneName</name></member>
+    <member refid="struct_f_damage_info_1a7065ae4757d2317c59b998d4ec2afa1f" kind="variable"><name>DamageTags</name></member>
   </compound>
   <compound refid="struct_u_grid_canvas_widget_1_1_f_grid_params" kind="struct"><name>UGridCanvasWidget::FGridParams</name>
     <member refid="struct_u_grid_canvas_widget_1_1_f_grid_params_1a8e941a456655006e0a339a0bcb4d7648" kind="variable"><name>Size</name></member>
@@ -276,9 +272,9 @@
     <member refid="class_i_b_p_i___interactable_1a54557ad43cce970953a261e90c45c3c7" kind="function"><name>UnregisterInteractable</name></member>
   </compound>
   <compound refid="class_i_damageable_interface" kind="class"><name>IDamageableInterface</name>
-    <member refid="class_i_damageable_interface_1a1f6318dd8d764d86d152bafcceeaf950" kind="function"><name>TakeDamage</name></member>
-    <member refid="class_i_damageable_interface_1aa2527dc978acb578318f79c3704b6679" kind="function"><name>OnDamaged</name></member>
-    <member refid="class_i_damageable_interface_1a9f9b8a6fb04274b8b2418423c31b823c" kind="function"><name>OnKilled</name></member>
+    <member refid="group___blueprint___interfaces_1ga1f6318dd8d764d86d152bafcceeaf950" kind="function"><name>TakeDamage</name></member>
+    <member refid="group___blueprint___interfaces_1gaa2527dc978acb578318f79c3704b6679" kind="function"><name>OnDamaged</name></member>
+    <member refid="group___blueprint___interfaces_1ga9f9b8a6fb04274b8b2418423c31b823c" kind="function"><name>OnKilled</name></member>
   </compound>
   <compound refid="class_time_assassin" kind="class"><name>TimeAssassin</name>
     <member refid="class_time_assassin_1ad19e4a8a1129de3578a6b345735dd71e" kind="function"><name>TimeAssassin</name></member>
@@ -298,6 +294,23 @@
     <member refid="class_u_crosshair_widget_1a8d267d25f501fd674f5adc97db2739f7" kind="variable"><name>LineRight</name></member>
     <member refid="class_u_crosshair_widget_1adde65dfafb16c94ca45f871eea345c7d" kind="function"><name>SetCrosshairOffset</name></member>
   </compound>
+  <compound refid="class_u_damageable_component" kind="class"><name>UDamageableComponent</name>
+    <member refid="class_u_damageable_component_1afc6f8e3d6c8bb8ee7856fc1dfd214b49" kind="variable"><name>MaxHealth</name></member>
+    <member refid="class_u_damageable_component_1afb3a578e0c1401ed5ac7e2d852faf925" kind="variable"><name>bCanDie</name></member>
+    <member refid="class_u_damageable_component_1a7ab03ef35ba0295ed70ebfd415c4e2ea" kind="variable"><name>OnDamageTaken</name></member>
+    <member refid="class_u_damageable_component_1a0072fe6418a90f6635e44dd2f8921042" kind="variable"><name>OnDeath</name></member>
+    <member refid="class_u_damageable_component_1a2f14c8b5c8ff5f3f8d3b2e6789e754e9" kind="variable"><name>LastDamageInfo</name></member>
+    <member refid="class_u_damageable_component_1aa25674ea7c046723d02c1cae695cb663" kind="variable"><name>CurrentHealth</name></member>
+    <member refid="class_u_damageable_component_1a55a2b2b04ad5542a35c5b64510b2e9d5" kind="variable"><name>bIsDead</name></member>
+    <member refid="class_u_damageable_component_1a6c9fb26a2b033709f4dceb3b86276481" kind="function"><name>UDamageableComponent</name></member>
+    <member refid="class_u_damageable_component_1a7c4abcb86c51c1eb39511494cfbee1bc" kind="function"><name>ApplyDamage</name></member>
+    <member refid="class_u_damageable_component_1aa66ec8aeace8315def60c8769219a172" kind="function"><name>Heal</name></member>
+    <member refid="class_u_damageable_component_1a67be50b84291a8d9be223b2a0ce9b158" kind="function"><name>IsAlive</name></member>
+    <member refid="class_u_damageable_component_1ac546ba704e419e0d05f458dc27bbf71f" kind="function"><name>GetHealthPercent</name></member>
+    <member refid="class_u_damageable_component_1ad501407b45d88b2eef8657b05682462a" kind="function"><name>BeginPlay</name></member>
+    <member refid="class_u_damageable_component_1adf368c5991d1e03392c160c3acd35b10" kind="function"><name>HandleDeath</name></member>
+    <member refid="class_u_damageable_component_1a4bd397f8e531ad4ef8909a5e97cb2fba" kind="function"><name>BroadcastHitFeedback</name></member>
+  </compound>
   <compound refid="class_u_damageable_interface" kind="class"><name>UDamageableInterface</name>
   </compound>
   <compound refid="class_u_game_h_u_d_widget" kind="class"><name>UGameHUDWidget</name>
@@ -314,6 +327,9 @@
     <member refid="class_u_game_h_u_d_widget_1a72d555e1b0ce08eb4ee44569a91635a9" kind="function"><name>SetAmmoText</name></member>
   </compound>
   <compound refid="class_u_grid_canvas_widget" kind="class"><name>UGridCanvasWidget</name>
+    <member refid="class_u_grid_canvas_widget_1a18c7fbc80f459a7302e306ae5e7e6c4e" kind="variable"><name>SprayPoints</name></member>
+    <member refid="class_u_grid_canvas_widget_1a145c015e35f5cf709db154a14cbac389" kind="variable"><name>BaselineSprayPoints</name></member>
+    <member refid="class_u_grid_canvas_widget_1ab138456c8e7aa4c270db0f3b657120b0" kind="variable"><name>RawStroke</name></member>
     <member refid="class_u_grid_canvas_widget_1adaa3e6605fd9649fdc2108c2310b4c64" kind="variable"><name>LastMousePosition</name></member>
     <member refid="class_u_grid_canvas_widget_1a35fdbde2a5fe1124b1bd2e6519a64176" kind="variable"><name>HoverPoint</name></member>
     <member refid="class_u_grid_canvas_widget_1a7b51a477edf97f3529f58695ebf5f201" kind="variable"><name>PreviewPoint</name></member>
@@ -376,9 +392,6 @@
     <member refid="class_u_grid_canvas_widget_1ad8a1b003a01c4d0c67b840507f66b91f" kind="function"><name>DrawPreviewPoint</name></member>
     <member refid="class_u_grid_canvas_widget_1a88f74842a895dcbe707101091072c419" kind="function"><name>DrawFreehandPreview</name></member>
     <member refid="class_u_grid_canvas_widget_1a91b9acde88110b4e989da74c410d2dbd" kind="function"><name>ResampleStroke</name></member>
-    <member refid="class_u_grid_canvas_widget_1a12b70ad61949a39f1591f79e64ea632c" kind="function"><name>UPROPERTY</name></member>
-    <member refid="class_u_grid_canvas_widget_1a125df9ff4214f261d98e976a22bb8376" kind="function"><name>UPROPERTY</name></member>
-    <member refid="class_u_grid_canvas_widget_1ac590486c946d48b707f5ce1cc6bfa7a4" kind="function"><name>UPROPERTY</name></member>
     <member refid="class_u_grid_canvas_widget_1a43b4b12518604a85227c9a196173cdee" kind="function"><name>ChaikinSmooth</name></member>
   </compound>
   <compound refid="class_u_hitmarker_widget" kind="class"><name>UHitmarkerWidget</name>
@@ -396,6 +409,40 @@
     <member refid="class_u_hitmarker_widget_1a6b1de2de1eeac4847becbe743daf261c" kind="function"><name>DetermineColor</name></member>
     <member refid="class_u_hitmarker_widget_1a0bb8e78af47b04bf00260ab241b0c617" kind="function"><name>UpdateMarkers</name></member>
     <member refid="class_u_hitmarker_widget_1af40e2c0e07785e6bc2c6994d5cf3bc81" kind="function"><name>RenderMarkers</name></member>
+  </compound>
+  <compound refid="class_u_interaction_component" kind="class"><name>UInteractionComponent</name>
+    <member refid="class_u_interaction_component_1a984644c0b160eeb3c5155cea4d0283ee" kind="variable"><name>CapsuleRadius</name></member>
+    <member refid="class_u_interaction_component_1a5585daeeb972b00edd15eaae9cf786ff" kind="variable"><name>CapsuleHalfHeight</name></member>
+    <member refid="class_u_interaction_component_1a3b20ebc5decc62092728cdb996e8a79e" kind="variable"><name>MaxInteractDistance</name></member>
+    <member refid="class_u_interaction_component_1ab95ad018f7deaa0878b36bc12e32619d" kind="variable"><name>FocusedActor</name></member>
+    <member refid="class_u_interaction_component_1ae2f1dd0d326300b71942b1cfc201ce19" kind="variable"><name>NearbyInteractables</name></member>
+    <member refid="class_u_interaction_component_1abd914db50bdde13b8e001ddadffaabb1" kind="variable"><name>bShouldTick</name></member>
+    <member refid="class_u_interaction_component_1ac8e1ef4df88221a6042e82f92c25c004" kind="variable"><name>bIsGhostControlled</name></member>
+    <member refid="class_u_interaction_component_1aec0199597e7660673271a1af0585a1c6" kind="function"><name>UInteractionComponent</name></member>
+    <member refid="class_u_interaction_component_1a0b37d2aef5c83c3c85b3eb9bd3e3d28a" kind="function"><name>Interact</name></member>
+    <member refid="class_u_interaction_component_1afe642e5f0b9a1c20947f646f8d75dd88" kind="function"><name>GetFocusedActor</name></member>
+    <member refid="class_u_interaction_component_1a003e9892d2cdcd8f79424027a95c52ab" kind="function"><name>AddRegisteredInteractable</name></member>
+    <member refid="class_u_interaction_component_1aa709b31e374070c148f33ba41e84e469" kind="function"><name>RemoveRegisteredInteractable</name></member>
+    <member refid="class_u_interaction_component_1a4b541cb6bd61b8a508338d0187da2444" kind="function"><name>BeginPlay</name></member>
+    <member refid="class_u_interaction_component_1ab118a9766716f400d8ff9c6b90712fa0" kind="function"><name>TickComponent</name></member>
+    <member refid="class_u_interaction_component_1a9d922a490f6414af02bdb551716921b2" kind="function"><name>InteractionFocusTrace</name></member>
+  </compound>
+  <compound refid="class_u_replay_recorder_component" kind="class"><name>UReplayRecorderComponent</name>
+    <member refid="class_u_replay_recorder_component_1ab1b0f48f1a2211163b1b82f130129359" kind="variable"><name>RecordedFrames</name></member>
+    <member refid="class_u_replay_recorder_component_1aa1d7d2decfc33e360a5b13f5d35bdca8" kind="variable"><name>bRecording</name></member>
+    <member refid="class_u_replay_recorder_component_1aeca103c46a870630167c64afdd835af8" kind="variable"><name>RecordingAccumulator</name></member>
+    <member refid="class_u_replay_recorder_component_1a4841fd81b50d9458b6b2542404c676cd" kind="variable"><name>RecordingInterval</name></member>
+    <member refid="class_u_replay_recorder_component_1a2dde291f56c5f9726db25110f374a41a" kind="variable"><name>PendingInteractionData</name></member>
+    <member refid="class_u_replay_recorder_component_1a48d620b3eb706cd29d581ebe29831f63" kind="variable"><name>PendingCombatData</name></member>
+    <member refid="class_u_replay_recorder_component_1aaac204eacfcd6416699b4e8b6644d99b" kind="variable"><name>CurrentFrameActionFlags</name></member>
+    <member refid="class_u_replay_recorder_component_1ab4a236ea39cdbf74d4486d364c653b1d" kind="function"><name>UReplayRecorderComponent</name></member>
+    <member refid="class_u_replay_recorder_component_1a73a85c4244a2ee3ca900218bfd628e5b" kind="function"><name>TickComponent</name></member>
+    <member refid="class_u_replay_recorder_component_1a0ae8d215de8e486015cc161070c8e111" kind="function"><name>StartRecording</name></member>
+    <member refid="class_u_replay_recorder_component_1a725fd42e4ead1c058a6780ce835ef377" kind="function"><name>StopRecording</name></member>
+    <member refid="class_u_replay_recorder_component_1a00eb68d151a592a188e8ee2d5fddf90b" kind="function"><name>AddActionFlag</name></member>
+    <member refid="class_u_replay_recorder_component_1a4d009df22d2f236d5956cdc7931229aa" kind="function"><name>CaptureInteractionData</name></member>
+    <member refid="class_u_replay_recorder_component_1a95379bbc4b1adfd811455da125dffaf4" kind="function"><name>CaptureShotData</name></member>
+    <member refid="class_u_replay_recorder_component_1a6a4a12bbaf2bcc3f32b46aa2e5136d19" kind="function"><name>GetRecordedData</name></member>
   </compound>
   <compound refid="class_u_spectator_hud_widget" kind="class"><name>USpectatorHudWidget</name>
     <member refid="class_u_spectator_hud_widget_1a065ed56f15bd966f96c21a20fe193693" kind="variable"><name>CountdownText</name></member>
@@ -424,6 +471,58 @@
     <member refid="class_u_spray_pattern_u_i_widget_1a8c76179e8615eb96498b8a7d6fb958bd" kind="function"><name>NativeTick</name></member>
     <member refid="class_u_spray_pattern_u_i_widget_1a2d8d82b242636bb4a8fb57f140904173" kind="function"><name>OnWeaponSelectionChanged</name></member>
   </compound>
+  <compound refid="class_u_weapon_component" kind="class"><name>UWeaponComponent</name>
+    <member refid="class_u_weapon_component_1a7c958dfe2ab2d412d9416bf517c513af" kind="variable"><name>CrosshairWidgetRef</name></member>
+    <member refid="class_u_weapon_component_1aae9d85030c7d470962382a23afc07a7e" kind="variable"><name>HitmarkerWidgetRef</name></member>
+    <member refid="class_u_weapon_component_1a9332452080e7085f111dd42a235cfc02" kind="variable"><name>WeaponData</name></member>
+    <member refid="class_u_weapon_component_1a95d377081501c0d621f03157392a1066" kind="variable"><name>RecoilResetDelay</name></member>
+    <member refid="class_u_weapon_component_1ac3e6105637399f656ed5b38c9c44e87f" kind="variable"><name>RecoilRecoverySpeed</name></member>
+    <member refid="class_u_weapon_component_1a7a9a4afaae3a9d362140437a476ea734" kind="variable"><name>RecoilInterpSpeed</name></member>
+    <member refid="class_u_weapon_component_1a25e4510e7480e59aecead6661b8b0896" kind="variable"><name>RecoveryStrength</name></member>
+    <member refid="class_u_weapon_component_1a3f79d82044503b471c1263d40834725d" kind="variable"><name>FOVPunchDuration</name></member>
+    <member refid="class_u_weapon_component_1a93ddf08979296d23b716af5e233b6e82" kind="variable"><name>FOVEaseExponent</name></member>
+    <member refid="class_u_weapon_component_1ab06543af9b0c409a267e89aaf4b7399b" kind="variable"><name>CurrentMagAmmo</name></member>
+    <member refid="class_u_weapon_component_1a1cf85bec2966c2b82cbab781201083c1" kind="variable"><name>CurrentReserveAmmo</name></member>
+    <member refid="class_u_weapon_component_1a025ea661f939fe676d03054eb4e4e777" kind="variable"><name>bIsReloading</name></member>
+    <member refid="class_u_weapon_component_1ac959007e8937832c95848615f0eb8f78" kind="variable"><name>AutomaticFireTimer</name></member>
+    <member refid="class_u_weapon_component_1aa398c5e3638badd012c359cf71198b9e" kind="variable"><name>RecoilResetTimer</name></member>
+    <member refid="class_u_weapon_component_1a6b19292de18b37a7f3da401e37b2c1ce" kind="variable"><name>ReloadTimer</name></member>
+    <member refid="class_u_weapon_component_1a782335875e079f8646fc4210f7d4751a" kind="variable"><name>bWantsToFire</name></member>
+    <member refid="class_u_weapon_component_1ab157c206f7f9ab21bc3bdc985958d410" kind="variable"><name>bIsShooting</name></member>
+    <member refid="class_u_weapon_component_1a0a04a3a592ab50cc8e87ca87ebc39f64" kind="variable"><name>bIsFiring</name></member>
+    <member refid="class_u_weapon_component_1a8b6f5a4151db309159dbf7d91726a71e" kind="variable"><name>bHasFiredThisPress</name></member>
+    <member refid="class_u_weapon_component_1aba954e397743ee8489b25bc0b32217b5" kind="variable"><name>LastFireTime</name></member>
+    <member refid="class_u_weapon_component_1a32dc16b044b2e8778d5711e485866412" kind="variable"><name>ShootingCooldownTimer</name></member>
+    <member refid="class_u_weapon_component_1a9cd7b3233efa7957d448cda76ff95ac8" kind="variable"><name>TargetSpread</name></member>
+    <member refid="class_u_weapon_component_1a2652fcd6e7bd577998c35fb19290bc44" kind="variable"><name>CurrentSpread</name></member>
+    <member refid="class_u_weapon_component_1af233edfcfdaf6b5b87bd08e5c560a391" kind="variable"><name>CurrentFOVOffset</name></member>
+    <member refid="class_u_weapon_component_1a05179faabac291608b2a2d3c89a5d2d7" kind="variable"><name>FOVPunchElapsed</name></member>
+    <member refid="class_u_weapon_component_1a1a77cb1e2ba93e35243c8786d7c489d0" kind="variable"><name>bFOVPunchActive</name></member>
+    <member refid="class_u_weapon_component_1af95e212fd708a90c62d764234efb5919" kind="variable"><name>CurrentSprayIndex</name></member>
+    <member refid="class_u_weapon_component_1a875773285baf828d53c8f8191c744082" kind="variable"><name>CachedCharacter</name></member>
+    <member refid="class_u_weapon_component_1a8a911e33d69e9cd0b698f7a5ef61f2f5" kind="variable"><name>AmmoMap</name></member>
+    <member refid="class_u_weapon_component_1a0221216790e1af4799ca2687cf5af347" kind="variable"><name>CachedHUD</name></member>
+    <member refid="class_u_weapon_component_1ad425e840dce9a981ac26b47966e5b5a6" kind="function"><name>UWeaponComponent</name></member>
+    <member refid="class_u_weapon_component_1aa9f322fa843b509d339ae30970396dd3" kind="function"><name>FireWeapon</name></member>
+    <member refid="class_u_weapon_component_1ac2ae44896090dd79c42b441809169869" kind="function"><name>ResetRecoilPattern</name></member>
+    <member refid="class_u_weapon_component_1a66deae0daed8099b90eb3c55943aa587" kind="function"><name>StartFiring</name></member>
+    <member refid="class_u_weapon_component_1a84df910dbe339e1b49139b6e0eb64881" kind="function"><name>StopFiring</name></member>
+    <member refid="class_u_weapon_component_1ad04495d0121653cb415ea84ef4caed98" kind="function"><name>HandleAutomaticFire</name></member>
+    <member refid="class_u_weapon_component_1a0cc8cc9981a534155199674703d6a44a" kind="function"><name>ReloadWeapon</name></member>
+    <member refid="class_u_weapon_component_1a8fc78ff182ea627b1f08c68642cb85b1" kind="function"><name>FinishReloading</name></member>
+    <member refid="class_u_weapon_component_1a64c6d51686ad89a0a755d2f1d50f374b" kind="function"><name>GetCrosshairOffset</name></member>
+    <member refid="class_u_weapon_component_1a9fb5eabeb5aaa7389142038ceb0bcce5" kind="function"><name>SetGameHUDWidget</name></member>
+    <member refid="class_u_weapon_component_1a0498f0da4c28784bcf03062dbaa0b17d" kind="function"><name>SetCrosshairWidget</name></member>
+    <member refid="class_u_weapon_component_1aac25b0302e55fa7ef67d6333fcd71aeb" kind="function"><name>SetHitmarkerWidget</name></member>
+    <member refid="class_u_weapon_component_1abc79800a0c890e6eb6449bc37ceb545a" kind="function"><name>GetCurrentSpread</name></member>
+    <member refid="class_u_weapon_component_1afa199d8be071786a30c7e7bde4495c86" kind="function"><name>GetAmmoCounts</name></member>
+    <member refid="class_u_weapon_component_1a1edaef9b86d4b65a848f0836d8cba4a6" kind="function"><name>SetWeaponData</name></member>
+    <member refid="class_u_weapon_component_1a8f90a09245b2c034f18c6ada54691241" kind="function"><name>BeginPlay</name></member>
+    <member refid="class_u_weapon_component_1ab386a42315d4aa4a6e08c51387214d07" kind="function"><name>TickComponent</name></member>
+    <member refid="class_u_weapon_component_1a9b64d0c9fc82007c04ac0cce3a408d44" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_u_weapon_component_1a7897a7dd4fca496a002ddb4a594784a0" kind="function"><name>CanFire</name></member>
+    <member refid="class_u_weapon_component_1a7441dc2b5b6429fcf4e28440c926f98a" kind="function"><name>UpdateCrosshairSpread</name></member>
+  </compound>
   <compound refid="class_u_weapon_data_asset" kind="class"><name>UWeaponDataAsset</name>
     <member refid="class_u_weapon_data_asset_1af0fad7e2acc7e7dec753afe756389107" kind="variable"><name>WeaponName</name></member>
     <member refid="class_u_weapon_data_asset_1a38b2bafe40070d8ca22b70c32e890598" kind="variable"><name>Damage</name></member>
@@ -451,6 +550,21 @@
     <member refid="class_u_weapon_data_asset_1a9bc9febbb0a0727ab7c15db6f7c79947" kind="variable"><name>FOVPunchAmount</name></member>
     <member refid="class_u_weapon_data_asset_1a39af4b368edb68fcc72abe2e94506208" kind="variable"><name>SprayPattern</name></member>
     <member refid="class_u_weapon_data_asset_1af2ab9a2a8bc0e30d38d9102945980ad3" kind="variable"><name>DamageType</name></member>
+  </compound>
+  <compound refid="class_u_weapon_inventory_component" kind="class"><name>UWeaponInventoryComponent</name>
+    <member refid="class_u_weapon_inventory_component_1a9a6f240a38b8c6fa99d139bfabf9af1e" kind="variable"><name>WeaponInventory</name></member>
+    <member refid="class_u_weapon_inventory_component_1a25817fdc48a4b5598a1644722605a39d" kind="variable"><name>CurrentWeaponIndex</name></member>
+    <member refid="class_u_weapon_inventory_component_1a73b28581ff41a8430ebb0eb533fe66cf" kind="variable"><name>WeaponComponentRef</name></member>
+    <member refid="class_u_weapon_inventory_component_1a3d6e959c4d2d2ad9c68a8f21e4440677" kind="variable"><name>DefaultWeaponIndex</name></member>
+    <member refid="class_u_weapon_inventory_component_1a16861966b715ee5f7bf06796d6194a3c" kind="variable"><name>DeferredInitHandle</name></member>
+    <member refid="class_u_weapon_inventory_component_1a6c1781e7466ba655d3ca79c04cb5f946" kind="function"><name>UWeaponInventoryComponent</name></member>
+    <member refid="class_u_weapon_inventory_component_1a8cbb1ff06c45848638f8b096df21ec16" kind="function"><name>SwitchToWeapon</name></member>
+    <member refid="class_u_weapon_inventory_component_1a0ca7938aecbf5549419dfafea7ef3d83" kind="function"><name>CycleWeapon</name></member>
+    <member refid="class_u_weapon_inventory_component_1a95e9914bb807c3488fa05a1283fa150e" kind="function"><name>InitializeInventory</name></member>
+    <member refid="class_u_weapon_inventory_component_1ad8a966f1a82ce07364926fb5104af05b" kind="function"><name>InitializeInventoryNextTick</name></member>
+    <member refid="class_u_weapon_inventory_component_1aa6c64a882956e145f77f30d82db8d1ab" kind="function"><name>GetWeaponDataByIndex</name></member>
+    <member refid="class_u_weapon_inventory_component_1a0453541df80d538c938ede151ce6de8e" kind="function"><name>BeginPlay</name></member>
+    <member refid="class_u_weapon_inventory_component_1a7ae4819939c741f270e5ba24d9f57e55" kind="function"><name>AssignWeaponToComponent</name></member>
   </compound>
   <compound refid="namespace_0d234127221003101017163030151037373214036144276060" kind="namespace"><name>@234127221003101017163030151037373214036144276060</name>
   </compound>
@@ -494,21 +608,15 @@
   <compound refid="_damageable_component_8cpp" kind="file"><name>DamageableComponent.cpp</name>
   </compound>
   <compound refid="_damageable_component_8h" kind="file"><name>DamageableComponent.h</name>
-    <member refid="_damageable_component_8h_1a1e32b1847bf8f08cdd2637e0a47da399" kind="function"><name>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</name></member>
-    <member refid="_damageable_component_8h_1a4f70ea1a977fa2e203990b39550aa822" kind="function"><name>DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams</name></member>
+    <member refid="group___modular___components_1ga1e32b1847bf8f08cdd2637e0a47da399" kind="function"><name>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</name></member>
+    <member refid="group___modular___components_1ga4f70ea1a977fa2e203990b39550aa822" kind="function"><name>DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams</name></member>
   </compound>
   <compound refid="_damageable_interface_8cpp" kind="file"><name>DamageableInterface.cpp</name>
   </compound>
   <compound refid="_damageable_interface_8h" kind="file"><name>DamageableInterface.h</name>
   </compound>
   <compound refid="_f_player_frame_data_8h" kind="file"><name>FPlayerFrameData.h</name>
-    <member refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91" kind="enum"><name>EReplayActionFlags</name></member>
-    <member refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91a6adf97f83acf6453d4a6a4b1070f3754" kind="enumvalue"><name>None</name></member>
-    <member refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91a661e8b7c940bfd42cc11900b1fcddec4" kind="enumvalue"><name>FiredWeapon</name></member>
-    <member refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91a2ef4b5d905788c7ba3d262d1fbcf8a82" kind="enumvalue"><name>Interacted</name></member>
-    <member refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91a280e2398821e9b67fa22ab6d512c746b" kind="enumvalue"><name>Jumped</name></member>
-    <member refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91aa3e4c49a9bb747fd5b2f5720db442488" kind="enumvalue"><name>Crouched</name></member>
-    <member refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91a814a05a71b72fcae5049fd804889ec6a" kind="enumvalue"><name>Sprinting</name></member>
+    <member refid="group___replay___data_1ga634bef419b6cd1967d4f0b1e39282e91" kind="enum"><name>EReplayActionFlags</name></member>
   </compound>
   <compound refid="_game_h_u_d_8cpp" kind="file"><name>GameHUD.cpp</name>
   </compound>
@@ -526,7 +634,7 @@
     <member refid="_grid_canvas_widget_8cpp_1a96505a0909802014ba3608717ba58bac" kind="typedef"><name>FGridParams</name></member>
   </compound>
   <compound refid="_grid_canvas_widget_8h" kind="file"><name>GridCanvasWidget.h</name>
-    <member refid="group___u_i___w_i_d_g_e_t_s___a_n_d___i_n_t_e_r_f_a_c_e_s_1ga81e2f378ed72995ca43cc3deb13507cc" kind="enum"><name>ERecoilEditMode</name></member>
+    <member refid="group___u_i___widgets_1ga81e2f378ed72995ca43cc3deb13507cc" kind="enum"><name>ERecoilEditMode</name></member>
   </compound>
   <compound refid="_hitmarker_widget_8cpp" kind="file"><name>HitmarkerWidget.cpp</name>
   </compound>
@@ -601,12 +709,34 @@
   </compound>
   <compound refid="_time_assassin_editor_8_target_8cs" kind="file"><name>TimeAssassinEditor.Target.cs</name>
   </compound>
-  <compound refid="group___u_i___w_i_d_g_e_t_s___a_n_d___i_n_t_e_r_f_a_c_e_s" kind="group"><name>UI_WIDGETS_AND_INTERFACES</name>
-    <member refid="group___u_i___w_i_d_g_e_t_s___a_n_d___i_n_t_e_r_f_a_c_e_s_1ga81e2f378ed72995ca43cc3deb13507cc" kind="enum"><name>ERecoilEditMode</name></member>
-    <member refid="group___u_i___w_i_d_g_e_t_s___a_n_d___i_n_t_e_r_f_a_c_e_s_1gga81e2f378ed72995ca43cc3deb13507ccaa3f80d8f0f1b4ffa8c475f5d60ea5635" kind="enumvalue"><name>UMETA</name></member>
-    <member refid="group___u_i___w_i_d_g_e_t_s___a_n_d___i_n_t_e_r_f_a_c_e_s_1gga81e2f378ed72995ca43cc3deb13507ccaa3f80d8f0f1b4ffa8c475f5d60ea5635" kind="enumvalue"><name>UMETA</name></member>
+  <compound refid="group___inheritable_actors" kind="group"><name>InheritableActors</name>
   </compound>
-  <compound refid="group___g_a_m_e___l_o_g_i_c" kind="group"><name>GAME_LOGIC</name>
+  <compound refid="group___blueprint___interfaces" kind="group"><name>Blueprint_Interfaces</name>
+    <member refid="group___blueprint___interfaces_1ga1f6318dd8d764d86d152bafcceeaf950" kind="function"><name>TakeDamage</name></member>
+    <member refid="group___blueprint___interfaces_1gaa2527dc978acb578318f79c3704b6679" kind="function"><name>OnDamaged</name></member>
+    <member refid="group___blueprint___interfaces_1ga9f9b8a6fb04274b8b2418423c31b823c" kind="function"><name>OnKilled</name></member>
+  </compound>
+  <compound refid="group___replay___data" kind="group"><name>Replay_Data</name>
+    <member refid="group___replay___data_1ga634bef419b6cd1967d4f0b1e39282e91" kind="enum"><name>EReplayActionFlags</name></member>
+    <member refid="group___replay___data_1gga634bef419b6cd1967d4f0b1e39282e91a6adf97f83acf6453d4a6a4b1070f3754" kind="enumvalue"><name>None</name></member>
+    <member refid="group___replay___data_1gga634bef419b6cd1967d4f0b1e39282e91a661e8b7c940bfd42cc11900b1fcddec4" kind="enumvalue"><name>FiredWeapon</name></member>
+    <member refid="group___replay___data_1gga634bef419b6cd1967d4f0b1e39282e91a2ef4b5d905788c7ba3d262d1fbcf8a82" kind="enumvalue"><name>Interacted</name></member>
+    <member refid="group___replay___data_1gga634bef419b6cd1967d4f0b1e39282e91a280e2398821e9b67fa22ab6d512c746b" kind="enumvalue"><name>Jumped</name></member>
+    <member refid="group___replay___data_1gga634bef419b6cd1967d4f0b1e39282e91aa3e4c49a9bb747fd5b2f5720db442488" kind="enumvalue"><name>Crouched</name></member>
+    <member refid="group___replay___data_1gga634bef419b6cd1967d4f0b1e39282e91a814a05a71b72fcae5049fd804889ec6a" kind="enumvalue"><name>Sprinting</name></member>
+  </compound>
+  <compound refid="group___u_i___widgets" kind="group"><name>UI_Widgets</name>
+    <member refid="group___u_i___widgets_1ga81e2f378ed72995ca43cc3deb13507cc" kind="enum"><name>ERecoilEditMode</name></member>
+    <member refid="group___u_i___widgets_1gga81e2f378ed72995ca43cc3deb13507ccaa3f80d8f0f1b4ffa8c475f5d60ea5635" kind="enumvalue"><name>UMETA</name></member>
+    <member refid="group___u_i___widgets_1gga81e2f378ed72995ca43cc3deb13507ccaa3f80d8f0f1b4ffa8c475f5d60ea5635" kind="enumvalue"><name>UMETA</name></member>
+  </compound>
+  <compound refid="group___modular___components" kind="group"><name>Modular_Components</name>
+    <member refid="group___modular___components_1ga1e32b1847bf8f08cdd2637e0a47da399" kind="function"><name>DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams</name></member>
+    <member refid="group___modular___components_1ga4f70ea1a977fa2e203990b39550aa822" kind="function"><name>DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams</name></member>
+  </compound>
+  <compound refid="group___game___logic" kind="group"><name>Game_Logic</name>
+  </compound>
+  <compound refid="group___gameplay___data___assets" kind="group"><name>Gameplay_Data_Assets</name>
   </compound>
   <compound refid="dir_74389ed8173ad57b461b9d623a1f3867" kind="dir"><name>Source</name>
   </compound>

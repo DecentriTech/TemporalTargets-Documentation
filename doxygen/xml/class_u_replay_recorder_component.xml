@@ -1,0 +1,385 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_u_replay_recorder_component" kind="class" language="C++" prot="public">
+    <compoundname>UReplayRecorderComponent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UActorComponent</basecompoundref>
+    <includes refid="_replay_recorder_component_8h" local="no">ReplayRecorderComponent.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_u_replay_recorder_component_1ab1b0f48f1a2211163b1b82f130129359" prot="public" static="no" mutable="no">
+        <type>TArray&lt; <ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref> &gt;</type>
+        <definition>TArray&lt;FPlayerFrameData&gt; UReplayRecorderComponent::RecordedFrames</definition>
+        <argsstring></argsstring>
+        <name>RecordedFrames</name>
+        <qualifiedname>UReplayRecorderComponent::RecordedFrames</qualifiedname>
+        <briefdescription>
+<para>Storage of all frames captured since the last <ref refid="class_u_replay_recorder_component_1a0ae8d215de8e486015cc161070c8e111" kindref="member">StartRecording()</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="104" column="8" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_u_replay_recorder_component_1aa1d7d2decfc33e360a5b13f5d35bdca8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UReplayRecorderComponent::bRecording</definition>
+        <argsstring></argsstring>
+        <name>bRecording</name>
+        <qualifiedname>UReplayRecorderComponent::bRecording</qualifiedname>
+        <briefdescription>
+<para>Whether recording is currently active. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="110" column="6" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_replay_recorder_component_1aeca103c46a870630167c64afdd835af8" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UReplayRecorderComponent::RecordingAccumulator</definition>
+        <argsstring></argsstring>
+        <name>RecordingAccumulator</name>
+        <qualifiedname>UReplayRecorderComponent::RecordingAccumulator</qualifiedname>
+        <briefdescription>
+<para>Accumulated time since last frame capture. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="113" column="7" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_replay_recorder_component_1a4841fd81b50d9458b6b2542404c676cd" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UReplayRecorderComponent::RecordingInterval</definition>
+        <argsstring></argsstring>
+        <name>RecordingInterval</name>
+        <qualifiedname>UReplayRecorderComponent::RecordingInterval</qualifiedname>
+        <briefdescription>
+<para>Time, in seconds, between automatic frame captures. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Set via the editor or code; defaults to ~0.033 (30 FPS). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="120" column="7" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_replay_recorder_component_1a2dde291f56c5f9726db25110f374a41a" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_f_interaction_data" kindref="compound">FInteractionData</ref></type>
+        <definition>FInteractionData UReplayRecorderComponent::PendingInteractionData</definition>
+        <argsstring></argsstring>
+        <name>PendingInteractionData</name>
+        <qualifiedname>UReplayRecorderComponent::PendingInteractionData</qualifiedname>
+        <briefdescription>
+<para>Interaction data queued for the next frame. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="123" column="18" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_replay_recorder_component_1a48d620b3eb706cd29d581ebe29831f63" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_f_combat_frame_data" kindref="compound">FCombatFrameData</ref></type>
+        <definition>FCombatFrameData UReplayRecorderComponent::PendingCombatData</definition>
+        <argsstring></argsstring>
+        <name>PendingCombatData</name>
+        <qualifiedname>UReplayRecorderComponent::PendingCombatData</qualifiedname>
+        <briefdescription>
+<para>Combat shot data queued for the next frame. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="126" column="18" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_replay_recorder_component_1aaac204eacfcd6416699b4e8b6644d99b" prot="private" static="no" mutable="no">
+        <type><ref refid="group___replay___data_1ga634bef419b6cd1967d4f0b1e39282e91" kindref="member">EReplayActionFlags</ref></type>
+        <definition>EReplayActionFlags UReplayRecorderComponent::CurrentFrameActionFlags</definition>
+        <argsstring></argsstring>
+        <name>CurrentFrameActionFlags</name>
+        <qualifiedname>UReplayRecorderComponent::CurrentFrameActionFlags</qualifiedname>
+        <briefdescription>
+<para>Bitmask of action flags collected for the current frame. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="129" column="20" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_u_replay_recorder_component_1ab4a236ea39cdbf74d4486d364c653b1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>UReplayRecorderComponent::UReplayRecorderComponent</definition>
+        <argsstring>()</argsstring>
+        <name>UReplayRecorderComponent</name>
+        <qualifiedname>UReplayRecorderComponent::UReplayRecorderComponent</qualifiedname>
+        <briefdescription>
+<para>Construct and set default component properties. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="34" column="1" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.cpp" bodystart="8" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_replay_recorder_component_1a73a85c4244a2ee3ca900218bfd628e5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UReplayRecorderComponent::TickComponent</definition>
+        <argsstring>(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction *ThisTickFunction) override</argsstring>
+        <name>TickComponent</name>
+        <qualifiedname>UReplayRecorderComponent::TickComponent</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>DeltaTime</declname>
+        </param>
+        <param>
+          <type>ELevelTick</type>
+          <declname>TickType</declname>
+        </param>
+        <param>
+          <type>FActorComponentTickFunction *</type>
+          <declname>ThisTickFunction</declname>
+        </param>
+        <briefdescription>
+<para>Called each frame to advance recording logic. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>DeltaTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Time since last tick. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>TickType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of tick this is. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ThisTickFunction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Internal tick function struct. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="42" column="14" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.cpp" bodystart="67" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_replay_recorder_component_1a0ae8d215de8e486015cc161070c8e111" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UReplayRecorderComponent::StartRecording</definition>
+        <argsstring>()</argsstring>
+        <name>StartRecording</name>
+        <qualifiedname>UReplayRecorderComponent::StartRecording</qualifiedname>
+        <briefdescription>
+<para>Begin a new recording session. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Clears <ref refid="class_u_replay_recorder_component_1ab1b0f48f1a2211163b1b82f130129359" kindref="member">RecordedFrames</ref>, resets <ref refid="class_u_replay_recorder_component_1aa1d7d2decfc33e360a5b13f5d35bdca8" kindref="member">bRecording</ref>, the <ref refid="class_u_replay_recorder_component_1aeca103c46a870630167c64afdd835af8" kindref="member">RecordingAccumulator</ref>, and the current frame&apos;s <ref refid="class_u_replay_recorder_component_1aaac204eacfcd6416699b4e8b6644d99b" kindref="member">CurrentFrameActionFlags</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="56" column="6" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.cpp" bodystart="18" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_replay_recorder_component_1a725fd42e4ead1c058a6780ce835ef377" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UReplayRecorderComponent::StopRecording</definition>
+        <argsstring>()</argsstring>
+        <name>StopRecording</name>
+        <qualifiedname>UReplayRecorderComponent::StopRecording</qualifiedname>
+        <briefdescription>
+<para>End the current recording session. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Further calls to <ref refid="class_u_replay_recorder_component_1a73a85c4244a2ee3ca900218bfd628e5b" kindref="member">TickComponent()</ref> will not accumulate new frame data until <ref refid="class_u_replay_recorder_component_1a0ae8d215de8e486015cc161070c8e111" kindref="member">StartRecording()</ref> is called again. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="65" column="6" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.cpp" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_replay_recorder_component_1a00eb68d151a592a188e8ee2d5fddf90b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UReplayRecorderComponent::AddActionFlag</definition>
+        <argsstring>(EReplayActionFlags NewFlag)</argsstring>
+        <name>AddActionFlag</name>
+        <qualifiedname>UReplayRecorderComponent::AddActionFlag</qualifiedname>
+        <param>
+          <type><ref refid="group___replay___data_1ga634bef419b6cd1967d4f0b1e39282e91" kindref="member">EReplayActionFlags</ref></type>
+          <declname>NewFlag</declname>
+        </param>
+        <briefdescription>
+<para>Add an action flag for this frame. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>NewFlag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="group___replay___data_1ga634bef419b6cd1967d4f0b1e39282e91" kindref="member">EReplayActionFlags</ref> to record.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Flags are combined into <ref refid="class_u_replay_recorder_component_1aaac204eacfcd6416699b4e8b6644d99b" kindref="member">CurrentFrameActionFlags</ref> until the next frame tick writes them into a new entry. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="75" column="6" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.cpp" bodystart="31" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_replay_recorder_component_1a4d009df22d2f236d5956cdc7931229aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UReplayRecorderComponent::CaptureInteractionData</definition>
+        <argsstring>(AActor *InteractedActor)</argsstring>
+        <name>CaptureInteractionData</name>
+        <qualifiedname>UReplayRecorderComponent::CaptureInteractionData</qualifiedname>
+        <param>
+          <type>AActor *</type>
+          <declname>InteractedActor</declname>
+        </param>
+        <briefdescription>
+<para>Capture interaction metadata when the player interacts with an actor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>InteractedActor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The actor being interacted with.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Records the actor&apos;s path, relative location, and a simple interaction type tag (e.g., “Pickup”, “Terminal”). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="84" column="6" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.cpp" bodystart="37" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_replay_recorder_component_1a95379bbc4b1adfd811455da125dffaf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UReplayRecorderComponent::CaptureShotData</definition>
+        <argsstring>(const FRecordedShot &amp;ShotData)</argsstring>
+        <name>CaptureShotData</name>
+        <qualifiedname>UReplayRecorderComponent::CaptureShotData</qualifiedname>
+        <param>
+          <type>const <ref refid="struct_f_recorded_shot" kindref="compound">FRecordedShot</ref> &amp;</type>
+          <declname>ShotData</declname>
+        </param>
+        <briefdescription>
+<para>Append a recorded shot event to the pending combat data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ShotData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="struct_f_recorded_shot" kindref="compound">FRecordedShot</ref> details for this shot.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Shots are stored in the frame&apos;s <ref refid="struct_f_combat_frame_data" kindref="compound">FCombatFrameData</ref> until the next tick&apos;s frame is written. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="93" column="6" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.cpp" bodystart="59" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_replay_recorder_component_1a6a4a12bbaf2bcc3f32b46aa2e5136d19" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const TArray&lt; <ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref> &gt; &amp;</type>
+        <definition>const TArray&lt; FPlayerFrameData &gt; &amp; UReplayRecorderComponent::GetRecordedData</definition>
+        <argsstring>() const</argsstring>
+        <name>GetRecordedData</name>
+        <qualifiedname>UReplayRecorderComponent::GetRecordedData</qualifiedname>
+        <briefdescription>
+<para>Access the array of recorded frames. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>const reference to the TArray of <ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="100" column="14" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.h" bodystart="100" bodyend="100"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Component that captures and stores per-frame player state for replay. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_u_replay_recorder_component" kindref="compound">UReplayRecorderComponent</ref> ticks every frame and, when active, collects a stream of <ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref> at intervals defined by <ref refid="class_u_replay_recorder_component_1a4841fd81b50d9458b6b2542404c676cd" kindref="member">RecordingInterval</ref>. It also records interaction events via <ref refid="class_u_replay_recorder_component_1a4d009df22d2f236d5956cdc7931229aa" kindref="member">CaptureInteractionData()</ref> and shot events via <ref refid="class_u_replay_recorder_component_1a95379bbc4b1adfd811455da125dffaf4" kindref="member">CaptureShotData()</ref>. All recorded frames are exposed through <ref refid="class_u_replay_recorder_component_1a6a4a12bbaf2bcc3f32b46aa2e5136d19" kindref="member">GetRecordedData()</ref>. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>UActorComponent</label>
+      </node>
+      <node id="1">
+        <label>UReplayRecorderComponent</label>
+        <link refid="class_u_replay_recorder_component"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>FCombatFrameData</label>
+        <link refid="struct_f_combat_frame_data"/>
+      </node>
+      <node id="3">
+        <label>FInteractionData</label>
+        <link refid="struct_f_interaction_data"/>
+      </node>
+      <node id="2">
+        <label>UActorComponent</label>
+      </node>
+      <node id="1">
+        <label>UReplayRecorderComponent</label>
+        <link refid="class_u_replay_recorder_component"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>PendingInteractionData</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>PendingCombatData</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="28" column="1" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.h" bodystart="29" bodyend="130"/>
+    <listofallmembers>
+      <member refid="class_u_replay_recorder_component_1a00eb68d151a592a188e8ee2d5fddf90b" prot="public" virt="non-virtual"><scope>UReplayRecorderComponent</scope><name>AddActionFlag</name></member>
+      <member refid="class_u_replay_recorder_component_1aa1d7d2decfc33e360a5b13f5d35bdca8" prot="private" virt="non-virtual"><scope>UReplayRecorderComponent</scope><name>bRecording</name></member>
+      <member refid="class_u_replay_recorder_component_1a4d009df22d2f236d5956cdc7931229aa" prot="public" virt="non-virtual"><scope>UReplayRecorderComponent</scope><name>CaptureInteractionData</name></member>
+      <member refid="class_u_replay_recorder_component_1a95379bbc4b1adfd811455da125dffaf4" prot="public" virt="non-virtual"><scope>UReplayRecorderComponent</scope><name>CaptureShotData</name></member>
+      <member refid="class_u_replay_recorder_component_1aaac204eacfcd6416699b4e8b6644d99b" prot="private" virt="non-virtual"><scope>UReplayRecorderComponent</scope><name>CurrentFrameActionFlags</name></member>
+      <member refid="class_u_replay_recorder_component_1a6a4a12bbaf2bcc3f32b46aa2e5136d19" prot="public" virt="non-virtual"><scope>UReplayRecorderComponent</scope><name>GetRecordedData</name></member>
+      <member refid="class_u_replay_recorder_component_1a48d620b3eb706cd29d581ebe29831f63" prot="private" virt="non-virtual"><scope>UReplayRecorderComponent</scope><name>PendingCombatData</name></member>
+      <member refid="class_u_replay_recorder_component_1a2dde291f56c5f9726db25110f374a41a" prot="private" virt="non-virtual"><scope>UReplayRecorderComponent</scope><name>PendingInteractionData</name></member>
+      <member refid="class_u_replay_recorder_component_1ab1b0f48f1a2211163b1b82f130129359" prot="public" virt="non-virtual"><scope>UReplayRecorderComponent</scope><name>RecordedFrames</name></member>
+      <member refid="class_u_replay_recorder_component_1aeca103c46a870630167c64afdd835af8" prot="private" virt="non-virtual"><scope>UReplayRecorderComponent</scope><name>RecordingAccumulator</name></member>
+      <member refid="class_u_replay_recorder_component_1a4841fd81b50d9458b6b2542404c676cd" prot="private" virt="non-virtual"><scope>UReplayRecorderComponent</scope><name>RecordingInterval</name></member>
+      <member refid="class_u_replay_recorder_component_1a0ae8d215de8e486015cc161070c8e111" prot="public" virt="non-virtual"><scope>UReplayRecorderComponent</scope><name>StartRecording</name></member>
+      <member refid="class_u_replay_recorder_component_1a725fd42e4ead1c058a6780ce835ef377" prot="public" virt="non-virtual"><scope>UReplayRecorderComponent</scope><name>StopRecording</name></member>
+      <member refid="class_u_replay_recorder_component_1a73a85c4244a2ee3ca900218bfd628e5b" prot="public" virt="virtual"><scope>UReplayRecorderComponent</scope><name>TickComponent</name></member>
+      <member refid="class_u_replay_recorder_component_1ab4a236ea39cdbf74d4486d364c653b1d" prot="public" virt="non-virtual"><scope>UReplayRecorderComponent</scope><name>UReplayRecorderComponent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

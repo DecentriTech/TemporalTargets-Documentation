@@ -5,6 +5,68 @@
     <basecompoundref prot="public" virt="non-virtual">AActor</basecompoundref>
     <basecompoundref refid="class_i_b_p_i___interactable" prot="public" virt="non-virtual">IBPI_Interactable</basecompoundref>
     <includes refid="_base_interactable_actor_8h" local="no">BaseInteractableActor.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_a_base_interactable_actor_1a88022fe2880641029ff4633f8ce7c008" prot="public" static="no" mutable="no">
+        <type>FInteractorEvent</type>
+        <definition>FInteractorEvent ABaseInteractableActor::OnInteractorEnteredRadiusEvent</definition>
+        <argsstring></argsstring>
+        <name>OnInteractorEnteredRadiusEvent</name>
+        <qualifiedname>ABaseInteractableActor::OnInteractorEnteredRadiusEvent</qualifiedname>
+        <briefdescription>
+<para>Broadcast when an actor enters the interaction radius. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="111" column="22" bodyfile="Source/TimeAssassin/BaseInteractableActor.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_base_interactable_actor_1ab43bb877155ef27a66a6dff1aa43592f" prot="public" static="no" mutable="no">
+        <type>FInteractorEvent</type>
+        <definition>FInteractorEvent ABaseInteractableActor::OnInteractorLeftRadiusEvent</definition>
+        <argsstring></argsstring>
+        <name>OnInteractorLeftRadiusEvent</name>
+        <qualifiedname>ABaseInteractableActor::OnInteractorLeftRadiusEvent</qualifiedname>
+        <briefdescription>
+<para>Broadcast when an actor leaves the interaction radius. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="115" column="22" bodyfile="Source/TimeAssassin/BaseInteractableActor.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_base_interactable_actor_1a7d7bd085e950f3215e92048b70f17808" prot="public" static="no" mutable="no">
+        <type>FInteractorEvent</type>
+        <definition>FInteractorEvent ABaseInteractableActor::OnFocusedByInteractor</definition>
+        <argsstring></argsstring>
+        <name>OnFocusedByInteractor</name>
+        <qualifiedname>ABaseInteractableActor::OnFocusedByInteractor</qualifiedname>
+        <briefdescription>
+<para>Broadcast when an actor is focused by an interactor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="119" column="22" bodyfile="Source/TimeAssassin/BaseInteractableActor.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_base_interactable_actor_1a2bbb952da0d9139277b29aa8108a5e5e" prot="public" static="no" mutable="no">
+        <type>FInteractorEvent</type>
+        <definition>FInteractorEvent ABaseInteractableActor::OnUnfocusedByInteractor</definition>
+        <argsstring></argsstring>
+        <name>OnUnfocusedByInteractor</name>
+        <qualifiedname>ABaseInteractableActor::OnUnfocusedByInteractor</qualifiedname>
+        <briefdescription>
+<para>Broadcast when an actor is unfocused by an interactor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="123" column="22" bodyfile="Source/TimeAssassin/BaseInteractableActor.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
     <sectiondef kind="protected-attrib">
       <memberdef kind="variable" id="class_a_base_interactable_actor_1ab0d3f1e869442fbc9672b06c4e8a2f74" prot="protected" static="no" mutable="no">
         <type>float</type>
@@ -14,12 +76,13 @@
         <qualifiedname>ABaseInteractableActor::InteractionRadius</qualifiedname>
         <initializer>= 200.f</initializer>
         <briefdescription>
+<para>Distance within which actors can interact. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="90" column="7" bodyfile="Source/TimeAssassin/BaseInteractableActor.h" bodystart="90" bodyend="-1"/>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="182" column="11" bodyfile="Source/TimeAssassin/BaseInteractableActor.h" bodystart="182" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_base_interactable_actor_1ad70d64534f3c93e062e14871eaa9af67" prot="protected" static="no" mutable="no">
         <type>USphereComponent *</type>
@@ -29,12 +92,13 @@
         <qualifiedname>ABaseInteractableActor::InteractionSphere</qualifiedname>
         <initializer>= nullptr</initializer>
         <briefdescription>
+<para>Sphere component used to detect overlapping actors. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="93" column="18" bodyfile="Source/TimeAssassin/BaseInteractableActor.h" bodystart="93" bodyend="-1"/>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="186" column="22" bodyfile="Source/TimeAssassin/BaseInteractableActor.h" bodystart="186" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_base_interactable_actor_1ae2b7b85c86c799242aee363bfda66514" prot="protected" static="no" mutable="no">
         <type>TArray&lt; AActor * &gt;</type>
@@ -43,12 +107,13 @@
         <name>InteractorsInRange</name>
         <qualifiedname>ABaseInteractableActor::InteractorsInRange</qualifiedname>
         <briefdescription>
+<para>Actors currently within <ref refid="class_a_base_interactable_actor_1ab0d3f1e869442fbc9672b06c4e8a2f74" kindref="member">InteractionRadius</ref>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="96" column="8" bodyfile="Source/TimeAssassin/BaseInteractableActor.h" bodystart="96" bodyend="-1"/>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="190" column="12" bodyfile="Source/TimeAssassin/BaseInteractableActor.h" bodystart="190" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-attrib">
@@ -59,12 +124,13 @@
         <name>TAG_Ghost</name>
         <qualifiedname>ABaseInteractableActor::TAG_Ghost</qualifiedname>
         <briefdescription>
+<para>Tag identifying ghost-type interactors. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="99" column="20" bodyfile="Source/TimeAssassin/BaseInteractableActor.h" bodystart="99" bodyend="-1"/>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="194" column="24" bodyfile="Source/TimeAssassin/BaseInteractableActor.h" bodystart="194" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_base_interactable_actor_1aa1fccf554c3446366866a326bbe4c648" prot="private" static="yes" mutable="no">
         <type>const FName</type>
@@ -73,12 +139,13 @@
         <name>TAG_Player</name>
         <qualifiedname>ABaseInteractableActor::TAG_Player</qualifiedname>
         <briefdescription>
+<para>Tag identifying player-type interactors. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="100" column="20" bodyfile="Source/TimeAssassin/BaseInteractableActor.h" bodystart="100" bodyend="-1"/>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="197" column="24" bodyfile="Source/TimeAssassin/BaseInteractableActor.h" bodystart="197" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -89,12 +156,13 @@
         <name>ABaseInteractableActor</name>
         <qualifiedname>ABaseInteractableActor::ABaseInteractableActor</qualifiedname>
         <briefdescription>
+<para>Construct and set up collision sphere and default properties. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="24" column="1" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="16" bodyend="30"/>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="38" column="5" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="16" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="class_a_base_interactable_actor_1a8a7f264e498bb2d62e2b2ff38b04c69a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -107,12 +175,23 @@
           <declname>Interactor</declname>
         </param>
         <briefdescription>
+<para>Called when <computeroutput>Interactor</computeroutput> performs an interaction. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Interactor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The actor that initiated the interaction. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="27" column="14" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="50" bodyend="54"/>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="46" column="18" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="50" bodyend="54"/>
       </memberdef>
       <memberdef kind="function" id="class_a_base_interactable_actor_1a4ec6cf587e143d77f1fb703ff99fac12" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -125,12 +204,25 @@
           <declname>Interactor</declname>
         </param>
         <briefdescription>
+<para>Returns true if <computeroutput>Interactor</computeroutput> is allowed to interact. </para>
         </briefdescription>
         <detaileddescription>
+<para>Override in subclasses to block interaction (doors, switches, etc). <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Interactor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The actor attempting to interact. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if interaction is permitted. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="28" column="14" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="56" bodyend="60"/>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="54" column="18" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="56" bodyend="60"/>
       </memberdef>
       <memberdef kind="function" id="class_a_base_interactable_actor_1a25015cf30b4120c48f169d5219464e8b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const TArray&lt; AActor * &gt; &amp;</type>
@@ -139,12 +231,16 @@
         <name>GetInteractorsInRange</name>
         <qualifiedname>ABaseInteractableActor::GetInteractorsInRange</qualifiedname>
         <briefdescription>
+<para>Get the list of actors currently within <ref refid="class_a_base_interactable_actor_1ab0d3f1e869442fbc9672b06c4e8a2f74" kindref="member">InteractionRadius</ref>. </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>Array of actor pointers in <ref refid="class_a_base_interactable_actor_1ae2b7b85c86c799242aee363bfda66514" kindref="member">InteractorsInRange</ref>. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="32" column="14" bodyfile="Source/TimeAssassin/BaseInteractableActor.h" bodystart="32" bodyend="32"/>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="63" column="18" bodyfile="Source/TimeAssassin/BaseInteractableActor.h" bodystart="63" bodyend="63"/>
       </memberdef>
       <memberdef kind="function" id="class_a_base_interactable_actor_1a90247d70974496d1dd72c7cd9f5fa464" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -157,12 +253,25 @@
           <declname>Interactor</declname>
         </param>
         <briefdescription>
+<para>Check if <computeroutput>Interactor</computeroutput> carries the Ghost tag (<ref refid="class_a_base_interactable_actor_1a669d64f5e8fa8db483d5a5311529a8db" kindref="member">TAG_Ghost</ref>). </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Interactor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The actor to test. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if the actor is tagged as Ghost. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="35" column="6" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="119" bodyend="122"/>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="71" column="10" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="119" bodyend="122"/>
       </memberdef>
       <memberdef kind="function" id="class_a_base_interactable_actor_1af412f48857155af995809b5fe83b6a6f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -175,12 +284,25 @@
           <declname>Interactor</declname>
         </param>
         <briefdescription>
+<para>Check if <computeroutput>Interactor</computeroutput> carries the Player tag (<ref refid="class_a_base_interactable_actor_1aa1fccf554c3446366866a326bbe4c648" kindref="member">TAG_Player</ref>). </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Interactor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The actor to test. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if the actor is tagged as Player. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="38" column="6" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="124" bodyend="127"/>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="79" column="10" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="124" bodyend="127"/>
       </memberdef>
       <memberdef kind="function" id="class_a_base_interactable_actor_1ae9ac03e43e72c0e05ec9bff1bfd9d0ee" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>FName</type>
@@ -193,180 +315,101 @@
           <declname>Interactor</declname>
         </param>
         <briefdescription>
+<para>Return the type tag for <computeroutput>Interactor</computeroutput> (&quot;Ghost&quot; or &quot;Player&quot;). </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Interactor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The actor to query. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>FName tag identifying the interactor type. </para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="41" column="7" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="129" bodyend="134"/>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="87" column="11" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="129" bodyend="134"/>
       </memberdef>
-      <memberdef kind="function" id="class_a_base_interactable_actor_1a3ef59d1b2d42a3763b57fb0640dac253" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>ABaseInteractableActor::UFUNCTION</definition>
-        <argsstring>(BlueprintNativeEvent, Category=&quot;Interaction|UI&quot;) void OnInteractorFocused(AActor *Interactor)</argsstring>
-        <name>UFUNCTION</name>
-        <qualifiedname>ABaseInteractableActor::UFUNCTION</qualifiedname>
+      <memberdef kind="function" id="class_a_base_interactable_actor_1aa452ecea351e91c46a56a6720aac604a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ABaseInteractableActor::OnInteractorFocused</definition>
+        <argsstring>(AActor *Interactor)</argsstring>
+        <name>OnInteractorFocused</name>
+        <qualifiedname>ABaseInteractableActor::OnInteractorFocused</qualifiedname>
         <param>
-          <type>BlueprintNativeEvent</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Interaction|UI&quot;</defval>
+          <type>AActor *</type>
+          <declname>Interactor</declname>
         </param>
         <briefdescription>
+<para>Called in Blueprint when <computeroutput>Interactor</computeroutput> is focused (UI highlight). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="44" column="1"/>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="93" column="10"/>
       </memberdef>
-      <memberdef kind="function" id="class_a_base_interactable_actor_1a6e748015fc99c3e90c886f5312c149d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>ABaseInteractableActor::UFUNCTION</definition>
-        <argsstring>(BlueprintNativeEvent, Category=&quot;Interaction|UI&quot;) void OnInteractorUnfocused(AActor *Interactor)</argsstring>
-        <name>UFUNCTION</name>
-        <qualifiedname>ABaseInteractableActor::UFUNCTION</qualifiedname>
+      <memberdef kind="function" id="class_a_base_interactable_actor_1adcbab5ca9e58789af7ffe8504b4f2a39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ABaseInteractableActor::OnInteractorUnfocused</definition>
+        <argsstring>(AActor *Interactor)</argsstring>
+        <name>OnInteractorUnfocused</name>
+        <qualifiedname>ABaseInteractableActor::OnInteractorUnfocused</qualifiedname>
         <param>
-          <type>BlueprintNativeEvent</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Interaction|UI&quot;</defval>
+          <type>AActor *</type>
+          <declname>Interactor</declname>
         </param>
         <briefdescription>
+<para>Called in Blueprint when <computeroutput>Interactor</computeroutput> is unfocused. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="45" column="1"/>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="97" column="10"/>
       </memberdef>
-      <memberdef kind="function" id="class_a_base_interactable_actor_1afdc89b196b3e930871eb1919489e0e90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>ABaseInteractableActor::UFUNCTION</definition>
-        <argsstring>(BlueprintNativeEvent, Category=&quot;Interaction|Radius&quot;) void OnInteractorEnteredRadius(AActor *Interactor)</argsstring>
-        <name>UFUNCTION</name>
-        <qualifiedname>ABaseInteractableActor::UFUNCTION</qualifiedname>
+      <memberdef kind="function" id="class_a_base_interactable_actor_1a5ba8c7d714b4f4f7ddb311c154cd3de6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ABaseInteractableActor::OnInteractorEnteredRadius</definition>
+        <argsstring>(AActor *Interactor)</argsstring>
+        <name>OnInteractorEnteredRadius</name>
+        <qualifiedname>ABaseInteractableActor::OnInteractorEnteredRadius</qualifiedname>
         <param>
-          <type>BlueprintNativeEvent</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Interaction|Radius&quot;</defval>
+          <type>AActor *</type>
+          <declname>Interactor</declname>
         </param>
         <briefdescription>
+<para>Called in Blueprint when <computeroutput>Interactor</computeroutput> enters the radius. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="46" column="1"/>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="101" column="10"/>
       </memberdef>
-      <memberdef kind="function" id="class_a_base_interactable_actor_1a131e89d74cbd636721f7acc2991a7a1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>ABaseInteractableActor::UFUNCTION</definition>
-        <argsstring>(BlueprintNativeEvent, Category=&quot;Interaction|Radius&quot;) void OnInteractorLeftRadius(AActor *Interactor)</argsstring>
-        <name>UFUNCTION</name>
-        <qualifiedname>ABaseInteractableActor::UFUNCTION</qualifiedname>
+      <memberdef kind="function" id="class_a_base_interactable_actor_1ad0b5f103acee6b612496ab1c96682e75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ABaseInteractableActor::OnInteractorLeftRadius</definition>
+        <argsstring>(AActor *Interactor)</argsstring>
+        <name>OnInteractorLeftRadius</name>
+        <qualifiedname>ABaseInteractableActor::OnInteractorLeftRadius</qualifiedname>
         <param>
-          <type>BlueprintNativeEvent</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Interaction|Radius&quot;</defval>
+          <type>AActor *</type>
+          <declname>Interactor</declname>
         </param>
         <briefdescription>
+<para>Called in Blueprint when <computeroutput>Interactor</computeroutput> leaves the radius. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="47" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="class_a_base_interactable_actor_1a3297deff5cc148a80bcde74435a2d405" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>ABaseInteractableActor::UPROPERTY</definition>
-        <argsstring>(BlueprintAssignable, Category=&quot;Interaction|Events&quot;) FInteractorEvent OnInteractorEnteredRadiusEvent</argsstring>
-        <name>UPROPERTY</name>
-        <qualifiedname>ABaseInteractableActor::UPROPERTY</qualifiedname>
-        <param>
-          <type>BlueprintAssignable</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Interaction|Events&quot;</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="50" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="class_a_base_interactable_actor_1a7d1eabd79de591cb0b256d46d05ce785" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>ABaseInteractableActor::UPROPERTY</definition>
-        <argsstring>(BlueprintAssignable, Category=&quot;Interaction|Events&quot;) FInteractorEvent OnInteractorLeftRadiusEvent</argsstring>
-        <name>UPROPERTY</name>
-        <qualifiedname>ABaseInteractableActor::UPROPERTY</qualifiedname>
-        <param>
-          <type>BlueprintAssignable</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Interaction|Events&quot;</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="51" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="class_a_base_interactable_actor_1ab8091f134111bebc363d9b06472a9adb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>ABaseInteractableActor::UPROPERTY</definition>
-        <argsstring>(BlueprintAssignable, Category=&quot;Interaction|Events&quot;) FInteractorEvent OnFocusedByInteractor</argsstring>
-        <name>UPROPERTY</name>
-        <qualifiedname>ABaseInteractableActor::UPROPERTY</qualifiedname>
-        <param>
-          <type>BlueprintAssignable</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Interaction|Events&quot;</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="52" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="class_a_base_interactable_actor_1ad67c8d1939caa247381040d4ea3aa40b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>ABaseInteractableActor::UPROPERTY</definition>
-        <argsstring>(BlueprintAssignable, Category=&quot;Interaction|Events&quot;) FInteractorEvent OnUnfocusedByInteractor</argsstring>
-        <name>UPROPERTY</name>
-        <qualifiedname>ABaseInteractableActor::UPROPERTY</qualifiedname>
-        <param>
-          <type>BlueprintAssignable</type>
-        </param>
-        <param>
-          <type>Category</type>
-          <defval>&quot;Interaction|Events&quot;</defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="53" column="1"/>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="105" column="10"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -377,12 +420,14 @@
         <name>BeginPlay</name>
         <qualifiedname>ABaseInteractableActor::BeginPlay</qualifiedname>
         <briefdescription>
+<para>Called when the game starts or actor is spawned. </para>
         </briefdescription>
         <detaileddescription>
+<para>Sets up overlap callbacks and enforces runtime radius. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="56" column="14" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="32" bodyend="46"/>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="130" column="18" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="32" bodyend="46"/>
       </memberdef>
       <memberdef kind="function" id="class_a_base_interactable_actor_1a59c0466ebd11a782866850f6b62d585e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -415,12 +460,13 @@
           <declname>SweepResult</declname>
         </param>
         <briefdescription>
+<para>Handle when something ENTERS the overlap sphere. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="60" column="6" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="64" bodyend="71"/>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="134" column="10" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="64" bodyend="71"/>
       </memberdef>
       <memberdef kind="function" id="class_a_base_interactable_actor_1ab406e3af4b71c1fab0e9b7460dbca127" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -445,12 +491,13 @@
           <declname>OtherBodyIndex</declname>
         </param>
         <briefdescription>
+<para>Handle when something LEAVES the overlap sphere. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="70" column="6" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="73" bodyend="80"/>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="144" column="10" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="73" bodyend="80"/>
       </memberdef>
       <memberdef kind="function" id="class_a_base_interactable_actor_1a9cad0b2231fca84ac1088babd19d3e5f" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -463,12 +510,23 @@
           <declname>Candidate</declname>
         </param>
         <briefdescription>
+<para>Return true if <computeroutput>Candidate</computeroutput> is valid (not self and is a pawn). </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Candidate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Actor to test. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="78" column="7" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="84" bodyend="87"/>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="154" column="10" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="84" bodyend="87"/>
       </memberdef>
       <memberdef kind="function" id="class_a_base_interactable_actor_1a507a5faadab4934a20d7a4ce69ed8e63" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -481,12 +539,23 @@
           <declname>Interactor</declname>
         </param>
         <briefdescription>
+<para>Add <computeroutput>Interactor</computeroutput> to <ref refid="class_a_base_interactable_actor_1ae2b7b85c86c799242aee363bfda66514" kindref="member">InteractorsInRange</ref> and fire <ref refid="class_a_base_interactable_actor_1a88022fe2880641029ff4633f8ce7c008" kindref="member">OnInteractorEnteredRadiusEvent</ref>. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Interactor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Actor to register. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="79" column="7" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="89" bodyend="102"/>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="160" column="10" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="89" bodyend="102"/>
       </memberdef>
       <memberdef kind="function" id="class_a_base_interactable_actor_1a7cc39f517b017fcea36e95d7660d56c6" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -499,12 +568,23 @@
           <declname>Interactor</declname>
         </param>
         <briefdescription>
+<para>Remove <computeroutput>Interactor</computeroutput> from <ref refid="class_a_base_interactable_actor_1ae2b7b85c86c799242aee363bfda66514" kindref="member">InteractorsInRange</ref> and fire <ref refid="class_a_base_interactable_actor_1ab43bb877155ef27a66a6dff1aa43592f" kindref="member">OnInteractorLeftRadiusEvent</ref>. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Interactor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Actor to unregister. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="80" column="7" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="104" bodyend="115"/>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="166" column="10" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="104" bodyend="115"/>
       </memberdef>
       <memberdef kind="function" id="class_a_base_interactable_actor_1acced54fedacb8643d9fc5a54d9476ed2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -517,12 +597,13 @@
           <declname>Interactor</declname>
         </param>
         <briefdescription>
+<para>C++ implementation for <ref refid="class_a_base_interactable_actor_1aa452ecea351e91c46a56a6720aac604a" kindref="member">OnInteractorFocused</ref> (BlueprintNativeEvent). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="83" column="14" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="138" bodyend="138"/>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="169" column="18" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="138" bodyend="138"/>
       </memberdef>
       <memberdef kind="function" id="class_a_base_interactable_actor_1a02b5f427566601c188c3f108029af576" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -535,12 +616,13 @@
           <declname>Interactor</declname>
         </param>
         <briefdescription>
+<para>C++ implementation for <ref refid="class_a_base_interactable_actor_1adcbab5ca9e58789af7ffe8504b4f2a39" kindref="member">OnInteractorUnfocused</ref> (BlueprintNativeEvent). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="84" column="14" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="139" bodyend="139"/>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="172" column="18" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="139" bodyend="139"/>
       </memberdef>
       <memberdef kind="function" id="class_a_base_interactable_actor_1a13aac27edf93941d298a12f8aec93a84" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -553,12 +635,13 @@
           <declname>Interactor</declname>
         </param>
         <briefdescription>
+<para>C++ implementation for <ref refid="class_a_base_interactable_actor_1a5ba8c7d714b4f4f7ddb311c154cd3de6" kindref="member">OnInteractorEnteredRadius</ref> (BlueprintNativeEvent). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="85" column="14" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="140" bodyend="140"/>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="175" column="18" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="140" bodyend="140"/>
       </memberdef>
       <memberdef kind="function" id="class_a_base_interactable_actor_1a429e422de3388e0d080dcb7ed6350ae7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -571,19 +654,21 @@
           <declname>Interactor</declname>
         </param>
         <briefdescription>
+<para>C++ implementation for <ref refid="class_a_base_interactable_actor_1ad0b5f103acee6b612496ab1c96682e75" kindref="member">OnInteractorLeftRadius</ref> (BlueprintNativeEvent). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="86" column="14" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="141" bodyend="141"/>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="178" column="18" bodyfile="Source/TimeAssassin/BaseInteractableActor.cpp" bodystart="141" bodyend="141"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Anything the player <emphasis>or</emphasis> a ghost can poke at inherits from this. </para>
+<para>Base class for any actor that supports proximity-based interaction. </para>
     </briefdescription>
     <detaileddescription>
-<para>Keeps a tiny overlap sphere so we know who&apos;s nearby, then fires off both C++ and Blueprint events you can hook into. </para>
+<para>Maintains a small overlap sphere (<ref refid="class_a_base_interactable_actor_1ad70d64534f3c93e062e14871eaa9af67" kindref="member">InteractionSphere</ref>) to detect nearby actors and fires off both C++ delegates and Blueprint events when an <computeroutput>Interactor</computeroutput> enters or leaves the radius.</para>
+<para>Designers can adjust <ref refid="class_a_base_interactable_actor_1ab0d3f1e869442fbc9672b06c4e8a2f74" kindref="member">InteractionRadius</ref> to control detection range. </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="2">
@@ -619,7 +704,7 @@
         <link refid="class_i_b_p_i___interactable"/>
       </node>
     </collaborationgraph>
-    <location file="Source/TimeAssassin/BaseInteractableActor.h" line="19" column="1" bodyfile="Source/TimeAssassin/BaseInteractableActor.h" bodystart="20" bodyend="101"/>
+    <location file="Source/TimeAssassin/BaseInteractableActor.h" line="30" column="1" bodyfile="Source/TimeAssassin/BaseInteractableActor.h" bodystart="31" bodyend="198"/>
     <listofallmembers>
       <member refid="class_a_base_interactable_actor_1a234754994153799ecc3ea22c5b46881d" prot="public" virt="non-virtual"><scope>ABaseInteractableActor</scope><name>ABaseInteractableActor</name></member>
       <member refid="class_a_base_interactable_actor_1a51297b0b0970665ec63842e7889daeaf" prot="protected" virt="virtual"><scope>ABaseInteractableActor</scope><name>BeginPlay</name></member>
@@ -637,24 +722,24 @@
       <member refid="class_a_base_interactable_actor_1a90247d70974496d1dd72c7cd9f5fa464" prot="public" virt="non-virtual"><scope>ABaseInteractableActor</scope><name>IsGhostInteractor</name></member>
       <member refid="class_a_base_interactable_actor_1af412f48857155af995809b5fe83b6a6f" prot="public" virt="non-virtual"><scope>ABaseInteractableActor</scope><name>IsPlayerInteractor</name></member>
       <member refid="class_a_base_interactable_actor_1a9cad0b2231fca84ac1088babd19d3e5f" prot="protected" virt="non-virtual"><scope>ABaseInteractableActor</scope><name>IsValidInteractor</name></member>
+      <member refid="class_a_base_interactable_actor_1a7d7bd085e950f3215e92048b70f17808" prot="public" virt="non-virtual"><scope>ABaseInteractableActor</scope><name>OnFocusedByInteractor</name></member>
+      <member refid="class_a_base_interactable_actor_1a5ba8c7d714b4f4f7ddb311c154cd3de6" prot="public" virt="non-virtual"><scope>ABaseInteractableActor</scope><name>OnInteractorEnteredRadius</name></member>
       <member refid="class_a_base_interactable_actor_1a13aac27edf93941d298a12f8aec93a84" prot="protected" virt="virtual"><scope>ABaseInteractableActor</scope><name>OnInteractorEnteredRadius_Implementation</name></member>
+      <member refid="class_a_base_interactable_actor_1a88022fe2880641029ff4633f8ce7c008" prot="public" virt="non-virtual"><scope>ABaseInteractableActor</scope><name>OnInteractorEnteredRadiusEvent</name></member>
+      <member refid="class_a_base_interactable_actor_1aa452ecea351e91c46a56a6720aac604a" prot="public" virt="non-virtual"><scope>ABaseInteractableActor</scope><name>OnInteractorFocused</name></member>
       <member refid="class_a_base_interactable_actor_1acced54fedacb8643d9fc5a54d9476ed2" prot="protected" virt="virtual"><scope>ABaseInteractableActor</scope><name>OnInteractorFocused_Implementation</name></member>
+      <member refid="class_a_base_interactable_actor_1ad0b5f103acee6b612496ab1c96682e75" prot="public" virt="non-virtual"><scope>ABaseInteractableActor</scope><name>OnInteractorLeftRadius</name></member>
       <member refid="class_a_base_interactable_actor_1a429e422de3388e0d080dcb7ed6350ae7" prot="protected" virt="virtual"><scope>ABaseInteractableActor</scope><name>OnInteractorLeftRadius_Implementation</name></member>
+      <member refid="class_a_base_interactable_actor_1ab43bb877155ef27a66a6dff1aa43592f" prot="public" virt="non-virtual"><scope>ABaseInteractableActor</scope><name>OnInteractorLeftRadiusEvent</name></member>
+      <member refid="class_a_base_interactable_actor_1adcbab5ca9e58789af7ffe8504b4f2a39" prot="public" virt="non-virtual"><scope>ABaseInteractableActor</scope><name>OnInteractorUnfocused</name></member>
       <member refid="class_a_base_interactable_actor_1a02b5f427566601c188c3f108029af576" prot="protected" virt="virtual"><scope>ABaseInteractableActor</scope><name>OnInteractorUnfocused_Implementation</name></member>
+      <member refid="class_a_base_interactable_actor_1a2bbb952da0d9139277b29aa8108a5e5e" prot="public" virt="non-virtual"><scope>ABaseInteractableActor</scope><name>OnUnfocusedByInteractor</name></member>
       <member refid="class_i_b_p_i___interactable_1a6dbcd508bbeea9c1bddae5f8ef2fa721" prot="public" virt="non-virtual"><scope>ABaseInteractableActor</scope><name>RegisterInteractable</name></member>
       <member refid="class_a_base_interactable_actor_1a507a5faadab4934a20d7a4ce69ed8e63" prot="protected" virt="non-virtual"><scope>ABaseInteractableActor</scope><name>RegisterInteractor</name></member>
       <member refid="class_a_base_interactable_actor_1a669d64f5e8fa8db483d5a5311529a8db" prot="private" virt="non-virtual"><scope>ABaseInteractableActor</scope><name>TAG_Ghost</name></member>
       <member refid="class_a_base_interactable_actor_1aa1fccf554c3446366866a326bbe4c648" prot="private" virt="non-virtual"><scope>ABaseInteractableActor</scope><name>TAG_Player</name></member>
-      <member refid="class_a_base_interactable_actor_1a3ef59d1b2d42a3763b57fb0640dac253" prot="public" virt="non-virtual"><scope>ABaseInteractableActor</scope><name>UFUNCTION</name></member>
-      <member refid="class_a_base_interactable_actor_1a6e748015fc99c3e90c886f5312c149d1" prot="public" virt="non-virtual"><scope>ABaseInteractableActor</scope><name>UFUNCTION</name></member>
-      <member refid="class_a_base_interactable_actor_1afdc89b196b3e930871eb1919489e0e90" prot="public" virt="non-virtual"><scope>ABaseInteractableActor</scope><name>UFUNCTION</name></member>
-      <member refid="class_a_base_interactable_actor_1a131e89d74cbd636721f7acc2991a7a1d" prot="public" virt="non-virtual"><scope>ABaseInteractableActor</scope><name>UFUNCTION</name></member>
       <member refid="class_i_b_p_i___interactable_1a54557ad43cce970953a261e90c45c3c7" prot="public" virt="non-virtual"><scope>ABaseInteractableActor</scope><name>UnregisterInteractable</name></member>
       <member refid="class_a_base_interactable_actor_1a7cc39f517b017fcea36e95d7660d56c6" prot="protected" virt="non-virtual"><scope>ABaseInteractableActor</scope><name>UnregisterInteractor</name></member>
-      <member refid="class_a_base_interactable_actor_1a3297deff5cc148a80bcde74435a2d405" prot="public" virt="non-virtual"><scope>ABaseInteractableActor</scope><name>UPROPERTY</name></member>
-      <member refid="class_a_base_interactable_actor_1a7d1eabd79de591cb0b256d46d05ce785" prot="public" virt="non-virtual"><scope>ABaseInteractableActor</scope><name>UPROPERTY</name></member>
-      <member refid="class_a_base_interactable_actor_1ab8091f134111bebc363d9b06472a9adb" prot="public" virt="non-virtual"><scope>ABaseInteractableActor</scope><name>UPROPERTY</name></member>
-      <member refid="class_a_base_interactable_actor_1ad67c8d1939caa247381040d4ea3aa40b" prot="public" virt="non-virtual"><scope>ABaseInteractableActor</scope><name>UPROPERTY</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

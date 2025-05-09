@@ -99,31 +99,30 @@
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">UImage;</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal">UCLASS(BlueprintType)</highlight></codeline>
-<codeline lineno="15" refid="class_u_crosshair_widget" refkind="compound"><highlight class="normal">class<sp/>TIMEASSASSIN_API<sp/><ref refid="class_u_crosshair_widget" kindref="compound">UCrosshairWidget</ref><sp/>:<sp/>public<sp/>UUserWidget</highlight></codeline>
-<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Called<sp/>to<sp/>update<sp/>crosshair<sp/>spread<sp/>offset<sp/>from<sp/>C++</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Crosshair&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_crosshair_widget_1adde65dfafb16c94ca45f871eea345c7d" kindref="member">SetCrosshairOffset</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>SpreadOffset);</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(meta<sp/>=<sp/>(BindWidget))</highlight></codeline>
-<codeline lineno="28" refid="class_u_crosshair_widget_1a6491a6afac78a362f5dd83eca73919d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UImage*<sp/><ref refid="class_u_crosshair_widget_1a6491a6afac78a362f5dd83eca73919d9" kindref="member">LineTop</ref>;</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(meta<sp/>=<sp/>(BindWidget))</highlight></codeline>
-<codeline lineno="31" refid="class_u_crosshair_widget_1a68c8ef8bea2ec2789bcc126cd615d593" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UImage*<sp/><ref refid="class_u_crosshair_widget_1a68c8ef8bea2ec2789bcc126cd615d593" kindref="member">LineBottom</ref>;</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(meta<sp/>=<sp/>(BindWidget))</highlight></codeline>
-<codeline lineno="34" refid="class_u_crosshair_widget_1ac35a9d307542e3416339376358d53e77" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UImage*<sp/><ref refid="class_u_crosshair_widget_1ac35a9d307542e3416339376358d53e77" kindref="member">LineLeft</ref>;</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(meta<sp/>=<sp/>(BindWidget))</highlight></codeline>
-<codeline lineno="37" refid="class_u_crosshair_widget_1a8d267d25f501fd674f5adc97db2739f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UImage*<sp/><ref refid="class_u_crosshair_widget_1a8d267d25f501fd674f5adc97db2739f7" kindref="member">LineRight</ref>;</highlight></codeline>
-<codeline lineno="38"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">UCLASS(BlueprintType)</highlight></codeline>
+<codeline lineno="20" refid="class_u_crosshair_widget" refkind="compound"><highlight class="normal">class<sp/>TIMEASSASSIN_API<sp/><ref refid="class_u_crosshair_widget" kindref="compound">UCrosshairWidget</ref><sp/>:<sp/>public<sp/>UUserWidget</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Crosshair&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_crosshair_widget_1adde65dfafb16c94ca45f871eea345c7d" kindref="member">SetCrosshairOffset</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>SpreadOffset);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(meta<sp/>=<sp/>(BindWidget))</highlight></codeline>
+<codeline lineno="43" refid="class_u_crosshair_widget_1a6491a6afac78a362f5dd83eca73919d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UImage*<sp/><ref refid="class_u_crosshair_widget_1a6491a6afac78a362f5dd83eca73919d9" kindref="member">LineTop</ref>;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(meta<sp/>=<sp/>(BindWidget))</highlight></codeline>
+<codeline lineno="47" refid="class_u_crosshair_widget_1a68c8ef8bea2ec2789bcc126cd615d593" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UImage*<sp/><ref refid="class_u_crosshair_widget_1a68c8ef8bea2ec2789bcc126cd615d593" kindref="member">LineBottom</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(meta<sp/>=<sp/>(BindWidget))</highlight></codeline>
+<codeline lineno="51" refid="class_u_crosshair_widget_1ac35a9d307542e3416339376358d53e77" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UImage*<sp/><ref refid="class_u_crosshair_widget_1ac35a9d307542e3416339376358d53e77" kindref="member">LineLeft</ref>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(meta<sp/>=<sp/>(BindWidget))</highlight></codeline>
+<codeline lineno="55" refid="class_u_crosshair_widget_1a8d267d25f501fd674f5adc97db2739f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UImage*<sp/><ref refid="class_u_crosshair_widget_1a8d267d25f501fd674f5adc97db2739f7" kindref="member">LineRight</ref>;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">};</highlight></codeline>
     </programlisting>
     <location file="Source/TimeAssassin/CrosshairWidget.h"/>
   </compounddef>

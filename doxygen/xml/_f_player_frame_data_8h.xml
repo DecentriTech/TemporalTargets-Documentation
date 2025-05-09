@@ -130,66 +130,7 @@
     <innerclass refid="struct_f_player_frame_data" prot="public">FPlayerFrameData</innerclass>
     <innerclass refid="struct_f_replay_attempt" prot="public">FReplayAttempt</innerclass>
     <sectiondef kind="enum">
-      <memberdef kind="enum" id="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91" prot="public" static="no" strong="yes">
-        <type>uint8</type>
-        <name>EReplayActionFlags</name>
-        <enumvalue id="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
-          <name>None</name>
-          <initializer>= 0</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91a661e8b7c940bfd42cc11900b1fcddec4" prot="public">
-          <name>FiredWeapon</name>
-          <initializer>= 1 &lt;&lt; 0</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91a2ef4b5d905788c7ba3d262d1fbcf8a82" prot="public">
-          <name>Interacted</name>
-          <initializer>= 1 &lt;&lt; 1</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91a280e2398821e9b67fa22ab6d512c746b" prot="public">
-          <name>Jumped</name>
-          <initializer>= 1 &lt;&lt; 2</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91aa3e4c49a9bb747fd5b2f5720db442488" prot="public">
-          <name>Crouched</name>
-          <initializer>= 1 &lt;&lt; 3</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <enumvalue id="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91a814a05a71b72fcae5049fd804889ec6a" prot="public">
-          <name>Sprinting</name>
-          <initializer>= 1 &lt;&lt; 4</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
-        <briefdescription>
-<para>Bit-flagged actions a player can perform during a frame. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="21" column="1" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="22" bodyend="29"/>
-      </memberdef>
+      <member refid="group___replay___data_1ga634bef419b6cd1967d4f0b1e39282e91" kind="enum"><name>EReplayActionFlags</name></member>
     </sectiondef>
     <briefdescription>
     </briefdescription>
@@ -205,194 +146,178 @@
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;FPlayerFrameData.generated.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>-------------------------------------------------------------</highlight></codeline>
-<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/>Replay<sp/>&amp;<sp/>Combat<sp/>-<sp/>data<sp/>containers</highlight></codeline>
-<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/>-------------------------------------------------------------</highlight></codeline>
-<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/>•<sp/>Minimal<sp/>structs<sp/>that<sp/>carry<sp/>no<sp/>heavyweight<sp/>logic—only<sp/>data.</highlight></codeline>
-<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/>•<sp/>Helper<sp/>methods<sp/>live<sp/>inline<sp/>for<sp/>zero-cost<sp/>convenience.</highlight></codeline>
-<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/>•<sp/>All<sp/>default<sp/>values<sp/>are<sp/>now<sp/>explicit<sp/>to<sp/>avoid<sp/>UB<sp/>on<sp/>memset().</highlight></codeline>
-<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>-------------------------------------------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal">UENUM(BlueprintType)</highlight></codeline>
-<codeline lineno="21" refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91" refkind="member"><highlight class="normal">enum<sp/>class<sp/><ref refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91" kindref="member">EReplayActionFlags</ref><sp/>:<sp/>uint8</highlight></codeline>
-<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="23" refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91a6adf97f83acf6453d4a6a4b1070f3754" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91a6adf97f83acf6453d4a6a4b1070f3754" kindref="member">None</ref><sp/>=<sp/>0,</highlight></codeline>
-<codeline lineno="24" refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91a661e8b7c940bfd42cc11900b1fcddec4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91a661e8b7c940bfd42cc11900b1fcddec4" kindref="member">FiredWeapon</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>0,</highlight></codeline>
-<codeline lineno="25" refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91a2ef4b5d905788c7ba3d262d1fbcf8a82" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91a2ef4b5d905788c7ba3d262d1fbcf8a82" kindref="member">Interacted</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>1,</highlight></codeline>
-<codeline lineno="26" refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91a280e2398821e9b67fa22ab6d512c746b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91a280e2398821e9b67fa22ab6d512c746b" kindref="member">Jumped</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>2,</highlight></codeline>
-<codeline lineno="27" refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91aa3e4c49a9bb747fd5b2f5720db442488" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91aa3e4c49a9bb747fd5b2f5720db442488" kindref="member">Crouched</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>3,</highlight></codeline>
-<codeline lineno="28" refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91a814a05a71b72fcae5049fd804889ec6a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91a814a05a71b72fcae5049fd804889ec6a" kindref="member">Sprinting</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>4</highlight></codeline>
-<codeline lineno="29"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="30"><highlight class="normal">ENUM_CLASS_FLAGS(<ref refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91" kindref="member">EReplayActionFlags</ref>)</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">UENUM(BlueprintType)</highlight></codeline>
+<codeline lineno="22" refid="group___replay___data_1ga634bef419b6cd1967d4f0b1e39282e91" refkind="member"><highlight class="normal">enum<sp/>class<sp/><ref refid="group___replay___data_1ga634bef419b6cd1967d4f0b1e39282e91" kindref="member">EReplayActionFlags</ref><sp/>:<sp/>uint8</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24" refid="group___replay___data_1gga634bef419b6cd1967d4f0b1e39282e91a6adf97f83acf6453d4a6a4b1070f3754" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___replay___data_1gga634bef419b6cd1967d4f0b1e39282e91a6adf97f83acf6453d4a6a4b1070f3754" kindref="member">None</ref><sp/>=<sp/>0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="25" refid="group___replay___data_1gga634bef419b6cd1967d4f0b1e39282e91a661e8b7c940bfd42cc11900b1fcddec4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___replay___data_1gga634bef419b6cd1967d4f0b1e39282e91a661e8b7c940bfd42cc11900b1fcddec4" kindref="member">FiredWeapon</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="26" refid="group___replay___data_1gga634bef419b6cd1967d4f0b1e39282e91a2ef4b5d905788c7ba3d262d1fbcf8a82" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___replay___data_1gga634bef419b6cd1967d4f0b1e39282e91a2ef4b5d905788c7ba3d262d1fbcf8a82" kindref="member">Interacted</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>1,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27" refid="group___replay___data_1gga634bef419b6cd1967d4f0b1e39282e91a280e2398821e9b67fa22ab6d512c746b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___replay___data_1gga634bef419b6cd1967d4f0b1e39282e91a280e2398821e9b67fa22ab6d512c746b" kindref="member">Jumped</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>2,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28" refid="group___replay___data_1gga634bef419b6cd1967d4f0b1e39282e91aa3e4c49a9bb747fd5b2f5720db442488" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___replay___data_1gga634bef419b6cd1967d4f0b1e39282e91aa3e4c49a9bb747fd5b2f5720db442488" kindref="member">Crouched</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>3,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="29" refid="group___replay___data_1gga634bef419b6cd1967d4f0b1e39282e91a814a05a71b72fcae5049fd804889ec6a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___replay___data_1gga634bef419b6cd1967d4f0b1e39282e91a814a05a71b72fcae5049fd804889ec6a" kindref="member">Sprinting</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>4<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">ENUM_CLASS_FLAGS(<ref refid="group___replay___data_1ga634bef419b6cd1967d4f0b1e39282e91" kindref="member">EReplayActionFlags</ref>)</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal">USTRUCT(BlueprintType)</highlight></codeline>
-<codeline lineno="34" refid="struct_f_recorded_shot" refkind="compound"><highlight class="normal">struct<sp/>TIMEASSASSIN_API<sp/><ref refid="struct_f_recorded_shot_1a800d20c74173919163436e6c50229dec" kindref="member">FRecordedShot</ref></highlight></codeline>
-<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
-<codeline lineno="41" refid="struct_f_recorded_shot_1a78ac3a58ce0bd04bb0397259ae857eba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int<sp/><ref refid="struct_f_recorded_shot_1a78ac3a58ce0bd04bb0397259ae857eba" kindref="member">ShotIndex</ref>;</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
-<codeline lineno="44" refid="struct_f_recorded_shot_1ad3f3302ee527fee92c5e238a64095d1c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector<sp/><ref refid="struct_f_recorded_shot_1ad3f3302ee527fee92c5e238a64095d1c" kindref="member">ViewLocation</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>USTRUCT(BlueprintType)</highlight></codeline>
+<codeline lineno="42" refid="struct_f_recorded_shot" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/>struct<sp/>TIMEASSASSIN_API<sp/><ref refid="struct_f_recorded_shot_1a800d20c74173919163436e6c50229dec" kindref="member">FRecordedShot</ref></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
-<codeline lineno="47" refid="struct_f_recorded_shot_1ac0daef34f3c2a5b30458387d3665794f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector<sp/><ref refid="struct_f_recorded_shot_1ac0daef34f3c2a5b30458387d3665794f" kindref="member">ImpactLocation</ref>;</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
-<codeline lineno="50" refid="struct_f_recorded_shot_1a443385bba9e9512a1a0a00a02407587f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_f_recorded_shot_1a443385bba9e9512a1a0a00a02407587f" kindref="member">bHit</ref>;</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadOnly)</highlight></codeline>
-<codeline lineno="53" refid="struct_f_recorded_shot_1a8dbd4314449b7b8b339d71a00fa719a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_f_recorded_shot_1a8dbd4314449b7b8b339d71a00fa719a7" kindref="member">TimeSinceFrameStart</ref><sp/>=<sp/>0.0f;<sp/></highlight><highlight class="comment">//<sp/>Optional:<sp/>offset<sp/>in<sp/>the<sp/>frame</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadOnly)</highlight></codeline>
-<codeline lineno="56" refid="struct_f_recorded_shot_1a7556405c16fb2ade376a7943c11f8b67" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FRotator<sp/><ref refid="struct_f_recorded_shot_1a7556405c16fb2ade376a7943c11f8b67" kindref="member">ShotDirection</ref>;</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadOnly)</highlight></codeline>
-<codeline lineno="59" refid="struct_f_recorded_shot_1a26674ec33c3eb80731594b9e4496ee5c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FName<sp/><ref refid="struct_f_recorded_shot_1a26674ec33c3eb80731594b9e4496ee5c" kindref="member">HitGhostID</ref>;</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
-<codeline lineno="62" refid="struct_f_recorded_shot_1a4e41c04830f61746bc63ce81a04b0739" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TSoftObjectPtr&lt;AActor&gt;<sp/><ref refid="struct_f_recorded_shot_1a4e41c04830f61746bc63ce81a04b0739" kindref="member">HitActor</ref>;</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
-<codeline lineno="65" refid="struct_f_recorded_shot_1ae107a5dae5978675afeb3478975f898d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FName<sp/><ref refid="struct_f_recorded_shot_1ae107a5dae5978675afeb3478975f898d" kindref="member">HitBoneName</ref>;</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadOnly)</highlight></codeline>
-<codeline lineno="68" refid="struct_f_recorded_shot_1a10c570c36ca0c84b3fe30910b7f6f13c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TSoftObjectPtr&lt;<ref refid="class_u_weapon_data_asset" kindref="compound">UWeaponDataAsset</ref>&gt;<sp/><ref refid="struct_f_recorded_shot_1a10c570c36ca0c84b3fe30910b7f6f13c" kindref="member">WeaponUsed</ref>;</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70" refid="struct_f_recorded_shot_1a800d20c74173919163436e6c50229dec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_f_recorded_shot_1a800d20c74173919163436e6c50229dec" kindref="member">FRecordedShot</ref>()</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="struct_f_recorded_shot_1a78ac3a58ce0bd04bb0397259ae857eba" kindref="member">ShotIndex</ref>(0),<sp/><ref refid="struct_f_recorded_shot_1ad3f3302ee527fee92c5e238a64095d1c" kindref="member">ViewLocation</ref>(FVector::ZeroVector),<sp/><ref refid="struct_f_recorded_shot_1ac0daef34f3c2a5b30458387d3665794f" kindref="member">ImpactLocation</ref>(FVector::ZeroVector),<sp/><ref refid="struct_f_recorded_shot_1a443385bba9e9512a1a0a00a02407587f" kindref="member">bHit</ref>(false),<sp/><ref refid="struct_f_recorded_shot_1a7556405c16fb2ade376a7943c11f8b67" kindref="member">ShotDirection</ref>(FRotator::ZeroRotator)</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="74"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
+<codeline lineno="48" refid="struct_f_recorded_shot_1a78ac3a58ce0bd04bb0397259ae857eba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int<sp/><ref refid="struct_f_recorded_shot_1a78ac3a58ce0bd04bb0397259ae857eba" kindref="member">ShotIndex</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
+<codeline lineno="51" refid="struct_f_recorded_shot_1ad3f3302ee527fee92c5e238a64095d1c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector<sp/><ref refid="struct_f_recorded_shot_1ad3f3302ee527fee92c5e238a64095d1c" kindref="member">ViewLocation</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
+<codeline lineno="54" refid="struct_f_recorded_shot_1ac0daef34f3c2a5b30458387d3665794f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector<sp/><ref refid="struct_f_recorded_shot_1ac0daef34f3c2a5b30458387d3665794f" kindref="member">ImpactLocation</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
+<codeline lineno="57" refid="struct_f_recorded_shot_1a443385bba9e9512a1a0a00a02407587f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_f_recorded_shot_1a443385bba9e9512a1a0a00a02407587f" kindref="member">bHit</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadOnly)</highlight></codeline>
+<codeline lineno="60" refid="struct_f_recorded_shot_1a8dbd4314449b7b8b339d71a00fa719a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="struct_f_recorded_shot_1a8dbd4314449b7b8b339d71a00fa719a7" kindref="member">TimeSinceFrameStart</ref><sp/>=<sp/>0.0f;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadOnly)</highlight></codeline>
+<codeline lineno="63" refid="struct_f_recorded_shot_1a7556405c16fb2ade376a7943c11f8b67" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FRotator<sp/><ref refid="struct_f_recorded_shot_1a7556405c16fb2ade376a7943c11f8b67" kindref="member">ShotDirection</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadOnly)</highlight></codeline>
+<codeline lineno="66" refid="struct_f_recorded_shot_1a26674ec33c3eb80731594b9e4496ee5c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FName<sp/><ref refid="struct_f_recorded_shot_1a26674ec33c3eb80731594b9e4496ee5c" kindref="member">HitGhostID</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
+<codeline lineno="69" refid="struct_f_recorded_shot_1a4e41c04830f61746bc63ce81a04b0739" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TSoftObjectPtr&lt;AActor&gt;<sp/><ref refid="struct_f_recorded_shot_1a4e41c04830f61746bc63ce81a04b0739" kindref="member">HitActor</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
+<codeline lineno="72" refid="struct_f_recorded_shot_1ae107a5dae5978675afeb3478975f898d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FName<sp/><ref refid="struct_f_recorded_shot_1ae107a5dae5978675afeb3478975f898d" kindref="member">HitBoneName</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadOnly)</highlight></codeline>
+<codeline lineno="75" refid="struct_f_recorded_shot_1a10c570c36ca0c84b3fe30910b7f6f13c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TSoftObjectPtr&lt;<ref refid="class_u_weapon_data_asset" kindref="compound">UWeaponDataAsset</ref>&gt;<sp/><ref refid="struct_f_recorded_shot_1a10c570c36ca0c84b3fe30910b7f6f13c" kindref="member">WeaponUsed</ref>;</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77"><highlight class="normal">USTRUCT(BlueprintType)</highlight></codeline>
-<codeline lineno="78" refid="struct_f_combat_frame_data" refkind="compound"><highlight class="normal">struct<sp/>TIMEASSASSIN_API<sp/><ref refid="struct_f_combat_frame_data_1ad00fceb9c8ca29d2ed108fcdd2465b56" kindref="member">FCombatFrameData</ref></highlight></codeline>
-<codeline lineno="79"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
-<codeline lineno="85" refid="struct_f_combat_frame_data_1a003398095dc5c56fcdb970f13a6a86a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;<ref refid="struct_f_recorded_shot" kindref="compound">FRecordedShot</ref>&gt;<sp/><ref refid="struct_f_combat_frame_data_1a003398095dc5c56fcdb970f13a6a86a6" kindref="member">Shots</ref>;<sp/></highlight><highlight class="comment">//<sp/>New<sp/>array<sp/>of<sp/>bullets<sp/>fired<sp/>this<sp/>frame</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="86"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87" refid="struct_f_combat_frame_data_1ad00fceb9c8ca29d2ed108fcdd2465b56" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_f_combat_frame_data_1ad00fceb9c8ca29d2ed108fcdd2465b56" kindref="member">FCombatFrameData</ref>()</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_f_combat_frame_data_1a003398095dc5c56fcdb970f13a6a86a6" kindref="member">Shots</ref><sp/>=<sp/>TArray&lt;FRecordedShot&gt;();</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="91"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94"><highlight class="normal">USTRUCT(BlueprintType)</highlight></codeline>
-<codeline lineno="95" refid="struct_f_interaction_data" refkind="compound"><highlight class="normal">struct<sp/>TIMEASSASSIN_API<sp/><ref refid="struct_f_interaction_data_1a0ae72af307e61d6fb2098380f263d524" kindref="member">FInteractionData</ref></highlight></codeline>
-<codeline lineno="96"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="100"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Name<sp/>of<sp/>the<sp/>target<sp/>actor<sp/>(for<sp/>identification)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
-<codeline lineno="103" refid="struct_f_interaction_data_1addc40f0abb89d7c03dd071b6a958f053" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FSoftObjectPath<sp/><ref refid="struct_f_interaction_data_1addc40f0abb89d7c03dd071b6a958f053" kindref="member">TargetActorPath</ref>;</highlight></codeline>
-<codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Optional:<sp/>Interaction<sp/>type<sp/>or<sp/>tag<sp/>for<sp/>additional<sp/>context</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
-<codeline lineno="107" refid="struct_f_interaction_data_1a42d491bceeb8ddfa21abc7980c888bf2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FName<sp/><ref refid="struct_f_interaction_data_1a42d491bceeb8ddfa21abc7980c888bf2" kindref="member">InteractionType</ref>;</highlight></codeline>
+<codeline lineno="78" refid="struct_f_recorded_shot_1a800d20c74173919163436e6c50229dec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_f_recorded_shot_1a800d20c74173919163436e6c50229dec" kindref="member">FRecordedShot</ref>()</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="struct_f_recorded_shot_1a78ac3a58ce0bd04bb0397259ae857eba" kindref="member">ShotIndex</ref>(0)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/><ref refid="struct_f_recorded_shot_1ad3f3302ee527fee92c5e238a64095d1c" kindref="member">ViewLocation</ref>(FVector::ZeroVector)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/><ref refid="struct_f_recorded_shot_1ac0daef34f3c2a5b30458387d3665794f" kindref="member">ImpactLocation</ref>(FVector::ZeroVector)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/><ref refid="struct_f_recorded_shot_1a443385bba9e9512a1a0a00a02407587f" kindref="member">bHit</ref>(false)</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/><ref refid="struct_f_recorded_shot_1a7556405c16fb2ade376a7943c11f8b67" kindref="member">ShotDirection</ref>(FRotator::ZeroRotator)</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal">USTRUCT(BlueprintType)</highlight></codeline>
+<codeline lineno="94" refid="struct_f_combat_frame_data" refkind="compound"><highlight class="normal">struct<sp/>TIMEASSASSIN_API<sp/><ref refid="struct_f_combat_frame_data_1ad00fceb9c8ca29d2ed108fcdd2465b56" kindref="member">FCombatFrameData</ref></highlight></codeline>
+<codeline lineno="95"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
+<codeline lineno="100" refid="struct_f_combat_frame_data_1a003398095dc5c56fcdb970f13a6a86a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;<ref refid="struct_f_recorded_shot" kindref="compound">FRecordedShot</ref>&gt;<sp/><ref refid="struct_f_combat_frame_data_1a003398095dc5c56fcdb970f13a6a86a6" kindref="member">Shots</ref>;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="struct_f_combat_frame_data_1ad00fceb9c8ca29d2ed108fcdd2465b56" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_f_combat_frame_data_1ad00fceb9c8ca29d2ed108fcdd2465b56" kindref="member">FCombatFrameData</ref>()</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_f_combat_frame_data_1a003398095dc5c56fcdb970f13a6a86a6" kindref="member">Shots</ref><sp/>=<sp/>TArray&lt;FRecordedShot&gt;();</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Optional:<sp/>Player<sp/>location<sp/>relative<sp/>to<sp/>the<sp/>target<sp/>when<sp/>the<sp/>interaction<sp/>occurred</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
-<codeline lineno="111" refid="struct_f_interaction_data_1a3ca6f4f41ac4e6174e10daafcce1d2ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector<sp/><ref refid="struct_f_interaction_data_1a3ca6f4f41ac4e6174e10daafcce1d2ee" kindref="member">RelativeLocationToTarget</ref>;</highlight></codeline>
-<codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113" refid="struct_f_interaction_data_1a0ae72af307e61d6fb2098380f263d524" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_f_interaction_data_1a0ae72af307e61d6fb2098380f263d524" kindref="member">FInteractionData</ref>()</highlight></codeline>
-<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="struct_f_interaction_data_1a42d491bceeb8ddfa21abc7980c888bf2" kindref="member">InteractionType</ref>(NAME_None)</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/><ref refid="struct_f_interaction_data_1a3ca6f4f41ac4e6174e10daafcce1d2ee" kindref="member">RelativeLocationToTarget</ref>(FVector::ZeroVector)</highlight></codeline>
-<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="118"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="120"><highlight class="normal">USTRUCT(BlueprintType)</highlight></codeline>
-<codeline lineno="121" refid="struct_f_player_frame_data" refkind="compound"><highlight class="normal">struct<sp/>TIMEASSASSIN_API<sp/><ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref></highlight></codeline>
-<codeline lineno="122"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal">USTRUCT(BlueprintType)</highlight></codeline>
+<codeline lineno="117" refid="struct_f_interaction_data" refkind="compound"><highlight class="normal">struct<sp/>TIMEASSASSIN_API<sp/><ref refid="struct_f_interaction_data_1a0ae72af307e61d6fb2098380f263d524" kindref="member">FInteractionData</ref></highlight></codeline>
+<codeline lineno="118"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
+<codeline lineno="123" refid="struct_f_interaction_data_1addc40f0abb89d7c03dd071b6a958f053" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FSoftObjectPath<sp/><ref refid="struct_f_interaction_data_1addc40f0abb89d7c03dd071b6a958f053" kindref="member">TargetActorPath</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="124"><highlight class="normal"></highlight></codeline>
-<codeline lineno="125"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="126"><highlight class="normal"></highlight></codeline>
-<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Timestamp<sp/>for<sp/>when<sp/>this<sp/>frame<sp/>was<sp/>recorded<sp/>(in<sp/>seconds)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadOnly)</highlight></codeline>
-<codeline lineno="129" refid="struct_f_player_frame_data_1aa7d6d6c4a99f0ff0dab19b2ddde1eaa9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>float<sp/><ref refid="struct_f_player_frame_data_1aa7d6d6c4a99f0ff0dab19b2ddde1eaa9" kindref="member">TimeStamp</ref>;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
+<codeline lineno="126" refid="struct_f_interaction_data_1a42d491bceeb8ddfa21abc7980c888bf2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FName<sp/><ref refid="struct_f_interaction_data_1a42d491bceeb8ddfa21abc7980c888bf2" kindref="member">InteractionType</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
+<codeline lineno="129" refid="struct_f_interaction_data_1a3ca6f4f41ac4e6174e10daafcce1d2ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector<sp/><ref refid="struct_f_interaction_data_1a3ca6f4f41ac4e6174e10daafcce1d2ee" kindref="member">RelativeLocationToTarget</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Player&apos;s<sp/>position<sp/>at<sp/>this<sp/>frame</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadOnly)</highlight></codeline>
-<codeline lineno="133" refid="struct_f_player_frame_data_1ae8c3f2db3f2516246d4c0530d2220086" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector<sp/><ref refid="struct_f_player_frame_data_1ae8c3f2db3f2516246d4c0530d2220086" kindref="member">Position</ref>;</highlight></codeline>
-<codeline lineno="134"><highlight class="normal"></highlight></codeline>
-<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Player&apos;s<sp/>velocity<sp/>at<sp/>this<sp/>frame</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadOnly)</highlight></codeline>
-<codeline lineno="137" refid="struct_f_player_frame_data_1acb405992f31731489233f2158749b361" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector<sp/><ref refid="struct_f_player_frame_data_1acb405992f31731489233f2158749b361" kindref="member">Velocity</ref>;</highlight></codeline>
+<codeline lineno="132" refid="struct_f_interaction_data_1a0ae72af307e61d6fb2098380f263d524" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_f_interaction_data_1a0ae72af307e61d6fb2098380f263d524" kindref="member">FInteractionData</ref>()</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="struct_f_interaction_data_1a42d491bceeb8ddfa21abc7980c888bf2" kindref="member">InteractionType</ref>(NAME_None)</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>,<sp/><ref refid="struct_f_interaction_data_1a3ca6f4f41ac4e6174e10daafcce1d2ee" kindref="member">RelativeLocationToTarget</ref>(FVector::ZeroVector)</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="138"><highlight class="normal"></highlight></codeline>
-<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Player&apos;s<sp/>rotation<sp/>at<sp/>this<sp/>frame</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadOnly)</highlight></codeline>
-<codeline lineno="141" refid="struct_f_player_frame_data_1a93eaa32f56a69cc27334627065c575f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FRotator<sp/><ref refid="struct_f_player_frame_data_1a93eaa32f56a69cc27334627065c575f6" kindref="member">Rotation</ref>;</highlight></codeline>
-<codeline lineno="142"><highlight class="normal"></highlight></codeline>
-<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Packed<sp/>action<sp/>flags<sp/>(bitmask)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadOnly)</highlight></codeline>
-<codeline lineno="145" refid="struct_f_player_frame_data_1a8768b296bb4d63e293d36003f2c4fa66" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91" kindref="member">EReplayActionFlags</ref><sp/><ref refid="struct_f_player_frame_data_1a8768b296bb4d63e293d36003f2c4fa66" kindref="member">ActionFlags</ref>;</highlight></codeline>
-<codeline lineno="146"><highlight class="normal"></highlight></codeline>
-<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Interaction<sp/>data<sp/>(if<sp/>any)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
-<codeline lineno="149" refid="struct_f_player_frame_data_1a99366cbe0b8fe264b6dd0b7b101075fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_f_interaction_data" kindref="compound">FInteractionData</ref><sp/><ref refid="struct_f_player_frame_data_1a99366cbe0b8fe264b6dd0b7b101075fc" kindref="member">InteractionData</ref>;</highlight></codeline>
-<codeline lineno="150"><highlight class="normal"></highlight></codeline>
-<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Combat<sp/>data<sp/>(if<sp/>any)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
-<codeline lineno="153" refid="struct_f_player_frame_data_1a3fa9bf4a003e8a3e02897ea1884c47ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_f_combat_frame_data" kindref="compound">FCombatFrameData</ref><sp/><ref refid="struct_f_player_frame_data_1a3fa9bf4a003e8a3e02897ea1884c47ea" kindref="member">CombatData</ref>;</highlight></codeline>
-<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal">USTRUCT(BlueprintType)</highlight></codeline>
+<codeline lineno="148" refid="struct_f_player_frame_data" refkind="compound"><highlight class="normal">struct<sp/>TIMEASSASSIN_API<sp/><ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref></highlight></codeline>
+<codeline lineno="149"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadOnly)</highlight></codeline>
+<codeline lineno="154" refid="struct_f_player_frame_data_1aa7d6d6c4a99f0ff0dab19b2ddde1eaa9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>float<sp/><ref refid="struct_f_player_frame_data_1aa7d6d6c4a99f0ff0dab19b2ddde1eaa9" kindref="member">TimeStamp</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="155"><highlight class="normal"></highlight></codeline>
-<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>----------<sp/>Helpers<sp/>----------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="157"><highlight class="normal"></highlight></codeline>
-<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Helpers<sp/>for<sp/>bitmask<sp/>operations</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="159" refid="struct_f_player_frame_data_1a30e7484c45b24583da3d19decfd62db6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_f_player_frame_data_1a30e7484c45b24583da3d19decfd62db6" kindref="member">HasAction</ref>(<ref refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91" kindref="member">EReplayActionFlags</ref><sp/>Flag)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
-<codeline lineno="160"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>EnumHasAnyFlags(<ref refid="struct_f_player_frame_data_1a8768b296bb4d63e293d36003f2c4fa66" kindref="member">ActionFlags</ref>,<sp/>Flag);</highlight></codeline>
-<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="164" refid="struct_f_player_frame_data_1af923e0f7aa84bc6011327bdffb02b19c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="struct_f_player_frame_data_1af923e0f7aa84bc6011327bdffb02b19c" kindref="member">AddAction</ref>(<ref refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91" kindref="member">EReplayActionFlags</ref><sp/>Flag)</highlight></codeline>
-<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EnumAddFlags(<ref refid="struct_f_player_frame_data_1a8768b296bb4d63e293d36003f2c4fa66" kindref="member">ActionFlags</ref>,<sp/>Flag);</highlight></codeline>
-<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="168"><highlight class="normal"></highlight></codeline>
-<codeline lineno="169" refid="struct_f_player_frame_data_1ae771c13e9bf02675958fb44ae812635a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="struct_f_player_frame_data_1ae771c13e9bf02675958fb44ae812635a" kindref="member">RemoveAction</ref>(<ref refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91" kindref="member">EReplayActionFlags</ref><sp/>Flag)</highlight></codeline>
-<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EnumRemoveFlags(<ref refid="struct_f_player_frame_data_1a8768b296bb4d63e293d36003f2c4fa66" kindref="member">ActionFlags</ref>,<sp/>Flag);</highlight></codeline>
-<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="173"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadOnly)</highlight></codeline>
+<codeline lineno="157" refid="struct_f_player_frame_data_1ae8c3f2db3f2516246d4c0530d2220086" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector<sp/><ref refid="struct_f_player_frame_data_1ae8c3f2db3f2516246d4c0530d2220086" kindref="member">Position</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadOnly)</highlight></codeline>
+<codeline lineno="160" refid="struct_f_player_frame_data_1acb405992f31731489233f2158749b361" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector<sp/><ref refid="struct_f_player_frame_data_1acb405992f31731489233f2158749b361" kindref="member">Velocity</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadOnly)</highlight></codeline>
+<codeline lineno="163" refid="struct_f_player_frame_data_1a93eaa32f56a69cc27334627065c575f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FRotator<sp/><ref refid="struct_f_player_frame_data_1a93eaa32f56a69cc27334627065c575f6" kindref="member">Rotation</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadOnly)</highlight></codeline>
+<codeline lineno="166" refid="struct_f_player_frame_data_1a8768b296bb4d63e293d36003f2c4fa66" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___replay___data_1ga634bef419b6cd1967d4f0b1e39282e91" kindref="member">EReplayActionFlags</ref><sp/><ref refid="struct_f_player_frame_data_1a8768b296bb4d63e293d36003f2c4fa66" kindref="member">ActionFlags</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
+<codeline lineno="169" refid="struct_f_player_frame_data_1a99366cbe0b8fe264b6dd0b7b101075fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_f_interaction_data" kindref="compound">FInteractionData</ref><sp/><ref refid="struct_f_player_frame_data_1a99366cbe0b8fe264b6dd0b7b101075fc" kindref="member">InteractionData</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite)</highlight></codeline>
+<codeline lineno="172" refid="struct_f_player_frame_data_1a3fa9bf4a003e8a3e02897ea1884c47ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_f_combat_frame_data" kindref="compound">FCombatFrameData</ref><sp/><ref refid="struct_f_player_frame_data_1a3fa9bf4a003e8a3e02897ea1884c47ea" kindref="member">CombatData</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
 <codeline lineno="174"><highlight class="normal"></highlight></codeline>
-<codeline lineno="175"><highlight class="normal">USTRUCT(BlueprintType)</highlight></codeline>
-<codeline lineno="176" refid="struct_f_replay_attempt" refkind="compound"><highlight class="normal">struct<sp/><ref refid="struct_f_replay_attempt_1a7f05000aba0460dd78d6bb4ef5aa8dd6" kindref="member">FReplayAttempt</ref></highlight></codeline>
-<codeline lineno="177"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
-<codeline lineno="179"><highlight class="normal"></highlight></codeline>
-<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Shared<sp/>pointer<sp/>to<sp/>replay<sp/>data<sp/>(prevents<sp/>unnecessary<sp/>copies)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="181" refid="struct_f_replay_attempt_1afe63a0a419000887aac46495389744b2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TSharedPtr&lt;TArray&lt;<ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref>&gt;&gt;<sp/><ref refid="struct_f_replay_attempt_1afe63a0a419000887aac46495389744b2" kindref="member">ReplayDataPtr</ref>;</highlight></codeline>
-<codeline lineno="182"><highlight class="normal"></highlight></codeline>
-<codeline lineno="183" refid="struct_f_replay_attempt_1acc69c9b5665d878296c11d9527d1e3e3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FName<sp/><ref refid="struct_f_replay_attempt_1acc69c9b5665d878296c11d9527d1e3e3" kindref="member">AssignedGhostID</ref>;</highlight></codeline>
-<codeline lineno="184"><highlight class="normal"></highlight></codeline>
-<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Default<sp/>Constructor<sp/>(owning<sp/>mode)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="186" refid="struct_f_replay_attempt_1a7f05000aba0460dd78d6bb4ef5aa8dd6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_f_replay_attempt_1a7f05000aba0460dd78d6bb4ef5aa8dd6" kindref="member">FReplayAttempt</ref>()</highlight></codeline>
-<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_f_replay_attempt_1afe63a0a419000887aac46495389744b2" kindref="member">ReplayDataPtr</ref><sp/>=<sp/>MakeShared&lt;TArray&lt;FPlayerFrameData&gt;&gt;();</highlight></codeline>
-<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_f_replay_attempt_1acc69c9b5665d878296c11d9527d1e3e3" kindref="member">AssignedGhostID</ref><sp/>=<sp/>FName(*FGuid::NewGuid().ToString());</highlight></codeline>
-<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="191"><highlight class="normal"></highlight></codeline>
-<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Constructor<sp/>to<sp/>accept<sp/>externally<sp/>owned<sp/>data</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="193" refid="struct_f_replay_attempt_1a31d7f5c2aaf0870f78d4852bd162e69f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="struct_f_replay_attempt_1a31d7f5c2aaf0870f78d4852bd162e69f" kindref="member">FReplayAttempt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TArray&lt;FPlayerFrameData&gt;&amp;<sp/>InReplayData)</highlight></codeline>
-<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_f_replay_attempt_1afe63a0a419000887aac46495389744b2" kindref="member">ReplayDataPtr</ref><sp/>=<sp/>MakeShared&lt;TArray&lt;FPlayerFrameData&gt;&gt;(InReplayData);</highlight></codeline>
-<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_f_replay_attempt_1acc69c9b5665d878296c11d9527d1e3e3" kindref="member">AssignedGhostID</ref><sp/>=<sp/>FName(*FGuid::NewGuid().ToString());</highlight></codeline>
-<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="198"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>----------<sp/>Helper<sp/>Methods<sp/>----------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="struct_f_player_frame_data_1a30e7484c45b24583da3d19decfd62db6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_f_player_frame_data_1a30e7484c45b24583da3d19decfd62db6" kindref="member">HasAction</ref>(<ref refid="group___replay___data_1ga634bef419b6cd1967d4f0b1e39282e91" kindref="member">EReplayActionFlags</ref><sp/>Flag)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="183"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>EnumHasAnyFlags(<ref refid="struct_f_player_frame_data_1a8768b296bb4d63e293d36003f2c4fa66" kindref="member">ActionFlags</ref>,<sp/>Flag);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="struct_f_player_frame_data_1af923e0f7aa84bc6011327bdffb02b19c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="struct_f_player_frame_data_1af923e0f7aa84bc6011327bdffb02b19c" kindref="member">AddAction</ref>(<ref refid="group___replay___data_1ga634bef419b6cd1967d4f0b1e39282e91" kindref="member">EReplayActionFlags</ref><sp/>Flag)</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EnumAddFlags(<ref refid="struct_f_player_frame_data_1a8768b296bb4d63e293d36003f2c4fa66" kindref="member">ActionFlags</ref>,<sp/>Flag);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="struct_f_player_frame_data_1ae771c13e9bf02675958fb44ae812635a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="struct_f_player_frame_data_1ae771c13e9bf02675958fb44ae812635a" kindref="member">RemoveAction</ref>(<ref refid="group___replay___data_1ga634bef419b6cd1967d4f0b1e39282e91" kindref="member">EReplayActionFlags</ref><sp/>Flag)</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EnumRemoveFlags(<ref refid="struct_f_player_frame_data_1a8768b296bb4d63e293d36003f2c4fa66" kindref="member">ActionFlags</ref>,<sp/>Flag);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="204"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal">USTRUCT(BlueprintType)</highlight></codeline>
+<codeline lineno="214" refid="struct_f_replay_attempt" refkind="compound"><highlight class="normal">struct<sp/><ref refid="struct_f_replay_attempt_1a7f05000aba0460dd78d6bb4ef5aa8dd6" kindref="member">FReplayAttempt</ref></highlight></codeline>
+<codeline lineno="215"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="219" refid="struct_f_replay_attempt_1afe63a0a419000887aac46495389744b2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TSharedPtr&lt;TArray&lt;FPlayerFrameData&gt;&gt;<sp/><ref refid="struct_f_replay_attempt_1afe63a0a419000887aac46495389744b2" kindref="member">ReplayDataPtr</ref>;<sp/><sp/></highlight></codeline>
+<codeline lineno="220" refid="struct_f_replay_attempt_1acc69c9b5665d878296c11d9527d1e3e3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FName<sp/><ref refid="struct_f_replay_attempt_1acc69c9b5665d878296c11d9527d1e3e3" kindref="member">AssignedGhostID</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223" refid="struct_f_replay_attempt_1a7f05000aba0460dd78d6bb4ef5aa8dd6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_f_replay_attempt_1a7f05000aba0460dd78d6bb4ef5aa8dd6" kindref="member">FReplayAttempt</ref>()</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_f_replay_attempt_1afe63a0a419000887aac46495389744b2" kindref="member">ReplayDataPtr</ref><sp/>=<sp/>MakeShared&lt;TArray&lt;FPlayerFrameData&gt;&gt;();</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_f_replay_attempt_1acc69c9b5665d878296c11d9527d1e3e3" kindref="member">AssignedGhostID</ref><sp/>=<sp/>FName(*FGuid::NewGuid().ToString());</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233" refid="struct_f_replay_attempt_1a31d7f5c2aaf0870f78d4852bd162e69f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="struct_f_replay_attempt_1a31d7f5c2aaf0870f78d4852bd162e69f" kindref="member">FReplayAttempt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TArray&lt;FPlayerFrameData&gt;&amp;<sp/>InReplayData)</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_f_replay_attempt_1afe63a0a419000887aac46495389744b2" kindref="member">ReplayDataPtr</ref><sp/>=<sp/>MakeShared&lt;TArray&lt;FPlayerFrameData&gt;&gt;(InReplayData);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_f_replay_attempt_1acc69c9b5665d878296c11d9527d1e3e3" kindref="member">AssignedGhostID</ref><sp/>=<sp/>FName(*FGuid::NewGuid().ToString());</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="238"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>end<sp/>of<sp/>Replay_Data<sp/>group</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="Source/TimeAssassin/FPlayerFrameData.h"/>
   </compounddef>

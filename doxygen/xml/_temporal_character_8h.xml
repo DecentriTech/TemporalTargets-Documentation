@@ -201,14 +201,14 @@
     <sectiondef kind="define">
       <memberdef kind="define" id="_temporal_character_8h_1a5dc31e53903277847805dd17628d2435" prot="public" static="no">
         <name>REPLAY_EVENT_LIST</name>
-        <initializer>    <ref refid="_temporal_character_8cpp_1af9b7a70540abecc8e501d289684cb973" kindref="member">X</ref>(<ref refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91a280e2398821e9b67fa22ab6d512c746b" kindref="member">Jumped</ref>,        ProcessJumpEvent)    \
-    <ref refid="_temporal_character_8cpp_1af9b7a70540abecc8e501d289684cb973" kindref="member">X</ref>(<ref refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91a661e8b7c940bfd42cc11900b1fcddec4" kindref="member">FiredWeapon</ref>,   ProcessShootEvent)   \
-    <ref refid="_temporal_character_8cpp_1af9b7a70540abecc8e501d289684cb973" kindref="member">X</ref>(<ref refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91a2ef4b5d905788c7ba3d262d1fbcf8a82" kindref="member">Interacted</ref>,    ProcessInteractEvent)</initializer>
+        <initializer>    <ref refid="_temporal_character_8cpp_1af9b7a70540abecc8e501d289684cb973" kindref="member">X</ref>(<ref refid="group___replay___data_1gga634bef419b6cd1967d4f0b1e39282e91a280e2398821e9b67fa22ab6d512c746b" kindref="member">Jumped</ref>,        ProcessJumpEvent)    \
+    <ref refid="_temporal_character_8cpp_1af9b7a70540abecc8e501d289684cb973" kindref="member">X</ref>(<ref refid="group___replay___data_1gga634bef419b6cd1967d4f0b1e39282e91a661e8b7c940bfd42cc11900b1fcddec4" kindref="member">FiredWeapon</ref>,   ProcessShootEvent)   \
+    <ref refid="_temporal_character_8cpp_1af9b7a70540abecc8e501d289684cb973" kindref="member">X</ref>(<ref refid="group___replay___data_1gga634bef419b6cd1967d4f0b1e39282e91a2ef4b5d905788c7ba3d262d1fbcf8a82" kindref="member">Interacted</ref>,    ProcessInteractEvent)</initializer>
         <briefdescription>
 <para>Macro list of (FlagName, HandlerFunction) pairs for auto-binding replay events. </para>
         </briefdescription>
         <detaileddescription>
-<para>The names here must match the values in your <ref refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91" kindref="member">EReplayActionFlags</ref> enumeration. </para>
+<para>The names here must match the values in your <ref refid="group___replay___data_1ga634bef419b6cd1967d4f0b1e39282e91" kindref="member">EReplayActionFlags</ref> enumeration. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
@@ -257,7 +257,7 @@
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23" refid="struct_f_replay_handler_entry" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_f_replay_handler_entry" kindref="compound">FReplayHandlerEntry</ref></highlight></codeline>
 <codeline lineno="24"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="25" refid="struct_f_replay_handler_entry_1a907577cfd4db9610671659e64fc0546d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91" kindref="member">EReplayActionFlags</ref><sp/><sp/><sp/><sp/><ref refid="struct_f_replay_handler_entry_1a907577cfd4db9610671659e64fc0546d" kindref="member">Flag</ref>;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="25" refid="struct_f_replay_handler_entry_1a907577cfd4db9610671659e64fc0546d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group___replay___data_1ga634bef419b6cd1967d4f0b1e39282e91" kindref="member">EReplayActionFlags</ref><sp/><sp/><sp/><sp/><ref refid="struct_f_replay_handler_entry_1a907577cfd4db9610671659e64fc0546d" kindref="member">Flag</ref>;<sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="26" refid="struct_f_replay_handler_entry_1ad3397bb1077e60055aee63d248c8d9e5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FReplayEventDelegate<sp/><sp/><ref refid="struct_f_replay_handler_entry_1ad3397bb1077e60055aee63d248c8d9e5" kindref="member">Handler</ref>;<sp/></highlight></codeline>
 <codeline lineno="27"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>

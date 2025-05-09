@@ -28,7 +28,7 @@
         <qualifiedname>UHitmarkerWidget::KillTag</qualifiedname>
         <initializer>= TAG_Damage_Kill</initializer>
         <briefdescription>
-<para>Gameplay tag that triggers the “kill” color (defaults to TAG_Damage_Kill). </para>
+<para>Gameplay tag that triggers the &quot;kill&quot; color (defaults to TAG_Damage_Kill). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
@@ -74,7 +74,7 @@
 <parametername>DamageTags</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Tag container used to determine marker color via <ref refid="class_u_hitmarker_widget_1a6b1de2de1eeac4847becbe743daf261c" kindref="member">DetermineColor</ref>. </para>
+<para>Tag container used to determine marker color via <ref refid="class_u_hitmarker_widget_1a6b1de2de1eeac4847becbe743daf261c" kindref="member">DetermineColor()</ref>. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -103,7 +103,7 @@
 <parametername>DamageTags</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Same container passed to <ref refid="class_u_hitmarker_widget_1ad4867a3494abc15f88b58ccae14564b5" kindref="member">PushHitMarker</ref>. </para>
+<para>Same container passed to PushHitMarker. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -296,7 +296,7 @@
           <declname>DeltaTime</declname>
         </param>
         <briefdescription>
-<para>Advance each marker’s age/scale and remove any that have exceeded FadeTime. </para>
+<para>Advance each marker&apos;s age/scale and remove any that have exceeded FadeTime. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>

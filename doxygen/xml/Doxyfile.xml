@@ -117,7 +117,7 @@
   <option  id='EXTERNAL_TOOL_PATH' default='yes' type='stringlist'>
   </option>
   <option  id='QUIET' default='no' type='bool'><value>YES</value></option>
-  <option  id='WARNINGS' default='yes' type='bool'><value>YES</value></option>
+  <option  id='WARNINGS' default='no' type='bool'><value>NO</value></option>
   <option  id='WARN_IF_UNDOCUMENTED' default='yes' type='bool'><value>YES</value></option>
   <option  id='WARN_IF_DOC_ERROR' default='yes' type='bool'><value>YES</value></option>
   <option  id='WARN_IF_INCOMPLETE_DOC' default='yes' type='bool'><value>YES</value></option>
@@ -356,7 +356,14 @@
   </option>
   <option  id='INCLUDE_FILE_PATTERNS' default='yes' type='stringlist'>
   </option>
-  <option  id='PREDEFINED' default='yes' type='stringlist'>
+  <option  id='PREDEFINED' default='no' type='stringlist'>
+    <value><![CDATA[UCLASS(...)=]]></value>
+    <value><![CDATA[USTRUCT(...)=]]></value>
+    <value><![CDATA[UINTERFACE(...)=]]></value>
+    <value><![CDATA[UFUNCTION(...)=]]></value>
+    <value><![CDATA[UPROPERTY(...)=]]></value>
+    <value><![CDATA[GENERATED_BODY()=]]></value>
+    <value><![CDATA[TIMEASSASSIN_API=]]></value>
   </option>
   <option  id='EXPAND_AS_DEFINED' default='yes' type='stringlist'>
   </option>

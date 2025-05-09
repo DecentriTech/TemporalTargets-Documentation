@@ -6,6 +6,51 @@
     <includes refid="_grid_canvas_widget_8h" local="no">GridCanvasWidget.h</includes>
     <innerclass refid="struct_u_grid_canvas_widget_1_1_f_grid_params" prot="public">UGridCanvasWidget::FGridParams</innerclass>
     <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_u_grid_canvas_widget_1a18c7fbc80f459a7302e306ae5e7e6c4e" prot="private" static="no" mutable="no">
+        <type>TArray&lt; FVector2D &gt;</type>
+        <definition>TArray&lt;FVector2D&gt; UGridCanvasWidget::SprayPoints</definition>
+        <argsstring></argsstring>
+        <name>SprayPoints</name>
+        <qualifiedname>UGridCanvasWidget::SprayPoints</qualifiedname>
+        <briefdescription>
+<para>Currently edited spray points. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="278" column="14" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="278" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_grid_canvas_widget_1a145c015e35f5cf709db154a14cbac389" prot="private" static="no" mutable="no">
+        <type>TArray&lt; FVector2D &gt;</type>
+        <definition>TArray&lt;FVector2D&gt; UGridCanvasWidget::BaselineSprayPoints</definition>
+        <argsstring></argsstring>
+        <name>BaselineSprayPoints</name>
+        <qualifiedname>UGridCanvasWidget::BaselineSprayPoints</qualifiedname>
+        <briefdescription>
+<para>Backup of original spray points for scaling/restoration. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="281" column="14" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_grid_canvas_widget_1ab138456c8e7aa4c270db0f3b657120b0" prot="private" static="no" mutable="no">
+        <type>TArray&lt; FVector2D &gt;</type>
+        <definition>TArray&lt;FVector2D&gt; UGridCanvasWidget::RawStroke</definition>
+        <argsstring></argsstring>
+        <name>RawStroke</name>
+        <qualifiedname>UGridCanvasWidget::RawStroke</qualifiedname>
+        <briefdescription>
+<para>Raw freehand stroke points prior to resampling. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="284" column="14" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="284" bodyend="-1"/>
+      </memberdef>
       <memberdef kind="variable" id="class_u_grid_canvas_widget_1adaa3e6605fd9649fdc2108c2310b4c64" prot="private" static="no" mutable="no">
         <type>FVector2D</type>
         <definition>FVector2D UGridCanvasWidget::LastMousePosition</definition>
@@ -300,7 +345,7 @@
         <location file="Source/TimeAssassin/GridCanvasWidget.h" line="329" column="11" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="329" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_grid_canvas_widget_1ab668fe409b2c2bb94178dd3a4f042d26" prot="public" static="no" mutable="no">
-        <type><ref refid="group___u_i___w_i_d_g_e_t_s___a_n_d___i_n_t_e_r_f_a_c_e_s_1ga81e2f378ed72995ca43cc3deb13507cc" kindref="member">ERecoilEditMode</ref></type>
+        <type><ref refid="group___u_i___widgets_1ga81e2f378ed72995ca43cc3deb13507cc" kindref="member">ERecoilEditMode</ref></type>
         <definition>ERecoilEditMode UGridCanvasWidget::EditMode</definition>
         <argsstring></argsstring>
         <name>EditMode</name>
@@ -662,7 +707,7 @@
         <name>SetEditMode</name>
         <qualifiedname>UGridCanvasWidget::SetEditMode</qualifiedname>
         <param>
-          <type><ref refid="group___u_i___w_i_d_g_e_t_s___a_n_d___i_n_t_e_r_f_a_c_e_s_1ga81e2f378ed72995ca43cc3deb13507cc" kindref="member">ERecoilEditMode</ref></type>
+          <type><ref refid="group___u_i___widgets_1ga81e2f378ed72995ca43cc3deb13507cc" kindref="member">ERecoilEditMode</ref></type>
           <declname>NewMode</declname>
         </param>
         <briefdescription>
@@ -1237,51 +1282,6 @@
         </inbodydescription>
         <location file="Source/TimeAssassin/GridCanvasWidget.h" line="269" column="12" bodyfile="Source/TimeAssassin/GridCanvasWidget.cpp" bodystart="1319" bodyend="1380"/>
       </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1a12b70ad61949a39f1591f79e64ea632c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>UGridCanvasWidget::UPROPERTY</definition>
-        <argsstring>() TArray&lt; FVector2D &gt; SprayPoints</argsstring>
-        <name>UPROPERTY</name>
-        <qualifiedname>UGridCanvasWidget::UPROPERTY</qualifiedname>
-        <briefdescription>
-<para>Currently edited spray points. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="278" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1a125df9ff4214f261d98e976a22bb8376" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>UGridCanvasWidget::UPROPERTY</definition>
-        <argsstring>() TArray&lt; FVector2D &gt; BaselineSprayPoints</argsstring>
-        <name>UPROPERTY</name>
-        <qualifiedname>UGridCanvasWidget::UPROPERTY</qualifiedname>
-        <briefdescription>
-<para>Backup of original spray points for scaling/restoration. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="281" column="5"/>
-      </memberdef>
-      <memberdef kind="function" id="class_u_grid_canvas_widget_1ac590486c946d48b707f5ce1cc6bfa7a4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type></type>
-        <definition>UGridCanvasWidget::UPROPERTY</definition>
-        <argsstring>() TArray&lt; FVector2D &gt; RawStroke</argsstring>
-        <name>UPROPERTY</name>
-        <qualifiedname>UGridCanvasWidget::UPROPERTY</qualifiedname>
-        <briefdescription>
-<para>Raw freehand stroke points prior to resampling. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="284" column="5"/>
-      </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-func">
       <memberdef kind="function" id="class_u_grid_canvas_widget_1a43b4b12518604a85227c9a196173cdee" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -1365,6 +1365,7 @@
     <location file="Source/TimeAssassin/GridCanvasWidget.h" line="79" column="1" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="80" bodyend="354"/>
     <listofallmembers>
       <member refid="class_u_grid_canvas_widget_1a5ac8aa12f7dc2cbb7f53f118e886e1a7" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>AddPoint</name></member>
+      <member refid="class_u_grid_canvas_widget_1a145c015e35f5cf709db154a14cbac389" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>BaselineSprayPoints</name></member>
       <member refid="class_u_grid_canvas_widget_1aa3b08d7b17c4c7cadf6bd5ff5eca03a8" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>bDidInitialSetup</name></member>
       <member refid="class_u_grid_canvas_widget_1aaacfe7d9208179a84fbb9f2462c33c30" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>bDragging</name></member>
       <member refid="class_u_grid_canvas_widget_1a76a9ead5074a39f965a356e3f2e66d7f" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>bDraggingPoint</name></member>
@@ -1409,6 +1410,7 @@
       <member refid="class_u_grid_canvas_widget_1af181364848460173db92c2c13f9f3871" prot="protected" virt="virtual"><scope>UGridCanvasWidget</scope><name>NativeTick</name></member>
       <member refid="class_u_grid_canvas_widget_1a40c73780a82afbbe153da653d5facac7" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>PanOffset</name></member>
       <member refid="class_u_grid_canvas_widget_1a7b51a477edf97f3529f58695ebf5f201" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>PreviewPoint</name></member>
+      <member refid="class_u_grid_canvas_widget_1ab138456c8e7aa4c270db0f3b657120b0" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>RawStroke</name></member>
       <member refid="class_u_grid_canvas_widget_1a014eef438b321834225cc24ab83a8708" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>RecordUndoSnapshot</name></member>
       <member refid="class_u_grid_canvas_widget_1a94b56c765eaf5fa15566118b52d3ecf1" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>Redo</name></member>
       <member refid="class_u_grid_canvas_widget_1aee5d312aa51f0694e52f8ed47a364c44" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>RedoStack</name></member>
@@ -1421,13 +1423,11 @@
       <member refid="class_u_grid_canvas_widget_1a17157daa6a01bbe1ae62b3d70abe47f6" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>SetSprayPoints</name></member>
       <member refid="class_u_grid_canvas_widget_1a6a3556ef17031e0cb8bcf116a2c66eae" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>SetWeaponData</name></member>
       <member refid="class_u_grid_canvas_widget_1ae8549e85756ee94db673883d082fc793" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>SnapInterval</name></member>
+      <member refid="class_u_grid_canvas_widget_1a18c7fbc80f459a7302e306ae5e7e6c4e" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>SprayPoints</name></member>
       <member refid="class_u_grid_canvas_widget_1ad20f17a7516276cf07f75ceb4d0b68e9" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>ToggleEditMode</name></member>
       <member refid="class_u_grid_canvas_widget_1adc343c9bfe7979e03aefc1b3b0693080" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UGridCanvasWidget</name></member>
       <member refid="class_u_grid_canvas_widget_1a9a07dfe3f2d4ce2bb4eb46204d4ba9a3" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>Undo</name></member>
       <member refid="class_u_grid_canvas_widget_1a4846065e699258f2529fc2bd1fb830e6" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UndoStack</name></member>
-      <member refid="class_u_grid_canvas_widget_1a12b70ad61949a39f1591f79e64ea632c" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UPROPERTY</name></member>
-      <member refid="class_u_grid_canvas_widget_1a125df9ff4214f261d98e976a22bb8376" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UPROPERTY</name></member>
-      <member refid="class_u_grid_canvas_widget_1ac590486c946d48b707f5ce1cc6bfa7a4" prot="private" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>UPROPERTY</name></member>
       <member refid="class_u_grid_canvas_widget_1a20d6268b561c6675de55f0c3c875a8c8" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>XAxisRange</name></member>
       <member refid="class_u_grid_canvas_widget_1a8b294a32e146b92ece32f6ce8c0219d6" prot="public" virt="non-virtual"><scope>UGridCanvasWidget</scope><name>Zoom</name></member>
     </listofallmembers>

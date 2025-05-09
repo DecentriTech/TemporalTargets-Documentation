@@ -5,7 +5,7 @@
     <includes refid="_temporal_character_8h" local="no">TemporalCharacter.h</includes>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="struct_f_replay_handler_entry_1a907577cfd4db9610671659e64fc0546d" prot="public" static="no" mutable="no">
-        <type><ref refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91" kindref="member">EReplayActionFlags</ref></type>
+        <type><ref refid="group___replay___data_1ga634bef419b6cd1967d4f0b1e39282e91" kindref="member">EReplayActionFlags</ref></type>
         <definition>EReplayActionFlags FReplayHandlerEntry::Flag</definition>
         <argsstring></argsstring>
         <name>Flag</name>
@@ -36,7 +36,7 @@
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>Maps an <ref refid="_f_player_frame_data_8h_1a634bef419b6cd1967d4f0b1e39282e91" kindref="member">EReplayActionFlags</ref> bit to its C++ handler delegate. </para>
+<para>Maps an <ref refid="group___replay___data_1ga634bef419b6cd1967d4f0b1e39282e91" kindref="member">EReplayActionFlags</ref> bit to its C++ handler delegate. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

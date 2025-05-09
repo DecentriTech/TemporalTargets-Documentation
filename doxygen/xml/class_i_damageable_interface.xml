@@ -5,68 +5,15 @@
     <derivedcompoundref refid="class_a_t_a_character" prot="public" virt="non-virtual">ATACharacter</derivedcompoundref>
     <includes refid="_damageable_interface_8h" local="no">DamageableInterface.h</includes>
     <sectiondef kind="public-func">
-      <memberdef kind="function" id="class_i_damageable_interface_1a1f6318dd8d764d86d152bafcceeaf950" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void IDamageableInterface::TakeDamage</definition>
-        <argsstring>(const FDamageInfo &amp;DamageInfo)</argsstring>
-        <name>TakeDamage</name>
-        <qualifiedname>IDamageableInterface::TakeDamage</qualifiedname>
-        <param>
-          <type>const <ref refid="struct_f_damage_info" kindref="compound">FDamageInfo</ref> &amp;</type>
-          <declname>DamageInfo</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/DamageableInterface.h" line="27" column="6"/>
-      </memberdef>
-      <memberdef kind="function" id="class_i_damageable_interface_1aa2527dc978acb578318f79c3704b6679" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void IDamageableInterface::OnDamaged</definition>
-        <argsstring>(float NewHealth, float DamageAmount)</argsstring>
-        <name>OnDamaged</name>
-        <qualifiedname>IDamageableInterface::OnDamaged</qualifiedname>
-        <param>
-          <type>float</type>
-          <declname>NewHealth</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>DamageAmount</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/DamageableInterface.h" line="30" column="6"/>
-      </memberdef>
-      <memberdef kind="function" id="class_i_damageable_interface_1a9f9b8a6fb04274b8b2418423c31b823c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void IDamageableInterface::OnKilled</definition>
-        <argsstring>(AActor *DamageInstigator)</argsstring>
-        <name>OnKilled</name>
-        <qualifiedname>IDamageableInterface::OnKilled</qualifiedname>
-        <param>
-          <type>AActor *</type>
-          <declname>DamageInstigator</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="Source/TimeAssassin/DamageableInterface.h" line="33" column="6"/>
-      </memberdef>
+      <member refid="group___blueprint___interfaces_1ga1f6318dd8d764d86d152bafcceeaf950" kind="function"><name>TakeDamage</name></member>
+      <member refid="group___blueprint___interfaces_1gaa2527dc978acb578318f79c3704b6679" kind="function"><name>OnDamaged</name></member>
+      <member refid="group___blueprint___interfaces_1ga9f9b8a6fb04274b8b2418423c31b823c" kind="function"><name>OnKilled</name></member>
     </sectiondef>
     <briefdescription>
+<para>Provides callbacks for applying damage, responding to damage, and handling death. </para>
     </briefdescription>
     <detaileddescription>
+<para>Use <ref refid="group___blueprint___interfaces_1ga1f6318dd8d764d86d152bafcceeaf950" kindref="member">TakeDamage</ref> to apply an <ref refid="struct_f_damage_info" kindref="compound">FDamageInfo</ref> payload to this object and then override <ref refid="group___blueprint___interfaces_1gaa2527dc978acb578318f79c3704b6679" kindref="member">OnDamaged</ref> and <ref refid="group___blueprint___interfaces_1ga9f9b8a6fb04274b8b2418423c31b823c" kindref="member">OnKilled</ref> to react. </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="2">
@@ -86,11 +33,11 @@
         <link refid="class_i_damageable_interface"/>
       </node>
     </inheritancegraph>
-    <location file="Source/TimeAssassin/DamageableInterface.h" line="20" column="1" bodyfile="Source/TimeAssassin/DamageableInterface.h" bodystart="21" bodyend="34"/>
+    <location file="Source/TimeAssassin/DamageableInterface.h" line="29" column="1" bodyfile="Source/TimeAssassin/DamageableInterface.h" bodystart="30" bodyend="66"/>
     <listofallmembers>
-      <member refid="class_i_damageable_interface_1aa2527dc978acb578318f79c3704b6679" prot="public" virt="non-virtual"><scope>IDamageableInterface</scope><name>OnDamaged</name></member>
-      <member refid="class_i_damageable_interface_1a9f9b8a6fb04274b8b2418423c31b823c" prot="public" virt="non-virtual"><scope>IDamageableInterface</scope><name>OnKilled</name></member>
-      <member refid="class_i_damageable_interface_1a1f6318dd8d764d86d152bafcceeaf950" prot="public" virt="non-virtual"><scope>IDamageableInterface</scope><name>TakeDamage</name></member>
+      <member refid="group___blueprint___interfaces_1gaa2527dc978acb578318f79c3704b6679" prot="public" virt="non-virtual"><scope>IDamageableInterface</scope><name>OnDamaged</name></member>
+      <member refid="group___blueprint___interfaces_1ga9f9b8a6fb04274b8b2418423c31b823c" prot="public" virt="non-virtual"><scope>IDamageableInterface</scope><name>OnKilled</name></member>
+      <member refid="group___blueprint___interfaces_1ga1f6318dd8d764d86d152bafcceeaf950" prot="public" virt="non-virtual"><scope>IDamageableInterface</scope><name>TakeDamage</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

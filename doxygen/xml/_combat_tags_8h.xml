@@ -114,12 +114,13 @@
           <type>TAG_Damage_Critical</type>
         </param>
         <briefdescription>
+<para>Tag for critical damage events (e.g., headshots that exceed a damage threshold) </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/CombatTags.h" line="9" column="1" declfile="Source/TimeAssassin/CombatTags.h" declline="9" declcolumn="1"/>
+        <location file="Source/TimeAssassin/CombatTags.h" line="10" column="1" declfile="Source/TimeAssassin/CombatTags.h" declline="10" declcolumn="1"/>
       </memberdef>
       <memberdef kind="function" id="_combat_tags_8h_1af7853188198b41603fef033116dd9756" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -130,12 +131,13 @@
           <type>TAG_Damage_Kill</type>
         </param>
         <briefdescription>
+<para>Tag for events where a hit causes an actor to be killed. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/CombatTags.h" line="10" column="1" declfile="Source/TimeAssassin/CombatTags.h" declline="10" declcolumn="1"/>
+        <location file="Source/TimeAssassin/CombatTags.h" line="15" column="1" declfile="Source/TimeAssassin/CombatTags.h" declline="15" declcolumn="1"/>
       </memberdef>
       <memberdef kind="function" id="_combat_tags_8h_1a3e33eb136c0806e5a197769e72c71a37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -146,12 +148,13 @@
           <type>TAG_Damage_Headshot</type>
         </param>
         <briefdescription>
+<para>Tag for headshot damage events. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/CombatTags.h" line="11" column="1" declfile="Source/TimeAssassin/CombatTags.h" declline="11" declcolumn="1"/>
+        <location file="Source/TimeAssassin/CombatTags.h" line="20" column="1" declfile="Source/TimeAssassin/CombatTags.h" declline="20" declcolumn="1"/>
       </memberdef>
       <memberdef kind="function" id="_combat_tags_8h_1a5a1b3b7f2b90eb109e638e40d6167414" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -162,12 +165,13 @@
           <type>TAG_Damage_Bleed</type>
         </param>
         <briefdescription>
+<para>Tag for damage-over-time bleed effects. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/CombatTags.h" line="12" column="1" declfile="Source/TimeAssassin/CombatTags.h" declline="12" declcolumn="1"/>
+        <location file="Source/TimeAssassin/CombatTags.h" line="25" column="1" declfile="Source/TimeAssassin/CombatTags.h" declline="25" declcolumn="1"/>
       </memberdef>
       <memberdef kind="function" id="_combat_tags_8h_1afcfadfcc4e71cfd01ba91e1babf57be9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -178,12 +182,13 @@
           <type>TAG_Damage_Fire</type>
         </param>
         <briefdescription>
+<para>Tag for fire-based damage events. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/CombatTags.h" line="13" column="1" declfile="Source/TimeAssassin/CombatTags.h" declline="13" declcolumn="1"/>
+        <location file="Source/TimeAssassin/CombatTags.h" line="30" column="1" declfile="Source/TimeAssassin/CombatTags.h" declline="30" declcolumn="1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -191,19 +196,21 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="comment">//<sp/>Fill<sp/>out<sp/>your<sp/>copyright<sp/>notice<sp/>in<sp/>the<sp/>Description<sp/>page<sp/>of<sp/>Project<sp/>Settings.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CoreMinimal.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameplayTagContainer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;NativeGameplayTags.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9" refid="_combat_tags_8h_1a15e308aa61f6cf2060a996b1b50385fd" refkind="member"><highlight class="normal"><ref refid="_combat_tags_8h_1a15e308aa61f6cf2060a996b1b50385fd" kindref="member">UE_DECLARE_GAMEPLAY_TAG_EXTERN</ref>(TAG_Damage_Critical);</highlight></codeline>
-<codeline lineno="10" refid="_combat_tags_8h_1af7853188198b41603fef033116dd9756" refkind="member"><highlight class="normal"><ref refid="_combat_tags_8h_1a15e308aa61f6cf2060a996b1b50385fd" kindref="member">UE_DECLARE_GAMEPLAY_TAG_EXTERN</ref>(TAG_Damage_Kill);</highlight></codeline>
-<codeline lineno="11" refid="_combat_tags_8h_1a3e33eb136c0806e5a197769e72c71a37" refkind="member"><highlight class="normal"><ref refid="_combat_tags_8h_1a15e308aa61f6cf2060a996b1b50385fd" kindref="member">UE_DECLARE_GAMEPLAY_TAG_EXTERN</ref>(TAG_Damage_Headshot);</highlight></codeline>
-<codeline lineno="12" refid="_combat_tags_8h_1a5a1b3b7f2b90eb109e638e40d6167414" refkind="member"><highlight class="normal"><ref refid="_combat_tags_8h_1a15e308aa61f6cf2060a996b1b50385fd" kindref="member">UE_DECLARE_GAMEPLAY_TAG_EXTERN</ref>(TAG_Damage_Bleed);</highlight></codeline>
-<codeline lineno="13" refid="_combat_tags_8h_1afcfadfcc4e71cfd01ba91e1babf57be9" refkind="member"><highlight class="normal"><ref refid="_combat_tags_8h_1a15e308aa61f6cf2060a996b1b50385fd" kindref="member">UE_DECLARE_GAMEPLAY_TAG_EXTERN</ref>(TAG_Damage_Fire);</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CoreMinimal.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameplayTagContainer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;NativeGameplayTags.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="_combat_tags_8h_1a15e308aa61f6cf2060a996b1b50385fd" refkind="member"><highlight class="normal"><ref refid="_combat_tags_8h_1a15e308aa61f6cf2060a996b1b50385fd" kindref="member">UE_DECLARE_GAMEPLAY_TAG_EXTERN</ref>(TAG_Damage_Critical);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="_combat_tags_8h_1af7853188198b41603fef033116dd9756" refkind="member"><highlight class="normal"><ref refid="_combat_tags_8h_1a15e308aa61f6cf2060a996b1b50385fd" kindref="member">UE_DECLARE_GAMEPLAY_TAG_EXTERN</ref>(TAG_Damage_Kill);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="_combat_tags_8h_1a3e33eb136c0806e5a197769e72c71a37" refkind="member"><highlight class="normal"><ref refid="_combat_tags_8h_1a15e308aa61f6cf2060a996b1b50385fd" kindref="member">UE_DECLARE_GAMEPLAY_TAG_EXTERN</ref>(TAG_Damage_Headshot);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="_combat_tags_8h_1a5a1b3b7f2b90eb109e638e40d6167414" refkind="member"><highlight class="normal"><ref refid="_combat_tags_8h_1a15e308aa61f6cf2060a996b1b50385fd" kindref="member">UE_DECLARE_GAMEPLAY_TAG_EXTERN</ref>(TAG_Damage_Bleed);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="_combat_tags_8h_1afcfadfcc4e71cfd01ba91e1babf57be9" refkind="member"><highlight class="normal"><ref refid="_combat_tags_8h_1a15e308aa61f6cf2060a996b1b50385fd" kindref="member">UE_DECLARE_GAMEPLAY_TAG_EXTERN</ref>(TAG_Damage_Fire);</highlight></codeline>
     </programlisting>
     <location file="Source/TimeAssassin/CombatTags.h"/>
   </compounddef>
