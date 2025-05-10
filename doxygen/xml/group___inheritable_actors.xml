@@ -2,10 +2,11 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
   <compounddef id="group___inheritable_actors" kind="group">
     <compoundname>InheritableActors</compoundname>
-    <title>Base Interactable Actors</title>
+    <title>Inheritable Actors</title>
+    <innerfile refid="_base_interactable_actor_8h">BaseInteractableActor.h</innerfile>
     <innerclass refid="class_a_base_interactable_actor" prot="public">ABaseInteractableActor</innerclass>
     <briefdescription>
-<para>Actors that can be “poked” by player or ghost to trigger interaction events. </para>
+<para>Actors that can be &quot;poked&quot; by player or ghost to trigger interaction events. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>

@@ -33,7 +33,7 @@
         <link refid="class_i_damageable_interface"/>
       </node>
     </inheritancegraph>
-    <location file="Source/TimeAssassin/DamageableInterface.h" line="29" column="1" bodyfile="Source/TimeAssassin/DamageableInterface.h" bodystart="30" bodyend="66"/>
+    <location file="Source/TimeAssassin/DamageableInterface.h" line="49" column="1" bodyfile="Source/TimeAssassin/DamageableInterface.h" bodystart="50" bodyend="86"/>
     <listofallmembers>
       <member refid="group___blueprint___interfaces_1gaa2527dc978acb578318f79c3704b6679" prot="public" virt="non-virtual"><scope>IDamageableInterface</scope><name>OnDamaged</name></member>
       <member refid="group___blueprint___interfaces_1ga9f9b8a6fb04274b8b2418423c31b823c" prot="public" virt="non-virtual"><scope>IDamageableInterface</scope><name>OnKilled</name></member>

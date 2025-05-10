@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="219" column="16" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="219" bodyend="-1"/>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="240" column="16" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="240" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_replay_attempt_1acc69c9b5665d878296c11d9527d1e3e3" prot="public" static="no" mutable="no">
         <type>FName</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="220" column="11" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="220" bodyend="-1"/>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="241" column="11" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="241" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="223" column="5" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="223" bodyend="227"/>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="244" column="5" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="244" bodyend="248"/>
       </memberdef>
       <memberdef kind="function" id="struct_f_replay_attempt_1a31d7f5c2aaf0870f78d4852bd162e69f" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
@@ -78,7 +78,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="233" column="14" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="233" bodyend="237"/>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="254" column="14" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="254" bodyend="258"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -87,7 +87,7 @@
     <detaileddescription>
 <para>Manages shared ownership of a frame array and assigns a unique ghost ID. </para>
     </detaileddescription>
-    <location file="Source/TimeAssassin/FPlayerFrameData.h" line="214" column="1" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="215" bodyend="238"/>
+    <location file="Source/TimeAssassin/FPlayerFrameData.h" line="235" column="1" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="236" bodyend="259"/>
     <listofallmembers>
       <member refid="struct_f_replay_attempt_1acc69c9b5665d878296c11d9527d1e3e3" prot="public" virt="non-virtual"><scope>FReplayAttempt</scope><name>AssignedGhostID</name></member>
       <member refid="struct_f_replay_attempt_1a7f05000aba0460dd78d6bb4ef5aa8dd6" prot="public" virt="non-virtual"><scope>FReplayAttempt</scope><name>FReplayAttempt</name></member>

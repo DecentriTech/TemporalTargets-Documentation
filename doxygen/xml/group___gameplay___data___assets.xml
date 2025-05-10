@@ -3,6 +3,7 @@
   <compounddef id="group___gameplay___data___assets" kind="group">
     <compoundname>Gameplay_Data_Assets</compoundname>
     <title>Gameplay Data Assets</title>
+    <innerfile refid="_weapon_data_asset_8h">WeaponDataAsset.h</innerfile>
     <innerclass refid="class_u_weapon_data_asset" prot="public">UWeaponDataAsset</innerclass>
     <briefdescription>
 <para>Data asset definitions for weapons, encapsulating damage, ammo, spread, and recoil parameters. </para>

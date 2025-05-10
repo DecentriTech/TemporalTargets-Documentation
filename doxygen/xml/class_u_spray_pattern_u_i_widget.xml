@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="36" column="23" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="36" bodyend="-1"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="55" column="23" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="55" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_spray_pattern_u_i_widget_1adc3a89a423fd06b1c04abbe516817ae1" prot="public" static="no" mutable="no">
         <type>class <ref refid="class_u_grid_canvas_widget" kindref="compound">UGridCanvasWidget</ref> *</type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="40" column="25" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="40" bodyend="-1"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="59" column="25" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="59" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_spray_pattern_u_i_widget_1aa369d4e690b54c3493381966fea2a55e" prot="public" static="no" mutable="no">
         <type>class USlider *</type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="44" column="15" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="44" bodyend="-1"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="63" column="15" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="63" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_spray_pattern_u_i_widget_1a8cb88001e2f8eec3d9419546f4fa6d75" prot="public" static="no" mutable="no">
         <type>class USlider *</type>
@@ -63,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="48" column="15" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="48" bodyend="-1"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="67" column="15" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="67" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_spray_pattern_u_i_widget_1a88d9791b679f795758730160bc4b62f2" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="52" column="7" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="52" bodyend="-1"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="71" column="7" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="71" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_spray_pattern_u_i_widget_1a13fde78e1f957de4ce8238ed4006707e" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="56" column="7" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="56" bodyend="-1"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="75" column="7" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="75" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_spray_pattern_u_i_widget_1aeffeba15b71664c246a4bff54d4ba929" prot="public" static="no" mutable="no">
         <type>FOnSprayPatternLoaded</type>
@@ -110,7 +110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="95" column="23" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="95" bodyend="-1"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="114" column="23" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="114" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_spray_pattern_u_i_widget_1a00a73548f0a64c78948ce921c9cb6d40" prot="public" static="no" mutable="no">
         <type>FOnSprayPatternExported</type>
@@ -125,7 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="99" column="25" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="99" bodyend="-1"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="118" column="25" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="118" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -142,7 +142,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="117" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="117" bodyend="-1"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="136" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="136" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -162,7 +162,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="63" column="18" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="38" bodyend="45"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="82" column="18" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="38" bodyend="45"/>
       </memberdef>
       <memberdef kind="function" id="class_u_spray_pattern_u_i_widget_1a71dc920c77bbe1910630e8497163d78e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="67" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="47" bodyend="69"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="86" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="47" bodyend="69"/>
       </memberdef>
       <memberdef kind="function" id="class_u_spray_pattern_u_i_widget_1a339d0de1c488b6f518b58a6886e55a4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -192,7 +192,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="71" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="71" bodyend="103"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="90" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="71" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="class_u_spray_pattern_u_i_widget_1ac70790e59efb34bc46fb106844fccc41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -207,7 +207,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="75" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="105" bodyend="141"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="94" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="105" bodyend="141"/>
       </memberdef>
       <memberdef kind="function" id="class_u_spray_pattern_u_i_widget_1aaf2315fe50a243dc0f6f3363bebe0c7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -222,7 +222,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="79" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="143" bodyend="150"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="98" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="143" bodyend="150"/>
       </memberdef>
       <memberdef kind="function" id="class_u_spray_pattern_u_i_widget_1aeefb54015e96f6c0fe41352c88f40cb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -237,7 +237,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="83" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="152" bodyend="162"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="102" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="152" bodyend="162"/>
       </memberdef>
       <memberdef kind="function" id="class_u_spray_pattern_u_i_widget_1a3bf79fac440d0f0d5536947fb7f56a8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -278,7 +278,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="91" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="164" bodyend="175"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="110" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="164" bodyend="175"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -295,7 +295,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="103" column="14" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="10" bodyend="22"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="122" column="14" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="10" bodyend="22"/>
       </memberdef>
       <memberdef kind="function" id="class_u_spray_pattern_u_i_widget_1a8c76179e8615eb96498b8a7d6fb958bd" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -318,7 +318,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="106" column="14" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="24" bodyend="28"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="125" column="14" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="24" bodyend="28"/>
       </memberdef>
       <memberdef kind="function" id="class_u_spray_pattern_u_i_widget_1a2d8d82b242636bb4a8fb57f140904173" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -342,7 +342,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="113" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="30" bodyend="36"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="132" column="6" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.cpp" bodystart="30" bodyend="36"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -401,7 +401,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="29" column="1" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="30" bodyend="118"/>
+    <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="48" column="1" bodyfile="Source/TimeAssassin/SprayPatternUIWidget.h" bodystart="49" bodyend="137"/>
     <listofallmembers>
       <member refid="class_u_spray_pattern_u_i_widget_1a9e28431e12bf342644599389301fc498" prot="public" virt="non-virtual"><scope>USprayPatternUIWidget</scope><name>GetSelectedWeaponData</name></member>
       <member refid="class_u_spray_pattern_u_i_widget_1adc3a89a423fd06b1c04abbe516817ae1" prot="public" virt="non-virtual"><scope>USprayPatternUIWidget</scope><name>GridCanvasRef</name></member>

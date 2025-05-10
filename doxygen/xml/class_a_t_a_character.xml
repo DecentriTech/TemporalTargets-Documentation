@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="138" column="14" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="138" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="159" column="14" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="159" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_t_a_character_1a56776084952303233b7060add1200b61" prot="public" static="no" mutable="no">
         <type>UInputAction *</type>
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="142" column="14" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="142" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="163" column="14" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="163" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_t_a_character_1a12869ea76eaafb37b28c609c732d920e" prot="public" static="no" mutable="no">
         <type>UInputAction *</type>
@@ -51,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="146" column="14" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="146" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="167" column="14" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="167" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_t_a_character_1afa12289fec485e8ac989d377f3b9ece6" prot="public" static="no" mutable="no">
         <type>UInputAction *</type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="150" column="14" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="150" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="171" column="14" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="171" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_t_a_character_1a3b32ca6e09c69e99999ea9c66fe712dc" prot="public" static="no" mutable="no">
         <type>UInputMappingContext *</type>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="154" column="22" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="154" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="175" column="22" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="175" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_t_a_character_1a5d445cc065fe5e3bd04fd8b00c82028d" prot="public" static="no" mutable="no">
         <type><ref refid="class_u_interaction_component" kindref="compound">UInteractionComponent</ref> *</type>
@@ -96,7 +96,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="159" column="23" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="159" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="180" column="23" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="180" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_t_a_character_1a2a904c02b55c2da7d1fef9a03289f456" prot="public" static="no" mutable="no">
         <type><ref refid="class_u_weapon_component" kindref="compound">UWeaponComponent</ref> *</type>
@@ -111,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="163" column="18" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="163" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="184" column="18" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="184" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_t_a_character_1a666442dd8f14913d33e191711aa9e793" prot="public" static="no" mutable="no">
         <type><ref refid="class_u_weapon_inventory_component" kindref="compound">UWeaponInventoryComponent</ref> *</type>
@@ -126,7 +126,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="167" column="27" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="167" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="188" column="27" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="188" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_t_a_character_1ae55321ef89f0bcf840071cd5d06ca0ee" prot="public" static="no" mutable="no">
         <type><ref refid="class_u_replay_recorder_component" kindref="compound">UReplayRecorderComponent</ref> *</type>
@@ -141,7 +141,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="171" column="26" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="171" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="192" column="26" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="192" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_t_a_character_1afe2dbc1676b59d86446674fce889bf50" prot="public" static="no" mutable="no">
         <type><ref refid="class_u_damageable_component" kindref="compound">UDamageableComponent</ref> *</type>
@@ -156,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="175" column="22" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="175" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="196" column="22" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="196" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_t_a_character_1ad65d33a9d03a16c6e29c4704a2597651" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="179" column="6" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="179" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="200" column="6" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="200" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_t_a_character_1af65fa3db755797178b6ff37a85106a35" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -188,7 +188,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="183" column="6" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="183" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="204" column="6" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="204" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_t_a_character_1a70cf14400b33049edd3255fad8b4a23a" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -204,7 +204,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="187" column="6" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="187" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="208" column="6" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="208" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -221,7 +221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="42" column="1" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="17" bodyend="30"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="63" column="1" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="17" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1a0b3303649f2c9d56f5107fbacae47c2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -251,7 +251,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="48" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="154" bodyend="160"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="69" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="154" bodyend="160"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1a31fded5f24f008951aae1f564dd8f44d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -281,7 +281,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="54" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="162" bodyend="168"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="75" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="162" bodyend="168"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1a5b61351d0c222bfdc0103b8b74e08082" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -311,7 +311,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="60" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="170" bodyend="172"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="81" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="170" bodyend="172"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1acbc7c6743e7998be329f874f1f23fc66" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -343,7 +343,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="67" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="174" bodyend="177"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="88" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="174" bodyend="177"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1a007eb1ccba227843acd147822276182b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -373,7 +373,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="74" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="179" bodyend="189"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="95" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="179" bodyend="189"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1a8f5472dbf55dcaf449150571a59ba922" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -415,7 +415,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="81" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="191" bodyend="196"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="102" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="191" bodyend="196"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1afb090e9a0e5122c871721a8ca6fc5b4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -445,7 +445,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="87" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="198" bodyend="240"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="108" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="198" bodyend="240"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1a51a71d6715cb82dbbc4e0853bb5aebf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -475,7 +475,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="104" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="66" bodyend="79"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="125" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="66" bodyend="79"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1abf0a2c3e9f2c3cb6d1b90d9c61d3ce6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -504,7 +504,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="110" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="82" bodyend="109"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="131" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="82" bodyend="109"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1a72d7a056dc34a8d78851ae798665f459" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -533,7 +533,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="117" column="6" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="111" bodyend="120"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="138" column="6" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="111" bodyend="120"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1a9a11c73ee847ca8b9044b743f8546eaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -548,7 +548,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="121" column="6" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="122" bodyend="128"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="142" column="6" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="122" bodyend="128"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1afacada742a789a7c3e3f30e13e09ff87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -563,7 +563,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="125" column="6" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="130" bodyend="136"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="146" column="6" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="130" bodyend="136"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1a2e0c752c342bae3c9440ee782c5a41b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -578,7 +578,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="129" column="6" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="138" bodyend="144"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="150" column="6" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="138" bodyend="144"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1a5f3a7acaee16dd379c919c2e90beef42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -593,7 +593,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="133" column="6" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="146" bodyend="152"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="154" column="6" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="146" bodyend="152"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -611,7 +611,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="91" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="33" bodyend="44"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="112" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="33" bodyend="44"/>
       </memberdef>
       <memberdef kind="function" id="class_a_t_a_character_1adcf843d2647ef856dd447b67e14cece4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -640,7 +640,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TACharacter.h" line="97" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="46" bodyend="63"/>
+        <location file="Source/TimeAssassin/TACharacter.h" line="118" column="14" bodyfile="Source/TimeAssassin/TACharacter.cpp" bodystart="46" bodyend="63"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -795,7 +795,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Source/TimeAssassin/TACharacter.h" line="33" column="1" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="37" bodyend="188"/>
+    <location file="Source/TimeAssassin/TACharacter.h" line="54" column="1" bodyfile="Source/TimeAssassin/TACharacter.h" bodystart="58" bodyend="209"/>
     <listofallmembers>
       <member refid="class_a_t_a_character_1a8185ed66c282be6328391c99c4c0d3db" prot="public" virt="non-virtual"><scope>ATACharacter</scope><name>ATACharacter</name></member>
       <member refid="class_a_t_a_character_1a1d467ce9f55b11cbcc2c8f26279fb793" prot="protected" virt="virtual"><scope>ATACharacter</scope><name>BeginPlay</name></member>

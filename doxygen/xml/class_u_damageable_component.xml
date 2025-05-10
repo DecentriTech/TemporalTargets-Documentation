@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/DamageableComponent.h" line="143" column="11" bodyfile="Source/TimeAssassin/DamageableComponent.h" bodystart="143" bodyend="-1"/>
+        <location file="Source/TimeAssassin/DamageableComponent.h" line="161" column="11" bodyfile="Source/TimeAssassin/DamageableComponent.h" bodystart="161" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_damageable_component_1afb3a578e0c1401ed5ac7e2d852faf925" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/DamageableComponent.h" line="147" column="10" bodyfile="Source/TimeAssassin/DamageableComponent.h" bodystart="147" bodyend="-1"/>
+        <location file="Source/TimeAssassin/DamageableComponent.h" line="165" column="10" bodyfile="Source/TimeAssassin/DamageableComponent.h" bodystart="165" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_damageable_component_1a7ab03ef35ba0295ed70ebfd415c4e2ea" prot="public" static="no" mutable="no">
         <type>FOnDamageTakenSignature</type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/DamageableComponent.h" line="153" column="29" bodyfile="Source/TimeAssassin/DamageableComponent.h" bodystart="153" bodyend="-1"/>
+        <location file="Source/TimeAssassin/DamageableComponent.h" line="171" column="29" bodyfile="Source/TimeAssassin/DamageableComponent.h" bodystart="171" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_damageable_component_1a0072fe6418a90f6635e44dd2f8921042" prot="public" static="no" mutable="no">
         <type>FOnDeathSignature</type>
@@ -65,7 +65,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/DamageableComponent.h" line="157" column="23" bodyfile="Source/TimeAssassin/DamageableComponent.h" bodystart="157" bodyend="-1"/>
+        <location file="Source/TimeAssassin/DamageableComponent.h" line="175" column="23" bodyfile="Source/TimeAssassin/DamageableComponent.h" bodystart="175" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_damageable_component_1a2f14c8b5c8ff5f3f8d3b2e6789e754e9" prot="public" static="no" mutable="no">
         <type><ref refid="struct_f_damage_info" kindref="compound">FDamageInfo</ref></type>
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/DamageableComponent.h" line="161" column="17" bodyfile="Source/TimeAssassin/DamageableComponent.h" bodystart="161" bodyend="-1"/>
+        <location file="Source/TimeAssassin/DamageableComponent.h" line="179" column="17" bodyfile="Source/TimeAssassin/DamageableComponent.h" bodystart="179" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-attrib">
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/DamageableComponent.h" line="178" column="11" bodyfile="Source/TimeAssassin/DamageableComponent.h" bodystart="178" bodyend="-1"/>
+        <location file="Source/TimeAssassin/DamageableComponent.h" line="196" column="11" bodyfile="Source/TimeAssassin/DamageableComponent.h" bodystart="196" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_damageable_component_1a55a2b2b04ad5542a35c5b64510b2e9d5" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/DamageableComponent.h" line="182" column="10" bodyfile="Source/TimeAssassin/DamageableComponent.h" bodystart="182" bodyend="-1"/>
+        <location file="Source/TimeAssassin/DamageableComponent.h" line="200" column="10" bodyfile="Source/TimeAssassin/DamageableComponent.h" bodystart="200" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/DamageableComponent.h" line="109" column="5" bodyfile="Source/TimeAssassin/DamageableComponent.cpp" bodystart="11" bodyend="18"/>
+        <location file="Source/TimeAssassin/DamageableComponent.h" line="127" column="5" bodyfile="Source/TimeAssassin/DamageableComponent.cpp" bodystart="11" bodyend="18"/>
       </memberdef>
       <memberdef kind="function" id="class_u_damageable_component_1a7c4abcb86c51c1eb39511494cfbee1bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -160,7 +160,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/DamageableComponent.h" line="116" column="10" bodyfile="Source/TimeAssassin/DamageableComponent.cpp" bodystart="30" bodyend="57"/>
+        <location file="Source/TimeAssassin/DamageableComponent.h" line="134" column="10" bodyfile="Source/TimeAssassin/DamageableComponent.cpp" bodystart="30" bodyend="57"/>
       </memberdef>
       <memberdef kind="function" id="class_u_damageable_component_1aa66ec8aeace8315def60c8769219a172" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -189,7 +189,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/DamageableComponent.h" line="123" column="10" bodyfile="Source/TimeAssassin/DamageableComponent.cpp" bodystart="96" bodyend="102"/>
+        <location file="Source/TimeAssassin/DamageableComponent.h" line="141" column="10" bodyfile="Source/TimeAssassin/DamageableComponent.cpp" bodystart="96" bodyend="102"/>
       </memberdef>
       <memberdef kind="function" id="class_u_damageable_component_1a67be50b84291a8d9be223b2a0ce9b158" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -207,7 +207,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/DamageableComponent.h" line="130" column="10" bodyfile="Source/TimeAssassin/DamageableComponent.cpp" bodystart="103" bodyend="106"/>
+        <location file="Source/TimeAssassin/DamageableComponent.h" line="148" column="10" bodyfile="Source/TimeAssassin/DamageableComponent.cpp" bodystart="103" bodyend="106"/>
       </memberdef>
       <memberdef kind="function" id="class_u_damageable_component_1ac546ba704e419e0d05f458dc27bbf71f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -225,7 +225,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/DamageableComponent.h" line="137" column="11" bodyfile="Source/TimeAssassin/DamageableComponent.cpp" bodystart="108" bodyend="111"/>
+        <location file="Source/TimeAssassin/DamageableComponent.h" line="155" column="11" bodyfile="Source/TimeAssassin/DamageableComponent.cpp" bodystart="108" bodyend="111"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -242,7 +242,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/DamageableComponent.h" line="165" column="18" bodyfile="Source/TimeAssassin/DamageableComponent.cpp" bodystart="22" bodyend="28"/>
+        <location file="Source/TimeAssassin/DamageableComponent.h" line="183" column="18" bodyfile="Source/TimeAssassin/DamageableComponent.cpp" bodystart="22" bodyend="28"/>
       </memberdef>
       <memberdef kind="function" id="class_u_damageable_component_1adf368c5991d1e03392c160c3acd35b10" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -271,7 +271,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/DamageableComponent.h" line="171" column="10" bodyfile="Source/TimeAssassin/DamageableComponent.cpp" bodystart="72" bodyend="94"/>
+        <location file="Source/TimeAssassin/DamageableComponent.h" line="189" column="10" bodyfile="Source/TimeAssassin/DamageableComponent.cpp" bodystart="72" bodyend="94"/>
       </memberdef>
       <memberdef kind="function" id="class_u_damageable_component_1a4bd397f8e531ad4ef8909a5e97cb2fba" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -286,7 +286,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/DamageableComponent.h" line="174" column="10" bodyfile="Source/TimeAssassin/DamageableComponent.cpp" bodystart="59" bodyend="70"/>
+        <location file="Source/TimeAssassin/DamageableComponent.h" line="192" column="10" bodyfile="Source/TimeAssassin/DamageableComponent.cpp" bodystart="59" bodyend="70"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -330,7 +330,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Source/TimeAssassin/DamageableComponent.h" line="103" column="1" bodyfile="Source/TimeAssassin/DamageableComponent.h" bodystart="104" bodyend="183"/>
+    <location file="Source/TimeAssassin/DamageableComponent.h" line="121" column="1" bodyfile="Source/TimeAssassin/DamageableComponent.h" bodystart="122" bodyend="201"/>
     <listofallmembers>
       <member refid="class_u_damageable_component_1a7c4abcb86c51c1eb39511494cfbee1bc" prot="public" virt="non-virtual"><scope>UDamageableComponent</scope><name>ApplyDamage</name></member>
       <member refid="class_u_damageable_component_1afb3a578e0c1401ed5ac7e2d852faf925" prot="public" virt="non-virtual"><scope>UDamageableComponent</scope><name>bCanDie</name></member>

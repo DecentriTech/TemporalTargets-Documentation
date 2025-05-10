@@ -3,6 +3,8 @@
   <compounddef id="group___blueprint___interfaces" kind="group">
     <compoundname>Blueprint_Interfaces</compoundname>
     <title>Blueprint Interfaces</title>
+    <innerfile refid="_b_p_i___interactable_8h">BPI_Interactable.h</innerfile>
+    <innerfile refid="_damageable_interface_8h">DamageableInterface.h</innerfile>
     <innerclass refid="class_u_b_p_i___interactable" prot="public">UBPI_Interactable</innerclass>
     <innerclass refid="class_i_b_p_i___interactable" prot="public">IBPI_Interactable</innerclass>
     <innerclass refid="class_u_damageable_interface" prot="public">UDamageableInterface</innerclass>
@@ -35,7 +37,7 @@ Call this function to inflict damage. The implementation should reduce health an
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/DamageableInterface.h" line="44" column="6"/>
+        <location file="Source/TimeAssassin/DamageableInterface.h" line="64" column="6"/>
       </memberdef>
       <memberdef kind="function" id="group___blueprint___interfaces_1gaa2527dc978acb578318f79c3704b6679" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -76,7 +78,7 @@ Override to play hit reactions, spawn VFX/SFX, or update UI. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/DamageableInterface.h" line="55" column="6"/>
+        <location file="Source/TimeAssassin/DamageableInterface.h" line="75" column="6"/>
       </memberdef>
       <memberdef kind="function" id="group___blueprint___interfaces_1ga9f9b8a6fb04274b8b2418423c31b823c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -105,7 +107,7 @@ Override to handle death logic: ragdoll, remove the actor, award points, etc. </
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/DamageableInterface.h" line="65" column="6"/>
+        <location file="Source/TimeAssassin/DamageableInterface.h" line="85" column="6"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

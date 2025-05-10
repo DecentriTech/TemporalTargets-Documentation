@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="25" column="27" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="25" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="46" column="27" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="46" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_replay_handler_entry_1ad3397bb1077e60055aee63d248c8d9e5" prot="public" static="no" mutable="no">
         <type>FReplayEventDelegate</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="26" column="27" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="26" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="47" column="27" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="47" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -40,7 +40,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Source/TimeAssassin/TemporalCharacter.h" line="23" column="1" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="24" bodyend="27"/>
+    <location file="Source/TimeAssassin/TemporalCharacter.h" line="44" column="1" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="45" bodyend="48"/>
     <listofallmembers>
       <member refid="struct_f_replay_handler_entry_1a907577cfd4db9610671659e64fc0546d" prot="public" virt="non-virtual"><scope>FReplayHandlerEntry</scope><name>Flag</name></member>
       <member refid="struct_f_replay_handler_entry_1ad3397bb1077e60055aee63d248c8d9e5" prot="public" virt="non-virtual"><scope>FReplayHandlerEntry</scope><name>Handler</name></member>

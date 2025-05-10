@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SpectatorHudWidget.h" line="49" column="16" bodyfile="Source/TimeAssassin/SpectatorHudWidget.h" bodystart="49" bodyend="-1"/>
+        <location file="Source/TimeAssassin/SpectatorHudWidget.h" line="66" column="16" bodyfile="Source/TimeAssassin/SpectatorHudWidget.h" bodystart="66" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -38,7 +38,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SpectatorHudWidget.h" line="58" column="11" bodyfile="Source/TimeAssassin/SpectatorHudWidget.h" bodystart="58" bodyend="-1"/>
+        <location file="Source/TimeAssassin/SpectatorHudWidget.h" line="75" column="11" bodyfile="Source/TimeAssassin/SpectatorHudWidget.h" bodystart="75" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SpectatorHudWidget.h" line="32" column="10" bodyfile="Source/TimeAssassin/SpectatorHudWidget.cpp" bodystart="8" bodyend="12"/>
+        <location file="Source/TimeAssassin/SpectatorHudWidget.h" line="49" column="10" bodyfile="Source/TimeAssassin/SpectatorHudWidget.cpp" bodystart="8" bodyend="12"/>
       </memberdef>
       <memberdef kind="function" id="class_u_spectator_hud_widget_1a187aa79f6b303d75f0684e9b7a588561" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -102,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SpectatorHudWidget.h" line="40" column="10" bodyfile="Source/TimeAssassin/SpectatorHudWidget.cpp" bodystart="14" bodyend="21"/>
+        <location file="Source/TimeAssassin/SpectatorHudWidget.h" line="57" column="10" bodyfile="Source/TimeAssassin/SpectatorHudWidget.cpp" bodystart="14" bodyend="21"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -133,7 +133,7 @@
         <label>UUserWidget</label>
       </node>
     </collaborationgraph>
-    <location file="Source/TimeAssassin/SpectatorHudWidget.h" line="21" column="1" bodyfile="Source/TimeAssassin/SpectatorHudWidget.h" bodystart="22" bodyend="59"/>
+    <location file="Source/TimeAssassin/SpectatorHudWidget.h" line="38" column="1" bodyfile="Source/TimeAssassin/SpectatorHudWidget.h" bodystart="39" bodyend="76"/>
     <listofallmembers>
       <member refid="class_u_spectator_hud_widget_1a065ed56f15bd966f96c21a20fe193693" prot="protected" virt="non-virtual"><scope>USpectatorHudWidget</scope><name>CountdownText</name></member>
       <member refid="class_u_spectator_hud_widget_1ab7017e2d38139da608af09a7a0233439" prot="public" virt="non-virtual"><scope>USpectatorHudWidget</scope><name>SetRespawnTime</name></member>

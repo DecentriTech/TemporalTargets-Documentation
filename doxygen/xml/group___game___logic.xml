@@ -3,6 +3,12 @@
   <compounddef id="group___game___logic" kind="group">
     <compoundname>Game_Logic</compoundname>
     <title>Core Gameplay Logic</title>
+    <innerfile refid="_orbit_spectator_pawn_8h">OrbitSpectatorPawn.h</innerfile>
+    <innerfile refid="_t_a_character_8h">TACharacter.h</innerfile>
+    <innerfile refid="_t_a_player_controller_8h">TAPlayerController.h</innerfile>
+    <innerfile refid="_temporal_a_i_controller_8h">TemporalAIController.h</innerfile>
+    <innerfile refid="_temporal_character_8h">TemporalCharacter.h</innerfile>
+    <innerfile refid="_temporal_game_mode_8h">TemporalGameMode.h</innerfile>
     <innerclass refid="class_a_orbit_spectator_pawn" prot="public">AOrbitSpectatorPawn</innerclass>
     <innerclass refid="class_a_t_a_character" prot="public">ATACharacter</innerclass>
     <innerclass refid="class_a_t_a_player_controller" prot="public">ATAPlayerController</innerclass>
