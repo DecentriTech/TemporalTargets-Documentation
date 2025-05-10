@@ -18,3 +18,7 @@ This documentation includes:
 - 📐 **Weapon Data Assets & Firing Patterns**
 - 🧱 **User Interface Widgets**
 - 🎮 **Custom Editor Tools**
+
+
+📄 License
+This documentation is proprietary to **DecentriTech** and intended for internal use or external API reference under proper license.
