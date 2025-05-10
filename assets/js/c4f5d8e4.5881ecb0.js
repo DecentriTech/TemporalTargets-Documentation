@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[2634],{9179:(e,n,t)=>{t.r(n),t.d(n,{default:()=>u});var s=t(6540),a=t(6347),c=t(1934);function u(){if(!c.A.canUseDOM)return null;const e=(0,a.W6)(),n="/TemporalTargets-Documentation/";return(0,s.useEffect)((()=>{const t=window.location.pathname;("/"===t||t===n)&&e.replace(`${n}docs/API`)}),[e]),null}}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[2634],{9179:(e,t,s)=>{s.r(t),s.d(t,{default:()=>n});var u=s(6540),c=s(6347);function n(){const e=(0,c.W6)();return(0,u.useEffect)((()=>{e.replace("/TemporalTargets-Documentation/docs/API")}),[e]),null}}}]);
