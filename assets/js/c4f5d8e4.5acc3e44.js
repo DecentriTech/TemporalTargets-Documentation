@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[2634],{9179:(e,s,t)=>{t.r(s),t.d(s,{default:()=>f});var u=t(6540),c=t(6347),n=t(9030);function f(){const e=(0,c.W6)(),s=(0,n.Ay)("/docs/API");return(0,u.useEffect)((()=>{e.replace(s)}),[e,s]),null}}}]);
