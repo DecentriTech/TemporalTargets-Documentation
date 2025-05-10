@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="99" column="16" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="99" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="120" column="16" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="120" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_temporal_character_1af1c84fd0c105c9a623da357a1ef3302a" prot="private" static="no" mutable="no">
         <type>TArray&lt; float &gt;</type>
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="102" column="12" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="102" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="123" column="12" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="123" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_temporal_character_1a5fd5e34a8a8b28296d28154c8b0e9d48" prot="private" static="no" mutable="no">
         <type>FVector</type>
@@ -51,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="105" column="13" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="105" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="126" column="13" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="126" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_temporal_character_1ad4db9cd1cff04a4c9cc488eee1b8630c" prot="private" static="no" mutable="no">
         <type>TArray&lt; <ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref> &gt;</type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="109" column="12" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="109" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="130" column="12" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="130" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_temporal_character_1ab4d3ee10af91b626d223f704316948d1" prot="private" static="no" mutable="no">
         <type>TMap&lt; FSoftObjectPath, <ref refid="class_u_weapon_data_asset" kindref="compound">UWeaponDataAsset</ref> * &gt;</type>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="113" column="10" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="113" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="134" column="10" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="134" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_temporal_character_1a67673baa8f7cc8622a16e9733fa978cb" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -96,7 +96,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="117" column="11" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="117" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="138" column="11" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="138" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_temporal_character_1a6c75476b38e5f282597ac260805706dc" prot="private" static="no" mutable="no">
         <type>uint8</type>
@@ -112,7 +112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="120" column="11" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="120" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="141" column="11" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="141" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_temporal_character_1a6f9ccb885c218189efedb6d30b9eb0fe" prot="private" static="no" mutable="no">
         <type>int32</type>
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="123" column="11" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="123" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="144" column="11" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="144" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_temporal_character_1a977b73d33bbec5918cb5b9d6def3cc1a" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -144,7 +144,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="126" column="11" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="126" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="147" column="11" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="147" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_temporal_character_1abf6c7c6aca0ecd935f7a91aabf4b9b57" prot="private" static="no" mutable="no">
         <type>int32</type>
@@ -160,7 +160,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="130" column="11" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="130" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="151" column="11" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="151" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_temporal_character_1a6456d62609dce400918c6a88ff5e12da" prot="private" static="no" mutable="no">
         <type>TArray&lt; float &gt;</type>
@@ -175,7 +175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="134" column="12" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="134" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="155" column="12" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="155" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_temporal_character_1a1bcb0fc42ec0b14204fa1ca589931c58" prot="private" static="no" mutable="no">
         <type>TArray&lt; <ref refid="struct_f_replay_handler_entry" kindref="compound">FReplayHandlerEntry</ref> &gt;</type>
@@ -190,7 +190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="137" column="12" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="137" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="158" column="12" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="158" bodyend="-1"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_character_1afc2a969d0bfae6ded5f58af00cdec4db" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -204,7 +204,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="92" column="10" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="503" bodyend="513"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="113" column="10" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="503" bodyend="513"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_character_1af171fc77f851673403d59d286197f5fd" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -218,7 +218,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="93" column="10" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="515" bodyend="760"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="114" column="10" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="515" bodyend="760"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_character_1accf59b4a4abec73019a526a874076cbe" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -232,7 +232,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="94" column="10" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="762" bodyend="796"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="115" column="10" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="762" bodyend="796"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_character_1a745d6f6b56355d20a6bfe60a82dd199d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -261,7 +261,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="143" column="10" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="207" bodyend="305"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="164" column="10" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="207" bodyend="305"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_character_1a95c4e4fb84e82d7057db4c24f285c24d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -290,7 +290,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="149" column="10" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="307" bodyend="352"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="170" column="10" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="307" bodyend="352"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_character_1a61318c77c5821210f32ec1b0e625cd6d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32</type>
@@ -309,7 +309,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="161" column="11" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="473" bodyend="501"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="182" column="11" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="473" bodyend="501"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_character_1a7758d063ce228d511c90efd4ff0d8759" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -332,7 +332,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="166" column="11" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="436" bodyend="471"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="187" column="11" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="436" bodyend="471"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_character_1aa9e690184522fb9542f1f488e37125e6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int32</type>
@@ -351,7 +351,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="171" column="11" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="384" bodyend="431"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="192" column="11" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="384" bodyend="431"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_character_1ac65bcd28d575599452d3abd0534b71e6" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>FVector2D</type>
@@ -378,7 +378,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="154" column="22" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="354" bodyend="382"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="175" column="22" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="354" bodyend="382"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-attrib">
@@ -395,7 +395,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="82" column="11" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="82" bodyend="-1"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="103" column="11" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="103" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -412,7 +412,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="46" column="5" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="17" bodyend="57"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="67" column="5" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="17" bodyend="57"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_character_1a1efeb6e6a04c85d8e29dd8b8fe1b2c0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -427,7 +427,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="49" column="13" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="59" bodyend="62"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="70" column="13" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="59" bodyend="62"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_character_1a6870164dc921d6cb870dc2f5acc1e427" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -456,7 +456,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="55" column="18" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="64" bodyend="70"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="76" column="18" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="64" bodyend="70"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_character_1a4ceee8241c27f2e30ea2aa494cd4af94" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -486,7 +486,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="61" column="18" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="91" bodyend="104"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="82" column="18" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="91" bodyend="104"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_character_1a775894fbb17c7d40caacabd2ffdf7acb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -515,7 +515,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="67" column="10" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="106" bodyend="190"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="88" column="10" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="106" bodyend="190"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_character_1a2ce29be167b8086ade12bd84c96521db" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const TArray&lt; <ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref> &gt; &amp;</type>
@@ -533,7 +533,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="74" column="18" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="192" bodyend="195"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="95" column="18" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="192" bodyend="195"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_character_1a9196bf916e358973e22db2f41d32fe26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -548,7 +548,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="78" column="10" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="197" bodyend="205"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="99" column="10" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="197" bodyend="205"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -566,7 +566,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalCharacter.h" line="86" column="18" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="72" bodyend="89"/>
+        <location file="Source/TimeAssassin/TemporalCharacter.h" line="107" column="18" bodyfile="Source/TimeAssassin/TemporalCharacter.cpp" bodystart="72" bodyend="89"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -720,7 +720,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Source/TimeAssassin/TemporalCharacter.h" line="40" column="1" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="41" bodyend="172"/>
+    <location file="Source/TimeAssassin/TemporalCharacter.h" line="61" column="1" bodyfile="Source/TimeAssassin/TemporalCharacter.h" bodystart="62" bodyend="193"/>
     <listofallmembers>
       <member refid="class_a_t_a_character_1a8185ed66c282be6328391c99c4c0d3db" prot="public" virt="non-virtual"><scope>ATemporalCharacter</scope><name>ATACharacter</name></member>
       <member refid="class_a_temporal_character_1a667d9c49508c25567dfb5672b15a6008" prot="public" virt="non-virtual"><scope>ATemporalCharacter</scope><name>ATemporalCharacter</name></member>

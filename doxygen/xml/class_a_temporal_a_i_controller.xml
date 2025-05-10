@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalAIController.h" line="27" column="14" bodyfile="Source/TimeAssassin/TemporalAIController.cpp" bodystart="5" bodyend="19"/>
+        <location file="Source/TimeAssassin/TemporalAIController.h" line="43" column="14" bodyfile="Source/TimeAssassin/TemporalAIController.cpp" bodystart="5" bodyend="19"/>
       </memberdef>
       <memberdef kind="function" id="class_a_temporal_a_i_controller_1a6ee470e16b43a49793ad3b23c402fbcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/TemporalAIController.h" line="32" column="14" bodyfile="Source/TimeAssassin/TemporalAIController.cpp" bodystart="21" bodyend="25"/>
+        <location file="Source/TimeAssassin/TemporalAIController.h" line="48" column="14" bodyfile="Source/TimeAssassin/TemporalAIController.cpp" bodystart="21" bodyend="25"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -78,7 +78,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Source/TimeAssassin/TemporalAIController.h" line="18" column="1" bodyfile="Source/TimeAssassin/TemporalAIController.h" bodystart="19" bodyend="33"/>
+    <location file="Source/TimeAssassin/TemporalAIController.h" line="34" column="1" bodyfile="Source/TimeAssassin/TemporalAIController.h" bodystart="35" bodyend="49"/>
     <listofallmembers>
       <member refid="class_a_temporal_a_i_controller_1ab56da7f03a3e0ce8c327eabe60cb87c6" prot="public" virt="virtual"><scope>ATemporalAIController</scope><name>OnPossess</name></member>
       <member refid="class_a_temporal_a_i_controller_1a6ee470e16b43a49793ad3b23c402fbcc" prot="public" virt="virtual"><scope>ATemporalAIController</scope><name>OnUnPossess</name></member>

@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/InteractionComponent.h" line="55" column="11" bodyfile="Source/TimeAssassin/InteractionComponent.h" bodystart="55" bodyend="-1"/>
+        <location file="Source/TimeAssassin/InteractionComponent.h" line="74" column="11" bodyfile="Source/TimeAssassin/InteractionComponent.h" bodystart="74" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_interaction_component_1a5585daeeb972b00edd15eaae9cf786ff" prot="protected" static="no" mutable="no">
         <type>float</type>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/InteractionComponent.h" line="59" column="11" bodyfile="Source/TimeAssassin/InteractionComponent.h" bodystart="59" bodyend="-1"/>
+        <location file="Source/TimeAssassin/InteractionComponent.h" line="78" column="11" bodyfile="Source/TimeAssassin/InteractionComponent.h" bodystart="78" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_interaction_component_1a3b20ebc5decc62092728cdb996e8a79e" prot="protected" static="no" mutable="no">
         <type>float</type>
@@ -51,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/InteractionComponent.h" line="63" column="11" bodyfile="Source/TimeAssassin/InteractionComponent.h" bodystart="63" bodyend="-1"/>
+        <location file="Source/TimeAssassin/InteractionComponent.h" line="82" column="11" bodyfile="Source/TimeAssassin/InteractionComponent.h" bodystart="82" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_interaction_component_1ab95ad018f7deaa0878b36bc12e32619d" prot="protected" static="no" mutable="no">
         <type>AActor *</type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/InteractionComponent.h" line="67" column="12" bodyfile="Source/TimeAssassin/InteractionComponent.h" bodystart="67" bodyend="-1"/>
+        <location file="Source/TimeAssassin/InteractionComponent.h" line="86" column="12" bodyfile="Source/TimeAssassin/InteractionComponent.h" bodystart="86" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_interaction_component_1ae2f1dd0d326300b71942b1cfc201ce19" prot="protected" static="no" mutable="no">
         <type>TSet&lt; AActor * &gt;</type>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/InteractionComponent.h" line="71" column="10" bodyfile="Source/TimeAssassin/InteractionComponent.h" bodystart="71" bodyend="-1"/>
+        <location file="Source/TimeAssassin/InteractionComponent.h" line="90" column="10" bodyfile="Source/TimeAssassin/InteractionComponent.h" bodystart="90" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_interaction_component_1abd914db50bdde13b8e001ddadffaabb1" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -97,7 +97,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/InteractionComponent.h" line="74" column="10" bodyfile="Source/TimeAssassin/InteractionComponent.h" bodystart="74" bodyend="-1"/>
+        <location file="Source/TimeAssassin/InteractionComponent.h" line="93" column="10" bodyfile="Source/TimeAssassin/InteractionComponent.h" bodystart="93" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_interaction_component_1ac8e1ef4df88221a6042e82f92c25c004" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/InteractionComponent.h" line="78" column="10" bodyfile="Source/TimeAssassin/InteractionComponent.h" bodystart="78" bodyend="-1"/>
+        <location file="Source/TimeAssassin/InteractionComponent.h" line="97" column="10" bodyfile="Source/TimeAssassin/InteractionComponent.h" bodystart="97" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/InteractionComponent.h" line="28" column="5" bodyfile="Source/TimeAssassin/InteractionComponent.cpp" bodystart="16" bodyend="23"/>
+        <location file="Source/TimeAssassin/InteractionComponent.h" line="47" column="5" bodyfile="Source/TimeAssassin/InteractionComponent.cpp" bodystart="16" bodyend="23"/>
       </memberdef>
       <memberdef kind="function" id="class_u_interaction_component_1a0b37d2aef5c83c3c85b3eb9bd3e3d28a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -146,7 +146,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/InteractionComponent.h" line="86" column="10" bodyfile="Source/TimeAssassin/InteractionComponent.cpp" bodystart="135" bodyend="163"/>
+        <location file="Source/TimeAssassin/InteractionComponent.h" line="105" column="10" bodyfile="Source/TimeAssassin/InteractionComponent.cpp" bodystart="135" bodyend="163"/>
       </memberdef>
       <memberdef kind="function" id="class_u_interaction_component_1afe642e5f0b9a1c20947f646f8d75dd88" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>AActor *</type>
@@ -164,7 +164,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/InteractionComponent.h" line="93" column="12" bodyfile="Source/TimeAssassin/InteractionComponent.h" bodystart="93" bodyend="93"/>
+        <location file="Source/TimeAssassin/InteractionComponent.h" line="112" column="12" bodyfile="Source/TimeAssassin/InteractionComponent.h" bodystart="112" bodyend="112"/>
       </memberdef>
       <memberdef kind="function" id="class_u_interaction_component_1a003e9892d2cdcd8f79424027a95c52ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -193,7 +193,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/InteractionComponent.h" line="99" column="10" bodyfile="Source/TimeAssassin/InteractionComponent.cpp" bodystart="165" bodyend="173"/>
+        <location file="Source/TimeAssassin/InteractionComponent.h" line="118" column="10" bodyfile="Source/TimeAssassin/InteractionComponent.cpp" bodystart="165" bodyend="173"/>
       </memberdef>
       <memberdef kind="function" id="class_u_interaction_component_1aa709b31e374070c148f33ba41e84e469" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -222,7 +222,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/InteractionComponent.h" line="105" column="10" bodyfile="Source/TimeAssassin/InteractionComponent.cpp" bodystart="175" bodyend="185"/>
+        <location file="Source/TimeAssassin/InteractionComponent.h" line="124" column="10" bodyfile="Source/TimeAssassin/InteractionComponent.cpp" bodystart="175" bodyend="185"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -239,7 +239,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/InteractionComponent.h" line="32" column="18" bodyfile="Source/TimeAssassin/InteractionComponent.cpp" bodystart="27" bodyend="36"/>
+        <location file="Source/TimeAssassin/InteractionComponent.h" line="51" column="18" bodyfile="Source/TimeAssassin/InteractionComponent.cpp" bodystart="27" bodyend="36"/>
       </memberdef>
       <memberdef kind="function" id="class_u_interaction_component_1ab118a9766716f400d8ff9c6b90712fa0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -292,7 +292,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/InteractionComponent.h" line="40" column="18" bodyfile="Source/TimeAssassin/InteractionComponent.cpp" bodystart="40" bodyend="47"/>
+        <location file="Source/TimeAssassin/InteractionComponent.h" line="59" column="18" bodyfile="Source/TimeAssassin/InteractionComponent.cpp" bodystart="40" bodyend="47"/>
       </memberdef>
       <memberdef kind="function" id="class_u_interaction_component_1a9d922a490f6414af02bdb551716921b2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -308,7 +308,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/InteractionComponent.h" line="51" column="10" bodyfile="Source/TimeAssassin/InteractionComponent.cpp" bodystart="49" bodyend="133"/>
+        <location file="Source/TimeAssassin/InteractionComponent.h" line="70" column="10" bodyfile="Source/TimeAssassin/InteractionComponent.cpp" bodystart="49" bodyend="133"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -339,7 +339,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Source/TimeAssassin/InteractionComponent.h" line="22" column="1" bodyfile="Source/TimeAssassin/InteractionComponent.h" bodystart="23" bodyend="106"/>
+    <location file="Source/TimeAssassin/InteractionComponent.h" line="41" column="1" bodyfile="Source/TimeAssassin/InteractionComponent.h" bodystart="42" bodyend="125"/>
     <listofallmembers>
       <member refid="class_u_interaction_component_1a003e9892d2cdcd8f79424027a95c52ab" prot="public" virt="non-virtual"><scope>UInteractionComponent</scope><name>AddRegisteredInteractable</name></member>
       <member refid="class_u_interaction_component_1a4b541cb6bd61b8a508338d0187da2444" prot="protected" virt="virtual"><scope>UInteractionComponent</scope><name>BeginPlay</name></member>

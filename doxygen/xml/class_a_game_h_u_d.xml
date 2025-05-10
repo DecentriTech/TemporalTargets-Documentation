@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GameHUD.h" line="88" column="13" bodyfile="Source/TimeAssassin/GameHUD.h" bodystart="88" bodyend="-1"/>
+        <location file="Source/TimeAssassin/GameHUD.h" line="104" column="13" bodyfile="Source/TimeAssassin/GameHUD.h" bodystart="104" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_a_game_h_u_d_1a6ca6b11f55e41f35e94542f39ba64f0c" prot="protected" static="no" mutable="no">
         <type><ref refid="class_u_game_h_u_d_widget" kindref="compound">UGameHUDWidget</ref> *</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GameHUD.h" line="94" column="16" bodyfile="Source/TimeAssassin/GameHUD.h" bodystart="94" bodyend="-1"/>
+        <location file="Source/TimeAssassin/GameHUD.h" line="110" column="16" bodyfile="Source/TimeAssassin/GameHUD.h" bodystart="110" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -52,7 +52,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GameHUD.h" line="40" column="14" bodyfile="Source/TimeAssassin/GameHUD.cpp" bodystart="12" bodyend="16"/>
+        <location file="Source/TimeAssassin/GameHUD.h" line="56" column="14" bodyfile="Source/TimeAssassin/GameHUD.cpp" bodystart="12" bodyend="16"/>
       </memberdef>
       <memberdef kind="function" id="class_a_game_h_u_d_1a2a251d2a6ace5b2ad4573f3da9b25283" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GameHUD.h" line="46" column="14" bodyfile="Source/TimeAssassin/GameHUD.cpp" bodystart="18" bodyend="28"/>
+        <location file="Source/TimeAssassin/GameHUD.h" line="62" column="14" bodyfile="Source/TimeAssassin/GameHUD.cpp" bodystart="18" bodyend="28"/>
       </memberdef>
       <memberdef kind="function" id="class_a_game_h_u_d_1a0b1b190f04ee3a6698e3076b806743f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -99,7 +99,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GameHUD.h" line="53" column="6" bodyfile="Source/TimeAssassin/GameHUD.cpp" bodystart="30" bodyend="47"/>
+        <location file="Source/TimeAssassin/GameHUD.h" line="69" column="6" bodyfile="Source/TimeAssassin/GameHUD.cpp" bodystart="30" bodyend="47"/>
       </memberdef>
       <memberdef kind="function" id="class_a_game_h_u_d_1aad21b07933102a80c90ba04046ce2e45" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_u_game_h_u_d_widget" kindref="compound">UGameHUDWidget</ref> *</type>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GameHUD.h" line="60" column="16" bodyfile="Source/TimeAssassin/GameHUD.h" bodystart="60" bodyend="60"/>
+        <location file="Source/TimeAssassin/GameHUD.h" line="76" column="16" bodyfile="Source/TimeAssassin/GameHUD.h" bodystart="76" bodyend="76"/>
       </memberdef>
       <memberdef kind="function" id="class_a_game_h_u_d_1a02c68fdaf231da2d7fedbf336bfefc2f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_u_crosshair_widget" kindref="compound">UCrosshairWidget</ref> *</type>
@@ -135,7 +135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GameHUD.h" line="67" column="18" bodyfile="Source/TimeAssassin/GameHUD.cpp" bodystart="49" bodyend="52"/>
+        <location file="Source/TimeAssassin/GameHUD.h" line="83" column="18" bodyfile="Source/TimeAssassin/GameHUD.cpp" bodystart="49" bodyend="52"/>
       </memberdef>
       <memberdef kind="function" id="class_a_game_h_u_d_1a17a350470368491f6723b444ded76f1f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_u_hitmarker_widget" kindref="compound">UHitmarkerWidget</ref> *</type>
@@ -153,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GameHUD.h" line="74" column="18" bodyfile="Source/TimeAssassin/GameHUD.cpp" bodystart="54" bodyend="57"/>
+        <location file="Source/TimeAssassin/GameHUD.h" line="90" column="18" bodyfile="Source/TimeAssassin/GameHUD.cpp" bodystart="54" bodyend="57"/>
       </memberdef>
       <memberdef kind="function" id="class_a_game_h_u_d_1a93d4fc9c8002e711d6a503611d737120" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -182,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GameHUD.h" line="81" column="6" bodyfile="Source/TimeAssassin/GameHUD.cpp" bodystart="59" bodyend="78"/>
+        <location file="Source/TimeAssassin/GameHUD.h" line="97" column="6" bodyfile="Source/TimeAssassin/GameHUD.cpp" bodystart="59" bodyend="78"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -255,7 +255,7 @@
         <label>UUserWidget</label>
       </node>
     </collaborationgraph>
-    <location file="Source/TimeAssassin/GameHUD.h" line="32" column="1" bodyfile="Source/TimeAssassin/GameHUD.h" bodystart="33" bodyend="95"/>
+    <location file="Source/TimeAssassin/GameHUD.h" line="48" column="1" bodyfile="Source/TimeAssassin/GameHUD.h" bodystart="49" bodyend="111"/>
     <listofallmembers>
       <member refid="class_a_game_h_u_d_1a7f4f7ba57dcfc4e16a155a029a5610da" prot="public" virt="virtual"><scope>AGameHUD</scope><name>BeginPlay</name></member>
       <member refid="class_a_game_h_u_d_1a2a251d2a6ace5b2ad4573f3da9b25283" prot="public" virt="virtual"><scope>AGameHUD</scope><name>EndPlay</name></member>

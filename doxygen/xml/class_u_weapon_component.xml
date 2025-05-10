@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="109" column="16" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="109" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="128" column="16" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="128" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_weapon_component_1aae9d85030c7d470962382a23afc07a7e" prot="protected" static="no" mutable="no">
         <type>TWeakObjectPtr&lt; <ref refid="class_u_hitmarker_widget" kindref="compound">UHitmarkerWidget</ref> &gt;</type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="113" column="16" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="113" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="132" column="16" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="132" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-attrib">
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="118" column="18" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="118" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="137" column="18" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="137" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_weapon_component_1a95d377081501c0d621f03157392a1066" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="170" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="170" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="189" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="189" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_weapon_component_1ac3e6105637399f656ed5b38c9c44e87f" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="174" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="174" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="193" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="193" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_weapon_component_1a7a9a4afaae3a9d362140437a476ea734" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="178" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="178" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="197" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="197" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_weapon_component_1a25e4510e7480e59aecead6661b8b0896" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="182" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="182" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="201" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="201" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_weapon_component_1a3f79d82044503b471c1263d40834725d" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="186" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="186" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="205" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="205" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_weapon_component_1a93ddf08979296d23b716af5e233b6e82" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -146,7 +146,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="190" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="190" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="209" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="209" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_weapon_component_1ab06543af9b0c409a267e89aaf4b7399b" prot="public" static="no" mutable="no">
         <type>int32</type>
@@ -161,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="194" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="194" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="213" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="213" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_weapon_component_1a1cf85bec2966c2b82cbab781201083c1" prot="public" static="no" mutable="no">
         <type>int32</type>
@@ -176,7 +176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="198" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="198" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="217" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="217" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_weapon_component_1a025ea661f939fe676d03054eb4e4e777" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -192,7 +192,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="202" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="202" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="221" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="221" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -209,7 +209,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="205" column="14" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="205" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="224" column="14" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="224" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_weapon_component_1aa398c5e3638badd012c359cf71198b9e" prot="private" static="no" mutable="no">
         <type>FTimerHandle</type>
@@ -224,7 +224,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="206" column="14" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="206" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="225" column="14" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="225" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_weapon_component_1a6b19292de18b37a7f3da401e37b2c1ce" prot="private" static="no" mutable="no">
         <type>FTimerHandle</type>
@@ -239,7 +239,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="207" column="14" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="207" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="226" column="14" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="226" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_weapon_component_1a782335875e079f8646fc4210f7d4751a" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -255,7 +255,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="209" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="209" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="228" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="228" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_weapon_component_1ab157c206f7f9ab21bc3bdc985958d410" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -271,7 +271,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="210" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="210" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="229" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="229" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_weapon_component_1a0a04a3a592ab50cc8e87ca87ebc39f64" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -287,7 +287,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="211" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="211" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="230" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="230" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_weapon_component_1a8b6f5a4151db309159dbf7d91726a71e" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -303,7 +303,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="212" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="212" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="231" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="231" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_weapon_component_1aba954e397743ee8489b25bc0b32217b5" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -319,7 +319,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="214" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="214" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="233" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="233" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_weapon_component_1a32dc16b044b2e8778d5711e485866412" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -335,7 +335,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="215" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="215" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="234" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="234" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_weapon_component_1a9cd7b3233efa7957d448cda76ff95ac8" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -351,7 +351,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="217" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="217" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="236" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="236" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_weapon_component_1a2652fcd6e7bd577998c35fb19290bc44" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -367,7 +367,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="218" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="218" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="237" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="237" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_weapon_component_1af233edfcfdaf6b5b87bd08e5c560a391" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -383,7 +383,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="220" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="220" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="239" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="239" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_weapon_component_1a05179faabac291608b2a2d3c89a5d2d7" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -399,7 +399,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="221" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="221" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="240" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="240" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_weapon_component_1a1a77cb1e2ba93e35243c8786d7c489d0" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -415,7 +415,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="222" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="222" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="241" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="241" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_weapon_component_1af95e212fd708a90c62d764234efb5919" prot="private" static="no" mutable="no">
         <type>int32</type>
@@ -431,7 +431,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="224" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="224" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="243" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="243" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_weapon_component_1a875773285baf828d53c8f8191c744082" prot="private" static="no" mutable="no">
         <type><ref refid="class_a_t_a_character" kindref="compound">ATACharacter</ref> *</type>
@@ -447,7 +447,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="228" column="14" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="228" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="247" column="14" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="247" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_weapon_component_1a8a911e33d69e9cd0b698f7a5ef61f2f5" prot="private" static="no" mutable="no">
         <type>TMap&lt; <ref refid="class_u_weapon_data_asset" kindref="compound">UWeaponDataAsset</ref> *, <ref refid="struct_f_weapon_ammo_data" kindref="compound">FWeaponAmmoData</ref> &gt;</type>
@@ -462,7 +462,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="232" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="232" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="251" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="251" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_weapon_component_1a0221216790e1af4799ca2687cf5af347" prot="private" static="no" mutable="no">
         <type>TWeakObjectPtr&lt; <ref refid="class_u_game_h_u_d_widget" kindref="compound">UGameHUDWidget</ref> &gt;</type>
@@ -477,7 +477,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="236" column="16" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="236" bodyend="-1"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="255" column="16" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="255" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -494,7 +494,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="51" column="1" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="23" bodyend="33"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="70" column="1" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="23" bodyend="33"/>
       </memberdef>
       <memberdef kind="function" id="class_u_weapon_component_1aa9f322fa843b509d339ae30970396dd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -537,7 +537,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="59" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="345" bodyend="588"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="78" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="345" bodyend="588"/>
       </memberdef>
       <memberdef kind="function" id="class_u_weapon_component_1ac2ae44896090dd79c42b441809169869" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -552,7 +552,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="63" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="590" bodyend="596"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="82" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="590" bodyend="596"/>
       </memberdef>
       <memberdef kind="function" id="class_u_weapon_component_1a66deae0daed8099b90eb3c55943aa587" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -567,7 +567,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="66" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="598" bodyend="616"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="85" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="598" bodyend="616"/>
       </memberdef>
       <memberdef kind="function" id="class_u_weapon_component_1a84df910dbe339e1b49139b6e0eb64881" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -582,7 +582,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="69" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="618" bodyend="626"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="88" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="618" bodyend="626"/>
       </memberdef>
       <memberdef kind="function" id="class_u_weapon_component_1ad04495d0121653cb415ea84ef4caed98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -597,7 +597,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="72" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="628" bodyend="633"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="91" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="628" bodyend="633"/>
       </memberdef>
       <memberdef kind="function" id="class_u_weapon_component_1a0cc8cc9981a534155199674703d6a44a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -612,7 +612,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="76" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="635" bodyend="644"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="95" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="635" bodyend="644"/>
       </memberdef>
       <memberdef kind="function" id="class_u_weapon_component_1a8fc78ff182ea627b1f08c68642cb85b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -627,7 +627,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="79" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="645" bodyend="665"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="98" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="645" bodyend="665"/>
       </memberdef>
       <memberdef kind="function" id="class_u_weapon_component_1a64c6d51686ad89a0a755d2f1d50f374b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>float</type>
@@ -645,7 +645,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="125" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="260" bodyend="265"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="144" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="260" bodyend="265"/>
       </memberdef>
       <memberdef kind="function" id="class_u_weapon_component_1a9fb5eabeb5aaa7389142038ceb0bcce5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -674,7 +674,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="132" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="267" bodyend="270"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="151" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="267" bodyend="270"/>
       </memberdef>
       <memberdef kind="function" id="class_u_weapon_component_1a0498f0da4c28784bcf03062dbaa0b17d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -703,7 +703,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="139" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="272" bodyend="281"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="158" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="272" bodyend="281"/>
       </memberdef>
       <memberdef kind="function" id="class_u_weapon_component_1aac25b0302e55fa7ef67d6333fcd71aeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -732,7 +732,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="146" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="283" bodyend="286"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="165" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="283" bodyend="286"/>
       </memberdef>
       <memberdef kind="function" id="class_u_weapon_component_1abc79800a0c890e6eb6449bc37ceb545a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -747,7 +747,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="150" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="150" bodyend="150"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="169" column="7" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="169" bodyend="169"/>
       </memberdef>
       <memberdef kind="function" id="class_u_weapon_component_1afa199d8be071786a30c7e7bde4495c86" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -788,7 +788,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="158" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="288" bodyend="292"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="177" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="288" bodyend="292"/>
       </memberdef>
       <memberdef kind="function" id="class_u_weapon_component_1a1edaef9b86d4b65a848f0836d8cba4a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -817,7 +817,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="166" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="294" bodyend="343"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="185" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="294" bodyend="343"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="protected-func">
@@ -834,7 +834,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="83" column="14" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="37" bodyend="82"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="102" column="14" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="37" bodyend="82"/>
       </memberdef>
       <memberdef kind="function" id="class_u_weapon_component_1ab386a42315d4aa4a6e08c51387214d07" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -862,7 +862,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="89" column="14" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="84" bodyend="188"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="108" column="14" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="84" bodyend="188"/>
       </memberdef>
       <memberdef kind="function" id="class_u_weapon_component_1a9b64d0c9fc82007c04ac0cce3a408d44" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -877,7 +877,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="92" column="14" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="190" bodyend="211"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="111" column="14" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="190" bodyend="211"/>
       </memberdef>
       <memberdef kind="function" id="class_u_weapon_component_1a7897a7dd4fca496a002ddb4a594784a0" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -895,7 +895,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="99" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="213" bodyend="230"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="118" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="213" bodyend="230"/>
       </memberdef>
       <memberdef kind="function" id="class_u_weapon_component_1a7441dc2b5b6429fcf4e28440c926f98a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -924,7 +924,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/WeaponComponent.h" line="105" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="232" bodyend="257"/>
+        <location file="Source/TimeAssassin/WeaponComponent.h" line="124" column="6" bodyfile="Source/TimeAssassin/WeaponComponent.cpp" bodystart="232" bodyend="257"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1059,7 +1059,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Source/TimeAssassin/WeaponComponent.h" line="45" column="1" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="46" bodyend="237"/>
+    <location file="Source/TimeAssassin/WeaponComponent.h" line="64" column="1" bodyfile="Source/TimeAssassin/WeaponComponent.h" bodystart="65" bodyend="256"/>
     <listofallmembers>
       <member refid="class_u_weapon_component_1a8a911e33d69e9cd0b698f7a5ef61f2f5" prot="private" virt="non-virtual"><scope>UWeaponComponent</scope><name>AmmoMap</name></member>
       <member refid="class_u_weapon_component_1ac959007e8937832c95848615f0eb8f78" prot="private" virt="non-virtual"><scope>UWeaponComponent</scope><name>AutomaticFireTimer</name></member>

@@ -3,6 +3,13 @@
   <compounddef id="group___u_i___widgets" kind="group">
     <compoundname>UI_Widgets</compoundname>
     <title>User Interface Widgets and Interfaces</title>
+    <innerfile refid="_crosshair_widget_8h">CrosshairWidget.h</innerfile>
+    <innerfile refid="_game_h_u_d_8h">GameHUD.h</innerfile>
+    <innerfile refid="_game_h_u_d_widget_8h">GameHUDWidget.h</innerfile>
+    <innerfile refid="_grid_canvas_widget_8h">GridCanvasWidget.h</innerfile>
+    <innerfile refid="_hitmarker_widget_8h">HitmarkerWidget.h</innerfile>
+    <innerfile refid="_spectator_hud_widget_8h">SpectatorHudWidget.h</innerfile>
+    <innerfile refid="_spray_pattern_u_i_widget_8h">SprayPatternUIWidget.h</innerfile>
     <innerclass refid="class_u_crosshair_widget" prot="public">UCrosshairWidget</innerclass>
     <innerclass refid="class_a_game_h_u_d" prot="public">AGameHUD</innerclass>
     <innerclass refid="class_u_game_h_u_d_widget" prot="public">UGameHUDWidget</innerclass>
@@ -41,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="19" column="1" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="20" bodyend="23"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="40" column="1" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="41" bodyend="44"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="94" column="19" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="94" bodyend="-1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="115" column="19" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="115" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_u_grid_canvas_widget_1_1_f_grid_params_1a54cec641d31937db260aecbc20d7b807" prot="public" static="no" mutable="no">
         <type>FVector2D</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="95" column="19" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="95" bodyend="-1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="116" column="19" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="116" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_u_grid_canvas_widget_1_1_f_grid_params_1aa9639175b0bab59dc02b3f01cb3fcae7" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="96" column="19" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="96" bodyend="-1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="117" column="19" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="117" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_u_grid_canvas_widget_1_1_f_grid_params_1a7b31e262c210847afac169ee6dbbadf2" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="97" column="19" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="97" bodyend="-1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="118" column="19" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="118" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_u_grid_canvas_widget_1_1_f_grid_params_1a481a8d20d75011e840b94974c08de7b2" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="98" column="19" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="98" bodyend="-1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="119" column="19" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="119" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_u_grid_canvas_widget_1_1_f_grid_params_1ae54af48e062237cbda053a76bc9cec47" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="99" column="19" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="99" bodyend="-1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="120" column="19" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="120" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_u_grid_canvas_widget_1_1_f_grid_params_1a2c007d5e4f653e59d3c0437b9b9d9bfb" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="100" column="19" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="100" bodyend="-1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="121" column="19" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="121" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_u_grid_canvas_widget_1_1_f_grid_params_1ae006ff799a1916d27846f57bb86d2a42" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -122,7 +122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="101" column="19" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="101" bodyend="-1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="122" column="19" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="122" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_u_grid_canvas_widget_1_1_f_grid_params_1ac4b897b66b43041460bf45ca4bcc61c5" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -137,7 +137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="102" column="19" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="102" bodyend="-1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="123" column="19" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="123" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_u_grid_canvas_widget_1_1_f_grid_params_1a875aec0b7dd3fd0b82857613dc542873" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -152,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="103" column="19" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="103" bodyend="-1"/>
+        <location file="Source/TimeAssassin/GridCanvasWidget.h" line="124" column="19" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="124" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -161,7 +161,7 @@
     <detaileddescription>
 <para>Calculated in <ref refid="class_u_grid_canvas_widget_1a11eeb7716666f2401182caf03e728ffb" kindref="member">CalcGridParams()</ref> and used by <ref refid="class_u_grid_canvas_widget_1ac57384fa5f8227744bffc1cb1ee7465d" kindref="member">NativePaint()</ref> helpers. </para>
     </detaileddescription>
-    <location file="Source/TimeAssassin/GridCanvasWidget.h" line="92" column="5" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="93" bodyend="104"/>
+    <location file="Source/TimeAssassin/GridCanvasWidget.h" line="113" column="5" bodyfile="Source/TimeAssassin/GridCanvasWidget.h" bodystart="114" bodyend="125"/>
     <listofallmembers>
       <member refid="struct_u_grid_canvas_widget_1_1_f_grid_params_1a8e941a456655006e0a339a0bcb4d7648" prot="public" virt="non-virtual"><scope>UGridCanvasWidget::FGridParams</scope><name>Size</name></member>
       <member refid="struct_u_grid_canvas_widget_1_1_f_grid_params_1a481a8d20d75011e840b94974c08de7b2" prot="public" virt="non-virtual"><scope>UGridCanvasWidget::FGridParams</scope><name>StartWorldX</name></member>

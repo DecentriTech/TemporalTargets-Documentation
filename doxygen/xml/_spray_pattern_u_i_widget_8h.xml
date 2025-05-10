@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="11" column="1" declfile="Source/TimeAssassin/SprayPatternUIWidget.h" declline="11" declcolumn="1"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="30" column="1" declfile="Source/TimeAssassin/SprayPatternUIWidget.h" declline="30" declcolumn="1"/>
       </memberdef>
       <memberdef kind="function" id="_spray_pattern_u_i_widget_8h_1ab8f0fd07b597cbeedc4fd87c23384be0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -90,89 +90,102 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="12" column="1" declfile="Source/TimeAssassin/SprayPatternUIWidget.h" declline="12" declcolumn="1"/>
+        <location file="Source/TimeAssassin/SprayPatternUIWidget.h" line="31" column="1" declfile="Source/TimeAssassin/SprayPatternUIWidget.h" declline="31" declcolumn="1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Declares the user-facing widget for editing weapon spray patterns. </para>
     </briefdescription>
     <detaileddescription>
+<para>This file defines the <ref refid="class_u_spray_pattern_u_i_widget" kindref="compound">USprayPatternUIWidget</ref> class, which provides:<itemizedlist>
+<listitem><para>A weapon selection dropdown connected to data assets.</para>
+</listitem><listitem><para>A grid canvas to visualize and edit spray patterns.</para>
+</listitem><listitem><para>Controls for adjusting spray pattern scale and exporting changes.</para>
+</listitem><listitem><para>Blueprint-exposed methods for loading, clearing, and resetting patterns.</para>
+</listitem></itemizedlist>
+</para>
+<para>Designed for use in design-time tools, this widget enables real-time authoring and previewing of weapon spray behavior via the editor UI.</para>
+<para><ref refid="group___u_i___widgets" kindref="compound">User Interface Widgets and Interfaces</ref> </para>
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="comment">//<sp/>Fill<sp/>out<sp/>your<sp/>copyright<sp/>notice<sp/>in<sp/>the<sp/>Description<sp/>page<sp/>of<sp/>Project<sp/>Settings.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CoreMinimal.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Blueprint/UserWidget.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_weapon_data_asset_8h" kindref="compound">WeaponDataAsset.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;SprayPatternUIWidget.generated.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="_spray_pattern_u_i_widget_8h_1adb3ce367576ada41faa06e0e75e6a0db" refkind="member"><highlight class="normal"><ref refid="_spray_pattern_u_i_widget_8h_1adb3ce367576ada41faa06e0e75e6a0db" kindref="member">DECLARE_DYNAMIC_MULTICAST_DELEGATE</ref>(FOnSprayPatternLoaded);</highlight></codeline>
-<codeline lineno="12" refid="_spray_pattern_u_i_widget_8h_1ab8f0fd07b597cbeedc4fd87c23384be0" refkind="member"><highlight class="normal"><ref refid="_spray_pattern_u_i_widget_8h_1adb3ce367576ada41faa06e0e75e6a0db" kindref="member">DECLARE_DYNAMIC_MULTICAST_DELEGATE</ref>(FOnSprayPatternExported);</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal">UCLASS()</highlight></codeline>
-<codeline lineno="29" refid="class_u_spray_pattern_u_i_widget" refkind="compound"><highlight class="normal">class<sp/>TIMEASSASSIN_API<sp/><ref refid="class_u_spray_pattern_u_i_widget" kindref="compound">USprayPatternUIWidget</ref><sp/>:<sp/>public<sp/>UUserWidget</highlight></codeline>
-<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CoreMinimal.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Blueprint/UserWidget.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_weapon_data_asset_8h" kindref="compound">WeaponDataAsset.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;SprayPatternUIWidget.generated.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="_spray_pattern_u_i_widget_8h_1adb3ce367576ada41faa06e0e75e6a0db" refkind="member"><highlight class="normal"><ref refid="_spray_pattern_u_i_widget_8h_1adb3ce367576ada41faa06e0e75e6a0db" kindref="member">DECLARE_DYNAMIC_MULTICAST_DELEGATE</ref>(FOnSprayPatternLoaded);</highlight></codeline>
+<codeline lineno="31" refid="_spray_pattern_u_i_widget_8h_1ab8f0fd07b597cbeedc4fd87c23384be0" refkind="member"><highlight class="normal"><ref refid="_spray_pattern_u_i_widget_8h_1adb3ce367576ada41faa06e0e75e6a0db" kindref="member">DECLARE_DYNAMIC_MULTICAST_DELEGATE</ref>(FOnSprayPatternExported);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite,<sp/>meta<sp/>=<sp/>(BindWidget))</highlight></codeline>
-<codeline lineno="36" refid="class_u_spray_pattern_u_i_widget_1a694936078f02a97cf23d44e0ad00eb27" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>class<sp/>UComboBoxString*<sp/><ref refid="class_u_spray_pattern_u_i_widget_1a694936078f02a97cf23d44e0ad00eb27" kindref="member">WeaponDropdown</ref>;</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite,<sp/>meta<sp/>=<sp/>(BindWidget))</highlight></codeline>
-<codeline lineno="40" refid="class_u_spray_pattern_u_i_widget_1adc3a89a423fd06b1c04abbe516817ae1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>class<sp/><ref refid="class_u_grid_canvas_widget" kindref="compound">UGridCanvasWidget</ref>*<sp/><ref refid="class_u_spray_pattern_u_i_widget_1adc3a89a423fd06b1c04abbe516817ae1" kindref="member">GridCanvasRef</ref>;</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite,<sp/>meta<sp/>=<sp/>(BindWidget))</highlight></codeline>
-<codeline lineno="44" refid="class_u_spray_pattern_u_i_widget_1aa369d4e690b54c3493381966fea2a55e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>class<sp/>USlider*<sp/><ref refid="class_u_spray_pattern_u_i_widget_1aa369d4e690b54c3493381966fea2a55e" kindref="member">SL_ScaleX</ref>;</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite,<sp/>meta<sp/>=<sp/>(BindWidget))</highlight></codeline>
-<codeline lineno="48" refid="class_u_spray_pattern_u_i_widget_1a8cb88001e2f8eec3d9419546f4fa6d75" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>class<sp/>USlider*<sp/><ref refid="class_u_spray_pattern_u_i_widget_1a8cb88001e2f8eec3d9419546f4fa6d75" kindref="member">SL_ScaleY</ref>;</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadWrite,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Spray&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="52" refid="class_u_spray_pattern_u_i_widget_1a88d9791b679f795758730160bc4b62f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a88d9791b679f795758730160bc4b62f2" kindref="member">SprayPatternScaleX</ref><sp/>=<sp/>1.0f;</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadWrite,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Spray&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="56" refid="class_u_spray_pattern_u_i_widget_1a13fde78e1f957de4ce8238ed4006707e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a13fde78e1f957de4ce8238ed4006707e" kindref="member">SprayPatternScaleY</ref><sp/>=<sp/>1.0f;</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Spray&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_weapon_data_asset" kindref="compound">UWeaponDataAsset</ref>*<sp/><ref refid="class_u_spray_pattern_u_i_widget_1a9e28431e12bf342644599389301fc498" kindref="member">GetSelectedWeaponData</ref>()<sp/>const;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">UCLASS()</highlight></codeline>
+<codeline lineno="48" refid="class_u_spray_pattern_u_i_widget" refkind="compound"><highlight class="normal">class<sp/>TIMEASSASSIN_API<sp/><ref refid="class_u_spray_pattern_u_i_widget" kindref="compound">USprayPatternUIWidget</ref><sp/>:<sp/>public<sp/>UUserWidget</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite,<sp/>meta<sp/>=<sp/>(BindWidget))</highlight></codeline>
+<codeline lineno="55" refid="class_u_spray_pattern_u_i_widget_1a694936078f02a97cf23d44e0ad00eb27" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>class<sp/>UComboBoxString*<sp/><ref refid="class_u_spray_pattern_u_i_widget_1a694936078f02a97cf23d44e0ad00eb27" kindref="member">WeaponDropdown</ref>;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite,<sp/>meta<sp/>=<sp/>(BindWidget))</highlight></codeline>
+<codeline lineno="59" refid="class_u_spray_pattern_u_i_widget_1adc3a89a423fd06b1c04abbe516817ae1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>class<sp/><ref refid="class_u_grid_canvas_widget" kindref="compound">UGridCanvasWidget</ref>*<sp/><ref refid="class_u_spray_pattern_u_i_widget_1adc3a89a423fd06b1c04abbe516817ae1" kindref="member">GridCanvasRef</ref>;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite,<sp/>meta<sp/>=<sp/>(BindWidget))</highlight></codeline>
+<codeline lineno="63" refid="class_u_spray_pattern_u_i_widget_1aa369d4e690b54c3493381966fea2a55e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>class<sp/>USlider*<sp/><ref refid="class_u_spray_pattern_u_i_widget_1aa369d4e690b54c3493381966fea2a55e" kindref="member">SL_ScaleX</ref>;</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Spray&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a71dc920c77bbe1910630e8497163d78e" kindref="member">PopulateWeaponDropdown</ref>();</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite,<sp/>meta<sp/>=<sp/>(BindWidget))</highlight></codeline>
+<codeline lineno="67" refid="class_u_spray_pattern_u_i_widget_1a8cb88001e2f8eec3d9419546f4fa6d75" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>class<sp/>USlider*<sp/><ref refid="class_u_spray_pattern_u_i_widget_1a8cb88001e2f8eec3d9419546f4fa6d75" kindref="member">SL_ScaleY</ref>;</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Spray&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a339d0de1c488b6f518b58a6886e55a4d" kindref="member">HandleExport</ref>();</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadWrite,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Spray&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="71" refid="class_u_spray_pattern_u_i_widget_1a88d9791b679f795758730160bc4b62f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a88d9791b679f795758730160bc4b62f2" kindref="member">SprayPatternScaleX</ref><sp/>=<sp/>1.0f;</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Spray&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1ac70790e59efb34bc46fb106844fccc41" kindref="member">HandleLoad</ref>();</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadWrite,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Spray&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="75" refid="class_u_spray_pattern_u_i_widget_1a13fde78e1f957de4ce8238ed4006707e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a13fde78e1f957de4ce8238ed4006707e" kindref="member">SprayPatternScaleY</ref><sp/>=<sp/>1.0f;</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Spray&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1aaf2315fe50a243dc0f6f3363bebe0c7a" kindref="member">HandleClear</ref>();</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Spray&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1aeefb54015e96f6c0fe41352c88f40cb3" kindref="member">ResetScale</ref>();</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Spray&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a3bf79fac440d0f0d5536947fb7f56a8a" kindref="member">HandleSetSprayPatternScale</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>ScaleX,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>ScaleY);</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Spray&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="95" refid="class_u_spray_pattern_u_i_widget_1aeffeba15b71664c246a4bff54d4ba929" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FOnSprayPatternLoaded<sp/><ref refid="class_u_spray_pattern_u_i_widget_1aeffeba15b71664c246a4bff54d4ba929" kindref="member">OnPatternLoaded</ref>;</highlight></codeline>
-<codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Spray&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="99" refid="class_u_spray_pattern_u_i_widget_1a00a73548f0a64c78948ce921c9cb6d40" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FOnSprayPatternExported<sp/><ref refid="class_u_spray_pattern_u_i_widget_1a00a73548f0a64c78948ce921c9cb6d40" kindref="member">OnPatternExported</ref>;</highlight></codeline>
-<codeline lineno="100"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101"><highlight class="normal">protected:</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a0ec1ff69f80b6cd50ac016974c3e97c0" kindref="member">NativeConstruct</ref>()<sp/>override;</highlight></codeline>
-<codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a8c76179e8615eb96498b8a7d6fb958bd" kindref="member">NativeTick</ref>(const<sp/>FGeometry&amp;<sp/>MyGeometry,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>InDeltaTime)<sp/>override;</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"></highlight></codeline>
-<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION()</highlight></codeline>
-<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a2d8d82b242636bb4a8fb57f140904173" kindref="member">OnWeaponSelectionChanged</ref>(FString<sp/>SelectedItem,<sp/>ESelectInfo::Type<sp/>SelectionType);</highlight></codeline>
-<codeline lineno="114"><highlight class="normal"></highlight></codeline>
-<codeline lineno="115"><highlight class="normal">private:</highlight></codeline>
-<codeline lineno="117" refid="class_u_spray_pattern_u_i_widget_1a5f9db96b0fcddcbb341f03216c605f13" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TMap&lt;FString,<sp/>FString&gt;<sp/><ref refid="class_u_spray_pattern_u_i_widget_1a5f9db96b0fcddcbb341f03216c605f13" kindref="member">WeaponAssetMap</ref>;</highlight></codeline>
-<codeline lineno="118"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Spray&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_weapon_data_asset" kindref="compound">UWeaponDataAsset</ref>*<sp/><ref refid="class_u_spray_pattern_u_i_widget_1a9e28431e12bf342644599389301fc498" kindref="member">GetSelectedWeaponData</ref>()<sp/>const;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Spray&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a71dc920c77bbe1910630e8497163d78e" kindref="member">PopulateWeaponDropdown</ref>();</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Spray&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a339d0de1c488b6f518b58a6886e55a4d" kindref="member">HandleExport</ref>();</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Spray&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1ac70790e59efb34bc46fb106844fccc41" kindref="member">HandleLoad</ref>();</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Spray&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1aaf2315fe50a243dc0f6f3363bebe0c7a" kindref="member">HandleClear</ref>();</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Spray&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1aeefb54015e96f6c0fe41352c88f40cb3" kindref="member">ResetScale</ref>();</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Spray&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a3bf79fac440d0f0d5536947fb7f56a8a" kindref="member">HandleSetSprayPatternScale</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>ScaleX,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>ScaleY);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Spray&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="114" refid="class_u_spray_pattern_u_i_widget_1aeffeba15b71664c246a4bff54d4ba929" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FOnSprayPatternLoaded<sp/><ref refid="class_u_spray_pattern_u_i_widget_1aeffeba15b71664c246a4bff54d4ba929" kindref="member">OnPatternLoaded</ref>;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Spray&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="118" refid="class_u_spray_pattern_u_i_widget_1a00a73548f0a64c78948ce921c9cb6d40" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FOnSprayPatternExported<sp/><ref refid="class_u_spray_pattern_u_i_widget_1a00a73548f0a64c78948ce921c9cb6d40" kindref="member">OnPatternExported</ref>;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal">protected:</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a0ec1ff69f80b6cd50ac016974c3e97c0" kindref="member">NativeConstruct</ref>()<sp/>override;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a8c76179e8615eb96498b8a7d6fb958bd" kindref="member">NativeTick</ref>(const<sp/>FGeometry&amp;<sp/>MyGeometry,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>InDeltaTime)<sp/>override;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION()</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_spray_pattern_u_i_widget_1a2d8d82b242636bb4a8fb57f140904173" kindref="member">OnWeaponSelectionChanged</ref>(FString<sp/>SelectedItem,<sp/>ESelectInfo::Type<sp/>SelectionType);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal">private:</highlight></codeline>
+<codeline lineno="136" refid="class_u_spray_pattern_u_i_widget_1a5f9db96b0fcddcbb341f03216c605f13" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TMap&lt;FString,<sp/>FString&gt;<sp/><ref refid="class_u_spray_pattern_u_i_widget_1a5f9db96b0fcddcbb341f03216c605f13" kindref="member">WeaponAssetMap</ref>;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">};</highlight></codeline>
     </programlisting>
     <location file="Source/TimeAssassin/SprayPatternUIWidget.h"/>
   </compounddef>

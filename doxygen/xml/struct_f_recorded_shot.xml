@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="48" column="9" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="48" bodyend="-1"/>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="69" column="9" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="69" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_recorded_shot_1ad3f3302ee527fee92c5e238a64095d1c" prot="public" static="no" mutable="no">
         <type>FVector</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="51" column="13" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="51" bodyend="-1"/>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="72" column="13" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="72" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_recorded_shot_1ac0daef34f3c2a5b30458387d3665794f" prot="public" static="no" mutable="no">
         <type>FVector</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="54" column="13" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="54" bodyend="-1"/>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="75" column="13" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="75" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_recorded_shot_1a443385bba9e9512a1a0a00a02407587f" prot="public" static="no" mutable="no">
         <type>bool</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="57" column="10" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="57" bodyend="-1"/>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="78" column="10" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="78" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_recorded_shot_1a8dbd4314449b7b8b339d71a00fa719a7" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -78,7 +78,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="60" column="11" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="60" bodyend="-1"/>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="81" column="11" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="81" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_recorded_shot_1a7556405c16fb2ade376a7943c11f8b67" prot="public" static="no" mutable="no">
         <type>FRotator</type>
@@ -93,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="63" column="14" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="63" bodyend="-1"/>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="84" column="14" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="84" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_recorded_shot_1a26674ec33c3eb80731594b9e4496ee5c" prot="public" static="no" mutable="no">
         <type>FName</type>
@@ -108,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="66" column="11" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="66" bodyend="-1"/>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="87" column="11" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="87" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_recorded_shot_1a4e41c04830f61746bc63ce81a04b0739" prot="public" static="no" mutable="no">
         <type>TSoftObjectPtr&lt; AActor &gt;</type>
@@ -123,7 +123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="69" column="20" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="69" bodyend="-1"/>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="90" column="20" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="90" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_recorded_shot_1ae107a5dae5978675afeb3478975f898d" prot="public" static="no" mutable="no">
         <type>FName</type>
@@ -138,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="72" column="11" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="72" bodyend="-1"/>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="93" column="11" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="93" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_recorded_shot_1a10c570c36ca0c84b3fe30910b7f6f13c" prot="public" static="no" mutable="no">
         <type>TSoftObjectPtr&lt; <ref refid="class_u_weapon_data_asset" kindref="compound">UWeaponDataAsset</ref> &gt;</type>
@@ -153,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="75" column="20" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="75" bodyend="-1"/>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="96" column="20" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="96" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -170,7 +170,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="78" column="5" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="78" bodyend="85"/>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="99" column="5" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="99" bodyend="106"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -179,7 +179,7 @@
     <detaileddescription>
 <para>Captures the index of the shot, view and impact locations, whether it hit something, the direction, and the weapon used. </para>
     </detaileddescription>
-    <location file="Source/TimeAssassin/FPlayerFrameData.h" line="42" column="5" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="43" bodyend="86"/>
+    <location file="Source/TimeAssassin/FPlayerFrameData.h" line="63" column="5" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="64" bodyend="107"/>
     <listofallmembers>
       <member refid="struct_f_recorded_shot_1a443385bba9e9512a1a0a00a02407587f" prot="public" virt="non-virtual"><scope>FRecordedShot</scope><name>bHit</name></member>
       <member refid="struct_f_recorded_shot_1a800d20c74173919163436e6c50229dec" prot="public" virt="non-virtual"><scope>FRecordedShot</scope><name>FRecordedShot</name></member>

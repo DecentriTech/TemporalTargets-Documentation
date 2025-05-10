@@ -382,8 +382,8 @@
   <option  id='DOT_NODE_ATTR' default='yes' type='string'><value><![CDATA["shape=box,height=0.2,width=0.4"]]></value></option>
   <option  id='DOT_FONTPATH' default='yes' type='string'><value><![CDATA[]]></value></option>
   <option  id='CLASS_GRAPH' default='yes' type='string'><value>YES</value></option>
-  <option  id='COLLABORATION_GRAPH' default='yes' type='bool'><value>YES</value></option>
-  <option  id='GROUP_GRAPHS' default='yes' type='bool'><value>YES</value></option>
+  <option  id='COLLABORATION_GRAPH' default='no' type='bool'><value>NO</value></option>
+  <option  id='GROUP_GRAPHS' default='no' type='bool'><value>NO</value></option>
   <option  id='UML_LOOK' default='yes' type='bool'><value>NO</value></option>
   <option  id='UML_LIMIT_NUM_FIELDS' default='yes' type='int'><value>10</value></option>
   <option  id='DOT_UML_DETAILS' default='yes' type='string'><value>NO</value></option>

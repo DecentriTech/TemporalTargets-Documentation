@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="73" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="73" bodyend="-1"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="92" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="92" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_active_hit_marker_1a45ca0ba3e37006b3d02794ee6289474a" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="76" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="76" bodyend="-1"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="95" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="95" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_active_hit_marker_1a76186e9397a7ad146ddc91b5f6f2283f" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="79" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="79" bodyend="-1"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="98" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="98" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_active_hit_marker_1a40dcf9dde743fa4634f90ec665e9bf1d" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="82" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="82" bodyend="-1"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="101" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="101" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_active_hit_marker_1a8743d93df437402df88e6132beff944e" prot="public" static="no" mutable="no">
         <type>FLinearColor</type>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="85" column="18" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="85" bodyend="-1"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="104" column="18" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="104" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_active_hit_marker_1afe3fd36b97f269b47316cbd269ebb34d" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="88" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="88" bodyend="-1"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="107" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="107" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -106,7 +106,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Source/TimeAssassin/HitmarkerWidget.h" line="68" column="1" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="69" bodyend="89"/>
+    <location file="Source/TimeAssassin/HitmarkerWidget.h" line="87" column="1" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="88" bodyend="108"/>
     <listofallmembers>
       <member refid="struct_f_active_hit_marker_1a4e0d9e7a0b1adc1f1fdb606d9a5ae420" prot="public" virt="non-virtual"><scope>FActiveHitMarker</scope><name>Age</name></member>
       <member refid="struct_f_active_hit_marker_1afe3fd36b97f269b47316cbd269ebb34d" prot="public" virt="non-virtual"><scope>FActiveHitMarker</scope><name>AngleJitter</name></member>

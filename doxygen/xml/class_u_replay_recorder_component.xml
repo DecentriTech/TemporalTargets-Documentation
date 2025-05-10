@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="104" column="8" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.h" bodystart="104" bodyend="-1"/>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="120" column="8" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.h" bodystart="120" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="110" column="6" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.h" bodystart="110" bodyend="-1"/>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="126" column="6" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.h" bodystart="126" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_replay_recorder_component_1aeca103c46a870630167c64afdd835af8" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="113" column="7" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.h" bodystart="113" bodyend="-1"/>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="129" column="7" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.h" bodystart="129" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_replay_recorder_component_1a4841fd81b50d9458b6b2542404c676cd" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="120" column="7" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.h" bodystart="120" bodyend="-1"/>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="136" column="7" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.h" bodystart="136" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_replay_recorder_component_1a2dde291f56c5f9726db25110f374a41a" prot="private" static="no" mutable="no">
         <type><ref refid="struct_f_interaction_data" kindref="compound">FInteractionData</ref></type>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="123" column="18" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.h" bodystart="123" bodyend="-1"/>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="139" column="18" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.h" bodystart="139" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_replay_recorder_component_1a48d620b3eb706cd29d581ebe29831f63" prot="private" static="no" mutable="no">
         <type><ref refid="struct_f_combat_frame_data" kindref="compound">FCombatFrameData</ref></type>
@@ -96,7 +96,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="126" column="18" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.h" bodystart="126" bodyend="-1"/>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="142" column="18" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.h" bodystart="142" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_replay_recorder_component_1aaac204eacfcd6416699b4e8b6644d99b" prot="private" static="no" mutable="no">
         <type><ref refid="group___replay___data_1ga634bef419b6cd1967d4f0b1e39282e91" kindref="member">EReplayActionFlags</ref></type>
@@ -111,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="129" column="20" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.h" bodystart="129" bodyend="-1"/>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="145" column="20" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.h" bodystart="145" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="34" column="1" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.cpp" bodystart="8" bodyend="15"/>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="50" column="1" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.cpp" bodystart="8" bodyend="15"/>
       </memberdef>
       <memberdef kind="function" id="class_u_replay_recorder_component_1a73a85c4244a2ee3ca900218bfd628e5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -181,7 +181,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="42" column="14" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.cpp" bodystart="67" bodyend="132"/>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="58" column="14" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.cpp" bodystart="67" bodyend="132"/>
       </memberdef>
       <memberdef kind="function" id="class_u_replay_recorder_component_1a0ae8d215de8e486015cc161070c8e111" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -197,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="56" column="6" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.cpp" bodystart="18" bodyend="24"/>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="72" column="6" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.cpp" bodystart="18" bodyend="24"/>
       </memberdef>
       <memberdef kind="function" id="class_u_replay_recorder_component_1a725fd42e4ead1c058a6780ce835ef377" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -213,7 +213,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="65" column="6" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.cpp" bodystart="26" bodyend="29"/>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="81" column="6" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.cpp" bodystart="26" bodyend="29"/>
       </memberdef>
       <memberdef kind="function" id="class_u_replay_recorder_component_1a00eb68d151a592a188e8ee2d5fddf90b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -242,7 +242,7 @@ Flags are combined into <ref refid="class_u_replay_recorder_component_1aaac204ea
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="75" column="6" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.cpp" bodystart="31" bodyend="35"/>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="91" column="6" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.cpp" bodystart="31" bodyend="35"/>
       </memberdef>
       <memberdef kind="function" id="class_u_replay_recorder_component_1a4d009df22d2f236d5956cdc7931229aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -271,7 +271,7 @@ Records the actor&apos;s path, relative location, and a simple interaction type 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="84" column="6" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.cpp" bodystart="37" bodyend="57"/>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="100" column="6" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.cpp" bodystart="37" bodyend="57"/>
       </memberdef>
       <memberdef kind="function" id="class_u_replay_recorder_component_1a95379bbc4b1adfd811455da125dffaf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -300,7 +300,7 @@ Shots are stored in the frame&apos;s <ref refid="struct_f_combat_frame_data" kin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="93" column="6" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.cpp" bodystart="59" bodyend="65"/>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="109" column="6" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.cpp" bodystart="59" bodyend="65"/>
       </memberdef>
       <memberdef kind="function" id="class_u_replay_recorder_component_1a6a4a12bbaf2bcc3f32b46aa2e5136d19" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const TArray&lt; <ref refid="struct_f_player_frame_data" kindref="compound">FPlayerFrameData</ref> &gt; &amp;</type>
@@ -318,7 +318,7 @@ Shots are stored in the frame&apos;s <ref refid="struct_f_combat_frame_data" kin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="100" column="14" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.h" bodystart="100" bodyend="100"/>
+        <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="116" column="14" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.h" bodystart="116" bodyend="116"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -363,7 +363,7 @@ Shots are stored in the frame&apos;s <ref refid="struct_f_combat_frame_data" kin
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="28" column="1" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.h" bodystart="29" bodyend="130"/>
+    <location file="Source/TimeAssassin/ReplayRecorderComponent.h" line="44" column="1" bodyfile="Source/TimeAssassin/ReplayRecorderComponent.h" bodystart="45" bodyend="146"/>
     <listofallmembers>
       <member refid="class_u_replay_recorder_component_1a00eb68d151a592a188e8ee2d5fddf90b" prot="public" virt="non-virtual"><scope>UReplayRecorderComponent</scope><name>AddActionFlag</name></member>
       <member refid="class_u_replay_recorder_component_1aa1d7d2decfc33e360a5b13f5d35bdca8" prot="private" virt="non-virtual"><scope>UReplayRecorderComponent</scope><name>bRecording</name></member>

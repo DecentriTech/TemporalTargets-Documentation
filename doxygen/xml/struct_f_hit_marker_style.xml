@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="27" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="27" bodyend="-1"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="46" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="46" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_hit_marker_style_1a39fbbdd90e63505a0bcd5e4145912416" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="31" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="31" bodyend="-1"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="50" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="50" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_hit_marker_style_1a82bc83a64e44847affb67ed3c0f7bde0" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="35" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="35" bodyend="-1"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="54" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="54" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_hit_marker_style_1a4958e397562e2280a6092518928ce26e" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="39" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="39" bodyend="-1"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="58" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="58" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_hit_marker_style_1abdedd8b5596675f05629cc40d5696539" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="43" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="43" bodyend="-1"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="62" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="62" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_hit_marker_style_1a7f6873ec5b9db4926a10c782c2d4ae90" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="47" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="47" bodyend="-1"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="66" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="66" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_hit_marker_style_1aa993953115dc027cfa6d741f4f0cdc37" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="51" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="51" bodyend="-1"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="70" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="70" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_f_hit_marker_style_1a2b97f26b05b73d657493ac2517e4658c" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="55" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="55" bodyend="-1"/>
+        <location file="Source/TimeAssassin/HitmarkerWidget.h" line="74" column="11" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="74" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -138,7 +138,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="Source/TimeAssassin/HitmarkerWidget.h" line="21" column="1" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="22" bodyend="56"/>
+    <location file="Source/TimeAssassin/HitmarkerWidget.h" line="40" column="1" bodyfile="Source/TimeAssassin/HitmarkerWidget.h" bodystart="41" bodyend="75"/>
     <listofallmembers>
       <member refid="struct_f_hit_marker_style_1a4958e397562e2280a6092518928ce26e" prot="public" virt="non-virtual"><scope>FHitMarkerStyle</scope><name>FadeTime</name></member>
       <member refid="struct_f_hit_marker_style_1a39fbbdd90e63505a0bcd5e4145912416" prot="public" virt="non-virtual"><scope>FHitMarkerStyle</scope><name>InnerGap</name></member>

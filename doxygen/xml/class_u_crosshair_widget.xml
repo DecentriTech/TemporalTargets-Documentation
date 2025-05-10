@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/CrosshairWidget.h" line="43" column="12" bodyfile="Source/TimeAssassin/CrosshairWidget.h" bodystart="43" bodyend="-1"/>
+        <location file="Source/TimeAssassin/CrosshairWidget.h" line="58" column="12" bodyfile="Source/TimeAssassin/CrosshairWidget.h" bodystart="58" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_crosshair_widget_1a68c8ef8bea2ec2789bcc126cd615d593" prot="protected" static="no" mutable="no">
         <type>UImage *</type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/CrosshairWidget.h" line="47" column="12" bodyfile="Source/TimeAssassin/CrosshairWidget.h" bodystart="47" bodyend="-1"/>
+        <location file="Source/TimeAssassin/CrosshairWidget.h" line="62" column="12" bodyfile="Source/TimeAssassin/CrosshairWidget.h" bodystart="62" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_crosshair_widget_1ac35a9d307542e3416339376358d53e77" prot="protected" static="no" mutable="no">
         <type>UImage *</type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/CrosshairWidget.h" line="51" column="12" bodyfile="Source/TimeAssassin/CrosshairWidget.h" bodystart="51" bodyend="-1"/>
+        <location file="Source/TimeAssassin/CrosshairWidget.h" line="66" column="12" bodyfile="Source/TimeAssassin/CrosshairWidget.h" bodystart="66" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_u_crosshair_widget_1a8d267d25f501fd674f5adc97db2739f7" prot="protected" static="no" mutable="no">
         <type>UImage *</type>
@@ -63,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/CrosshairWidget.h" line="55" column="12" bodyfile="Source/TimeAssassin/CrosshairWidget.h" bodystart="55" bodyend="-1"/>
+        <location file="Source/TimeAssassin/CrosshairWidget.h" line="70" column="12" bodyfile="Source/TimeAssassin/CrosshairWidget.h" bodystart="70" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/CrosshairWidget.h" line="37" column="10" bodyfile="Source/TimeAssassin/CrosshairWidget.cpp" bodystart="7" bodyend="20"/>
+        <location file="Source/TimeAssassin/CrosshairWidget.h" line="52" column="10" bodyfile="Source/TimeAssassin/CrosshairWidget.cpp" bodystart="7" bodyend="20"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -126,7 +126,7 @@
         <label>UUserWidget</label>
       </node>
     </collaborationgraph>
-    <location file="Source/TimeAssassin/CrosshairWidget.h" line="20" column="1" bodyfile="Source/TimeAssassin/CrosshairWidget.h" bodystart="21" bodyend="56"/>
+    <location file="Source/TimeAssassin/CrosshairWidget.h" line="35" column="1" bodyfile="Source/TimeAssassin/CrosshairWidget.h" bodystart="36" bodyend="71"/>
     <listofallmembers>
       <member refid="class_u_crosshair_widget_1a68c8ef8bea2ec2789bcc126cd615d593" prot="protected" virt="non-virtual"><scope>UCrosshairWidget</scope><name>LineBottom</name></member>
       <member refid="class_u_crosshair_widget_1ac35a9d307542e3416339376358d53e77" prot="protected" virt="non-virtual"><scope>UCrosshairWidget</scope><name>LineLeft</name></member>

@@ -75,57 +75,69 @@
     </invincdepgraph>
     <innerclass refid="class_a_game_h_u_d" prot="public">AGameHUD</innerclass>
     <briefdescription>
+<para>Declares the HUD controller class for spawning and managing UMG-based HUD widgets. </para>
     </briefdescription>
     <detaileddescription>
+<para>This file defines the <ref refid="class_a_game_h_u_d" kindref="compound">AGameHUD</ref> class, which handles:<itemizedlist>
+<listitem><para>Initializing the main HUD widget at runtime.</para>
+</listitem><listitem><para>Access to key sub-widgets like crosshair and hitmarker.</para>
+</listitem><listitem><para>Blueprint-exposed utilities for UI interaction.</para>
+</listitem></itemizedlist>
+</para>
+<para><ref refid="group___u_i___widgets" kindref="compound">User Interface Widgets and Interfaces</ref> </para>
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="comment">//<sp/>Fill<sp/>out<sp/>your<sp/>copyright<sp/>notice<sp/>in<sp/>the<sp/>Description<sp/>page<sp/>of<sp/>Project<sp/>Settings.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CoreMinimal.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameFramework/HUD.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameplayTagContainer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameHUD.generated.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_u_game_h_u_d_widget" kindref="compound">UGameHUDWidget</ref>;</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_u_crosshair_widget" kindref="compound">UCrosshairWidget</ref>;</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_u_hitmarker_widget" kindref="compound">UHitmarkerWidget</ref>;</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal">UCLASS()</highlight></codeline>
-<codeline lineno="32" refid="class_a_game_h_u_d" refkind="compound"><highlight class="normal">class<sp/>TIMEASSASSIN_API<sp/><ref refid="class_a_game_h_u_d" kindref="compound">AGameHUD</ref><sp/>:<sp/>public<sp/>AHUD</highlight></codeline>
-<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_game_h_u_d_1a7f4f7ba57dcfc4e16a155a029a5610da" kindref="member">BeginPlay</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_game_h_u_d_1a2a251d2a6ace5b2ad4573f3da9b25283" kindref="member">EndPlay</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>EEndPlayReason::Type<sp/>EndPlayReason)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;HUD&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_game_h_u_d_1a0b1b190f04ee3a6698e3076b806743f5" kindref="member">EnsureHUDWidget</ref>();</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>BlueprintPure,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;HUD&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="60" refid="class_a_game_h_u_d_1aad21b07933102a80c90ba04046ce2e45" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_game_h_u_d_widget" kindref="compound">UGameHUDWidget</ref>*<sp/><ref refid="class_a_game_h_u_d_1aad21b07933102a80c90ba04046ce2e45" kindref="member">GetHUDWidget</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_a_game_h_u_d_1a6ca6b11f55e41f35e94542f39ba64f0c" kindref="member">HUDWidget</ref>;<sp/>}</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;HUD&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_crosshair_widget" kindref="compound">UCrosshairWidget</ref>*<sp/>GetCrosshairWidget()<sp/>const;</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;HUD&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_hitmarker_widget" kindref="compound">UHitmarkerWidget</ref>*<sp/>GetHitmarkerWidget()<sp/>const;</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;HUD&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ShowHitmarker(const<sp/>FGameplayTagContainer&amp;<sp/>DamageTags);</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83"><highlight class="normal">protected:</highlight></codeline>
-<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditDefaultsOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;UI&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="88" refid="class_a_game_h_u_d_1afd5c46afca0cd0a7abed01030d7c3088" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TSubclassOf&lt;<ref refid="class_u_game_h_u_d_widget" kindref="compound">UGameHUDWidget</ref>&gt;<sp/><ref refid="class_a_game_h_u_d_1afd5c46afca0cd0a7abed01030d7c3088" kindref="member">HUDWidgetClass</ref>;</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(Transient)</highlight></codeline>
-<codeline lineno="94" refid="class_a_game_h_u_d_1a6ca6b11f55e41f35e94542f39ba64f0c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_game_h_u_d_widget" kindref="compound">UGameHUDWidget</ref>*<sp/><ref refid="class_a_game_h_u_d_1a6ca6b11f55e41f35e94542f39ba64f0c" kindref="member">HUDWidget</ref><sp/>=<sp/></highlight><highlight class="keywordtype">nullptr</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="95"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="96"><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>end<sp/>of<sp/>UI_Widgets</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CoreMinimal.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameFramework/HUD.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameplayTagContainer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameHUD.generated.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_u_game_h_u_d_widget" kindref="compound">UGameHUDWidget</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_u_crosshair_widget" kindref="compound">UCrosshairWidget</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_u_hitmarker_widget" kindref="compound">UHitmarkerWidget</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">UCLASS()</highlight></codeline>
+<codeline lineno="48" refid="class_a_game_h_u_d" refkind="compound"><highlight class="normal">class<sp/>TIMEASSASSIN_API<sp/><ref refid="class_a_game_h_u_d" kindref="compound">AGameHUD</ref><sp/>:<sp/>public<sp/>AHUD</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_game_h_u_d_1a7f4f7ba57dcfc4e16a155a029a5610da" kindref="member">BeginPlay</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_game_h_u_d_1a2a251d2a6ace5b2ad4573f3da9b25283" kindref="member">EndPlay</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>EEndPlayReason::Type<sp/>EndPlayReason)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;HUD&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_game_h_u_d_1a0b1b190f04ee3a6698e3076b806743f5" kindref="member">EnsureHUDWidget</ref>();</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>BlueprintPure,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;HUD&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="76" refid="class_a_game_h_u_d_1aad21b07933102a80c90ba04046ce2e45" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_game_h_u_d_widget" kindref="compound">UGameHUDWidget</ref>*<sp/><ref refid="class_a_game_h_u_d_1aad21b07933102a80c90ba04046ce2e45" kindref="member">GetHUDWidget</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_a_game_h_u_d_1a6ca6b11f55e41f35e94542f39ba64f0c" kindref="member">HUDWidget</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;HUD&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_crosshair_widget" kindref="compound">UCrosshairWidget</ref>*<sp/>GetCrosshairWidget()<sp/>const;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;HUD&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_hitmarker_widget" kindref="compound">UHitmarkerWidget</ref>*<sp/>GetHitmarkerWidget()<sp/>const;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;HUD&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ShowHitmarker(const<sp/>FGameplayTagContainer&amp;<sp/>DamageTags);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal">protected:</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditDefaultsOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;UI&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="104" refid="class_a_game_h_u_d_1afd5c46afca0cd0a7abed01030d7c3088" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TSubclassOf&lt;<ref refid="class_u_game_h_u_d_widget" kindref="compound">UGameHUDWidget</ref>&gt;<sp/><ref refid="class_a_game_h_u_d_1afd5c46afca0cd0a7abed01030d7c3088" kindref="member">HUDWidgetClass</ref>;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(Transient)</highlight></codeline>
+<codeline lineno="110" refid="class_a_game_h_u_d_1a6ca6b11f55e41f35e94542f39ba64f0c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_game_h_u_d_widget" kindref="compound">UGameHUDWidget</ref>*<sp/><ref refid="class_a_game_h_u_d_1a6ca6b11f55e41f35e94542f39ba64f0c" kindref="member">HUDWidget</ref><sp/>=<sp/></highlight><highlight class="keywordtype">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>end<sp/>of<sp/>UI_Widgets</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="Source/TimeAssassin/GameHUD.h"/>
   </compounddef>

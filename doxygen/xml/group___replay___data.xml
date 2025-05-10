@@ -3,6 +3,7 @@
   <compounddef id="group___replay___data" kind="group">
     <compoundname>Replay_Data</compoundname>
     <title>Replay &amp; Combat Data Structures</title>
+    <innerfile refid="_f_player_frame_data_8h">FPlayerFrameData.h</innerfile>
     <innerclass refid="struct_f_recorded_shot" prot="public">FRecordedShot</innerclass>
     <innerclass refid="struct_f_combat_frame_data" prot="public">FCombatFrameData</innerclass>
     <innerclass refid="struct_f_interaction_data" prot="public">FInteractionData</innerclass>
@@ -73,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="22" column="1" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="23" bodyend="30"/>
+        <location file="Source/TimeAssassin/FPlayerFrameData.h" line="43" column="1" bodyfile="Source/TimeAssassin/FPlayerFrameData.h" bodystart="44" bodyend="51"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

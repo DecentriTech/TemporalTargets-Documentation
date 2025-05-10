@@ -93,131 +93,142 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="11" column="1" declfile="Source/TimeAssassin/BaseInteractableActor.h" declline="11" declcolumn="1"/>
+        <location file="Source/TimeAssassin/BaseInteractableActor.h" line="26" column="1" declfile="Source/TimeAssassin/BaseInteractableActor.h" declline="26" declcolumn="1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Declares the main game mode logic for ghost replay and respawn handling. </para>
     </briefdescription>
     <detaileddescription>
+<para>This file defines the <computeroutput><ref refid="class_a_temporal_game_mode" kindref="compound">ATemporalGameMode</ref></computeroutput> class, which is responsible for:<itemizedlist>
+<listitem><para>Managing ghost replays and respawn flow.</para>
+</listitem><listitem><para>Exposing Blueprint API for ghost logic.</para>
+</listitem><listitem><para>Coordinating player death and delayed respawn.</para>
+</listitem></itemizedlist>
+</para>
+<para><ref refid="group___inheritable_actors" kindref="compound">Inheritable Actors</ref> </para>
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="comment">//<sp/>Fill<sp/>out<sp/>your<sp/>copyright<sp/>notice<sp/>in<sp/>the<sp/>Description<sp/>page<sp/>of<sp/>Project<sp/>Settings.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CoreMinimal.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameFramework/Actor.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Components/SphereComponent.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_b_p_i___interactable_8h" kindref="compound">BPI_Interactable.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;BaseInteractableActor.generated.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="_base_interactable_actor_8h_1a89f9b574d985c86540ed4d6f0ebab444" refkind="member"><highlight class="normal"><ref refid="_base_interactable_actor_8h_1a89f9b574d985c86540ed4d6f0ebab444" kindref="member">DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam</ref>(FInteractorEvent,<sp/>AActor*,<sp/>Interactor);</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal">UCLASS()</highlight></codeline>
-<codeline lineno="30" refid="class_a_base_interactable_actor" refkind="compound"><highlight class="normal">class<sp/>TIMEASSASSIN_API<sp/><ref refid="class_a_base_interactable_actor_1a234754994153799ecc3ea22c5b46881d" kindref="member">ABaseInteractableActor</ref><sp/>:<sp/>public<sp/>AActor,<sp/>public<sp/><ref refid="class_i_b_p_i___interactable" kindref="compound">IBPI_Interactable</ref></highlight></codeline>
-<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CoreMinimal.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameFramework/Actor.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Components/SphereComponent.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_b_p_i___interactable_8h" kindref="compound">BPI_Interactable.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;BaseInteractableActor.generated.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="_base_interactable_actor_8h_1a89f9b574d985c86540ed4d6f0ebab444" refkind="member"><highlight class="normal"><ref refid="_base_interactable_actor_8h_1a89f9b574d985c86540ed4d6f0ebab444" kindref="member">DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam</ref>(FInteractorEvent,<sp/>AActor*,<sp/>Interactor);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_base_interactable_actor_1a234754994153799ecc3ea22c5b46881d" kindref="member">ABaseInteractableActor</ref>();</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>----------------<sp/>IBPI_Interactable<sp/>----------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1a8a7f264e498bb2d62e2b2ff38b04c69a" kindref="member">Interact_Implementation</ref>(AActor*<sp/>Interactor)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1a4ec6cf587e143d77f1fb703ff99fac12" kindref="member">CanInteract_Implementation</ref>(AActor*<sp/>Interactor)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>----------------<sp/>Convenience<sp/>Helpers<sp/>--------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="63" refid="class_a_base_interactable_actor_1a25015cf30b4120c48f169d5219464e8b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>const<sp/>TArray&lt;AActor*&gt;&amp;<sp/><ref refid="class_a_base_interactable_actor_1a25015cf30b4120c48f169d5219464e8b" kindref="member">GetInteractorsInRange</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1ae2b7b85c86c799242aee363bfda66514" kindref="member">InteractorsInRange</ref>;<sp/>}</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction|Helpers&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>bool<sp/>IsGhostInteractor(AActor*<sp/>Interactor)<sp/>const;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">UCLASS()</highlight></codeline>
+<codeline lineno="45" refid="class_a_base_interactable_actor" refkind="compound"><highlight class="normal">class<sp/>TIMEASSASSIN_API<sp/><ref refid="class_a_base_interactable_actor_1a234754994153799ecc3ea22c5b46881d" kindref="member">ABaseInteractableActor</ref><sp/>:<sp/>public<sp/>AActor,<sp/>public<sp/><ref refid="class_i_b_p_i___interactable" kindref="compound">IBPI_Interactable</ref></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_a_base_interactable_actor_1a234754994153799ecc3ea22c5b46881d" kindref="member">ABaseInteractableActor</ref>();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>----------------<sp/>IBPI_Interactable<sp/>----------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1a8a7f264e498bb2d62e2b2ff38b04c69a" kindref="member">Interact_Implementation</ref>(AActor*<sp/>Interactor)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1a4ec6cf587e143d77f1fb703ff99fac12" kindref="member">CanInteract_Implementation</ref>(AActor*<sp/>Interactor)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>----------------<sp/>Convenience<sp/>Helpers<sp/>--------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction|Helpers&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>IsPlayerInteractor(AActor*<sp/>Interactor)<sp/>const;</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction|Helpers&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>FName<sp/>GetInteractorTypeTag(AActor*<sp/>Interactor)<sp/>const;</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>----------------<sp/>Blueprint<sp/>Hooks<sp/>------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction|UI&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="93" refid="class_a_base_interactable_actor_1aa452ecea351e91c46a56a6720aac604a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1aa452ecea351e91c46a56a6720aac604a" kindref="member">OnInteractorFocused</ref>(AActor*<sp/>Interactor);</highlight></codeline>
-<codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction|UI&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="97" refid="class_a_base_interactable_actor_1adcbab5ca9e58789af7ffe8504b4f2a39" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1adcbab5ca9e58789af7ffe8504b4f2a39" kindref="member">OnInteractorUnfocused</ref>(AActor*<sp/>Interactor);</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction|Radius&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="101" refid="class_a_base_interactable_actor_1a5ba8c7d714b4f4f7ddb311c154cd3de6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1a5ba8c7d714b4f4f7ddb311c154cd3de6" kindref="member">OnInteractorEnteredRadius</ref>(AActor*<sp/>Interactor);</highlight></codeline>
-<codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction|Radius&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="105" refid="class_a_base_interactable_actor_1ad0b5f103acee6b612496ab1c96682e75" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1ad0b5f103acee6b612496ab1c96682e75" kindref="member">OnInteractorLeftRadius</ref>(AActor*<sp/>Interactor);</highlight></codeline>
-<codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>----------------<sp/>Delegates<sp/>------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="108"><highlight class="normal"></highlight></codeline>
-<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction|Events&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="111" refid="class_a_base_interactable_actor_1a88022fe2880641029ff4633f8ce7c008" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FInteractorEvent<sp/><ref refid="class_a_base_interactable_actor_1a88022fe2880641029ff4633f8ce7c008" kindref="member">OnInteractorEnteredRadiusEvent</ref>;</highlight></codeline>
-<codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction|Events&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="115" refid="class_a_base_interactable_actor_1ab43bb877155ef27a66a6dff1aa43592f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FInteractorEvent<sp/><ref refid="class_a_base_interactable_actor_1ab43bb877155ef27a66a6dff1aa43592f" kindref="member">OnInteractorLeftRadiusEvent</ref>;</highlight></codeline>
-<codeline lineno="116"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction|Events&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="119" refid="class_a_base_interactable_actor_1a7d7bd085e950f3215e92048b70f17808" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FInteractorEvent<sp/><ref refid="class_a_base_interactable_actor_1a7d7bd085e950f3215e92048b70f17808" kindref="member">OnFocusedByInteractor</ref>;</highlight></codeline>
-<codeline lineno="120"><highlight class="normal"></highlight></codeline>
-<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction|Events&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="123" refid="class_a_base_interactable_actor_1a2bbb952da0d9139277b29aa8108a5e5e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FInteractorEvent<sp/><ref refid="class_a_base_interactable_actor_1a2bbb952da0d9139277b29aa8108a5e5e" kindref="member">OnUnfocusedByInteractor</ref>;</highlight></codeline>
-<codeline lineno="124"><highlight class="normal"></highlight></codeline>
-<codeline lineno="125"><highlight class="normal">protected:</highlight></codeline>
-<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1a51297b0b0970665ec63842e7889daeaf" kindref="member">BeginPlay</ref>()<sp/>override;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="78" refid="class_a_base_interactable_actor_1a25015cf30b4120c48f169d5219464e8b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>const<sp/>TArray&lt;AActor*&gt;&amp;<sp/><ref refid="class_a_base_interactable_actor_1a25015cf30b4120c48f169d5219464e8b" kindref="member">GetInteractorsInRange</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1ae2b7b85c86c799242aee363bfda66514" kindref="member">InteractorsInRange</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction|Helpers&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>bool<sp/>IsGhostInteractor(AActor*<sp/>Interactor)<sp/>const;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction|Helpers&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>IsPlayerInteractor(AActor*<sp/>Interactor)<sp/>const;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction|Helpers&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>FName<sp/>GetInteractorTypeTag(AActor*<sp/>Interactor)<sp/>const;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>----------------<sp/>Blueprint<sp/>Hooks<sp/>------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction|UI&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="108" refid="class_a_base_interactable_actor_1aa452ecea351e91c46a56a6720aac604a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1aa452ecea351e91c46a56a6720aac604a" kindref="member">OnInteractorFocused</ref>(AActor*<sp/>Interactor);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction|UI&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="112" refid="class_a_base_interactable_actor_1adcbab5ca9e58789af7ffe8504b4f2a39" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1adcbab5ca9e58789af7ffe8504b4f2a39" kindref="member">OnInteractorUnfocused</ref>(AActor*<sp/>Interactor);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction|Radius&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="116" refid="class_a_base_interactable_actor_1a5ba8c7d714b4f4f7ddb311c154cd3de6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1a5ba8c7d714b4f4f7ddb311c154cd3de6" kindref="member">OnInteractorEnteredRadius</ref>(AActor*<sp/>Interactor);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction|Radius&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="120" refid="class_a_base_interactable_actor_1ad0b5f103acee6b612496ab1c96682e75" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1ad0b5f103acee6b612496ab1c96682e75" kindref="member">OnInteractorLeftRadius</ref>(AActor*<sp/>Interactor);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>----------------<sp/>Delegates<sp/>------------------------<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction|Events&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="126" refid="class_a_base_interactable_actor_1a88022fe2880641029ff4633f8ce7c008" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FInteractorEvent<sp/><ref refid="class_a_base_interactable_actor_1a88022fe2880641029ff4633f8ce7c008" kindref="member">OnInteractorEnteredRadiusEvent</ref>;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction|Events&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="130" refid="class_a_base_interactable_actor_1ab43bb877155ef27a66a6dff1aa43592f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FInteractorEvent<sp/><ref refid="class_a_base_interactable_actor_1ab43bb877155ef27a66a6dff1aa43592f" kindref="member">OnInteractorLeftRadiusEvent</ref>;</highlight></codeline>
 <codeline lineno="131"><highlight class="normal"></highlight></codeline>
-<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION()</highlight></codeline>
-<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1a59c0466ebd11a782866850f6b62d585e" kindref="member">HandleSphereBeginOverlap</ref>(</highlight></codeline>
-<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UPrimitiveComponent*<sp/>OverlappedComponent,</highlight></codeline>
-<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AActor*<sp/>OtherActor,</highlight></codeline>
-<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UPrimitiveComponent*<sp/>OtherComp,</highlight></codeline>
-<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int32<sp/>OtherBodyIndex,</highlight></codeline>
-<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bFromSweep,</highlight></codeline>
-<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>const<sp/>FHitResult&amp;<sp/>SweepResult);</highlight></codeline>
-<codeline lineno="141"><highlight class="normal"></highlight></codeline>
-<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION()</highlight></codeline>
-<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1ab406e3af4b71c1fab0e9b7460dbca127" kindref="member">HandleSphereEndOverlap</ref>(</highlight></codeline>
-<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UPrimitiveComponent*<sp/>OverlappedComponent,</highlight></codeline>
-<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AActor*<sp/>OtherActor,</highlight></codeline>
-<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UPrimitiveComponent*<sp/>OtherComp,</highlight></codeline>
-<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int32<sp/>OtherBodyIndex);</highlight></codeline>
-<codeline lineno="149"><highlight class="normal"></highlight></codeline>
-<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1a9cad0b2231fca84ac1088babd19d3e5f" kindref="member">IsValidInteractor</ref>(AActor*<sp/>Candidate)<sp/>const;</highlight></codeline>
-<codeline lineno="155"><highlight class="normal"></highlight></codeline>
-<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1a507a5faadab4934a20d7a4ce69ed8e63" kindref="member">RegisterInteractor</ref>(AActor*<sp/>Interactor);</highlight></codeline>
-<codeline lineno="161"><highlight class="normal"></highlight></codeline>
-<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1a7cc39f517b017fcea36e95d7660d56c6" kindref="member">UnregisterInteractor</ref>(AActor*<sp/>Interactor);</highlight></codeline>
-<codeline lineno="167"><highlight class="normal"></highlight></codeline>
-<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1acced54fedacb8643d9fc5a54d9476ed2" kindref="member">OnInteractorFocused_Implementation</ref>(AActor*<sp/>Interactor);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction|Events&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="134" refid="class_a_base_interactable_actor_1a7d7bd085e950f3215e92048b70f17808" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FInteractorEvent<sp/><ref refid="class_a_base_interactable_actor_1a7d7bd085e950f3215e92048b70f17808" kindref="member">OnFocusedByInteractor</ref>;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintAssignable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction|Events&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="138" refid="class_a_base_interactable_actor_1a2bbb952da0d9139277b29aa8108a5e5e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FInteractorEvent<sp/><ref refid="class_a_base_interactable_actor_1a2bbb952da0d9139277b29aa8108a5e5e" kindref="member">OnUnfocusedByInteractor</ref>;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal">protected:</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1a51297b0b0970665ec63842e7889daeaf" kindref="member">BeginPlay</ref>()<sp/>override;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION()</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1a59c0466ebd11a782866850f6b62d585e" kindref="member">HandleSphereBeginOverlap</ref>(</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UPrimitiveComponent*<sp/>OverlappedComponent,</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AActor*<sp/>OtherActor,</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UPrimitiveComponent*<sp/>OtherComp,</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int32<sp/>OtherBodyIndex,</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bFromSweep,</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>const<sp/>FHitResult&amp;<sp/>SweepResult);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION()</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1ab406e3af4b71c1fab0e9b7460dbca127" kindref="member">HandleSphereEndOverlap</ref>(</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UPrimitiveComponent*<sp/>OverlappedComponent,</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AActor*<sp/>OtherActor,</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UPrimitiveComponent*<sp/>OtherComp,</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int32<sp/>OtherBodyIndex);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1a9cad0b2231fca84ac1088babd19d3e5f" kindref="member">IsValidInteractor</ref>(AActor*<sp/>Candidate)<sp/>const;</highlight></codeline>
 <codeline lineno="170"><highlight class="normal"></highlight></codeline>
-<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1a02b5f427566601c188c3f108029af576" kindref="member">OnInteractorUnfocused_Implementation</ref>(AActor*<sp/>Interactor);</highlight></codeline>
-<codeline lineno="173"><highlight class="normal"></highlight></codeline>
-<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1a13aac27edf93941d298a12f8aec93a84" kindref="member">OnInteractorEnteredRadius_Implementation</ref>(AActor*<sp/>Interactor);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1a507a5faadab4934a20d7a4ce69ed8e63" kindref="member">RegisterInteractor</ref>(AActor*<sp/>Interactor);</highlight></codeline>
 <codeline lineno="176"><highlight class="normal"></highlight></codeline>
-<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1a429e422de3388e0d080dcb7ed6350ae7" kindref="member">OnInteractorLeftRadius_Implementation</ref>(AActor*<sp/>Interactor);</highlight></codeline>
-<codeline lineno="179"><highlight class="normal"></highlight></codeline>
-<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction&quot;</highlight><highlight class="normal">,<sp/>meta<sp/>=<sp/>(ClampMin<sp/>=<sp/>0.0))</highlight></codeline>
-<codeline lineno="182" refid="class_a_base_interactable_actor_1ab0d3f1e869442fbc9672b06c4e8a2f74" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1ab0d3f1e869442fbc9672b06c4e8a2f74" kindref="member">InteractionRadius</ref><sp/>=<sp/>200.f;</highlight></codeline>
-<codeline lineno="183"><highlight class="normal"></highlight></codeline>
-<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(VisibleAnywhere,<sp/>BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="186" refid="class_a_base_interactable_actor_1ad70d64534f3c93e062e14871eaa9af67" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>USphereComponent*<sp/><ref refid="class_a_base_interactable_actor_1ad70d64534f3c93e062e14871eaa9af67" kindref="member">InteractionSphere</ref><sp/>=<sp/></highlight><highlight class="keywordtype">nullptr</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="187"><highlight class="normal"></highlight></codeline>
-<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction&quot;</highlight><highlight class="normal">)</highlight></codeline>
-<codeline lineno="190" refid="class_a_base_interactable_actor_1ae2b7b85c86c799242aee363bfda66514" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;AActor*&gt;<sp/><ref refid="class_a_base_interactable_actor_1ae2b7b85c86c799242aee363bfda66514" kindref="member">InteractorsInRange</ref>;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1a7cc39f517b017fcea36e95d7660d56c6" kindref="member">UnregisterInteractor</ref>(AActor*<sp/>Interactor);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1acced54fedacb8643d9fc5a54d9476ed2" kindref="member">OnInteractorFocused_Implementation</ref>(AActor*<sp/>Interactor);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1a02b5f427566601c188c3f108029af576" kindref="member">OnInteractorUnfocused_Implementation</ref>(AActor*<sp/>Interactor);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1a13aac27edf93941d298a12f8aec93a84" kindref="member">OnInteractorEnteredRadius_Implementation</ref>(AActor*<sp/>Interactor);</highlight></codeline>
 <codeline lineno="191"><highlight class="normal"></highlight></codeline>
-<codeline lineno="192"><highlight class="normal">private:</highlight></codeline>
-<codeline lineno="194" refid="class_a_base_interactable_actor_1a669d64f5e8fa8db483d5a5311529a8db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>static<sp/>const<sp/>FName<sp/><ref refid="class_a_base_interactable_actor_1a669d64f5e8fa8db483d5a5311529a8db" kindref="member">TAG_Ghost</ref>;</highlight></codeline>
-<codeline lineno="195"><highlight class="normal"></highlight></codeline>
-<codeline lineno="197" refid="class_a_base_interactable_actor_1aa1fccf554c3446366866a326bbe4c648" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>static<sp/>const<sp/>FName<sp/><ref refid="class_a_base_interactable_actor_1aa1fccf554c3446366866a326bbe4c648" kindref="member">TAG_Player</ref>;</highlight></codeline>
-<codeline lineno="198"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="199"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>end<sp/>of<sp/>InheritableActors<sp/>group</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1a429e422de3388e0d080dcb7ed6350ae7" kindref="member">OnInteractorLeftRadius_Implementation</ref>(AActor*<sp/>Interactor);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction&quot;</highlight><highlight class="normal">,<sp/>meta<sp/>=<sp/>(ClampMin<sp/>=<sp/>0.0))</highlight></codeline>
+<codeline lineno="197" refid="class_a_base_interactable_actor_1ab0d3f1e869442fbc9672b06c4e8a2f74" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_a_base_interactable_actor_1ab0d3f1e869442fbc9672b06c4e8a2f74" kindref="member">InteractionRadius</ref><sp/>=<sp/>200.f;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(VisibleAnywhere,<sp/>BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="201" refid="class_a_base_interactable_actor_1ad70d64534f3c93e062e14871eaa9af67" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>USphereComponent*<sp/><ref refid="class_a_base_interactable_actor_1ad70d64534f3c93e062e14871eaa9af67" kindref="member">InteractionSphere</ref><sp/>=<sp/></highlight><highlight class="keywordtype">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Interaction&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="205" refid="class_a_base_interactable_actor_1ae2b7b85c86c799242aee363bfda66514" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;AActor*&gt;<sp/><ref refid="class_a_base_interactable_actor_1ae2b7b85c86c799242aee363bfda66514" kindref="member">InteractorsInRange</ref>;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal">private:</highlight></codeline>
+<codeline lineno="209" refid="class_a_base_interactable_actor_1a669d64f5e8fa8db483d5a5311529a8db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>static<sp/>const<sp/>FName<sp/><ref refid="class_a_base_interactable_actor_1a669d64f5e8fa8db483d5a5311529a8db" kindref="member">TAG_Ghost</ref>;</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="class_a_base_interactable_actor_1aa1fccf554c3446366866a326bbe4c648" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>static<sp/>const<sp/>FName<sp/><ref refid="class_a_base_interactable_actor_1aa1fccf554c3446366866a326bbe4c648" kindref="member">TAG_Player</ref>;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>end<sp/>of<sp/>InheritableActors<sp/>group</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="Source/TimeAssassin/BaseInteractableActor.h"/>
   </compounddef>
