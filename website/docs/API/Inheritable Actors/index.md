@@ -10,7 +10,7 @@ slug: /API/Inheritable-Actors
 
 <FileCard
   filename="BaseInteractableActor.h"
-  url="/docs/API/_base_interactable_actor_8h"
+  url="/TemporalTargets-Documentation/docs/API/_base_interactable_actor_8h"
   description="Declares the main game mode logic for ghost replay and respawn handling."
 />
 

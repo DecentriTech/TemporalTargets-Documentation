@@ -10,7 +10,7 @@ slug: /API/Replay-Combat-Data-Structures
 
 <FileCard
   filename="FPlayerFrameData.h"
-  url="/docs/API/_f_player_frame_data_8h"
+  url="/TemporalTargets-Documentation/docs/API/_f_player_frame_data_8h"
   description="Defines data structures for capturing and replaying player frame states, interactions, and combat events."
 />
 

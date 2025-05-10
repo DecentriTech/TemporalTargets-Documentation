@@ -10,7 +10,7 @@ slug: /API/Gameplay-Data-Assets
 
 <FileCard
   filename="WeaponDataAsset.h"
-  url="/docs/API/_weapon_data_asset_8h"
+  url="/TemporalTargets-Documentation/docs/API/_weapon_data_asset_8h"
   description="Defines the weapon data asset used to configure gameplay parameters."
 />
 
