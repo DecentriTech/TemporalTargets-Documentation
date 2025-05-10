@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[2634],{9179:(e,t,c)=>{c.r(t),c.d(t,{default:()=>r});var s=c(6540),u=c(6347);function r(){const e=(0,u.W6)();return(0,s.useEffect)((()=>{const t=document.querySelector("base")?.getAttribute("href")??"/";e.replace(`${t}docsc/API`)}),[e]),null}}}]);
